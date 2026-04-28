@@ -1,0 +1,471 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/tone",
+  "language": "zh",
+  "source_plan_file": "easy__style__direct__atomic__tone.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "说话的语气要坚决，不带任何犹豫。",
+      "text": "这个项目的最终方案已经确定，不会再做任何更改。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0001",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0001",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用坚定不移的语气说。",
+          "text": "会议定于下周三上午十点，地点在三号会议室。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语气要坚决，不带任何犹豫。",
+          "text": "这个项目的最终方案已经确定，不会再做任何更改。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用果断、不容置疑的语气读出这句话。",
+          "text": "关于这件事，我的决定就是这样。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0002",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用犹豫不决的语气说，听起来有些迟疑。",
+          "text": "我觉得这个方法，也许可以试一试。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话时带一些迟疑和不确定感。",
+          "text": "这幅画的颜色，好像和我记忆里的不太一样。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "听起来要像在迟疑，对自己的话不太有把握。",
+          "text": "他当时好像是往那个方向走了，我不太确定。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0003",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用讽刺的语气说出这句话。",
+          "text": "哦，那可真是太好了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说这句话的时候带上反讽的意味。",
+          "text": "你可真是个天才。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用挖苦的、阴阳怪气的语调来说。",
+          "text": "我完全相信你说的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0004",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用抱怨的语气说，听起来很不满。",
+          "text": "这份文件还要修改，今天晚上又得加班了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "听起来像是在发牢骚，对某件事很不爽。",
+          "text": "本来以为今天能早点结束，结果又来了新任务。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种咕哝抱怨的语调说话。",
+          "text": "我都排了半个小时的队了，前面还有这么多人。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0005",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用撒娇的语气说这句话。",
+          "text": "你猜猜我今天遇到了谁呀？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话时带点娇媚的感觉。",
+          "text": "这个东西，你能帮我一下吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种俏皮又带点撒娇的语调问。",
+          "text": "你难道不好奇里面是什么吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0006",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用恳求的语气说，听起来像在请求帮助。",
+          "text": "这次你就听我一次，这对我很重要。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语气要充满哀求的感觉。",
+          "text": "我知道这个要求很过分，但再给我一天时间就好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种乞求、央告的语调来说。",
+          "text": "你能不能再考虑一下我的提议？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0007",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用无所谓的语气说，表现出漠不关心的感觉。",
+          "text": "随便，我都可以。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语气要冷淡，事不关己。",
+          "text": "他们怎么决定都行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种漠然的、毫不在乎的语调来说。",
+          "text": "反正结果已经出来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0008",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用开玩笑的语气说，带点揶揄的感觉。",
+          "text": "我看你今天穿得这么正式，是有什么特别安排吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种轻松、戏谑的语调来说。",
+          "text": "没想到你还记得这么久以前的事情啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用调侃的语气说出这句话。",
+          "text": "我就知道你最后还是会选这个。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0009",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用失望的语气说，听起来有些沮丧。",
+          "text": "我以为他会来，但他最后还是没出现。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语调要显得很失落。",
+          "text": "原来结果是这样啊，和我预想的不一样。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种感到遗憾和失望的语气来说。",
+          "text": "忙了这么久，最后还是回到了原点。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_tone__0010",
+      "meta_path": "easy/style/direct/atomic/tone",
+      "target_values": {
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种挑衅的、不服输的语气说。",
+          "text": "我就是要走我自己的路。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语气要充满反抗精神。",
+          "text": "你们的规则不适用于我。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种蔑视和挑战的语气说。",
+          "text": "我不认为我做错了什么。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

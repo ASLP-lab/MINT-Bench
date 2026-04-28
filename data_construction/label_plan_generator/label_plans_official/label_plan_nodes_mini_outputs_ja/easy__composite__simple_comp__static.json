@@ -1,0 +1,826 @@
+{
+  "taxonomy_node": "easy/composite/simple_comp/static",
+  "language": "ja",
+  "generation_summary": {
+    "num_items": 22,
+    "domain": "composite",
+    "difficulty": "easy",
+    "notes": "A balanced set of simple static composite items (2 attributes). The set covers timbre+timbre, style+style, and timbre+style combinations, with an even split between 'tag' and 'direct' instruction forms. All instructions are in English, cueing Japanese speech, and all text content is in Japanese."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "age",
+        "gender"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be about observing changes in a garden.",
+        "Lexical content should not leak 'elderly' or 'male'.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "pitch",
+        "texture"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "aux_values": {},
+      "text_semantic": "factual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be about a recent scientific discovery.",
+        "Lexical content should not leak 'high pitch' or 'bright'.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "gender",
+        "texture"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "gender": "female",
+        "texture": "soft"
+      },
+      "aux_values": {},
+      "text_semantic": "narratable_sentence",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should describe a peaceful, quiet scene.",
+        "Lexical content should not leak 'female' or 'soft'.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "age",
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "aux_values": {},
+      "text_semantic": "simple_request",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a simple question about an object's color.",
+        "Lexical content should not use child-like words.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Describe the speaker as a little girl.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "pitch",
+        "texture"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "pitch": "low",
+        "texture": "deep"
+      },
+      "aux_values": {},
+      "text_semantic": "imperative_command",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a formal announcement about library closing times.",
+        "Lexical content should be neutral and formal.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Describe the voice as low and deep.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "age",
+        "texture"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "age": "adult",
+        "texture": "clear"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should explain the rules of a simple board game.",
+        "Lexical content should be neutral.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Ask for a clear, adult voice.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "emotion",
+        "speed"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "aux_values": {},
+      "text_semantic": "brief_announcement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be about plans for the upcoming weekend.",
+        "Lexical content should not use obvious happy words like '嬉しい' or '楽しい'.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "tone",
+        "volume"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "tone": "firm",
+        "volume": "loud"
+      },
+      "aux_values": {},
+      "text_semantic": "daily_notice",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a public safety announcement about an upcoming weather event.",
+        "Lexical content must be formal and neutral.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0009",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "personality",
+        "speed"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "personality": "calm",
+        "speed": "slow"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be one side of a conversation, confirming receipt of an email.",
+        "Lexical content should be standard business polite.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "emotion",
+        "volume"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "emotion": "sad",
+        "volume": "quiet"
+      },
+      "aux_values": {},
+      "text_semantic": "casual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be about misplacing a favorite pen.",
+        "Lexical content must not use obvious sad words like '悲しい'.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "tone",
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "sarcastic",
+        "speed": "normal"
+      },
+      "aux_values": {},
+      "text_semantic": "emotionally_ambiguous_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should state something like 'Well, this is just a wonderful start to the day.'",
+        "The literal meaning of the words should be positive.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Ask for a sarcastic tone at a normal pace.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "personality",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "personality": "lively",
+        "emotion": "surprised"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a reaction to seeing an old friend unexpectedly.",
+        "Lexical content must not use words like '驚いた'.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Describe the speaker as lively and surprised.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "tone",
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "hesitant",
+        "speed": "slow"
+      },
+      "aux_values": {},
+      "text_semantic": "casual_statement",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be someone trying to explain why they were late, without giving a clear reason.",
+        "Lexical content should be slightly vague.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Ask for a hesitant and slow delivery.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0014",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "personality",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "personality": "confident",
+        "volume": "normal"
+      },
+      "aux_values": {},
+      "text_semantic": "factual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should clearly state the project's main objective.",
+        "Lexical content should be professional and neutral.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Describe the speaker's personality as confident, speaking at a normal volume.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "gender",
+        "emotion"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a rhetorical question about the nature of time.",
+        "Lexical content should be philosophical but not emotionally loaded.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "age",
+        "tone"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "age": "child",
+        "tone": "pleading"
+      },
+      "aux_values": {},
+      "text_semantic": "simple_request",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a request for five more minutes of playtime.",
+        "Lexical content should be simple but not overly childish.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "texture",
+        "speed"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "texture": "husky",
+        "speed": "slow"
+      },
+      "aux_values": {},
+      "text_semantic": "narratable_sentence",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should describe the city late at night after a rain.",
+        "Lexical content should be descriptive and atmospheric.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "pitch",
+        "personality"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "pitch": "low",
+        "personality": "serious"
+      },
+      "aux_values": {},
+      "text_semantic": "daily_notice",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a formal statement about a policy change.",
+        "Lexical content must be neutral and professional.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be in English, using key-value tags.",
+        "Must start with 'Speak in Japanese.'",
+        "Tag format: 'Attribute: Value'",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use fixed tag format 'Attribute: Value' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "gender",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "female",
+        "emotion": "worried"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a question asking if someone has arrived home safely.",
+        "Lexical content should not use words like '心配'.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Ask for a worried female voice.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "age",
+        "personality"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "age": "elderly",
+        "personality": "gentle"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a piece of simple advice about taking things one day at a time.",
+        "Lexical content should be calm and encouraging.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Describe the speaker as a gentle elderly person giving advice.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "texture",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "texture": "breathy",
+        "volume": "quiet"
+      },
+      "aux_values": {},
+      "text_semantic": "casual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be someone whispering about a surprise they have planned.",
+        "Lexical content should be neutral and not overly dramatic.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Ask the speaker to sound quiet and a bit breathy, as if sharing a secret.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "attribute_set": [
+        "age",
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "age": "adult",
+        "tone": "indifferent"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Japanese.",
+        "The text should be a simple response to a question, like 'It doesn't matter either way.'",
+        "Lexical content must be neutral.",
+        "final text must be written in Japanese"
+      ],
+      "instruction_constraints": [
+        "Must be a direct instruction in English.",
+        "Must start with 'Speak in Japanese.'",
+        "Ask for an adult voice with an indifferent tone.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

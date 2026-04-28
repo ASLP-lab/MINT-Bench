@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/personality",
+  "language": "ko",
+  "source_plan_file": "easy__style__tag__atomic__personality.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Personality: Cheerful",
+      "text": "요즘 새로 시작한 드라마가 있는데, 생각보다 재미있더라고요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Personality: Calm",
+      "text": "먼저, 양파를 잘게 썰어서 기름을 두른 팬에 넣고 볶아주세요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Personality: Serious",
+      "text": "오늘 오후 3시에 정기 회의가 있습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Personality: Lively",
+      "text": "소금 좀 저한테 건네주시겠어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "lively"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Personality: Reserved",
+      "text": "이 건물은 전통적인 건축 양식을 잘 보여줍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Personality: Confident",
+      "text": "물은 섭씨 영도에서 얼고 백도에서 끓습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Personality: Cheerful",
+          "text": "오늘 오후에 공원에 가서 산책했는데, 날씨가 정말 좋았어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Personality: Cheerful",
+          "text": "주말에 친구랑 같이 새로 생긴 카페에 가보기로 했어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Personality: Cheerful",
+          "text": "요즘 새로 시작한 드라마가 있는데, 생각보다 재미있더라고요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Personality: Calm",
+          "text": "먼저, 양파를 잘게 썰어서 기름을 두른 팬에 넣고 볶아주세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Personality: Calm",
+          "text": "컴퓨터를 다시 시작하려면 시작 메뉴에서 다시 시작 버튼을 클릭하면 됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Personality: Calm",
+          "text": "다음으로, 부품 A를 부품 B의 홈에 맞춰서 끼워주시면 됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Personality: Serious",
+          "text": "오늘 오후 3시에 정기 회의가 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Personality: Serious",
+          "text": "도서관은 다음 주 월요일에 휴관합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Personality: Serious",
+          "text": "사무실 내에서는 음식물 섭취를 자제해 주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "lively"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Personality: Lively",
+          "text": "창문 좀 열어 줄 수 있을까요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Personality: Lively",
+          "text": "거기 있는 펜 좀 잠시 빌릴게요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Personality: Lively",
+          "text": "소금 좀 저한테 건네주시겠어요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Personality: Reserved",
+          "text": "그 그림은 색채의 사용이 인상적이었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Personality: Reserved",
+          "text": "이 건물은 전통적인 건축 양식을 잘 보여줍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Personality: Reserved",
+          "text": "그 사건은 역사적으로 여러 가지 해석이 가능합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Personality: Confident",
+          "text": "태양계에서 가장 큰 행성은 목성입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Personality: Confident",
+          "text": "물은 섭씨 영도에서 얼고 백도에서 끓습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Personality: Confident",
+          "text": "이 프로젝트는 다음 분기까지 완료될 예정입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1605 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "ja",
+  "group_name": "timbre",
+  "num_items": 72,
+  "timbre_attributes": [
+    "age",
+    "gender",
+    "pitch",
+    "texture"
+  ],
+  "source_files": [
+    "easy__composite__simple_comp__static.json",
+    "easy__timbre__direct__atomic__age.json",
+    "easy__timbre__direct__atomic__gender.json",
+    "easy__timbre__direct__atomic__pitch.json",
+    "easy__timbre__direct__atomic__texture.json",
+    "easy__timbre__tag__atomic__age.json",
+    "easy__timbre__tag__atomic__gender.json",
+    "easy__timbre__tag__atomic__pitch.json",
+    "easy__timbre__tag__atomic__texture.json",
+    "hard__composite__complex_comp__conflict.json",
+    "hard__composite__complex_comp__dynamic.json",
+    "hard__composite__complex_comp__static.json"
+  ],
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Age: elderly, Gender: male",
+      "text": "毎日見ているはずなのに、庭の風景は少しずつ変わっていく。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Pitch: high, Texture: bright",
+      "text": "科学者たちは、火星にかつて広大な海があったという証拠を発見しました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Gender: female, Texture: soft",
+      "text": "窓から差し込む月明かりが、部屋を静かに照らしています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Use the voice of a young girl.",
+      "text": "その車は赤色ですか、それともオレンジ色ですか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Speak with a low pitch and a deep vocal quality.",
+      "text": "本日、図書館は午後六時をもちまして閉館いたします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "deep"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Use a clear, adult voice.",
+      "text": "プレイヤーは順番にサイコロを振り、出た目の数だけ駒を進めます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Gender: Male, Emotion: Thoughtful",
+      "text": "時間とは、一体どこから来て、どこへ去っていくのだろうか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Age: Child, Tone: Pleading",
+      "text": "ねえ、お願いだから、あと少しだけ。これで終わりにするから。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Texture: Husky, Speed: Slow",
+      "text": "雨上がりの夜、アスファルトの光が街を静かに照らしていた。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "husky",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Pitch: Low, Personality: Serious",
+      "text": "本通知をもって、経費精算システムの運用ポリシーが変更となります。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. As a woman speaking with a worried tone.",
+      "text": "ちゃんと着いたなら、一言メッセージをくれると嬉しいんだけど。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. An elderly person says this with a gentle, kind voice.",
+      "text": "焦ることはないよ。一日一日、できることをやっていけばいいんだから。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Use a quiet, breathy voice, almost like a whisper, as if you don't want anyone else to overhear.",
+      "text": "明日のことなんだけど、実はもう全部手配済みなんだ。だから心配しないで、任せて。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Speak as an adult who doesn't really care about the topic. Your tone should be flat and indifferent.",
+      "text": "まあ、好きにすればいいと思うよ。結果は変わらないだろうし。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__ja__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese, as if you were a young child.",
+      "text": "窓を開けてもいいですか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese, with the voice of a grown-up.",
+      "text": "地球の自転により、昼と夜が生まれます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I need to hear a senior citizen's voice.",
+      "text": "庭の花が今年もきれいに咲いてくれて、嬉しい限りです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese, using the voice of someone in their 40s or 50s.",
+      "text": "本日、図書館はシステムメンテナンスのため、午後六時に閉館いたします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Please read this with a masculine vocal quality.",
+      "text": "これは最新のモデルです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I'd like this to be read in a woman's voice, if possible.",
+      "text": "エレベーターの定期点検は午前10時から正午までです。その間は階段をご利用ください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Read this with a man's voice.",
+      "text": "この書類をスキャンして、山田さんのデスクに置いていただけますか。よろしくお願いします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. I am imagining a woman speaking these words.",
+      "text": "空の色がだんだん変わっていく。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Use an extremely high voice for this line.",
+      "text": "お水を一杯いただけますか？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Say the following in a higher vocal range.",
+      "text": "江戸時代は1603年から1868年まで続きました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Use a lower vocal register for the following line.",
+      "text": "本日の営業は、午後八時をもちまして終了いたします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Use a deep, rumbling voice for this line.",
+      "text": "季節の変わり目は、いつも少しだけ感傷的になる。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. I want a soft, breathy delivery.",
+      "text": "結局、あれが最善の選択だったのかもしれない。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I'm looking for a husky, slightly gravelly vocal quality.",
+      "text": "明日の予定は特にないから、一日中家でゆっくりしようと思ってる。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Use a voice that you might hear in a dimly lit jazz club—smooth and smoky.",
+      "text": "雨音だけが響く部屋で、時間はゆっくりと流れていく。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I'm looking for a quiet, soft-spoken delivery.",
+      "text": "作者の署名は、作品の右下隅に小さく記されています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I want a delivery that is lively and has a bright quality.",
+      "text": "システムメンテナンスのため、サービスを一時停止しております。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. The voice should be exceptionally clear and easy to understand.",
+      "text": "最新のバージョンでは、処理速度が約二十パーセント向上しています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. The voice should be smooth and mellow, with a pleasant quality.",
+      "text": "週間予報です。週末にかけて気温が少し下がる見込みです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Age: Child",
+      "text": "明日は晴れるといいな。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Age: Adult",
+      "text": "駅前の新しいビルは、来月オープンする予定だと聞いています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Age: Elderly",
+      "text": "最近は本当に一日が早く過ぎていくように感じますね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Age: Adult",
+      "text": "お忘れ物のないよう、ご注意ください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Gender: Male",
+      "text": "このシステムは最新の技術を使用して開発されました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Gender: Female",
+      "text": "本日、図書館は午後五時に閉館します。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Gender: Male",
+      "text": "窓を閉めてもよろしいでしょうか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Gender: Female",
+      "text": "太陽光発電は、再生可能エネルギーの重要な形態の一つです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Pitch: Very High",
+      "text": "水は摂氏百度で沸騰します。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Pitch: High",
+      "text": "次の電車は十時十五分発、新宿行きです。お乗り遅れのないようご注意ください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Pitch: Low",
+      "text": "すみません、窓を少し開けてもいいですか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Pitch: Very Low",
+      "text": "このソフトウェアは、最新のオペレーティングシステムでのみ動作が保証されています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Texture: deep",
+      "text": "水は、標準的な温度と圧力の下では、無味無臭の液体です。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction with factual Japanese text."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_texture__0001",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Texture: breathy",
+      "text": "今日の空は、なんだか不思議な色をしている。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction with reflective Japanese text."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_texture__0002",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Texture: husky",
+      "text": "今日の夕食は、スーパーで買ったお弁当で済ませよう。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction with casual Japanese text."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_texture__0003",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Texture: soft",
+      "text": "その本を少し見せてもらえませんか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction with a simple request in Japanese."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_texture__0004",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Texture: bright",
+      "text": "本日の営業は、午後八時までとなっております。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction with a neutral announcement in Japanese."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_texture__0005",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Texture: clear",
+      "text": "まず、このボタンを押して、次に電源を入れます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction with an explanatory sentence in Japanese."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_texture__0006",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Texture: nasal",
+      "text": "午後三時に田中さんと約束があります。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction with a daily notice in Japanese."
+      },
+      "plan_id": "PLAN__ja__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Perform this as a child who speaks with a surprisingly deep voice and a very solemn, matter-of-fact personality.",
+      "text": "明日の天気は、雨が降る確率が高いと聞きました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "pitch": "low",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Please use an old, perhaps slightly frail voice, but speak with an uncharacteristically rapid and breathless speed.",
+      "text": "最近買った新しい編み物の本には、初心者でも簡単に作れるセーターの編み方が、写真付きで詳しく載っていました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. The voice should be female, in a high register, but with a gravelly or rough texture.",
+      "text": "テーブルの上には、一冊の古い本が置かれていた。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "female",
+        "texture": "husky",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your pitch should rise as you speak: begin low, transition to a normal range, and finish on a high pitch.",
+      "text": "森の奥深くを、一人で歩いていました。しばらく進むと、苔むした石の階段が見えてきました。そして、その階段を上りきった先に、きらきらと輝く宝箱が置いてあったんです！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Age: elderly, Gender: male, Emotion: thoughtful, Texture: husky",
+      "text": "今日の風はもうすっかり秋の匂いがする。夏が終わってしまうのは少し寂しい気もするがね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "ok"
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Use a high, loud, and fast voice. Make it sound like you're urgently telling someone to do something.",
+      "text": "時間がないんだ、すぐにこのプログラムを実行して結果を出してくれ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "ok"
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "fast",
+        "volume": "loud",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Deliver this in a soft, calm female voice, as if you're guiding someone through a peaceful activity.",
+      "text": "粘土をよくこねて、好きな形を作ってみましょう。水で少し湿らせながら作業すると、ひび割れを防ぐことができます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "ok"
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "calm",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Say this like a child who just saw something amazing, speaking in a very high and fast, surprised voice.",
+      "text": "えっ、今の何？公園の池にカメがいた！頭を出してたよ！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "ok"
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "emotion": "surprised",
+        "speed": "very_fast",
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Use the voice of a serious adult man stating a fact.",
+      "text": "江戸時代は、1603年から1868年まで二百六十年以上続きました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "ok"
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Age: elderly, Texture: husky, Volume: very_quiet, Personality: gentle",
+      "text": "子供のころ、父の肩車から見たお祭りの景色は、まるで夢のようだった。たくさんの提灯が夜空に浮かんでいて、とてもきれいだった。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "ok"
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "husky",
+        "volume": "very_quiet",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Deliver this with a dry, sarcastic tone in a low female voice, while keeping the overall emotion flat.",
+      "text": "この書類の整理、本当にやりがいがある仕事ね。最高だわ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "ok"
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "low",
+        "tone": "sarcastic",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Age: child, Gender: male, Emotion: fearful, Tone: hesitant",
+      "text": "すみません…暗いから、明かりをつけてもいいですか？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "emotion": "fearful",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Say this slowly and happily, with a high-pitched, breathy voice.",
+      "text": "見て、今日の夕日はなんて綺麗なんだろう。心が穏やかになるね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "pitch": "high",
+        "speed": "slow",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. I need a worried female voice. Give the delivery a bit of a nasal sound.",
+      "text": "さっきから元気がないように見えるけど、何かあった？心配だよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "worried",
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Age: adult, Gender: male, Pitch: very_low, Volume: very_loud, Speed: slow",
+      "text": "かつて、世界がまだ若く、神々と人間が共に歩んでいた時代があった。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "very_low",
+        "volume": "very_loud",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Say this quietly with a high-pitched voice. The tone should be happy and coquettish.",
+      "text": "わあ、髪切ったんだね。すごく似合ってる、前よりずっと素敵だよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "coquettish",
+        "pitch": "high",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. The delivery should be extremely slow and mellow. The speaker is a reserved man.",
+      "text": "子供の頃はあんなに長く感じた一日が、今では矢のように過ぎ去っていく。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "reserved",
+        "texture": "mellow",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. The speaker is an elderly person with a warm, rich voice. However, their tone is indifferent, as if they've seen this all before.",
+      "text": "若い頃は誰もが同じようなことで悩むものさ。時間が経てば、なんてことなかったと思えるようになるよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Tone/personality contrast requires careful expression."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "rich",
+        "personality": "warm",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. The speaker is a woman. Her voice is at a normal pitch and she's speaking at a normal pace. Her emotional state is neutral, but she's delivering her line with a teasing quality.",
+      "text": "そのネクタイ、どこで見つけてきたの？すごく目立っていい感じよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Saying something 'stands out' can be interpreted in multiple ways, fitting the required tone."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "normal",
+        "speed": "normal",
+        "emotion": "neutral",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Volume: very_quiet, Texture: clear, Personality: aloof",
+      "text": "こちらの図書館は、月曜日から金曜日までは午前九時に開館し、午後七時に閉館いたします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Slightly more formal phrasing, but still purely informational."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "aloof",
+        "volume": "very_quiet",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ja"
+    }
+  ]
+}

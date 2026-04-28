@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "fr",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Deliver the line as a teacher, with a patient and clear tone, explaining a concept to your audience.",
+      "text": "La photosynthèse est le processus par lequel les plantes vertes convertissent l'énergie lumineuse en énergie chimique.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of a scientific explanation."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this line in the style of a public announcer, with excellent diction and a neutral, authoritative tone.",
+      "text": "Nous vous informons que l'événement débutera à vingt heures précises. Merci de votre ponctualité.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Deliver this text in the friendly, engaging voice of a tour guide sharing interesting details about a historical site.",
+      "text": "Ce que vous voyez ici est une prouesse architecturale pour l'époque. Remarquez la complexité de la maçonnerie et l'absence de supports visibles, c'était révolutionnaire.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Deliver the line with the patient and clear voice of a customer support representative helping with a technical issue.",
+      "text": "Une fois que vous avez entré votre mot de passe, un code de confirmation vous sera envoyé par message.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Your persona is a doctor. Use a professional yet comforting tone to deliver this information clearly.",
+      "text": "Ce que vous ressentez est une réaction tout à fait normale et nous nous attendions à cela. Il n'y a pas lieu de s'inquiéter.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Deliver this text with the rapid, energetic, and rhythmic delivery of an auctioneer building excitement in the room.",
+      "text": "Nous avons ici une magnifique pièce du dix-huitième siècle, en parfait état. J'ai cent euros, qui dit cent-vingt ? Cent-vingt là, cent-quarante ? Cent-quarante, cent-soixante, deux cents ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Deliver this in the warm, conversational, and articulate style of a podcast host introducing a new topic.",
+      "text": "Bonjour à tous et bienvenue. Aujourd'hui, on va plonger dans un sujet qui me fascine depuis longtemps.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Perform this with a high-energy, friendly, and informal delivery, as if you're a streamer reacting to events in a video game.",
+      "text": "Oh là là, non, non, non ! Il est juste derrière moi, je l'ai vu ! Allez, il faut que je trouve une cachette, vite ! C'est pas possible, c'était tellement proche !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Your persona is a market vendor. Use a rhythmic, projecting voice to make your pitch stand out from the crowd.",
+      "text": "Qui veut des marrons chauds ? Tout chauds, les marrons ! Parfait pour se réchauffer, venez en prendre !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver the line as a teacher, with a patient and clear tone, explaining a concept to your audience.",
+          "text": "La photosynthèse est le processus par lequel les plantes vertes convertissent l'énergie lumineuse en énergie chimique.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of a scientific explanation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use the voice of a calm and knowledgeable teacher, carefully articulating each word as if clarifying a difficult topic.",
+          "text": "La Révolution française a commencé en 1789, marquant un tournant majeur dans l'histoire de l'Europe.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of a historical explanation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your persona is a teacher explaining a core principle. Speak clearly, patiently, and with an encouraging cadence.",
+          "text": "Il est important de noter que chaque molécule d'eau est composée de deux atomes d'hydrogène et d'un atome d'oxygène.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of a fundamental scientific concept."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Announce this message with a clear, formal, and slightly resonant voice, as if over a public address system.",
+          "text": "L'embarquement pour la porte B vingt-sept commencera dans quelques instants. Veuillez préparer vos documents.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Emulate the professional and distinct tone of an announcer making a public announcement.",
+          "text": "Le prochain départ est prévu à quatorze heures trente. La voie sera annoncée prochainement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this line in the style of a public announcer, with excellent diction and a neutral, authoritative tone.",
+          "text": "Nous vous informons que l'événement débutera à vingt heures précises. Merci de votre ponctualité.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Your persona is an enthusiastic and knowledgeable tour guide. Speak with energy and excitement as you describe this point of interest.",
+          "text": "Et si vous regardez juste là, sur votre gauche, vous pouvez admirer les magnifiques vitraux qui datent du treizième siècle. Chaque panneau raconte une histoire différente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this text in the friendly, engaging voice of a tour guide sharing interesting details about a historical site.",
+          "text": "Ce que vous voyez ici est une prouesse architecturale pour l'époque. Remarquez la complexité de la maçonnerie et l'absence de supports visibles, c'était révolutionnaire.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Adopt the persona of a tour guide, speaking with a lively and captivating tone to draw attention to the surrounding details.",
+          "text": "On raconte que la reine elle-même a marché sur ces mêmes dalles de pierre il y a plus de quatre cents ans. Imaginez un peu l'histoire qui se cache sous nos pieds.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a helpful, calm, and professional tone, as if you are a customer service agent patiently guiding someone on the phone.",
+          "text": "D'accord, maintenant, veuillez cliquer sur l'icône qui ressemble à un engrenage en haut à droite de votre écran.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver the line with the patient and clear voice of a customer support representative helping with a technical issue.",
+          "text": "Une fois que vous avez entré votre mot de passe, un code de confirmation vous sera envoyé par message.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your persona is a polite customer service agent. Speak in a steady, reassuring manner while giving instructions.",
+          "text": "Pour réinitialiser les paramètres, il suffit de maintenir ce bouton enfoncé pendant environ dix secondes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Adopt the calm, reassuring, and authoritative voice of a doctor explaining a medical situation in simple terms.",
+          "text": "Les résultats montrent une amélioration significative. Il est important de continuer le traitement comme prescrit.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your persona is a doctor. Use a professional yet comforting tone to deliver this information clearly.",
+          "text": "Ce que vous ressentez est une réaction tout à fait normale et nous nous attendions à cela. Il n'y a pas lieu de s'inquiéter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak with the gentle authority of a physician, aiming to inform and reassure at the same time.",
+          "text": "Nous allons surveiller cela de près, mais pour l'instant, le plus important est de bien vous reposer et de vous hydrater.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this text with the rapid, energetic, and rhythmic delivery of an auctioneer building excitement in the room.",
+          "text": "Nous avons ici une magnifique pièce du dix-huitième siècle, en parfait état. J'ai cent euros, qui dit cent-vingt ? Cent-vingt là, cent-quarante ? Cent-quarante, cent-soixante, deux cents ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Emulate the fast-paced, staccato speech of an auctioneer, clearly calling out the numbers as they increase.",
+          "text": "Regardez cette œuvre unique, signée par l'artiste. Cinq cents pour commencer, cinq-cent-cinquante, six cents, qui me donne six cents ? Six-cent-cinquante, sept cents, nous sommes à huit cents !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your persona is an auctioneer. Speak quickly and with a compelling rhythm to drive the bidding higher.",
+          "text": "Un lot exceptionnel, très rare sur le marché. J'ouvre à mille. On me propose mille deux cents. Mille cinq cents ? Mille cinq cents, j'attends. Mille huit cents ! Qui dit deux mille ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this in the warm, conversational, and articulate style of a podcast host introducing a new topic.",
+          "text": "Bonjour à tous et bienvenue. Aujourd'hui, on va plonger dans un sujet qui me fascine depuis longtemps.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your persona is the host of a popular talk show. Use a friendly and engaging tone to draw your audience in.",
+          "text": "Alors, la question que tout le monde se pose, c'est : comment en est-on arrivé là ? C'est ce que nous allons explorer ensemble.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak in a polished yet informal and engaging manner, just like a professional podcast host.",
+          "text": "C'est une histoire incroyable que je voulais absolument partager avec vous, pleine de rebondissements inattendus.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Perform this with a high-energy, friendly, and informal delivery, as if you're a streamer reacting to events in a video game.",
+          "text": "Oh là là, non, non, non ! Il est juste derrière moi, je l'ai vu ! Allez, il faut que je trouve une cachette, vite ! C'est pas possible, c'était tellement proche !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Embody the persona of a live-streamer: very energetic, spontaneous, and informal in your speech.",
+          "text": "Oui, c'est ça ! On l'a eu ! Franchement, je ne pensais pas que ça passerait, mais cette stratégie a fonctionné à la perfection. C'était absolument génial !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your voice should be animated and expressive, like a gamer live-streaming their playthrough with excitement and surprise.",
+          "text": "Attention, attention... je vais essayer de passer sans faire de bruit. S'il m'entend, c'est terminé. Ok, doucement... Ouf, c'est bon, on est passé ! C'était moins une !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Project your voice as if you are a street vendor in a bustling market, using a loud and slightly sing-song tone to attract customers.",
+          "text": "Demandez les belles fraises, les fraises du pays ! Elles sont sucrées, elles sont juteuses, goûtez-moi ça !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver the line with the loud, clear, and persuasive voice of a vendor calling out to people in a busy street.",
+          "text": "Allez, approchez, approchez ! Le meilleur de la saison, tout est frais, tout est bon ! N'hésitez pas !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your persona is a market vendor. Use a rhythmic, projecting voice to make your pitch stand out from the crowd.",
+          "text": "Qui veut des marrons chauds ? Tout chauds, les marrons ! Parfait pour se réchauffer, venez en prendre !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

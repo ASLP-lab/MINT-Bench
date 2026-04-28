@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/texture",
+  "language": "en",
+  "source_plan_file": "easy__timbre__direct__atomic__texture.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak with a breathy quality.",
+      "text": "Could you tell me how to get to the station?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct request for a breathy voice. Text is a simple question and avoids leaking words."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a breathy quality.",
+          "text": "Could you tell me how to get to the station?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a breathy voice. Text is a simple question and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Make the voice sound airy and breathy.",
+          "text": "I'm not sure if I have the right address.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a breathy voice. Text is a simple statement and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a voice that has a lot of breath in it.",
+          "text": "Can you please pass me that book?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a breathy voice. Text is a simple request and avoids leaking words."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a deep, resonant voice.",
+          "text": "The building on the corner was constructed in the early twentieth century.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a deep voice. Text is a factual statement and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a voice with a lot of depth.",
+          "text": "Historical records indicate that the original settlement was founded in 1788.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a deep voice. Text is a factual statement and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Make your voice sound deep.",
+          "text": "The new policy will go into effect at the beginning of the next fiscal quarter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a deep voice. Text is a factual statement and avoids leaking words."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a clear and distinct voice.",
+          "text": "The main reason for the change is to improve overall system efficiency.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a clear voice. Text is explanatory and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a voice that is very easy to understand, with good articulation.",
+          "text": "This procedure allows us to isolate the variables we need to study.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a clear voice. Text is explanatory and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want a clear vocal quality for this line.",
+          "text": "The equipment must be calibrated correctly for the experiment to succeed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a clear voice. Text is explanatory and avoids leaking words."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with a husky voice.",
+          "text": "I often think about the paths we didn't take.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a husky voice. Text is a short reflection and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The voice should have a slightly rough, husky quality.",
+          "text": "It all seems so different now, looking back on it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a husky voice. Text is a short reflection and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Make the voice sound a little gravelly and husky.",
+          "text": "You never really know how things will turn out.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a husky voice. Text is a short reflection and avoids leaking words."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a bright, forward voice.",
+          "text": "Our new hours of operation will be from nine in the morning until six in the evening.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a bright voice. Text is a neutral announcement and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want a bright vocal quality for this announcement.",
+          "text": "Please note that the west entrance will be temporarily closed for maintenance.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a bright voice. Text is a neutral announcement and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Make the voice sound bright and energetic.",
+          "text": "The final boarding call for flight seven-oh-three is now in progress at gate twelve.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a bright voice. Text is a neutral announcement and avoids leaking words."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a nasal voice.",
+          "text": "I guess we could go to the other store.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a nasal voice. Text is a casual statement and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Make the voice sound like it's coming through the nose.",
+          "text": "He's supposed to call back later today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a nasal voice. Text is a casual statement and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a vocal quality with a strong nasal resonance.",
+          "text": "Well, that's one way to do it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a nasal voice. Text is a casual statement and avoids leaking words."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a mellow, gentle voice.",
+          "text": "This is a courtesy reminder about your appointment tomorrow at ten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a mellow voice. Text is a standard notice and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a mellow and smooth vocal tone.",
+          "text": "The public address system will undergo a brief test at noon today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a mellow voice. Text is a standard notice and avoids leaking words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want the voice to sound mellow, not harsh.",
+          "text": "Don't forget that the office will be closed this coming Monday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a mellow voice. Text is a standard notice and avoids leaking words."
+          }
+        }
+      ]
+    }
+  ]
+}

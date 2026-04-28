@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/emotion",
+  "language": "fr",
+  "source_plan_file": "easy__style__direct__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read this in a happy and cheerful voice.",
+      "text": "Nous avons une bonne nouvelle à partager avec tout le monde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Ask this question as if you're very annoyed.",
+      "text": "Est-ce que quelqu'un a encore déplacé mes documents ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this line with a sense of loss and sadness.",
+      "text": "C'était la dernière fois que nous nous sommes tous réunis.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Say this as if you are very frightened.",
+      "text": "Pourquoi est-ce que tout est devenu si silencieux d'un coup ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Say this with a surprised and astonished tone.",
+      "text": "Il a vraiment dit ça pendant la réunion ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Deliver this line with an anxious and concerned voice.",
+      "text": "Il faut qu'on vérifie l'horaire du train une dernière fois.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Read this as if you are carefully considering the idea as you speak.",
+      "text": "La photosynthèse est le processus par lequel les plantes vertes transforment la lumière du soleil en énergie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this in a happy and cheerful voice.",
+          "text": "Nous avons une bonne nouvelle à partager avec tout le monde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Say this with a bright and joyful tone.",
+          "text": "Le projet a été approuvé et nous pouvons commencer dès demain.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this announcement with a lot of positive energy and a smile in your voice.",
+          "text": "Juste pour vous informer que le concert aura bien lieu ce soir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this with an angry and irritated tone.",
+          "text": "Où sont passées les clés que j'ai laissées sur la table ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Ask this question as if you're very annoyed.",
+          "text": "Est-ce que quelqu'un a encore déplacé mes documents ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak with a sharp, frustrated voice.",
+          "text": "Je ne trouve plus mon portefeuille, qui l'a vu en dernier ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this sentence in a sad, somber voice.",
+          "text": "Ils ont déménagé dans une autre ville le mois dernier.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Say this as if you're feeling down and melancholic.",
+          "text": "Le magasin au coin de la rue a fermé ses portes hier.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this line with a sense of loss and sadness.",
+          "text": "C'était la dernière fois que nous nous sommes tous réunis.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Ask this question in a scared, trembling voice.",
+          "text": "Tu as entendu ce bruit à l'étage ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Say this as if you are very frightened.",
+          "text": "Pourquoi est-ce que tout est devenu si silencieux d'un coup ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this line with a sense of fear and apprehension.",
+          "text": "Il y a quelqu'un derrière la porte ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this with a surprised and astonished tone.",
+          "text": "Il a vraiment dit ça pendant la réunion ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this line as if you just heard something unbelievable.",
+          "text": "Je n'arrive pas à croire qu'ils ont pris cette décision.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this sentence with a tone of complete shock.",
+          "text": "Elle a donc accepté la proposition de travail à l'étranger.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this with a worried tone of voice.",
+          "text": "J'espère que nous aurons assez de temps pour tout finir avant la date limite.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this line with an anxious and concerned voice.",
+          "text": "Il faut qu'on vérifie l'horaire du train une dernière fois.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this as if you are very anxious about the outcome.",
+          "text": "Je me demande si nous avons bien pensé à tous les détails pour l'événement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this in a thoughtful, contemplative manner.",
+          "text": "Le cycle de l'eau implique l'évaporation, la condensation et les précipitations.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this as if you are carefully considering the idea as you speak.",
+          "text": "La photosynthèse est le processus par lequel les plantes vertes transforment la lumière du soleil en énergie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this explanation in a pensive and reflective tone.",
+          "text": "La principale différence réside dans la manière dont les données sont structurées et stockées.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    }
+  ]
+}

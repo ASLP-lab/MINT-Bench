@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/pitch",
+  "language": "es",
+  "source_plan_file": "easy__timbre__direct__atomic__pitch.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Use an extremely high vocal pitch.",
+      "text": "Disculpa, ¿me puedes decir la hora?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Deliver the line in a high pitch.",
+      "text": "Muchos mamíferos son animales de sangre caliente que regulan su propia temperatura corporal.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Make the voice's pitch low.",
+      "text": "El próximo tren con destino a la estación central saldrá del andén número cuatro.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Make the voice's pitch very low.",
+      "text": "La idea principal es que cada parte del sistema se comunique con las demás de forma eficiente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. I want a very high-pitched voice.",
+          "text": "¿Podrías pasarme la sal, por favor?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use an extremely high vocal pitch.",
+          "text": "Disculpa, ¿me puedes decir la hora?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Make the voice's pitch very high.",
+          "text": "¿Tienes un momento para ayudarme con esto?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this with a high-pitched voice.",
+          "text": "El agua es un compuesto químico formado por dos átomos de hidrógeno y uno de oxígeno.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a high vocal pitch.",
+          "text": "La fotosíntesis es el proceso mediante el cual las plantas convierten la materia inorgánica en materia orgánica.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver the line in a high pitch.",
+          "text": "Muchos mamíferos son animales de sangre caliente que regulan su propia temperatura corporal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this with a low-pitched voice.",
+          "text": "Les recordamos a nuestros visitantes que el museo cerrará sus puertas en quince minutos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a low vocal pitch.",
+          "text": "Atención, por favor: la biblioteca permanecerá abierta durante el horario habitual de vacaciones.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Make the voice's pitch low.",
+          "text": "El próximo tren con destino a la estación central saldrá del andén número cuatro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. I want a very low-pitched voice.",
+          "text": "Para comenzar, asegúrese de que todos los ingredientes estén a temperatura ambiente antes de mezclarlos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use an extremely low vocal pitch.",
+          "text": "El primer paso consiste en verificar que el dispositivo esté correctamente conectado a la fuente de alimentación.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Make the voice's pitch very low.",
+          "text": "La idea principal es que cada parte del sistema se comunique con las demás de forma eficiente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard item."
+          }
+        }
+      ]
+    }
+  ]
+}

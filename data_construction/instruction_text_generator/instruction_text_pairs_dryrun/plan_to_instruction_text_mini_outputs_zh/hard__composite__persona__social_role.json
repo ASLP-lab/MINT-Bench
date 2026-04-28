@@ -1,0 +1,427 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "zh",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一位老师的口吻，耐心、清晰、有条理地讲解这段内容。",
+      "text": "光合作用是植物、藻类和某些细菌利用光能，将二氧化碳和水转化成富能有机物，并释放出氧气的过程。这个过程对于维持地球的碳氧平衡至关重要。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一位老师的口吻，耐心、清晰、有条理地讲解这段内容。",
+          "text": "光合作用是植物、藻类和某些细菌利用光能，将二氧化碳和水转化成富能有机物，并释放出氧气的过程。这个过程对于维持地球的碳氧平衡至关重要。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "想象你是一位正在授课的老师，用权威而清晰的语气，向听众解释一个复杂的概念。",
+          "text": "文艺复兴是发生在十四到十七世纪欧洲的一场思想文化运动，它标志着中世纪的结束和现代的开端，核心是人文主义精神，即强调人的价值和尊严。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种循循善诱的教师语气，把这段话讲得清楚明白，沉稳而有说服力。",
+          "text": "物质的三种基本状态是固态、液态和气态。当温度和压力改变时，物质可以在这些状态之间转换，例如水结冰变成固态，或者沸腾变成气态。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请模仿机场广播员的风格，用正式、清晰的语调播报这条通知。",
+          "text": "各位来宾请注意，由于天气原因，部分户外活动将临时调整，具体安排请留意现场指示。感谢您的理解与配合。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用地铁播音员那种标准、平稳的语气来说，声音要清晰，略带一点空间感。",
+          "text": "前方到站是本次列车的终点站，请所有乘客带齐随身物品，准备下车。祝您旅途愉快。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种专业播音员的口吻，以清晰、规范的语调播报以下内容，就像在公共场合发布通知一样。",
+          "text": "温馨提示，为了维护公共环境，请勿在禁烟区域吸烟。我们共同营造一个清新、舒适的公共空间。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用街头小贩的语气大声吆喝，声音要洪亮、热情，充满活力。",
+          "text": "刚出锅的烤红薯，热气腾腾，香甜软糯！皮薄肉厚，甜到心里头啊！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "模仿一个热情的路边摊主，用非常有感染力的声音介绍美食，让人一听就想尝尝。",
+          "text": "来看一看瞧一瞧啊，外酥里嫩的炸鸡排！金黄酥脆，一口咬下去满口香！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种充满市井气息的叫卖声来读这段话，要生动、响亮，带着十足的热情。",
+          "text": "冰糖葫芦，酸酸甜甜就是这个味儿！山楂裹着糖衣，开胃又解馋！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请扮演一位客服人员，用礼貌、耐心、标准化的语气，为客户提供操作指引。",
+          "text": "首先，请您打开设备的设置菜单。接下来，在列表中找到并点击“网络连接”选项。进入后，请选择您要连接的无线网络名称，然后输入密码并点击连接。如果连接失败，请尝试重启您的设备和路由器。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用呼叫中心客服专员的专业口吻说话，语调要平稳、温和，充满耐心。",
+          "text": "为了解决这个问题，我们需要先清除应用的缓存数据。请您进入手机的“应用管理”界面，找到对应的应用程序。点击进入后，选择“存储”选项，然后您会看到“清除缓存”的按钮，请点击它。操作完成后，请重新启动该应用。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "模仿客服人员的语气，以标准、清晰、友善的语调，一步一步地解释这个流程。",
+          "text": "请您按照以下步骤操作：第一步，在您的浏览器地址栏输入我们的官方网址。第二步，在网站首页右上角找到“登录”按钮并点击。第三步，输入您的账号和密码，完成安全验证后，即可成功登录。如果您忘记了密码，可以点击下方的“忘记密码”链接进行重置。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一位导游的语气，向游客们生动有趣地介绍这个景点，声音要友好、热情。",
+          "text": "我们现在看到的这座古建筑，始建于明朝，距今已有六百多年的历史。它的主要特点是采用了传统的榫卯结构，没有使用一根钉子。屋顶上覆盖着琉璃瓦，在阳光下熠熠生辉，展现了古代工匠的卓越技艺。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "想象你正带领一个旅行团，用富有感染力的声音讲解眼前的景象，让介绍听起来既专业又亲切。",
+          "text": "这幅画作是博物馆的镇馆之宝之一，创作于十八世纪。画家运用了非常细腻的笔触，描绘了山间云雾缭绕的景象。仔细观察，可以看到远处的山峰若隐若现，近处的树木则生机勃勃，整幅画充满了诗意和宁静的氛围。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种知识丰富且风趣幽默的导游口吻来讲述，把这段描述说得引人入胜。",
+          "text": "这片自然保护区是多种珍稀动植物的家园。它的地貌非常独特，经过数百万年的地质变迁，形成了我们今天看到的奇特岩石和深邃峡谷。这里四季景色各异，春天繁花似锦，秋天层林尽染，是自然爱好者的天堂。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用医生的口吻，以沉着、专业且令人安心的语气，向病人解释健康建议。",
+          "text": "保持均衡的饮食对您的健康非常重要。建议您每天摄入足够的水果和蔬菜，同时减少高盐、高糖食物的摄入。规律的作息和适度的体育锻炼也同样关键。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "扮演一位耐心的医生，用温和而权威的语气，给出一些关于生活方式的指导。",
+          "text": "平时要注意劳逸结合，避免长时间熬夜，保证充足的睡眠。这样有助于身体机能的恢复，也能提高第二天的精神状态。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种专业医生的口吻说话，语气要平稳、清晰，既要体现专业性，又要给听者以安慰。",
+          "text": "情绪的稳定对身体健康有很大影响。试着寻找适合自己的减压方式，比如听音乐、散步或者与朋友聊天，保持一个积极乐观的心态。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "模仿拍卖师的风格，用快速、有节奏、充满激情的语调来念这段词，营造出紧张兴奋的氛围。",
+          "text": "五千块，现在是五千，有没有五千五的，五千五，好的，五千五一次，五千五两次，还有没有更高的，六千！这位先生出六千！六千一次，六千两次！机会难得，绝无仅有，六千五！六千五了！还有吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用拍卖师那种极快的语速和富有煽动性的语气说话，声音要洪亮，节奏感要强，不断推高现场气氛。",
+          "text": "一万，我们从一万开始，一万一，好，一万二！后面的朋友一万二！一万五！直接跳到一万五！非常果断！一万五一次，一万五两次！这件藏品非常稀有，做工精美，一万八！一万八！还有没有加价的？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "扮演一位拍卖师，用高能量、快节奏的方式进行播报，每个词都要清晰有力，带动全场的紧张感和紧迫感。",
+          "text": "两百，目前是两百，两百五，三百！三百块！三百一次，三百两次，四百！我看到四百了！前排的女士出价四百！还有吗，最后的机会，四百五！四百五！好！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用播客主播的语气，以一种亲切、自然的谈话风格来讲述，就像在和听众一对一交流一样。",
+          "text": "我最近看了一部电影，它在叙事结构上做了一个非常大胆的尝试。它没有采用传统的线性叙事，而是把故事线打碎，重新组合。刚开始可能会觉得有点混乱，但当你看到最后，会发现所有的碎片都拼成了一幅完整的图画，那种感觉真的很奇妙。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "模仿一个播客主持人，用富有吸引力的、聊天的口吻来分享观点，声音听起来要近一些，有私密感。",
+          "text": "说到现在的智能手机，我觉得大家过于关注硬件参数了，比如处理器有多快，像素有多高。但其实，真正决定用户体验的，往往是那些不起眼的软件细节和系统生态。一个流畅、人性化的操作系统，远比那些冰冷的数字更重要。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种轻松、真诚的播客风格来演绎这段独白，语调随意一些，就像在麦克风前和朋友聊天。",
+          "text": "很多人觉得，怀旧是一种倒退，但我不太同意。我觉得怀旧其实是一种情感的锚点。当我们回顾过去喜欢的音乐、游戏或者电影时，我们不仅是在消费内容，更是在重温那个特定时期的自己。它能帮我们找到一种身份的连续性，这在快节奏的现代社会里还挺重要的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用带货主播的语气，以高昂、热情的语调介绍这款产品，要非常有说服力和感染力。",
+          "text": "大家看我手上这款无线耳机，它的设计真的绝了，非常轻，戴在耳朵上一整天都不会觉得累。而且它的音质，我跟你们说，低音非常震撼，高音又很清澈，听音乐简直是一种享受。最关键的是它的续航能力，充一次电可以用好几天！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "扮演一个直播间的主播，用充满激情和活力的声音来推荐商品，语速可以快一点，营造出一种热烈的氛围。",
+          "text": "今天必须给你们看看这个便携榨汁机！它真的太方便了。整个机身只有一个杯子那么大，可以轻松放进包里。无论是在办公室还是在健身房，随时随地都能喝到新鲜的果汁。操作也超级简单，把水果放进去，按一下开关就好了，清洗起来也特别容易。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种极具互动感的直播风格来读这段话，要充满能量，积极地展示产品的优点，让人听了就心动。",
+          "text": "我最近一直在用这款智能运动手表，它彻底改变了我的健身习惯。它不仅能精准地记录我的心率、步数和睡眠质量，还能提供专业的运动指导。它的屏幕在阳光下也看得特别清楚，而且有很多漂亮的表盘可以换，真的是又实用又好看。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

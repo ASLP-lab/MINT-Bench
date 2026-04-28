@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/texture",
+  "language": "ja",
+  "source_plan_file": "easy__timbre__direct__atomic__texture.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. I want a soft, breathy delivery.",
+      "text": "結局、あれが最善の選択だったのかもしれない。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I'm looking for a husky, slightly gravelly vocal quality.",
+      "text": "明日の予定は特にないから、一日中家でゆっくりしようと思ってる。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Use a voice that you might hear in a dimly lit jazz club—smooth and smoky.",
+      "text": "雨音だけが響く部屋で、時間はゆっくりと流れていく。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I'm looking for a quiet, soft-spoken delivery.",
+      "text": "作者の署名は、作品の右下隅に小さく記されています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I want a delivery that is lively and has a bright quality.",
+      "text": "システムメンテナンスのため、サービスを一時停止しております。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. The voice should be exceptionally clear and easy to understand.",
+      "text": "最新のバージョンでは、処理速度が約二十パーセント向上しています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. The voice should be smooth and mellow, with a pleasant quality.",
+      "text": "週間予報です。週末にかけて気温が少し下がる見込みです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. I want a soft, breathy delivery.",
+          "text": "結局、あれが最善の選択だったのかもしれない。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a voice that sounds very airy and gentle.",
+          "text": "遠い昔のことのように感じられる。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Say it with a lot of air in your voice, almost like a whisper but with tone.",
+          "text": "時々、どうしてここにいるのか分からなくなる。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. The voice should be a bit low and husky.",
+          "text": "今日の会議、思ったより長引いたね。そろそろ帰ろうか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a slightly rough, deep, and raspy voice.",
+          "text": "この映画、前にも見たことがある気がするけど、内容は全然覚えてないや。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. I'm looking for a husky, slightly gravelly vocal quality.",
+          "text": "明日の予定は特にないから、一日中家でゆっくりしようと思ってる。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. The voice should be low-pitched and smoky, with a smooth but slightly rough quality.",
+          "text": "静かな夜の帳が下り、街の灯りがひとつ、またひとつと灯る。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. I want a voice that's rich, deep, and has a smoky texture.",
+          "text": "古びた本のページをめくれば、遠い日の記憶が蘇る。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a voice that you might hear in a dimly lit jazz club—smooth and smoky.",
+          "text": "雨音だけが響く部屋で、時間はゆっくりと流れていく。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Please use a soft, gentle voice.",
+          "text": "こちらの絵画は、十六世紀に制作されたもので、当時の生活様式が描かれています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. The delivery should be very soft and smooth.",
+          "text": "この彫刻に使われている素材は、非常に珍しい種類の大理石です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. I'm looking for a quiet, soft-spoken delivery.",
+          "text": "作者の署名は、作品の右下隅に小さく記されています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Use a bright and clear voice.",
+          "text": "次の停車駅は終点、東京駅です。お忘れ物のないようご注意ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. The voice should sound energetic and bright.",
+          "text": "本日、図書館は午後五時に閉館いたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. I want a delivery that is lively and has a bright quality.",
+          "text": "システムメンテナンスのため、サービスを一時停止しております。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Enunciate every word very clearly.",
+          "text": "この装置は、入力されたデータを自動的に分類し、指定されたフォルダに保存します。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. The voice should be exceptionally clear and easy to understand.",
+          "text": "最新のバージョンでは、処理速度が約二十パーセント向上しています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Please speak with a crisp, clear articulation.",
+          "text": "接続に問題がある場合は、まずケーブルが正しく差し込まれているか確認してください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Use a mellow, relaxed tone.",
+          "text": "明日の全国の天気です。北日本では曇り、その他の地域では晴れるでしょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. The voice should be smooth and mellow, with a pleasant quality.",
+          "text": "週間予報です。週末にかけて気温が少し下がる見込みです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. I'm looking for a warm and mellow vocal delivery.",
+          "text": "現在の湿度は６０パーセント、風速は毎秒３メートルとなっています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/volume",
+  "language": "de",
+  "source_plan_file": "easy__style__tag__atomic__volume.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Volume: very_quiet",
+      "text": "Es ist seltsam, wie sich die Dinge manchmal ändern.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Volume: quiet",
+      "text": "Dieses Verfahren ermöglicht eine präzisere Messung der atmosphärischen Dichte.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Volume: loud",
+      "text": "Bitte beachten Sie die geänderten Öffnungszeiten.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Volume: very_loud",
+      "text": "Überprüfen Sie die Ausrüstung noch einmal auf eventuelle Schäden.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Volume: very_quiet",
+          "text": "Manchmal frage ich mich, ob das alles war.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Volume: very_quiet",
+          "text": "Es ist seltsam, wie sich die Dinge manchmal ändern.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Volume: very_quiet",
+          "text": "Ich glaube, ich verstehe es jetzt ein wenig besser.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Volume: quiet",
+          "text": "Die Brücke wurde im achtzehnten Jahrhundert erbaut und verbindet die beiden Stadtteile.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Volume: quiet",
+          "text": "Dieses Verfahren ermöglicht eine präzisere Messung der atmosphärischen Dichte.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Volume: quiet",
+          "text": "Der jährliche Niederschlag in dieser Region liegt im Durchschnitt bei etwa achthundert Millimetern.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Volume: loud",
+          "text": "Der nächste Zug fährt in fünf Minuten ab.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Volume: loud",
+          "text": "Bitte beachten Sie die geänderten Öffnungszeiten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Volume: loud",
+          "text": "Alle Passagiere werden gebeten, sich zum Ausgang zu begeben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Volume: very_loud",
+          "text": "Bringen Sie die Werkzeuge sofort zur Baustelle zurück.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Volume: very_loud",
+          "text": "Stellen Sie sicher, dass alle Türen fest verschlossen sind, bevor Sie gehen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Volume: very_loud",
+          "text": "Überprüfen Sie die Ausrüstung noch einmal auf eventuelle Schäden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

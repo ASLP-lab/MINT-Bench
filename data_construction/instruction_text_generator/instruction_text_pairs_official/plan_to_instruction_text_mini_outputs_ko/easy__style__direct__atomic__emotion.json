@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/emotion",
+  "language": "ko",
+  "source_plan_file": "easy__style__direct__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Read this sentence in a happy, upbeat manner.",
+      "text": "주말에 친구들과 만나서 영화를 보기로 약속했어요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Deliver the following in a cross, annoyed voice.",
+      "text": "보고서 양식이 변경되었습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Deliver this line in a downcast and somber manner.",
+      "text": "이번 주 금요일은 단축 근무를 실시할 예정입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Say this with a fearful, trembling voice.",
+      "text": "창문 좀 닫아주시겠어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Say this with a voice full of amazement.",
+      "text": "그 결과는 우리가 처음에 세웠던 가설과 정확히 일치했습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Say this sentence with an anxious and troubled voice.",
+      "text": "최종 결정을 내리기 전에 모든 가능성을 고려해야 합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this in a thoughtful, pensive manner.",
+      "text": "그는 창밖을 바라보며 오랫동안 아무 말도 하지 않았습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say the following with a happy and cheerful tone.",
+          "text": "오늘 날씨가 정말 좋네요. 공원에 산책하러 가야겠어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this line with a bright and joyful voice.",
+          "text": "어제 새로 산 책을 다 읽었는데, 내용이 꽤 흥미로웠어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this sentence in a happy, upbeat manner.",
+          "text": "주말에 친구들과 만나서 영화를 보기로 약속했어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this with an angry and frustrated tone.",
+          "text": "회의는 오후 세 시에 시작됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Read this line with irritation in your voice.",
+          "text": "이 서류는 내일까지 제출해야 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver the following in a cross, annoyed voice.",
+          "text": "보고서 양식이 변경되었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a sad, melancholic voice.",
+          "text": "내일 아침에 정기 점검이 있을 예정이니 참고하시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Say the following sentence with a sorrowful tone.",
+          "text": "엘리베이터가 수리 중이오니, 계단을 이용해 주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver this line in a downcast and somber manner.",
+          "text": "이번 주 금요일은 단축 근무를 실시할 예정입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this with a fearful, trembling voice.",
+          "text": "창문 좀 닫아주시겠어요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this line as if you are very scared.",
+          "text": "소금 좀 건네주시겠어요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this in a frightened and anxious tone.",
+          "text": "문이 제대로 잠겼는지 확인해 주세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this sentence with a tone of surprise and astonishment.",
+          "text": "이 시스템은 기존 방식보다 처리 속도가 세 배 더 빠릅니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver the following as if you just discovered something unexpected.",
+          "text": "이 식물은 특정 온도에서만 꽃을 피우는 특징을 가지고 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Say this with a voice full of amazement.",
+          "text": "그 결과는 우리가 처음에 세웠던 가설과 정확히 일치했습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a worried and concerned tone.",
+          "text": "그 문제에 대해서는 다시 한번 생각해 볼 필요가 있겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Say this sentence with an anxious and troubled voice.",
+          "text": "최종 결정을 내리기 전에 모든 가능성을 고려해야 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver this line as if you are feeling uneasy about something.",
+          "text": "앞으로의 계획에 대해 좀 더 신중하게 접근해야 할 것 같아요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this in a thoughtful, pensive manner.",
+          "text": "그는 창밖을 바라보며 오랫동안 아무 말도 하지 않았습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Say the following with a contemplative and reflective tone.",
+          "text": "그 책의 마지막 장은 독자에게 많은 질문을 남겼습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver this sentence with a sense of deep thought.",
+          "text": "길을 걷다 보면 가끔씩 잊고 있던 기억들이 떠오르곤 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "standard generation"
+          }
+        }
+      ]
+    }
+  ]
+}

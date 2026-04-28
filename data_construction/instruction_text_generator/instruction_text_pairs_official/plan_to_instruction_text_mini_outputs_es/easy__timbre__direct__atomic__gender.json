@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "es",
+  "source_plan_file": "easy__timbre__direct__atomic__gender.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. I want to hear this in a man's voice.",
+      "text": "La fotosíntesis es el proceso mediante el cual las plantas convierten la luz solar en energía química.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Read this with a feminine voice.",
+      "text": "Por favor, ¿puedes repetir eso?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Can you read this with a man's voice?",
+      "text": "El museo cerrará a las cinco de la tarde hoy. Agradecemos su visita.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Read this with a feminine voice.",
+      "text": "Creo que empezaré a leer ese libro nuevo que compré la semana pasada.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Use a male voice.",
+          "text": "El Océano Pacífico es el más grande y profundo de los océanos de la Tierra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. I want to hear this in a man's voice.",
+          "text": "La fotosíntesis es el proceso mediante el cual las plantas convierten la luz solar en energía química.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with a masculine voice.",
+          "text": "La distancia promedio entre la Tierra y la Luna es de aproximadamente trescientos ochenta y cuatro mil kilómetros.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Please use a female voice.",
+          "text": "¿Me puedes pasar la sal, por favor?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. I'd like this read by a woman.",
+          "text": "Disculpa, ¿tienes la hora?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with a feminine voice.",
+          "text": "Por favor, ¿puedes repetir eso?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Can you read this with a man's voice?",
+          "text": "El museo cerrará a las cinco de la tarde hoy. Agradecemos su visita.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Could you say this in a male voice?",
+          "text": "El pronóstico del tiempo para mañana indica cielos despejados y una temperatura máxima de veintidós grados.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read the following text with a masculine voice.",
+          "text": "Atención a todos los pasajeros: el tren con destino a Madrid saldrá del andén número tres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this with a feminine voice.",
+          "text": "Creo que empezaré a leer ese libro nuevo que compré la semana pasada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Please use a feminine voice for this sentence.",
+          "text": "Me gusta mucho salir a caminar por el parque cuando hace buen tiempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. I want this read in a woman's voice.",
+          "text": "Hoy he decidido probar una nueva receta para la cena; espero que salga bien.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

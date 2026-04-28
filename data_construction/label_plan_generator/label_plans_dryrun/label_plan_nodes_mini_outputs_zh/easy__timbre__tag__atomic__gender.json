@@ -1,0 +1,142 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/gender",
+  "language": "zh",
+  "generation_summary": {
+    "num_items": 4,
+    "domain": "timbre",
+    "difficulty": "easy",
+    "notes": "Atomic control of gender using tag-based instructions. Balanced male/female targets and diverse, neutral text semantics."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "gender": "male"
+      },
+      "aux_values": {},
+      "text_semantic": "factual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must not contain gender-specific pronouns or roles.",
+        "Text content should be about a neutral scientific fact.",
+        "final text should be written in Chinese"
+      ],
+      "instruction_constraints": [
+        "Use the exact tag format '属性：值'.",
+        "final instruction should be written in Chinese",
+        "use fixed tag format '属性：值' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "gender": "female"
+      },
+      "aux_values": {},
+      "text_semantic": "daily_notice",
+      "text_length": "short",
+      "text_constraints": [
+        "Text must be a simple, practical notification.",
+        "Avoid any content that implies a specific gender.",
+        "Keep the language formal but not overly stiff.",
+        "final text should be written in Chinese"
+      ],
+      "instruction_constraints": [
+        "Use the exact tag format '属性：值'.",
+        "final instruction should be written in Chinese",
+        "use fixed tag format '属性：值' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "gender": "male"
+      },
+      "aux_values": {},
+      "text_semantic": "simple_request",
+      "text_length": "short",
+      "text_constraints": [
+        "Text should be a polite and direct request.",
+        "Avoid gendered terms or scenarios.",
+        "The request should be common in a professional or daily context.",
+        "final text should be written in Chinese"
+      ],
+      "instruction_constraints": [
+        "Use the exact tag format '属性：值'.",
+        "final instruction should be written in Chinese",
+        "use fixed tag format '属性：值' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "tag",
+      "target_values": {
+        "gender": "female"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must explain a neutral concept without using gender-specific examples.",
+        "The content should be informative.",
+        "final text should be written in Chinese"
+      ],
+      "instruction_constraints": [
+        "Use the exact tag format '属性：值'.",
+        "final instruction should be written in Chinese",
+        "use fixed tag format '属性：值' in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

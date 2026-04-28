@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "de",
+  "source_plan_file": "easy__timbre__direct__atomic__gender.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Use a male voice.",
+      "text": "Der Rhein ist einer der längsten und wichtigsten Flüsse Europas und fließt durch mehrere Länder, bevor er in die Nordsee mündet.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a male voice; text is a neutral factual statement."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Please read this with a female voice.",
+      "text": "Wo ist der nächste Bahnhof, bitte?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a female voice; text is a simple, neutral question."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. I'd like a masculine-sounding voice for this announcement.",
+      "text": "Achtung, der Zug auf Gleis drei hat eine Verspätung von ungefähr zehn Minuten. Wir bitten um Ihr Verständnis.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a masculine voice; text is a neutral announcement."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. The speaker for this line should sound feminine.",
+      "text": "Jeder Tag bietet eine neue Gelegenheit, etwas zu lernen oder eine alte Gewohnheit zu ändern.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a feminine voice; text is a neutral reflection."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Use a male voice.",
+          "text": "Der Rhein ist einer der längsten und wichtigsten Flüsse Europas und fließt durch mehrere Länder, bevor er in die Nordsee mündet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a male voice; text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I need this read by a male speaker.",
+          "text": "Die Photosynthese ist der Prozess, bei dem grüne Pflanzen Lichtenergie nutzen, um Kohlendioxid und Wasser in Nährstoffe umzuwandeln.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a male voice; text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Generate this with a male voice.",
+          "text": "Der Buchdruck mit beweglichen Lettern wurde im 15. Jahrhundert entwickelt und revolutionierte die Verbreitung von Wissen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a male voice; text is a neutral factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Can you use a female voice for this?",
+          "text": "Könnten Sie mir bitte sagen, wie spät es ist?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a female voice; text is a simple, neutral question."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Please read this with a female voice.",
+          "text": "Wo ist der nächste Bahnhof, bitte?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a female voice; text is a simple, neutral question."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Generate this line in a woman's voice.",
+          "text": "Bitte reichen Sie mir das Salz.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a female voice; text is a simple, neutral request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. I'd like a masculine-sounding voice for this announcement.",
+          "text": "Achtung, der Zug auf Gleis drei hat eine Verspätung von ungefähr zehn Minuten. Wir bitten um Ihr Verständnis.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a masculine voice; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Please use a masculine voice.",
+          "text": "Die Bibliothek schließt heute aufgrund einer Veranstaltung bereits um 17 Uhr. Vielen Dank.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a masculine voice; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Read the following with a masculine-sounding voice.",
+          "text": "Willkommen zur heutigen Präsentation. Bitte schalten Sie Ihre Mobiltelefone auf lautlos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a masculine voice; text is a neutral announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Read this with a feminine voice.",
+          "text": "Manchmal ist es wichtig, einen Schritt zurückzutreten und die Dinge aus einer anderen Perspektive zu betrachten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a feminine voice; text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. The speaker for this line should sound feminine.",
+          "text": "Jeder Tag bietet eine neue Gelegenheit, etwas zu lernen oder eine alte Gewohnheit zu ändern.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a feminine voice; text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. I'm looking for a feminine voice quality.",
+          "text": "Es ist erstaunlich, wie sich die Wahrnehmung eines Ortes mit der Zeit verändern kann.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a feminine voice; text is a neutral reflection."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1746 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "it",
+  "group_name": "timbre",
+  "num_items": 78,
+  "timbre_attributes": [
+    "age",
+    "gender",
+    "pitch",
+    "texture"
+  ],
+  "source_files": [
+    "easy__composite__simple_comp__static.json",
+    "easy__timbre__direct__atomic__age.json",
+    "easy__timbre__direct__atomic__gender.json",
+    "easy__timbre__direct__atomic__pitch.json",
+    "easy__timbre__direct__atomic__texture.json",
+    "easy__timbre__tag__atomic__age.json",
+    "easy__timbre__tag__atomic__gender.json",
+    "easy__timbre__tag__atomic__pitch.json",
+    "easy__timbre__tag__atomic__texture.json",
+    "hard__composite__complex_comp__conflict.json",
+    "hard__composite__complex_comp__dynamic.json",
+    "hard__composite__complex_comp__static.json"
+  ],
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Age: elderly, Gender: male",
+      "text": "Ripensandoci, forse le cose sarebbero potute andare diversamente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Gender: female, Texture: breathy",
+      "text": "Non sono sicura di cosa fare stasera, forse resterò a casa.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Pitch: low, Texture: deep",
+      "text": "La capitale dell'Italia è Roma, una città con una storia millenaria.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "deep"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Age: child, Pitch: high",
+      "text": "Ho sete, posso avere un bicchiere d'acqua?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Use the voice of a grown woman.",
+      "text": "Il servizio di mensa oggi chiuderà con trenta minuti di anticipo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this with a husky voice, keeping the pitch in the normal range.",
+      "text": "La ragione principale per cui questo accade è dovuta alla pressione atmosferica.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "husky",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Read this in the voice of an elderly person, speaking softly.",
+      "text": "Attraverso la finestra, guardava la neve cadere lentamente sul giardino.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Use a man's voice with a very low pitch.",
+      "text": "Portate tutti i documenti necessari alla riunione di domani senza eccezioni.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Gender: male, Emotion: sad",
+      "text": "Tutti i ricordi di quell'estate sembravano ormai svaniti per sempre.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good fit."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Age: child, Speed: fast",
+      "text": "Ho finito tutti i compiti, posso andare a giocare con i miei amici adesso?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good fit."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Texture: clear, Volume: quiet",
+      "text": "Se osservi attentamente, noterai i piccoli dettagli incisi nel legno.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good fit."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Pitch: high, Tone: playful",
+      "text": "Scommetto che non riesci a prendermi! Prova a correre più veloce!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good fit."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Read this in a neutral tone, with a typical adult voice.",
+      "text": "Si prega di avere il biglietto pronto per l'ispezione da parte del controllore.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good fit."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. I want a female voice with a gentle and soft tone.",
+      "text": "Potresti passarmi quel libro sullo scaffale in alto, per cortesia? Non ci arrivo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Use a rich voice at a slow pace.",
+      "text": "A volte, guardando le stelle, mi chiedo se siamo davvero soli nell'universo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__it__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "rich",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian, using a high-pitched child's voice.",
+      "text": "Mi aiuti ad aprire questa scatola?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. The voice should be that of a regular adult.",
+      "text": "La ricetta richiede tre uova, duecento grammi di farina e un po' di zucchero.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. The speaker should sound like an elderly person.",
+      "text": "A volte, la soluzione più semplice è quella che si nasconde proprio davanti ai nostri occhi.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian, using a typical adult voice.",
+      "text": "L'imbarco per il volo delle diciassette inizierà tra pochi minuti.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Please use a male speaker for this line.",
+      "text": "L'acqua bolle a cento gradi Celsius al livello del mare.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Use a female speaker for the following text.",
+      "text": "Mi scusi, potrebbe dirmi che ore sono in questo momento?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. I would prefer if this was spoken by a man.",
+      "text": "Attenzione: a causa del maltempo, il servizio di traghetti è temporaneamente sospeso.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Please use the voice of a woman for this line.",
+      "text": "Il ciclo dell'acqua descrive come l'acqua evapora dagli oceani, forma le nuvole e poi ritorna a terra come pioggia.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. I need a very high-pitched voice for this line.",
+      "text": "Potresti passarmi il sale, per favore?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Your voice should be in a high register.",
+      "text": "L'acqua bolle a cento gradi Celsius al livello del mare.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Use a low voice for this line.",
+      "text": "A causa di un evento imprevisto, la biblioteca chiuderà oggi alle diciassette.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Use a very low, deep voice.",
+      "text": "A volte il tempo sembra fermarsi.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Read this with a low, deep voice.",
+      "text": "La temperatura media della superficie terrestre è di circa quindici gradi Celsius.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this with a breathy quality to your voice.",
+      "text": "A volte, il silenzio dice più di mille parole.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. I want a voice with a smoky, textured quality.",
+      "text": "La vecchia libreria all'angolo della strada nascondeva segreti inaspettati.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this in a soft voice.",
+      "text": "Potresti passarmi il libro, per favore?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Use a bright, clear voice for this announcement.",
+      "text": "Il treno regionale per Milano Centrale è in arrivo al binario quattro.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this with a nasal voice quality.",
+      "text": "Il processo di fotosintesi converte l'energia luminosa in energia chimica.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Use a mellow, smooth vocal tone.",
+      "text": "Dopo una lunga giornata di lavoro, non c'è niente di meglio che sedersi sul divano.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Age: child",
+      "text": "Puoi chiudere la finestra per cortesia?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Age: adult",
+      "text": "Il sistema solare è composto da otto pianeti che orbitano attorno al Sole.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Age: elderly",
+      "text": "L'ufficio postale chiuderà alle tredici in occasione della festa del patrono.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Age: adult",
+      "text": "Credo di aver lasciato le chiavi sul tavolo della cucina.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Gender: Male",
+      "text": "La riunione è prevista per le tre del pomeriggio.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Gender: Female",
+      "text": "Per favore, potresti inviarmi il documento via email entro la fine della giornata?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Gender: Male",
+      "text": "A causa del maltempo, la riunione di oggi è stata posticipata a domani alla stessa ora.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Gender: Female",
+      "text": "Questa procedura serve a garantire la sicurezza delle informazioni.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Pitch: Very High",
+      "text": "Chiudi la finestra, per cortesia.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Pitch: High",
+      "text": "Secondo le previsioni, il tempo rimarrà stabile per tutto il fine settimana.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Pitch: Low",
+      "text": "L'ascensore è temporaneamente fuori servizio.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Pitch: Very Low",
+      "text": "Bisogna sempre trovare il tempo per fare ciò che ci rende felici.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Texture: Deep",
+      "text": "Il processo di fotosintesi nelle piante converte la luce solare in energia chimica.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_texture__0001",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Texture: Breathy",
+      "text": "A volte il tempo sembra fermarsi del tutto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_texture__0002",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Texture: Husky",
+      "text": "Ho visto un film interessante ieri sera al cinema con degli amici.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_texture__0003",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Texture: Bright",
+      "text": "Si prega di notare che l'ufficio chiuderà alle cinque.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_texture__0004",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Texture: Clear",
+      "text": "Il documento deve essere compilato in tutte le sue parti prima della consegna.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_texture__0005",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Texture: Nasal",
+      "text": "Puoi aprire la finestra per cortesia?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_texture__0006",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Texture: Sweet",
+      "text": "Il pranzo sarà servito in giardino, tempo permettendo, a partire da mezzogiorno.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Use a child's voice, but deliver the line with a surprising amount of gravity and firmness, as if making a very important, official statement.",
+      "text": "Vorrei richiamare la vostra attenzione su un punto importante del regolamento.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Use the voice of an elderly person, but make it counter-stereotypically bright, clear, and relatively high-pitched, not weak or raspy.",
+      "text": "Il modo in cui la luce del mattino colpisce gli edifici è sempre affascinante.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. The voice should be a male voice with a naturally very high pitch, but the tone should be firm, confident, and assertive.",
+      "text": "Il processo richiede diversi passaggi per essere completato correttamente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. The delivery should start high-pitched and pleading, but shift decisively to a low-pitched, firm and defiant tone for the final part.",
+      "text": "Potresti almeno considerare quello che sto dicendo? È importante per me, davvero. Ho seguito le tue regole finora, ho fatto quello che volevi. Ma questa volta, le cose cambiano. Io scelgo per me stessa.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "start high and end low",
+        "tone": "start with a pleading tone, then become defiant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Tell the story by starting at a normal pace and pitch, then speeding up and raising your pitch for the exciting middle part, and finally slowing down and lowering your pitch back to normal for the calm ending.",
+      "text": "La gara stava per finire, ed eravamo secondi. All'ultima curva, il nostro pilota ha visto un'apertura, un'occasione quasi impossibile. Ha spinto l'acceleratore al massimo, ha superato il rivale all'interno con una manovra da brivido e ha tagliato il traguardo per primo! Dopo tutta quella tensione, la vittoria è stata ancora più dolce.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "start normal, rise to high in the middle, then return to normal",
+        "speed": "start normal, get fast in the middle, then slow down at the end"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Age: elderly, Gender: male, Emotion: thoughtful",
+      "text": "La caduta di un impero spesso inizia da una crisi morale, prima ancora che economica.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a philosophical statement about history."
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Use a high pitch and speak rapidly. Your tone should be insistent, pressing someone to complete a task.",
+      "text": "È necessario archiviare tutti i documenti del progetto entro la fine della giornata lavorativa.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The instruction_form is 'direct', so natural phrasing was used over the conflicting 'tag' format hint in constraints."
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Use a quiet, smoky female voice, sounding thoughtful and reserved.",
+      "text": "Le pennellate in questa sezione del dipinto sono insolitamente spesse.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The instruction_form is 'direct', so natural phrasing was used over the conflicting 'tag' format hint in constraints."
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "smoky",
+        "volume": "quiet",
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Imagine a happy child speaking playfully. Your voice should be high-pitched and full of delight.",
+      "text": "Il tavolo della cucina è rotondo e di un colore molto scuro.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The instruction_form is 'direct', so natural phrasing was used over the conflicting 'tag' format hint in constraints."
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high",
+        "emotion": "happy",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Gender: male, Age: adult, Pitch: low, Speed: slow, Emotion: sad",
+      "text": "A causa di un guasto imprevisto, l'erogazione dell'acqua sarà sospesa in via Garibaldi e nelle strade limitrofe dalle ore dieci fino al termine dei lavori di riparazione, previsti nel tardo pomeriggio.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "pitch": "low",
+        "speed": "slow",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this as a woman who is speaking quietly, her voice tinged with worry.",
+      "text": "Ti sei ricordato di chiudere la porta del garage prima di partire?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "worried",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Age: elderly, Texture: husky, Tone: complaining",
+      "text": "Anche oggi questo venticello umido non dà tregua.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The instruction_form is 'tag', so tag format was used over the conflicting natural phrasing hint in constraints."
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "husky",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Your delivery should be energetic and surprised, with a very high pitch, like someone sharing amazing news.",
+      "text": "Ci sono più stelle nell'universo che granelli di sabbia su tutte le spiagge della Terra.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "personality": "lively",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this line with a deep, male voice, dripping with sarcasm.",
+      "text": "Questa sì che è un'ottima soluzione al problema.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Age: child, Speed: fast, Emotion: fearful",
+      "text": "Il gatto nero è saltato giù dal davanzale della finestra.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "fast",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Deliver the line as an adult woman filled with cold anger and disdain.",
+      "text": "Per favore, archivi questi documenti in ordine alfabetico.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "adult",
+        "emotion": "angry",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Your voice is deep, resonant, and loud. Recount this simple event with a great deal of humor.",
+      "text": "Sono andato a innaffiare le piante sul balcone e ho accidentalmente innaffiato il postino che stava passando proprio in quel momento.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "rich",
+        "volume": "loud",
+        "personality": "humorous"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Gender: male, Age: elderly, Pitch: normal, Tone: pleading",
+      "text": "Mi aiuteresti un attimo ad aprire questo barattolo?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "elderly",
+        "pitch": "normal",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Perform the line with a gentle, breathy, and very quiet voice that carries a subtle sadness.",
+      "text": "Per prima cosa, disponi i piatti puliti uno sopra l'altro, poi metti le tazze sul ripiano superiore e infine sistema le posate nel cassetto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "volume": "very_quiet",
+        "emotion": "sad",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Deliver this announcement as a lively woman speaking very quickly, with an urgent tone.",
+      "text": "Attenzione, la riunione di marketing delle dieci è stata spostata nella sala conferenze B.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "speed": "very_fast",
+        "tone": "urging",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. The speaker is an adult with a very deep voice, reading a technical fact in a flat monotone.",
+      "text": "Un byte è un'unità di dati digitali che più comunemente consiste di otto bit, storicamente la dimensione di un singolo carattere di testo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "very_low",
+        "volume": "normal",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Gender: male, Texture: nasal, Tone: smug, Emotion: happy",
+      "text": "L'acqua è composta da due atomi di idrogeno e uno di ossigeno.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "nasal",
+        "tone": "smug",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. As a little girl trying to be charming to get what she wants, speak slowly in a high-pitched voice.",
+      "text": "Potrei avere un altro biscotto, solo uno piccolino?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "pitch": "high",
+        "speed": "slow",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. I want a man's voice, calm and thoughtful, with a very mellow, smooth quality. He's speaking at a natural volume, reflecting on a deep philosophical concept.",
+      "text": "L'infinito non è semplicemente un numero molto grande, ma un concetto che sfida la nostra capacità di quantificare. Esiste sia nel macrocosmo dell'universo che nel microcosmo dei numeri, un paradosso che ha affascinato i pensatori per secoli.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "mellow",
+        "volume": "normal",
+        "emotion": "thoughtful",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Age: elderly, Pitch: low, Speed: normal, Tone: disappointed, Emotion: sad",
+      "text": "Vi comunichiamo che la consegna dei documenti subirà un ritardo di alcuni giorni rispetto alla data prevista.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "pitch": "low",
+        "speed": "normal",
+        "tone": "disappointed",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "it"
+    }
+  ]
+}

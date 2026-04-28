@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/pitch",
+  "language": "fr",
+  "source_plan_file": "easy__timbre__direct__atomic__pitch.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this with an extremely high voice.",
+      "text": "Les résultats de l'étude seront publiés dans le prochain journal scientifique.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this in a high voice.",
+      "text": "Est-ce que tu peux m'aider avec ça ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Speak in a low-pitched voice.",
+      "text": "Le prochain train à destination de Marseille partira de la voie numéro sept.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this with an extremely low-pitched voice.",
+      "text": "On devrait peut-être essayer ce nouveau restaurant.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a very high-pitched voice.",
+          "text": "La réunion est prévue pour demain matin à dix heures précises.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should be in a very high register.",
+          "text": "Le musée national expose des œuvres d'art de plusieurs époques différentes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Say this with an extremely high voice.",
+          "text": "Les résultats de l'étude seront publiés dans le prochain journal scientifique.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a high-pitched voice.",
+          "text": "Pourriez-vous m'indiquer le chemin, s'il vous plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should be high.",
+          "text": "Peux-tu me passer le livre qui est sur la table ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Say this in a high voice.",
+          "text": "Est-ce que tu peux m'aider avec ça ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak in a low-pitched voice.",
+          "text": "Le prochain train à destination de Marseille partira de la voie numéro sept.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use a low vocal register.",
+          "text": "Nous vous informons que le magasin fermera exceptionnellement à dix-huit heures.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your voice should be low.",
+          "text": "L'embarquement pour le vol quatre-vingt-douze va commencer dans quelques instants.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a very low, deep voice.",
+          "text": "Je crois que j'ai oublié mes clés à la maison.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should be in a very low register.",
+          "text": "Finalement, le temps n'est pas si mauvais aujourd'hui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Say this with an extremely low-pitched voice.",
+          "text": "On devrait peut-être essayer ce nouveau restaurant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    }
+  ]
+}

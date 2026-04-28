@@ -1,0 +1,427 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "en",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Read the line in a warm, educational manner. Imagine you're helping someone grasp a difficult idea, so be clear and encouraging.",
+      "text": "It might seem complicated at first, but if we break it down into smaller parts, it becomes much more manageable.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as if you're a teacher, patiently and clearly explaining a concept to someone for the first time. Your tone should be encouraging.",
+          "text": "The first step is to recognize the underlying pattern, and once you see it, everything else will start to fall into place.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt a teaching voice. Be clear and methodical in your explanation, using a supportive and patient tone.",
+          "text": "Think about it this way: each component has a specific function, and they all work together to achieve the final outcome.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read the line in a warm, educational manner. Imagine you're helping someone grasp a difficult idea, so be clear and encouraging.",
+          "text": "It might seem complicated at first, but if we break it down into smaller parts, it becomes much more manageable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with the polished, formal, and authoritative voice of a broadcast announcer.",
+          "text": "We will return after this brief intermission. Please remain in your designated areas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a classic announcer's voice: clear, well-enunciated, and with a formal, professional tone.",
+          "text": "The following presentation is intended for all audiences. We hope you find it informative.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver the line with the authority and polished delivery of a professional announcer making a public statement.",
+          "text": "Your attention, please. The program will commence momentarily. We appreciate your cooperation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the energetic, friendly, and projected voice of a street vendor trying to attract a crowd.",
+          "text": "Come on over, folks, you won't want to miss this! Take a look, right here!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a loud, engaging, and enthusiastic tone, like you're calling out to people on a busy street to get their attention.",
+          "text": "Hey, check this out! The best you'll find anywhere, I guarantee it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the voice of a friendly market vendor. Be energetic and a little loud, trying to draw in passersby.",
+          "text": "Step right up, don't be shy! You've got to see this for yourself!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with the calm, polite, and consistently helpful tone of a customer service agent on the phone.",
+          "text": "I understand your concern, and I'll do everything I can to help you resolve this issue today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt a professional and reassuring voice, like a support agent helping a client. Your tone should be patient and polite.",
+          "text": "Thank you for your patience. Let's work together to find a solution that works for you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a friendly, helpful, and professional speaking style, as if you are assisting someone over the phone.",
+          "text": "I can certainly look into that for you. I'm confident we can get this sorted out.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the enthusiastic and engaging voice of a tour guide. Project your voice and articulate clearly as if addressing a group.",
+          "text": "And if you look over to your left, you'll see a remarkable example of early craftsmanship. The intricate details here tell a story that has been passed down through generations.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the line with the high energy and clear diction of a tour guide leading a group through an interesting place.",
+          "text": "We're now entering what many consider to be the heart of the entire structure. Pay close attention to the way the light filters in from above, creating a truly unique atmosphere.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a friendly tour guide. Your voice should be lively, informative, and easy for a group of people to hear and understand.",
+          "text": "Many people walk right past this next point of interest, but it's actually one of the most significant pieces in the whole collection. Let me tell you a little bit about its history.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a calm, professional, and reassuring tone, like a doctor explaining important information clearly and carefully.",
+          "text": "Based on the information we have, the best course of action is to proceed with the recommended steps. It's a standard and very effective process.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use the voice of a medical professional: calm, confident, and empathetic. Your delivery should be clear and measured.",
+          "text": "It's important that we monitor the situation closely for any changes. Regular observation is key to ensuring a positive outcome.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt a professional, reassuring manner, as if you are a doctor providing a careful explanation. Your tone should inspire confidence and trust.",
+          "text": "The results indicate that everything is proceeding as expected, which is very good news. We will continue to follow the established plan.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the rapid, rhythmic, and clear patter of an auctioneer. The pace should be very fast but still intelligible, with a sense of rising excitement.",
+          "text": "Here's a fine piece, a wonderful item, look at the condition, absolutely pristine, who'll give me a start on this one, a real beauty, one of a kind, a rare find indeed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the line with the signature fast-paced, rhythmic chant of an auctioneer. Maintain clarity even at high speed.",
+          "text": "Next up we have the polished mahogany, the hand-carved detailing, the original finish, a collector's dream, what an opportunity, what a chance to own it now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the urgent, fast, and rhythmic speaking style of an auctioneer. You're trying to build momentum and excitement quickly.",
+          "text": "Look at this one, see the quality, feel the history, it's an incredible piece, a true work of art, a fantastic addition, don't let it get away, don't miss out.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the casual, engaging, and conversational tone of a podcast host talking directly to their audience.",
+          "text": "So, I was thinking about this the other day, and it struck me as really odd. It's one of those things you never question until you stop and really consider the implications.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt a relaxed, conversational style, as if you're sharing an interesting story with a friend. The delivery should feel natural and unscripted.",
+          "text": "And that's when I realized the whole situation was much more complex than I'd initially thought. There were all these layers that I hadn't even considered at the start of it all.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a friendly, intimate, and engaging voice, like you're hosting a solo show and speaking directly into a microphone.",
+          "text": "What's fascinating about this is how it connects back to something we were discussing a while ago. It's like all these different threads are finally starting to come together.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with the high energy and spontaneous style of a live streamer. Sound like you're reacting to something happening right now and talking to your audience about it.",
+          "text": "Whoa, did you see that? I can't believe that just happened! Okay, okay, we need to figure out what to do next. This changes everything, absolutely everything!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a very energetic and reactive voice, as if you are commentating on a live event. Your tone should be excitable and feel unscripted.",
+          "text": "No way! That was so close! I was sure it was over, but somehow we pulled through at the last second. My heart is pounding right now, that was intense!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of someone hosting a live broadcast. Be highly energetic and interactive, as if you're responding to comments and events as they occur.",
+          "text": "Yes! That's exactly what I was hoping for! Great suggestion from the chat on that one, you all are geniuses. Let's see if we can keep this momentum going.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/dysphonia",
+  "language": "it",
+  "source_plan_file": "special__extra_vocal__abnormal__dysphonia.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Read the text with a voice that sounds out of breath.",
+      "text": "Ho bisogno di un bicchiere d'acqua, se non ti dispiace, te ne sarei molto grato.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Your voice should sound hoarse and raspy, like you have a sore throat.",
+      "text": "Il rapporto indica che le vendite sono aumentate del quindici percento questo trimestre.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Use a trembling vocal delivery for this line.",
+      "text": "A volte mi chiedo se abbiamo preso la decisione giusta quel giorno.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Deliver the command with a vocal quality that sounds forced and strained.",
+      "text": "Assicurati che la porta sia chiusa a chiave prima di andartene.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Sound like you've just finished a hard run; your voice should be breathy and a little shaky.",
+      "text": "Oh, ciao, non ti avevo visto arrivare, dammi solo un secondo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Your voice should sound like you've just stopped crying—thick with emotion and with unsteady breath.",
+      "text": "Grazie per essere qui con me, lo apprezzo molto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Perform this with an extremely fatigued voice, low in energy, slow, and almost weak.",
+      "text": "L'intero processo richiede di compilare diversi moduli e poi attendere l'approvazione, il che può richiedere alcune settimane.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "fatigued_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Deliver the line with a breathless quality, as if you've been rushing and are short of breath.",
+          "text": "Potresti per favore aspettare un momento? Devo solo trovare quel documento.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Use a breathless voice, like you've just run up a flight of stairs.",
+          "text": "Scusami, puoi ripetere l'ultima parte? Non stavo ascoltando attentamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Read the text with a voice that sounds out of breath.",
+          "text": "Ho bisogno di un bicchiere d'acqua, se non ti dispiace, te ne sarei molto grato.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Your voice should sound hoarse and raspy, like you have a sore throat.",
+          "text": "Il rapporto indica che le vendite sono aumentate del quindici percento questo trimestre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Use a gravelly, hoarse voice for this line.",
+          "text": "Secondo le previsioni, domani il tempo sarà soleggiato con temperature miti.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver the text with a noticeably hoarse and scratchy vocal quality.",
+          "text": "L'edificio che vedi sulla destra è la biblioteca principale della città.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read the sentence with a voice that is trembling and unsteady.",
+          "text": "Non avevo mai considerato le cose da questo punto di vista prima d'ora.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your voice should sound shaky and tremulous, as if you're trying to hold back strong emotions.",
+          "text": "È difficile esprimere a parole quanto questo significhi per me.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Use a trembling vocal delivery for this line.",
+          "text": "A volte mi chiedo se abbiamo preso la decisione giusta quel giorno.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Use a strained voice, as if you are speaking through a tight throat or with great effort.",
+          "text": "Voglio che tu finisca questo lavoro entro la fine della giornata, senza scuse.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your voice should sound tense and strained.",
+          "text": "Per favore, metti giù quel telefono e ascoltami attentamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver the command with a vocal quality that sounds forced and strained.",
+          "text": "Assicurati che la porta sia chiusa a chiave prima di andartene.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Sound like you've just finished a hard run; your voice should be breathy and a little shaky.",
+          "text": "Oh, ciao, non ti avevo visto arrivare, dammi solo un secondo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Perform this line as if you just stopped running a long distance, with a breathless and slightly unsteady voice.",
+          "text": "Penso di aver lasciato le mie chiavi sul tavolo della cucina, puoi controllare?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Your voice should reflect the state of being out of breath after intense physical exertion, like a sprint.",
+          "text": "Sì, ho ricevuto la tua email, la leggerò non appena avrò un momento.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this as someone who has just been crying. The voice should be thick, a bit shaky, and slightly choked.",
+          "text": "No, va tutto bene, davvero. Sono solo un po' scossa, ma passerà.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your voice should sound like you've just stopped crying—thick with emotion and with unsteady breath.",
+          "text": "Grazie per essere qui con me, lo apprezzo molto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver the line with the after-effects of crying in your voice: a little hoarse, breathy, and congested.",
+          "text": "Non preoccuparti per me, starò bene. Parliamo d'altro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "fatigued_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Perform this with an extremely fatigued voice, low in energy, slow, and almost weak.",
+          "text": "L'intero processo richiede di compilare diversi moduli e poi attendere l'approvazione, il che può richiedere alcune settimane.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your voice should sound utterly exhausted, as if you have no energy left. Speak slowly and softly.",
+          "text": "Abbiamo passato tutta la giornata a riorganizzare gli archivi, spostando ogni singola scatola da una stanza all'altra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver the text with a voice drained of all energy, reflecting deep physical and mental fatigue.",
+          "text": "La guida spiega che per assemblare il mobile bisogna prima unire i pannelli laterali e poi fissare lo schienale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    }
+  ]
+}

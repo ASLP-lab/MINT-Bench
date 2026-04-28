@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/age",
+  "language": "de",
+  "source_plan_file": "easy__timbre__tag__atomic__age.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Age: Child",
+      "text": "Entschuldigung, wissen Sie, wo die Bibliothek ist?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Age: Adult",
+      "text": "Der Pazifische Ozean ist der größte und tiefste Ozean der Erde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Age: Elderly",
+      "text": "Manchmal ist es gut, einfach nur dazusitzen und die Stille zu genießen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Age: Adult",
+      "text": "Der nächste Zug nach Berlin fährt von Gleis sieben ab.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Age: Child",
+          "text": "Können Sie mir bitte sagen, wie spät es ist?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Age: Child",
+          "text": "Würden Sie mir bitte die Tür aufhalten?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Age: Child",
+          "text": "Entschuldigung, wissen Sie, wo die Bibliothek ist?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Age: Adult",
+          "text": "Die Sonne geht im Osten auf und im Westen unter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Age: Adult",
+          "text": "Wasser besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Age: Adult",
+          "text": "Der Pazifische Ozean ist der größte und tiefste Ozean der Erde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Age: Elderly",
+          "text": "Es ist interessant, wie sich die Jahreszeiten jedes Jahr wiederholen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Age: Elderly",
+          "text": "Manchmal ist es gut, einfach nur dazusitzen und die Stille zu genießen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Age: Elderly",
+          "text": "Die Wolken am Himmel bilden oft die erstaunlichsten Formen und Muster.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Age: Adult",
+          "text": "Die Besprechung beginnt in fünf Minuten im Konferenzraum.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Age: Adult",
+          "text": "Bitte beachten Sie, dass die Bibliothek heute früher schließt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Age: Adult",
+          "text": "Der nächste Zug nach Berlin fährt von Gleis sieben ab.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

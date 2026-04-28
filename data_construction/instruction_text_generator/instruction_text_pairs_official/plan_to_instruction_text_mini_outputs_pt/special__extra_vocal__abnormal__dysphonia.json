@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/dysphonia",
+  "language": "pt",
+  "source_plan_file": "special__extra_vocal__abnormal__dysphonia.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Your voice should sound consistently winded and out of breath while speaking.",
+      "text": "Gostaria de saber se o meu pedido já está pronto para ser retirado.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Read the text with a deep, scratchy, and hoarse voice.",
+      "text": "A água ferve a cem graus Celsius ao nível do mar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Deliver the line with a constantly shaky and quavering voice, without sounding emotional.",
+      "text": "É interessante pensar em como as coisas mudaram ao longo dos anos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Your voice should sound like it has very little force behind it, quiet and with poor breath support.",
+      "text": "Este documento explica os termos e condições do contrato de serviço.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Read this line with a lot of vocal strain, making it sound difficult to speak.",
+      "text": "Lembre-se de preencher o formulário com todas as informações necessárias.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Your voice should sound winded and slightly shaky, like you are catching your breath after some heavy exercise.",
+      "text": "Lembrete: a coleta de lixo reciclável acontece todas as quintas-feiras de manhã.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Deliver this line as if you've just been crying for a while. Your voice should be a bit thick, tired, and unsteady.",
+      "text": "Acho que vou precisar comprar mais café quando for ao supermercado hoje.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read the sentence with a breathless voice, as if you're constantly out of air.",
+          "text": "Pode me passar aquele livro que está na prateleira de cima, por favor?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver the line with a consistently airy and breathless quality, struggling to get enough breath for each phrase.",
+          "text": "Você poderia me ajudar a encontrar a seção de jardinagem nesta loja?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Your voice should sound consistently winded and out of breath while speaking.",
+          "text": "Gostaria de saber se o meu pedido já está pronto para ser retirado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this with a very hoarse and raspy voice.",
+          "text": "A capital do Brasil é Brasília, localizada no Distrito Federal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use a gravelly, hoarse vocal quality for the entire sentence.",
+          "text": "O relatório indica que as vendas aumentaram cinco por cento no último trimestre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Read the text with a deep, scratchy, and hoarse voice.",
+          "text": "A água ferve a cem graus Celsius ao nível do mar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read this with a voice that trembles and shakes throughout, but keep the emotional tone neutral.",
+          "text": "Acho que a cor da parede combina bem com os móveis da sala.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Your voice should have a noticeable tremor, making it sound unsteady, but the overall feeling should be calm.",
+          "text": "Lembro-me de como o céu ficava bonito durante o pôr do sol naquela praia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the line with a constantly shaky and quavering voice, without sounding emotional.",
+          "text": "É interessante pensar em como as coisas mudaram ao longo dos anos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak with a very thin voice that lacks power, as if you have weak breath support.",
+          "text": "O processo de fotossíntese converte a luz solar em energia química.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this line with a weak and unsupported voice, making it sound frail and without projection.",
+          "text": "Para montar o aparelho, primeiro você precisa conectar o cabo A na entrada B.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Your voice should sound like it has very little force behind it, quiet and with poor breath support.",
+          "text": "Este documento explica os termos e condições do contrato de serviço.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this with a strained voice, as if every word is a huge effort to produce.",
+          "text": "Por favor, coloque todos os itens de volta em suas caixas originais.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Your delivery should sound very tense and strained, like you are forcing the words out.",
+          "text": "Certifique-se de que a porta esteja trancada antes de sair do escritório.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Read this line with a lot of vocal strain, making it sound difficult to speak.",
+          "text": "Lembre-se de preencher o formulário com todas as informações necessárias.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak as if you just finished a long run, so your voice is breathy and a little unsteady.",
+          "text": "O elevador de serviço estará em manutenção amanhã das nove ao meio-dia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver the line like you've just stopped running; your breathing is heavy and your speech is slightly broken.",
+          "text": "A reunião do comitê foi remarcada para a próxima terça-feira à tarde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Your voice should sound winded and slightly shaky, like you are catching your breath after some heavy exercise.",
+          "text": "Lembrete: a coleta de lixo reciclável acontece todas as quintas-feiras de manhã.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Deliver this line as if you've just been crying for a while. Your voice should be a bit thick, tired, and unsteady.",
+          "text": "Acho que vou precisar comprar mais café quando for ao supermercado hoje.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Your voice should sound like you've recently finished a good cry—a bit stuffy, shaky, and fatigued.",
+          "text": "O carteiro já passou hoje? Estou esperando uma encomenda importante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Read this with the vocal quality of someone who has just stopped crying: slightly hoarse, with small hitches in the voice.",
+          "text": "A previsão do tempo disse que não vai chover no fim de semana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

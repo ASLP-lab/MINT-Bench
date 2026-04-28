@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/age",
+  "language": "it",
+  "source_plan_file": "easy__timbre__direct__atomic__age.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian, using a high-pitched child's voice.",
+      "text": "Mi aiuti ad aprire questa scatola?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. The voice should be that of a regular adult.",
+      "text": "La ricetta richiede tre uova, duecento grammi di farina e un po' di zucchero.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. The speaker should sound like an elderly person.",
+      "text": "A volte, la soluzione più semplice è quella che si nasconde proprio davanti ai nostri occhi.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian, using a typical adult voice.",
+      "text": "L'imbarco per il volo delle diciassette inizierà tra pochi minuti.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Use the voice of a young child.",
+          "text": "Potresti passarmi quel libro, per favore?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian, using a high-pitched child's voice.",
+          "text": "Mi aiuti ad aprire questa scatola?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. The speaker should sound like a little kid.",
+          "text": "Sai a che ora chiude il negozio?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Use a standard adult voice.",
+          "text": "Il sole tramonta più tardi durante i mesi estivi, a causa dell'inclinazione dell'asse terrestre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian, with a typical voice for an adult.",
+          "text": "La maggior parte dei computer moderni utilizza unità a stato solido per l'archiviazione dei dati.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. The voice should be that of a regular adult.",
+          "text": "La ricetta richiede tre uova, duecento grammi di farina e un po' di zucchero.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. The speaker should sound like an elderly person.",
+          "text": "A volte, la soluzione più semplice è quella che si nasconde proprio davanti ai nostri occhi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Use the voice of an old man or woman.",
+          "text": "È interessante come la tecnologia abbia cambiato il modo in cui comunichiamo ogni giorno.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian, in a voice that sounds advanced in years.",
+          "text": "Non avrei mai pensato che un singolo colore potesse avere così tante sfumature diverse.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian, using a typical adult voice.",
+          "text": "L'imbarco per il volo delle diciassette inizierà tra pochi minuti.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Just use a normal adult voice.",
+          "text": "Si prega di notare che la biblioteca chiuderà alle sei stasera.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. The voice should be that of an adult.",
+          "text": "Il prossimo treno in arrivo al binario due è diretto a Roma Termini.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

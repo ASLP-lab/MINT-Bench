@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/age",
+  "language": "en",
+  "source_plan_file": "easy__timbre__direct__atomic__age.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Read this as if you are a little kid.",
+      "text": "A dolphin can swim very fast.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this in a young child's voice.",
+          "text": "The sun is a very big star.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this as if you are a little kid.",
+          "text": "A dolphin can swim very fast.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this with the voice of a young child.",
+          "text": "Some trees lose their leaves in the fall.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in a standard adult voice.",
+          "text": "Just a reminder that the library will be closing at five o'clock this evening.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a typical adult speaking voice for this line.",
+          "text": "Please remember to submit your weekly report by the end of the day on Friday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak this with a normal adult voice.",
+          "text": "The next all-hands meeting is scheduled for Tuesday morning at ten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this with the voice of an older person.",
+          "text": "It looks like we might get some rain later this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this as an older adult would.",
+          "text": "The flowers in the garden are really starting to come up this year.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use an older, more senior voice for this.",
+          "text": "That breeze feels wonderful after such a warm day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Use a mature, adult tone for this.",
+          "text": "Could you please tell me how to get to the train station?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in a standard adult voice.",
+          "text": "Excuse me, do you happen to have the time?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with an adult's voice.",
+          "text": "Would you mind passing the salt, please?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

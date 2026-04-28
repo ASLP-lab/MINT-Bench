@@ -1,0 +1,295 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/disfluency",
+  "language": "en",
+  "source_plan_file": "special__extra_vocal__abnormal__disfluency.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Read the text with a stutter, getting stuck on the first sound of some of the words.",
+      "text": "The capital city is located approximately two hundred miles from the coast.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read the text with a stutter, getting stuck on the first sound of some of the words.",
+          "text": "The capital city is located approximately two hundred miles from the coast.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak as if you have a stutter, where you have trouble starting certain words and prolong the initial consonant.",
+          "text": "Historical records indicate that the bridge was constructed in the early nineteenth century.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Perform this line with a stutter. You should occasionally get caught on the beginning of a word, like 'p-p-project'.",
+          "text": "The project requires a significant investment of both time and financial resources.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this sentence, but repeat some of the words as if you're finding it difficult to get the thought out.",
+          "text": "Could you please pass me the salt from the other end of the table?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak with a disfluency where you repeat small words or short phrases, like 'I need to... I need to go'.",
+          "text": "I need to find the key that opens the front door of the building.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your speech should have some repetitions. Go back and say a word or two over again before continuing with the sentence.",
+          "text": "Can you show me how to operate this new coffee machine?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this line, but insert sudden, silent pauses mid-sentence, as if you're blocking and can't get the next word out.",
+          "text": "The fundamental principle behind this technology involves the conversion of thermal energy into mechanical work through a cyclical process.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the text with a speech block. There should be moments where you stop speaking abruptly, unable to produce a sound for a moment before continuing.",
+          "text": "According to the manual, the primary function of this component is to regulate the flow of electricity to the main circuit board.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Perform this with a speech disfluency known as blocking. Mid-thought, you should just stop, with a tense silence, before you can finally say the next word.",
+          "text": "One of the most important considerations for long-term storage is maintaining a consistent temperature and humidity level within the facility.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this sentence, but make it sound like it's very difficult for you to start speaking.",
+          "text": "I think we should probably head out soon if we want to catch the beginning of the movie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line with a hesitant onset. Take a moment and struggle a bit before the first word comes out.",
+          "text": "The weather forecast said there was a chance of rain later this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your speech should have a delayed start. There's a noticeable effort and pause before you manage to begin the sentence.",
+          "text": "That restaurant on the corner serves the best pizza in the entire neighborhood.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a consistent stutter throughout. You should repeat or prolong syllables in several of the words.",
+          "text": "It's interesting to consider how different decisions could have led to completely different outcomes in the grand scheme of things.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt a speaking style that includes a stutter. This means you might get stuck on certain sounds or repeat parts of words as you talk.",
+          "text": "Sometimes I wonder if the path we're on is truly the one we were meant to follow, or just a series of convenient coincidences.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this reflection with a noticeable stutter affecting your speech from beginning to end.",
+          "text": "Reflecting on the past, it's clear that communication was the most critical element for the success of the entire team.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this line of dialogue with a repetition-based disfluency. Repeat the first word a couple of times before you can say the rest of the sentence.",
+          "text": "Well, I think the best option is to wait until we have more information.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this as if you're having trouble getting started, repeating the first word of the phrase before you can continue.",
+          "text": "Actually, I was hoping we could discuss the quarterly report sometime this week.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line with a repetition. For example, you might say 'I... I... I don't know' before finishing the sentence.",
+          "text": "So, the reason I called is to confirm our meeting for tomorrow morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    }
+  ]
+}

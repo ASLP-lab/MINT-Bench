@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/speed",
+  "language": "it",
+  "source_plan_file": "easy__style__direct__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this as quickly as you possibly can, like you're in a huge hurry.",
+      "text": "Prendi le chiavi, chiudi la porta, spegni le luci e corri fuori subito, non c'è tempo da perdere!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text's urgency naturally prompts a very fast delivery."
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this with a quick and energetic pace, faster than your normal speaking rate.",
+      "text": "Il treno per Milano è in arrivo al binario tre. Si prega di non oltrepassare la linea gialla.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard train station announcement."
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Use a slow, deliberate pace for this sentence.",
+      "text": "Guardando le stelle, ci si rende conto di quanto siamo piccoli nell'immensità dell'universo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "An observational thought that encourages a slow, reflective tone."
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Read this at an extremely slow pace, as if explaining something very important.",
+      "text": "Per costruire una base solida, ogni singolo mattone deve essere posato con la massima precisione.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text describes a careful process, justifying a very slow pace."
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say this as quickly as you possibly can, like you're in a huge hurry.",
+          "text": "Prendi le chiavi, chiudi la porta, spegni le luci e corri fuori subito, non c'è tempo da perdere!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's urgency naturally prompts a very fast delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Read this in a rushed, frantic pace, spitting the words out.",
+          "text": "Dobbiamo comprare pane, latte, uova, formaggio, frutta e verdura prima che il negozio chiuda.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A classic rapid list scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver these words at a very fast speed, almost stumbling over them.",
+          "text": "Gira a destra al prossimo incrocio, poi subito a sinistra, prosegui dritto per duecento metri, l'edificio è quello rosso.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Rapid-fire directions that require a very fast pace."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say this with a quick and energetic pace, faster than your normal speaking rate.",
+          "text": "Il treno per Milano è in arrivo al binario tre. Si prega di non oltrepassare la linea gialla.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard train station announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Read this at a brisk, upbeat tempo.",
+          "text": "Benvenuti al nostro evento annuale! La cerimonia di apertura inizierà tra pochi minuti.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "An upbeat announcement that suits a fast pace."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver this line at a faster-than-usual speed, but keep it clear.",
+          "text": "Attenzione, il negozio sta per chiudere. Vi preghiamo di recarvi alle casse.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A typical closing time announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this in a slow, contemplative tone.",
+          "text": "A volte, il silenzio dice più di mille parole, e bisogna solo imparare ad ascoltarlo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a philosophical reflection suitable for a slow pace."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Say this slowly and thoughtfully, as if you're reflecting on the idea.",
+          "text": "Ogni tramonto porta la promessa di una nuova alba, un ciclo senza fine di speranza.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Poetic text that lends itself to a slow, thoughtful delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Use a slow, deliberate pace for this sentence.",
+          "text": "Guardando le stelle, ci si rende conto di quanto siamo piccoli nell'immensità dell'universo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "An observational thought that encourages a slow, reflective tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say this very slowly and deliberately, giving weight to each word.",
+          "text": "La memoria di coloro che non ci sono più vive attraverso le nostre azioni quotidiane.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The solemn nature of the text suits a very slow delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Read this at an extremely slow pace, as if explaining something very important.",
+          "text": "Per costruire una base solida, ogni singolo mattone deve essere posato con la massima precisione.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a careful process, justifying a very slow pace."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver this sentence very slowly, drawing out the words for emphasis.",
+          "text": "Il tempo non guarisce tutte le ferite, ma ci insegna a convivere con le cicatrici.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A profound statement that benefits from a very slow, emphatic reading."
+          }
+        }
+      ]
+    }
+  ]
+}

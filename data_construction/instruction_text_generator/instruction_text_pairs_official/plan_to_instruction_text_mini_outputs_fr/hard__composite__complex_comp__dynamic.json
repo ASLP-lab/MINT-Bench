@@ -1,0 +1,701 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "fr",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 11,
+  "num_output_items": 11,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Begin at a moderate speaking rate, then continuously accelerate your pace throughout the sentence.",
+      "text": "Pour comprendre l'histoire de l'art moderne, il faut d'abord examiner les mouvements artistiques du dix-neuvième siècle qui ont ouvert la voie à de nouvelles formes d'expression.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start at a normal pace and gradually accelerate to a fast speed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Perform this monologue by starting softly and increasing your volume throughout, ending in a powerful, loud voice.",
+      "text": "Au début, ce n'était qu'un murmure dans le vent, une idée fragile, mais maintenant c'est un cri, une tempête, une force que rien ne pourra arrêter !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "begin by speaking quietly, then build up to a very loud volume by the end"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read this list starting at your normal pitch, let your pitch rise high in the middle, and then bring it back down to normal for the end.",
+      "text": "Pour ce projet, nous aurons besoin de plusieurs choses : du papier, des ciseaux, de la colle forte, des marqueurs de toutes les couleurs, et enfin, un peu de patience.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "start with a normal pitch, raise it to high in the middle, and then return to a normal pitch at the end"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read this sentence in a calm, neutral tone, but then react with sudden surprise on the last few words.",
+      "text": "Je regardais par la fenêtre, observant les gens passer comme d'habitude, quand j'ai vu un éléphant sur un skateboard.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start with a neutral emotion, but sound suddenly surprised towards the end"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Perform this line by transitioning from a questioning, uncertain tone to a resolute and confident one.",
+      "text": "Peut-être que nous devrions attendre... ou peut-être pas. Non, j'en suis certain. C'est le moment de prendre ce risque et d'avancer.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "begin with a hesitant tone, but become more firm and confident as you speak"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. As you read this, simultaneously increase your speed from slow to fast and your volume from soft to very loud.",
+      "text": "La voiture approchait lentement du virage, puis elle a accéléré, de plus en plus vite, jusqu'à franchir la ligne d'arrivée en tête sous les acclamations de la foule !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "from slow to fast",
+        "volume": "from quiet to very loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. At a constant slow speed, begin speaking as if you are lost in thought, and then let a warm, happy feeling enter your voice as you continue.",
+      "text": "On se demande parfois si on a fait les bons choix dans la vie... et puis on regarde ses enfants jouer et on sait que chaque moment en valait la peine.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "transition from thoughtful to happy",
+        "speed": "maintain a constant slow speed throughout"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this line with two opposing dynamic changes: your pitch should go up, and your volume should go down.",
+      "text": "C'était comme un cri puissant qui s'est transformé en un murmure strident, s'étirant vers le silence tout en devenant plus perçant.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "gradually rise from low to high",
+        "volume": "simultaneously fade from loud to quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Your performance should move from thoughtful (slow, normal pitch) to worried (faster, higher pitch), and finally to fearful (very fast, high pitch).",
+      "text": "Je ne retrouve plus mon portefeuille, je l'avais il y a une minute... J'espère vraiment que je ne l'ai pas perdu dans la rue... Mon Dieu, mon passeport était dedans !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "progression": "Start thoughtful (slow, normal pitch), then become worried (faster, higher pitch), and end fearful (very fast, high pitch)."
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Perform a transition of tone: from uncaring to pleading, and then from pleading to resigned disappointment.",
+      "text": "Vous pouvez choisir n'importe laquelle des options, ça ne change rien. Mais ne voyez-vous pas que celle-ci est la seule qui peut nous sauver ? D'accord, alors. Il n'y a plus rien à dire.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "begin with an indifferent tone, then shift to a pleading one, and finish with a disappointed tone"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver the first part with a detached, sarcastic tone. Then, let that sarcasm give way to real anger, making your voice firm and direct.",
+      "text": "Ah, te voilà avec la réponse à tout. Je devrais peut-être prendre des notes pour la prochaine fois. Mais tu sais quoi ? J'en ai marre de ce petit jeu ! Ce n'est pas drôle, et les conséquences sont réelles. Il est temps que tu ouvres les yeux !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good realization of a two-stage emotional progression."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "progression": "Start with a sarcastic tone while emotionally neutral. Then, transition into genuine anger with a firm tone."
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start at a normal pace and gradually accelerate to a fast speed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Start speaking at a normal pace and gradually speed up until you're talking quite fast by the end.",
+          "text": "Le processus de photosynthèse est fondamental pour la plupart des formes de vie sur Terre, convertissant la lumière du soleil en énergie chimique stockée dans des molécules de glucides.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Begin at a moderate speaking rate, then continuously accelerate your pace throughout the sentence.",
+          "text": "Pour comprendre l'histoire de l'art moderne, il faut d'abord examiner les mouvements artistiques du dix-neuvième siècle qui ont ouvert la voie à de nouvelles formes d'expression.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this sentence starting at a regular speed and getting progressively faster.",
+          "text": "L'intelligence artificielle a le potentiel de transformer de nombreux secteurs de notre économie, de l'automatisation des tâches à la découverte de nouveaux traitements médicaux.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "begin by speaking quietly, then build up to a very loud volume by the end"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Start off speaking in a whisper, and gradually build your volume until you are shouting by the final words.",
+          "text": "Je ne peux plus le supporter. Chaque jour, la même routine, et personne ne voit, personne n'entend, mais je vous le dis, tout va changer !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this line with a steady crescendo, moving from very quiet at the beginning to very loud at the end.",
+          "text": "Vous pensez que je suis faible ? Que je vais abandonner ? Vous vous trompez lourdement, car ma détermination est plus forte que vous ne l'imaginerez jamais !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Perform this monologue by starting softly and increasing your volume throughout, ending in a powerful, loud voice.",
+          "text": "Au début, ce n'était qu'un murmure dans le vent, une idée fragile, mais maintenant c'est un cri, une tempête, une force que rien ne pourra arrêter !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "start with a normal pitch, raise it to high in the middle, and then return to a normal pitch at the end"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this list starting at your normal pitch, let your pitch rise high in the middle, and then bring it back down to normal for the end.",
+          "text": "Pour ce projet, nous aurons besoin de plusieurs choses : du papier, des ciseaux, de la colle forte, des marqueurs de toutes les couleurs, et enfin, un peu de patience.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use a pitch contour that starts normal, goes up high for the middle section, and then returns to a normal level.",
+          "text": "Les ingrédients principaux sont la farine, le sucre, les œufs, le beurre fondu qui est l'élément crucial, puis une pincée de sel et de la vanille.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your pitch should follow an arc: start at a regular level, rise significantly in the middle, and then fall back to your regular level by the end.",
+          "text": "Nous avons visité Paris, puis Lyon, ensuite nous sommes allés à Marseille pour voir la mer, ce qui était incroyable, avant de rentrer par Bordeaux.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start with a neutral emotion, but sound suddenly surprised towards the end"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this sentence in a calm, neutral tone, but then react with sudden surprise on the last few words.",
+          "text": "Je regardais par la fenêtre, observant les gens passer comme d'habitude, quand j'ai vu un éléphant sur un skateboard.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Start speaking in a matter-of-fact way, and then abruptly shift to a surprised tone at the very end.",
+          "text": "J'ai vérifié les chiffres du rapport trois fois pour être sûr, et tout semblait normal, sauf la dernière ligne qui indique un profit d'un milliard d'euros.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Begin with a neutral, observational delivery, but let your voice fill with astonishment when you get to the end of the sentence.",
+          "text": "Le ciel était clair, les oiseaux chantaient, une journée tout à fait ordinaire jusqu'à ce que je voie cette voiture volante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "begin with a hesitant tone, but become more firm and confident as you speak"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Start out sounding hesitant and unsure, but grow more confident and firm with each phrase.",
+          "text": "Je... je ne sais pas si c'est la bonne chose à faire... mais en y réfléchissant, oui, c'est la seule solution possible. Nous devons agir maintenant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Perform this line by transitioning from a questioning, uncertain tone to a resolute and confident one.",
+          "text": "Peut-être que nous devrions attendre... ou peut-être pas. Non, j'en suis certain. C'est le moment de prendre ce risque et d'avancer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your delivery should start tentatively, as if you're thinking out loud, and then become strong and decisive by the end.",
+          "text": "Hum, il y a plusieurs options, et chacune a ses inconvénients... Cependant, je crois que le choix A est, sans l'ombre d'un doute, le meilleur.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "from slow to fast",
+        "volume": "from quiet to very loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Start this line slowly and quietly, then progressively get faster and louder, building to an excited climax.",
+          "text": "D'abord il y eut une étincelle, puis une petite flamme, qui devint un feu, puis un brasier, et enfin une explosion de lumière qui illumina toute la vallée !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. As you read this, simultaneously increase your speed from slow to fast and your volume from soft to very loud.",
+          "text": "La voiture approchait lentement du virage, puis elle a accéléré, de plus en plus vite, jusqu'à franchir la ligne d'arrivée en tête sous les acclamations de la foule !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Perform this with a crescendo of both pace and volume. Begin slow and quiet, and end fast and loud.",
+          "text": "Le coureur a commencé son sprint final, d'abord doucement, puis ses jambes se sont mises à bouger plus vite, et encore plus vite, jusqu'à ce qu'il passe la ligne en un éclair !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "transition from thoughtful to happy",
+        "speed": "maintain a constant slow speed throughout"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Maintain a slow, deliberate pace throughout. Start with a thoughtful emotion, and transition to a happy one by the end.",
+          "text": "Je me souviens de cette vieille maison, de l'odeur du bois et de la pluie... et puis je me rappelle de nos rires dans le jardin, c'était vraiment un temps heureux.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speak slowly the entire time. Your emotional tone should evolve from pensive and reflective to genuinely joyful.",
+          "text": "Je pensais à toutes les difficultés que nous avons traversées, à tous les doutes... mais en fin de compte, réaliser tout ce que nous avons accompli ensemble me remplit de joie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. At a constant slow speed, begin speaking as if you are lost in thought, and then let a warm, happy feeling enter your voice as you continue.",
+          "text": "On se demande parfois si on a fait les bons choix dans la vie... et puis on regarde ses enfants jouer et on sait que chaque moment en valait la peine.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "gradually rise from low to high",
+        "volume": "simultaneously fade from loud to quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. As you say this, make your pitch steadily rise from low to high, while at the same time, your volume should decrease from loud to quiet.",
+          "text": "Imaginez le son d'une sirène qui commence très fort juste à côté de vous et qui s'éloigne ensuite dans la nuit jusqu'à disparaître complètement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Start speaking in a loud, low-pitched voice. As you continue, gradually raise your pitch and lower your volume, ending in a quiet, high-pitched voice.",
+          "text": "Le vrombissement du moteur était assourdissant au départ, puis il est devenu de plus en plus aigu et lointain alors que l'avion montait dans le ciel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this line with two opposing dynamic changes: your pitch should go up, and your volume should go down.",
+          "text": "C'était comme un cri puissant qui s'est transformé en un murmure strident, s'étirant vers le silence tout en devenant plus perçant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "progression": "Start thoughtful (slow, normal pitch), then become worried (faster, higher pitch), and end fearful (very fast, high pitch)."
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this in three stages. Start slow and thoughtful. Then, become faster and higher-pitched with worry. End very fast and high-pitched in fear.",
+          "text": "Attends, je crois que j'ai laissé la porte ouverte... Est-ce que tu as entendu ce bruit ? Oh non, je suis sûr que quelqu'un est entré dans la maison !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Perform a three-part emotional progression. First, thoughtful and slow. Second, worried, with a faster pace and higher pitch. Third, fearful, speaking very quickly in a high pitch.",
+          "text": "Il me semble que le temps se couvre un peu... Les nuages deviennent vraiment sombres, tu ne trouves pas ? Vite, il faut rentrer, c'est une tornade qui arrive !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your performance should move from thoughtful (slow, normal pitch) to worried (faster, higher pitch), and finally to fearful (very fast, high pitch).",
+          "text": "Je ne retrouve plus mon portefeuille, je l'avais il y a une minute... J'espère vraiment que je ne l'ai pas perdu dans la rue... Mon Dieu, mon passeport était dedans !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "begin with an indifferent tone, then shift to a pleading one, and finish with a disappointed tone"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this line in three distinct tones. Start indifferent, then shift to pleading, and end with a disappointed tone.",
+          "text": "Faites comme vous voulez, ça m'est égal. Mais s'il vous plaît, reconsidérez ma proposition, c'est vraiment important. Très bien, je vois que votre décision est prise.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your tone should progress through three stages: start with a detached, indifferent voice, then change to a begging, pleading voice, and finally conclude with a tone of disappointment.",
+          "text": "Le prix n'est pas vraiment un problème pour moi. Je vous en supplie, c'est la dernière chance que j'ai. Ah, je comprends. C'est donc un non définitif.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Perform a transition of tone: from uncaring to pleading, and then from pleading to resigned disappointment.",
+          "text": "Vous pouvez choisir n'importe laquelle des options, ça ne change rien. Mais ne voyez-vous pas que celle-ci est la seule qui peut nous sauver ? D'accord, alors. Il n'y a plus rien à dire.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "progression": "Start with a sarcastic tone while emotionally neutral. Then, transition into genuine anger with a firm tone."
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Start with a dry, sarcastic tone, but keep your emotions neutral. Then, let your voice shift into genuine anger, making your tone firm and forceful.",
+          "text": "Oh, bien sûr, c'est une idée absolument brillante. Vraiment, je me demande comment personne n'y a pensé avant. Non, sérieusement, arrête de dire n'importe quoi ! Tu ne réalises pas la gravité de la situation ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good realization of a two-stage emotional progression."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Begin the sentence with a sarcastic tone, but without any real emotion behind it. As you speak, transition into a firm, angry delivery.",
+          "text": "C'est parfait, encore une de tes solutions miracles qui va tout régler. Je suis très impressionné, comme toujours. Maintenant ça suffit ! J'en ai assez de tes excuses et de ton laxisme. Prends tes responsabilités pour une fois !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good realization of a two-stage emotional progression."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver the first part with a detached, sarcastic tone. Then, let that sarcasm give way to real anger, making your voice firm and direct.",
+          "text": "Ah, te voilà avec la réponse à tout. Je devrais peut-être prendre des notes pour la prochaine fois. Mais tu sais quoi ? J'en ai marre de ce petit jeu ! Ce n'est pas drôle, et les conséquences sont réelles. Il est temps que tu ouvres les yeux !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good realization of a two-stage emotional progression."
+          }
+        }
+      ]
+    }
+  ]
+}

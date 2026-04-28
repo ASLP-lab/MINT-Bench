@@ -1,0 +1,2107 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "en",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 32,
+  "num_output_items": 32,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver the line with a bright, happy voice, but make it clear through a sarcastic tone that you don't mean what you're saying.",
+      "text": "That's a brilliant idea. I can't believe none of us thought of that before.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of conflicting emotion and tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a child's voice, but with a very firm and serious personality. You are explaining a technical concept as if the listener is a simpleton.",
+      "text": "No, that's a common misconception. The primary driver of macroeconomic instability in this model is the endogenous credit cycle, not exogenous shocks.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict arises from child voice + serious, complex topic."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Your character is very reserved, but they have to make an announcement in a loud, booming voice. The conflict is between their personality and the required volume.",
+      "text": "Contestants for the pie-eating contest, please assemble at the main stage. The contestants are: John Smith, Mary Jones, and Peter Allen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between a reserved personality and very loud volume."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "volume": "very_loud",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Your voice is very quiet and your speech is slow, but it's filled with anger. Imagine you're furious but have to maintain a calm facade.",
+      "text": "I understand completely what you are telling me.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between angry emotion and quiet, slow delivery."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "The speaker is a man of authority and confidence. For this line, however, show his internal conflict by making his delivery hesitant and uncertain.",
+      "text": "Prepare the charges... and wait... wait for my signal.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between confident personality and hesitant tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "hesitant",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Perform this line with fake sadness. You're trying to sound sympathetic, but your smug pleasure at the situation is obvious in your tone.",
+      "text": "Oh, you must be devastated. I can't imagine how you must be feeling right now.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between feigned sadness and a smug tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in the voice of an elderly American man, but talk very, very fast, like you're reading the fine print on a commercial.",
+      "text": "Offer valid only in participating locations, subject to availability, not to be combined with any other offer, void where prohibited by law.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between elderly age and very fast speed."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "speed": "very_fast",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as someone who is usually very gentle and mild-mannered, but has finally been pushed to their limit. Your tone is angry and defiant.",
+      "text": "Thank you for the offer, but I'm afraid I have to say no. I will not be a part of this.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between a gentle personality and an angry, defiant tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "defiant",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "As a male speaker, describe the scene with a tone that tries to be indifferent and detached. However, your underlying fear should be audible, perhaps in a slight tremor or waver in your voice.",
+      "text": "The car is parked by the curb. The streetlights are on. It looks like it might rain soon.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between attempted indifferent tone and underlying fear."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "tone": "indifferent",
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a man's voice that is naturally in a very high register. Deliver the command with a firm and unwavering tone that leaves no room for argument.",
+      "text": "You will follow my instructions to the letter.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between very high pitch and a firm, commanding tone for a male voice."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "The speaker is usually a very cheerful person, but right now they're trying very hard to hide their sadness. Speak as if you're trying to convince yourself everything will be okay, but the sorrow is breaking through.",
+      "text": "Every new day is a chance to turn things around, and I'm sure tomorrow will be better.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of conflicting personality and emotion."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0011",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "With an Indian accent, deliver this line with a sense of utter surprise. But keep your voice very low, almost like you're speaking to yourself in disbelief.",
+      "text": "No, that's simply not possible. You must be mistaken.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good conflict between a strong emotion and quiet volume."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0012",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "surprised",
+        "volume": "quiet",
+        "accent": "indian_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "The speaker is a proud, aloof adult who despises showing weakness. However, they're in a situation where they absolutely must plead for assistance. The request should sound reluctant and forced, but genuinely pleading.",
+      "text": "I wouldn't ask if it weren't absolutely critical. I... I need your help.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Clear conflict between personality and tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0013",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "aloof",
+        "tone": "pleading",
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "The speaker is a woman with a naturally deep and husky voice. She's trying to be flirtatious and light, so there's a playful, coquettish quality to her tone that contrasts with her vocal texture.",
+      "text": "Well now, aren't you looking particularly sharp today?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good conflict between a heavy voice texture and a light tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0014",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "female",
+        "texture": "husky",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I need a voice that sounds like a very serious person trying, and failing, to adopt a playful tone. Their natural gravity keeps pulling through the lighthearted attempt.",
+      "text": "You should really make a habit of backing up your files. Wouldn't want the data gremlins to get them, wink wink.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good portrayal of an awkward conflict between personality and tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0015",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as an elderly grandparent who is secretly very worried about their grandchild, but is trying to hide it with a light, teasing tone so they don't seem like they're nagging.",
+      "text": "Are you eating enough over there, or are you just living on air and sunshine?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of layered affect; a teasing tone hiding worry."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0016",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "worried",
+        "tone": "teasing",
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as a very intelligent, precocious child. You're making a deep, thoughtful observation, but your tone is full of disdain for the adults who just don't seem to get it.",
+      "text": "It's funny how grown-ups are always rushing, but they never seem to get anywhere important.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Interesting conflict between child age, thoughtful emotion, and disdainful tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0017",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "emotion": "thoughtful",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak with the calm authority of a seasoned professional in a crisis. However, you need to speak very fast and with a sense of urgency because time is running out. The calm personality should be at odds with the speed.",
+      "text": "You need to apply pressure directly to the wound, then elevate the limb above the heart, and keep talking to me, stay with me.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good conflict between calm personality and fast, urgent delivery."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0018",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "speed": "fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I want a performance of someone giving a speech who feels they have to act happy, but is actually let down. The words are gracious, but the tone reveals their true feelings of disappointment.",
+      "text": "This is a wonderful surprise. I'm so grateful to be recognized among such amazing nominees.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Clear conflict between required emotion and underlying tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0019",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "With a British accent, deliver this rant. The speaker is furious, but their personality is so comedic that they can't help but make the complaint sound absurd and funny, even though the anger is 100% real.",
+      "text": "I ordered the soup of the day, and what I received was a bowl of lukewarm water with a single, depressed-looking crouton floating in the middle. I am incensed!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Strong conflict between a humorous personality and genuine anger."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0020",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "humorous",
+        "emotion": "angry",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice is syrupy sweet and you sound like you're teasing, but it's all a performance to hide your simmering anger.",
+      "text": "Well, isn't that just the most interesting way to handle things?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0021",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "playful",
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Read this alert message. You are an AI voice that can only speak at a very slow pace, but you are trying to urge people to act quickly.",
+      "text": "Danger. System integrity is at critical levels. Immediate action is required.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0022",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_slow",
+        "tone": "urging",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "You're usually a very lively and boisterous person, but right now you're deeply sad. Speak quietly as you try to tell a joke to make a friend feel better.",
+      "text": "Why don't scientists trust atoms? Because they make up everything.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0023",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "lively",
+        "emotion": "sad",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "You're trying to be charming and deliver a flirty line, but your delivery is hesitant and awkward, not smooth at all.",
+      "text": "Do you have a map? I keep getting lost in your eyes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0024",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Announce this fantastic news, but your voice should be full of profound sadness, creating a jarring contrast.",
+      "text": "I got the promotion. It's everything we ever wanted.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0025",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Announce this news loudly and with a cheerful, matter-of-fact tone, even though the euphemistic words describe something terrible.",
+      "text": "Just wanted to let everyone know that the quarterly projections have been permanently sunsetted!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0026",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "euphemistic",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your personality is usually very friendly, but your dislike for this person is strong. Make this offer of help sound superficially neutral, but with an undercurrent of contempt.",
+      "text": "If you can't manage on your own, I suppose I could give you a hand.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0027",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "warm",
+        "tone": "disdainful",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Force yourself to say these complimentary words. Make it clear from your angry delivery that you do not mean a single one of them.",
+      "text": "That was a truly beautiful song you played.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0028",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in an unusually deep, very low-pitched female voice, but recite this nursery rhyme with a sweet and gentle quality.",
+      "text": "Twinkle, twinkle, little star, how I wonder what you are.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0029",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "sweet",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Rapidly rattle off these instructions. Your tone should be one of constant complaint, showing your frustration with the task.",
+      "text": "Next, you're supposed to chop the onions. Finally, you sauté them in a pan with a little bit of oil until they're golden brown. It's not exactly rocket science.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0030",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "complaining",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Perform this as a public speaker who is known for being self-assured, but is currently overwhelmed by fear. Their words are confident, but their delivery should be strained and fearful.",
+      "text": "Thank you all for coming. I'm excited to have this opportunity to speak with you about a topic I'm very passionate about.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction sets up a conflict between a confident persona and a fearful emotional state. Text is a standard speech opening."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0031",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I need a male voice. The character is so consumed with worry that he can barely get the words out. Despite feeling speechless, he's pushing through a long explanation, making his voice sound very strained and hesitant.",
+      "text": "We've discovered that the security breach wasn't limited to the external firewall; it appears the attackers managed to gain root access to the core database by exploiting a zero-day vulnerability.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction creates a conflict between the need to explain and the feeling of being speechless from worry. Text is a neutral, long explanation."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0032",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "speechless",
+        "emotion": "worried",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a female character who sounds very happy and cheerful, but her tone is dripping with sarcasm as she says something congratulatory.",
+          "text": "Oh, wow, another promotion. I'm just so incredibly thrilled for you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting emotion and tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the line with a bright, happy voice, but make it clear through a sarcastic tone that you don't mean what you're saying.",
+          "text": "That's a brilliant idea. I can't believe none of us thought of that before.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting emotion and tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a female voice. The performance should sound outwardly joyful, but the underlying tone is sarcastic, as if you're giving a fake compliment.",
+          "text": "You handled that situation perfectly. Really, just a masterclass in diplomacy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting emotion and tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the voice of a child prodigy. You are firmly and seriously correcting an adult on a complex scientific matter.",
+          "text": "Actually, the quantum foam doesn't behave that way at all. The uncertainty principle dictates that the fluctuations are inherent, not observational artifacts.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict arises from child voice + serious, complex topic."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a child's voice, but with a very firm and serious personality. You are explaining a technical concept as if the listener is a simpleton.",
+          "text": "No, that's a common misconception. The primary driver of macroeconomic instability in this model is the endogenous credit cycle, not exogenous shocks.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict arises from child voice + serious, complex topic."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Sound like a very young but incredibly serious child. Your tone is firm as you patiently, but sternly, explain a difficult topic.",
+          "text": "You've misread the source code. The memory leak isn't in the rendering pipeline; it's a null pointer exception in the asynchronous data fetch.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict arises from child voice + serious, complex topic."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "volume": "very_loud",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You are a naturally shy and reserved person, but you've been forced to be a town crier. Announce the following list very loudly, but your shy nature can still be heard.",
+          "text": "First prize for best livestock goes to Farmer Giles. Second prize to Beatrice Plumtree. Honorable mention to the McGregor family.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a reserved personality and very loud volume."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the line as someone who is quiet by nature but has to shout to be heard, like an announcer at a small fair. Speak at a normal pace, just very loudly.",
+          "text": "The next train arriving at platform four is the seven-oh-five to Manchester Piccadilly, calling at Stockport and Crewe.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a reserved personality and very loud volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your character is very reserved, but they have to make an announcement in a loud, booming voice. The conflict is between their personality and the required volume.",
+          "text": "Contestants for the pie-eating contest, please assemble at the main stage. The contestants are: John Smith, Mary Jones, and Peter Allen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a reserved personality and very loud volume."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak very slowly and quietly, but with intense, barely-contained anger. You are trying not to explode.",
+          "text": "I'm going to need you to explain that one more time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between angry emotion and quiet, slow delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line with a slow, quiet, and deliberate pace. The underlying emotion is seething rage that you are struggling to keep in check.",
+          "text": "So that's what you've decided to do.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between angry emotion and quiet, slow delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice is very quiet and your speech is slow, but it's filled with anger. Imagine you're furious but have to maintain a calm facade.",
+          "text": "I understand completely what you are telling me.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between angry emotion and quiet, slow delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "hesitant",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a male leader who is normally very confident, but now he is struggling and hesitant to give a very difficult order.",
+          "text": "I need you to... to go ahead and launch the counter-offensive.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between confident personality and hesitant tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a male voice. Your character is a confident commander, but the command he has to give is weighing on him, making his tone uncharacteristically hesitant.",
+          "text": "Alright, everyone... seal the doors. That's an order.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between confident personality and hesitant tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The speaker is a man of authority and confidence. For this line, however, show his internal conflict by making his delivery hesitant and uncertain.",
+          "text": "Prepare the charges... and wait... wait for my signal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between confident personality and hesitant tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You are offering condolences, so you should sound sad on the surface. However, a smug, self-satisfied tone should leak through, revealing your true feelings.",
+          "text": "I was so sorry to hear about what happened. It's a real tragedy, truly.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between feigned sadness and a smug tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Perform this line with fake sadness. You're trying to sound sympathetic, but your smug pleasure at the situation is obvious in your tone.",
+          "text": "Oh, you must be devastated. I can't imagine how you must be feeling right now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between feigned sadness and a smug tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The character is pretending to be sad about someone's bad luck, but they are secretly enjoying it. Let that smugness come through in your delivery.",
+          "text": "What a shame that it all fell through for you. You worked so hard on it, too.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between feigned sadness and a smug tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "speed": "very_fast",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the voice of an elderly American man, but talk very, very fast, like you're reading the fine print on a commercial.",
+          "text": "Offer valid only in participating locations, subject to availability, not to be combined with any other offer, void where prohibited by law.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between elderly age and very fast speed."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Imagine you're an old-timey auctioneer with an American accent. You need to speak extremely quickly, but your voice should still sound like that of an older person.",
+          "text": "Side effects may include dizziness, drowsiness, and upset stomach, consult your physician before use if you are pregnant or nursing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between elderly age and very fast speed."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use an elderly American voice, but deliver the line at a breakneck speed, as if you've recited these rules a thousand times before.",
+          "text": "All contestants must be eighteen years or older, employees and their immediate families are not eligible to win, no purchase necessary to enter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between elderly age and very fast speed."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "defiant",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as someone who is usually very gentle and mild-mannered, but has finally been pushed to their limit. Your tone is angry and defiant.",
+          "text": "Thank you for the offer, but I'm afraid I have to say no. I will not be a part of this.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a gentle personality and an angry, defiant tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your character is known for being soft-spoken and gentle. But in this moment, they are standing up for themselves with defiance and controlled anger in their voice.",
+          "text": "I appreciate the thought, but my answer is final. I won't do it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a gentle personality and an angry, defiant tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line as a gentle person who has finally found their strength. They are refusing something, and their voice is filled with an uncharacteristic, defiant anger.",
+          "text": "That's very kind of you to suggest, but I will not change my mind on this.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a gentle personality and an angry, defiant tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "tone": "indifferent",
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "As a male speaker, describe the scene with a tone that tries to be indifferent and detached. However, your underlying fear should be audible, perhaps in a slight tremor or waver in your voice.",
+          "text": "The car is parked by the curb. The streetlights are on. It looks like it might rain soon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between attempted indifferent tone and underlying fear."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak as a man who is trying very hard to sound casual and unaffected, but he is terrified. Let the fear subtly undermine his attempt at an indifferent tone.",
+          "text": "It's just another Tuesday night. People are walking their dogs, heading home from work.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between attempted indifferent tone and underlying fear."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The male speaker's goal is to sound completely indifferent. But he is failing, and his profound fear is coloring his words despite his best efforts to hide it.",
+          "text": "The clock on the wall says it's ten past seven. Someone left the television on in the other room.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between attempted indifferent tone and underlying fear."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a very high-pitched male voice. Despite the high pitch, your tone should be firm, authoritative, and commanding.",
+          "text": "I want that report on my desk by noon, no exceptions.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between very high pitch and a firm, commanding tone for a male voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a man's voice that is naturally in a very high register. Deliver the command with a firm and unwavering tone that leaves no room for argument.",
+          "text": "You will follow my instructions to the letter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between very high pitch and a firm, commanding tone for a male voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The male character has an unusually high-pitched voice, but he is in a position of power. Read this line with the firm confidence of a leader.",
+          "text": "Cease this activity at once and await further orders.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between very high pitch and a firm, commanding tone for a male voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0011",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is usually a very cheerful person, but right now they're trying very hard to hide their sadness. Speak as if you're trying to convince yourself everything will be okay, but the sorrow is breaking through.",
+          "text": "Every new day is a chance to turn things around, and I'm sure tomorrow will be better.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting personality and emotion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want a voice that is fundamentally upbeat and optimistic, but is currently weighed down by a deep sadness. They're giving a positive message, but you can hear the strain and sorrow underneath the forced cheer.",
+          "text": "Everything is going to be just fine, you'll see. We just need to keep believing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting personality and emotion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a cheerful personality that is failing to mask a strong feeling of sadness. The words are positive, but the delivery is tinged with melancholy.",
+          "text": "Don't you worry, things have a way of working out for the best in the end.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting personality and emotion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0012",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "surprised",
+        "volume": "quiet",
+        "accent": "indian_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with an Indian accent. You've just received some completely shocking news, but instead of yelling, you're reacting in a quiet, stunned whisper.",
+          "text": "I... I can't believe that's what happened. Is this for real?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between a strong emotion and quiet volume."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "With an Indian accent, deliver this line with a sense of utter surprise. But keep your voice very low, almost like you're speaking to yourself in disbelief.",
+          "text": "No, that's simply not possible. You must be mistaken.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between a strong emotion and quiet volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need an Indian accent. The character is completely astonished, but for some reason, they have to be very quiet. Read this line as a hushed, surprised exclamation.",
+          "text": "My goodness, I never would have imagined such a thing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between a strong emotion and quiet volume."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0013",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "aloof",
+        "tone": "pleading",
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a proud, aloof adult who despises showing weakness. However, they're in a situation where they absolutely must plead for assistance. The request should sound reluctant and forced, but genuinely pleading.",
+          "text": "I wouldn't ask if it weren't absolutely critical. I... I need your help.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Clear conflict between personality and tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this as an adult who is normally very reserved and distant. They find it difficult to ask for anything, but circumstances force them to beg. Let the pleading in their voice fight against their natural aloofness.",
+          "text": "Please, I know this is a lot to ask, but I don't have anyone else to turn to.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Clear conflict between personality and tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine a character who is usually cool and detached. Now they have to ask for a favor, and you can hear the conflict in their voice between their proud nature and the pleading tone they are forced to adopt.",
+          "text": "Is there any chance you could... lend me a hand with this? It's important.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Clear conflict between personality and tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0014",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "female",
+        "texture": "husky",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a woman with a naturally deep and husky voice. She's trying to be flirtatious and light, so there's a playful, coquettish quality to her tone that contrasts with her vocal texture.",
+          "text": "Well now, aren't you looking particularly sharp today?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between a heavy voice texture and a light tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a female voice that is raspy and low-pitched. Despite this, her tone should be playful and flirty, almost teasing.",
+          "text": "I have to say, that color looks absolutely wonderful on you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between a heavy voice texture and a light tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line with a coquettish tone. The voice itself, however, should be female and have a husky, slightly gravelly quality.",
+          "text": "You always seem to know just the right thing to say, don't you?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between a heavy voice texture and a light tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0015",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a very serious, no-nonsense person who has been told to 'lighten up'. This is their awkward attempt at being playful while giving advice. The tone should feel forced and a little unnatural.",
+          "text": "Remember to diversify your portfolio... you know, don't put all your eggs in one basket! Get it?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good portrayal of an awkward conflict between personality and tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Imagine someone who is usually very formal and serious trying to tell a joke or be playful. It doesn't come naturally to them. The delivery should have a playful intent but a fundamentally serious structure.",
+          "text": "It's always wise to get at least eight hours of sleep. Think of it as a little party for your brain!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good portrayal of an awkward conflict between personality and tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a voice that sounds like a very serious person trying, and failing, to adopt a playful tone. Their natural gravity keeps pulling through the lighthearted attempt.",
+          "text": "You should really make a habit of backing up your files. Wouldn't want the data gremlins to get them, wink wink.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good portrayal of an awkward conflict between personality and tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0016",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "worried",
+        "tone": "teasing",
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as an elderly grandparent who is secretly very worried about their grandchild, but is trying to hide it with a light, teasing tone so they don't seem like they're nagging.",
+          "text": "Are you eating enough over there, or are you just living on air and sunshine?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of layered affect; a teasing tone hiding worry."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want an elderly voice. The character is deeply concerned, but they're using a teasing manner of speaking to check in. The underlying worry should still be audible beneath the playful words.",
+          "text": "So, when was the last time you saw a vegetable? I'm just curious.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of layered affect; a teasing tone hiding worry."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line with a teasing quality, but let a genuine sense of worry show through. This is an older person trying not to be overbearing.",
+          "text": "You're not getting into too much trouble without me around to supervise, are you?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of layered affect; a teasing tone hiding worry."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0017",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "emotion": "thoughtful",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a very intelligent, precocious child. You're making a deep, thoughtful observation, but your tone is full of disdain for the adults who just don't seem to get it.",
+          "text": "It's funny how grown-ups are always rushing, but they never seem to get anywhere important.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Interesting conflict between child age, thoughtful emotion, and disdainful tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a child's voice. The character is pondering something seriously, but deliver the line with a scornful tone, as if they find the whole situation beneath them.",
+          "text": "People say you should follow your dreams, but they never mention that most dreams are really boring.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Interesting conflict between child age, thoughtful emotion, and disdainful tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine a child genius, thinking out loud. Their thoughts are profound, but their tone is dismissive and slightly contemptuous of the simplicity of others.",
+          "text": "They all seem so worried about money, as if it's the only thing that makes the world go round.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Interesting conflict between child age, thoughtful emotion, and disdainful tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0018",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "speed": "fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Your character is a bomb disposal expert, someone with a naturally calm and steady personality. But the clock is ticking, so you must deliver these instructions very quickly, with a tone that urges immediate action without causing panic.",
+          "text": "Okay, listen carefully. First, open the panel on the left. Then, locate the red wire next to the green one. Do not, under any circumstances, touch the blue wire.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between calm personality and fast, urgent delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak with the calm authority of a seasoned professional in a crisis. However, you need to speak very fast and with a sense of urgency because time is running out. The calm personality should be at odds with the speed.",
+          "text": "You need to apply pressure directly to the wound, then elevate the limb above the heart, and keep talking to me, stay with me.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between calm personality and fast, urgent delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read these instructions rapidly and with an urging tone. The voice, however, should belong to someone who is fundamentally calm and in control, not panicking.",
+          "text": "Grab the fire extinguisher from the wall, pull the pin, aim the nozzle at the base of the fire, and squeeze the handle. Go now!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between calm personality and fast, urgent delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0019",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is accepting an award. They are trying to sound happy and grateful, but you can hear a clear undercurrent of disappointment in their tone, as if this wasn't the prize they were hoping for.",
+          "text": "Wow, I... I really don't know what to say. I'd like to thank the academy for this incredible honor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Clear conflict between required emotion and underlying tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this acceptance speech. The speaker must sound happy on the surface, but their delivery should be tinged with disappointment. It's a forced happiness.",
+          "text": "Thank you so much. This is... really something. I couldn't have done it without the support of my team.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Clear conflict between required emotion and underlying tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want a performance of someone giving a speech who feels they have to act happy, but is actually let down. The words are gracious, but the tone reveals their true feelings of disappointment.",
+          "text": "This is a wonderful surprise. I'm so grateful to be recognized among such amazing nominees.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Clear conflict between required emotion and underlying tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0020",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "humorous",
+        "emotion": "angry",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a British accent. You're a naturally humorous person, a bit of a comedian, but you are genuinely angry about a terrible experience. You're complaining, and while the anger is real, your funny way of describing things keeps coming through.",
+          "text": "So first, they lost my luggage. Then, the hotel gave my room away to, and I'm not making this up, a flock of escaped parrots. A flock! It's utterly maddening!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strong conflict between a humorous personality and genuine anger."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "With a British accent, deliver this rant. The speaker is furious, but their personality is so comedic that they can't help but make the complaint sound absurd and funny, even though the anger is 100% real.",
+          "text": "I ordered the soup of the day, and what I received was a bowl of lukewarm water with a single, depressed-looking crouton floating in the middle. I am incensed!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strong conflict between a humorous personality and genuine anger."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a British accent for a character who is a natural storyteller with a great sense of humor. They are currently very, very angry and are trying to make a serious complaint, but it comes out as an entertaining, albeit furious, monologue.",
+          "text": "Not only was the train three hours late, but the only other person in my carriage spent the entire journey attempting to teach himself the bagpipes. The absolute nerve!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strong conflict between a humorous personality and genuine anger."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0021",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "playful",
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a very sweet and playful tone, but underneath, you're absolutely furious. It should sound incredibly passive-aggressive.",
+          "text": "Oh, don't worry about it at all. I'm sure you had your reasons.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice is syrupy sweet and you sound like you're teasing, but it's all a performance to hide your simmering anger.",
+          "text": "Well, isn't that just the most interesting way to handle things?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line with a sugary, playful quality, as if you're just joking around, but make it clear that you are actually very angry.",
+          "text": "Of course I don't mind. Why would you even think I would mind?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0022",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_slow",
+        "tone": "urging",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "As an automated system, deliver this urgent warning. Your programming requires you to speak very slowly and deliberately, but your tone must convey a strong sense of urgency.",
+          "text": "Warning. Evacuate the premises immediately. This is not a drill.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this alert message. You are an AI voice that can only speak at a very slow pace, but you are trying to urge people to act quickly.",
+          "text": "Danger. System integrity is at critical levels. Immediate action is required.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice is that of a system AI, and it's stuck on a very slow setting. Despite this, try to sound as urgent as possible while reading the warning.",
+          "text": "Alert. Unidentified vessel approaching. Shields are failing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0023",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "lively",
+        "emotion": "sad",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You're usually a very lively and boisterous person, but right now you're deeply sad. Speak quietly as you try to tell a joke to make a friend feel better.",
+          "text": "Why don't scientists trust atoms? Because they make up everything.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Though your heart is breaking, you're trying to lift someone's spirits. Tell this joke softly, with your usual energetic personality completely muted by sadness.",
+          "text": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this joke quietly. Your voice, which is normally full of life, is now heavy with sadness, but you're making an effort for someone else's sake.",
+          "text": "What do you call a fish with no eyes? A fsh.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0024",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Try to deliver this pick-up line in a smooth, confident way, but fail, making it sound very awkward and clumsy instead.",
+          "text": "Are you a parking ticket? Because you've got 'fine' written all over you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this line as an adult attempting to flirt. You're going for suave, but the result is just uncomfortable and awkward.",
+          "text": "I must be a snowflake, because I've fallen for you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "You're trying to be charming and deliver a flirty line, but your delivery is hesitant and awkward, not smooth at all.",
+          "text": "Do you have a map? I keep getting lost in your eyes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0025",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Announce this fantastic news, but your voice should be full of profound sadness, creating a jarring contrast.",
+          "text": "I got the promotion. It's everything we ever wanted.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The words you're saying are incredibly happy, but deliver them with a deeply sorrowful and heavy voice.",
+          "text": "You guys, I can't believe it... we won the championship.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak as a man sharing wonderful news, but his tone is utterly heartbroken, hinting at a hidden, tragic context.",
+          "text": "She said yes. We're getting married next spring.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0026",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "euphemistic",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Announce this news loudly and with a cheerful, matter-of-fact tone, even though the euphemistic words describe something terrible.",
+          "text": "Just wanted to let everyone know that the quarterly projections have been permanently sunsetted!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "You're using mild language to break some bad news. But instead of being gentle, you're saying it loudly and with great energy.",
+          "text": "Great news, team! We'll be transitioning to a new operational paradigm, effective immediately!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this euphemistic statement in a loud, upbeat voice, creating a strange conflict between the delivery and the implied meaning.",
+          "text": "It seems our main competitor has decided to pursue alternative market strategies!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0027",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "warm",
+        "tone": "disdainful",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You're a naturally warm person, but you have to help someone you can't stand. Offer your help in a neutral voice, but let a subtle tone of disdain seep in.",
+          "text": "It looks like you're having some trouble. Allow me to assist you with that.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your personality is usually very friendly, but your dislike for this person is strong. Make this offer of help sound superficially neutral, but with an undercurrent of contempt.",
+          "text": "If you can't manage on your own, I suppose I could give you a hand.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Try to maintain a neutral, professional tone, but you can't completely hide your disdain for the person you're speaking to, even though your default personality is warm.",
+          "text": "Let me know if there's anything else I can do for you. Anything at all.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0028",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You are absolutely furious, but you have to say something nice. Deliver this compliment with a barely-concealed angry tone.",
+          "text": "I have to admit, that's a very impressive piece of work.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this compliment, but your voice should be tight with anger. The words are positive, but the emotion behind them is pure rage.",
+          "text": "Your presentation was just... wonderful. Really.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Force yourself to say these complimentary words. Make it clear from your angry delivery that you do not mean a single one of them.",
+          "text": "That was a truly beautiful song you played.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0029",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "sweet",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in an unusually deep, very low-pitched female voice, but recite this nursery rhyme with a sweet and gentle quality.",
+          "text": "Twinkle, twinkle, little star, how I wonder what you are.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice is naturally very low and resonant for a woman. Despite this, read the children's rhyme in a sugary-sweet manner.",
+          "text": "Hickory dickory dock, the mouse ran up the clock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "With a very low-pitched female voice, read this rhyme as sweetly and tenderly as you can, as if to a small child.",
+          "text": "Baa, baa, black sheep, have you any wool? Yes sir, yes sir, three bags full.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0030",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "complaining",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read these recipe steps very quickly, with an undercurrent of complaining, as if you think the instructions are ridiculously simple.",
+          "text": "First, you preheat the oven to three hundred fifty degrees. Then, you mix the dry ingredients in a large bowl. Honestly, who doesn't know this?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "You're a professional chef, and you're annoyed at having to read such a basic recipe. Read it fast, with a whining, complaining tone.",
+          "text": "Okay, so combine one cup of flour with a half cup of sugar. Then, slowly add the milk while whisking. This is hardly what I'd call cooking.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Rapidly rattle off these instructions. Your tone should be one of constant complaint, showing your frustration with the task.",
+          "text": "Next, you're supposed to chop the onions. Finally, you sauté them in a pan with a little bit of oil until they're golden brown. It's not exactly rocket science.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0031",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as someone who is usually very confident, but right as they start their speech, they are hit with a wave of stage fright. They are trying to power through their opening remarks, but their voice is trembling with fear.",
+          "text": "Good morning, everyone. It's a real honor to be standing here today to share some of my thoughts with you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction sets up a conflict between a confident persona and a fearful emotional state. Text is a standard speech opening."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The speaker is a confident person, but they're experiencing intense fear at this moment. Deliver the lines as if you're trying to project confidence while your voice is shaky and tight with anxiety.",
+          "text": "Hello and welcome. I'm delighted that so many of you could join us for this important discussion.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction sets up a conflict between a confident persona and a fearful emotional state. Text is a standard speech opening."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Perform this as a public speaker who is known for being self-assured, but is currently overwhelmed by fear. Their words are confident, but their delivery should be strained and fearful.",
+          "text": "Thank you all for coming. I'm excited to have this opportunity to speak with you about a topic I'm very passionate about.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction sets up a conflict between a confident persona and a fearful emotional state. Text is a standard speech opening."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0032",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "speechless",
+        "emotion": "worried",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a man who is so worried about the situation that he's almost speechless. He has to force himself to explain everything, so his delivery is halting, strained, and filled with a sense of dread.",
+          "text": "Okay, so the main issue is that the primary server cluster failed to reboot after the power outage, which means all the data backups from the last twenty-four hours are currently inaccessible.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates a conflict between the need to explain and the feeling of being speechless from worry. Text is a neutral, long explanation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a male voice. The character is so consumed with worry that he can barely get the words out. Despite feeling speechless, he's pushing through a long explanation, making his voice sound very strained and hesitant.",
+          "text": "We've discovered that the security breach wasn't limited to the external firewall; it appears the attackers managed to gain root access to the core database by exploiting a zero-day vulnerability.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates a conflict between the need to explain and the feeling of being speechless from worry. Text is a neutral, long explanation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver these lines as a man who feels completely overwhelmed and speechless with worry. He must communicate this complex information, so he forces the words out in a halting, pained manner.",
+          "text": "The financial models we were using didn't account for such a rapid shift in market conditions, and now our entire investment portfolio is exposed to an unprecedented level of risk.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates a conflict between the need to explain and the feeling of being speechless from worry. Text is a neutral, long explanation."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/volume",
+  "language": "fr",
+  "source_plan_file": "easy__style__tag__atomic__volume.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Volume: Very quiet",
+      "text": "Je me demande ce que l'avenir nous réserve.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral, contemplative thought."
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Volume: Quiet",
+      "text": "Pour commencer, il faut s'assurer que tous les ingrédients sont à température ambiante.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a calm explanation of a simple process."
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Volume: Loud",
+      "text": "Le train à destination de Paris partira de la voie cinq.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a standard, neutral train station announcement."
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Volume: Very loud",
+      "text": "La photosynthèse est le processus par lequel les plantes vertes convertissent l'énergie lumineuse en énergie chimique.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a dry, factual statement from an encyclopedia."
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Volume: Very quiet",
+          "text": "Je me demande ce que l'avenir nous réserve.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, contemplative thought."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Volume: Very quiet",
+          "text": "Parfois, le temps semble s'arrêter un instant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, contemplative thought."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Volume: Very quiet",
+          "text": "C'est curieux comme un détail peut tout changer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, contemplative thought."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Volume: Quiet",
+          "text": "Pour commencer, il faut s'assurer que tous les ingrédients sont à température ambiante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a calm explanation of a simple process."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Volume: Quiet",
+          "text": "Le cycle de l'eau est un processus continu qui déplace l'eau à travers la Terre et son atmosphère.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text calmly explains a simple scientific fact."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Volume: Quiet",
+          "text": "L'axe de rotation de la Terre est incliné d'environ vingt-trois degrés par rapport à son plan orbital.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text calmly explains a simple scientific fact."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Volume: Loud",
+          "text": "Le train à destination de Paris partira de la voie cinq.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a standard, neutral train station announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Volume: Loud",
+          "text": "Veuillez noter que le magasin fermera ses portes dans quinze minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a standard public announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Volume: Loud",
+          "text": "Tous les passagers sont priés de se présenter à la porte d'embarquement B12.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a standard airport announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Volume: Very loud",
+          "text": "La photosynthèse est le processus par lequel les plantes vertes convertissent l'énergie lumineuse en énergie chimique.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a dry, factual statement from an encyclopedia."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Volume: Very loud",
+          "text": "La masse volumique de l'aluminium est d'environ deux virgule sept grammes par centimètre cube.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a dry, technical statement providing a specific value."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Volume: Very loud",
+          "text": "Le numéro atomique du carbone est six, ce qui signifie qu'il possède six protons dans son noyau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, academic statement about chemistry."
+          }
+        }
+      ]
+    }
+  ]
+}

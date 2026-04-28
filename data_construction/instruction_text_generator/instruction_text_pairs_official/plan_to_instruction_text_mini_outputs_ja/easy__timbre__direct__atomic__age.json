@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/age",
+  "language": "ja",
+  "source_plan_file": "easy__timbre__direct__atomic__age.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese, as if you were a young child.",
+      "text": "窓を開けてもいいですか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese, with the voice of a grown-up.",
+      "text": "地球の自転により、昼と夜が生まれます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. I need to hear a senior citizen's voice.",
+      "text": "庭の花が今年もきれいに咲いてくれて、嬉しい限りです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese, using the voice of someone in their 40s or 50s.",
+      "text": "本日、図書館はシステムメンテナンスのため、午後六時に閉館いたします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Use a child's voice.",
+          "text": "すみません、この本を棚に戻してもらえますか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese, as if you were a young child.",
+          "text": "窓を開けてもいいですか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. I want to hear the voice of a little kid.",
+          "text": "もう一枚紙をいただけますか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Use an adult's voice.",
+          "text": "水は摂氏０度で凍り、摂氏１００度で沸騰します。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese, with the voice of a grown-up.",
+          "text": "地球の自転により、昼と夜が生まれます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. The speaker should sound like an adult.",
+          "text": "光合成は、植物が太陽光を使ってエネルギーを作り出す過程です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Use the voice of an elderly person.",
+          "text": "今日の天気は本当に穏やかで、心が落ち着きますね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese, as if you were an old man or woman.",
+          "text": "こういう静かな時間があると、色々なことを考えられます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. I need to hear a senior citizen's voice.",
+          "text": "庭の花が今年もきれいに咲いてくれて、嬉しい限りです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. The speaker should be a middle-aged adult.",
+          "text": "明日の会議は、予定通り午前十時から第三会議室で行います。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese, using the voice of someone in their 40s or 50s.",
+          "text": "本日、図書館はシステムメンテナンスのため、午後六時に閉館いたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a mature, adult voice, like someone who is middle-aged.",
+          "text": "来週の月曜日は祝日のため、ゴミの収集はありませんのでご注意ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

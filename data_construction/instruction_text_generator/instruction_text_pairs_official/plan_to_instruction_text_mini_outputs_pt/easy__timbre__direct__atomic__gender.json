@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "pt",
+  "source_plan_file": "easy__timbre__direct__atomic__gender.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Use a male voice to say the following sentence.",
+      "text": "O sol é a estrela no centro do nosso sistema solar e é de longe o objeto mais importante para a vida na Terra.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say this as if a woman is speaking.",
+      "text": "Próxima paragem, Avenida da Liberdade. Portas do lado direito.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Use a deep male voice for the following text.",
+      "text": "A inflação representa o aumento geral dos preços e a consequente queda do poder de compra da moeda.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Please use a voice that is higher in pitch.",
+      "text": "O céu está tão limpo hoje, sem uma única nuvem.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read this with a man's voice.",
+          "text": "A velocidade da luz no vácuo é de aproximadamente duzentos e noventa e nove milhões de metros por segundo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use a male voice to say the following sentence.",
+          "text": "O sol é a estrela no centro do nosso sistema solar e é de longe o objeto mais importante para a vida na Terra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Can you read this in a man's voice?",
+          "text": "A água é composta por dois átomos de hidrogénio e um átomo de oxigénio, formando a molécula H2O.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this as if a woman is speaking.",
+          "text": "Próxima paragem, Avenida da Liberdade. Portas do lado direito.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Please read the following announcement with a woman's voice.",
+          "text": "Atenção ao espaço entre o comboio e a plataforma.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. I'd like to hear this spoken by a female voice.",
+          "text": "Este comboio tem como destino final a estação do Cais do Sodré.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read this sentence with a deep, masculine voice.",
+          "text": "A fotossíntese é o processo utilizado pelas plantas para converter a luz solar em energia química.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. I want to hear this with a masculine tone of voice.",
+          "text": "O ciclo da água descreve o movimento contínuo da água na, sobre e acima da superfície da Terra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a deep male voice for the following text.",
+          "text": "A inflação representa o aumento geral dos preços e a consequente queda do poder de compra da moeda.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Can you say this with a higher-pitched voice?",
+          "text": "Parece que vai chover mais logo à tarde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Please use a voice that is higher in pitch.",
+          "text": "O céu está tão limpo hoje, sem uma única nuvem.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Read this text with a high-pitched voice.",
+          "text": "Está um pouco de vento lá fora, não está?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

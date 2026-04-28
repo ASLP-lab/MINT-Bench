@@ -1,0 +1,392 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "pt",
+  "generation_summary": {
+    "num_items": 10,
+    "domain": "extra_vocal",
+    "difficulty": "special",
+    "notes": "Testing the model's ability to integrate explicit non-verbal sound tags from the text into a performance guided by a separate instruction on the overall speaking style. The instruction must not mention the non-verbal event itself."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "laugh"
+      },
+      "aux_values": {},
+      "text_semantic": "recounting_a_funny_story",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include the tag '[laugh]' at or near the end.",
+        "The semantic content should be about a funny event but not use words that are overly explicit about laughter.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a genuinely amused and happy speaking style, as if reminiscing about something funny.",
+        "Do not use the word 'laugh' or related synonyms.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "sigh"
+      },
+      "aux_values": {},
+      "text_semantic": "commenting_on_a_long_day",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include the tag '[sigh]' at or near the beginning.",
+        "The text should describe a feeling of weariness after a difficult task.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a tired, weary, and resigned tone.",
+        "Do not use the word 'sigh' or related synonyms.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "sobbing"
+      },
+      "aux_values": {},
+      "text_semantic": "reacting_to_bad_news",
+      "text_length": "long",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include the tag '[sobbing]' at least once, possibly in the middle of a sentence.",
+        "The semantic content should be about receiving difficult news, but avoid overly dramatic language.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a heartbroken and devastated tone, as if trying to speak through tears.",
+        "Do not use the words 'sob', 'cry', 'weep', or related synonyms.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "cough"
+      },
+      "aux_values": {},
+      "text_semantic": "explaining_an_absence",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include the tag '[cough]' in the middle of the utterance.",
+        "The text should be a simple explanation for not being able to attend an event.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a slightly weak or hoarse voice, as if the speaker has a cold.",
+        "Do not use the word 'cough' or 'sick'.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "yawn"
+      },
+      "aux_values": {},
+      "text_semantic": "saying_goodnight",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include the tag '[yawn]' mid-sentence, interrupting the flow of speech.",
+        "The content should be a simple statement about being tired and going to bed.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a very sleepy, slow, and drowsy manner of speaking.",
+        "Do not use the word 'yawn'.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "throat_clearing"
+      },
+      "aux_values": {},
+      "text_semantic": "making_a_formal_announcement",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must begin with the tag '[throat_clearing]'.",
+        "The content should be a formal or serious statement.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a formal, deliberate, and slightly nervous public speaking style, as if about to begin a speech.",
+        "Do not mention clearing one's throat.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "gasp"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reaction_to_news",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text should start with the tag '[gasp]' followed by a very short phrase.",
+        "The phrase should be an exclamation of surprise or disbelief.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a shocked, sudden, and astonished tone of voice.",
+        "Do not use the word 'gasp'.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "panting"
+      },
+      "aux_values": {},
+      "text_semantic": "explaining_why_one_is_late",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include the tag '[panting]' interspersed with the words, suggesting difficulty speaking.",
+        "The text content should be about having just run a long distance or up many stairs.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a delivery that is out of breath and strained from physical exertion.",
+        "Do not use the word 'pant' or 'breathless'.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "chuckle, snort"
+      },
+      "aux_values": {},
+      "text_semantic": "recounting_an_embarrassing_story",
+      "text_length": "long",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include both a '[chuckle]' tag and a '[snort]' tag.",
+        "The content should be a story that the speaker finds very funny.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a voice that is trying to hold back laughter but failing, filled with suppressed amusement.",
+        "Do not use the words 'chuckle', 'snort', or 'laugh'.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "whimper, sniffle"
+      },
+      "aux_values": {},
+      "text_semantic": "describing_a_sad_film",
+      "text_length": "medium",
+      "text_constraints": [
+        "The final text must be in Portuguese.",
+        "The text must include a '[sniffle]' tag and end with a '[whimper]' tag.",
+        "The content should be about something sad but not personally tragic.",
+        "final text must be written in Portuguese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "The instruction must be in English.",
+        "The instruction must start with 'Speak in Portuguese.'",
+        "Describe a voice that is delicate, sad, and on the verge of tears.",
+        "Do not use the words 'whimper', 'sniffle', or 'cry'.",
+        "final instruction must be in English and should begin with 'Speak in Portuguese.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

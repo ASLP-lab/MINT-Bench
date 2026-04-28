@@ -1,0 +1,653 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/layered",
+  "language": "es",
+  "source_plan_file": "hard__composite__complex_comp__layered.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Your tone should be sarcastic, but you're trying to conceal it behind a neutral, emotionless voice.",
+      "text": "Oh, tu idea es simplemente brillante. ¿Cómo no se nos ocurrió antes?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "sarcastic",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Your voice should project confidence, but let an undercurrent of worry seep into your delivery.",
+      "text": "Claro que sí, es un plan infalible. No hay absolutamente nada que pueda salir mal.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "confident",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. You are a gentle person, but you have to be firm here. Say this with a tone that is resolute but not your natural style.",
+      "text": "Realmente valoro nuestra relación, pero si esto continúa, tendré que tomar distancia.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Your tone is teasing and playful, but your overall manner is aloof and emotionally distant.",
+      "text": "Ah, te ves casi tan bien como yo hoy. Casi.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "playful",
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Maintain a calm and measured personality, but your voice carries an unmistakable undertone of disappointment.",
+      "text": "Entiendo. Hicimos todo lo que pudimos con la información que teníamos. A veces las cosas simplemente no funcionan, y no queda más que aprender de la experiencia.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Your emotion is neutral on the surface, but your tone has a subtle pleading layer, hinting that you need help.",
+      "text": "Vaya, parece que este proyecto se está complicando un poco más de lo que pensé al principio.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. You're trying to be warm and accommodating, but your voice is strained with the anger you're trying to suppress.",
+      "text": "Con mucho gusto le explicaré el procedimiento una vez más. Por favor, preste mucha atención a los detalles.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "warm",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Put on a show of being surprised, but let a smug, self-satisfied tone slip through.",
+      "text": "Vaya, estoy en shock. Jamás pensé que las cosas terminarían de esta manera.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "smug",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Deliver this line as a serious person making a rare and clumsy attempt at being funny, resulting in an awkward tone.",
+      "text": "¿Por qué el programador dejó su trabajo? Porque no le daban 'arrays'.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text contains a pun that works in English but not perfectly in Spanish, adding to the awkwardness."
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Say this using a soft, euphemistic tone to cushion the blow of bad news, while letting your underlying sadness color the words.",
+      "text": "Hemos hecho todo lo posible, pero su condición ha llegado a un punto en el que ya no responde al tratamiento. Ahora lo más importante es que esté cómodo y sin dolor.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "euphemistic",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "sarcastic",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this with a sarcastic tone, but try to make your voice sound neutral on the surface.",
+          "text": "Vaya, qué interesante elección de atuendo. Muy... atrevido.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this line with a deadpan, neutral delivery that hides a deeply sarcastic intent.",
+          "text": "Felicidades por tu ascenso. Nadie se lo merecía tanto como tú.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your tone should be sarcastic, but you're trying to conceal it behind a neutral, emotionless voice.",
+          "text": "Oh, tu idea es simplemente brillante. ¿Cómo no se nos ocurrió antes?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "confident",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Speak as if you are trying to sound confident and reassuring, but you are actually very worried inside.",
+          "text": "No te preocupes, todo va a salir perfectamente bien. Tengo la situación bajo control.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your voice should project confidence, but let an undercurrent of worry seep into your delivery.",
+          "text": "Claro que sí, es un plan infalible. No hay absolutamente nada que pueda salir mal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Say this to reassure someone, putting on a confident front while internally feeling very worried about the outcome.",
+          "text": "Confía en mí, he hecho esto mil veces. Todo está calculado al milímetro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. You are a gentle person, but you have to be firm here. Say this with a tone that is resolute but not your natural style.",
+          "text": "Realmente valoro nuestra relación, pero si esto continúa, tendré que tomar distancia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Adopt a firm tone to set a boundary, even though your natural personality is very gentle and non-confrontational.",
+          "text": "Entiendo tu punto de vista, pero esta es mi decisión final y espero que la respetes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this line with firmness, as someone who is usually gentle but has been pushed to their limit.",
+          "text": "Lo siento mucho, pero no puedo seguir ayudándote si no te ayudas a ti mismo primero.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "playful",
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in a playful way, but maintain an aloof and slightly detached personality, as if you're not fully invested.",
+          "text": "Supongo que tienes tu encanto, si te gustan ese tipo de cosas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your tone is teasing and playful, but your overall manner is aloof and emotionally distant.",
+          "text": "Ah, te ves casi tan bien como yo hoy. Casi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with a playful lilt, but deliver it with the cool detachment of an aloof person.",
+          "text": "Qué ocurrencia tan graciosa. Deberías patentarla o algo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Speak with an outwardly calm demeanor, but let a subtle tone of disappointment show through.",
+          "text": "Bueno, no es el resultado que esperábamos, pero supongo que tendremos que aceptarlo y seguir adelante. Ya veremos qué se puede hacer la próxima vez.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Maintain a calm and measured personality, but your voice carries an unmistakable undertone of disappointment.",
+          "text": "Entiendo. Hicimos todo lo que pudimos con la información que teníamos. A veces las cosas simplemente no funcionan, y no queda más que aprender de la experiencia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your personality is calm and collected, but read these words with a hint of disappointment about the situation.",
+          "text": "Así que al final no se pudo lograr. Está bien, no tiene sentido lamentarse. Ahora debemos concentrarnos en los siguientes pasos y asegurarnos de no cometer los mismos errores.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Deliver this line with a neutral expression, but with an underlying tone of pleading, as if you're trying not to seem desperate.",
+          "text": "Oye, ¿por casualidad no estarás libre este fin de semana? Solo por curiosidad.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Say this in a casual, neutral way, but let a pleading quality in your voice reveal your true need.",
+          "text": "No es nada importante, pero me preguntaba si podrías echarle un vistazo a esto cuando tengas un momento.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your emotion is neutral on the surface, but your tone has a subtle pleading layer, hinting that you need help.",
+          "text": "Vaya, parece que este proyecto se está complicando un poco más de lo que pensé al principio.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "warm",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Speak with the warm and helpful persona of a customer service agent, but you are barely concealing your anger at the situation.",
+          "text": "Claro, permítame transferirlo al departamento correcto por quinta vez. Estaré encantada de ayudarle.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Adopt a warm, polite personality, but let your repressed anger show through in your voice.",
+          "text": "Entiendo perfectamente su frustración. Revisaré su caso de nuevo, aunque el sistema sigue mostrando la misma información.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. You're trying to be warm and accommodating, but your voice is strained with the anger you're trying to suppress.",
+          "text": "Con mucho gusto le explicaré el procedimiento una vez más. Por favor, preste mucha atención a los detalles.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "smug",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this as if you are pretending to be surprised, but with a smug tone that reveals you knew this would happen all along.",
+          "text": "¡No me digas! ¿De verdad eso fue lo que pasó? Quién lo hubiera imaginado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Put on a show of being surprised, but let a smug, self-satisfied tone slip through.",
+          "text": "Vaya, estoy en shock. Jamás pensé que las cosas terminarían de esta manera.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your outward emotion is one of shock and surprise, but your underlying tone is smug and knowing.",
+          "text": "¿En serio? Qué sorpresa tan grande. Ciertamente no vi venir algo así.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. You are a very serious person trying to make a joke. Deliver this with an awkward timing and a flat affect that shows humor is not your strong suit.",
+          "text": "Dos economistas entran en un bar. El primero pide un indicador de producto interno bruto. Es gracioso porque es un concepto macroeconómico.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. As a serious individual, attempt to tell a joke. Your tone should be stilted and awkward, betraying your discomfort with humor.",
+          "text": "La diferencia entre una batería y mi cuñado es que la batería tiene un lado positivo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this line as a serious person making a rare and clumsy attempt at being funny, resulting in an awkward tone.",
+          "text": "¿Por qué el programador dejó su trabajo? Porque no le daban 'arrays'.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text contains a pun that works in English but not perfectly in Spanish, adding to the awkwardness."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "euphemistic",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this using a soft, euphemistic tone to cushion the blow of bad news, while letting your underlying sadness color the words.",
+          "text": "Hemos hecho todo lo posible, pero su condición ha llegado a un punto en el que ya no responde al tratamiento. Ahora lo más importante es que esté cómodo y sin dolor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a gentle, euphemistic tone as you deliver this sad news, with your own sorrow subtly present in your voice.",
+          "text": "Con respecto al proyecto, hemos encontrado algunos desafíos insuperables y hemos decidido que la mejor opción es... ponerlo en pausa indefinidamente. Sé que es difícil de oír.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your voice should be soft and indirect to be euphemistic, but tinged with a deep sadness that you can't entirely hide.",
+          "text": "Quería hablarte sobre el abuelo. Ha emprendido su último viaje. Está en un lugar mejor ahora, en paz y sin sufrimiento. Lo extrañaremos muchísimo todos los días.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

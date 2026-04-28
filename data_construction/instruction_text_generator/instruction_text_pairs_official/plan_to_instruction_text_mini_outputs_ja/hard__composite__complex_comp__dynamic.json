@@ -1,0 +1,707 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "ja",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 11,
+  "num_output_items": 11,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. I want you to start this line at a slow, deliberate pace, and then gradually accelerate to a quick pace by the end.",
+      "text": "スタートラインに並んだ車は、静かにその時を待っていました。エンジン音だけが低く響いていて、緊張感が高まります。そして、合図と共に一斉に飛び出し、コーナーを抜けるたびにどんどん加速して、最後の直線では目が追いつかないほどの速さになりました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Say this starting quietly, as if making a careful point, but let it grow in volume until the final words are very loud.",
+      "text": "あなた方の主張も理解できます。確かに、その方法には利点もあるでしょう。ですが、根本的な部分で、倫理的な観点から見て、それは断じて許されるべき行為ではありません！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> very_loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Begin speaking in a neutral, matter-of-fact tone. As you continue, transition into a genuinely happy and pleased emotion.",
+      "text": "ええと、結果の通知が来ているな。差出人は…大学からだ。ファイルを開いて、自分の受験番号を探して…あった、これだ。それで、結果は…合格？え、本当に？やった！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Say this as if you're making a difficult decision. Start with a hesitant tone, but become more firm and resolute as you finish the sentence.",
+      "text": "皆さん、えーと、この件についてずっと考えてきました。色々な意見があることは承知していますが…私は、この計画を進めるべきだと決断しました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Begin speaking at a normal speed with a worried emotion. Quickly accelerate your speech and shift your emotion to fear by the end of the line.",
+      "text": "今朝、ちゃんと火を消したか少し気になるな。確か…コンロのつまみはオフにしたはずだけど…。いや、待って、あの鍋を火にかけたままだったかもしれない、今すぐ戻らないと火事になる！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "worried -> fearful",
+        "speed": "normal -> very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Start with a pleading tone at a normal volume, but let your voice grow louder and shift into a defiant tone for the second half.",
+      "text": "お願いです、私の話をもう少しだけ聞いてください。私はただ、正しいと思ったことをしただけなんです。誰に何と言われようと、私は自分の行動を後悔していません！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "normal -> loud",
+        "tone": "pleading -> defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Start this sentence slowly, accelerate to a very fast pace in the middle section, and then return to a normal speaking speed for the end.",
+      "text": "プロジェクトの準備は、初めは順調に進んでいました。ところが、締め切り前日にシステム全体がダウンして、そこからはもう全員で徹夜で復旧作業に追われ大騒ぎでした。まあ、なんとか間に合ったので、今ではいい思い出です。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> very_fast -> normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Perform this line with a thoughtful start at normal volume, followed by a loud, surprised exclamation, and then a happy conclusion at normal volume.",
+      "text": "鍵はどこに置いたかな。昨日はコートを着ていたから、ポケットの中か、それとも玄関のテーブルの上か…。そうだ、昨日使ったカバンの内ポケットだ！よかった、見つかった。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised -> happy",
+        "volume": "normal -> loud -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Begin in a sad, slow, and quiet manner. As you speak, transition into an angry, fast, and loud delivery.",
+      "text": "あんなに信じていたのに。ずっと一緒にいるって、そう言ってくれたのに。どうしてあんな嘘がつけたんだ！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "sad -> angry",
+        "speed": "slow -> fast",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your pitch should rise as you speak: begin low, transition to a normal range, and finish on a high pitch.",
+      "text": "森の奥深くを、一人で歩いていました。しばらく進むと、苔むした石の階段が見えてきました。そして、その階段を上りきった先に、きらきらと輝く宝箱が置いてあったんです！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Start with a neutral and indifferent tone, but as you speak, gradually transition to a worried and urging delivery.",
+      "text": "現在のところ、特に異常は報告されていません。システムはすべて正常に稼働しているようです。しかし、待ってください、いくつかのセンサーが不安定な数値を表示し始めました。これは…危険な兆候かもしれません。直ちにプロトコルを中断し、全員退避してください！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text content escalates from a routine check to an urgent evacuation order, supporting the emotional transition."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried",
+        "tone": "indifferent -> urging"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Begin speaking slowly and steadily increase your pace throughout the sentence, finishing at a fast speed.",
+          "text": "最初は、ただの普通の火曜日の朝だと思っていたんです。鳥の声が聞こえて、窓から光が差し込んで、とても静かでした。でも、時計を見た瞬間、すべてが変わりました。約束の時間をとっくに過ぎていて、そこからはもう大急ぎで準備を始めました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. I want you to start this line at a slow, deliberate pace, and then gradually accelerate to a quick pace by the end.",
+          "text": "スタートラインに並んだ車は、静かにその時を待っていました。エンジン音だけが低く響いていて、緊張感が高まります。そして、合図と共に一斉に飛び出し、コーナーを抜けるたびにどんどん加速して、最後の直線では目が追いつかないほどの速さになりました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this narrative by starting off slow and then getting progressively faster as you go on.",
+          "text": "その噂は、最初はほんの些細な囁きに過ぎませんでした。一人から二人へと、ゆっくりと伝わっていくだけでした。しかし、あっという間にそれは学校中に広まり、最後には誰が最初に言い出したのかも分からないほど、手のつけられない勢いで広がっていったのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> very_loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Start this sentence in a quiet, almost hushed tone, and build your volume steadily until you are very loud at the end.",
+          "text": "もちろん、小さな問題はいくつかあるでしょう。細かな点で意見が合わないこともあるかもしれません。しかし、私たちが目指しているこの大きな目標、この理想だけは、絶対に譲ることはできないのです！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line with a crescendo, beginning softly and gradually increasing in volume to become very loud.",
+          "text": "我々がこれまで費やしてきた時間を思い出してほしい。流した汗と涙を。そのすべてが、この一瞬のためだった。だからこそ、今こそ全力を出し切るんだ！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Say this starting quietly, as if making a careful point, but let it grow in volume until the final words are very loud.",
+          "text": "あなた方の主張も理解できます。確かに、その方法には利点もあるでしょう。ですが、根本的な部分で、倫理的な観点から見て、それは断じて許されるべき行為ではありません！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Begin speaking in a neutral, matter-of-fact tone. As you continue, transition into a genuinely happy and pleased emotion.",
+          "text": "ええと、結果の通知が来ているな。差出人は…大学からだ。ファイルを開いて、自分の受験番号を探して…あった、これだ。それで、結果は…合格？え、本当に？やった！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your delivery should start out emotionally neutral, but by the end of the sentence, you should sound clearly happy.",
+          "text": "今週の当選番号は、８、１３、２１…うん、一つ目は合ってる。次は…３４、うん、これも。最後は４２…え、待って、これも合ってる…全部合ってるじゃないか！信じられない！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Start off with a neutral delivery, and let a feeling of happiness slowly creep into your voice, making the end of the utterance joyful.",
+          "text": "ここの部分はこれでいいはず。全体のバランスも確認して…うん、問題ない。全ての部品がちゃんと機能している…そうか、これで…これで本当に、完成したんだ！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this as if you're making a difficult decision. Start with a hesitant tone, but become more firm and resolute as you finish the sentence.",
+          "text": "皆さん、えーと、この件についてずっと考えてきました。色々な意見があることは承知していますが…私は、この計画を進めるべきだと決断しました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Begin this line with a hesitant quality in your voice, but build to a firm, decided tone by the end.",
+          "text": "これを言うべきかどうか、本当に…本当に悩みました。でも、もう隠しておくことはできません。私が、あの間違いを犯したのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your tone should progress from uncertain and hesitant to confident and firm.",
+          "text": "たぶん…反対される方も多いでしょう。これは…簡単な道ではないかもしれません。しかし、私は自分の信念に従い、この道を進みます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "worried -> fearful",
+        "speed": "normal -> very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Start with a worried tone at a normal pace, then, as the realization dawns, transition to a very fast and fearful delivery.",
+          "text": "今日の午後に提出する書類、確かこの鞄に入れたはずなんだけど…。あれ、ないな。どこに置いたかな、家に忘れてきたとか？いや待てよ、締め切りって今日だったよな、もう時間がないじゃないか、どうしよう！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Begin speaking at a normal speed with a worried emotion. Quickly accelerate your speech and shift your emotion to fear by the end of the line.",
+          "text": "今朝、ちゃんと火を消したか少し気になるな。確か…コンロのつまみはオフにしたはずだけど…。いや、待って、あの鍋を火にかけたままだったかもしれない、今すぐ戻らないと火事になる！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this line by starting with a normal-paced, worried voice, which then escalates into a very fast, fearful voice.",
+          "text": "さっき送ったメール、添付ファイルも間違ってないし、宛先も確認したはず。でもなんだか胸騒ぎがする。え、まさか、宛先を間違えて、あの機密情報を全員に送ってしまったのか！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "normal -> loud",
+        "tone": "pleading -> defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Start with a pleading tone at a normal volume, but let your voice grow louder and shift into a defiant tone for the second half.",
+          "text": "お願いです、私の話をもう少しだけ聞いてください。私はただ、正しいと思ったことをしただけなんです。誰に何と言われようと、私は自分の行動を後悔していません！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver the first part of this line with a pleading quality at a regular volume. Then, change your tone to defiant and increase your volume to loud.",
+          "text": "どうか、私にもう一度チャンスをいただけないでしょうか。もしそれが無理だと言うのなら、私は自分のやり方で道を切り開くまでです！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Begin this statement with a pleading tone and normal volume. Transition into a loud and defiant tone by the end.",
+          "text": "なぜ分かっていただけないのですか、この決定がどれほどの間違いか。ですが、たとえあなた方が賛成しなくても、私は一人でも戦い続けます！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> very_fast -> normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Start this sentence slowly, accelerate to a very fast pace in the middle section, and then return to a normal speaking speed for the end.",
+          "text": "プロジェクトの準備は、初めは順調に進んでいました。ところが、締め切り前日にシステム全体がダウンして、そこからはもう全員で徹夜で復旧作業に追われ大騒ぎでした。まあ、なんとか間に合ったので、今ではいい思い出です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line with a three-part speed change: start slow, become very fast in the middle, and then settle back to a normal pace.",
+          "text": "旅行の初日は、のんびりと街を散策していました。でも二日目にパスポートをなくしたことに気づいて、大使館や警察を駆けずり回って本当に大変でした。結局、親切な人が届けてくれて、無事に見つかりました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your speaking rate should follow this pattern: begin slowly, then speed up to very fast, and finally slow down to a normal pace.",
+          "text": "ケーキを焼くために、材料を丁寧に計量していました。ところが、オーブンに入れた後で砂糖を入れ忘れたことに気づいて、大急ぎで全部取り出して混ぜ直して、もうキッチンは粉まみれでした。でも、味はちゃんと美味しくできましたよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised -> happy",
+        "volume": "normal -> loud -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver this in three stages: start thoughtfully at a normal volume, then have a loud moment of surprise, and finish in a happy tone at a normal volume again.",
+          "text": "このピースはここには合わないし、あそこにも違う…。形からすると、角の部分のはずだけど…あっ、逆さまにすればピッタリはまるじゃないか！なるほど、そういうことだったのか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Perform this line with a thoughtful start at normal volume, followed by a loud, surprised exclamation, and then a happy conclusion at normal volume.",
+          "text": "鍵はどこに置いたかな。昨日はコートを着ていたから、ポケットの中か、それとも玄関のテーブルの上か…。そうだ、昨日使ったカバンの内ポケットだ！よかった、見つかった。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your performance should begin thoughtfully and at a normal volume, then shift to surprised and loud, and finally resolve into happy and normal volume.",
+          "text": "この数式はどうしても答えが合わない。どこかで計算を間違えているんだろうか。何度も見直しているんだけど…。あ、この符号をプラスとマイナスで間違えていたのか！これでやっと解けるよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "sad -> angry",
+        "speed": "slow -> fast",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Begin in a sad, slow, and quiet manner. As you speak, transition into an angry, fast, and loud delivery.",
+          "text": "あんなに信じていたのに。ずっと一緒にいるって、そう言ってくれたのに。どうしてあんな嘘がつけたんだ！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your delivery should start quiet, slow, and sad, but build to become loud, fast, and angry by the end.",
+          "text": "あの時、私のことを心配してくれているんだとばかり思っていました。でも、裏では私のことを笑いものにしていたなんて、よくもそんなひどいことができたな！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Start speaking slowly and quietly with a sad emotion, then escalate all three attributes to fast, loud, and angry.",
+          "text": "これが完成するまで、どれだけ私が苦労したか、あなたは見ていたはずです。それなのに、すべて自分の手柄だなんて、絶対に許さない！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. As you tell this story, start with a low pitch, move to a normal pitch for the middle part, and end with a high pitch for the climax.",
+          "text": "その古い屋敷には、誰も近づこうとはしませんでした。ある夜、一人の若者が肝試しに入っていったんですが、一番奥の部屋で、突然ピアノの音が鳴り響いたそうです！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your pitch should rise as you speak: begin low, transition to a normal range, and finish on a high pitch.",
+          "text": "森の奥深くを、一人で歩いていました。しばらく進むと、苔むした石の階段が見えてきました。そして、その階段を上りきった先に、きらきらと輝く宝箱が置いてあったんです！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this line by starting in a low pitch, raising it to a normal pitch, and then ending in a high pitch to convey excitement.",
+          "text": "レースは終盤、二人のランナーが並んで走っていました。スタジアムの誰もが固唾をのんで見守る中、ゴール直前で、一人が最後の力を振り絞って前に出たんです！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried",
+        "tone": "indifferent -> urging"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Start with a neutral and indifferent tone, but as you speak, gradually transition to a worried and urging delivery.",
+          "text": "現在のところ、特に異常は報告されていません。システムはすべて正常に稼働しているようです。しかし、待ってください、いくつかのセンサーが不安定な数値を表示し始めました。これは…危険な兆候かもしれません。直ちにプロトコルを中断し、全員退避してください！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content escalates from a routine check to an urgent evacuation order, supporting the emotional transition."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. I want you to begin the sentence in a calm, almost detached manner, but by the end, your voice should be filled with concern and an urgent need to convince the listener.",
+          "text": "最初はただの霧だと思っていました。この辺りではよくあることですし。でも、だんだん濃くなってきて、それに、奇妙な音が聞こえるんです。もうこれ以上進むのはやめたほうがいいです。今すぐ引き返しましょう、本当に。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a situation that seems normal at first but then becomes menacing, which is a good basis for the specified dynamic change."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. The delivery should evolve. Begin with an indifferent, neutral voice, but shift into a worried and insistent tone as you finish the sentence.",
+          "text": "その道を通っても、まあ、大丈夫でしょう。近道ですし。ですが、地図をよく見ると、その先は崖になっているようです。それに、最近の雨で地盤が緩んでいるという話も聞きました。お願いです、別の安全な道を選んでください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text moves from a casual dismissal of risk to a serious warning based on new information, allowing for the vocal shift."
+          }
+        }
+      ]
+    }
+  ]
+}

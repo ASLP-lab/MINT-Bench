@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/age",
+  "language": "fr",
+  "source_plan_file": "easy__timbre__direct__atomic__age.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this as a child would.",
+      "text": "On peut ouvrir la fenêtre ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral request."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Use a clear, adult speaking voice for this line.",
+      "text": "La photosynthèse est le processus par lequel les plantes vertes utilisent la lumière du soleil pour synthétiser des nutriments.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral factual statement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Your voice should sound like an older person making an observation.",
+      "text": "Je n'avais jamais remarqué à quel point les arbres de cette rue sont devenus hauts.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral reflection."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Announce this using a mature adult voice.",
+      "text": "Nous vous informons que le magasin fermera ses portes dans dix minutes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral announcement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this in the voice of a young child.",
+          "text": "Peux-tu me passer le livre, s'il te plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should sound like a little kid speaking.",
+          "text": "Est-ce que je peux avoir un verre d'eau ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Say this as a child would.",
+          "text": "On peut ouvrir la fenêtre ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a standard adult voice.",
+          "text": "La distance moyenne entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this in a mature, adult voice.",
+          "text": "Le Nil est souvent considéré comme le plus long fleuve du monde, s'étendant sur plus de six mille six cent cinquante kilomètres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use a clear, adult speaking voice for this line.",
+          "text": "La photosynthèse est le processus par lequel les plantes vertes utilisent la lumière du soleil pour synthétiser des nutriments.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this with the voice of an elderly person.",
+          "text": "Le temps change si vite ces jours-ci, on ne sait jamais comment s'habiller.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speak in the voice of a senior, with a thoughtful tone.",
+          "text": "C'est curieux comme le chant des oiseaux semble différent le matin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your voice should sound like an older person making an observation.",
+          "text": "Je n'avais jamais remarqué à quel point les arbres de cette rue sont devenus hauts.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this announcement in a clear, standard adult voice.",
+          "text": "Le prochain arrêt sera Charles de Gaulle - Étoile.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this line with a neutral, adult voice.",
+          "text": "Fermeture des portes imminente, veuillez vous éloigner de la bordure du quai.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Announce this using a mature adult voice.",
+          "text": "Nous vous informons que le magasin fermera ses portes dans dix minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and clear. Text is a neutral announcement."
+          }
+        }
+      ]
+    }
+  ]
+}

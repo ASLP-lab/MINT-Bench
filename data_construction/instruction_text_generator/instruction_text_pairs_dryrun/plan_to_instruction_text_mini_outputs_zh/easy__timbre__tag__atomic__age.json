@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/age",
+  "language": "zh",
+  "source_plan_file": "easy__timbre__tag__atomic__age.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：儿童",
+      "text": "我们为什么要吃饭和睡觉呀？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral, simple question, avoiding child-like themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：儿童",
+          "text": "为什么天空是蓝色的呢？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, simple question, avoiding child-like themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：儿童",
+          "text": "下完雨之后，那些水都去哪里了？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, simple question, avoiding child-like themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：儿童",
+          "text": "我们为什么要吃饭和睡觉呀？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, simple question, avoiding child-like themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：成人",
+          "text": "光在真空中的传播速度大约是每秒三十万公里，是宇宙中最快的速度。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral scientific fact."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：成人",
+          "text": "金字塔是古代埃及法老的陵墓，其中最著名的是吉萨大金字塔。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral historical fact."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：成人",
+          "text": "地球的自转产生了昼夜交替，而围绕太阳的公转则形成了四季变化。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral scientific fact."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：老年",
+          "text": "秋天的风一吹，叶子就都黄了，这自然的规律真是奇妙。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral reflection on nature, avoiding elderly stereotypes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：老年",
+          "text": "看着窗外的雨，感觉整个世界都安静了下来，心也跟着沉静了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral reflection on nature, avoiding elderly stereotypes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：老年",
+          "text": "每年春天，看到新芽从枯枝上长出来，总能感受到一种顽强的生命力。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral reflection on nature, avoiding elderly stereotypes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：成人",
+          "text": "请注意，开往终点站的末班车将于晚上十一点准时发车。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a common, neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：成人",
+          "text": "温馨提示，会议将在五分钟后开始，请大家做好准备。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a common, neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：成人",
+          "text": "各位顾客，本店今日营业时间至晚上九点，感谢您的光临。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a common, neutral announcement."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/volume",
+  "language": "de",
+  "source_plan_file": "easy__style__direct__atomic__volume.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Use a barely audible, whispered voice.",
+      "text": "Die Farben des Sonnenuntergangs waren heute besonders schön.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Read this in a quiet voice, but not a whisper.",
+      "text": "Entschuldigen Sie, könnten Sie mir helfen, diesen Koffer auf die Gepäckablage zu heben?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Say this in a loud, clear voice to be heard from a short distance.",
+      "text": "Zur Information, der letzte Einlass für die Ausstellung ist heute um siebzehn Uhr.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Shout this command as if you need to be heard over a lot of noise.",
+      "text": "Bringen Sie das sofort zurück!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this in a very quiet whisper.",
+          "text": "Ich hätte nie gedacht, dass die Dinge sich so entwickeln würden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Use a barely audible, whispered voice.",
+          "text": "Die Farben des Sonnenuntergangs waren heute besonders schön.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this line as a soft whisper.",
+          "text": "Manchmal frage ich mich, ob das alles wirklich einen Sinn hat.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say the following in a quiet, gentle voice.",
+          "text": "Könnten Sie mir bitte sagen, wann der nächste Bus zum Stadtzentrum fährt?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Use a soft, low-volume voice for this sentence.",
+          "text": "Ich würde gerne einen Tisch für zwei Personen für heute Abend um achtzehn Uhr reservieren.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Read this in a quiet voice, but not a whisper.",
+          "text": "Entschuldigen Sie, könnten Sie mir helfen, diesen Koffer auf die Gepäckablage zu heben?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Project your voice as if you are making an announcement to a small group across a room.",
+          "text": "Die Besprechung wurde auf morgen um zehn Uhr im Konferenzraum B verschoben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Say this in a loud, clear voice to be heard from a short distance.",
+          "text": "Zur Information, der letzte Einlass für die Ausstellung ist heute um siebzehn Uhr.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use a loud voice, as if speaking to people at the back of a large classroom.",
+          "text": "Bitte denken Sie daran, Ihre Arbeitsmaterialien nach der Veranstaltung wieder mitzunehmen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Shout this command as if you need to be heard over a lot of noise.",
+          "text": "Bringen Sie das sofort zurück!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Say this in a very loud, shouting voice.",
+          "text": "Alle müssen jetzt das Gebäude verlassen!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Yell this sentence with force.",
+          "text": "Legen Sie das Werkzeug sofort weg!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    }
+  ]
+}

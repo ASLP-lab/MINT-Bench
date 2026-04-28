@@ -1,0 +1,677 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "fr",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. As a female speaker, say this with a happy, cheerful voice, but with a complaining undertone.",
+      "text": "J'ai passé toute la journée à organiser les dossiers pour la réunion de demain.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "complaining",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Perform this as a young child who speaks with a very serious demeanor and a low-pitched, deep voice.",
+      "text": "J'aimerais avoir un verre d'eau, si cela ne vous dérange pas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "deep",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Speak very quickly and loudly, but your tone should be hesitant, as if you're unsure of what you're saying.",
+      "text": "Donc, le cycle de l'eau est un processus où l'eau s'évapore, forme des nuages, puis retombe en pluie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_fast",
+        "tone": "hesitant",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. The speaker is male. He is furious, but his voice is gentle and has a very high pitch, which is an odd combination.",
+      "text": "La distance entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "pitch": "very_high",
+        "texture": "soft",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. The speaker has a calm personality, but they are speaking quickly with an urging tone, as if trying to gently hurry someone.",
+      "text": "N'oubliez pas que la bibliothèque ferme dans quinze minutes, alors veuillez rapporter vos livres.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "tone": "urging",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. I want the voice of an elderly person who is full of life and energy, but is using a sarcastic tone to make a point.",
+      "text": "J'adore vraiment la nouvelle technologie, ça simplifie tellement la vie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "personality": "lively",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. The speaker is trying to be playful and lighthearted, but they are feeling sad, and it comes through. Speak softly.",
+      "text": "Le chaton a attrapé sa queue en pensant que c'était une souris.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "playful",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. The speaker is a man with a reserved nature. Deliver this line very loudly and rapidly, as if he's trying to get an unpleasant public speaking task over with as soon as possible.",
+      "text": "Nous informons notre aimable clientèle que le magasin fermera exceptionnellement ses portes à dix-huit heures aujourd'hui pour un inventaire annuel. Nous vous remercions de votre compréhension et nous nous excusons pour la gêne occasionnée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "speed": "very_fast",
+        "volume": "very_loud",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. You are a confident person trying to take control of a situation by giving a firm order, but you're actually terrified. Convey this conflict in your voice.",
+      "text": "Fermez la porte et barricadez-la immédiatement.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "tone": "firm",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Your tone should be flat and indifferent, but let a hint of surprise show through, as if you're trying to hide your reaction.",
+      "text": "C'est donc ce qu'elle a choisi de faire à la fin. D'accord.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "emotion": "surprised",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "complaining",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. As a female speaker, say this with a happy, cheerful voice, but with a complaining undertone.",
+          "text": "J'ai passé toute la journée à organiser les dossiers pour la réunion de demain.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this line with a bright and happy emotion, but make it sound like you're complaining about something.",
+          "text": "Finalement, j'ai trouvé le temps de faire les courses ce matin avant de venir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. The speaker is a woman. She sounds happy, but her tone is full of complaints. It's like she's whining cheerfully.",
+          "text": "Oh, regarde tout ce qu'on a réussi à faire aujourd'hui, c'est vraiment quelque chose.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "deep",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. The voice should be that of a child, but with an unexpectedly deep and serious quality.",
+          "text": "Pourriez-vous me passer le livre qui est sur l'étagère du haut, s'il vous plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Perform this as a young child who speaks with a very serious demeanor and a low-pitched, deep voice.",
+          "text": "J'aimerais avoir un verre d'eau, si cela ne vous dérange pas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. I want you to sound like a child, but your voice is unusually deep for your age, and you have a very solemn, serious personality.",
+          "text": "Pouvez-vous m'expliquer ce paragraphe une nouvelle fois, je vous prie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_fast",
+        "tone": "hesitant",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak very quickly and loudly, but your tone should be hesitant, as if you're unsure of what you're saying.",
+          "text": "Donc, le cycle de l'eau est un processus où l'eau s'évapore, forme des nuages, puis retombe en pluie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I need a loud and rapid delivery, but with a lot of hesitation in the voice. It's a contradiction between speed and confidence.",
+          "text": "En gros, la photosynthèse est le moyen par lequel les plantes utilisent la lumière du soleil pour créer leur nourriture.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this line at a very fast pace and high volume, yet make the speaker sound hesitant and uncertain.",
+          "text": "Alors, pour additionner des fractions, il faut d'abord trouver un dénominateur commun pour les deux nombres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "pitch": "very_high",
+        "texture": "soft",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. As a male speaker, deliver this line with an angry emotion, but your voice should be surprisingly soft and very high-pitched.",
+          "text": "Le rapport indique que les ventes ont augmenté de cinq pour cent ce trimestre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I want you to sound angry and irritated, but express it through a very soft, high-pitched male voice.",
+          "text": "La réunion est prévue à quatorze heures dans la salle de conférence principale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. The speaker is male. He is furious, but his voice is gentle and has a very high pitch, which is an odd combination.",
+          "text": "La distance entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "tone": "urging",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. The speaker has a calm personality, but they are speaking quickly with an urging tone, as if trying to gently hurry someone.",
+          "text": "N'oubliez pas que la bibliothèque ferme dans quinze minutes, alors veuillez rapporter vos livres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this line at a fast pace and with a tone of urgency, but maintain an overall feeling of a calm and collected personality.",
+          "text": "Le train partira à l'heure, il est donc important de monter à bord dès que possible.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Sound like a person who is fundamentally calm, but is currently in a situation that requires them to speak fast and with an urging quality to their voice.",
+          "text": "Rappel : la date limite pour soumettre le projet est demain à midi, sans exception.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "personality": "lively",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this as a lively elderly person, but your tone should be dripping with sarcasm.",
+          "text": "Ah, la jeunesse d'aujourd'hui, c'est tellement merveilleux de les voir si pleins d'idées nouvelles.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. The speaker is an energetic and spirited older person, but they are saying this with a very sarcastic tone.",
+          "text": "Quelle journée fantastique, tout s'est déroulé exactement comme prévu.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. I want the voice of an elderly person who is full of life and energy, but is using a sarcastic tone to make a point.",
+          "text": "J'adore vraiment la nouvelle technologie, ça simplifie tellement la vie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "playful",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak quietly. Your character is sad, but is trying to put on a brave face by using a playful tone.",
+          "text": "Et puis le petit nuage a décidé de faire la course avec le vent.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. In a quiet voice, deliver this line with a playful tone that barely masks a deep underlying sadness.",
+          "text": "Regarde, les fleurs dansent sous la pluie comme des ballerines.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. The speaker is trying to be playful and lighthearted, but they are feeling sad, and it comes through. Speak softly.",
+          "text": "Le chaton a attrapé sa queue en pensant que c'était une souris.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "speed": "very_fast",
+        "volume": "very_loud",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Your character is a reserved man who is uncomfortable speaking in public. He has to read this announcement very loudly and quickly.",
+          "text": "Attention à tous les passagers, en raison de circonstances imprévues, le départ du vol à destination de Paris est reporté. Nous vous prions de bien vouloir rester à proximité de la porte d'embarquement pour de plus amples informations.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. As a male speaker, adopt the personality of someone who is normally quiet and reserved, but is now forced to speak at a very high volume and a very fast pace.",
+          "text": "Ceci est un message pour tous les employés. La réunion mensuelle obligatoire a été déplacée de mardi à mercredi à la même heure. Veuillez ajuster vos calendriers en conséquence et confirmer votre présence par courriel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. The speaker is a man with a reserved nature. Deliver this line very loudly and rapidly, as if he's trying to get an unpleasant public speaking task over with as soon as possible.",
+          "text": "Nous informons notre aimable clientèle que le magasin fermera exceptionnellement ses portes à dix-huit heures aujourd'hui pour un inventaire annuel. Nous vous remercions de votre compréhension et nous nous excusons pour la gêne occasionnée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "tone": "firm",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Your character is confident and is giving a firm command, but underneath, they are deeply fearful. Let a little bit of that fear leak into the voice.",
+          "text": "Ne touchez à rien et attendez mes instructions.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this command with a firm, confident tone. However, there should be an undercurrent of fear in your voice, as if you're trying to hide your anxiety.",
+          "text": "Restez derrière moi et ne faites pas de bruit.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. You are a confident person trying to take control of a situation by giving a firm order, but you're actually terrified. Convey this conflict in your voice.",
+          "text": "Fermez la porte et barricadez-la immédiatement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "emotion": "surprised",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this as an adult who has just heard surprising news, but is trying to act indifferent and unconcerned.",
+          "text": "Ah bon, il a vraiment décidé de démissionner ? Intéressant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your tone should be flat and indifferent, but let a hint of surprise show through, as if you're trying to hide your reaction.",
+          "text": "C'est donc ce qu'elle a choisi de faire à la fin. D'accord.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. The speaker is trying to sound completely indifferent, but they are clearly surprised by what they just heard.",
+          "text": "Je vois. Alors ils vont se marier le mois prochain, c'est noté.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

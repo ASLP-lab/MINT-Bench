@@ -1,0 +1,327 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "ko",
+  "generation_summary": {
+    "num_items": 9,
+    "domain": "persona",
+    "difficulty": "hard",
+    "notes": "Planning social roles for Korean TTS. Instructions must be in English and cue the Korean language; text must be in Korean."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Korean.",
+        "Must not trivially leak the social role (e.g., avoid words like 'class', 'students', 'homework').",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must describe the persona of someone patiently explaining a concept.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "aux_values": {},
+      "text_semantic": "brief_announcement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Korean.",
+        "Must not trivially leak the social role (e.g., avoid station or airport names).",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must ask for a formal, clear, and slightly reverberant voice, like a public address announcement.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "aux_values": {},
+      "text_semantic": "persuasive_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Korean.",
+        "Text should describe the positive qualities of a generic item.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must request a loud, energetic, and calling-out style of speech, as if trying to attract customers in a market.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "aux_values": {},
+      "text_semantic": "procedural_explanation",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Korean.",
+        "The text should be a polite explanation of a multi-step process.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must ask for a polite, patient, and very clear tone, suitable for helping a customer over the phone.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "aux_values": {},
+      "text_semantic": "historical_narrative",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Korean.",
+        "The text should narrate a short, interesting story about a place or object.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must ask for an engaging, friendly, and expressive voice, as if speaking to a group of people on a tour.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "aux_values": {},
+      "text_semantic": "reassuring_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Korean.",
+        "The text should be a calm explanation of a situation, without using medical jargon.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must request a calm, reassuring, and authoritative tone, as if a medical professional is speaking to a patient.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "aux_values": {},
+      "text_semantic": "descriptive_list",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Korean.",
+        "The text should consist of a series of short phrases, numbers, or item descriptions that can be read quickly and rhythmically.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must ask the speaker to talk very rapidly, clearly, and rhythmically, building excitement like at an auction.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "aux_values": {},
+      "text_semantic": "casual_reflection",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Korean.",
+        "The text should be a thoughtful but informal monologue on a general topic.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must request a conversational, intimate, and engaging style, as if speaking into a microphone for a radio show or podcast.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "attribute_set": [
+        "social_role"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "aux_values": {},
+      "text_semantic": "enthusiastic_reaction",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in Korean.",
+        "Text should be an excited reaction to something, possibly with some modern slang if appropriate.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Korean.'.",
+        "Must ask for an energetic, highly expressive, and interactive speaking style, like someone broadcasting live online.",
+        "Must be roleplay-oriented.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

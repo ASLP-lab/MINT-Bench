@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/volume",
+  "language": "ru",
+  "source_plan_file": "easy__style__direct__atomic__volume.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Use a very low volume, as if you don't want to be overheard.",
+      "text": "Всегда удивляло, почему облака принимают такие причудливые формы.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Use a low volume for this line.",
+      "text": "Процесс фотосинтеза необходим для жизни растений и производства кислорода.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Project your voice so everyone in the room can hear.",
+      "text": "Следующая остановка – центральный парк.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Yell this out at the top of your lungs.",
+      "text": "Все немедленно отойдите назад!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this in a very quiet voice, as if speaking to yourself.",
+          "text": "Иногда мне кажется, что время течёт совсем иначе, когда никто не смотрит.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this line very softly, almost at a whisper.",
+          "text": "Странно, как один маленький поступок может изменить всё, что ты знал раньше.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a very low volume, as if you don't want to be overheard.",
+          "text": "Всегда удивляло, почему облака принимают такие причудливые формы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this quietly, using a soft voice.",
+          "text": "Этот механизм работает за счёт преобразования тепловой энергии в механическую.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Please speak in a quiet, calm tone.",
+          "text": "Основная причина этого явления заключается в разнице атмосферного давления.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a low volume for this line.",
+          "text": "Процесс фотосинтеза необходим для жизни растений и производства кислорода.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Project your voice so everyone in the room can hear.",
+          "text": "Следующая остановка – центральный парк.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Say this loudly and clearly.",
+          "text": "Внимание, начинается посадка на рейс.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak in a loud voice.",
+          "text": "Магазин закрывается через десять минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this as if you're calling out to someone across a wide street.",
+          "text": "Осторожно, сверху что-то падает!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Yell this out at the top of your lungs.",
+          "text": "Все немедленно отойдите назад!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Deliver this line with maximum volume, as if trying to be heard over a loud noise.",
+          "text": "Помогите, кто-нибудь здесь есть?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

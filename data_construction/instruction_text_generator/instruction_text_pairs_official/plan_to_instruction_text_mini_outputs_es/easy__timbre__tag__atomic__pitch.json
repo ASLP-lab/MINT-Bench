@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/pitch",
+  "language": "es",
+  "source_plan_file": "easy__timbre__tag__atomic__pitch.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Pitch: very_high",
+      "text": "La mesa está hecha de madera.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Pitch: high",
+      "text": "Por favor, asegúrese de que todas las ventanas estén cerradas al salir.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Pitch: low",
+      "text": "Necesito un bolígrafo para escribir.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Pitch: very_low",
+      "text": "El otro día vi un documental sobre el océano y sus misterios.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Pitch: very_high",
+          "text": "El coche azul está en la esquina.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Pitch: very_high",
+          "text": "La mesa está hecha de madera.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Pitch: very_high",
+          "text": "El libro tiene muchas páginas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Pitch: high",
+          "text": "Les recordamos que la reunión de mañana ha sido pospuesta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Pitch: high",
+          "text": "Todos los paquetes deben ser recogidos en la oficina principal antes de las cinco.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Pitch: high",
+          "text": "Por favor, asegúrese de que todas las ventanas estén cerradas al salir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Pitch: low",
+          "text": "¿Podrías pasarme el azúcar, por favor?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Pitch: low",
+          "text": "¿Me puedes ayudar con esto un momento?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Pitch: low",
+          "text": "Necesito un bolígrafo para escribir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Pitch: very_low",
+          "text": "El otro día vi un documental sobre el océano y sus misterios.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Pitch: very_low",
+          "text": "Creo que voy a quedarme en casa esta noche para descansar un poco.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Pitch: very_low",
+          "text": "Me parece que la película empezaba a las ocho, pero no estoy seguro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        }
+      ]
+    }
+  ]
+}

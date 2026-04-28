@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/emotion",
+  "language": "zh",
+  "source_plan_file": "easy__style__tag__atomic__emotion.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "情感：开心",
+      "text": "这个周末的安排已经定下来了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：开心",
+          "text": "今天天气不错，我们出去走走吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：开心",
+          "text": "我把文件整理好了，你看一下。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：开心",
+          "text": "这个周末的安排已经定下来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：生气",
+          "text": "这份报告的数据截止到上个月底，涵盖了所有部门的业绩情况。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：生气",
+          "text": "会议定于下午三点在二号会议室举行，请相关人员准时参加。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：生气",
+          "text": "根据系统记录，这个任务的最后修改时间是昨天晚上十一点。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：伤心",
+          "text": "记得出门的时候把垃圾带下去。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：伤心",
+          "text": "今天的午饭在桌子上，你自己热一下。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：伤心",
+          "text": "明天早上八点要开会，别迟到了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：害怕",
+          "text": "你能过来帮我一下吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：害怕",
+          "text": "请问这个东西应该放在哪里？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：害怕",
+          "text": "可以把那个递给我吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：惊讶",
+          "text": "这个流程图详细说明了项目从启动到完成的每一个步骤。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：惊讶",
+          "text": "太阳光到达地球大约需要八分钟的时间。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：惊讶",
+          "text": "这台机器的工作原理是通过转换不同形式的能量来实现的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：担心",
+          "text": "我需要再考虑一下这个计划的细节，确保万无一失。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：担心",
+          "text": "他已经出门一个小时了，不知道现在到哪里了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：担心",
+          "text": "我得检查一下所有的门窗是不是都关好了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：沉思",
+          "text": "窗外的雨滴沿着玻璃滑落，留下了一道道蜿蜒的痕迹。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：沉思",
+          "text": "远处的山峦在暮色中显得朦胧，轮廓渐渐模糊不清。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：沉思",
+          "text": "书架上的旧书散发着淡淡的墨香，时间仿佛在这里静止了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

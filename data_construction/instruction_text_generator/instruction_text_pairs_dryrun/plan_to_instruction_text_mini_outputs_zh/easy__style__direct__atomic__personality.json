@@ -1,0 +1,295 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/personality",
+  "language": "zh",
+  "source_plan_file": "easy__style__direct__atomic__personality.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "说话的语气要充满活力，听起来很阳光。",
+      "text": "通知一下，下个月的社区读书会将在第一周的周三晚上举行，地点不变。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用活泼开朗的语气说话。",
+          "text": "请注意，本周六上午九点，社区中心将举办园艺交流活动，欢迎大家参加。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语气要充满活力，听起来很阳光。",
+          "text": "通知一下，下个月的社区读书会将在第一周的周三晚上举行，地点不变。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种欢快、有精神的语调来播报。",
+          "text": "各位居民，下周我们将组织一次社区大扫除活动，具体时间安排请看公告栏。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用严肃郑重的语气来陈述。",
+          "text": "根据记录，这座桥梁的初步设计方案是在一九五八年完成的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种庄重、认真的语气说话。",
+          "text": "水的化学式是H₂O，它由两个氢原子和一个氧原子构成。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音需要听起来很认真，不带任何感情色彩。",
+          "text": "研究表明，该物质在标准大气压下的熔点为一百二十摄氏度。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话的语气要有所保留，内敛一些。",
+          "text": "远处的山，在雾里看不太清楚。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种克制的、不张扬的语气来表达。",
+          "text": "这幅画的颜色搭配很特别。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "听起来要像在自言自语，声音轻柔且含蓄。",
+          "text": "湖面很平静，几乎没有波纹。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用温和的语气说出这句话。",
+          "text": "你好，能把那本书递给我一下吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种轻柔、友善的语调来请求。",
+          "text": "请问，你可以帮我拿一下架子最上面的那个盒子吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音要非常柔和，像在安抚别人一样。",
+          "text": "不好意思，能麻烦你把窗户关小一点吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用自信、沉稳的语气进行说明。",
+          "text": "首先，按下这个红色的按钮，设备就会启动预热程序。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话要果断、有把握，让人信服。",
+          "text": "这个操作的流程是，先完成第一步的验证，然后系统会自动进入下一步。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种坚定而清晰的语调来解释。",
+          "text": "要调整音量，你只需要向右滑动这个旋钮就可以了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种疏离、冷淡的语气说话。",
+          "text": "他们在那边讨论了很久，但似乎没有得出任何结论。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气要显得漠不关心，仿佛事不关己。",
+          "text": "街角的商店今天没有开门，原因不太清楚。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种有距离感的、不带感情的语调来陈述这件事。",
+          "text": "会议在下午三点准时结束，所有人都按时离开了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

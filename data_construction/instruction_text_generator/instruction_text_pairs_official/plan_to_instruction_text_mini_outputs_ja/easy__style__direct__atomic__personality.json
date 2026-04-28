@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/personality",
+  "language": "ja",
+  "source_plan_file": "easy__style__direct__atomic__personality.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Use a bright and happy tone of voice for this notice.",
+      "text": "地域の皆様へ、回覧板が次の家に届きましたら、中身をご確認ください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Read this with a serious and formal tone.",
+      "text": "光の速度は、真空中では毎秒およそ三十万キロメートルです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Use a soft, introverted tone for this line.",
+      "text": "テーブルの上のカップには、まだ湯気が立っている。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Deliver this line with a strong sense of confidence.",
+      "text": "以上で本日の説明を終了いたします。ご清聴ありがとうございました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Read the following in a calm and gentle manner.",
+      "text": "鉢の底に石を敷き詰めたら、その上に土を入れます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Read this with a lot of energy and life.",
+      "text": "土曜日は、久しぶりに山に登ろうと思ってる。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read the following with a cheerful and bright personality.",
+          "text": "来週の土曜日、公園の清掃活動を行いますので、ご協力をお願いいたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a bright and happy tone of voice for this notice.",
+          "text": "地域の皆様へ、回覧板が次の家に届きましたら、中身をご確認ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this announcement with a cheerful and upbeat personality.",
+          "text": "今月の集会は、公民館の第一会議室で午後七時から開催されます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this with a serious and formal tone.",
+          "text": "光の速度は、真空中では毎秒およそ三十万キロメートルです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver the following statement with a serious personality.",
+          "text": "この文書は、千八百六十八年に公布された五箇条の御誓文に関するものです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a grave and formal voice for this reading.",
+          "text": "水の分子は、二つの水素原子と一つの酸素原子から構成されています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this in a quiet and reserved voice.",
+          "text": "窓の外の木の葉が、風に揺れている。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a soft, introverted tone for this line.",
+          "text": "テーブルの上のカップには、まだ湯気が立っている。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Read this short sentence with a reserved personality.",
+          "text": "壁に掛かっている時計の針が、ゆっくりと動く。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read the announcement with a confident and self-assured voice.",
+          "text": "それでは、次の議題に移ります。資料の三ページをご覧ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line with a strong sense of confidence.",
+          "text": "以上で本日の説明を終了いたします。ご清聴ありがとうございました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a firm, confident tone for the following sentence.",
+          "text": "手続きを開始しますので、お手元の書類をご準備ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this explanation with a gentle and calm personality.",
+          "text": "まず、紙を半分に折り、しっかりと折り目をつけます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a gentle and soothing voice for this sentence.",
+          "text": "次に、この毛糸を針に通して、端を結んでください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Read the following in a calm and gentle manner.",
+          "text": "鉢の底に石を敷き詰めたら、その上に土を入れます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this sentence with a lively and energetic personality.",
+          "text": "週末は友達と映画を見に行く予定なんだ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Read this with a lot of energy and life.",
+          "text": "土曜日は、久しぶりに山に登ろうと思ってる。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a vibrant and lively tone of voice.",
+          "text": "今度の休みは、家でゆっくり本でも読むつもりだよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

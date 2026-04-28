@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/speed",
+  "language": "ko",
+  "source_plan_file": "easy__style__tag__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Speed: very_fast",
+      "text": "사내 식당의 메뉴가 변경되었으니, 게시판을 확인하여 주시면 감사하겠습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard instruction-text pair."
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Speed: fast",
+      "text": "물은 섭씨 영 도에서 얼고, 섭씨 백 도에서 끓기 시작합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard instruction-text pair."
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Speed: slow",
+      "text": "어릴 적 자주 가던 공원은 이제 완전히 다른 모습으로 변해 있었다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard instruction-text pair."
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Speed: very_slow",
+      "text": "민주주의는 국가의 주권이 국민에게 있고 국민을 위하여 정치를 행하는 제도를 의미합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard instruction-text pair."
+      },
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Speed: very_fast",
+          "text": "잠시 후 회의가 시작될 예정이니, 모든 참석자께서는 회의실로 모여주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Speed: very_fast",
+          "text": "오늘 오후 세 시에 예정되어 있던 시스템 점검이 연기되었음을 알려드립니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speed: very_fast",
+          "text": "사내 식당의 메뉴가 변경되었으니, 게시판을 확인하여 주시면 감사하겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Speed: fast",
+          "text": "대한민국의 수도는 서울이며, 인구는 약 천만 명에 달합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Speed: fast",
+          "text": "물은 섭씨 영 도에서 얼고, 섭씨 백 도에서 끓기 시작합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speed: fast",
+          "text": "지구는 태양 주위를 일 년에 한 바퀴씩 공전하고 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Speed: slow",
+          "text": "가끔은 창밖을 바라보며 아무 생각 없이 시간을 보내는 것도 좋은 것 같아요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Speed: slow",
+          "text": "어릴 적 자주 가던 공원은 이제 완전히 다른 모습으로 변해 있었다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speed: slow",
+          "text": "오래된 책에서 나는 냄새는 왠지 모르게 마음을 편안하게 해준다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Speed: very_slow",
+          "text": "광합성은 식물이 태양 에너지를 이용하여 이산화탄소와 물로부터 유기물을 합성하는 과정입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Speed: very_slow",
+          "text": "민주주의는 국가의 주권이 국민에게 있고 국민을 위하여 정치를 행하는 제도를 의미합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speed: very_slow",
+          "text": "중력은 질량을 가진 모든 물체들이 서로 끌어당기는 힘을 말하며, 이것이 우리가 땅에 서 있을 수 있는 이유입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction-text pair."
+          }
+        }
+      ]
+    }
+  ]
+}

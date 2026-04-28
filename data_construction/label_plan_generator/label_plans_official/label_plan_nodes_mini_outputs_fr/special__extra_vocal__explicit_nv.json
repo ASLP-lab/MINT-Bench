@@ -1,0 +1,384 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "fr",
+  "generation_summary": {
+    "num_items": 10,
+    "domain": "extra_vocal",
+    "difficulty": "special",
+    "notes": "Planning items where the instruction controls the global speaking manner and the text contains explicit non-verbal tags. The controlled attributes (e.g., emotion, pace) are inferred as they were not provided, which is necessary to fulfill the node's definition."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "amused"
+      },
+      "aux_values": {},
+      "text_semantic": "casual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [laugh] tag mid-sentence.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Describe an amused or cheerful tone.",
+        "Do not mention laughter or laughing.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "weary"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [sigh] tag at the beginning or end.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Describe a tired, weary delivery.",
+        "Do not mention sighing.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "weak"
+      },
+      "aux_values": {},
+      "text_semantic": "simple_request",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [cough] tag.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Instruct the speaker to sound weak or unwell.",
+        "Do not mention coughing.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "pace",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "pace": "fast",
+        "emotion": "anxious"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in French.",
+        "Include one or two [quick_breath] tags.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Describe a fast, anxious, slightly breathless speaking style.",
+        "Do not mention the act of breathing or gasping.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "drowsy"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [yawn] tag.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Instruct the speaker to sound sleepy or drowsy.",
+        "Do not mention yawning.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "muttering"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [mumble] tag to represent a brief, inaudible part.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Ask for a low-volume, muttering delivery, as if talking to oneself.",
+        "Do not explicitly tell the speaker to mumble inaudibly.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "aux_values": {},
+      "text_semantic": "narratable_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [sobbing] or [whimper] tag.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Ask for a deeply sad, emotional reading, with a trembling voice.",
+        "Do not mention crying, sobbing, or whimpering.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "impatient"
+      },
+      "aux_values": {},
+      "text_semantic": "imperative_command",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [tsk] tag at the beginning.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Describe an annoyed and impatient tone.",
+        "Do not mention making a 'tsk' or clicking sound.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "whispering"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [giggle] tag.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Ask the speaker to whisper in a playful, secretive manner.",
+        "Do not mention giggling or laughing.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "thoughtful"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be in French.",
+        "Include a [hum] tag, as if pondering.",
+        "final text must be written in French",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in French.'",
+        "Describe a thoughtful, pondering delivery.",
+        "Do not mention humming.",
+        "final instruction must be in English and should begin with 'Speak in French.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

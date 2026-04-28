@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/emotion",
+  "language": "ja",
+  "source_plan_file": "easy__style__tag__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Emotion: Happy",
+      "text": "今日は天気がいいから、散歩にでも行こうかな。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Emotion: Angry",
+      "text": "ちょっと、これを見てください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Emotion: Sad",
+      "text": "昨日の会議の議事録は、後でメールで送ります。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Emotion: Surprised",
+      "text": "次の電車は五分後に到着します。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Emotion: Fearful",
+      "text": "このソフトウェアは自動的に更新される仕組みです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Emotion: Worried",
+      "text": "明日の天気予報、もう一度確認しておこうかな。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Emotion: Thoughtful",
+      "text": "テーブルの上には、一冊の古い本が置かれていた。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Emotion: Happy",
+          "text": "今日は天気がいいから、散歩にでも行こうかな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Emotion: Happy",
+          "text": "新しいカフェが駅の近くにできたらしいですよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Emotion: Happy",
+          "text": "この間買った本、読み終わったら貸してあげますね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Emotion: Angry",
+          "text": "ちょっと、これを見てください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Emotion: Angry",
+          "text": "その書類をこちらに渡してください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Emotion: Angry",
+          "text": "もう一度、説明していただけますか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Emotion: Sad",
+          "text": "昨日の会議の議事録は、後でメールで送ります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Emotion: Sad",
+          "text": "この建物は来月から改修工事が始まる予定です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Emotion: Sad",
+          "text": "報告書の提出期限は、今週の金曜日までとなっています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Emotion: Surprised",
+          "text": "本日の営業は終了いたしました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Emotion: Surprised",
+          "text": "エレベーターは現在点検中です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Emotion: Surprised",
+          "text": "次の電車は五分後に到着します。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Emotion: Fearful",
+          "text": "まず、このボタンを押して電源を入れてください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Emotion: Fearful",
+          "text": "このソフトウェアは自動的に更新される仕組みです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Emotion: Fearful",
+          "text": "材料をすべて混ぜ合わせ、オーブンで焼くだけです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Emotion: Worried",
+          "text": "彼はいつも時間通りに来るはずなんだけど。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Emotion: Worried",
+          "text": "明日の天気予報、もう一度確認しておこうかな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Emotion: Worried",
+          "text": "この道で合っているのか、少し分からなくなってきた。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Emotion: Thoughtful",
+          "text": "彼は窓の外を眺めながら、ゆっくりとコーヒーを飲んだ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Emotion: Thoughtful",
+          "text": "テーブルの上には、一冊の古い本が置かれていた。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Emotion: Thoughtful",
+          "text": "その庭は、季節ごとに違う花を咲かせる。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/emotion",
+  "language": "ru",
+  "source_plan_file": "easy__style__tag__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Emotion: Happy",
+      "text": "Сегодня я видел в парке много белок, они бегали по деревьям.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Emotion: Angry",
+      "text": "Встреча назначена на три часа.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Emotion: Sad",
+      "text": "Можешь закрыть окно?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Emotion: Surprised",
+      "text": "Отчет о продажах за прошлый месяц теперь доступен в общей папке.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Emotion: Worried",
+      "text": "Этот процесс включает несколько этапов, начиная с подготовки материалов.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Emotion: Thoughtful",
+      "text": "Иногда самые простые решения оказываются наиболее эффективными.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Emotion: Neutral",
+      "text": "Следующая остановка — центральный вокзал.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Emotion: Happy",
+          "text": "Я только что закончил читать книгу, которую мне порекомендовали на прошлой неделе.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Emotion: Happy",
+          "text": "Сегодня я видел в парке много белок, они бегали по деревьям.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: Happy",
+          "text": "Похоже, что завтра погода будет такая же, как и сегодня.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Emotion: Angry",
+          "text": "Документ находится на столе.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Emotion: Angry",
+          "text": "Встреча назначена на три часа.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: Angry",
+          "text": "Этот файл был отправлен вчера.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Emotion: Sad",
+          "text": "Передай мне, пожалуйста, соль.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Emotion: Sad",
+          "text": "Можешь закрыть окно?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: Sad",
+          "text": "Не забудь купить хлеб.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Emotion: Surprised",
+          "text": "Напоминаем, что еженедельное собрание команды состоится в четверг в десять утра.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Emotion: Surprised",
+          "text": "Отчет о продажах за прошлый месяц теперь доступен в общей папке.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: Surprised",
+          "text": "Пожалуйста, не забывайте выключать свет, когда уходите из офиса.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Emotion: Worried",
+          "text": "Этот процесс включает несколько этапов, начиная с подготовки материалов.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Emotion: Worried",
+          "text": "Система автоматически сохраняет данные каждые пять минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: Worried",
+          "text": "Чтобы получить доступ, необходимо ввести имя пользователя и пароль.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Emotion: Thoughtful",
+          "text": "Интересно, как меняется восприятие одного и того же места со временем.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Emotion: Thoughtful",
+          "text": "Иногда самые простые решения оказываются наиболее эффективными.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: Thoughtful",
+          "text": "Что на самом деле определяет выбор, который делает человек?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Emotion: Neutral",
+          "text": "Регистрация начнется в девять часов.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Emotion: Neutral",
+          "text": "Этот рейс отправляется по расписанию.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: Neutral",
+          "text": "Следующая остановка — центральный вокзал.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

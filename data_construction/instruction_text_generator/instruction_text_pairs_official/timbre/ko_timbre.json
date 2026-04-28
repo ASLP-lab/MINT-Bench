@@ -1,0 +1,1868 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "ko",
+  "group_name": "timbre",
+  "num_items": 82,
+  "timbre_attributes": [
+    "age",
+    "gender",
+    "pitch",
+    "texture"
+  ],
+  "source_files": [
+    "easy__composite__simple_comp__static.json",
+    "easy__timbre__direct__atomic__age.json",
+    "easy__timbre__direct__atomic__gender.json",
+    "easy__timbre__direct__atomic__pitch.json",
+    "easy__timbre__direct__atomic__texture.json",
+    "easy__timbre__tag__atomic__age.json",
+    "easy__timbre__tag__atomic__gender.json",
+    "easy__timbre__tag__atomic__pitch.json",
+    "easy__timbre__tag__atomic__texture.json",
+    "hard__composite__complex_comp__conflict.json",
+    "hard__composite__complex_comp__dynamic.json",
+    "hard__composite__complex_comp__static.json"
+  ],
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Age: child, Gender: male",
+      "text": "저 의자는 나무로 만들어졌나요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Pitch: low, Texture: husky",
+      "text": "박물관 폐관 시간이 다가왔습니다. 모든 관람객께서는 출구 쪽으로 이동해 주십시오.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Age: elderly, Texture: soft",
+      "text": "비가 오려나 봐요. 하늘이 점점 어두워지고 있네요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Deliver this line with the voice of an elderly woman.",
+      "text": "오래된 나무 아래에는 작은 샘물이 조용히 솟아나고 있었다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard direct instruction."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a bright, clear, high-pitched voice for this announcement.",
+      "text": "재활용품은 깨끗하게 헹궈서 지정된 장소에 분리 배출해 주시기 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard direct instruction."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a very deep, low-pitched male voice.",
+      "text": "물의 어는점은 섭씨 영도이며, 끓는점은 섭씨 백도입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard direct instruction."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Age: child, Emotion: surprised",
+      "text": "우와, 하늘에서 눈이 내리기 시작했어요!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in tag format. Text is a simple observation."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Gender: female, Speed: very_slow",
+      "text": "저 멀리 언덕 너머로 해가 천천히 저물자, 세상은 고요한 금빛으로 물들기 시작했습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in tag format. Text is long and descriptive."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp_static",
+      "target_values": {
+        "gender": "female",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Tone: indifferent, Texture: smoky",
+      "text": "마음대로 하세요. 저는 아무래도 괜찮습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in tag format. Text is a simple response."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "smoky",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Pitch: normal, Personality: confident",
+      "text": "이 문제를 해결하려면 먼저 핵심 원인부터 분석해야 합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in tag format. Text presents a solution."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Gender: male, Volume: very_quiet",
+      "text": "이리 와 봐. 내가 진짜 이유를 알려줄게.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in tag format. Text is sharing a secret."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. The speaker is old and thoughtful, musing on the passage of time.",
+      "text": "편지 한 통을 기다리던 시절이 엊그제 같은데, 이제는 손가락 하나로 소식을 주고받으니 말이야.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes manner and age. Text is reflective."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Deliver the following news report in a steady, calm male voice.",
+      "text": "안녕하십니까. 9시 뉴스입니다. 전국적으로 폭염이 계속되는 가운데, 기상청은 당분간 비 소식이 없을 것이라고 예보했습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard news report opening as requested."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp_static",
+      "target_values": {
+        "gender": "male",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Say this with a sweet and pleading voice.",
+      "text": "제발, 이번 한 번만 내 부탁 좀 들어주면 안 될까? 정말 중요하단 말이야.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a simple request that fits the pleading tone."
+      },
+      "plan_id": "PLAN__ko__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "sweet",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. I want this to sound like it's spoken by a child.",
+      "text": "왜 하늘은 파란색이에요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Use a standard adult voice.",
+      "text": "지구는 태양 주위를 약 365일에 한 번씩 공전합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. I want this to sound like it's spoken by someone who is quite old.",
+      "text": "계절이 바뀔 때마다 자연의 변화를 느끼는 것은 참으로 경이로운 일이다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean, using a regular grown-up's voice.",
+      "text": "내일은 건물 전체 소독이 있을 예정이니 참고 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I want to hear this read by a man.",
+      "text": "조선 왕조는 1392년에 이성계에 의해 건국되어 500년 이상 지속되었습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Please generate this with a female speaker.",
+      "text": "소금 좀 건네주시겠어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. I need a male speaker for this announcement.",
+      "text": "도서관은 공휴일인 다음 주 월요일에 휴관합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I want to hear a female voice say this.",
+      "text": "저는 개인적으로 매운 음식보다는 담백한 음식을 더 선호하는 편이에요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Read this with a very high pitch.",
+      "text": "저는 커피를 좋아해요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Your voice should be high.",
+      "text": "내일 아침에 일찍 깨워줄 수 있을까요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a low-pitched voice.",
+      "text": "지구는 태양 주위를 공전합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Your voice should be very low.",
+      "text": "인생은 우리가 계획한 대로만 흘러가지는 않는 것 같다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a voice that is low-pitched and has a full, sonorous quality.",
+      "text": "아마존 열대우림은 지구상에서 가장 넓은 열대우림으로, 다양한 생물종의 서식지입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a low, resonant voice without using the target word. Text is a factual statement about geography."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a soft, airy voice, almost like you're whispering.",
+      "text": "저 멀리 보이는 산의 능선이 구름과 맞닿아 있는 모습이 정말 아름답다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for an airy, soft voice without using the target word. Text is a personal reflection on a landscape."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I want a voice that is a bit rough and raspy.",
+      "text": "이제 슬슬 저녁 준비를 해야겠다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a rough, raspy voice without using the target word. Text is a simple observation."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a clear, lively voice with a higher pitch.",
+      "text": "이번 주 토요일, 저희 동네 공원에서 열리는 연례 바자회에 주민 여러분을 초대합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a clear, high-pitched voice without using the target word. Text is a public announcement."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a very precise and easy-to-understand voice.",
+      "text": "전원 버튼을 3초간 길게 누르면 기기가 재부팅됩니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for an intelligible, well-articulated voice without using the target word. Text is an explanation."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. I want a voice that has a pronounced twang, as if you have a cold.",
+      "text": "혹시 저 펜 좀 잠시 빌릴 수 있을까요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a voice resonating in the nose without using the target word. Text is a short request."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a soft, gentle, and melodious voice.",
+      "text": "저희 도서관은 매주 월요일과 공휴일에 휴관하오니 이용에 참고하시기 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a soft, melodious voice without using the target word. Text is a neutral notice."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Age: child",
+      "text": "저 상자는 어떻게 열어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Age: adult",
+      "text": "지구는 태양 주위를 약 365일에 한 바퀴 공전합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Age: elderly",
+      "text": "오늘따라 하늘이 참 맑고 푸르네요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Age: adult",
+      "text": "모든 전자기기는 비행기 모드로 설정해 주십시오.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Gender: Male",
+      "text": "지구의 대기 성분은 대부분 질소와 산소입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are neutral."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Gender: Female",
+      "text": "도서관 시스템 점검으로 인해 내일 오전까지 도서 대출 및 반납이 불가능합니다. 양해 부탁드립니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are neutral."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Gender: Male",
+      "text": "혹시 괜찮으시다면, 이 서류를 복사해서 제 책상 위에 놓아주시겠어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are neutral."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Gender: Female",
+      "text": "주말에 영화나 보러 갈까 생각 중이야.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are neutral."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Pitch: Very High",
+      "text": "서울은 대한민국의 수도입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Pitch: High",
+      "text": "도서관은 오늘 저녁 6시에 문을 닫습니다. 이용에 참고하시기 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Pitch: Low",
+      "text": "이 서류 좀 복사해 주실 수 있을까요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Pitch: Very Low",
+      "text": "가끔은 그냥 조용히 길을 걷는 것만으로도 생각이 정리될 때가 있다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Texture: Breathy",
+      "text": "가끔은 모든 것이 꿈처럼 느껴질 때가 있어요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in English, text is in Korean. Text is a reflective statement."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_texture__0001",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Texture: Husky",
+      "text": "지구는 태양 주위를 공전합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in English, text is in Korean. Text is a neutral, factual statement."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_texture__0002",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Texture: Deep",
+      "text": "다음 열차는 잠실 방면으로 가는 이호선 열차입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in English, text is in Korean. Text is a brief announcement."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_texture__0003",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Texture: Bright",
+      "text": "이 책은 생각보다 재미있더라.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in English, text is in Korean. Text is a casual statement."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_texture__0004",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Texture: Nasal",
+      "text": "식물은 광합성을 통해 필요한 에너지를 스스로 만들어냅니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in English, text is in Korean. Text is an explanatory sentence."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_texture__0005",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Texture: Soft",
+      "text": "창문 좀 닫아 주시겠어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in English, text is in Korean. Text is a simple request."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_texture__0006",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Texture: Smoky",
+      "text": "그날 밤의 일은 아직도 도시의 전설처럼 사람들 사이에 떠돌고 있다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in English, text is in Korean. Text is a narratable sentence."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Can you portray a female speaker who is deeply sad but is trying to mask it with a playful, lighthearted tone? Her voice should have an undercurrent of sorrow, even as she tries to sound cheerful.",
+      "text": "오늘 날씨 정말 좋네, 우리 어디라도 갈까?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between sadness and a playful tone. Text is a neutral, casual statement."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "playful",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Can you generate the voice of a male child speaking with a slow, firm tone that's not typical for his age? He sounds like he's trying to be a stern authority figure.",
+      "text": "이쪽으로 와서, 조용히 앉아 있도록 해.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a child speaking in an uncharacteristically adult manner. Text is a simple command."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "tone": "firm",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Please render this in the voice of an older woman who speaks with a surprisingly flirtatious and charming manner. Her tone should be light and coquettish.",
+      "text": "시간 괜찮으면, 나랑 차 한잔 하지 않겠어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the unexpected coquettish tone for an elderly woman. Text is a simple request."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Portray a male character with a deep voice who is urgently pleading for something. The delivery should be fast and sound desperate.",
+      "text": "이것만은 제발 들어주세요. 다른 건 아무것도 바라지 않아요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between a deep voice and a fast, pleading tone. Text expresses a plea."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "texture": "deep",
+        "gender": "male",
+        "tone": "pleading",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I need a confident, male voice. The catch is that his pitch is very high, which might typically sound youthful or unauthoritative, but his delivery should be anything but. He is completely self-assured.",
+      "text": "우리가 제안하는 새로운 전략은 시장 점유율을 확대하고 장기적인 성장을 보장하는 것을 핵심 목표로 삼고 있습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between a high-pitched voice and a confident personality. Text is formal and presentational."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "very_high",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. As you say the sentence, gradually and smoothly raise your pitch from low to high.",
+      "text": "저기, 혹시 제가 부탁 하나만 드려도 괜찮을지 모르겠는데, 이번 프로젝트에 꼭 필요한 자료라서 혹시 잠시만 시간을 내어 도와주실 수 있을까요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a request that builds in urgency, suitable for a rising pitch."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "low",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a three-part progression. First, speak slowly, in a low pitch, sounding sad. Second, switch to a fast, high-pitched, angry delivery. Finally, end at a normal pace and pitch, sounding thoughtful.",
+      "text": "그날 있었던 모든 일들이 이제는 그저 희미한 기억으로만 남아있습니다. 어떻게 나한테 그런 말을 할 수가 있었던 거지, 정말 용서할 수가 없어! 돌이켜보면, 어쩌면 그게 최선이었을지도 모르겠습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a reflection on a past event, structured in three parts to match the complex dynamic change."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "sad",
+          "angry",
+          "thoughtful"
+        ],
+        "pitch": [
+          "low",
+          "high",
+          "normal"
+        ],
+        "speed": [
+          "slow",
+          "fast",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Start speaking in a normal, calm voice, then steadily increase your speed, volume, and pitch throughout the sentence, ending in a very fast, loud, and high-pitched shout.",
+      "text": "지금부터 시스템 전체 점검을 시작하겠습니다. 각자 맡은 구역의 장비 상태를 확인하고, 모든 수치가 정상 범위에 있는지 보고한 후, 다음 지시가 있을 때까지 대기해 주시기 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a clear crescendo across all three attributes. Text is a neutral procedural command."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high"
+        ],
+        "volume": [
+          "normal",
+          "very_loud"
+        ],
+        "speed": [
+          "normal",
+          "very_fast"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Age: elderly, Gender: male, Emotion: thoughtful, Tone: hesitant",
+      "text": "때로는 가장 단순한 것들이 우리에게 가장 큰 의미를 주기도 한다. 길가에 핀 작은 꽃 한 송이처럼 말이다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. The voice should be a quiet and reserved woman's, with a hint of airiness or breathiness in the tone.",
+      "text": "저는 보통 커피보다는 차를 더 좋아해요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "breathy",
+        "volume": "quiet",
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a high-pitched child's voice, speaking quickly and energetically.",
+      "text": "저기 선반 위에 있는 파란색 상자 좀 내려줄 수 있어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Use a man's voice, shouting the command with firm anger.",
+      "text": "지금 진행하고 있는 모든 작업을 즉시 중단하십시오.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "angry",
+        "tone": "firm",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Age: adult, Gender: female, Texture: sweet, Personality: gentle, Speed: slow",
+      "text": "이 건물은 원래 도서관으로 지어졌지만, 나중에 시청으로 용도가 변경되어 오늘에 이르고 있습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "texture": "sweet",
+        "personality": "gentle",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Use a man's voice that is low and heavy with sadness.",
+      "text": "회의는 다음 주 화요일 오전 10시에 시작될 예정입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "low",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Use the voice of a grandmother who is always smiling and has a bright, upbeat tone.",
+      "text": "도서관은 내일 내부 수리로 인해 문을 닫습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Gender: male, Texture: husky, Tone: sarcastic",
+      "text": "역시 당신은 기대를 저버리지 않는군요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "husky",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Speak as a woman who is worried and in a rush, talking very quickly.",
+      "text": "지금 바로 출발하지 않으면 약속 시간에 맞춰 도착하기 어려울 수 있어요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "speed": "fast",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. I want a powerful and self-assured male voice, with a low, resonant tone suitable for a formal announcement.",
+      "text": "지금부터 제 28회 전국 학생 과학 경진대회를 시작하겠습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "low",
+        "texture": "deep",
+        "volume": "loud",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Age: child, Emotion: surprised, Tone: playful",
+      "text": "토끼가 두 발로 걸어가고 있어! 저쪽으로 가네.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is fixed tag format as required."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "emotion": "surprised",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. In a slow, smoky female voice, deliver the line with a flirtatious and teasing tone.",
+      "text": "그 셔츠, 당신한테 정말 잘 어울리는 것 같네요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "smoky",
+        "tone": "coquettish",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Use the voice of an old man with a serious personality, speaking in a low volume.",
+      "text": "시간의 흐름 속에서 변하지 않는 가치를 지키는 것은 각자의 몫으로 남겨졌습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "serious",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. As a female speaker, convey a sense of sadness and disappointment about how things turned out.",
+      "text": "결국 이렇게 될 줄은 정말 몰랐네요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "sad",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Gender: male, Personality: lively, Pitch: high, Texture: bright",
+      "text": "참가 신청서는 웹사이트에서 다운로드 받은 후, 모든 항목을 기입하여 이메일로 제출해야 합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is fixed tag format as required."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "lively",
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. The speaker is a woman delivering the line with a tone of indifference and at a regular pace.",
+      "text": "시스템 점검은 자정부터 두 시간 동안 진행될 예정입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "tone": "indifferent",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Use a timid male voice. Deliver the line very quietly, filled with fear.",
+      "text": "창문 밖을 보니까 웬 사람이 계속 우리 집 쪽을 쳐다보고 있는 것 같아요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "fearful",
+        "volume": "very_quiet",
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Deliver this line with a clear, persuasive female voice, as if trying to motivate a team.",
+      "text": "우리 모두의 힘을 합치면 분명히 해낼 수 있습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "texture": "clear",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Gender: male, Personality: humorous, Tone: teasing, Pitch: normal",
+      "text": "그 친구는 자기가 요리를 정말 잘한다고 했는데, 어제는 계란 프라이를 하다가 태워 먹었대.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is fixed tag format as required."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "humorous",
+        "tone": "teasing",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. As an elderly woman, speak very slowly, with a voice full of worry and concern.",
+      "text": "혹시 시간이 괜찮다면, 저기 선반 위에 있는 물건 좀 꺼내줄 수 있을까요? 키가 닿지를 않아서요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "emotion": "worried",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. I want you to sound like a woman who is complaining in a detached, aloof manner. Give her voice a slightly nasal quality.",
+      "text": "이 절차는 예상보다 훨씬 더 복잡하고 비효율적이네요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "nasal",
+        "tone": "complaining",
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Age: child, Gender: male, Pitch: very_high, Emotion: happy, Tone: smug",
+      "text": "오늘 시험 본 거 전부 다 맞았어요, 하나도 안 틀렸어요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "pitch": "very_high",
+        "emotion": "happy",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "ko"
+    }
+  ]
+}

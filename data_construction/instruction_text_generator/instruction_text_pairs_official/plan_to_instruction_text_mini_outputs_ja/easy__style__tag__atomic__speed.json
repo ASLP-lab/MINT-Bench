@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/speed",
+  "language": "ja",
+  "source_plan_file": "easy__style__tag__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Speed: Very Fast",
+      "text": "まもなく、一番線に電車がまいります。ご注意ください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Speed: Fast",
+      "text": "人工知能は、大量のデータからパターンを学習する能力を持っています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Speed: Slow",
+      "text": "二枚の布を重ねて、端から一センチのところを縫い合わせましょう。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Speed: Very Slow",
+      "text": "雨上がりの空気は、とても新鮮な感じがします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speed: Very Fast",
+          "text": "まもなく、一番線に電車がまいります。ご注意ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speed: Very Fast",
+          "text": "次の停車駅は、渋谷です。お出口は右側です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speed: Very Fast",
+          "text": "このバスは市役所前を経由して、中央駅に向かいます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speed: Fast",
+          "text": "人工知能は、大量のデータからパターンを学習する能力を持っています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speed: Fast",
+          "text": "最新のスマートフォンには、複数のカメラが搭載されているのが一般的です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speed: Fast",
+          "text": "光ファイバー通信は、情報を光信号に変換して伝送する技術です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speed: Slow",
+          "text": "まず、野菜を細かく切り、塩を少し振っておきます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speed: Slow",
+          "text": "生地を型に流し込み、表面が均一になるように整えます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speed: Slow",
+          "text": "二枚の布を重ねて、端から一センチのところを縫い合わせましょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speed: Very Slow",
+          "text": "今日の空は、どこまでも青く澄み渡っていますね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speed: Very Slow",
+          "text": "雨上がりの空気は、とても新鮮な感じがします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speed: Very Slow",
+          "text": "窓から見える木々の緑が目に優しいです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    }
+  ]
+}

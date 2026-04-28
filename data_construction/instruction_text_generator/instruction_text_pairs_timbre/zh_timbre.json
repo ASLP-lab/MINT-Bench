@@ -1,0 +1,5633 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "zh",
+  "group_name": "timbre",
+  "num_items": 250,
+  "timbre_attributes": [
+    "age",
+    "gender",
+    "pitch",
+    "texture"
+  ],
+  "source_files": [
+    "easy__composite__simple_comp__static.json",
+    "easy__timbre__direct__atomic__age.json",
+    "easy__timbre__direct__atomic__gender.json",
+    "easy__timbre__direct__atomic__pitch.json",
+    "easy__timbre__direct__atomic__texture.json",
+    "easy__timbre__tag__atomic__age.json",
+    "easy__timbre__tag__atomic__gender.json",
+    "easy__timbre__tag__atomic__pitch.json",
+    "easy__timbre__tag__atomic__texture.json",
+    "hard__composite__complex_comp__conflict.json",
+    "hard__composite__complex_comp__dynamic.json",
+    "hard__composite__complex_comp__static.json"
+  ],
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：儿童, 性别：男性",
+      "text": "你能帮我把那个拿过来吗？它放得太高了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：老年, 性别：女性",
+      "text": "人生中的许多事情，只有回头看的时候才能明白。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用标准成年男性的声音朗读。",
+      "text": "地球的自转周期大约是二十四小时。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：儿童, 音高：高",
+      "text": "这个颜色真好看，是我最喜欢的一种。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "听起来要像个上了年纪的人，声音要低一些。",
+      "text": "明天早上八点，社区中心有活动，请大家准时参加。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用你平常的、成年人的声音来朗读。",
+      "text": "这个系统的主要功能是处理和分析大规模数据集。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "性别：女性, 音高：高",
+      "text": "请问您能告诉我怎么去最近的地铁站吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "性别：男性, 音高：低",
+      "text": "把车停在这里，然后等待我的下一步指示。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "发出一个女性的声音，音高要非常低。",
+      "text": "那艘船独自航行在无边无际的黑暗海洋上。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0009",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：老年, 音色：沙哑",
+      "text": "有些道理，是需要用一辈子的时间去慢慢理解的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一个成年人的声音说，发音要清晰。",
+      "text": "温馨提示：图书馆内请保持安静，并将手机调至静音模式。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿小孩子那种天真明亮的声音来问问题。",
+      "text": "这个东西到底是怎么用的？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text does not use child-specific vocabulary."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "性别：男性，音质：低沉",
+      "text": "水在标准大气压下的沸点是一百摄氏度。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "性别：女性，音质：轻柔",
+      "text": "没关系，你先忙吧，我在这里等你一会儿。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0014",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "声音要听起来有厚度、有质感，像一个专业的男播音员。",
+      "text": "那座古老的石桥静静地横跨在河上，见证了无数个春去秋来和人世间的悲欢离合。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "rich"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：低，音质：烟嗓",
+      "text": "有些事情，也许一开始就注定了结局。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "你的声音要听起来清亮一些，音调偏高。",
+      "text": "这个周末我们一起去公园野餐怎么样？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用你平常说话的音高，但声音要柔和圆润一些。",
+      "text": "简单来说，光合作用就是植物利用光能将二氧化碳和水转化为能量的过程。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：儿童, 情感：开心",
+      "text": "我画了一幅画，等一下拿给你看！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0046",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：老年, 情感：沉思",
+      "text": "时间过得真快啊，一转眼，几十年就过去了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0047",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一个成年人担忧的语气说。",
+      "text": "这么晚了，他怎么还没回来，电话也打不通。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0048",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "性别：男性, 情感：生气",
+      "text": "你现在立刻给我出去，我不想再看到你！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0049",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一个女性的声音，带着悲伤的情绪说。",
+      "text": "就这样吧，我没什么好说的了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0050",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用平静的男声来念这段话。",
+      "text": "这个博物馆的藏品涵盖了从古代到现代的数千件艺术品，其中包括绘画、雕塑和陶瓷等多种类别，为研究艺术史提供了宝贵的实物资料。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a long factual statement."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0051",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：儿童, 语速：非常快",
+      "text": "你能帮我把那个盒子从架子上拿下来吗？我够不着，真的非常感谢你！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is tag-based. Text avoids child-themed words."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0052",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：老年, 语速：非常慢",
+      "text": "想当年，这条小路还只是泥泞的田埂，两旁开满了不知名的野花。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is tag-based, text is a narratable sentence."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0053",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "像一个成年人那样，用平稳的语速把下面这句话说出来。",
+      "text": "我们选择这个方案主要是因为它在成本和效率之间取得了最佳的平衡。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is an explanatory sentence."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0054",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "性别：男性, 口音：北京话",
+      "text": "那家新开的饭馆味道挺地道的，我昨天晚上刚去过。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is tag-based. Text avoids Beijing dialectal words."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0055",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "accent": "beijing_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用女声来说，要带有上海人讲普通话的感觉。",
+      "text": "你不要太着急，这个问题我们慢慢想办法，总能解决的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text avoids Shanghai dialectal words."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0056",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "accent": "shanghai_accented_mandarin"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用标准的男声普通话朗读。",
+      "text": "下面我们来宣布一下会议的议程安排，请大家保持安静。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a brief announcement."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0057",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "accent": "putonghua"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：高, 情绪：惊讶",
+      "text": "原来这盆花是你送过来的，我还以为是谁放在这里的呢！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is tag-based. Text does not leak surprise."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0058",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：低, 情绪：悲伤",
+      "text": "以前我们经常一起来这里，现在只剩下我一个人了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is tag-based. Text avoids explicitly sad words."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0059",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用正常的音高和不带感情的语气，读出以下通知。",
+      "text": "请注意，办公室的饮水机今天需要进行维护，请大家暂时使用茶水间的备用饮用水。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a daily notice."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0060",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色：深沉, 性格：自信",
+      "text": "太阳系中最大的行星是木星，它的质量是其他所有行星总和的两倍多。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0061",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "你的声音要听起来很柔软，带有一种温柔的感觉。",
+      "text": "当光线穿过三棱镜时，它会因为折射而分解成不同颜色的光谱。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0062",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "soft",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "听起来要开朗活泼，声音明亮一些。",
+      "text": "我刚刚发现了一家特别好吃的餐厅，下次我们一起去尝尝吧。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0063",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "bright",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：童声, 性格：活泼",
+      "text": "你知道那本书放在哪个架子上了吗？我找了半天。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text avoids child-themed content."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0064",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：老年, 性格：平静",
+      "text": "很多事情，年轻的时候不明白，现在倒是都看开了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0065",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用认真、严肃的成年人声音来说话。",
+      "text": "我在此正式通知各位，项目截止日期已确定，请务必按时提交。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0066",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "性别：女性, 语气：撒娇",
+      "text": "我真的好想去那个地方玩，你就陪我去一次好不好呀？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0067",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "像一个男性指挥官一样，用不容置疑的语气说话。",
+      "text": "所有人立刻回到自己的岗位上，准备开始工作。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0068",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "听起来像是在逗别人玩，语气轻松调侃。",
+      "text": "你是不是又偷偷做了什么好事，快从实招来。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0069",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色：气声, 情感：担忧",
+      "text": "外面好像开始下雨了，你带伞出门了吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text avoids explicit emotion words."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0070",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "说话时声音要富有磁性，并且听起来心情很好。",
+      "text": "这个周末我打算把之前没看完的那本书读完，应该会很有意思。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and Chinese. Text is a casual statement in Chinese and does not explicitly mention happiness."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0071",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "rich",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "说话的语气要愉快，声音要甜美。",
+      "text": "下班后我们一起去逛逛超市吧，我想买点水果和零食。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and Chinese. Text is a simple request in Chinese and does not explicitly mention happiness."
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0072",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "sweet",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一个小孩子的声音说话。",
+      "text": "这个按钮是做什么用的？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一个小女孩的嗓音来朗读。",
+      "text": "根据记录，这个物种是在十九世纪被发现的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一个很稚嫩的声音说。",
+      "text": "这个房间好像有点冷。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "让这句话听起来像是一个孩子说的。",
+      "text": "这个杯子是蓝色的，上面有白色的条纹。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "我需要一个普通的成年人声音。",
+      "text": "由于天气原因，今天的户外活动已经取消。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0005",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我需要一个大人的声音。",
+      "text": "麻烦你把窗户关上。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0006",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用成熟稳重的声音来说，适合专业场合。",
+      "text": "这个系统的主要功能是处理和分析数据。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0007",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "说话的人是一个成年人。",
+      "text": "我需要重新考虑一下这个计划的可行性。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0008",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "我想要一个听起来年纪比较大的声音。",
+      "text": "我把东西放在桌子上了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0009",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一位老奶奶慈祥的声音说。",
+      "text": "目前风力较大，请关好门窗，注意防风。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0010",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "模仿祖父辈的说话方式。",
+      "text": "那个包裹寄出去了吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0011",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "让声音听起来年长一些，语速可以稍微放慢一点。",
+      "text": "他打电话告诉我，那个会议的时间改到了下周一的上午。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0012",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用男性的声音来读。",
+      "text": "这个会议室的预定时间是下午三点。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用女性的声音来读。",
+      "text": "请注意，由于系统维护，网站将在今晚十点到十一点暂时无法访问。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用男性的声音朗读。",
+      "text": "麻烦帮我查询一下从这里到市中心最近的路线怎么走。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用女性的声音朗读。",
+      "text": "今天天气真不错，很适合散步。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一种典型的男士嗓音来解释一下。",
+      "text": "这个问题的关键在于理解两个变量之间的相互作用关系。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0005",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一个女性化的声音来播报。",
+      "text": "下一班开往市中心的列车即将在五分钟后到达二号站台。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0006",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "我需要一个男声来念这段话。",
+      "text": "有时候，停下来思考是很有必要的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0007",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "这段话用女声读出来。",
+      "text": "我觉得这个主意听起来很不错，我们可以试一试。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0008",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "语音类型：男声。",
+      "text": "地球的赤道周长约为四万公里，自转周期约为二十四小时。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0009",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "语音类型：女声。",
+      "text": "可以告诉我今天的天气怎么样吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0010",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用极高的音高朗读。",
+      "text": "大家好，祝你们有美好的一天。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一种听起来特别高的声音来朗读这句话。",
+      "text": "光合作用是植物将光能转化为化学能的过程。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一种不自然的高音来念出这段文字。",
+      "text": "这件青铜器出土于商代晚期，其表面饰有精美的饕餮纹。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "把音高提起来。",
+      "text": "这个会议室在哪里？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一个比你平时说话高得多的声音来朗读。",
+      "text": "图书馆将于下周一闭馆进行系统维护，请读者周知。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0005",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请把声音调高一些，但不要太尖。",
+      "text": "要使用这个设备，需要先连接电源并打开开关。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0006",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用正常的音高说。",
+      "text": "我今天下午有空。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0007",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用你最自然的说话声音来读。",
+      "text": "受冷空气影响，夜间最低气温将下降至十五度左右。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0008",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用标准的、平均的音高来读。",
+      "text": "首先，将所有材料准备好并放置在操作台上。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0009",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用低音调说话。",
+      "text": "好的，我知道了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0010",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用较低沉的声音说话。",
+      "text": "有时候，最简单的选择反而是最难做出的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0011",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请把你的声音压低一点，比平时说话更低沉。",
+      "text": "古代罗马人使用一种叫做“罗马混凝土”的材料来建造他们的许多著名建筑。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0012",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "把声音压到最低。",
+      "text": "从左边的门进去。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0013",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用你所能发出的最低声音来解释这个概念。",
+      "text": "光合作用是将光能转化为化学能的过程。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0014",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "我想要一种极其深沉、几乎不像是人能发出的声音。",
+      "text": "古老的钟楼每到整点就会敲响，声音传遍整个山谷。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_pitch__0015",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我想要一种比较深沉的声音。",
+      "text": "可以帮我开一下门吗？谢谢。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses the keyword '深沉' as requested. Text is a simple request and avoids leaking words."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "我希望你的声音能有一种大提琴般的共鸣。",
+      "text": "这座桥梁的设计采用了最新的建筑材料和技术规范。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses the specified metaphor. Text is a factual statement."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "读的时候，让声音显得浑厚饱满一些。",
+      "text": "会议将于下午三点准时开始，请各位按时出席。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses the phrase '浑厚饱满'. Text is a brief announcement."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "rich"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "我需要一个富有磁性和层次感的声音来念这段话。",
+      "text": "这个过程的主要目的是为了提高产品的整体稳定性和使用寿命。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction follows the phrasing constraint. Text is an explanatory sentence."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "rich"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我想要一种轻柔的、有气息感的声音。",
+      "text": "你觉得这个颜色怎么样？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests an airy quality. Text is a casual statement."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "你的声音要像耳语一样，但必须保证吐字清晰。",
+      "text": "望着窗外的景色，他不禁想起了许多年前的往事。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a clear whisper-like quality. Text is a short reflection."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "我希望你的声音里能有一点沙哑的质感。",
+      "text": "你先别着急，听我把话说完。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses the phrase '沙哑的质感'. Text is mild dialogue."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "我想要一种略带粗粝感，但是听起来很舒服的嗓音。",
+      "text": "那条小路蜿蜒穿过森林，一直通向湖边的小屋。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a pleasant roughness. Text is a narratable sentence."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0008",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "来一个烟嗓的感觉，谢谢。",
+      "text": "你能过来帮我一下吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses the keyword '烟嗓'. Text is a simple request."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0009",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "给我一种爵士乐的感觉，慵懒又迷人。",
+      "text": "全球气候变暖已经成为当今世界面临的主要环境问题之一。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction evokes a 'jazz' feeling. Text is a neutral factual statement."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0010",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用有磁性的声音说出以下内容。",
+      "text": "各位乘客请注意，列车即将进站，请在安全线外等候。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0011",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "magnetic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "声音要有吸引力，能抓住人的耳朵。",
+      "text": "这种材料的特殊分子结构，使其在高温环境下依然能保持出色的稳定性。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0012",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "magnetic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我想要一种轻柔的感觉，不要太大声。",
+      "text": "外面的天气看起来不错，我们出去走走吧。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0013",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用和缓的声音读出这段话。",
+      "text": "回顾过去的一年，我们确实在很多方面都取得了意想不到的进步。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0014",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用明亮、清晰的声音说。",
+      "text": "这个方案听起来可行，我们可以再讨论一下具体细节。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0015",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "声音要有活力，听起来很清脆。",
+      "text": "他沿着小路一直往前走，转过一个弯，眼前出现了一片开阔的草地。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0016",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请把每个字都说清楚，发音要清晰。",
+      "text": "麻烦你帮我把这份文件送到三楼的会议室去。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0017",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "声音要干净，吐字清楚。",
+      "text": "地球围绕太阳公转一周的时间大约是三百六十五天。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0018",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用比较重的鼻音来读。",
+      "text": "请各位游客注意，本馆的闭馆时间为下午五点整。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0019",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "让声音听起来像是从鼻子里发出来的，带一点鼻腔共鸣。",
+      "text": "根据最新的研究报告显示，这种自然现象的发生频率正在逐年增加。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0020",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用一种甜美、悦耳的声音来朗读。",
+      "text": "这个蛋糕看起来很不错，我想尝一尝。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a polite rephrasing of the target. Text is a simple, casual observation."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0021",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "声音听起来要温暖亲切。",
+      "text": "回想起童年的时光，总有一些小事让人会心一笑，感觉特别美好。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction follows constraint. Text is a medium-length, non-romantic reflection."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0022",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用一种圆润、流畅的声音说。",
+      "text": "这件事我知道了，我会尽快处理的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses synonyms for the target. Text is a common, professional dialogue line."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0023",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "你的语调需要平静而舒缓。",
+      "text": "文件被整齐地码放在桌角，旁边是一支钢笔和一本摊开的笔记本。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct description of the target delivery. Text is a descriptive narrative."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0024",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：儿童",
+      "text": "那是一座非常高的塔。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral factual statement, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：儿童",
+      "text": "如果可以的话，请把窗户关上，外面有点冷。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral request, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：儿童",
+      "text": "请注意，图书馆将于下周闭馆。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral daily notice, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：儿童",
+      "text": "为了保证安全，建筑物的地基必须打得非常牢固。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral explanatory sentence, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：成年",
+      "text": "这个周末天气好像不错，适合出去走走。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral casual statement, avoiding specific adult themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0005",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：成年",
+      "text": "本次航班现已开始登机。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral brief announcement."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0006",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：成年",
+      "text": "读一本好书总能让人获得新的见解和启发。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral short reflection."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0007",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：成年",
+      "text": "他静静地站在窗前，看着外面的雨景。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral narratable sentence."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0008",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：老年",
+      "text": "全球气候变暖主要是由于温室气体排放过多造成的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral explanatory sentence, avoiding elderly-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0009",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：老年",
+      "text": "该物质在常温下呈固态。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral factual statement, avoiding elderly-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0010",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：老年",
+      "text": "这家新开的餐厅据说味道不错，菜单也很有创意。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0011",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：老年",
+      "text": "请问去最近的地铁站怎么走？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0012",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "性别：男性",
+      "text": "这个城市有两个主要的机场。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "性别：女性",
+      "text": "水在标准大气压下的沸点是一百摄氏度。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "性别：男性",
+      "text": "温馨提示，园区内禁止吸烟，请所有人员自觉遵守规定，共同维护公共环境。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "性别：女性",
+      "text": "本次列车即将到达终点站，请您整理好自己的行李物品，准备从列车前进方向的左侧车门下车。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "性别：男性",
+      "text": "能不能再说一遍刚才的内容？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0005",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "性别：女性",
+      "text": "请稍等一下，我马上就来。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0006",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "性别：男性",
+      "text": "印刷术的发明极大地推动了知识的传播和人类文明的进步。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0007",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "性别：女性",
+      "text": "文艺复兴时期的艺术作品强调人文主义精神和对现实世界的观察。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0008",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "性别：男性",
+      "text": "昨天晚上看的那部电影很有意思，故事情节和演员的表演都非常出色。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0009",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "性别：女性",
+      "text": "我周末打算去逛逛书店，看看有没有什么新出的好书可以读。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_gender__0010",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：极高",
+      "text": "这是你的书吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音高：极高",
+      "text": "水在标准大气压下于一百摄氏度沸腾。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音高：极高",
+      "text": "未来三天天气晴朗，气温适宜，适合户外活动。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音高：高",
+      "text": "午饭时间是一点钟。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音高：高",
+      "text": "这双运动鞋的设计非常轻便，为您提供舒适的穿着体验。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0005",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：高",
+      "text": "前方路段因施工临时封闭，请过往车辆注意绕行。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0006",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音高：正常",
+      "text": "这个周末天气好像不错。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0007",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：正常",
+      "text": "这个过程需要几个步骤才能完成，我们一步一步来。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0008",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：正常",
+      "text": "请注意，图书馆将于下周一开始闭馆维修，为期三天。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0009",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音高：低",
+      "text": "麻烦你把这个文件复印一份。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0010",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音高：低",
+      "text": "窗外的梧桐树叶在阳光下闪闪发光，给夏日的午后增添了几分惬意。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0011",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：低",
+      "text": "这件青铜器出土于商代晚期遗址，其纹饰繁复，工艺精湛，代表了当时的铸造水平。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0012",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音高：非常低",
+      "text": "有时候，选择放下也是一种智慧。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0013",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音高：非常低",
+      "text": "长城的修建历经数个朝代，是中国古代一项伟大的军事防御工程。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0014",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音高：非常低",
+      "text": "谨订于下周五晚七时举办新品发布会，敬请拨冗出席。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_pitch__0015",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：深沉",
+      "text": "丝绸之路是古代连接东西方的重要贸易路线，促进了文化与商品的交流。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0001",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：深沉",
+      "text": "真正的成长，是在一次次跌倒后，依然有勇气重新站起来。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0002",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：饱满",
+      "text": "古老的城堡静静地矗立在山顶，仿佛在诉说着千年的历史。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0003",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "rich"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：饱满",
+      "text": "我觉得这部电影的结局有点出人意料。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0004",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "rich"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：气音",
+      "text": "我只是想确认一下，我们明天还是老地方见吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0005",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色质感：气音",
+      "text": "不好意思，可以麻烦你帮我把那本书递过来一下吗？谢谢。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0006",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：沙哑",
+      "text": "请注意，本周五下午公司将进行消防演习，请各位同事提前做好准备。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：沙哑",
+      "text": "也许当初的选择是错的吧。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0008",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：烟嗓",
+      "text": "他靠在斑驳的墙边，看着街上人来人往，眼神里带着一丝倦意。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0009",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：烟嗓",
+      "text": "根据最新的研究报告，这种现象背后的原因比我们想象的要复杂得多。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0010",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色质感：磁性",
+      "text": "各位旅客请注意，开往市中心方向的列车即将进站，请在安全线外等候。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0011",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "magnetic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：磁性",
+      "text": "企鹅主要生活在南半球，是鸟纲企鹅科所有物种的通称。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0012",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "magnetic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：柔和",
+      "text": "不好意思，能借用一下你的笔吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0013",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：柔和",
+      "text": "图书馆闭馆音乐已经响起，请各位读者尽快办理借阅手续，准备离馆。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0014",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色质感：明亮",
+      "text": "我今天下午要去一趟银行，把一些文件处理一下。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0015",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：明亮",
+      "text": "水在标准大气压下的沸点是一百摄氏度。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0016",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色质感：清晰",
+      "text": "现在播报一则寻物启事：有位乘客将一个黑色双肩包遗落在候车大厅，请失主尽快到服务台认领。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0017",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色质感：清晰",
+      "text": "所有的哺乳动物都具有三个听小骨，这是该类动物的独有特征。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0018",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：鼻音",
+      "text": "地球的内核主要是由铁和镍这两种金属元素构成。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text avoids strong nasal finals as requested by plan."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0019",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色质感：鼻音",
+      "text": "你能帮我看一下这个怎么用吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0020",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "音色质感：甜美",
+      "text": "我觉得这个想法还不错。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0021",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音色质感：甜美",
+      "text": "请注意，由于天气原因，原定于明天的户外活动将延期举行，具体时间另行通知。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0022",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：醇厚",
+      "text": "有时候，停下脚步看看身边的风景，也是一种难得的享受。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0023",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "音色质感：醇厚",
+      "text": "深夜的书房里只听得见笔尖划过纸张的沙沙声，和窗外偶尔传来的几声虫鸣。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_texture__0024",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "模仿一个小孩，虽然心里很不安，但为了让别人信服，他说话的语气非常肯定。",
+      "text": "放心吧，我一个人可以的，真的没问题。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between a child's worried emotion and a forced firm tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "emotion": "worried",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一位老大爷的声音，但语气要带点撒娇和挑逗的感觉。",
+      "text": "哎呀，你这件新衣服真好看，衬得你气色特别好。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between age/gender archetype and tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一种极度震惊的语气说话，由于太过惊讶，你的语速变得非常慢，音调也很低沉。",
+      "text": "原来桌子底下一直放着一个箱子。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between a high-arousal emotion (surprise) and low-arousal delivery (slow, low pitch)."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "very_slow",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一种略带磁性的沙哑女声，非常恳切地请求对方。",
+      "text": "关于这件事，我希望你能重新考虑一下。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between husky texture (often associated with confidence) and pleading tone (vulnerable)."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "female",
+        "texture": "husky",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一个声音很深沉的小孩子，他因为某件事感到非常失望。",
+      "text": "原来今天的冰淇淋没有了呀。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between age and texture."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0013",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "deep",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "虽然你的声音质感很温柔甜美，但你的态度却是叛逆和抗拒的。",
+      "text": "不，我绝对不会同意这件事。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0016",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "texture": "sweet",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "你的声音既有老年女性的虚弱气声，又带着一种不容置疑的催促感。",
+      "text": "抓紧时间，马上就要来不及了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between breathy texture and urging tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0019",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "urging",
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用一种深思熟虑的口吻，但同时又带点妩媚和挑逗的意味，来表达一句富有哲理的话。",
+      "text": "时间到底是什么呀？它好像抓不住，又无处不在。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0026",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "thoughtful",
+        "tone": "coquettish",
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "我想听一个孩子的声音，但他的声音很沙哑，而且说话的语气沉稳又严肃，完全不像个孩子。",
+      "text": "该研究报告的结论指出，我们需要重新评估现有的数据模型。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflicting traits clearly. Text is a neutral, factual statement."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0031",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "husky",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一个温柔轻柔的嗓音说话，但语气中要带着压抑的怒火，听起来像是一个脾气很好的人被逼急了。",
+      "text": "我希望你能再考虑一下，这件事情不是这么处理的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction captures the conflict between a gentle/soft voice and suppressed anger. Text is suitable dialogue."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0032",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "gentle",
+        "emotion": "angry",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我需要一个音高爬升的效果。开始时声音压低，然后一点点升高，到结尾时达到一个兴奋的高点。",
+      "text": "他一直是个很普通的孩子，成绩平平，毫不起眼。直到有一天，学校举办才艺表演，他走上台，拿起了吉他。当第一个音符响起时，所有人都安静了。当他开始唱歌时，整个礼堂都为他沸腾了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "An underdog story that builds to a triumphant climax."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "low",
+          "normal",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我需要一个音高下落的效果。从一个略高的音调开始，然后不断下降，最后用一个非常低的音调结束，传达出沉重的消息。",
+      "text": "大家听我说，关于公司的未来，我有一个非常重要的消息要宣布。董事会经过长时间的讨论，最终还是做出了一个艰难的决定。公司…要进行重组了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a formal announcement of bad corporate news, suiting the falling pitch."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "high",
+          "low",
+          "very_low"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "朗读时，音高要有一个突变。开头和结尾音高正常，但在说到关键信息时，要用一个非常高的音调，然后马上恢复。",
+      "text": "我们一直在找那份丢失的文件，翻遍了整个办公室。会不会在昨天的会议室里？不对！那份文件根本就不存在！那只是个幌子！现在我明白了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text describes a sudden insight during an investigation, with a sharp realization."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "在说到最后那个关键问题时，你的语调应该随着紧张感的增加而升高，同时为了强调，语速要放慢。",
+      "text": "我们讨论了所有的细节，分析了每一种可能性，也考虑了最坏的结果。我们做了所有能做的准备。现在，一切都摆在面前了，我只想问你一句：你真的准备好了吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text provides a good buildup to the final, emphasized question."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0014",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "high"
+        ],
+        "speed": [
+          "normal",
+          "slow"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "朗读这段话时，请让你的声音慢慢变轻、变低沉，传达出一种放弃抵抗、心灰意冷的感觉。",
+      "text": "曾经我相信，只要我们并肩作战，就没有克服不了的困难。可是你看现在，我们之间只剩下猜忌和疲惫。也许我们真的走到了尽头。就这样结束，也好。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of resignation after a long struggle, perfect for the dynamic change."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0015",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "normal",
+          "quiet"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "朗读时，情绪和音高要发生急剧变化。从平淡的叙述，瞬间切换到极度惊讶的语调，音高也要提得非常高。",
+      "text": "这场魔术表演有点无聊，就是些普通的纸牌戏法。魔术师把最后一张牌翻了过来，应该是黑桃A。可翻过来的竟然是…… 我的身份证？这怎么可能！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The personal and unexpected nature of the surprise makes the dynamic shift very effective."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0019",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high"
+        ],
+        "emotion": [
+          "neutral",
+          "surprised"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用声音描绘一幅从混乱到沉寂的画面。开头的叙述要快而响亮，随着场景的转换，声音要变得缓慢、轻柔，音调也要更低沉。",
+      "text": "风暴来的时候，海浪像山一样砸在岸上，雨点密集得让人睁不开眼，整栋房子都在摇晃！我们只能躲在地下室里祈祷！……天亮之后，风停了。我们走出去，看到的是一片狼藉。曾经的家园，现在只剩下沉默的残骸。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The narrative structure provides a clear contrast between chaos and aftermath."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0026",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "slow"
+        ],
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请全程使用正常的音高。前半段语速放慢，带着忧虑的情绪；后半段语速加快，用开心的情绪来讲述。",
+      "text": "眼看着船的燃料就要耗尽了，我们还被困在这片暴风雨里，当时我真的觉得我们可能回不去了。可就在大家绝望的时候，雷达上突然出现了一个小光点！是一艘救援船！我们得救了！他们正在朝我们的方向全速驶来！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text clearly separates the problem from the solution, facilitating the dynamic shift."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0027",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "worried",
+          "happy"
+        ],
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请先用一种严肃、正常的语调说话。然后，你的语调要变得缓慢、尖锐，并且充满讽刺意味。",
+      "text": "我明确告诉过你，这个花瓶是古董，必须小心轻放。可你呢，把它当成篮球来抛。现在好了，它碎成了几百片。干得真漂亮，我是不是还得给你颁个奖，表彰你出色的破坏能力啊？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text provides a natural transition point from factual statement to sarcasm."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0028",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": [
+          "firm",
+          "sarcastic"
+        ],
+        "speed": [
+          "normal",
+          "slow"
+        ],
+        "pitch": [
+          "normal",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "你的表演需要一个巨大的转变。开头的反应是音量大、音调高、充满惊讶，然后声音变得轻柔、低沉，进入思考状态。",
+      "text": "他们离婚了？！不会吧！他们可是我们所有人眼中的模范夫妻啊！……不过仔细想想，她上周发的朋友圈，配图是一片大海，文字却只写了“终于自由了”。原来，那个时候就已经有预兆了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text provides a clear point of reaction followed by reflection."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0030",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "pitch": [
+          "high",
+          "low"
+        ],
+        "emotion": [
+          "surprised",
+          "thoughtful"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用不带感情的语气播报，但整个过程语速、音量和音高持续上升。",
+      "text": "确认启动指令。引力稳定器已激活，功率百分之十五。护盾发生器预热中，能量水平百分之四十。武器系统上线，能量水平百分之六十五。引擎超载模式准备就绪，即将达到最大功率。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0031",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "pitch": [
+          "low",
+          "high"
+        ],
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "开始时用正常、中立的语气说话，然后语速、音量、音调逐渐提高，情绪也越来越愤怒，最后达到顶点。",
+      "text": "我一开始只是觉得有点奇怪，为什么每次开会都挑我不在的时候。后来我发现，他们讨论项目的时候，根本就没打算通知我。现在倒好，出了问题，他们居然想让我一个人来承担所有责任！这简直太离谱了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0033",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "fast"
+        ],
+        "volume": [
+          "normal",
+          "very_loud"
+        ],
+        "pitch": [
+          "normal",
+          "high"
+        ],
+        "emotion": [
+          "neutral",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "开头用正常的语速和音高，表现出惊讶但无所谓的态度。接着，逐渐转变为缓慢、低沉、深思熟虑的表达，语气中带着一种难以言喻的震撼感。",
+      "text": "所以你的意思是，时间并不是线性的？这说法真新鲜。等一下，如果真是这样，那么过去和未来……就都同时存在于某个维度。我的天……我需要好好想一想这个。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0036",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "slow"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ],
+        "emotion": [
+          "surprised",
+          "thoughtful"
+        ],
+        "tone": [
+          "indifferent",
+          "speechless"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：老年，性别：男性，情感：沉思",
+      "text": "时间过得真快啊，仿佛昨天还是个孩子，今天就已经满头白发了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "以一种严肃而坚决的态度说话，声音深沉有力。",
+      "text": "根据现有的证据和逻辑推断，唯一的结论就是我们的竞争对手在背后采取了不正当的手段来获取我们的商业机密。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "serious",
+        "tone": "firm",
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音高：高，语速：很快，情感：惊讶",
+      "text": "不会吧，这个消息是真的吗？他们怎么可能这么快就决定了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "very_fast",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一种犹豫的、带点气息感的声音，小声地提出请求。",
+      "text": "那个……我就是想问一下，你现在……方便吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "quiet",
+        "texture": "breathy",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "听起来像一个精力充沛的小孩，讲一口流利的普通话。",
+      "text": "妈妈说，如果我表现好，周末就带我去游乐园玩！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "accent": "putonghua",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "性别：女性，音色：甜美，音量：很小",
+      "text": "地球绕太阳公转一周的时间大约是三百六十五天。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "sweet",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一个北京人，说话风趣幽默，音高自然。",
+      "text": "我跟您说，甭管天儿多冷，我们北京人就爱吃那口冰棍儿，那叫一个地道！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "beijing_accent",
+        "personality": "humorous",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一个台湾小女孩开心快乐的语气说话。",
+      "text": "我跟你讲哦，这个超好吃的，你要不要也来一个？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "accent": "taiwanese_mandarin",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音高：高, 音色：明亮, 语速：快, 音量：小",
+      "text": "温馨提示，公司内部网络将于今晚十一点进行升级维护，届时可能会出现短暂断网，请提前保存好工作。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "texture": "bright",
+        "speed": "fast",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一个东北成年男性，用开玩笑的口吻和别人说话。",
+      "text": "你可算来了，我们这儿都等你半天了，还以为你掉哪个坑里了呢。赶紧的，就差你了，快坐下吧。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "accent": "northeastern_accent",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用平静沉稳的语气，以非常缓慢的语速朗读，声音带点烟熏感，音量正常。",
+      "text": "月光穿过稀疏的云层，静静地洒在古老的石板路上，两旁的树影在晚风中轻轻摇曳。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "smoky",
+        "volume": "normal",
+        "speed": "very_slow",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音高：低, 语调：失望, 情绪：悲伤, 音量：小",
+      "text": "也许从一开始，我就不应该抱有那么大的期望，这样就不会像现在这样了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "tone": "disappointed",
+        "emotion": "sad",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一位长者，用他那略带沧桑和沙哑的嗓音，慢慢地解释。",
+      "text": "植物的光合作用是一个复杂的过程，它利用阳光、水和二氧化碳来制造自身生长所需的能量。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "husky",
+        "speed": "slow",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一个讲着广式普通话的女生，用撒娇的口吻说。",
+      "text": "你今天穿这件衣服真的好帅，我好钟意你这个样子的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "cantonese_accented_mandarin",
+        "gender": "female",
+        "tone": "coquettish",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "个性：自信, 音高：低, 语速：正常, 音量：大",
+      "text": "我宣布，本次项目启动会现在正式开始，请各位保持安静。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "confident",
+        "pitch": "low",
+        "speed": "normal",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一位气场十足的女士声音说话，听起来十分笃定，毫不犹豫。",
+      "text": "这份文件的签署日期是去年五月，这一点是毫无疑问的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction correctly paraphrases target values as requested."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "adult",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "口音：东北口音, 音质：沙哑, 音高：低",
+      "text": "我们那时候都盼着过年，因为只有过年才能吃上顿好的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "northeastern_accent",
+        "texture": "husky",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "模仿一个小孩害怕地小声说话。",
+      "text": "妈妈，我能开着灯睡觉吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "emotion": "fearful",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "想象你是一位上海老爷爷，用平静的语调回忆往事。",
+      "text": "这条马路我走了几十年了，看着它一点点变宽，两边的楼房也越来越高。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0024",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "elderly",
+        "accent": "shanghai_accented_mandarin",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一个年轻女性的声音，语调偏高，带着惊讶和一些气息感。",
+      "text": "天哪，这真的是送给我的吗？我能现在就打开看看吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0026",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "pitch": "high",
+        "gender": "female",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用标准普通话，语气很急，像是在催别人一样。",
+      "text": "你赶紧把东西收拾好，五分钟后楼下集合，听见没有？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0027",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "accent": "putonghua",
+        "tone": "urging",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "情绪：生气, 音量：非常大, 音高：正常, 音质：洪亮",
+      "text": "安全协议的每一条都是用教训换来的，你们竟然敢把它当成耳旁风！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0028",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_loud",
+        "pitch": "normal",
+        "texture": "rich"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一个北京爷们儿调侃的语气说话，听起来很有趣。",
+      "text": "瞧你那点儿出息，不就是没赶上趟儿嘛，至于跟天塌了似的吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0029",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "accent": "beijing_accent",
+        "personality": "humorous",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "想象你在极度害怕，用又快又轻、又高又喘的声音小声说话。",
+      "text": "我好像听见门外有脚步声，是不是被发现了？怎么办啊？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0030",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "very_fast",
+        "volume": "quiet",
+        "pitch": "high",
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：老年, 口音：普通话, 性格：温和, 语气：委婉, 语速：慢",
+      "text": "首先，你需要把所有的材料都准备好，然后按照说明书上的步骤一步一步来，这样才能保证最后的结果是正确的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0031",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "accent": "putonghua",
+        "personality": "gentle",
+        "tone": "euphemistic",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "一个女声，听起来很难过，像是在请求别人，音量正常。",
+      "text": "我真的不能没有你，请你不要离开我。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0032",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "sad",
+        "tone": "pleading",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "说话的语速要放慢，声音轻柔一些，音调不要太高，感觉比较克制。",
+      "text": "这座桥梁的设计寿命是五十年，它采用了当时最先进的建筑材料和技术，确保了结构的安全与稳定。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0033",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "reserved",
+        "texture": "soft",
+        "pitch": "low",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "一个小男孩，洋洋得意地在说话，感觉自己很了不起。",
+      "text": "哼，我告诉你吧，这个秘密只有我知道哦。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0034",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一种尖锐、带点鼻音的声调说，语气里充满了嘲讽。",
+      "text": "哦，是吗？你可真是个天才啊。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0036",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "sarcastic",
+        "texture": "nasal",
+        "volume": "normal",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用一个轻柔的、带有忧虑情绪的年长女声来演绎这段话，说的是普通话。",
+      "text": "医生说要好好休息，可是我这心里装着事，怎么能睡得着呢。我就是放心不下家里的情况。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0037",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "emotion": "worried",
+        "accent": "putonghua",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "性格：高冷, 音色：清晰, 音高：中等, 语气：冷淡",
+      "text": "报告已经放在你桌子上了，相关数据都在里面。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0038",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "aloof",
+        "texture": "clear",
+        "pitch": "normal",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用一个充满吸引力的男中音来播报，语气要果断、肯定。",
+      "text": "我们的目标始终如一，那就是不断追求卓越，实现创新。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0039",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "magnetic",
+        "tone": "firm",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一种无语的语气说，听起来有点不知道该说什么好。",
+      "text": "我真的不知道该怎么评论这件事了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0040",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "emotion": "neutral",
+        "tone": "speechless"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "发出一个雄浑有力的声音，听起来深沉而响亮。",
+      "text": "把大门打开，让他们进来，不要耽搁。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0041",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "deep",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "性别：女性，个性：温暖，语速：正常",
+      "text": "这个系统的主要功能是通过分析用户数据，为他们提供个性化的内容推荐，从而提升整体的使用体验。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0042",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "warm",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一个心情很好的四川成年人，声音听起来很柔和，充满笑意。",
+      "text": "我跟你说，楼底下那家串串味道安逸得很，我们晚上切告一哈。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0043",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "accent": "sichuan_accent",
+        "texture": "mellow",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "一个男性在说话，语速很慢，声音很小，听起来有点不自在和尴尬。",
+      "text": "那个……我想说的是……其实……也没什么，你别在意。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0044",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "tone": "awkward",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音高：非常高，音色：甜美，情感：开心，个性：活泼",
+      "text": "我今天收到了一个超棒的礼物，一整天心情都特别好！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0045",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "texture": "sweet",
+        "emotion": "happy",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用一个娇媚的成年女声说话，口音是台湾普通话。",
+      "text": "你不要生气了啦，都是我的错，原谅我好不好？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0046",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "accent": "taiwanese_mandarin",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：儿童，性别：男性，口音：普通话，个性：严肃，语速：正常",
+      "text": "作为班长，我认为我们应该严格遵守课堂纪律，共同维护学习环境。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0048",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "accent": "putonghua",
+        "personality": "serious",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用清晰、冷静的声音说话，但语气中要带着明显的不屑和轻蔑。",
+      "text": "哦，原来这就是你花了那么长时间做出来的东西啊，真有意思。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0049",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "tone": "disdainful",
+        "emotion": "neutral",
+        "pitch": "normal",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "想象一位上了年纪的人，正用很大的声音抱怨着什么事，语速不快不慢。",
+      "text": "现在的年轻人啊，真是搞不懂他们在想什么，一点规矩都没有，我们那时候可不是这样的。时代变得太快了，我都跟不上了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0051",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "tone": "complaining",
+        "volume": "loud",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "性别：男, 音色：浑厚, 情绪：悲伤, 音高：低",
+      "text": "他独自站在窗前，看着外面无尽的雨幕，感觉整个世界都只剩下这单调的雨声和自己沉重的心跳。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0052",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "rich",
+        "emotion": "sad",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "你是一个成年人，正在压抑着怒火，用很轻的声音说话。",
+      "text": "我不想再讨论这件事了。你只要告诉我，你到底是怎么想的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0054",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "emotion": "angry",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "口音：上海普通话, 音高：高, 语速：快, 音色：明亮",
+      "text": "哎呀，侬晓得伐，楼下便利店今朝搞活动，所有饮料全部打八折。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0055",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "shanghai_accented_mandarin",
+        "pitch": "high",
+        "speed": "fast",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一位女领导，用洪亮、果决的语气发表讲话，态度非常认真。",
+      "text": "从今天起，我们将启动新的项目计划，希望大家能够全力以赴，拿出百分之百的精力来完成这次任务。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0056",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "serious",
+        "tone": "firm",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一个漠不关心的成年男声说出以下内容，口音是标准的普通话。",
+      "text": "会议将在十分钟后开始，请所有与会人员准时到场。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0057",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "accent": "putonghua",
+        "emotion": "neutral",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音高：低, 音量：非常小, 语速：非常慢, 情绪：悲伤, 音色：气息声",
+      "text": "我试着去忘记，可是越想忘记，那些画面就越清晰，仿佛一切都发生在昨天。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0058",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "volume": "very_quiet",
+        "speed": "very_slow",
+        "emotion": "sad",
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一个充满活力、爱开玩笑的孩子的标准普通话口音说话。",
+      "text": "猜猜我把糖藏在哪里啦？你肯定找不到，嘻嘻！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0059",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "accent": "putonghua",
+        "personality": "lively",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一位女性缓慢、轻柔的声音来说话，她的音色沙哑，带有一种独特的魅力。",
+      "text": "夜深了，外面的城市也安静了下来，只有窗外的霓虹灯还在不知疲倦地闪烁着。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0060",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "smoky",
+        "volume": "quiet",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "声音抬高，带着极度的惊讶，好像一时语塞，说不出话来。",
+      "text": "这……这怎么可能呢？我简直不敢相信我的眼睛。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0061",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "surprised",
+        "tone": "speechless",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：老年, 性格：严肃, 语速：很慢",
+      "text": "在制定任何长远计划之前，我们都应当充分考虑到所有潜在的风险和不可预见的因素。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0062",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "personality": "serious",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "说话者是一位成年女性，她的声音非常柔和，充满了善意和安抚人心的力量。",
+      "text": "无论遇到什么困难，只要我们心中有爱，就总能找到前行的方向和勇气。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0064",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "adult",
+        "texture": "soft",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "情绪：开心, 语速：快, 音高：高, 音量：大",
+      "text": "各位注意啦，我们期待已久的嘉宾马上就要登场了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0065",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "happy",
+        "speed": "fast",
+        "pitch": "high",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "一个说天津话的成年男性，用一种不动声色但又充满嘲讽的语气说话。",
+      "text": "嘿，您可真是个大明白人，这事儿办的，那叫一个地道。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0066",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "accent": "tianjin_accent",
+        "emotion": "neutral",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "像新闻播报员一样，用清晰、沉稳、不带个人情感的语气来陈述事实。",
+      "text": "根据最新发布的数据显示，今年第一季度的经济增长率达到了百分之五点三。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0067",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "pitch": "normal",
+        "speed": "normal",
+        "personality": "calm",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "说话者的声音听起来很泄气，充满了对现状的失望。",
+      "text": "努力了这么久，最后却换来这样的结局，真是让人有点难过。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0068",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "想象一个地道的北京人，嗓门儿很大，声音浑厚，正在跟人聊天。",
+      "text": "要我说啊，这天儿就得吃碗炸酱面，那才叫舒坦呢。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0070",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "beijing_accent",
+        "texture": "rich",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "想象一个正在闹别扭的小姑娘，她很大声、不服气地在抗议。",
+      "text": "我偏不！这不公平，你们都答应我了的，现在又反悔。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the vocal performance without using target keywords. Text is neutral dialogue."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0071",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "emotion": "angry",
+        "tone": "defiant",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "个性：温暖, 语气：恳求, 音高：正常, 语速：慢, 音质：轻柔",
+      "text": "我知道这个请求可能有些突然，但它对我真的非常重要。我反反复复想了好多天，还是觉得应该来找你谈一谈。希望你能够再考虑一下我的提议，哪怕只是多给我一点点时间也好。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses the required tag format. Text is a long request that does not explicitly leak the pleading tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_static__0072",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "warm",
+        "tone": "pleading",
+        "pitch": "normal",
+        "speed": "slow",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "zh"
+    }
+  ]
+}

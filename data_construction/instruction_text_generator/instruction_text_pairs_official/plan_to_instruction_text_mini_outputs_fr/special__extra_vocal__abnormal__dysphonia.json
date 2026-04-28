@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/dysphonia",
+  "language": "fr",
+  "source_plan_file": "special__extra_vocal__abnormal__dysphonia.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Your voice should be airy and short of breath, as if you're trying to talk right after a burst of physical activity.",
+      "text": "Cette nouvelle politique entrera en vigueur dès le premier jour du mois prochain.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Your voice is very hoarse and raspy, as if you have a sore throat.",
+      "text": "Veuillez noter que la bibliothèque fermera à dix-sept heures aujourd'hui en raison d'un événement spécial.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Your voice should tremble as you speak, as if you are extremely nervous or on the verge of tears.",
+      "text": "Je n'avais jamais vraiment réfléchi à l'impact que cela pourrait avoir sur ma vie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Read the text with a low-energy, poorly supported voice, as if speaking is a great effort for you.",
+      "text": "L'analyse comparative des deux systèmes a révélé des différences significatives en termes d'efficacité et de coût de maintenance.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Read the command with a tense and strained vocal quality, as if you are pushing through physical discomfort.",
+      "text": "N'oubliez pas de vérifier les pièces jointes avant d'envoyer le courriel.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Read the line as if you just sprinted to catch a bus. You are winded and your words come out in short bursts.",
+      "text": "J'ai besoin de savoir si le colis a été livré à la bonne adresse.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver the line with a post-cry voice: thick with emotion, a bit nasally, and with occasional tremors as you try to speak clearly.",
+      "text": "J'ai finalement réussi à terminer le livre dont je t'avais parlé, il m'a fallu plus de temps que je ne le pensais.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read the text as if you've just run up a flight of stairs and are trying to speak while out of breath.",
+          "text": "Le document explique en détail les procédures à suivre pour la certification de sécurité.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should be airy and short of breath, as if you're trying to talk right after a burst of physical activity.",
+          "text": "Cette nouvelle politique entrera en vigueur dès le premier jour du mois prochain.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver the line with a breathless quality, like you hurried to get here and haven't caught your breath yet.",
+          "text": "Je crois que la réunion a déjà commencé, nous devrions y aller tout de suite.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Your voice is very hoarse and raspy, as if you have a sore throat.",
+          "text": "Veuillez noter que la bibliothèque fermera à dix-sept heures aujourd'hui en raison d'un événement spécial.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read the text with a gravelly, hoarse voice, like you've been yelling at a concert all night.",
+          "text": "Le ramassage des ordures est reporté à demain matin à cause des conditions météorologiques.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver the line with a significant amount of vocal fry and hoarseness, making it sound rough and scratchy.",
+          "text": "N'oubliez pas d'éteindre toutes les lumières et les appareils électroniques avant de quitter le bureau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Your voice should tremble as you speak, as if you are extremely nervous or on the verge of tears.",
+          "text": "Je n'avais jamais vraiment réfléchi à l'impact que cela pourrait avoir sur ma vie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read the sentence with a shaky, trembling voice, as though you're feeling very fragile and emotional.",
+          "text": "Parfois, on se rend compte que les choses les plus simples sont les plus importantes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver the line with an unsteady, quivering voice, like you're trying to hold back strong emotions.",
+          "text": "C'est étrange de voir à quel point tout a changé en si peu de temps.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak with a very weak voice, lacking in energy and breath support, as if you are feeling quite unwell.",
+          "text": "Le rapport final conclut que les modifications structurelles du bâtiment sont nécessaires pour garantir sa stabilité à long terme.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should sound faint and unsupported, like you barely have the physical strength to get the words out.",
+          "text": "Les données historiques indiquent une augmentation progressive des températures moyennes dans cette région au cours des cinquante dernières années.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read the text with a low-energy, poorly supported voice, as if speaking is a great effort for you.",
+          "text": "L'analyse comparative des deux systèmes a révélé des différences significatives en termes d'efficacité et de coût de maintenance.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver the line with a strained, tight voice, as if you are trying to speak while lifting something very heavy.",
+          "text": "Assurez-vous que toutes les portes sont correctement verrouillées avant de partir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should sound constricted and full of effort, like speaking is a physical struggle.",
+          "text": "Veuillez soumettre tous les formulaires avant la date limite de vendredi prochain.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read the command with a tense and strained vocal quality, as if you are pushing through physical discomfort.",
+          "text": "N'oubliez pas de vérifier les pièces jointes avant d'envoyer le courriel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. You've just finished a hard run and are trying to speak while catching your breath. Your speech should be choppy and interspersed with breaths.",
+          "text": "Est-ce que tu peux me dire l'heure qu'il est, s'il te plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read the line as if you just sprinted to catch a bus. You are winded and your words come out in short bursts.",
+          "text": "J'ai besoin de savoir si le colis a été livré à la bonne adresse.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver the request while breathing heavily, as though you've just completed some intense exercise.",
+          "text": "Pouvez-vous vérifier si mon nom est bien sur la liste des invités ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak as if you've just finished a long, hard cry. Your voice is thick, congested, and a little shaky, but you're trying to act normal.",
+          "text": "Je pensais juste au film que nous avons vu hier soir, la fin était vraiment inattendue et m'a fait beaucoup réfléchir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should sound stuffy and slightly hoarse from recent crying. You're trying to regain your composure as you speak.",
+          "text": "Le temps est devenu assez imprévisible ces derniers temps, on ne sait jamais comment s'habiller le matin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver the line with a post-cry voice: thick with emotion, a bit nasally, and with occasional tremors as you try to speak clearly.",
+          "text": "J'ai finalement réussi à terminer le livre dont je t'avais parlé, il m'a fallu plus de temps que je ne le pensais.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    }
+  ]
+}

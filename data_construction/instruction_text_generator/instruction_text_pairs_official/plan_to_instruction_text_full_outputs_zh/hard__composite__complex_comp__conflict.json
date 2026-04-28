@@ -1,0 +1,2101 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "zh",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 32,
+  "num_output_items": 32,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一种听起来很高兴，但实际上是在讽刺的语气说话。",
+      "text": "他今天穿的这件衬衫颜色可真鲜艳啊。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of conflicting emotion and tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一种压抑着怒火的语气说话，语速非常慢，声音非常小。",
+      "text": "你能不能过来一下，我有点事想跟你谈谈。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between intense emotion and quiet, slow delivery."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "模仿一个小孩，虽然心里很不安，但为了让别人信服，他说话的语气非常肯定。",
+      "text": "放心吧，我一个人可以的，真的没问题。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between a child's worried emotion and a forced firm tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "emotion": "worried",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一位老大爷的声音，但语气要带点撒娇和挑逗的感觉。",
+      "text": "哎呀，你这件新衣服真好看，衬得你气色特别好。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between age/gender archetype and tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "一个自信的人，因为内心恐惧而用飞快的语速和故作坚定的语气下达指令。",
+      "text": "所有人立刻按照原计划行动，不要有任何迟疑。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Complex conflict: a confident person hiding fear with speed and forced firmness."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "emotion": "fearful",
+        "tone": "firm",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "这个人其实很难过，但他想用开玩笑的口吻来掩饰自己的情绪。",
+      "text": "你看我，还是老样子，每天都过得挺热闹的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of masking sadness with a playful tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一种极度震惊的语气说话，由于太过惊讶，你的语速变得非常慢，音调也很低沉。",
+      "text": "原来桌子底下一直放着一个箱子。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between a high-arousal emotion (surprise) and low-arousal delivery (slow, low pitch)."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "very_slow",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一种略带磁性的沙哑女声，非常恳切地请求对方。",
+      "text": "关于这件事，我希望你能重新考虑一下。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between husky texture (often associated with confidence) and pleading tone (vulnerable)."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "female",
+        "texture": "husky",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "一个性格沉稳的人，用一种和他平时风格不符的、抱怨的语气描述一件事。",
+      "text": "今天的会议从早上九点一直开到下午五点，中间只休息了半个小时，讨论的都是一些重复性的问题。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between a calm personality and a complaining tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用非常大的声音说话，但语气要显得犹豫不决、非常不确定。",
+      "text": "我想……我们应该……是往这边走吧？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between loud volume and hesitant tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "very_loud",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "想象你是一个性格非常认真的人，正试图讲一个笑话，但全程保持着绝对的严肃和不苟言笑。",
+      "text": "企鹅是一种鸟类，但它们不会飞，这主要是因为它们没有买机票。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of deadpan humor."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0011",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "serious",
+        "tone": "humorous"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "你的声音很大，听起来像在嘲弄别人，但实际上你内心充满了恐惧。",
+      "text": "喂，你不会真的相信那些传说吧？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0012",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "volume": "loud",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "模仿一个声音很深沉的小孩子，他因为某件事感到非常失望。",
+      "text": "原来今天的冰淇淋没有了呀。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between age and texture."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0013",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "deep",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一种听起来很阳光，但实际上又透着悲伤的矛盾声音来播报。",
+      "text": "温馨提示，本周的团建活动需要延期举行。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0014",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "你需要用飞快的语速说完这段话，但你的语气听起来应该毫不在乎，就像在背书一样。",
+      "text": "申请流程包括在线填写表格，上传所需文件，确认信息无误后提交，审核周期通常为五到七个工作日，结果将通过邮件通知。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0015",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "indifferent",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "虽然你的声音质感很温柔甜美，但你的态度却是叛逆和抗拒的。",
+      "text": "不，我绝对不会同意这件事。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0016",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "texture": "sweet",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一种深沉、思考的语气说话，但音量要非常大，好像在空旷的大厅里自言自语。",
+      "text": "如果我们所看到的一切都只是幻象，那真实又存在于何处呢？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0017",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "thoughtful",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "角色内心非常担忧，但为了掩饰，他故意摆出一副沾沾自喜、自鸣得意的样子说话。",
+      "text": "这件事的进展，完全在我的掌控之中。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0018",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "worried",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "你的声音既有老年女性的虚弱气声，又带着一种不容置疑的催促感。",
+      "text": "抓紧时间，马上就要来不及了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between breathy texture and urging tone."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0019",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "urging",
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用一种表面上听起来很快乐，但实际上却很失落的语气说话。",
+      "text": "恭喜你呀，你做得真棒。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0020",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "说话时要带着愤怒和恳求的情绪，听起来像是在绝望地请求，但又充满了怒火。",
+      "text": "求求你了，你到底要我怎么做才能满意？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0021",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用一个不习惯大声说话的人，突然要用又快又响亮的声音进行广播的语气来说话，声音里要透出一种不适感。",
+      "text": "最新通知，所有参加活动的员工请立刻到一号集合点集合，重复一遍，所有员工请立刻到一号集合点集合，谢谢配合。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0022",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "volume": "very_loud",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用标准普通话，但语速要快，语气要活泼调皮，就像一位严肃的新闻主持人在节目最后忍不住露出了轻松的一面。",
+      "text": "城市上空的云朵变幻莫测，时而像棉花糖，时而又像奔跑的小狗。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0023",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "accent": "putonghua",
+        "tone": "playful",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "说话的语气要显得很平淡、漠不关心，但要暗示出你其实对听到的事情感到非常意外。",
+      "text": "所以说，地球上树木的数量比银河系里的恒星还要多，是吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0024",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "surprised",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "想象一个平时总是热情友好的人，现在却用一种非常不屑的语气说话，这种反差要很明显。",
+      "text": "请问，您确定这就是您能做出的最好的方案了吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0025",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "warm",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用一种深思熟虑的口吻，但同时又带点妩媚和挑逗的意味，来表达一句富有哲理的话。",
+      "text": "时间到底是什么呀？它好像抓不住，又无处不在。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0026",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "thoughtful",
+        "tone": "coquettish",
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用一个权威人士的口吻，但是语速要慢，语气要迟疑，仿佛在掩饰什么，与他自信的身份形成反差。",
+      "text": "基于我们多年的研究，结论是……呃……非常明确的，那就是……这个理论……是成立的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0027",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "hesitant",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用一个元气满满的人突然变得忧郁的语气说话，声音轻得几乎听不见，充满了失落感。",
+      "text": "这首歌，以前听的时候还挺开心的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0028",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "lively",
+        "emotion": "sad",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用一种冷漠的人被迫请求别人的语气说话，他的恳求听起来很不情愿，充满了内心的挣扎。",
+      "text": "就这一次，只要你答应我，以后我绝不再来打扰你。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0029",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "aloof",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "你的声音里要透出恐惧，但又要用缓慢而有力的语调来掩饰它，试图控制住自己和他人。",
+      "text": "锁上门，关上灯，谁也不许出声。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0030",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "very_slow",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "我想听一个孩子的声音，但他的声音很沙哑，而且说话的语气沉稳又严肃，完全不像个孩子。",
+      "text": "该研究报告的结论指出，我们需要重新评估现有的数据模型。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflicting traits clearly. Text is a neutral, factual statement."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0031",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "husky",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用一个温柔轻柔的嗓音说话，但语气中要带着压抑的怒火，听起来像是一个脾气很好的人被逼急了。",
+      "text": "我希望你能再考虑一下，这件事情不是这么处理的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction captures the conflict between a gentle/soft voice and suppressed anger. Text is suitable dialogue."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0032",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "gentle",
+        "emotion": "angry",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一种听起来很高兴，但实际上是在讽刺的语气说话。",
+          "text": "他今天穿的这件衬衫颜色可真鲜艳啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting emotion and tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种开心的语气说出这句话，但要带有明显的嘲讽意味。",
+          "text": "我真的很欣赏你处理这件事的方式，非常独特。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting emotion and tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "听起来要像是在笑，但语气里要充满挖苦的感觉。",
+          "text": "祝贺你啊，这么快就得到了你应得的晋升。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting emotion and tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种压抑着怒火的语气说话，语速非常慢，声音非常小。",
+          "text": "你能不能过来一下，我有点事想跟你谈谈。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between intense emotion and quiet, slow delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音要非常轻，语速要很慢，但话语中要充满了即将爆发的愤怒。",
+          "text": "请把那个文件给我拿过来，现在。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between intense emotion and quiet, slow delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "想象你非常生气，但又必须控制住自己，所以你说话一字一顿，声音低得几乎听不见。",
+          "text": "我希望你能再好好想一想你刚才说的话。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between intense emotion and quiet, slow delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "emotion": "worried",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用小孩子的嗓音，带着担忧，但努力表现出坚定的语气说话。",
+          "text": "你答应过我的，不能骗人，我们必须现在就走。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a child's worried emotion and a forced firm tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "一个孩子的声音，他内心很害怕，但还是故作镇定，用严肃的口吻说话。",
+          "text": "我已经决定了，这件事就这么办，你们谁也别想改变我。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a child's worried emotion and a forced firm tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "模仿一个小孩，虽然心里很不安，但为了让别人信服，他说话的语气非常肯定。",
+          "text": "放心吧，我一个人可以的，真的没问题。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a child's worried emotion and a forced firm tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一位老大爷的声音，但语气要带点撒娇和挑逗的感觉。",
+          "text": "哎呀，你这件新衣服真好看，衬得你气色特别好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between age/gender archetype and tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "一个年长的男性的声音，说话的语气却出人意料地轻浮、爱开玩笑。",
+          "text": "好久没见，也不知道你还记不记得我这个老头子咯。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between age/gender archetype and tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个老年男性的声音说话，但要模仿一种俏皮、卖萌的口吻。",
+          "text": "你要是不理我，我可就要生气了哦。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between age/gender archetype and tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "emotion": "fearful",
+        "tone": "firm",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "一个自信的人，因为内心恐惧而用飞快的语速和故作坚定的语气下达指令。",
+          "text": "所有人立刻按照原计划行动，不要有任何迟疑。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complex conflict: a confident person hiding fear with speed and forced firmness."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "表现出一个外表自信沉着，但实际上很害怕的状态。为了掩饰恐惧，你说话又快又硬。",
+          "text": "你现在马上离开这里，不要问为什么，快走！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complex conflict: a confident person hiding fear with speed and forced firmness."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的角色很自信，但现在情况危急，他很害怕。他用快速、坚决的语气说话来掩饰自己的不安。",
+          "text": "把所有的门都锁上，检查一遍窗户，快点行动！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complex conflict: a confident person hiding fear with speed and forced firmness."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种轻松俏皮的语气说话，但要让人听出话语背后隐藏的悲伤。",
+          "text": "生活就是这样，总会有一些意想不到的事情发生嘛。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of masking sadness with a playful tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "这个人其实很难过，但他想用开玩笑的口吻来掩饰自己的情绪。",
+          "text": "你看我，还是老样子，每天都过得挺热闹的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of masking sadness with a playful tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "表面上听起来是在开玩笑，但实际上内心充满了悲伤和无奈。",
+          "text": "没关系啦，这种小事我早就习惯了，一点也不在乎。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of masking sadness with a playful tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "very_slow",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种极度震惊的语气说话，由于太过惊讶，你的语速变得非常慢，音调也很低沉。",
+          "text": "原来桌子底下一直放着一个箱子。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a high-arousal emotion (surprise) and low-arousal delivery (slow, low pitch)."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你看到了让你难以置信的景象，说话缓慢而低沉，充满了惊讶感。",
+          "text": "我从没想过，这个地方竟然会是这个样子。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a high-arousal emotion (surprise) and low-arousal delivery (slow, low pitch)."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "不是那种尖叫式的惊讶，而是一种因为震惊而失语，然后一字一顿、用低沉的声音说出来。",
+          "text": "墙上那幅画的位置好像被人动过了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a high-arousal emotion (surprise) and low-arousal delivery (slow, low pitch)."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "female",
+        "texture": "husky",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用沙哑的女性嗓音，带着恳求的语气说话。",
+          "text": "我希望你能再给我一次机会来证明自己。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between husky texture (often associated with confidence) and pleading tone (vulnerable)."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "一个女声，声音有些嘶哑，语气中充满了乞求。",
+          "text": "你能不能听我把话说完，就这一次。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between husky texture (often associated with confidence) and pleading tone (vulnerable)."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种略带磁性的沙哑女声，非常恳切地请求对方。",
+          "text": "关于这件事，我希望你能重新考虑一下。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between husky texture (often associated with confidence) and pleading tone (vulnerable)."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "一个性格沉稳的人，用一种和他平时风格不符的、抱怨的语气描述一件事。",
+          "text": "今天的会议从早上九点一直开到下午五点，中间只休息了半个小时，讨论的都是一些重复性的问题。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a calm personality and a complaining tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你是个很冷静的人，但现在却忍不住用抱怨的口吻说话了。",
+          "text": "我检查了三遍，发现这份报告里的数据有好几个地方都对不上，而且格式也完全不统一。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a calm personality and a complaining tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "虽然你一向心平气和，但这件事让你很不满，所以你说话的语气里带着明显的怨气。",
+          "text": "他们承诺过上周五之前会把东西送到，但是今天已经是周二了，我还是没有收到任何消息。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between a calm personality and a complaining tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "very_loud",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用非常大的声音说话，但语气要显得犹豫不决、非常不确定。",
+          "text": "我想……我们应该……是往这边走吧？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between loud volume and hesitant tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "大声地喊出这句话，但听起来要像是在迟疑，对自己的话没有信心。",
+          "text": "这个问题的答案，可能是……七？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between loud volume and hesitant tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "尽管你的声音很大，但你的语气充满了犹豫和迟疑。",
+          "text": "我不太确定，也许我们应该先问问别人？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between loud volume and hesitant tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0011",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "serious",
+        "tone": "humorous"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个严肃、一本正经的语气，来讲述下面这个幽默的观察。",
+          "text": "根据统计，百分之百的分手都始于一段恋情。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of deadpan humor."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "想象你是一个性格非常认真的人，正试图讲一个笑话，但全程保持着绝对的严肃和不苟言笑。",
+          "text": "企鹅是一种鸟类，但它们不会飞，这主要是因为它们没有买机票。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of deadpan humor."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种非常严肃、不带任何笑意的声音，以幽默的方式说出以下事实。",
+          "text": "闹钟的主要功能，是在你睡得最香的时候，用一种最刺耳的声音提醒你还没睡够。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of deadpan humor."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0012",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "volume": "loud",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "想象一个角色其实非常害怕，但为了掩饰恐惧，他故意大声地用开玩笑的语气对别人说话。",
+          "text": "你看，我就说这地方没什么大不了的吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用恐惧但又试图用大声、戏谑的语气来掩盖的声音说。",
+          "text": "你胆子也太小了，这点东西就把你吓成这样？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音很大，听起来像在嘲弄别人，但实际上你内心充满了恐惧。",
+          "text": "喂，你不会真的相信那些传说吧？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0013",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "deep",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个音质异常低沉的儿童声音，带着失望的语气说话。",
+          "text": "我还以为今天可以出去玩呢。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between age and texture."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "模仿一个声音很深沉的小孩子，他因为某件事感到非常失望。",
+          "text": "原来今天的冰淇淋没有了呀。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between age and texture."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种不像小孩子该有的低沉嗓音，表达出一种天真的失望感。",
+          "text": "他们说，动画片今天不播了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between age and texture."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0014",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话的人天性乐观开朗，但此刻正感到难过，声音里带着无法掩饰的悲伤，但又想努力维持平时的阳光感觉。",
+          "text": "各位同事请注意，今天的下午茶因为天气原因取消了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种听起来很阳光，但实际上又透着悲伤的矛盾声音来播报。",
+          "text": "温馨提示，本周的团建活动需要延期举行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你是一个总是很开朗的人，但现在你必须宣布一个坏消息，所以声音里夹杂着悲伤和勉强的振作。",
+          "text": "通知一下，图书馆明天将闭馆一天，请大家知悉。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0015",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "indifferent",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用非常快的语速进行说明，但语气要完全无动于衷，听不出任何急躁或热情。",
+          "text": "这个设备的使用方法很简单，首先连接电源，然后按下开关，等待指示灯变绿后就可以根据屏幕提示进行操作了，说明书在第三页。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请以极快的速度念出下面的文字，同时保持一种冷漠、事不关己的语调。",
+          "text": "光合作用是植物利用叶绿素，在光的照射下，将二氧化碳和水转化为有机物，并释放出氧气的过程，这是地球上生物生存的基础。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你需要用飞快的语速说完这段话，但你的语气听起来应该毫不在乎，就像在背书一样。",
+          "text": "申请流程包括在线填写表格，上传所需文件，确认信息无误后提交，审核周期通常为五到七个工作日，结果将通过邮件通知。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0016",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "texture": "sweet",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一个天生听起来很甜美的男声，以一种充满挑衅和不服从的语气说话。",
+          "text": "我是不会按照你说的去做的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "虽然你的声音质感很温柔甜美，但你的态度却是叛逆和抗拒的。",
+          "text": "不，我绝对不会同意这件事。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "想象一个嗓音很甜的男性，但他正用一种非常坚决、充满对抗性的口气拒绝别人。",
+          "text": "你别想让我改变主意。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0017",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "thoughtful",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种深沉、思考的语气说话，但音量要非常大，好像在空旷的大厅里自言自语。",
+          "text": "如果我们所看到的一切都只是幻象，那真实又存在于何处呢？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你正在大声地思考一个问题，语气是沉思的，但声音却异常洪亮。",
+          "text": "宇宙的外面，到底还有什么呢？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种响亮的声音，来表达一个充满哲学思辨的、内省式的问题。",
+          "text": "为什么我们总是在失去之后才懂得珍惜？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0018",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "worried",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "角色内心非常担忧，但为了掩饰，他故意摆出一副沾沾自喜、自鸣得意的样子说话。",
+          "text": "这件事的进展，完全在我的掌控之中。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气听起来非常得意和自信，但实际上这只是为了掩盖你内心的焦虑。",
+          "text": "我早就知道事情会这样发展了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "假装成一副胸有成竹、自以为是的样子，但声音深处要流露出掩饰不住的担忧。",
+          "text": "你放心，所有可能出现的问题我都考虑到了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0019",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "urging",
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一位年长女性的声音，气息要弱，听起来有点喘，但语气却非常急切，催促着别人。",
+          "text": "快点，我们没有时间了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between breathy texture and urging tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "模仿一位老奶奶，她上气不接下气地说话，但同时又在紧急地催促着什么。",
+          "text": "你们都快跟上啊，别磨蹭了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between breathy texture and urging tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音既有老年女性的虚弱气声，又带着一种不容置疑的催促感。",
+          "text": "抓紧时间，马上就要来不及了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between breathy texture and urging tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0020",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "想象一个人必须对某个结果表现出开心的样子，但他的语气里充满了掩饰不住的失望。",
+          "text": "太好了，这正是我一直想要的礼物。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种表面上听起来很快乐，但实际上却很失落的语气说话。",
+          "text": "恭喜你呀，你做得真棒。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你在努力表现出高兴的样子，但失望的情绪还是从你的语调中泄露了出来。",
+          "text": "能有这样的结果，我已经很满意了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0021",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话时要带着愤怒和恳求的情绪，听起来像是在绝望地请求，但又充满了怒火。",
+          "text": "求求你了，你到底要我怎么做才能满意？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种夹杂着愤怒的祈求语气说话。你的声音里既有怒气，又有深深的无力感。",
+          "text": "你就不能再给我一次机会吗？我真的不能没有这个。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "想象你非常生气，但又不得不低头求人。用这种既愤怒又恳求的矛盾语气说话。",
+          "text": "我已经什么都给你了，你还想让我怎么样？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0022",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "volume": "very_loud",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "想象一个性格内向、说话轻声细语的人，现在却被迫要用非常大、非常快的声音宣读一则通知，听起来很不自然，甚至有点吃力。",
+          "text": "请各位注意，由于技术原因，原定于今天下午三点举行的会议将推迟至明天上午九点，地点不变，请大家相互转告。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的角色是一个很保守的人，但现在必须用尽全力、以最快的速度大声喊出一段话。听起来要有一种被迫营业的尴尬感。",
+          "text": "各位来宾请注意，展会即将结束，请携带好您的随身物品，有序离场，感谢您的参观，我们明年再会。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一个不习惯大声说话的人，突然要用又快又响亮的声音进行广播的语气来说话，声音里要透出一种不适感。",
+          "text": "最新通知，所有参加活动的员工请立刻到一号集合点集合，重复一遍，所有员工请立刻到一号集合点集合，谢谢配合。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0023",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "accent": "putonghua",
+        "tone": "playful",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "想象你是一位发音极其标准的新闻主播，但在播报时突然用一种非常快、俏皮的语气，像是和导播开了个小玩笑。",
+          "text": "据悉，动物园里那只最喜欢搞怪的猴子，昨天又成功地拿到了饲养员的帽子。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用标准普通话，但语速要快，语气要活泼调皮，就像一位严肃的新闻主持人在节目最后忍不住露出了轻松的一面。",
+          "text": "城市上空的云朵变幻莫测，时而像棉花糖，时而又像奔跑的小狗。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用字正腔圆的播音腔，但是语速飞快，带着一种戏谑和轻松的语调，打破了传统播音的严肃感。",
+          "text": "科学家们发现，这种植物在遇到危险时，会发出一种极低频率的声音来警告同伴。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0024",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "surprised",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你的内心其实非常惊讶，但表面上要装作一副毫不在意、甚至有些无聊的样子。",
+          "text": "哦，原来章鱼有三个心脏，血液还是蓝色的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语气要显得很平淡、漠不关心，但要暗示出你其实对听到的事情感到非常意外。",
+          "text": "所以说，地球上树木的数量比银河系里的恒星还要多，是吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种故作镇定的冷淡语气说话，但要让听众感觉到你正在竭力掩饰内心的震惊。",
+          "text": "行吧，我刚知道，原来蜂蜜是永远不会变质的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0025",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "warm",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "想象一个平时总是热情友好的人，现在却用一种非常不屑的语气说话，这种反差要很明显。",
+          "text": "请问，您确定这就是您能做出的最好的方案了吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的角色本性是温暖和善的，但此刻需要用轻蔑的口吻说话，好像在强压着自己的本性。",
+          "text": "我能再占用您一点点宝贵的时间，听听您的解释吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种充满鄙夷的语气说话，但这与你一贯的亲切形象形成了鲜明对比，让人感到意外。",
+          "text": "所以，这就是你引以为傲的作品，对吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0026",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "thoughtful",
+        "tone": "coquettish",
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "作为一个成年人，你在认真思考一个深刻的问题，但表达出来的时候却用了一种撒娇的、俏皮的语气。",
+          "text": "你说，人生的意义，会不会就藏在这些无聊的瞬间里呢？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种深思熟虑的口吻，但同时又带点妩媚和挑逗的意味，来表达一句富有哲理的话。",
+          "text": "时间到底是什么呀？它好像抓不住，又无处不在。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你正在进行哲学思考，但语气却很娇媚，好像在跟人调情一样，形成一种奇特的冲突感。",
+          "text": "如果存在就是被感知，那没人看见的时候，月亮还在不在呀？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0027",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "hesitant",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "想象一个对自己所讲内容非常自信的专家，但由于某种原因，他说话时却异常缓慢和犹豫，好像在斟酌每一个字。",
+          "text": "这个问题的解决方案其实很简单，我们只需要……嗯……调整一下……那个参数的设置……就可以了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的角色是个充满自信的人，但现在说话却吞吞吐吐，语速也很慢，好像有什么难言之隐。",
+          "text": "我可以百分之百地确定，这个项目……呃……是……绝对没有问题的，请大家放心。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一个权威人士的口吻，但是语速要慢，语气要迟疑，仿佛在掩饰什么，与他自信的身份形成反差。",
+          "text": "基于我们多年的研究，结论是……呃……非常明确的，那就是……这个理论……是成立的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0028",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "lively",
+        "emotion": "sad",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "想象一个平时活泼开朗、精力充沛的人，因为心情不好而变得很沮丧，说话声音也变得非常轻。",
+          "text": "外面的天气看起来还不错，太阳出来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的角色性格很外向，但现在正沉浸在悲伤中，所以用很低沉、微弱的声音说话。",
+          "text": "楼下的猫又跑到院子里来晒太阳了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个元气满满的人突然变得忧郁的语气说话，声音轻得几乎听不见，充满了失落感。",
+          "text": "这首歌，以前听的时候还挺开心的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0029",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "aloof",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你的角色一向很高冷，与人保持距离，但现在却不得不放下身段，用一种恳求的语气说话，听起来有些别扭。",
+          "text": "我知道这个要求很过分，但还是希望你能帮我一次。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "想象一个孤傲的人，在万不得已的情况下向别人求助。他的声音里有祈求，但还残留着一丝疏离感。",
+          "text": "这件事对我真的很重要，算我求你了，行吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种冷漠的人被迫请求别人的语气说话，他的恳求听起来很不情愿，充满了内心的挣扎。",
+          "text": "就这一次，只要你答应我，以后我绝不再来打扰你。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0030",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "very_slow",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你内心非常恐惧，但为了稳住局面，你强迫自己用一种缓慢、坚定、不容置疑的语气下达命令。",
+          "text": "你，待在原地，不要动，把手举起来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "尽管你害怕得发抖，但你必须表现出镇定。请用非常慢的语速和坚决的口吻说话。",
+          "text": "听着，现在我们必须保持安静，一步一步地往后退。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音里要透出恐惧，但又要用缓慢而有力的语调来掩饰它，试图控制住自己和他人。",
+          "text": "锁上门，关上灯，谁也不许出声。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0031",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "husky",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一个小男孩的声音说话，但嗓音要有点沙哑，语气非常严肃，像个小大人一样。",
+          "text": "根据最新的气象数据显示，未来三天将有持续性降雨过程。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflicting traits clearly. Text is a neutral, factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我想听一个孩子的声音，但他的声音很沙哑，而且说话的语气沉稳又严肃，完全不像个孩子。",
+          "text": "该研究报告的结论指出，我们需要重新评估现有的数据模型。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflicting traits clearly. Text is a neutral, factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请模仿一个声音沙哑的小朋友，用一本正经的口吻来讲述这件事。",
+          "text": "物质是由分子和原子构成的，这是现代物理学的基本常识之一。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflicting traits clearly. Text is a neutral, factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_conflict__0032",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "gentle",
+        "emotion": "angry",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一个温柔轻柔的嗓音说话，但语气中要带着压抑的怒火，听起来像是一个脾气很好的人被逼急了。",
+          "text": "我希望你能再考虑一下，这件事情不是这么处理的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction captures the conflict between a gentle/soft voice and suppressed anger. Text is suitable dialogue."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请表现出一个性格温和的人在生气时的样子。她的声音依然柔软，但每一个字都透着克制的怒气。",
+          "text": "我已经说得很清楚了，请你不要再问了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction captures the conflict between a gentle/soft voice and suppressed anger. Text is suitable dialogue."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想听一种虽然生气，但仍然努力保持温柔的语气。声音很轻，但能感觉到话语背后强忍的怒意。",
+          "text": "好吧，如果你坚持要这么做，我也没有别的办法。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction captures the conflict between a gentle/soft voice and suppressed anger. Text is suitable dialogue."
+          }
+        }
+      ]
+    }
+  ]
+}

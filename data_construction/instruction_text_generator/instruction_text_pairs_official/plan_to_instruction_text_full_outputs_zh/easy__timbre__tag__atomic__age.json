@@ -1,0 +1,757 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/age",
+  "language": "zh",
+  "source_plan_file": "easy__timbre__tag__atomic__age.json",
+  "num_input_items": 12,
+  "num_output_items": 12,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：儿童",
+      "text": "那是一座非常高的塔。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral factual statement, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：儿童",
+      "text": "如果可以的话，请把窗户关上，外面有点冷。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral request, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：儿童",
+      "text": "请注意，图书馆将于下周闭馆。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral daily notice, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：儿童",
+      "text": "为了保证安全，建筑物的地基必须打得非常牢固。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral explanatory sentence, avoiding child-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：成年",
+      "text": "这个周末天气好像不错，适合出去走走。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral casual statement, avoiding specific adult themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0005",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：成年",
+      "text": "本次航班现已开始登机。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral brief announcement."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0006",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：成年",
+      "text": "读一本好书总能让人获得新的见解和启发。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral short reflection."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0007",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：成年",
+      "text": "他静静地站在窗前，看着外面的雨景。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral narratable sentence."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0008",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：老年",
+      "text": "全球气候变暖主要是由于温室气体排放过多造成的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral explanatory sentence, avoiding elderly-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0009",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：老年",
+      "text": "该物质在常温下呈固态。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral factual statement, avoiding elderly-related themes."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0010",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "年龄：老年",
+      "text": "这家新开的餐厅据说味道不错，菜单也很有创意。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0011",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "年龄：老年",
+      "text": "请问去最近的地铁站怎么走？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0012",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：儿童",
+          "text": "那是一座非常高的塔。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：儿童",
+          "text": "天空通常是蓝色的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：儿童",
+          "text": "水在零度的时候会结冰。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding child-related themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：儿童",
+          "text": "你能帮我把那本书从书架上拿下来吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：儿童",
+          "text": "请告诉我到达市中心最快的路线是什么。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：儿童",
+          "text": "如果可以的话，请把窗户关上，外面有点冷。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request, avoiding child-related themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：儿童",
+          "text": "今天的会议推迟到下午三点。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral daily notice, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：儿童",
+          "text": "请注意，图书馆将于下周闭馆。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral daily notice, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：儿童",
+          "text": "所有车辆请从东门出口驶离。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral daily notice, avoiding child-related themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：儿童",
+          "text": "这个系统的工作原理是基于一系列复杂的算法。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：儿童",
+          "text": "光合作用是植物利用光能制造养分的过程。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence, avoiding child-related themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：儿童",
+          "text": "为了保证安全，建筑物的地基必须打得非常牢固。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence, avoiding child-related themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0005",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：成年",
+          "text": "我昨天晚上看了一部很有意思的纪录片。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral casual statement, avoiding specific adult themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：成年",
+          "text": "这个周末天气好像不错，适合出去走走。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral casual statement, avoiding specific adult themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：成年",
+          "text": "我最近开始学习一种新的乐器，感觉还挺有趣的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral casual statement, avoiding specific adult themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0006",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：成年",
+          "text": "下一班列车将在五分钟后到达。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral brief announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：成年",
+          "text": "本次航班现已开始登机。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral brief announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：成年",
+          "text": "所有与会人员请到一号会议室集合。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral brief announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0007",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：成年",
+          "text": "有时候，停下来思考一下未来的方向是很有必要的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral short reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：成年",
+          "text": "读一本好书总能让人获得新的见解和启发。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral short reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：成年",
+          "text": "我觉得保持开放的心态对学习新事物至关重要。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral short reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0008",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：成年",
+          "text": "他静静地站在窗前，看着外面的雨景。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral narratable sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：成年",
+          "text": "门缓缓地打开，露出了后面的景象。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral narratable sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：成年",
+          "text": "远处的山峦在晨雾中若隐若现。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral narratable sentence."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0009",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：老年",
+          "text": "这个应用程序的主要功能是帮助用户管理他们的日程安排。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence, avoiding elderly-related themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：老年",
+          "text": "全球气候变暖主要是由于温室气体排放过多造成的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence, avoiding elderly-related themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：老年",
+          "text": "想要提高数据传输速度，我们需要升级现有的网络设备。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence, avoiding elderly-related themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0010",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：老年",
+          "text": "地球是太阳系中的第三颗行星。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding elderly-related themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：老年",
+          "text": "这个城市的平均海拔约为五百米。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding elderly-related themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：老年",
+          "text": "该物质在常温下呈固态。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding elderly-related themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0011",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：老年",
+          "text": "这家新开的餐厅据说味道不错，菜单也很有创意。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：老年",
+          "text": "我最近看的那部纪录片很有启发，推荐你也去看看。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：老年",
+          "text": "现在的智能手机功能越来越强大，学习起来还真得花点时间。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_tag_atomic_age__0012",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：老年",
+          "text": "麻烦帮我把那个遥控器递过来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：老年",
+          "text": "请问去最近的地铁站怎么走？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：老年",
+          "text": "可以把窗户稍微打开一点吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

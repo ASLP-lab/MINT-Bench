@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/accent",
+  "language": "zh",
+  "source_plan_file": "easy__style__tag__atomic__accent.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "口音：北京口音",
+      "text": "听说新开的那家面馆味道很好，咱们改天去尝尝吧。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0001",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "beijing_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0001",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "beijing_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "口音：北京口音",
+          "text": "今天天气真不错，不冷不热的，特别适合出去散步。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "口音：北京口音",
+          "text": "听说新开的那家面馆味道很好，咱们改天去尝尝吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "口音：北京口音",
+          "text": "最近这几天总是下雨，出门记得带把伞，别淋湿了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0002",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "sichuan_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "口音：四川口音",
+          "text": "地球绕着太阳公转，同时也在自转，这是形成四季和昼夜交替的主要原因。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "口音：四川口音",
+          "text": "根据历史记载，印刷术是中国古代的四大发明之一，对世界文明发展产生了深远影响。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "口音：四川口音",
+          "text": "光合作用是植物利用光能，将二氧化碳和水转化成有机物并释放氧气的过程。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0003",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "northeastern_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "口音：东北口音",
+          "text": "你下班了吗？我这边也快好了，一会儿一起走吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "口音：东北口音",
+          "text": "那个电影你看过了吗？据说评价还挺不错的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "口音：东北口音",
+          "text": "周末有什么安排？要是没事的话，我们可以一起去公园逛逛。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0004",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "taiwanese_mandarin"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "口音：台湾普通话",
+          "text": "不好意思，能麻烦您帮我递一下那个杯子吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "口音：台湾普通话",
+          "text": "请问，去火车站是坐这趟公交车吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "口音：台湾普通话",
+          "text": "可以请你把声音调小一点吗？谢谢。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0005",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "cantonese_accented_mandarin"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "口音：广式普通话",
+          "text": "各位乘客请注意，本次列车即将到达终点站，请提前准备好您的行李物品。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "口音：广式普通话",
+          "text": "由于天气原因，原定于今天下午的户外活动将延期举行，具体时间另行通知。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "口音：广式普通话",
+          "text": "请各位与会人员注意，会议将在五分钟后正式开始，请尽快进入会场就座。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0006",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "shanghai_accented_mandarin"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "口音：上海普通话",
+          "text": "看着窗外的落叶，才发觉时间过得真快，秋天不知不觉就来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "口音：上海普通话",
+          "text": "有时候觉得，能静下心来听听雨声，也是一种难得的放松。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "口音：上海普通话",
+          "text": "岁月流转，很多事情都在改变，但天空中的星辰似乎永远都在那里。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_accent__0007",
+      "meta_path": "easy/style/tag/atomic/accent",
+      "target_values": {
+        "accent": "tianjin_accent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "口音：天津口音",
+          "text": "所谓共振，是指一个物理系统在特定频率下，以最大振幅振动的现象。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "口音：天津口音",
+          "text": "蒸发是液体在任何温度下都能发生的，并且只在液体表面发生的汽化现象。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "口音：天津口音",
+          "text": "食物链是生态系统中不同生物之间因食物关系而形成的一种链条式联系。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    }
+  ]
+}

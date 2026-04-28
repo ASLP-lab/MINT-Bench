@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/texture",
+  "language": "zh",
+  "source_plan_file": "easy__timbre__direct__atomic__texture.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "说话时带一点轻轻的气声，听起来很柔和。",
+      "text": "那些看似不起眼的小事，往往构成了我们生活的全部。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests airy voice without using 'breathy'."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一种轻柔、带有很多空气感的声音来说话。",
+          "text": "有时候，我觉得我们都需要一个安静的角落，来整理自己的思绪。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests airy voice without using 'breathy'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音要听起来很放松，每个字都伴随着一点轻微的气息。",
+          "text": "回头看，才发现很多事情其实早已有了答案，只是当时不愿承认。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests airy voice without using 'breathy'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说话时带一点轻轻的气声，听起来很柔和。",
+          "text": "那些看似不起眼的小事，往往构成了我们生活的全部。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests airy voice without using 'breathy'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "我想要一个低沉、略带一点点粗糙质感的声音。",
+          "text": "今天天气好像还不错。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a slightly raspy quality without using 'husky'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "声音要低，带一点点颗粒感，听起来很有磁性。",
+          "text": "这家店的咖啡味道很特别。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a slightly raspy quality without using 'husky'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种有点粗砺感的低音来说话。",
+          "text": "原来电影已经开始了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a slightly raspy quality without using 'husky'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一种非常低沉、有共鸣感的声音说话。",
+          "text": "地球的自转周期大约是二十四小时。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard request for a deep voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "声音要非常低，听起来像是从胸腔发出的。",
+          "text": "水在标准大气压下的沸点是一百摄氏度。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard request for a deep voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我需要一个基频很低的男声，听起来厚重而洪亮。",
+          "text": "太阳系中最大的行星是木星。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard request for a deep voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "声音要清亮有活力，听起来很有精神。",
+          "text": "请各位注意，下一班列车即将到达，请在安全线后等候。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an energetic, clear voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种高频突出、干净利落的声音来说话。",
+          "text": "温馨提示，图书馆将于晚上十点闭馆，请大家安排好时间。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an energetic, clear voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想要一个听起来很明快、充满能量的声音。",
+          "text": "本次活动报名通道现已开启，欢迎大家踊跃参与。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an energetic, clear voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "吐字要干净利落，声音里不要有任何杂音或含糊的感觉。",
+          "text": "首先，将所有材料放入碗中，然后用打蛋器搅拌均匀。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests crisp, clean articulation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种非常纯净、没有沙哑或气声的声音朗读。",
+          "text": "你需要先连接电源，再按下启动按钮，设备就会开始运行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests crisp, clean articulation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "声音要非常纯粹，每个字的发音都要精准到位。",
+          "text": "操作步骤很简单，先选择你想要的文件，然后点击下载即可。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests crisp, clean articulation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话时带一点鼻音，让声音听起来像是从鼻腔发出的。",
+          "text": "麻烦你帮我把那个文件递过来好吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a nasal quality."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个鼻腔共鸣比较明显的声音。",
+          "text": "请问，这个座位有人坐吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a nasal quality."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "声音要听起来有点“瓮声瓮气”的感觉。",
+          "text": "能不能借你的笔用一下？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly requests a nasal quality."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一种温柔悦耳的声音说话，语调要柔和。",
+          "text": "别忘了，下午三点我们有个会议要开。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a gentle and pleasant voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "声音要听起来很动听，像音乐一样，发音要轻柔。",
+          "text": "出门的时候记得检查一下门窗是否关好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a gentle and pleasant voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想要一个听起来让人感觉很舒服、很愉快的女声。",
+          "text": "这是您预订的物品，请核对一下信息。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a gentle and pleasant voice."
+          }
+        }
+      ]
+    }
+  ]
+}

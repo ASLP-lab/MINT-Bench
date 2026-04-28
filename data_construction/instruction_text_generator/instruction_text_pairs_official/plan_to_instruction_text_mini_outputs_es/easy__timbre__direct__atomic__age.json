@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/age",
+  "language": "es",
+  "source_plan_file": "easy__timbre__direct__atomic__age.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Can you make the voice sound like a young boy or girl is speaking?",
+      "text": "Perdona, ¿tienes hora?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction phrased as a question."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Use a standard adult voice for the following sentence.",
+      "text": "El Monte Everest, en la cordillera del Himalaya, es la montaña más alta de la Tierra.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Slightly different wording for instruction and text."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Make it sound like an old person is talking.",
+      "text": "Parece que las nubes se están juntando, quizás llueva más tarde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard instruction and text."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. The speaker should be a grown-up.",
+      "text": "Por favor, tengan sus billetes listos para la inspección.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Concise instruction and relevant text."
+      },
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read the text in a young child's voice.",
+          "text": "¿Disculpe, qué hora es?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction and text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. The speaker should sound like a little kid.",
+          "text": "¿Alguien sabe la hora, por favor?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Slightly more colloquial instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Can you make the voice sound like a young boy or girl is speaking?",
+          "text": "Perdona, ¿tienes hora?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction phrased as a question."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this with the voice of a typical adult.",
+          "text": "El río Amazonas es el más largo y caudaloso del mundo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction and text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a standard adult voice for the following sentence.",
+          "text": "El Monte Everest, en la cordillera del Himalaya, es la montaña más alta de la Tierra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Slightly different wording for instruction and text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. The voice should be that of a grown-up, middle-aged person.",
+          "text": "El desierto del Sahara es el desierto cálido más grande del mundo y cubre la mayor parte del norte de África.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies 'middle-aged' which is a common interpretation of 'adult'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Make it sound like an old person is talking.",
+          "text": "Parece que las nubes se están juntando, quizás llueva más tarde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction and text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. The voice should be that of an elderly man or woman.",
+          "text": "El viento ha estado soplando con bastante fuerza durante todo el día de hoy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Slightly more formal instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Please read this in a senior's voice.",
+          "text": "Qué mañana tan agradable, el sol calienta pero no demasiado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Uses 'senior' as a synonym for elderly."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Use a standard grown-up voice for this announcement.",
+          "text": "Atención, la tienda cerrará en quince minutos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction and text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Can you read this with the voice of an adult?",
+          "text": "Les informamos que el próximo tren llegará con un ligero retraso.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction phrased as a question."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. The speaker should be a grown-up.",
+          "text": "Por favor, tengan sus billetes listos para la inspección.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Concise instruction and relevant text."
+          }
+        }
+      ]
+    }
+  ]
+}

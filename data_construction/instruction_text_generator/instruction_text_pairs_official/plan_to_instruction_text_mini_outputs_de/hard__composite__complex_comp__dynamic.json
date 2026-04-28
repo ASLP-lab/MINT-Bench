@@ -1,0 +1,711 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "de",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 11,
+  "num_output_items": 11,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Start off speaking slowly and with a neutral emotion. As you continue, transition to a normal pace and a more thoughtful tone, and end by speaking quickly and happily as the memory becomes more vivid.",
+      "text": "Ich erinnere mich an den Tag, als ich auf dem Dachboden diese alte Kiste gefunden habe. Zuerst wusste ich gar nicht mehr, was darin war... dann, als ich den Deckel öffnete, sah ich all die Fotos aus meiner Kindheit. Und da war dieses eine Bild vom Sommerfest im Garten, wir haben alle gelacht und die Sonne schien, es war einfach ein perfekter Moment.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal -> fast",
+        "emotion": "neutral -> thoughtful -> happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Start by speaking loudly and with a high pitch, as if addressing a large audience. Gradually decrease your volume and lower your pitch, ending in a quiet, low-pitched, more intimate tone.",
+      "text": "Wir stehen vor großen Herausforderungen, das ist unbestreitbar, und es wird die Anstrengung von uns allen erfordern! Aber wenn wir zusammenarbeiten, mit Entschlossenheit und Einigkeit, dann bin ich zuversichtlich, dass wir diese Hürden überwinden werden. Lassen Sie uns also mit Hoffnung in die Zukunft blicken, auf eine bessere Welt für die kommenden Generationen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "loud -> normal -> quiet",
+        "pitch": "high -> normal -> low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this as if you are describing a situation unfolding in real time. Begin neutrally, then transition to a worried tone, and finally end with an expression of fear.",
+      "text": "Ich bin im oberen Stockwerk. Ich habe vor ein paar Minuten ein Geräusch von unten gehört, wie ein Kratzen an der Tür. Jetzt höre ich Schritte im Flur... sie kommen die Treppe hoch. Jemand ist im Haus.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried -> fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Start this line with a tone of hesitation, as if weighing options. Then, transition to a firm, resolute tone as the decision is made. Conclude with a defiant tone, challenging any opposition.",
+      "text": "Ich könnte natürlich das tun, was von mir erwartet wird, das wäre der sichere Weg zum Erfolg. Aber ich bin zu der Überzeugung gekommen, dass ich meiner eigenen Vision folgen muss. Sollen sie doch denken, was sie wollen, das ist mein Werk.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm -> defiant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver the first part of the sentence as a loud, fast, angry outburst. Then, let the energy fade, ending slowly, quietly, and with a deep sense of sadness.",
+      "text": "Das kann doch nicht wahr sein, die ganze Arbeit, die Nächte, die wir geopfert haben! Alles für nichts! All diese Mühe... und jetzt ist es einfach weg. Alles verloren.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "fast -> slow",
+        "volume": "loud -> quiet",
+        "emotion": "angry -> sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Begin in a casual, indifferent manner. In the middle of the sentence, have a sudden moment of surprised realization, and then shift your tone to one of pleading.",
+      "text": "Also habe ich wie immer die Tür abgeschlossen, den Schlüssel gedreht und bin nach Hause gegangen. Der Schlüssel... ich habe den Schlüssel nicht abgezogen! Nein, nein, das darf nicht wahr sein, bitte sag, jemand ist noch da.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> surprised",
+        "tone": "indifferent -> pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this explanation at a normal speed, but slow down dramatically for the middle section to ensure the listener understands that specific detail, before resuming your normal speed.",
+      "text": "Nach der anfänglichen Initialisierungsphase fügen wir den Katalysator hinzu. An dieser Stelle, und das ist absolut kritisch, muss die Temperatur exakt auf siebenunddreißig Grad Celsius gehalten werden. Danach kann die Reaktion wie gewohnt weiterlaufen, bis das Endprodukt ausfällt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> very_slow -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Start speaking quietly and thoughtfully. As you continue, build your volume and emotion, moving through worried to normal volume, then to loud and angry, and ending in a very loud, furious accusation.",
+      "text": "Zuerst dachte ich, ich hätte es einfach nur verlegt. Dann fiel mir auf, dass du gestern in meinem Büro warst, obwohl du dort nichts zu suchen hattest. Und jetzt sehe ich, dass die Unterlagen fehlen, die nur du kanntest. Du hast sie genommen!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> normal -> loud -> very_loud",
+        "emotion": "thoughtful -> worried -> angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this line with a mostly indifferent, normal-pitched voice. For the middle phrase, however, inject a burst of high-pitched, urgent energy, then immediately return to your original indifferent delivery.",
+      "text": "Die Inszenierung war wie erwartet, mit solidem, aber uninspiriertem Schauspiel. Aber es gab da diese eine Szene im zweiten Akt, die war absolut brillant, die musst du sehen! Danach verfiel das Stück leider wieder in seine gewohnte Monotonie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high -> normal",
+        "tone": "indifferent -> urging -> indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Begin with a genuinely playful tone, as if you're gently teasing someone. Then, let the tone turn, ending the sentence with a sharp, sarcastic edge.",
+      "text": "Haha, du hast den Kaffee verschüttet, du kleiner Tollpatsch! Das ist ja wieder typisch für dich. Nein, wirklich, deine Eleganz und Geschicklichkeit sind einfach immer wieder beeindruckend.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "playful -> sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Imagine you're commentating on a ski race. Start with a happy, steady delivery at a normal speed. Then, as the skier makes an unexpected move, your voice should get faster and more frantic, concluding with a very fast and surprised tone.",
+      "text": "Sie fährt eine fantastische Linie, alles grün bei den Zwischenzeiten. Das wird die neue Bestzeit, da bin ich mir sicher. Sie ist elegant und schnell, ein perfekter Lauf. Nur noch wenige Tore bis ins Ziel... Achtung, was war das? Ein kleiner Fehler, sie gerät ins Straucheln! Oh nein! Aber sie fängt sich wieder! Wie hat sie das denn gemacht? Sie ist im Ziel! Und es ist grün! Unglaublich!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text describes a ski race with a near-fall and a surprising recovery, providing a good basis for the dynamic instruction."
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast -> very_fast",
+        "emotion": "happy -> surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal -> fast",
+        "emotion": "neutral -> thoughtful -> happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start off speaking slowly and with a neutral emotion. As you continue, transition to a normal pace and a more thoughtful tone, and end by speaking quickly and happily as the memory becomes more vivid.",
+          "text": "Ich erinnere mich an den Tag, als ich auf dem Dachboden diese alte Kiste gefunden habe. Zuerst wusste ich gar nicht mehr, was darin war... dann, als ich den Deckel öffnete, sah ich all die Fotos aus meiner Kindheit. Und da war dieses eine Bild vom Sommerfest im Garten, wir haben alle gelacht und die Sonne schien, es war einfach ein perfekter Moment.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Begin your delivery at a slow pace and in a neutral, matter-of-fact way. Gradually increase your speed to normal while adopting a thoughtful quality, and then accelerate to a fast, happy pace by the end.",
+          "text": "Es war an einem Sonntagnachmittag im Park, glaube ich. Der Weg war ein bisschen uneben, und ich hatte Schwierigkeiten, das Gleichgewicht zu halten. Papa lief nebenher und gab mir Anweisungen... und dann, auf einmal, ließ er los und ich fuhr! Ich fuhr ganz allein, immer schneller, und das Gefühl der Freiheit war einfach unglaublich!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The speaker is recounting a fond memory. Start slowly and neutrally, then pick up the pace and become more reflective, and finish by speaking quickly with clear happiness.",
+          "text": "Omas Apfelkuchen... das Rezept war eigentlich ganz einfach. Nur Mehl, Zucker, Eier und Butter. Aber es war die Art, wie sie den Teig geknetet hat, so geduldig und mit so viel Sorgfalt. Und der Duft, als er aus dem Ofen kam, warm und zimtig... das war das Beste am ganzen Sonntag, dieser erste Bissen vom warmen Kuchen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "loud -> normal -> quiet",
+        "pitch": "high -> normal -> low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start by speaking loudly and with a high pitch, as if addressing a large audience. Gradually decrease your volume and lower your pitch, ending in a quiet, low-pitched, more intimate tone.",
+          "text": "Wir stehen vor großen Herausforderungen, das ist unbestreitbar, und es wird die Anstrengung von uns allen erfordern! Aber wenn wir zusammenarbeiten, mit Entschlossenheit und Einigkeit, dann bin ich zuversichtlich, dass wir diese Hürden überwinden werden. Lassen Sie uns also mit Hoffnung in die Zukunft blicken, auf eine bessere Welt für die kommenden Generationen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line as the conclusion of a speech. Begin with a loud, high-pitched, declarative voice. As you progress, let your volume and pitch fall to a normal level, and then finish in a quiet, low, and reflective manner.",
+          "text": "All das, was wir erreicht haben, ist ein Zeugnis unserer gemeinsamen Vision und harten Arbeit! Diese Erfolge sind die Grundlage für alles, was noch kommen wird. Nun liegt es an uns, diese Verantwortung anzunehmen und den Weg weiterzugehen, mit Besonnenheit und in dem stillen Wissen um unsere Pflicht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The delivery should begin loud and high-pitched. Throughout the sentence, bring the volume down to a quiet level and the pitch down to a low register, as if moving from a public address to a personal thought.",
+          "text": "Deshalb fordere ich Sie heute auf, mit mir für diese Ideale einzustehen! Wir müssen unsere Stimme erheben für das, was richtig ist. Aber am Ende des Tages, wenn die Reden gehalten sind, zählt nur das, was wir im Stillen für uns und unsere Nächsten tun.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried -> fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start speaking in a neutral, observational tone. As you continue, your voice should become increasingly worried, and by the end, you should sound genuinely fearful.",
+          "text": "Da drüben am Horizont ist ein Licht. Es ist ziemlich hell, aber es flackert nicht wie ein normales Feuer. Es scheint sich langsam zu bewegen, direkt auf uns zu. Ich habe so etwas noch nie gesehen, es kommt immer näher.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this as if you are describing a situation unfolding in real time. Begin neutrally, then transition to a worried tone, and finally end with an expression of fear.",
+          "text": "Ich bin im oberen Stockwerk. Ich habe vor ein paar Minuten ein Geräusch von unten gehört, wie ein Kratzen an der Tür. Jetzt höre ich Schritte im Flur... sie kommen die Treppe hoch. Jemand ist im Haus.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Your emotional state should change as you speak. Start with a neutral, calm voice, then let a sense of worry creep in, and conclude with outright fear.",
+          "text": "Die Werte auf dem Monitor sind stabil, alles sieht normal aus. Moment mal, da ist eine Anomalie im Sektor Gamma, die Signatur passt zu keinem bekannten Muster. Die Schwankungen werden stärker, das System kann es nicht mehr kompensieren... es wird kollabieren!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm -> defiant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Begin speaking with a hesitant and uncertain tone. As you progress, your tone should become firm and decided. End the sentence with a strong, defiant tone.",
+          "text": "Ich bin mir nicht sicher, ob das der richtige Weg ist, es gibt so viele Risiken zu bedenken. Aber nachdem ich alles abgewogen habe, sehe ich, dass es die einzige Möglichkeit ist. Und ich werde es tun, egal was die anderen sagen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. The speaker is wrestling with a decision. Start with a hesitant voice, then find your conviction and speak firmly, and finally, end with a note of defiance.",
+          "text": "Vielleicht sollte ich einfach schweigen, es wäre so viel einfacher für alle Beteiligten. Aber nein, das kann ich nicht mit meinem Gewissen vereinbaren, die Wahrheit muss gesagt werden. Und wenn das Konsequenzen hat, dann soll es so sein.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Start this line with a tone of hesitation, as if weighing options. Then, transition to a firm, resolute tone as the decision is made. Conclude with a defiant tone, challenging any opposition.",
+          "text": "Ich könnte natürlich das tun, was von mir erwartet wird, das wäre der sichere Weg zum Erfolg. Aber ich bin zu der Überzeugung gekommen, dass ich meiner eigenen Vision folgen muss. Sollen sie doch denken, was sie wollen, das ist mein Werk.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "fast -> slow",
+        "volume": "loud -> quiet",
+        "emotion": "angry -> sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start with a fast, loud, and angry delivery. As you continue, your speech should slow down, become quiet, and your emotion should shift from anger to sadness.",
+          "text": "Wie konntest du das nur tun, nach allem, was wir durchgemacht haben! Ich kann es einfach nicht fassen! All das Vertrauen... es war anscheinend alles umsonst. Ich verstehe es einfach nicht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver the first part of the sentence as a loud, fast, angry outburst. Then, let the energy fade, ending slowly, quietly, and with a deep sense of sadness.",
+          "text": "Das kann doch nicht wahr sein, die ganze Arbeit, die Nächte, die wir geopfert haben! Alles für nichts! All diese Mühe... und jetzt ist es einfach weg. Alles verloren.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Begin with a furious, loud, and rapid-fire delivery. Then, let the anger deflate into sorrow, so that you end by speaking slowly and quietly.",
+          "text": "Das ist absolut inakzeptabel, eine solche Entscheidung zu treffen! Das widerspricht allem, wofür wir gekämpft haben! Und nun... nun müssen wir mit den Trümmern leben. Es ist einfach nur noch traurig.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> surprised",
+        "tone": "indifferent -> pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start speaking with a neutral and indifferent tone. Then, your voice should abruptly become surprised, as if you've just realized something terrible. End with a pleading tone.",
+          "text": "Ich habe einfach die Datei angehängt, auf 'Senden' geklickt und die Standard-Verteilerliste verwendet. Oh, warte mal... nicht die Standardliste! Bitte sag mir, dass ich das nicht wirklich getan habe.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Begin in a casual, indifferent manner. In the middle of the sentence, have a sudden moment of surprised realization, and then shift your tone to one of pleading.",
+          "text": "Also habe ich wie immer die Tür abgeschlossen, den Schlüssel gedreht und bin nach Hause gegangen. Der Schlüssel... ich habe den Schlüssel nicht abgezogen! Nein, nein, das darf nicht wahr sein, bitte sag, jemand ist noch da.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Your delivery should start off neutral and unconcerned. Then, transition into surprise and finish with a desperate, pleading quality.",
+          "text": "Der Prozess läuft jetzt automatisch, er wird die Daten um Mitternacht löschen, so wie es geplant war. Moment mal... heute ist ja schon der Fünfzehnte! Oh nein, bitte, wir müssen das sofort stoppen!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> very_slow -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start speaking at a normal conversational pace. Slow down significantly in the middle to emphasize the most complex point, and then return to a normal pace to conclude.",
+          "text": "Das allgemeine Prinzip ist relativ einfach zu verstehen und hat weitreichende Anwendungen. Der entscheidende Punkt ist jedoch, dass die Quantenverschränkung bestehen bleibt, unabhängig von der räumlichen Distanz der Teilchen. Sobald man das verstanden hat, ergeben sich die restlichen Schlussfolgerungen fast von selbst.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this explanation at a normal speed, but slow down dramatically for the middle section to ensure the listener understands that specific detail, before resuming your normal speed.",
+          "text": "Nach der anfänglichen Initialisierungsphase fügen wir den Katalysator hinzu. An dieser Stelle, und das ist absolut kritisch, muss die Temperatur exakt auf siebenunddreißig Grad Celsius gehalten werden. Danach kann die Reaktion wie gewohnt weiterlaufen, bis das Endprodukt ausfällt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Read this line at a normal pace, but for the central clause, slow your speech way down to stress its importance, then finish the sentence at a normal pace again.",
+          "text": "Die meisten Programmierer kennen die Grundlagen der Speicherverwaltung und wie man Variablen deklariert. Der Punkt, an dem die meisten Fehler passieren, ist das Konzept der Zeigerarithmetik und der direkten Speicheradressierung. Wenn man diese Hürde genommen hat, wird die Fehlersuche im weiteren Verlauf deutlich einfacher.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> normal -> loud -> very_loud",
+        "emotion": "thoughtful -> worried -> angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start speaking quietly and thoughtfully. As you continue, build your volume and emotion, moving through worried to normal volume, then to loud and angry, and ending in a very loud, furious accusation.",
+          "text": "Zuerst dachte ich, ich hätte es einfach nur verlegt. Dann fiel mir auf, dass du gestern in meinem Büro warst, obwohl du dort nichts zu suchen hattest. Und jetzt sehe ich, dass die Unterlagen fehlen, die nur du kanntest. Du hast sie genommen!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Begin this line in a quiet, reflective voice. Let your volume and intensity grow, shifting from thoughtful to worried, then to angry and loud, and culminating in a very loud, accusatory roar.",
+          "text": "Deine Geschichte klang zuerst plausibel. Aber du hast gesagt, du warst um zehn im Kino, doch das Kino war gestern geschlossen. Das bedeutet, du hast uns nicht die Wahrheit gesagt. Wo warst du wirklich in dieser Nacht?!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Start quietly and thoughtfully, as if piecing things together. Gradually become more worried and louder. Continue to build until you are speaking loudly and angrily, and end at a peak of volume and fury.",
+          "text": "Ich habe die kleinen Ungereimtheiten bemerkt, aber ich habe nichts gesagt. Ich dachte, es wären nur Versehen, aber es werden immer mehr. Nichts von dem, was du erzählt hast, ergibt einen Sinn. Du hast mich die ganze Zeit belogen!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high -> normal",
+        "tone": "indifferent -> urging -> indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start and end this sentence with a normal pitch and an indifferent tone. In the middle, however, your pitch should rise and your tone should become urgent and excited, before settling back down.",
+          "text": "Das Museum hat die übliche Sammlung von Töpferwaren und alten Münzen. Aber in der Mitte des Raumes, das musst du dir unbedingt ansehen, ist das mechanische Planetarium. Danach kommen dann nur noch ein paar langweilige Porträts.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line with a mostly indifferent, normal-pitched voice. For the middle phrase, however, inject a burst of high-pitched, urgent energy, then immediately return to your original indifferent delivery.",
+          "text": "Die Inszenierung war wie erwartet, mit solidem, aber uninspiriertem Schauspiel. Aber es gab da diese eine Szene im zweiten Akt, die war absolut brillant, die musst du sehen! Danach verfiel das Stück leider wieder in seine gewohnte Monotonie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The delivery should be mostly flat and indifferent. Create a peak of excitement in the middle by raising your pitch and adopting an urging tone, then let it fall back to an indifferent, normal-pitched delivery.",
+          "text": "Die Fahrt durch die Wüste ist stundenlang immer nur das Gleiche, nur Sand und Felsen. Aber pass auf bei Meile einhundertdreiundzwanzig, da gibt es eine Felsformation, die aussieht wie ein Adler! Und danach ist es dann wieder nur Sand für weitere zweihundert Meilen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "playful -> sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Start speaking in a light, playful, teasing tone. As the sentence progresses, shift your tone so that you end with biting sarcasm.",
+          "text": "Oh, schau dich nur an! Das ist ja mal ein mutiges Outfit, das du da trägst. Damit fällst du auf jeden Fall auf, wirklich eine ganz hervorragende Wahl für ein unauffälliges Treffen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Begin with a genuinely playful tone, as if you're gently teasing someone. Then, let the tone turn, ending the sentence with a sharp, sarcastic edge.",
+          "text": "Haha, du hast den Kaffee verschüttet, du kleiner Tollpatsch! Das ist ja wieder typisch für dich. Nein, wirklich, deine Eleganz und Geschicklichkeit sind einfach immer wieder beeindruckend.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The tone should start as good-natured and playful, but transition into clear, biting sarcasm by the end of the line.",
+          "text": "Du willst also im Alleingang die ganze Präsentation überarbeiten, und das bis morgen früh? Das ist ja eine tolle Idee! Ja, das wird bestimmt ganz fantastisch funktionieren, da bin ich mir absolut sicher.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast -> very_fast",
+        "emotion": "happy -> surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Narrate this like a sports commentator at a horse race. Start in a happy, confident tone at a normal speed. As the race intensifies, pick up the pace, and then as the underdog makes a sudden move, get very fast and sound completely surprised by the unexpected turn of events.",
+          "text": "Und da kommen sie auf die Zielgerade, Sternentänzer an der Spitze, ganz souverän mit zwei Längen Vorsprung. Das sieht nach einem klaren Sieg aus, das Publikum feiert bereits. Aber was ist das? Von ganz hinten, aus dem Nichts, kommt jetzt Feuersturm! Er schießt am Feld vorbei, das ist ja unglaublich! Er holt auf, er kommt näher, er ist gleichauf! Das gibt es nicht!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a horse race where an underdog makes a surprise move, supporting the dynamic shift."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line as a football commentator. Begin with a happy, relaxed voice at a normal pace. As the play suddenly shifts, get progressively faster. End on a note of pure surprise at the unbelievable goal, speaking very quickly.",
+          "text": "Noch zwei Minuten zu spielen, die Blauen haben den Ball in den eigenen Reihen. Sie spielen auf Zeit, ganz ruhig, lassen den Ball laufen. Das sieht sehr kontrolliert aus. Ein Pass zurück zum Verteidiger... oh, ein schrecklicher Fehlpass! Die Roten erobern den Ball! Und jetzt der Konter, es geht blitzschnell nach vorne! Ein Mann ist durch, er schießt... TOR! Ich fasse es nicht! In der letzten Sekunde!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text depicts a last-minute turnover and goal in a football match, suitable for the intended performance change."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Imagine you're commentating on a ski race. Start with a happy, steady delivery at a normal speed. Then, as the skier makes an unexpected move, your voice should get faster and more frantic, concluding with a very fast and surprised tone.",
+          "text": "Sie fährt eine fantastische Linie, alles grün bei den Zwischenzeiten. Das wird die neue Bestzeit, da bin ich mir sicher. Sie ist elegant und schnell, ein perfekter Lauf. Nur noch wenige Tore bis ins Ziel... Achtung, was war das? Ein kleiner Fehler, sie gerät ins Straucheln! Oh nein! Aber sie fängt sich wieder! Wie hat sie das denn gemacht? Sie ist im Ziel! Und es ist grün! Unglaublich!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a ski race with a near-fall and a surprising recovery, providing a good basis for the dynamic instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

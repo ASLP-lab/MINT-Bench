@@ -1,0 +1,47 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "en",
+  "group_name": "timbre_balanced_subset",
+  "num_items": 1,
+  "sampling_summary": {
+    "requested_num_samples": 1,
+    "actual_num_samples": 1,
+    "seed": 42,
+    "taken_per_timbre_attr": {
+      "age": 1,
+      "gender": 0,
+      "pitch": 0,
+      "texture": 0
+    },
+    "available_per_timbre_attr": {
+      "age": 70,
+      "gender": 57,
+      "pitch": 61,
+      "texture": 69
+    },
+    "num_unknown_items_ignored": 0
+  },
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as if you are a young child.",
+      "text": "Can I have a glass of juice, please?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env / local env hints
+.venv/
+venv/
+env/
+.env
+.env.*
+env.txt
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Benchmark artifacts / generated outputs
+/gen_outputs/
+/gen_outputs_timbre/
+
+# Evaluation artifacts
+/evaluation/payloads_wer/
+/evaluation/payloads_instruction_following/
+/evaluation/payloads_instruction_following_timbre/
+/evaluation/payloads_timbre_diversity/
+/evaluation/results/
+/evaluation/results_timbre/
+/evaluation/results_timbre_diversity/
+
+# Seed-TTS-Eval caches and checkpoints
+/evaluation/seed-tts-eval/pretrained/
+/evaluation/seed-tts-eval/__pycache__/
+
+# Streamlit / visualization caches
+/.streamlit/
+
+# Data-construction logs
+/data_construction/**/logs/
+
+# Generation logs and manifests inside generated output trees are already covered
+# by /gen_outputs/ and /gen_outputs_timbre/

@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/age",
+  "language": "ru",
+  "source_plan_file": "easy__timbre__tag__atomic__age.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Age: child",
+      "text": "Самая высокая гора на Земле — это Эверест.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral factual statement, avoiding child-like topics."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Age: adult",
+      "text": "Просьба ко всем сотрудникам ознакомиться с обновленным рабочим графиком.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a standard daily notice, suitable for any adult."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Age: elderly",
+      "text": "Подскажите, пожалуйста, который час?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral request, avoiding topics stereotypically associated with the elderly."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Age: adult",
+      "text": "Кажется, сегодня погода будет лучше, чем вчера, облака рассеиваются.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral, casual observation."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Age: child",
+          "text": "Самая высокая гора на Земле — это Эверест.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding child-like topics."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Age: child",
+          "text": "Вода замерзает при температуре ноль градусов по Цельсию.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding child-like topics."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Age: child",
+          "text": "Солнце — это звезда в центре нашей Солнечной системы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral factual statement, avoiding child-like topics."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Age: adult",
+          "text": "Внимание, завтра с девяти до двенадцати часов будет плановое отключение электроэнергии.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a standard daily notice, suitable for any adult."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Age: adult",
+          "text": "По техническим причинам наш офис сегодня закроется на час раньше.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a standard daily notice, suitable for any adult."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Age: adult",
+          "text": "Просьба ко всем сотрудникам ознакомиться с обновленным рабочим графиком.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a standard daily notice, suitable for any adult."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Age: elderly",
+          "text": "Не могли бы вы передать мне ту книгу?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request, avoiding topics stereotypically associated with the elderly."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Age: elderly",
+          "text": "Пожалуйста, закройте окно, немного дует.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request, avoiding topics stereotypically associated with the elderly."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Age: elderly",
+          "text": "Подскажите, пожалуйста, который час?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request, avoiding topics stereotypically associated with the elderly."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Age: adult",
+          "text": "Кажется, сегодня погода будет лучше, чем вчера, облака рассеиваются.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, casual observation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Age: adult",
+          "text": "Надо не забыть купить хлеб по дороге домой.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, casual observation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Age: adult",
+          "text": "Этот новый фильм получил довольно хорошие отзывы, надо бы посмотреть.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, casual observation."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/personality",
+  "language": "en",
+  "source_plan_file": "easy__style__direct__atomic__personality.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Can you say this in a really cheerful way?",
+      "text": "Oh, I just remembered that my package is supposed to be delivered today. I've been waiting for this book.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__en__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a cheerful and upbeat tone.",
+          "text": "I went to the store earlier and picked up a new set of coffee mugs. They're a nice shade of blue.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with a bright, cheerful voice.",
+          "text": "I think I'll start by tidying up the living room, and then maybe I'll get to the gardening this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Can you say this in a really cheerful way?",
+          "text": "Oh, I just remembered that my package is supposed to be delivered today. I've been waiting for this book.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with a serious and important tone.",
+          "text": "The process involves calibrating the sensors to ensure accurate data collection before the main experiment begins.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this statement with a sense of gravity and seriousness.",
+          "text": "The treaty was signed in 1842, effectively redrawing the borders between the two neighboring states.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Please speak this in a very serious manner.",
+          "text": "According to the documentation, the primary component must be installed before the secondary one is activated.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this in a reserved and quiet manner.",
+          "text": "It looks like it might rain later on.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with an introverted, reserved quality.",
+          "text": "I think I prefer the blue one over the red.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Can you sound reserved when you read this?",
+          "text": "The library is usually less crowded at this hour.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with a confident, assured voice.",
+          "text": "To get there, you'll continue down this street for two blocks and then make a left at the intersection.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this statement in a confident manner.",
+          "text": "The first step is to assemble the base, and then you attach the side panels according to the diagram.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this as if you are very sure of yourself.",
+          "text": "This is the correct procedure for shutting down the system safely and preventing data loss.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in an aloof, detached voice.",
+          "text": "The meeting has been moved to three o'clock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this with a distant and uninterested tone.",
+          "text": "Please remember to file your reports by Friday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Make your voice sound aloof and cool.",
+          "text": "The new guidelines are posted on the main board.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "warm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with a warm and friendly tone.",
+          "text": "If you have a moment, could you please look over this document for me? I'd appreciate your thoughts.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in a warm and approachable manner.",
+          "text": "I was wondering if you could help me carry this box; it's a little heavier than I expected.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Please use a very warm voice for this line.",
+          "text": "When you get a chance, could you pass me the folder from the top shelf? I can't quite reach it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implementation."
+          }
+        }
+      ]
+    }
+  ]
+}

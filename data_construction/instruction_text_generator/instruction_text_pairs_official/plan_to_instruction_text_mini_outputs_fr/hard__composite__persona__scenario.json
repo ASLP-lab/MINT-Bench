@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/scenario",
+  "language": "fr",
+  "source_plan_file": "hard__composite__persona__scenario.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Read this in the style of a news broadcast, with a clear, well-enunciated, and impartial delivery.",
+      "text": "Le comité international a annoncé aujourd'hui la validation d'une nouvelle méthode de séquençage génétique, promettant des avancées significatives.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this passage with an artistic and contemplative quality, using a rich, clear voice suitable for reciting literature.",
+      "text": "Sur la crête, les rochers se dressaient comme des sentinelles anciennes, témoins muets du passage des nuages et de l'érosion patiente des siècles.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Read this in a gentle and calming tone, as if telling a bedtime story to a child who is drifting off to sleep. Make it sound magical and comforting.",
+      "text": "Dans le grand pré, une petite souris nommée Pimprenelle ajusta ses lunettes en brindilles. Elle partait pour une grande expédition : atteindre le sommet de la colline pour pouvoir parler aux étoiles et leur demander si elles n'avaient pas froid, si seules là-haut.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Narrate this in the voice of a documentary host: engaging, knowledgeable, and with a slightly serious, informative tone.",
+      "text": "La photosynthèse est le processus fondamental par lequel les plantes convertissent l'énergie lumineuse en énergie chimique, formant ainsi la base de la plupart des chaînes alimentaires sur Terre.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Deliver these lines as if you are giving an inspiring speech to a large crowd. Your voice should be powerful, passionate, and uplifting.",
+      "text": "Nous nous tenons à un carrefour de l'histoire, avec la possibilité de choisir une voie de progrès et de compassion. Allons-nous nous contenter du monde tel qu'il est, ou aurons-nous le courage de bâtir le monde tel qu'il devrait être ? L'avenir ne s'attend pas, il se construit.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Imagine you're hosting a morning radio show. Speak in a warm, energetic, and personable way.",
+      "text": "Il y a quelque chose de vraiment spécial dans l'air quand le premier vrai jour de printemps arrive, tout le monde semble soudainement de meilleure humeur.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Read this text in the style of an audiobook performance. Your delivery should be clear and atmospheric, carefully modulating your voice to enhance the mysterious mood of the writing.",
+      "text": "Il suivit le couloir jusqu'à une porte entrouverte, d'où provenait une faible lumière vacillante. À l'intérieur, les ombres dansaient sur les murs couverts de livres, animées par une source inconnue, et un parfum de cire et de poussière flottait dans l'air.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Read this in the style of a weather forecast, using a professional yet friendly voice with a steady, clear pace.",
+      "text": "On observe une baisse significative de la pression barométrique sur la côte ouest, ce qui favorisera le développement de courants ascendants au cours des prochaines heures.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Use the rapid, intense, and energetic voice of a play-by-play sports announcer.",
+      "text": "Le voilà qui se lance, il évite le tacle de justesse, la contre-attaque est fulgurante, il ne reste que quelques secondes au chronomètre !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this information with the formal, clear, and authoritative tone of a news anchor on a major television channel.",
+          "text": "Les dernières données publiées ce matin indiquent une légère augmentation du taux de croissance économique pour le deuxième trimestre consécutif.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use the crisp, professional, and confident voice of a broadcast journalist presenting factual information.",
+          "text": "Des astronomes ont confirmé la découverte d'une exoplanète présentant des caractéristiques potentiellement compatibles avec la présence d'eau liquide.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this in the style of a news broadcast, with a clear, well-enunciated, and impartial delivery.",
+          "text": "Le comité international a annoncé aujourd'hui la validation d'une nouvelle méthode de séquençage génétique, promettant des avancées significatives.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Recite the text with a measured, reflective, and sonorous voice, as if you are performing for a small, attentive audience.",
+          "text": "La lumière du soir filtrait à travers les feuilles, projetant des ombres dansantes sur le sol de la forêt, où le silence n'était rompu que par le murmure du vent.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read these lines in a thoughtful and resonant tone, with the careful pacing of a poetry reading.",
+          "text": "Le fleuve portait en lui les reflets changeants du ciel, un miroir liquide où le temps semblait suspendre son cours et s'égarer dans l'azur.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this passage with an artistic and contemplative quality, using a rich, clear voice suitable for reciting literature.",
+          "text": "Sur la crête, les rochers se dressaient comme des sentinelles anciennes, témoins muets du passage des nuages et de l'érosion patiente des siècles.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Tell this story like a parent reading to a child at bedtime. Your voice should be soft, warm, and soothing, with a touch of wonder.",
+          "text": "Le petit hérisson, que l'on appelait Flocon, décida un soir de suivre le chemin de lune qui brillait sur le sentier. Il voulait voir où menait cette rivière d'argent, et peut-être, juste peut-être, trouver la plus douce des mûres pour son dîner.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this in a gentle and calming tone, as if telling a bedtime story to a child who is drifting off to sleep. Make it sound magical and comforting.",
+          "text": "Dans le grand pré, une petite souris nommée Pimprenelle ajusta ses lunettes en brindilles. Elle partait pour une grande expédition : atteindre le sommet de la colline pour pouvoir parler aux étoiles et leur demander si elles n'avaient pas froid, si seules là-haut.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use a soft, reassuring voice filled with gentle wonder, like a mother or father telling their child a favourite story before they fall asleep.",
+          "text": "Barnabé le lapin n'était pas comme les autres. Au lieu de courir, il préférait sauter de nuage en nuage dans ses rêves. Cette nuit-là, il avait pour mission d'apporter un message très important au gardien de la lune, un vieux hibou sage qui connaissait tous les secrets du ciel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Narrate this in the voice of a documentary host: engaging, knowledgeable, and with a slightly serious, informative tone.",
+          "text": "La photosynthèse est le processus fondamental par lequel les plantes convertissent l'énergie lumineuse en énergie chimique, formant ainsi la base de la plupart des chaînes alimentaires sur Terre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Adopt the tone of a documentary narrator, speaking with clarity and authority to explain a complex subject.",
+          "text": "Pendant des siècles, la Route de la Soie n'était pas une seule voie, mais un vaste réseau de routes commerciales reliant l'Est et l'Ouest, facilitant l'échange de biens, d'idées et de cultures.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this as if you are narrating a documentary, using a clear, compelling voice that makes the information accessible and interesting.",
+          "text": "La tectonique des plaques est la théorie qui explique comment les lents mouvements de la lithosphère terrestre façonnent les continents, les montagnes et les océans au fil des temps géologiques.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver these lines as if you are giving an inspiring speech to a large crowd. Your voice should be powerful, passionate, and uplifting.",
+          "text": "Nous nous tenons à un carrefour de l'histoire, avec la possibilité de choisir une voie de progrès et de compassion. Allons-nous nous contenter du monde tel qu'il est, ou aurons-nous le courage de bâtir le monde tel qu'il devrait être ? L'avenir ne s'attend pas, il se construit.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Perform this as part of a public address. Your delivery should be strong and persuasive, designed to motivate and inspire an audience.",
+          "text": "Je vous le demande : combien de temps encore ignorerons-nous l'appel à la solidarité ? Combien de générations devront passer avant que nous reconnaissions que notre force réside dans notre unité ? Le moment d'agir est venu, et notre voix collective doit résonner.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this with the conviction and passion of a leader addressing a rally. Your tone should be rousing and filled with hope for a better future.",
+          "text": "Certains disent que le changement est impossible, que nos efforts sont vains. Mais regardez autour de vous. Ne voyez-vous pas la force dans nos cœurs et la détermination dans nos yeux ? Ensemble, il n'y a aucune barrière que nous ne puissions franchir, aucune injustice que nous ne puissions corriger.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak in a friendly, conversational, and upbeat tone, like a morning radio show host talking to their listeners.",
+          "text": "C'est drôle comme on a tous ce petit rituel du matin, cette première tasse de café sans laquelle la journée ne peut tout simplement pas commencer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use the cheerful and engaging voice of a radio personality. Your tone should be light and friendly, as if chatting with a friend.",
+          "text": "J'ai remarqué que le film dont tout le monde parle en ce moment a des avis complètement partagés, soit on l'adore, soit on le déteste, il n'y a pas de juste milieu !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Imagine you're hosting a morning radio show. Speak in a warm, energetic, and personable way.",
+          "text": "Il y a quelque chose de vraiment spécial dans l'air quand le premier vrai jour de printemps arrive, tout le monde semble soudainement de meilleure humeur.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. As an audiobook narrator, read this passage with a well-paced, engaging, and expressive voice that builds a sense of atmosphere and mystery.",
+          "text": "Le brouillard s'accrochait aux rues pavées, étouffant les sons de la ville et ne laissant que la lueur diffuse des rares lampadaires. Une silhouette se dessina au loin, immobile pendant un instant, avant de disparaître dans la brume comme si elle n'avait jamais existé.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Narrate this literary passage as you would for an audiobook. Use your pacing and tone to create suspense and draw the listener into the scene.",
+          "text": "La vieille maison se tenait silencieuse sous la lune, ses fenêtres sombres comme des yeux clos. Un vent froid faisait grincer l'enseigne rouillée du portail, un son solitaire qui semblait raconter une histoire oubliée depuis longtemps par les vivants.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this text in the style of an audiobook performance. Your delivery should be clear and atmospheric, carefully modulating your voice to enhance the mysterious mood of the writing.",
+          "text": "Il suivit le couloir jusqu'à une porte entrouverte, d'où provenait une faible lumière vacillante. À l'intérieur, les ombres dansaient sur les murs couverts de livres, animées par une source inconnue, et un parfum de cire et de poussière flottait dans l'air.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this information with a clear, brisk, and pleasant tone, like a meteorologist presenting the weather on TV.",
+          "text": "Un système de haute pression se déplace lentement vers l'est, entraînant un flux de secteur nord qui devrait stabiliser la masse d'air sur l'ensemble de la région.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this in the style of a weather forecast, using a professional yet friendly voice with a steady, clear pace.",
+          "text": "On observe une baisse significative de la pression barométrique sur la côte ouest, ce qui favorisera le développement de courants ascendants au cours des prochaines heures.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Announce this information in a bright and efficient manner, just like a TV weather presenter.",
+          "text": "Les vents en altitude vont s'orienter au sud-ouest, apportant des conditions atmosphériques changeantes, particulièrement sur les reliefs du nord du pays.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak like an excited sports commentator. Your delivery should be high-energy, fast-paced, and filled with tension.",
+          "text": "Il prend l'avantage dans le dernier virage, il creuse l'écart, personne ne semble pouvoir le rattraper maintenant, c'est une accélération phénoménale !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Commentate on this action with breathless excitement and speed, as if witnessing a critical moment in a match.",
+          "text": "Quelle passe incroyable ! Il esquive un, puis deux adversaires, il se dirige droit vers le but, la défense est complètement dépassée !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use the rapid, intense, and energetic voice of a play-by-play sports announcer.",
+          "text": "Le voilà qui se lance, il évite le tacle de justesse, la contre-attaque est fulgurante, il ne reste que quelques secondes au chronomètre !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

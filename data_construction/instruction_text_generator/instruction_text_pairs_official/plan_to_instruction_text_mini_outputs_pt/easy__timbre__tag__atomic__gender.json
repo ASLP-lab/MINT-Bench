@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/gender",
+  "language": "pt",
+  "source_plan_file": "easy__timbre__tag__atomic__gender.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Gender: Male",
+      "text": "O sol é uma estrela no centro do nosso sistema solar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Gender: Female",
+      "text": "Por favor, note que o elevador estará fora de serviço para manutenção amanhã de manhã.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Gender: Male",
+      "text": "Você poderia confirmar se recebeu o e-mail que enviei ontem?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Gender: Female",
+      "text": "O processo de calibração deve ser realizado anualmente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Gender: Male",
+          "text": "O sol é uma estrela no centro do nosso sistema solar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Gender: Male",
+          "text": "A água ferve a cem graus Celsius ao nível do mar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Gender: Male",
+          "text": "A capital do Brasil é Brasília.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Gender: Female",
+          "text": "Lembramos que a biblioteca fechará trinta minutos mais cedo na sexta-feira.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Gender: Female",
+          "text": "Por favor, note que o elevador estará fora de serviço para manutenção amanhã de manhã.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Gender: Female",
+          "text": "A reunião semanal foi remarcada para as três da tarde devido a um conflito de agenda.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Gender: Male",
+          "text": "Você poderia confirmar se recebeu o e-mail que enviei ontem?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Gender: Male",
+          "text": "Por favor, envie o relatório final até o final do dia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Gender: Male",
+          "text": "Poderia me ajudar a encontrar a documentação para este projeto?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Gender: Female",
+          "text": "O sistema foi projetado para ser o mais eficiente possível.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Gender: Female",
+          "text": "Essa mudança melhora a segurança geral da aplicação.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Gender: Female",
+          "text": "O processo de calibração deve ser realizado anualmente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

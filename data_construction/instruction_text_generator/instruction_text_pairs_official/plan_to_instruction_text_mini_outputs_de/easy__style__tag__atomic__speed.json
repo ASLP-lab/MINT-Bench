@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/speed",
+  "language": "de",
+  "source_plan_file": "easy__style__tag__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Speed: very_fast",
+      "text": "Bitte beachten Sie die geänderten Öffnungszeiten am Wochenende.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Speed: fast",
+      "text": "Die Sonne ist der Stern im Zentrum unseres Sonnensystems und bei weitem das größte Objekt darin.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Speed: slow",
+      "text": "Fotosynthese ist der Prozess, bei dem grüne Pflanzen Lichtenergie nutzen, um Kohlendioxid und Wasser in Nahrung umzuwandeln.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Speed: very_slow",
+      "text": "Die Art, wie das Licht am Nachmittag durch die Blätter fällt, hat etwas Beruhigendes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Speed: very_fast",
+          "text": "Bitte beachten Sie die geänderten Öffnungszeiten am Wochenende.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Speed: very_fast",
+          "text": "Der nächste Zug nach München fährt auf Gleis sieben ein.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Speed: very_fast",
+          "text": "Alle Kassen sind jetzt für Sie geöffnet, bitte treten Sie vor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Speed: fast",
+          "text": "Berlin ist die Hauptstadt und die bevölkerungsreichste Stadt Deutschlands, sowie die bevölkerungsreichste Stadt der Europäischen Union.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Speed: fast",
+          "text": "Die Sonne ist der Stern im Zentrum unseres Sonnensystems und bei weitem das größte Objekt darin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Speed: fast",
+          "text": "Wasser besteht aus den chemischen Elementen Wasserstoff und Sauerstoff und ist für alle bekannten Lebensformen unerlässlich.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Speed: slow",
+          "text": "Fotosynthese ist der Prozess, bei dem grüne Pflanzen Lichtenergie nutzen, um Kohlendioxid und Wasser in Nahrung umzuwandeln.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Speed: slow",
+          "text": "Der Wasserkreislauf beschreibt die kontinuierliche Bewegung von Wasser auf, über und unter der Oberfläche der Erde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Speed: slow",
+          "text": "Ein Computerprogramm ist eine Reihe von Anweisungen, die einem Computer sagen, was er tun soll.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Speed: very_slow",
+          "text": "Manchmal sind es die einfachen Dinge im Leben, die die größte Freude bereiten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Speed: very_slow",
+          "text": "Es ist doch erstaunlich, wie sich die Welt im Laufe der Zeit verändert.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Speed: very_slow",
+          "text": "Die Art, wie das Licht am Nachmittag durch die Blätter fällt, hat etwas Beruhigendes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

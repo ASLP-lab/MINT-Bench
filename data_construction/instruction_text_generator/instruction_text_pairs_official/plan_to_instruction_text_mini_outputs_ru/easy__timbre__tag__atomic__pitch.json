@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/pitch",
+  "language": "ru",
+  "source_plan_file": "easy__timbre__tag__atomic__pitch.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Pitch: Very High",
+      "text": "Солнце — это звезда в центре нашей системы.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are faithful to the plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Pitch: High",
+      "text": "Будьте добры, подскажите, который час сейчас?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are faithful to the plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Pitch: Low",
+      "text": "Пожалуйста, не забывайте выключать свет.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are faithful to the plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Pitch: Very Low",
+      "text": "Этот процесс требует тщательного планирования и точного выполнения всех шагов.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text are faithful to the plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Pitch: Very High",
+          "text": "Столица Франции — Париж.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Pitch: Very High",
+          "text": "Вода замерзает при нуле градусов Цельсия.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Pitch: Very High",
+          "text": "Солнце — это звезда в центре нашей системы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Pitch: High",
+          "text": "Не могли бы вы передать мне соль, пожалуйста?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Pitch: High",
+          "text": "Пожалуйста, закройте окно, мне немного холодно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Pitch: High",
+          "text": "Будьте добры, подскажите, который час сейчас?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Pitch: Low",
+          "text": "Сегодня вечером собрание жильцов дома.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Pitch: Low",
+          "text": "Магазин закроется через пятнадцать минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Pitch: Low",
+          "text": "Пожалуйста, не забывайте выключать свет.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Pitch: Very Low",
+          "text": "Этот процесс требует тщательного планирования и точного выполнения всех шагов.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Pitch: Very Low",
+          "text": "Основная причина этого явления заключается в изменении климатических условий.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Pitch: Very Low",
+          "text": "Мы используем этот материал из-за его прочности и долговечности.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text are faithful to the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "it",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Your voice should be that of a teacher explaining a concept for an educational segment. Be very clear and deliberate.",
+      "text": "Il ciclo dell'acqua descrive il movimento continuo dell'acqua sulla Terra: evapora dagli oceani, forma le nuvole, precipita come pioggia e torna ai corsi d'acqua.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a teacher for an educational video. Text explains the water cycle without classroom jargon."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Deliver this as a public announcer at a train station. Your voice should be formal, clear, and carry well.",
+      "text": "Si avvisano i gentili passeggeri che il treno regionale delle 17:30 per Milano Centrale è in ritardo di venti minuti a causa di un guasto tecnico sulla linea.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction cues a formal train station announcer. Text is a standard delay announcement."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Your voice should be that of an enthusiastic market vendor calling out to passersby. Make it sound vibrant and appealing.",
+      "text": "Arance bionde di Ribera, succose e profumate! Non ne troverete di più buone, parola mia! La spremuta perfetta per iniziare la giornata.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes an enthusiastic market vendor. Text enthusiastically describes oranges."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Your persona is a calm and patient technical support agent speaking over the phone. Make sure your pacing is steady and easy to follow.",
+      "text": "Va bene, ora la guido passo dopo passo. Vada nelle impostazioni del suo account, cerchi la sezione 'Privacy e Sicurezza' e da lì selezioni 'Gestisci autorizzazioni'. Mi dica quando ha trovato l'opzione corretta.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction cues a calm technical support agent. Text is a step-by-step guide to changing account settings."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Deliver the text with the knowledgeable and enthusiastic voice of a tour guide sharing fascinating historical details.",
+      "text": "La Torre di Pisa iniziò a inclinarsi quasi subito dopo l'inizio della sua costruzione nel dodicesimo secolo, a causa di un cedimento del terreno sottostante. Nonostante questo difetto, la sua costruzione continuò per quasi duecento anni, diventando un simbolo iconico dell'ingegneria e della perseveranza italiana.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a knowledgeable tour guide. Text is a historical narrative about the Tower of Pisa."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Your persona is a kind doctor speaking in a reassuring manner. The tone should be calm and authoritative but also warm.",
+      "text": "Una dieta equilibrata, ricca di frutta e verdura, è fondamentale. Cerchi di limitare il consumo di cibi processati e zuccheri, e si ricordi di bere molta acqua durante la giornata.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction cues a calm, reassuring doctor. Text gives general advice about diet."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Deliver this with the characteristic fast-paced, rhythmic, and clear voice of an auctioneer calling out items.",
+      "text": "Abbiamo un vaso in porcellana della dinastia Ming, finemente decorato con draghi blu. A seguire, un orologio da tasca svizzero del diciannovesimo secolo, cassa in oro, movimento perfettamente funzionante. E infine, una prima edizione di un classico della letteratura, rilegatura in pelle originale, ottime condizioni.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction calls for a fast, rhythmic auctioneer. Text is a rapid list of distinct valuable items."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Read this in the casual, engaging, and friendly manner of a podcast host introducing a new topic.",
+      "text": "Oggi parliamo di un argomento che mi affascina da sempre: l'incredibile capacità del cervello di creare e immagazzinare ricordi. Come funziona esattamente questo processo?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction cues a casual podcast host. Text is a conversational introduction to a topic."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Read this as if you are a live stream host reacting to something exciting happening in real-time. Be very expressive and energetic.",
+      "text": "No, non è possibile! Sta succedendo di nuovo! Proprio quando sembrava tutto finito, ecco che arriva il colpo di scena. Che ritorno spettacolare, che grinta! Questa è la dimostrazione che non bisogna mai arrendersi, mai! Che emozione!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction cues an energetic live stream host. Text is high-energy commentary on a comeback."
+      },
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Deliver this line as a teacher in an educational video, with a patient, clear, and encouraging tone.",
+          "text": "La fotosintesi è il processo attraverso il quale le piante usano la luce del sole, l'acqua e l'anidride carbonica per creare il proprio nutrimento e rilasciare ossigeno nell'aria.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a teacher for an educational video. Text explains photosynthesis without classroom jargon."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your voice should be that of a teacher explaining a concept for an educational segment. Be very clear and deliberate.",
+          "text": "Il ciclo dell'acqua descrive il movimento continuo dell'acqua sulla Terra: evapora dagli oceani, forma le nuvole, precipita come pioggia e torna ai corsi d'acqua.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a teacher for an educational video. Text explains the water cycle without classroom jargon."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Imagine you are voicing a teacher for an online learning module. Your delivery should be patient and easy to understand.",
+          "text": "La gravità è la forza invisibile che attira due oggetti l'uno verso l'altro; è la ragione per cui gli oggetti cadono a terra e i pianeti orbitano attorno al sole.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a teacher for an educational video. Text explains gravity without classroom jargon."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Deliver this as a public announcer at a train station. Your voice should be formal, clear, and carry well.",
+          "text": "Si avvisano i gentili passeggeri che il treno regionale delle 17:30 per Milano Centrale è in ritardo di venti minuti a causa di un guasto tecnico sulla linea.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a formal train station announcer. Text is a standard delay announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Read the text with the professional, slightly echoing voice of a public transport announcer.",
+          "text": "Attenzione: a causa di lavori di manutenzione, il binario numero cinque sarà fuori servizio per l'intera giornata di domani. Si prega di consultare i tabelloni informativi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a formal public transport announcer. Text is a standard maintenance announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Use the formal and clear tone of a station announcer making an important schedule update.",
+          "text": "Informiamo la gentile clientela che il servizio della metropolitana subirà delle variazioni di orario a partire dalle ore ventidue per consentire interventi di potenziamento.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a formal station announcer. Text is a standard schedule change announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Perform this as a lively and charismatic street vendor at a market, speaking in a loud, friendly voice.",
+          "text": "Guardate che meraviglia! Pomodori raccolti stamattina, dolci come il miele, direttamente dalla campagna siciliana!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a charismatic market vendor. Text enthusiastically describes tomatoes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your voice should be that of an enthusiastic market vendor calling out to passersby. Make it sound vibrant and appealing.",
+          "text": "Arance bionde di Ribera, succose e profumate! Non ne troverete di più buone, parola mia! La spremuta perfetta per iniziare la giornata.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an enthusiastic market vendor. Text enthusiastically describes oranges."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Embody a friendly and energetic street vendor describing their produce. Your voice should be loud and clear.",
+          "text": "Signori e signore, ecco i carciofi romaneschi! Teneri, saporiti, una vera specialità. Coltivati con amore, come una volta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an energetic market vendor. Text enthusiastically describes artichokes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this as a patient and helpful customer service agent on the phone, guiding someone through a process.",
+          "text": "Per prima cosa, provi a riavviare il dispositivo tenendo premuto il pulsante di accensione per dieci secondi. Una volta spento, attenda un minuto e poi lo riaccenda. Questo spesso risolve i problemi di connettività di base.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a patient customer service agent. Text is a step-by-step guide to restarting a device."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Use a polite, slightly formal, and very clear tone, like a customer support representative explaining technical steps.",
+          "text": "Per reimpostare la password, dovrà accedere alla pagina principale del nostro sito e cliccare sul link 'Password dimenticata'. Le invieremo un'email con le istruzioni dettagliate per creare una nuova password sicura. Controlli anche la cartella spam.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a polite customer support agent. Text is a step-by-step guide to resetting a password."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Your persona is a calm and patient technical support agent speaking over the phone. Make sure your pacing is steady and easy to follow.",
+          "text": "Va bene, ora la guido passo dopo passo. Vada nelle impostazioni del suo account, cerchi la sezione 'Privacy e Sicurezza' e da lì selezioni 'Gestisci autorizzazioni'. Mi dica quando ha trovato l'opzione corretta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a calm technical support agent. Text is a step-by-step guide to changing account settings."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Perform this as an engaging and passionate tour guide narrating the history of a famous landmark.",
+          "text": "Il Colosseo, originariamente conosciuto come Anfiteatro Flavio, fu costruito nel primo secolo dopo Cristo. Per quasi cinquecento anni, fu il centro di intrattenimento pubblico di Roma, ospitando spettacoli di gladiatori e cacce ad animali esotici di fronte a decine di migliaia di spettatori.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a passionate tour guide. Text is a historical narrative about the Colosseum."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Deliver the text with the knowledgeable and enthusiastic voice of a tour guide sharing fascinating historical details.",
+          "text": "La Torre di Pisa iniziò a inclinarsi quasi subito dopo l'inizio della sua costruzione nel dodicesimo secolo, a causa di un cedimento del terreno sottostante. Nonostante questo difetto, la sua costruzione continuò per quasi duecento anni, diventando un simbolo iconico dell'ingegneria e della perseveranza italiana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a knowledgeable tour guide. Text is a historical narrative about the Tower of Pisa."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Your voice should be full of passion and knowledge, like a tour guide deeply invested in the story they're telling.",
+          "text": "Il Ponte di Rialto è il più antico dei quattro ponti che attraversano il Canal Grande a Venezia. La struttura in pietra che vediamo oggi risale alla fine del sedicesimo secolo e per centinaia di anni è stata l'unico modo per attraversare il canale a piedi, fungendo anche da vivace centro commerciale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a passionate tour guide. Text is a historical narrative about the Rialto Bridge."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this with the calm, reassuring, and professional tone of a doctor giving advice to a patient.",
+          "text": "È molto importante mantenere uno stile di vita attivo. Anche una semplice passeggiata di trenta minuti ogni giorno può fare una grande differenza per la salute del cuore e il benessere generale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a calm, reassuring doctor. Text gives general advice about physical activity."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your persona is a kind doctor speaking in a reassuring manner. The tone should be calm and authoritative but also warm.",
+          "text": "Una dieta equilibrata, ricca di frutta e verdura, è fondamentale. Cerchi di limitare il consumo di cibi processati e zuccheri, e si ricordi di bere molta acqua durante la giornata.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a calm, reassuring doctor. Text gives general advice about diet."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver the line as a doctor would to a patient: professional, calm, and trustworthy.",
+          "text": "Un sonno di qualità è essenziale per il recupero fisico e mentale. Assicurarsi di dormire circa otto ore per notte aiuta a migliorare la concentrazione e a rafforzare il sistema immunitario.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a calm, reassuring doctor. Text gives general advice about sleep."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Deliver this with the characteristic fast-paced, rhythmic, and clear voice of an auctioneer calling out items.",
+          "text": "Abbiamo un vaso in porcellana della dinastia Ming, finemente decorato con draghi blu. A seguire, un orologio da tasca svizzero del diciannovesimo secolo, cassa in oro, movimento perfettamente funzionante. E infine, una prima edizione di un classico della letteratura, rilegatura in pelle originale, ottime condizioni.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a fast, rhythmic auctioneer. Text is a rapid list of distinct valuable items."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Adopt the rapid, clear, and rhythmic delivery of an auctioneer describing the lots up for bidding.",
+          "text": "Ecco un dipinto ad olio della scuola fiamminga, paesaggio rurale con figure, cornice dorata coeva. Poi un set di sei sedie Luigi Sedicesimo, legno di noce intagliato, tappezzeria in seta. E ancora, una rara moneta romana in argento, un denario dell'imperatore Augusto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a fast, rhythmic auctioneer. Text is a rapid list of distinct valuable items."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Your delivery should be fast and clear, with a steady rhythm, like an auctioneer presenting items in quick succession.",
+          "text": "Il prossimo lotto è un tappeto persiano antico, lana su cotone, colori naturali, motivo geometrico. Subito dopo, una scultura in bronzo rappresentante un cavallo, firmata dall'artista sul basamento. E per concludere, una collezione completa di francobolli del Regno d'Italia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a fast, rhythmic auctioneer. Text is a rapid list of distinct valuable items."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this in the casual, engaging, and friendly manner of a podcast host introducing a new topic.",
+          "text": "Oggi parliamo di un argomento che mi affascina da sempre: l'incredibile capacità del cervello di creare e immagazzinare ricordi. Come funziona esattamente questo processo?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a casual podcast host. Text is a conversational introduction to a topic."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Use a conversational and friendly tone, as if you're a podcast host speaking directly to your listeners.",
+          "text": "Quindi, ho iniziato a pensare a come la tecnologia sta cambiando le nostre relazioni sociali. È un bene, un male, o semplicemente qualcosa di diverso a cui dobbiamo abituarci?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues a conversational podcast host. Text is a conversational introduction to a topic."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver this introduction with the warm and engaging style of a modern podcast host setting up a discussion.",
+          "text": "Una delle domande più interessanti che ci possiamo porre è se siamo veramente soli nell'universo. Esploriamo insieme le ultime scoperte e le teorie più recenti.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues an engaging podcast host. Text is a conversational introduction to a topic."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Perform this with the high energy and expressive voice of a live stream host commentating on a fast-paced event.",
+          "text": "Incredibile! Non ci posso credere! Guardate che mossa, è riuscito a ribaltare completamente la situazione all'ultimo secondo! Questa è una giocata che passerà alla storia, assolutamente pazzesca! Non ho mai visto niente del genere prima d'ora!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues an energetic live stream host. Text is high-energy commentary on a surprising event."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your persona is an energetic live streamer. Your voice should be full of excitement and informal enthusiasm.",
+          "text": "Ok, ok, stiamo per aprirlo. Il pacco è qui, è enorme! Il cuore mi batte a mille, chissà cosa c'è dentro. La tensione è altissima, non sto più nella pelle, spero sia esattamente quello che penso! Forza, andiamo a vedere!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues an energetic live stream host. Text is high-energy commentary for an unboxing."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Read this as if you are a live stream host reacting to something exciting happening in real-time. Be very expressive and energetic.",
+          "text": "No, non è possibile! Sta succedendo di nuovo! Proprio quando sembrava tutto finito, ecco che arriva il colpo di scena. Che ritorno spettacolare, che grinta! Questa è la dimostrazione che non bisogna mai arrendersi, mai! Che emozione!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction cues an energetic live stream host. Text is high-energy commentary on a comeback."
+          }
+        }
+      ]
+    }
+  ]
+}

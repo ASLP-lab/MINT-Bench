@@ -1,0 +1,677 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "pt",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Imagine a small boy speaking with a voice that doesn't match his age at all. It should be deep and have a very low pitch.",
+      "text": "O meu brinquedo partiu-se. Podes ajudar-me a consertá-lo, por favor?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of conflicting age vs. pitch/texture."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "pitch": "very_low",
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Perform this line with a sense of suppressed rage. Your voice should be a near-whisper, and your speech should be incredibly slow and menacing.",
+      "text": "Tudo o que aconteceu foi uma consequência direta das tuas próprias ações.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good conflict between intense emotion and subdued delivery."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Deliver this line with a sarcastic tone. However, the speaker's underlying personality is bubbly and cheerful, so there should be a hint of that brightness bleeding through the sarcasm.",
+      "text": "Adoro passar o sábado à noite a organizar folhas de cálculo. É o meu passatempo favorito.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Layered conflict between personality and tone."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "tone": "sarcastic",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. You are happy about the outcome, but you're delivering this line with a complaining, whining tone, as if talking about the minor inconveniences along the way.",
+      "text": "Conseguimos o contrato, o que é ótimo, mas agora tenho que preencher toda esta papelada.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between positive emotion and negative tone."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "complaining",
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Your character is naturally confident and is trying to shout a command, but they are feeling unsure, so their tone should be hesitant and broken, despite the high volume.",
+      "text": "Toda a gente... hum... precisa de evacuar o edifício... agora mesmo!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good conflict between personality/volume and tone."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "very_loud",
+        "tone": "hesitant",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. I need the voice of a very old woman, but she's in a wonderful mood. Make her sound cheerful and mischievous, almost like a young girl.",
+      "text": "Ainda me lembro de quando eras do tamanho de um feijão e agora achas que me podes enganar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict comes from subverting age stereotype."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "playful",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Convey a deep sense of fear. At the same time, keep the voice texture clear and the speaking rate very slow, as if carefully explaining a terrible situation.",
+      "text": "Se olharmos com atenção, podemos ver que a criatura ainda está lá fora, à espera.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good conflict between emotion and delivery style."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "very_slow",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Deliver this line very loudly and with a tone of utter surprise. The character is someone who is normally introverted and speaks softly, so this outburst is completely out of character.",
+      "text": "OLHA O TAMANHO DAQUILO! NUNCA VI NADA ASSIM EM TODA A MINHA VIDA!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Excellent conflict between personality and delivery."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "emotion": "surprised",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Perform this as a male character who is distant and superior, but is forced to plead for something. The pleading tone should clash with his inherent aloofness.",
+      "text": "Por favor, considera a minha proposta. É, francamente, a única opção sensata que tens.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Layered performance with conflicting tone and personality."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "pleading",
+        "personality": "aloof",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. The speaker is naturally a calm person, but they're very worried. They are attempting to hide their worry behind a firm tone. Let the tension between the firm tone and the underlying anxiety be audible.",
+      "text": "Não há motivo para pânico. Apenas precisamos de aguardar em silêncio por mais informações.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Complex three-way conflict between states."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "worried",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "pitch": "very_low",
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Deliver the line in the voice of a young boy, but make his pitch unnaturally low and his voice texture surprisingly deep for his age.",
+          "text": "Posso ter mais um copo de sumo, por favor? Prometo que vou para a cama logo a seguir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting age vs. pitch/texture."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. I need the voice of a little boy, but give it a contradictory quality: the pitch should be very low and the voice deep, as if he were a grown man.",
+          "text": "Podes ler-me uma história antes de eu adormecer? Gosto daquela sobre o dragão.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting age vs. pitch/texture."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Imagine a small boy speaking with a voice that doesn't match his age at all. It should be deep and have a very low pitch.",
+          "text": "O meu brinquedo partiu-se. Podes ajudar-me a consertá-lo, por favor?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of conflicting age vs. pitch/texture."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this with quiet, slow-burning anger. The volume is very low and the pace is deliberate and very slow, simmering with fury.",
+          "text": "Eu lembro-me exatamente do que foi dito naquela sala. Cada palavra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between intense emotion and subdued delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. You're trying to contain immense anger. Speak very quietly and much slower than normal, as if each word is a struggle to control.",
+          "text": "A decisão final já foi tomada e não há absolutamente nada que a possa alterar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between intense emotion and subdued delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Perform this line with a sense of suppressed rage. Your voice should be a near-whisper, and your speech should be incredibly slow and menacing.",
+          "text": "Tudo o que aconteceu foi uma consequência direta das tuas próprias ações.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between intense emotion and subdued delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "tone": "sarcastic",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The speaker is a female who is usually very cheerful, but here she's being deeply sarcastic. Let that upbeat quality clash with the mocking tone.",
+          "text": "Ah, claro, esta é sem dúvida a melhor ideia que já tiveste. Fantástica.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Layered conflict between personality and tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this line with a sarcastic tone. However, the speaker's underlying personality is bubbly and cheerful, so there should be a hint of that brightness bleeding through the sarcasm.",
+          "text": "Adoro passar o sábado à noite a organizar folhas de cálculo. É o meu passatempo favorito.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Layered conflict between personality and tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. As a female speaker with a normally cheerful personality, say this line with dripping sarcasm. The contrast between her usual self and her current tone should be clear.",
+          "text": "Outra reunião que podia ter sido um e-mail. Que uso produtivo do nosso tempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Layered conflict between personality and tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "complaining",
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. You are happy about the outcome, but you're delivering this line with a complaining, whining tone, as if talking about the minor inconveniences along the way.",
+          "text": "Conseguimos o contrato, o que é ótimo, mas agora tenho que preencher toda esta papelada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between positive emotion and negative tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Express happiness about the general situation, but use a complaining vocal tone for this specific sentence. The feeling is positive, but the delivery is whiny.",
+          "text": "As férias foram maravilhosas, mas desfazer as malas é sempre um pesadelo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between positive emotion and negative tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Even though you are genuinely pleased, say this with a tone of complaint. The underlying emotion is happy, but the surface expression is whiny.",
+          "text": "Finalmente terminei o projeto e estou tão aliviado, mas passei tantas noites sem dormir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict between positive emotion and negative tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "very_loud",
+        "tone": "hesitant",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Your character is naturally confident and is trying to shout a command, but they are feeling unsure, so their tone should be hesitant and broken, despite the high volume.",
+          "text": "Toda a gente... hum... precisa de evacuar o edifício... agora mesmo!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between personality/volume and tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this command at a very loud volume, as if yelling. However, inject a strong sense of hesitation into the tone, making it sound uncertain and stuttered. The speaker is normally confident.",
+          "text": "Sigam-me! Eu... acho que sei o caminho... por aqui!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between personality/volume and tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. The speaker is a confident person shouting, but they're not sure what they're saying. Make the delivery loud but hesitant, with pauses and a questioning intonation.",
+          "text": "Parem... o que quer que estejam a fazer... e... oiçam-me com atenção!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between personality/volume and tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "playful",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use the voice of an elderly woman, but her tone should be happy and playfully teasing, not frail or serious.",
+          "text": "Ah, pensavas que eu não ia descobrir o teu pequeno segredo, não é, meu querido?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict comes from subverting age stereotype."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. I need the voice of a very old woman, but she's in a wonderful mood. Make her sound cheerful and mischievous, almost like a young girl.",
+          "text": "Ainda me lembro de quando eras do tamanho de um feijão e agora achas que me podes enganar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict comes from subverting age stereotype."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. The speaker is an old lady, but her spirit is young. Read this with a happy, teasing tone that defies her age.",
+          "text": "Não me digas que já estás cansado. A festa ainda mal começou, vamos dançar!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Conflict comes from subverting age stereotype."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "very_slow",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Your character is terrified, but they are forcing themselves to speak very slowly and clearly. The fear should be audible, but the pace is unnaturally steady.",
+          "text": "É muito importante que ninguém faça um único som ou movimento brusco.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between emotion and delivery style."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. You need to sound extremely scared, but your delivery must contradict this by being very slow and articulated. It's a voice fighting against panic.",
+          "text": "A porta está trancada por fora e não vejo nenhuma outra saída.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between emotion and delivery style."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Convey a deep sense of fear. At the same time, keep the voice texture clear and the speaking rate very slow, as if carefully explaining a terrible situation.",
+          "text": "Se olharmos com atenção, podemos ver que a criatura ainda está lá fora, à espera.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good conflict between emotion and delivery style."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "emotion": "surprised",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The speaker is usually a very quiet and reserved person, but they've just seen something shocking. Make them shout this line with surprise.",
+          "text": "Não pode ser! Aquela é a pessoa que nós pensávamos que tinha desaparecido!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Excellent conflict between personality and delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this line very loudly and with a tone of utter surprise. The character is someone who is normally introverted and speaks softly, so this outburst is completely out of character.",
+          "text": "OLHA O TAMANHO DAQUILO! NUNCA VI NADA ASSIM EM TODA A MINHA VIDA!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Excellent conflict between personality and delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Imagine a shy, reserved person witnessing something unbelievable. They lose their composure and yell this line in shock. The volume should be very high.",
+          "text": "ELE ESTÁ MESMO A VOAR! ISTO É COMPLETAMENTE IMPOSSÍVEL!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Excellent conflict between personality and delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "pleading",
+        "personality": "aloof",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The male speaker needs help, so his tone is pleading. However, he's naturally arrogant and aloof, so that disdain should still color his voice, making the plea sound insincere.",
+          "text": "Eu sei que isto está abaixo de ti, mas eu realmente preciso que me faças este favor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Layered performance with conflicting tone and personality."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Perform this as a male character who is distant and superior, but is forced to plead for something. The pleading tone should clash with his inherent aloofness.",
+          "text": "Por favor, considera a minha proposta. É, francamente, a única opção sensata que tens.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Layered performance with conflicting tone and personality."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. The tone is begging, but the speaker's personality is aloof and condescending. Make it sound like he hates that he has to ask you for anything.",
+          "text": "Suponho que não tenhas outra escolha senão ajudar-me, pois não? Por favor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Layered performance with conflicting tone and personality."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "worried",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The speaker is trying to sound firm and assertive, and their natural personality is calm. However, they are deeply worried, and that anxiety should subtly undercut the firmness of their tone.",
+          "text": "Quero que todos mantenham a calma e sigam o protocolo de segurança à risca.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complex three-way conflict between states."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this with a firm, commanding tone. But underneath, convey a strong sense of worry. The speaker is a calm person trying to project authority while feeling anxious.",
+          "text": "A situação está sob controlo, mas peço que ninguém saia desta sala até eu dar novas instruções.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complex three-way conflict between states."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. The speaker is naturally a calm person, but they're very worried. They are attempting to hide their worry behind a firm tone. Let the tension between the firm tone and the underlying anxiety be audible.",
+          "text": "Não há motivo para pânico. Apenas precisamos de aguardar em silêncio por mais informações.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complex three-way conflict between states."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "taxonomy_node": "easy/composite/simple_comp/static",
+  "language": "zh",
+  "source_plan_file": "easy__composite__simple_comp__static.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "年龄：儿童, 性别：男性",
+      "text": "大多数植物通过光合作用将光能转化为化学能。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static/timbre+timbre",
+      "target_values": {
+        "age": "child",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static/timbre+timbre",
+      "target_values": {
+        "age": "child",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：儿童, 性别：男性",
+          "text": "太阳系有八大行星，地球是其中之一。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：儿童, 性别：男性",
+          "text": "水在标准大气压下，一百摄氏度时会沸腾。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：儿童, 性别：男性",
+          "text": "大多数植物通过光合作用将光能转化为化学能。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static/timbre+timbre",
+      "target_values": {
+        "texture": "breathy",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种轻柔、带点气息感的高音调来说话。",
+          "text": "有时候，我觉得自己就像漂浮在空中的一片羽毛。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用比较高的音调，声音里带着明显的呼吸感。",
+          "text": "原来最美的风景，一直都在我们身边，只是我们没有发现。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音要高一些，而且听起来要很轻，像在耳边低语一样有气息感。",
+          "text": "望着窗外的雨，思绪也跟着飘向了远方。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static/timbre+timbre",
+      "target_values": {
+        "age": "elderly",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：老年, 音质：沙哑",
+          "text": "今天的天气不错，很适合出门散散步。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：老年, 音质：沙哑",
+          "text": "桌上的那杯茶已经凉了，我再去给你倒一杯吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：老年, 音质：沙哑",
+          "text": "我看这个新闻上说，下周可能会有一次降温。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static/timbre+timbre",
+      "target_values": {
+        "gender": "female",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用沉稳的女性嗓音，音调稍低一些。",
+          "text": "各位乘客请注意，下一站是中心广场，请做好下车准备。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种比较低沉的女性声音来播报。",
+          "text": "今天的会议将于下午三点在第一会议室准时开始。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "想象你是一位女播音员，用偏低的音调说话。",
+          "text": "由于天气原因，原定于今晚的户外活动将延期举行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情感：愉快, 语速：快",
+          "text": "我跟你说，我刚刚看到楼下那家店今天全场五折！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情感：愉快, 语速：快",
+          "text": "快看快看，我们支持的队伍终于进球了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情感：愉快, 语速：快",
+          "text": "包裹已经送到门口了，你快去拿一下吧！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "tone": "urging",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种催促的、响亮的声音说话。",
+          "text": "时间来不及了，你能不能快一点啊？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "大声一点，用催促的语气说出这句话。",
+          "text": "大家注意了，马上就要关门了，请尽快离开！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音要大，语气要急切，像是在催促别人。",
+          "text": "别再犹豫了，我们必须马上做出决定。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "personality": "calm",
+        "accent": "putonghua"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "性格：沉稳, 口音：普通话",
+          "text": "这个系统的基本原理是通过传感器收集数据，然后进行分析处理。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "性格：沉稳, 口音：普通话",
+          "text": "这个现象背后的原因是多种因素共同作用的结果。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "性格：沉稳, 口音：普通话",
+          "text": "为了保证实验的准确性，我们需要严格控制变量。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "带着难过和抱怨的情绪说出这句话。",
+          "text": "为什么每次都是这样，事情总是不按计划进行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种又伤心又埋怨的语气说话。",
+          "text": "我等了这么久，结果还是没有消息。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的语气听起来很低落，像是在抱怨什么。",
+          "text": "他又一次没有回复我的信息，大概是忘了吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0009",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "speed": "very_slow",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语速：很慢, 音量：很小",
+          "text": "夜深了，整个世界都安静了下来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语速：很慢, 音量：很小",
+          "text": "我只是想一个人待一会儿，整理一下思绪。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语速：很慢, 音量：很小",
+          "text": "有些事情，也许永远都不会有答案。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "accent": "sichuan_accent",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用活泼的四川口音说这段话。",
+          "text": "今天我们去吃火锅吧，我知道一家特别正宗的店。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种充满活力的四川方言口音来演绎。",
+          "text": "这个周末天气这么好，我们约着一起出去玩儿啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音要很有精神，带着浓厚的四川口音。",
+          "text": "哎呀，你看我这个记性，差点把正事给忘了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "情绪：愤怒, 音量：非常大",
+          "text": "现在立刻停止你手上的所有工作，马上到我这里来！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "情绪：愤怒, 音量：非常大",
+          "text": "我不管你用什么方法，今天之内必须把这件事给我办好！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "情绪：愤怒, 音量：非常大",
+          "text": "你们所有人都给我听清楚了，谁也不许再提这件事！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "tone": "sarcastic",
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：讽刺, 性格：冷漠",
+          "text": "哦，你竟然能想到这个层面，真是了不起啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：讽刺, 性格：冷漠",
+          "text": "你做的这个决定，看来是经过深思熟虑的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：讽刺, 性格：冷漠",
+          "text": "我对你的想法没有任何意见，毕竟那是你的事。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static/style+style",
+      "target_values": {
+        "emotion": "worried",
+        "accent": "shanghai_accented_mandarin"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用带点上海口音的普通话，忧心忡忡地读出这句话。",
+          "text": "你能不能帮我去看一下，他们那边现在怎么样了？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用带上海口音的普通话朗读，并带上担忧的情绪。",
+          "text": "我就是想问问，这个事情最后到底要怎么处理。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "模仿上海口音，用担忧的语气说出以下内容。",
+          "text": "你再帮我确认一下时间好不好，我怕我记错了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0014",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "age": "child",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：儿童, 情绪：惊讶",
+          "text": "原来天上的云是会移动的，而且速度还不一样。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：儿童, 情绪：惊讶",
+          "text": "这个杯子里的水倒出来之后，桌子上竟然是干的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：儿童, 情绪：惊讶",
+          "text": "你看，那只鸟的颜色和我们平时见到的完全不同。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "gender": "male",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用缓慢的男声朗读。",
+          "text": "他独自一人走在空旷的街道上，路灯将他的影子拉得很长。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用男性的声音，慢慢地说出这句话。",
+          "text": "远处的山峦在暮色中显得朦胧，一切都显得那么宁静。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用男声慢慢地读出来。",
+          "text": "时间仿佛在这一刻静止了，只剩下窗外的雨滴声。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "texture": "deep",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音质：低沉, 语气：坚定",
+          "text": "这是最终的决定，没有商量的余地。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音质：低沉, 语气：坚定",
+          "text": "从现在开始，所有人都必须遵守新的规定。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "音质：低沉, 语气：坚定",
+          "text": "请你按照我说的去做，不要再问为什么。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "pitch": "high",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种高亢而恐惧的声线来说。",
+          "text": "我好像听到门外有什么声音，你听到了吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "声音尖锐一点，带着害怕的感觉说出这句话。",
+          "text": "等一下，你刚刚说那个人也在这里？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用高音调和恐惧的语气说。",
+          "text": "这个房间里怎么突然变得这么黑，灯坏了吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "age": "elderly",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "年龄：老年, 性格：温和",
+          "text": "这个植物的叶子需要每天都浇水，但是不能浇太多。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "年龄：老年, 性格：温和",
+          "text": "你把这两个东西放在一起，它们就会发生奇妙的化学反应。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "年龄：老年, 性格：温和",
+          "text": "你看，使用这个工具的诀窍在于，要保持手腕的平稳。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "gender": "female",
+        "accent": "taiwanese_mandarin"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用带有台湾口音的普通话，以女性的声音说出这句话。",
+          "text": "我觉得这个颜色很好看啊，你怎么会不喜欢呢？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用女声朗读，并带上台湾腔。",
+          "text": "那我们等一下要不要一起去吃点东西，我有点饿了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用有台湾口音的女性声音说出以下文字。",
+          "text": "真的假的？我之前都不知道还有这种事情耶。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "texture": "soft",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音质：轻柔, 音量：小声",
+          "text": "有时候，沉默或许是最好的回答。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音质：轻柔, 音量：小声",
+          "text": "原来，很多事情都藏在不经意的细节里。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "音质：轻柔, 音量：小声",
+          "text": "就这样静静地待着，感觉也挺好的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "age": "adult",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用成年人的声音，以一种事不关己的语气说话。",
+          "text": "根据最新的天气预报，未来三天本市将持续晴朗天气，最高气温维持在二十五度左右。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用成年人的口吻，带有一种冷淡、无所谓的态度来朗读。",
+          "text": "本次会议的议程已经分发给各位，请大家在会前仔细阅读相关文件，做好准备。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个成年人的声音读，语气要显得漠不关心。",
+          "text": "系统更新将在今晚十一点进行，预计持续两个小时，期间相关服务将暂时无法使用。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static/timbre+style",
+      "target_values": {
+        "pitch": "very_low",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音高：很低, 语速：正常",
+          "text": "各位乘客请注意，本次列车即将到达终点站，请提前收拾好您的行李物品，准备下车。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音高：很低, 语速：正常",
+          "text": "尊敬的顾客，本店今日的营业时间到晚上九点结束，感谢您的光临，欢迎下次再来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "音高：很低, 语速：正常",
+          "text": "下面播报一则通知，由于设备维护，图书馆三楼的电子阅览室将于明天上午暂停开放。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

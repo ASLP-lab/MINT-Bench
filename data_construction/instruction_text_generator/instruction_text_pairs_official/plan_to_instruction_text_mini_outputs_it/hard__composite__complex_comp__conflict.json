@@ -1,0 +1,661 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "it",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Deliver the line with a bright, cheerful voice, but make it clear through your tone that you are being deeply sarcastic.",
+      "text": "Oh, che fantastica idea! Come ho fatto a non pensarci prima?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Speak this command in a very quiet, slow, and measured way that conveys immense, barely contained anger.",
+      "text": "Lascia quell'oggetto dove si trova e non muoverti.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Use a child's voice, but deliver the line with a surprising amount of gravity and firmness, as if making a very important, official statement.",
+      "text": "Vorrei richiamare la vostra attenzione su un punto importante del regolamento.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. The speaker has a naturally cheerful and upbeat personality, but they are trying to deliver sad news. Their attempt at being somber isn't entirely successful, and their underlying cheerfulness still comes through.",
+      "text": "Mi dispiace informarvi che l'evento di stasera è stato annullato a causa del tempo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Even though the text is an objective statement, your voice should be full of pleading, like you're desperately trying to convince someone of an undeniable truth.",
+      "text": "Due più due fa quattro, è una semplice verità matematica.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Shout the line loudly, but the voice should be trembling and full of fear, not anger or confidence.",
+      "text": "C'è qualcuno qui? Per favore, risponda!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. The speaker is trying to be playful and reassuring, but their voice should betray a deep underlying worry that they can't quite hide.",
+      "text": "Non ti preoccupare, andrà tutto bene vedrai! È solo una piccola avventura, no? Supereremo anche questa difficoltà.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "worried",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Use the voice of an elderly person, but make it counter-stereotypically bright, clear, and relatively high-pitched, not weak or raspy.",
+      "text": "Il modo in cui la luce del mattino colpisce gli edifici è sempre affascinante.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Deliver this line with a defiant tone, but make it clear that the speaker is actually very scared. The bravery is a facade.",
+      "text": "Potete provare a spaventarmi, ma io non vi darò ascolto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "defiant",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. The voice should be a male voice with a naturally very high pitch, but the tone should be firm, confident, and assertive.",
+      "text": "Il processo richiede diversi passaggi per essere completato correttamente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Deliver the line with a bright, cheerful voice, but make it clear through your tone that you are being deeply sarcastic.",
+          "text": "Oh, che fantastica idea! Come ho fatto a non pensarci prima?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Say this with an outwardly happy and enthusiastic demeanor, but with a biting sarcastic undertone that contradicts the cheerfulness.",
+          "text": "Sei arrivato giusto in tempo, come sempre. La tua puntualità è leggendaria.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. The speaker sounds joyful and pleasant on the surface, but there's a sharp, sarcastic edge to their voice that suggests they mean the opposite.",
+          "text": "Adoro assolutamente il tuo contributo alla discussione, è stato illuminante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Deliver the line very quietly and slowly, with a voice that is seething with controlled, intense anger.",
+          "text": "Adesso ti siedi e mi ascolti fino alla fine.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. The delivery should be a low whisper, spoken with deliberate slowness. The voice is quiet, but filled with suppressed rage.",
+          "text": "Per favore, ripeti quello che hai appena detto. Voglio essere sicuro di aver capito bene.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Speak this command in a very quiet, slow, and measured way that conveys immense, barely contained anger.",
+          "text": "Lascia quell'oggetto dove si trova e non muoverti.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. The voice should be that of a young child, but the tone is unusually serious, firm, and authoritative, like a tiny adult giving an order.",
+          "text": "La riunione è ufficialmente iniziata. Siete pregati di fare silenzio.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Use a child's voice, but deliver the line with a surprising amount of gravity and firmness, as if making a very important, official statement.",
+          "text": "Vorrei richiamare la vostra attenzione su un punto importante del regolamento.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. This should sound like a little kid who is taking something very seriously, speaking with a firm tone that you wouldn't expect from a child.",
+          "text": "A partire da questo momento, le regole del gioco sono cambiate.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. The speaker has a naturally cheerful and upbeat personality, but they are trying to deliver sad news. Their attempt at being somber isn't entirely successful, and their underlying cheerfulness still comes through.",
+          "text": "Mi dispiace informarvi che l'evento di stasera è stato annullato a causa del tempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Deliver this line with a tone that is trying to be sad, but the speaker's inherently bright and happy nature is still audible, creating a conflict.",
+          "text": "Purtroppo, il nostro negozio chiuderà un'ora prima oggi. Ci scusiamo per il disagio.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Imagine someone who is always smiling and positive having to announce something disappointing. Their voice should carry the sadness of the message, but be colored by their usual cheerful disposition.",
+          "text": "Ho appena saputo che non potremo fare la gita scolastica la prossima settimana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say this simple, neutral fact with a desperate, pleading tone, as if you are begging someone to believe it.",
+          "text": "Il sole sorge a est e tramonta a ovest, te lo assicuro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. The content is a plain statement of fact, but the delivery should be pleading and imploring, as if the listener's acceptance of this fact is incredibly important.",
+          "text": "L'acqua bolle a cento gradi Celsius al livello del mare.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Even though the text is an objective statement, your voice should be full of pleading, like you're desperately trying to convince someone of an undeniable truth.",
+          "text": "Due più due fa quattro, è una semplice verità matematica.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Shout the line loudly, but the voice should be trembling and full of fear, not anger or confidence.",
+          "text": "C'è qualcuno qui? Per favore, risponda!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. The delivery should be a loud call for help, but underscored by a palpable sense of fear and panic in the voice.",
+          "text": "Aiuto! Penso di essermi perso nel bosco!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. This is a shout, but it's driven by terror. Your voice should be loud but also shaky and strained with fear.",
+          "text": "Chiudi subito la porta! Sta arrivando qualcosa!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "worried",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. The speaker is trying to be playful and reassuring, but their voice should betray a deep underlying worry that they can't quite hide.",
+          "text": "Non ti preoccupare, andrà tutto bene vedrai! È solo una piccola avventura, no? Supereremo anche questa difficoltà.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Adopt a light, playful tone to seem comforting, but let a subtle tremor of anxiety and concern be audible beneath the surface.",
+          "text": "Dai, non fare quella faccia! Pensa che tra poco rideremo di tutta questa situazione. Almeno, io lo spero tanto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Your voice should sound like you're trying to make a joke and lighten the mood, but the strain of worry is clearly present in your delivery.",
+          "text": "Guarda il lato positivo, almeno abbiamo una bella storia da raccontare. Certo, prima dobbiamo trovare una via d'uscita... ma ce la faremo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Use the voice of an elderly person, but make it counter-stereotypically bright, clear, and relatively high-pitched, not weak or raspy.",
+          "text": "Il modo in cui la luce del mattino colpisce gli edifici è sempre affascinante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. The speaker should sound old, but their voice quality should be energetic and bright, with a higher than expected pitch for their age.",
+          "text": "Ho letto un articolo interessante sulla migrazione degli uccelli l'altro giorno.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. I need an elderly voice that defies stereotypes. It should be high, clear, and vibrant, rather than frail or gravelly.",
+          "text": "Questo nuovo sistema di trasporto pubblico sembra essere piuttosto efficiente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "defiant",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. The speaker is trying to sound defiant and strong, but their voice should tremble with underlying fear.",
+          "text": "No, non farò un passo indietro, non importa cosa succeda.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Deliver this line with a defiant tone, but make it clear that the speaker is actually very scared. The bravery is a facade.",
+          "text": "Potete provare a spaventarmi, ma io non vi darò ascolto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. The words are a statement of defiance, but the delivery should be shaky, betraying the speaker's true feeling of fear.",
+          "text": "Non ho alcuna intenzione di andarmene. Questo è il mio posto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. The voice should be a male voice with a naturally very high pitch, but the tone should be firm, confident, and assertive.",
+          "text": "Il processo richiede diversi passaggi per essere completato correttamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Use a man's voice that is in a very high register, but deliver the line with a strong, unwavering, and firm quality.",
+          "text": "Secondo i dati, la tendenza è in costante aumento da tre mesi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Imagine a male speaker whose voice is pitched very high. Despite this, he speaks with authority and a firm, decisive tone.",
+          "text": "La struttura molecolare di questo composto è particolarmente complessa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

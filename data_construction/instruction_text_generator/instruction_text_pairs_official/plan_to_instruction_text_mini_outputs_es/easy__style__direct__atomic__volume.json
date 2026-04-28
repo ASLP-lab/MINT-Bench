@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/volume",
+  "language": "es",
+  "source_plan_file": "easy__style__direct__atomic__volume.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Shout this message to be heard across a large, noisy square.",
+      "text": "El evento principal comenzará en cinco minutos en el escenario central.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction clearly asks for a shouted voice for a public event."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Use a very quiet, breathy voice, speaking so softly it's almost inaudible.",
+      "text": "Parece que fue ayer cuando todo era más simple, y el tiempo pasaba de una manera diferente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction specifies a quiet, breathy voice for a contemplative statement."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Project your voice so it carries to the back of a big hall, speaking loudly and with authority.",
+      "text": "El principio de Arquímedes establece que todo cuerpo sumergido en un fluido experimenta un empuje vertical y hacia arriba.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction clearly describes speaking to a large hall, targeting a loud volume."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Use a low volume for this line, speaking quietly to someone next to you in a public place.",
+      "text": "Mira, el cielo se está poniendo de un color muy bonito.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction correctly cues a low volume suitable for a public setting."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Deliver this line as if you're making an urgent announcement over a loudspeaker to a large crowd.",
+          "text": "Atención todos los pasajeros, el último tren está a punto de salir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction sets a clear public announcement scenario for a very loud voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Shout this message to be heard across a large, noisy square.",
+          "text": "El evento principal comenzará en cinco minutos en el escenario central.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction clearly asks for a shouted voice for a public event."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Say this with a very loud voice, projecting as if you're trying to get everyone's attention in a stadium.",
+          "text": "Por favor, diríjanse a las salidas de emergencia de forma ordenada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides a stadium scenario to prompt a very loud, projected voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in a very soft whisper, as if you're thinking aloud to yourself and don't want anyone else to hear.",
+          "text": "A veces me pregunto si tomé la decisión correcta, pero ya es demasiado tarde para cambiarlo todo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a whisper for an introspective thought."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this with a barely audible voice, almost like an unvoiced murmur or a soft whisper.",
+          "text": "Cada vez que miro las estrellas, siento lo pequeños que somos en la inmensidad del universo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a barely audible, murmured voice for a reflective text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Use a very quiet, breathy voice, speaking so softly it's almost inaudible.",
+          "text": "Parece que fue ayer cuando todo era más simple, y el tiempo pasaba de una manera diferente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a quiet, breathy voice for a contemplative statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in a loud, clear voice, as if you are a lecturer addressing a large classroom without amplification.",
+          "text": "La Revolución Industrial comenzó en Gran Bretaña a finales del siglo dieciocho y transformó las economías basadas en la agricultura.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a lecturer scenario to prompt a loud, projected voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Project your voice so it carries to the back of a big hall, speaking loudly and with authority.",
+          "text": "El principio de Arquímedes establece que todo cuerpo sumergido en un fluido experimenta un empuje vertical y hacia arriba.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction clearly describes speaking to a large hall, targeting a loud volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Use a loud, projecting voice, like you're giving a presentation to a sizable audience in an auditorium.",
+          "text": "El sistema solar está compuesto por ocho planetas que giran en órbitas elípticas alrededor del Sol.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The instruction for a presentation in an auditorium naturally elicits a loud voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in a quiet voice, as if you're in a library and don't want to disturb anyone.",
+          "text": "Creo que voy a pedir otro café, este está delicioso.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The library scenario clearly establishes the need for a quiet speaking volume."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a low volume for this line, speaking quietly to someone next to you in a public place.",
+          "text": "Mira, el cielo se está poniendo de un color muy bonito.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction correctly cues a low volume suitable for a public setting."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Speak in a hushed tone, not quite a whisper, but quietly enough to avoid being overheard by people nearby.",
+          "text": "Se nos está haciendo un poco tarde, deberíamos irnos pronto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a hushed tone that is quiet but not a full whisper."
+          }
+        }
+      ]
+    }
+  ]
+}

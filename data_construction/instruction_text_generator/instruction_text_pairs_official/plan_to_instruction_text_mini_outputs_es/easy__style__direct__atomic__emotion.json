@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/emotion",
+  "language": "es",
+  "source_plan_file": "easy__style__direct__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. The tone should be upbeat and bright.",
+      "text": "Hoy es un buen día para empezar algo nuevo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. The delivery should sound very annoyed.",
+      "text": "Otra vez se olvidaron de incluir mi nombre en la lista.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. The tone should be melancholic and downcast.",
+      "text": "Ya no queda nada del lugar donde solíamos jugar de niños.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Your voice should sound scared and hesitant.",
+      "text": "Creo que alguien nos está siguiendo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. The delivery should be full of astonishment.",
+      "text": "Entonces, él es la persona que ha estado enviando esos correos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Deliver the line with a sense of anxiety.",
+      "text": "El pronóstico del tiempo dice que la tormenta llegará antes de lo previsto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Read this with a thoughtful tone, as if you're considering something.",
+      "text": "Hay algo en esa melodía que me recuerda a un tiempo pasado.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say it with a happy and cheerful voice.",
+          "text": "Recibí un mensaje de un viejo amigo esta mañana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. The tone should be upbeat and bright.",
+          "text": "Hoy es un buen día para empezar algo nuevo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read the following with a happy tone.",
+          "text": "Vamos a dar un paseo por el parque más tarde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say the sentence with an angry and frustrated tone.",
+          "text": "¿Puedes explicarme por qué esto no se ha hecho todavía?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. The delivery should sound very annoyed.",
+          "text": "Otra vez se olvidaron de incluir mi nombre en la lista.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this in an angry voice, like you're upset.",
+          "text": "Necesito que me devuelvas las llaves que te presté la semana pasada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read the following in a sad, somber voice.",
+          "text": "El viejo teatro del centro cerrará sus puertas el próximo mes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. The tone should be melancholic and downcast.",
+          "text": "Ya no queda nada del lugar donde solíamos jugar de niños.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Say this with a touch of sadness.",
+          "text": "He revisado los documentos y no encuentro la información que buscábamos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this with a fearful, anxious tone.",
+          "text": "¿Escuchaste ese ruido que vino de afuera?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your voice should sound scared and hesitant.",
+          "text": "Creo que alguien nos está siguiendo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver the line as if you're afraid of something.",
+          "text": "La puerta principal no está cerrada con llave.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this with a tone of surprise.",
+          "text": "Resulta que la reunión fue cancelada hace más de una hora.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read the text as if you just discovered something unexpected.",
+          "text": "No sabía que ellos dos se conocían desde la infancia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. The delivery should be full of astonishment.",
+          "text": "Entonces, él es la persona que ha estado enviando esos correos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Your voice should sound worried and concerned.",
+          "text": "No ha respondido a mis llamadas en todo el día.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver the line with a sense of anxiety.",
+          "text": "El pronóstico del tiempo dice que la tormenta llegará antes de lo previsto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read the text with a worried tone.",
+          "text": "Espero que las noticias del médico no sean lo que imagino.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in a thoughtful, contemplative manner.",
+          "text": "Quizás deberíamos haber tomado un camino diferente en ese entonces.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. The delivery should sound pensive and reflective.",
+          "text": "Me pregunto cómo habrían cambiado las cosas si la decisión hubiera sido otra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with a thoughtful tone, as if you're considering something.",
+          "text": "Hay algo en esa melodía que me recuerda a un tiempo pasado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

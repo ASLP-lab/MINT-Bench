@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/disfluency",
+  "language": "pt",
+  "source_plan_file": "special__extra_vocal__abnormal__disfluency.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Read the text with a consistent but not severe stutter, mostly affecting the beginning of words.",
+      "text": "Poderia me dizer que horas são? Meu relógio parou de funcionar e preciso saber o horário.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Portuguese text for mild stutter instruction."
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Deliver the text with a light vocal repetition on the start of some words, like you're trying to make sure you say it right.",
+      "text": "O sistema solar é composto por oito planetas que orbitam em torno do Sol.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Portuguese text for syllable repetition instruction."
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Deliver the line with a few instances of blocking, where there's a sudden stop in airflow before a word begins.",
+      "text": "Nós planejamos assistir a um filme esta noite, talvez aquele novo que acabou de sair.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Portuguese text for speech blocking instruction."
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. The speaker struggles to get the first word out, with a bit of hesitation or a false start, but then speaks the rest of the sentence fluently.",
+      "text": "Atenção a todos, o próximo trem para o centro da cidade partirá em dez minutos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Portuguese text for hesitant onset instruction."
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Read the text with a significant disfluency. The speaker often repeats the first syllable of words, and sometimes repeats entire short words like 'e' or 'um'.",
+      "text": "O processo de fotossíntese é fundamental para as plantas, pois é como elas convertem a luz solar em energia química para sobreviver.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Portuguese text for pronounced repetition instruction."
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Read this reflectively, but with a severe speech block. There are frequent, tense pauses before you can get certain words out, making the speech sound strained.",
+      "text": "Às vezes, penso em como as decisões que tomamos no passado acabam moldando completamente o nosso presente de maneiras inesperadas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Portuguese text for severe blocking instruction."
+      },
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The speaker has a mild stutter, so they tend to get stuck on the first consonant of some words.",
+          "text": "Você pode me passar o sal, por favor? Acho que preciso de um pouco mais para a minha comida.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for mild stutter instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Read the text with a consistent but not severe stutter, mostly affecting the beginning of words.",
+          "text": "Poderia me dizer que horas são? Meu relógio parou de funcionar e preciso saber o horário.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for mild stutter instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the line with a light stutter, with some difficulty on the initial consonants of a few words throughout the sentence.",
+          "text": "Seria possível abrir a janela? Está um pouco quente aqui dentro e um pouco de ar fresco ajudaria.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for mild stutter instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The speaker repeats the first syllable of some words, as if they're struggling slightly to form the sound.",
+          "text": "O relatório indica que as vendas aumentaram cinco por cento no último trimestre do ano.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for syllable repetition instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Read the line with a mild disfluency, specifically repeating the beginning syllables of a few words.",
+          "text": "A capital do Brasil é Brasília, e foi inaugurada em mil novecentos e sessenta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for syllable repetition instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the text with a light vocal repetition on the start of some words, like you're trying to make sure you say it right.",
+          "text": "O sistema solar é composto por oito planetas que orbitam em torno do Sol.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for syllable repetition instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The speaker occasionally gets stuck before a word, resulting in a brief, silent pause before they can say it. This is known as blocking.",
+          "text": "Eu acho que vou sair para caminhar um pouco mais tarde, quando o tempo estiver melhor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for speech blocking instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver the line with a few instances of blocking, where there's a sudden stop in airflow before a word begins.",
+          "text": "Nós planejamos assistir a um filme esta noite, talvez aquele novo que acabou de sair.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for speech blocking instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Read the text as someone who sometimes has speech blocks, creating noticeable silent gaps before certain words.",
+          "text": "Acho que esqueci de comprar pão quando fui ao supermercado esta manhã.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for speech blocking instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. The speaker struggles to get the first word out, with a bit of hesitation or a false start, but then speaks the rest of the sentence fluently.",
+          "text": "Atenção a todos, o próximo trem para o centro da cidade partirá em dez minutos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for hesitant onset instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Start the sentence with a noticeable hesitation, as if you're having trouble beginning to speak, then continue at a normal pace.",
+          "text": "Gostaria de anunciar que a reunião de amanhã foi adiada para a próxima semana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for hesitant onset instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. The onset of your speech is disfluent and hesitant. After you get going, however, your speech becomes smooth and clear.",
+          "text": "Um breve aviso: o escritório fechará uma hora mais cedo hoje devido ao feriado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for hesitant onset instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read the text with a significant disfluency. The speaker often repeats the first syllable of words, and sometimes repeats entire short words like 'e' or 'um'.",
+          "text": "O processo de fotossíntese é fundamental para as plantas, pois é como elas convertem a luz solar em energia química para sobreviver.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for pronounced repetition instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The speaker has a noticeable repetition in their speech, affecting both syllables and, occasionally, whole words, especially simpler ones.",
+          "text": "A teoria da relatividade, proposta por Einstein, mudou fundamentalmente nossa compreensão do espaço, do tempo e da gravidade.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for pronounced repetition instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver this explanation with a pronounced disfluency, characterized by the repetition of initial sounds and sometimes entire small words throughout the sentence.",
+          "text": "O ciclo da água descreve o movimento contínuo da água na Terra, envolvendo evaporação, condensação e precipitação para sustentar a vida.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for pronounced repetition instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read this reflectively, but with a severe speech block. There are frequent, tense pauses before you can get certain words out, making the speech sound strained.",
+          "text": "Às vezes, penso em como as decisões que tomamos no passado acabam moldando completamente o nosso presente de maneiras inesperadas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for severe blocking instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The speaker has a significant blocking disfluency. Before starting key words, there is a noticeable and somewhat effortful silent pause.",
+          "text": "É curioso observar como a tecnologia, que deveria nos conectar, por vezes acaba nos distanciando das interações mais genuínas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for severe blocking instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Your speech is marked by pronounced blocking. You get stuck before important words, creating strained silences that interrupt the flow of the sentence.",
+          "text": "Aprender a apreciar os pequenos momentos do dia a dia é, talvez, um dos maiores desafios da vida moderna e agitada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Portuguese text for severe blocking instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

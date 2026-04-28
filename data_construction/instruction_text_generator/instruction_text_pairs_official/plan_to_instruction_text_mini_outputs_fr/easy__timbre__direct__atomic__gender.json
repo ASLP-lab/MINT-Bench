@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "fr",
+  "source_plan_file": "easy__timbre__direct__atomic__gender.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Please use a male voice to say the following.",
+      "text": "Le système solaire se compose de huit planètes qui tournent autour du Soleil.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text is a factual statement in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. I need this read by a female speaker.",
+      "text": "Pourriez-vous répéter cela ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text is a simple request in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Use a man's voice for this line.",
+      "text": "Votre attention s'il vous plaît.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses specified phrasing. Text is a brief announcement in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. I'd like this to have a female-sounding voice.",
+      "text": "Je pense que nous devrions prendre une pause bientôt, la journée a été longue.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text is a casual statement in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. I want to hear this with a male voice.",
+          "text": "La vitesse de la lumière dans le vide est une constante physique universelle importante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a factual statement in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Please use a male voice to say the following.",
+          "text": "Le système solaire se compose de huit planètes qui tournent autour du Soleil.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a factual statement in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Render this text with a man's voice.",
+          "text": "L'eau bout à cent degrés Celsius au niveau de la mer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a factual statement in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this as a woman.",
+          "text": "Pouvez-vous me passer le sel, s'il vous plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a simple request in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I need this read by a female speaker.",
+          "text": "Pourriez-vous répéter cela ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a simple request in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Can you say this in a woman's voice?",
+          "text": "Où se trouve la station la plus proche ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a simple request in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read the announcement with the voice of a man.",
+          "text": "Attention, le magasin va bientôt fermer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses specified phrasing. Text is a brief announcement in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Say this with the voice of a man.",
+          "text": "Le prochain départ est prévu dans cinq minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses specified phrasing. Text is a brief announcement in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use a man's voice for this line.",
+          "text": "Votre attention s'il vous plaît.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses specified phrasing. Text is a brief announcement in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. I'd like this to have a female-sounding voice.",
+          "text": "Je pense que nous devrions prendre une pause bientôt, la journée a été longue.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a casual statement in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Please generate this with a female-sounding voice.",
+          "text": "J'ai entendu dire que le nouveau café du coin est vraiment sympa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a casual statement in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Can you make this sound like a woman is speaking?",
+          "text": "Ce serait une bonne idée de vérifier la météo avant de partir en randonnée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a casual statement in French."
+          }
+        }
+      ]
+    }
+  ]
+}

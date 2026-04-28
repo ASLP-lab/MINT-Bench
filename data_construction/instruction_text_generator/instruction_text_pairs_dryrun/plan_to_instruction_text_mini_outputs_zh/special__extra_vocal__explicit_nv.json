@@ -1,0 +1,481 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "zh",
+  "source_plan_file": "special__extra_vocal__explicit_nv.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "请用急促、紧张的语气说话，听起来像是刚跑了很远的路，气息很不稳定。",
+      "text": "快！[quick_breath] 火势蔓延得太快了！[panting] 我们需要立刻疏散所有人员，再晚就来不及了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "speaking_style": "hurried",
+        "emotion": "anxious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "speaking_style": "hurried",
+        "emotion": "anxious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种非常着急、上气不接下气的语气说，好像刚跑完步来报信一样。",
+          "text": "不好了！[panting] 敌军已经突破了西侧防线，[quick_breath] 他们正朝着指挥部过来，我们必须立刻转移！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用急促、紧张的语气说话，听起来像是刚跑了很远的路，气息很不稳定。",
+          "text": "快！[quick_breath] 火势蔓延得太快了！[panting] 我们需要立刻疏散所有人员，再晚就来不及了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的语速要非常快，而且气息不稳，就好像在紧急情况下跑着说话一样。",
+          "text": "警报！[panting] 主机房的温度异常升高，[quick_breath] 系统显示冷却装置失灵，必须马上手动关闭！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "emotion": "sad",
+        "speaking_style": "suppressed_crying"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用悲伤的语气说，努力克制着不哭出来，声音里带着哭腔。",
+          "text": "医生说，[sniffle] 他们已经尽力了。手术……[whimper] 手术没有成功。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你正在努力传达一个坏消息，情绪非常低落，说话时强忍着泪水。",
+          "text": "我刚刚接到电话，[sniffle] 他……他乘坐的那班航班，[whimper] 已经确认失联了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种压抑着悲痛的语气，声音有些哽咽，好像下一秒就要哭出来了。",
+          "text": "对不起，[whimper] 我没能把他带回来。这是……[sniffle] 这是他留下的最后一封信。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "emotion": "amused"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用轻松愉快的语气讲一件有趣的小事，好像自己都觉得很好笑。",
+          "text": "我跟你说，昨天我家猫，[chuckle] 它居然想学我用电脑，结果一爪子按下去，屏幕就黑了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种忍俊不禁的语气说话，声音里带着笑意，分享一件让你觉得好玩的事。",
+          "text": "然后他就一本正经地告诉我，[giggle] 他把盐当成糖放进了咖啡里，还喝了一大口。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的语气应该是愉悦的、轻松的，好像在回忆一件让你很开心的事。",
+          "text": "你记得吗，上次开会的时候，[chuckle] 经理的假发突然滑下来了一点，他自己还没发现。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "speaking_style": "sleepy",
+        "energy": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用非常困倦的语气说话，声音低沉，语速缓慢，好像马上就要睡着了。",
+          "text": "嗯……好困啊。[yawn] 明天还要早起开会，[mumble] 我也不知道为什么要定那么早……",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音听起来非常疲惫，含糊不清，就像半夜被叫醒一样。",
+          "text": "我好像忘了关厨房的灯了……[yawn] 但是真的不想起来了……[mumble] 明天再说吧……",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种慵懒、没精神的语气，说话断断续续，好像精力已经耗尽了。",
+          "text": "这个电影好长啊……[yawn] 演到哪里了？[mumble] 我感觉我眼睛都睁不开了……要不今天就先看到这儿吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "speaking_style": "weak",
+        "vocal_quality": "raspy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用虚弱沙哑的声音说话，听起来像是生病了，没什么力气。",
+          "text": "喂，经理吗？[cough] 我今天不太舒服，可能发烧了，[cough] 我想请一天假。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音听起来有气无力，嗓子很干涩，好像是得了重感冒。",
+          "text": "不好意思，[cough] 我今天嗓子疼得厉害，[cough] 恐怕不能去上班了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说话时声音要很轻，很沙哑，带着病气，让人感觉你很不舒服。",
+          "text": "喂……[cough] 是我。我今天起不来了，头很痛，[sneeze] 可能要请个病假。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "emotion": "annoyed",
+        "speaking_style": "curt"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用不耐烦的、简短的语气说话，听起来有点恼火。",
+          "text": "[tsk] 又堵车了。照这样下去，今天肯定要迟到了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气要显得很不高兴，带着一丝烦躁，说话干脆利落。",
+          "text": "[sigh] 我就知道会这样。每次到关键时刻，网络就出问题。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种没好气的、冷淡的语气说话，表达你的不满。",
+          "text": "我的天，[tsk] 这文件怎么又打不开了。真是浪费时间。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "emotion": "scared",
+        "speaking_style": "trembling"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用恐惧颤抖的声音说话，好像看到了非常可怕的东西。",
+          "text": "那个……那个东西还在外面！[gasp] 我刚才看到它从窗户过去了，[whimper] 我们出不去的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音要充满惊恐，语无伦次，带着明显的颤音。",
+          "text": "别开门！[gasp] 外面的声音……不是人的声音，[whimper] 它就在门后……",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用极度害怕的语气，说话断断续续，气息不稳，声音发抖。",
+          "text": "我听到了……[gasp] 楼上传来了脚步声，可是……[whimper] 可是这个房子里应该没有别人了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "emotion": "content",
+        "speaking_style": "relaxed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种非常放松、满足的语气说话，节奏舒缓，心情愉快。",
+          "text": "今天天气真好啊。[exhale] 坐在阳台上晒晒太阳，感觉什么烦恼都没有了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气要非常平静、安逸，好像在享受一个悠闲的下午。",
+          "text": "嗯……[humming] 这杯茶的味道真不错。好久没有这么清闲过了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种心满意足、悠然自得的语气说话。",
+          "text": "忙完了一天的工作，[exhale] 回到家能这样安安静静地待一会儿，真是一种享受。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "emotion": "embarrassed",
+        "speaking_style": "flustered"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用尴尬、有点慌乱的语气说话，好像做错了事，不知道该怎么办。",
+          "text": "那个……[throat_clearing] 真是不好意思，我刚才好像叫错你的名字了，[mumble] 我记性太差了……",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气要听起来很窘迫，说话有点不流畅。",
+          "text": "呃，关于昨天那件事……[throat_clearing] 我想我可能理解错了，[mumble] 给你添麻烦了，非常抱歉。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种不好意思的、局促不安的语气说话。",
+          "text": "对不起，[throat_clearing] 我不是故意的，我没看到你在这里，[mumble] 把你的水弄洒了……",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "emotion": "joyful",
+        "speaking_style": "laughing_while_speaking"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种边说边笑的语气讲故事，你觉得这件事特别好笑，以至于说话都说不完整了。",
+          "text": "你不知道，他当时那个表情，[laugh] 真的，他以为那只狗能听懂他说话，[laugh] 还在那儿跟它讲道理，[burst_of_laughter] 结果狗一扭头就跑了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用充满喜悦和笑声的语气说话，好像在分享一件让你笑到肚子疼的趣事。",
+          "text": "我跟你说，我昨天看到最搞笑的事情，[laugh] 有个人在地铁上睡着了，[laugh] 他的头一点一点地，最后直接靠在了旁边大哥的光头上！[burst_of_laughter] 那个大哥的表情绝了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音里要充满抑制不住的笑意，讲一个让你乐不可支的故事。",
+          "text": "然后，[laugh] 然后他居然当着所有人的面，把他自己的鞋带和旁边人的鞋带系在了一起，[laugh] 他自己还不知道！[burst_of_laughter] 等他站起来的时候，那场面简直了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

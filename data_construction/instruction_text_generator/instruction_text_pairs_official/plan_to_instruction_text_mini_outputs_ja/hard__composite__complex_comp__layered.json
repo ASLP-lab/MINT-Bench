@@ -1,0 +1,653 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/layered",
+  "language": "ja",
+  "source_plan_file": "hard__composite__complex_comp__layered.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Say this compliment with a bright, happy voice, but underneath, you're being completely sarcastic and don't mean a word of it.",
+      "text": "まあ、あなたの新しい髪型、本当に個性的で素敵ですね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Say this to reassure someone. Your voice should be steady and calm, but there's a subtle tremor of worry just beneath the surface.",
+      "text": "大丈夫、きっとすべてうまくいきますよ。心配することはありません。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "worried",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Deliver this line with a firm tone, as if drawing a line in the sand. However, your natural personality is soft-spoken, so the firmness feels a bit practiced and new.",
+      "text": "お気持ちは嬉しいのですが、今回はご遠慮させていただきます。ご理解いただけると幸いです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. The speaker is attempting to maintain a neutral facade, but an undercurrent of pleading betrays their true feelings. They are trying to hide how much they need this.",
+      "text": "あの、週末の予定、もう決まっていますか？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Put on a show of being surprised, but your tone is actually quite smug and satisfied. You knew this would happen.",
+      "text": "えっ、本当ですか？信じられないですね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "surprised",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Deliver this line in a deadpan, serious manner. However, there should be a subtle, playful twinkle in your tone, indicating that you're making a dry joke.",
+      "text": "この書類の山、もはや現代アートの領域に達していると思います。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. The speaker is disappointed with the outcome but is trying to be constructive and gentle. The disappointment is the underlying emotion, while the surface is euphemistic and encouraging.",
+      "text": "あなたの努力は十分に伝わってきました。次のステップとして、この方向性で一度見直してみるのはどうでしょうか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "disappointed",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. You are incredibly angry, but you're keeping it tightly under control. Speak in a calm, measured, rational tone, but let the suppressed rage simmer just below the surface.",
+      "text": "本日ご連絡いたしましたのは、先日購入した製品の不具合についてです。仕様書に記載されている性能が、全く満たされておりません。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "angry",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Your usual demeanor is aloof and detached. As you give this advice, maintain that distance, but let a small, uncharacteristic hint of worry for the listener color your words.",
+      "text": "まあ、最終的にどうするかは君が決めることだ。ただ、あまり無茶はしないように。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "aloof",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Attempt a teasing tone, but let your nervousness make it sound a bit clumsy and awkward. You want to be charming, but you're not quite pulling it off.",
+      "text": "そのシャツ、君にしては、なかなか似合ってるんじゃない？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "teasing",
+        "aux_tone": "awkward"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this compliment with a bright, happy voice, but underneath, you're being completely sarcastic and don't mean a word of it.",
+          "text": "まあ、あなたの新しい髪型、本当に個性的で素敵ですね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line with a cheerful and enthusiastic tone, but let a hint of sarcasm show through, as if you're making fun of the person while pretending to praise them.",
+          "text": "へえ、そのアイデアは本当に斬新ですね。私には思いつきませんでした。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice should sound happy and impressed on the surface, but the underlying tone is sarcastic. It's a backhanded compliment.",
+          "text": "なるほど、そういうやり方があったんですね。大変参考になりました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "worried",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this to reassure someone. Your voice should be steady and calm, but there's a subtle tremor of worry just beneath the surface.",
+          "text": "大丈夫、きっとすべてうまくいきますよ。心配することはありません。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. On the outside, you are the picture of calm, trying to soothe someone. But inwardly, you are deeply worried, and this anxiety should subtly color your otherwise composed tone.",
+          "text": "ええ、計画通りに進んでいます。何も問題はありませんから、落ち着いてください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Project a calm and collected personality as you speak, but let your true, worried emotional state bleed through slightly in your intonation.",
+          "text": "私がついていますから、何も心配いりません。ただ、慎重に進めましょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. The speaker is a very gentle person, but they are trying their best to sound firm and set a clear boundary. Their natural softness is still there, but so is their resolve.",
+          "text": "申し訳ありませんが、その件については、これ以上お話しすることはできません。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line with a firm tone, as if drawing a line in the sand. However, your natural personality is soft-spoken, so the firmness feels a bit practiced and new.",
+          "text": "お気持ちは嬉しいのですが、今回はご遠慮させていただきます。ご理解いただけると幸いです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. You have a gentle nature, but you need to be assertive here. Speak with a quiet but firm voice that leaves no room for argument.",
+          "text": "大変恐縮ですが、そのご提案はお受けできかねます。どうかご了承ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Ask this question in a casual, neutral way, as if it's no big deal. But underneath, there's a desperate, pleading quality because the answer is incredibly important to you.",
+          "text": "ところで、明日の会議、あなたも出席するんですよね？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. You're trying to sound nonchalant, but you can't completely hide the pleading tone in your voice. You really need a specific answer, but you don't want to seem desperate.",
+          "text": "もしよかったら、少しだけ時間をいただけませんか？ほんの少しでいいんです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. The speaker is attempting to maintain a neutral facade, but an undercurrent of pleading betrays their true feelings. They are trying to hide how much they need this.",
+          "text": "あの、週末の予定、もう決まっていますか？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "surprised",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. React to this news as if you're surprised, raising your eyebrows. But your voice should carry a smug, self-satisfied tone, as if you predicted this outcome.",
+          "text": "へえ、そうなんですか。それは初耳ですね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. You're pretending to be surprised by what you just heard, but you're secretly pleased. Let a smug, 'I told you so' quality slip into your tone.",
+          "text": "まさか、そんなことになっていたとは。驚きました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Put on a show of being surprised, but your tone is actually quite smug and satisfied. You knew this would happen.",
+          "text": "えっ、本当ですか？信じられないですね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver this line in a deadpan, serious manner. However, there should be a subtle, playful twinkle in your tone, indicating that you're making a dry joke.",
+          "text": "この書類の山、もはや現代アートの領域に達していると思います。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. You have a very serious personality, but you're making a quietly playful observation. The humor comes from the contrast between your serious delivery and the absurd content.",
+          "text": "今日の部長のネクタイは、信号機と同じ配色ですね。交通安全への意識が高い。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Say this with a completely straight face and a serious tone, but the underlying intent is playful and humorous. It's a very understated, dry wit.",
+          "text": "このコーヒーは、人生の苦さを的確に表現していますね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "disappointed",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. You have to give some critical feedback. You're deeply disappointed, but you have a gentle nature, so you're trying to phrase it as softly and euphemistically as possible to avoid causing offense.",
+          "text": "このレポート、よく頑張ってくれましたね。ただ、もう少しだけ視点を広げてみると、さらに良いものになるかもしれません。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. As a gentle person, you find it hard to be critical. Your tone should reflect your disappointment, but it's heavily padded with gentle, encouraging, and euphemistic language.",
+          "text": "全体的にはとても意欲的な提案だと思います。もし可能であれば、実現可能性の部分をもう少し具体的に掘り下げていただけると助かります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. The speaker is disappointed with the outcome but is trying to be constructive and gentle. The disappointment is the underlying emotion, while the surface is euphemistic and encouraging.",
+          "text": "あなたの努力は十分に伝わってきました。次のステップとして、この方向性で一度見直してみるのはどうでしょうか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "angry",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. You are incredibly angry, but you're keeping it tightly under control. Speak in a calm, measured, rational tone, but let the suppressed rage simmer just below the surface.",
+          "text": "本日ご連絡いたしましたのは、先日購入した製品の不具合についてです。仕様書に記載されている性能が、全く満たされておりません。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this formal complaint with an icy calm. You are furious, but you know losing your temper will weaken your position. The anger should be audible as a dangerous tension in your voice.",
+          "text": "契約内容と明らかに異なる点が見受けられます。この件に関しまして、正式な説明を要求いたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your personality is calm and collected, but you are seething with anger. Read this with a steady, almost unnaturally composed voice, where the intensity of the anger is felt in its rigid control.",
+          "text": "何度も申し上げている通り、こちらが提示した要件が反映されていないようです。早急なご対応をお願いいたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "aloof",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Your usual demeanor is aloof and detached. As you give this advice, maintain that distance, but let a small, uncharacteristic hint of worry for the listener color your words.",
+          "text": "まあ、最終的にどうするかは君が決めることだ。ただ、あまり無茶はしないように。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. You're not one to show emotion, so you give this advice with a cool, aloof tone. However, you can't completely hide your concern, and a flicker of worry is audible.",
+          "text": "客観的に見て、その選択はリスクが高い。一応、伝えておく。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Portray a character who keeps others at arm's length. Their advice sounds detached, but a subtle warmth or waver in their voice reveals an underlying worry they're trying to hide.",
+          "text": "別に君のためじゃないが、後で面倒なことになるのは避けたいからな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "teasing",
+        "aux_tone": "awkward"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. You're trying to be playful and tease someone you like, but you're a bit nervous, so your delivery is slightly awkward and stilted instead of smooth.",
+          "text": "また同じ本を読んでるんだ。本当に好きだね、それ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Attempt a teasing tone, but let your nervousness make it sound a bit clumsy and awkward. You want to be charming, but you're not quite pulling it off.",
+          "text": "そのシャツ、君にしては、なかなか似合ってるんじゃない？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. The intention is to tease lightheartedly, but social awkwardness and nerves get in the way, making the tone a mix of playful and hesitant.",
+          "text": "いつも思うけど、字、きれいだよね。僕のと違って。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    }
+  ]
+}

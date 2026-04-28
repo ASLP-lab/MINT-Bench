@@ -1,0 +1,482 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/layered",
+  "language": "zh",
+  "source_plan_file": "hard__composite__complex_comp__layered.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "请用一种故作轻松愉快的语气说话，但要透露出内心深处的悲伤和失落。",
+      "text": "没关系，这些都是小事，很快就会过去的。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气听起来要开朗活泼，但在这份开朗之下，要能听出一种强颜欢笑的悲伤感。",
+          "text": "没什么，我真的没事，你不用担心我。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种故作轻松愉快的语气说话，但要透露出内心深处的悲伤和失落。",
+          "text": "没关系，这些都是小事，很快就会过去的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "读这段话时，表面上要保持乐观开朗，但声音里要带有一丝难以掩饰的哀伤。",
+          "text": "都过去了，反正也不是什么大事，我早就忘了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你的语气要非常平静和克制，但在这平静的表面下，要能感受到一股压抑着的怒火。",
+          "text": "按照规定，所有申请必须在截止日期前提交，否则将不予受理。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一种冷静、有条理的语气来解释，但声音里要透出一种几乎快要爆发的愤怒。",
+          "text": "操作流程的第一步是确认电源已关闭，这是为了确保所有人员的安全。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说话时要显得沉着镇定，但每个字都像是从牙缝里挤出来的，充满了隐忍的怒气。",
+          "text": "我们需要明确一点，这个项目的最终决定权在于委员会，而不是个人。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "sarcastic",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用讽刺的口吻说出这句话，仿佛在开玩笑，但实际上是为了掩饰你内心真实的担忧。",
+          "text": "哦，太好了，这下我们可真是万事俱备，只欠东风了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气应该充满嘲讽，像是在说风凉话，但听众应该能感觉到你话语背后深深的焦虑。",
+          "text": "没事，情况还能变得更糟吗？我觉得应该不能了吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种故作轻松的反讽语气，以此来作为一种防御机制，隐藏你对现状的忧虑。",
+          "text": "反正计划总是赶不上变化，我们就随机应变好了，能有什么大不了的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "teasing",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种开玩笑、逗弄的语气来说这句话，但话里的意思其实是非常严肃认真的。",
+          "text": "你要是再这么粗心大意，下次可就没这么好的运气了哦。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气要听起来很轻松，像是在调侃对方，但实际上是在传达一个非常重要的、严肃的提醒。",
+          "text": "别怪我没提醒你，这个机会要是错过了，你可别哭鼻子啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种温和戏谑的口吻说话，表面上听起来不重，但内在的警告意味是清晰而严肃的。",
+          "text": "我看你胆子是越来越大了，这种事情也敢随便答应别人。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "confident",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你需要用一种非常自信、权威的语气进行陈述，但声音中要带有微不可察的颤抖，暴露出你内心的恐惧。",
+          "text": "大家请保持镇静，听我指挥。现在，所有人立刻从最近的安全出口有序撤离，不要拥挤，不要回头。我们会确保大家的安全。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的演讲必须听起来坚定有力、充满信心，但在某些词语的发音上，要泄露出一丝紧张和害怕的情绪。",
+          "text": "我向各位保证，我们已经控制住了局势。请大家相信我们，按照应急预案行动，妇女和儿童优先，不要携带大件行李。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "作为一个领导者，你的声音需要沉稳、果断，给大家以信心，但实际上你自己也很害怕，所以声音里会有一丝压抑不住的恐惧。",
+          "text": "情况并没有大家想的那么糟，只要我们团结一致，听从安排，就一定能渡过难关。现在，请各小组负责人清点人数，准备集合。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "indifferent",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种事不关己、无所谓的语气来说，但在这份冷淡之下，要隐藏着深深的悲伤和失落。",
+          "text": "就这样吧，反正结果也不会有什么不同了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气要听起来很平淡，对这件事毫不在意，但要让听者感受到你是在用这种冷漠来掩盖内心的难过。",
+          "text": "我早就料到会是这样，所以也没什么好说的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说话时要表现出一种漫不经心的感觉，仿佛一切都与你无关，但声音的底色是悲哀的。",
+          "text": "随便吧，他们想怎么处理就怎么处理。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一种温柔、轻声细语的方式说话，但语气中必须包含不容置疑的坚定，所谓“外柔内刚”。",
+          "text": "我希望你能再考虑一下，但这件事情没有商量的余地。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音要非常柔和，但传达出的态度却是绝对坚决的，让对方明白你的立场不可动摇。",
+          "text": "很抱歉，我理解你的难处，但我不能批准这个请求。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种彬彬有礼、甚至可以说是温和的口吻，但其中蕴含的力量和决心是毋庸置疑的。",
+          "text": "我建议你最好还是按照我们说好的去做，这对大家都好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "euphemistic",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你需要用非常委婉、客气的措辞说话，但声音里要充满压抑着的、几乎要爆发的愤怒。",
+          "text": "经过我们慎重的评估，我们认为您目前的情况与我们的既定标准存在一些偏差。因此，我们不得不遗憾地告知您，您的申请暂时无法通过。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语言上要保持礼貌和克制，使用中性的、甚至是轻描淡写的词语，但你的语气要清晰地传达出强烈的怒火。",
+          "text": "关于这次合作中出现的一些小插曲，我们已经进行了内部复盘。我们相信，在未来的沟通中，双方可以找到更具建设性的协作方式。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "表面上，你的话语非常圆滑得体，但实际上你的每一个字都充满了怒气，只是没有直接发作而已。",
+          "text": "对于这次事件造成的不便，我们深表歉意。我们已经注意到了相关的反馈，并将对此进行深入研究，以期在后续流程中做出相应调整。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用幽默风趣的口吻说出这句话，像是在开玩笑，但实际上是在用这种方式掩饰你迫切的恳求。",
+          "text": "你看我这么可怜，就当是行行好，再给我一次机会怎么样？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气要机智诙谐，甚至带点自嘲，但在下面是一种近乎绝望的请求。",
+          "text": "我知道我这个要求有点过分，但你就把我当个笑话，让我试试呗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "试着用一种轻松、搞笑的方式来请求帮助，但要让听众感觉到，如果被拒绝，后果会很严重。",
+          "text": "大侠，救命啊！这事儿除了你可真没人能搞定了，你看在我这么有诚意的份上？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "surprised",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你的语气要表现出惊讶，但在这份惊讶之下，要藏着一种“我早就知道会这样”的沾沾自喜。",
+          "text": "哎呀，真的成功了？我还以为不行呢，真是没想到。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "假装很吃惊地读出这句话，但无法完全掩饰你洋洋得意的、仿佛一切尽在掌握之中的神态。",
+          "text": "哇，居然是这样！看来我的运气还真不错。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音听起来像是意料之外，但实际上你内心充满了“看吧，我说的没错”的得意感。",
+          "text": "不是吧？这都能成？简直是奇迹啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

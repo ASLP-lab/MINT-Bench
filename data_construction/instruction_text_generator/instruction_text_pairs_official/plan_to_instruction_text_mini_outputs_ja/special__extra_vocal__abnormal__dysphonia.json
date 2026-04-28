@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/dysphonia",
+  "language": "ja",
+  "source_plan_file": "special__extra_vocal__abnormal__dysphonia.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Deliver the line with a very breathy quality, making the voice sound airy and soft.",
+      "text": "水は摂氏百度で沸騰し、零度で凍ります。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a breathy quality; text is a neutral factual statement."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Use a hoarse, raspy voice for this line, as if your throat is dry and irritated.",
+      "text": "本日の会議は午後三時に第一会議室で行われます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a hoarse voice; text is a standard daily notice."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Say this with a voice that is audibly trembling and unstable.",
+      "text": "あの時の選択が、本当に正しかったのか、時々考えます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a trembling voice; text is a neutral reflection."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Use a strained, tight voice, as if it's a great effort to speak.",
+      "text": "この装置は、特定の周波数の電波を検出するために使用されます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a strained voice; text is a neutral explanatory sentence."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Deliver this line as if you are out of breath from strenuous exercise, with panting and uneven pacing.",
+      "text": "窓を閉めてもらえますか、少し肌寒く感じますので。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a post-run state; text is an unrelated simple request."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Sound like you're trying to hide the fact that you were just crying. Your voice is a bit hoarse and unsteady.",
+      "text": "このテレビ番組、最近よく見てるんだよね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a post-cry state; text is a neutral casual statement."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Speak with a fatigued voice, as if you've been talking all day and have no energy left.",
+      "text": "次の議題は、来月の予算案についてです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a fatigued voice; text is a brief announcement."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "fatigued_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this with a breathless voice, as if you have to let out a lot of air with each word.",
+          "text": "この地域の年間平均気温は、約十五度です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a breathless voice; text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver the line with a very breathy quality, making the voice sound airy and soft.",
+          "text": "水は摂氏百度で沸騰し、零度で凍ります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a breathy quality; text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice should sound breathy, as though speaking takes a lot of effort.",
+          "text": "地球の自転周期は約二十四時間です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a breathy voice; text is a neutral factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Use a hoarse, raspy voice for this line, as if your throat is dry and irritated.",
+          "text": "本日の会議は午後三時に第一会議室で行われます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a hoarse voice; text is a standard daily notice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Read the text with a gravelly, rough voice quality.",
+          "text": "明日のゴミ収集は、燃えるゴミの日です。忘れずに出してください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a gravelly voice; text is a standard daily notice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice should be hoarse and a bit scratchy.",
+          "text": "エレベーターは現在点検中のため、階段をご利用ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a hoarse voice; text is a standard daily notice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this with a voice that is audibly trembling and unstable.",
+          "text": "あの時の選択が、本当に正しかったのか、時々考えます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a trembling voice; text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should have a noticeable tremor, making it sound shaky.",
+          "text": "夕焼け空を見ていると、なぜか懐かしい気持ちになります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a shaky voice; text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speak with a quavering voice, as if you're finding it difficult to keep it steady.",
+          "text": "この街の風景も、少しずつ変わっていくんだなと感じます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a quavering voice; text is a neutral reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Use a strained, tight voice, as if it's a great effort to speak.",
+          "text": "この装置は、特定の周波数の電波を検出するために使用されます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a strained voice; text is a neutral explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound forced and constricted, like you're pushing the words out.",
+          "text": "このプロセスを完了するには、いくつかの手順を順番に実行する必要があります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a forced voice; text is a neutral explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver the line with a tense vocal quality, making it sound strained.",
+          "text": "このグラフは、過去十年間における売上の推移を示しています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a strained voice; text is a neutral explanatory sentence."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Sound like you've just finished a hard run and are trying to catch your breath while speaking.",
+          "text": "すみません、その本を少し貸していただけませんか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a post-run state; text is an unrelated simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line as if you are out of breath from strenuous exercise, with panting and uneven pacing.",
+          "text": "窓を閉めてもらえますか、少し肌寒く感じますので。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a post-run state; text is an unrelated simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Read this as if you just ran up several flights of stairs and are still breathing heavily.",
+          "text": "明日のスケジュールについて、もう一度確認させてください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a post-run state; text is an unrelated simple request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Your voice should sound like you've just been crying—a little thick, shaky, and congested.",
+          "text": "そういえば、今日の夕食は何にしようかな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a post-cry state; text is a neutral casual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line with the vocal quality of someone trying to speak calmly right after a good cry.",
+          "text": "あ、郵便受けに手紙が入っていたのを忘れてた。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a post-cry state; text is a neutral casual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Sound like you're trying to hide the fact that you were just crying. Your voice is a bit hoarse and unsteady.",
+          "text": "このテレビ番組、最近よく見てるんだよね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a post-cry state; text is a neutral casual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "fatigued_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speak with a fatigued voice, as if you've been talking all day and have no energy left.",
+          "text": "次の議題は、来月の予算案についてです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a fatigued voice; text is a brief announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound worn out and lack resonance, as if from vocal overuse.",
+          "text": "これで本日の連絡事項はすべて終了となります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a fatigued voice; text is a brief announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver the announcement with a low-energy, slightly raspy voice that sounds vocally exhausted.",
+          "text": "全員の皆様に、この資料を一部ずつお配りします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a fatigued voice; text is a brief announcement."
+          }
+        }
+      ]
+    }
+  ]
+}

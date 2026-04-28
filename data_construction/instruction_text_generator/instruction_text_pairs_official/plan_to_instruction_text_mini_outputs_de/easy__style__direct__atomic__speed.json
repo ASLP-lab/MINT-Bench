@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/speed",
+  "language": "de",
+  "source_plan_file": "easy__style__direct__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this line at a very fast pace, almost breathlessly.",
+      "text": "Die Abfahrt des Zuges nach Hamburg verzögert sich um wenige Minuten auf Gleis vier.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard case."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Please say this at a brisk, energetic tempo.",
+      "text": "Der Hauptunterschied zwischen den beiden Modellen liegt in der Akkukapazität und der Bildschirmgröße.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard case."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Say this slowly and clearly.",
+      "text": "Könnten Sie mir bitte das Salz reichen?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard case."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Please read this sentence with a very slow and measured cadence.",
+      "text": "Das Great Barrier Reef vor der Küste Australiens ist das größte Korallenriffsystem der Welt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard case."
+      },
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this very quickly, as if you're rushing through an announcement.",
+          "text": "Bitte beachten Sie, dass die Bibliothek heute aufgrund einer Veranstaltung früher schließt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line at a very fast pace, almost breathlessly.",
+          "text": "Die Abfahrt des Zuges nach Hamburg verzögert sich um wenige Minuten auf Gleis vier.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. I need you to read this extremely fast, like you're in a big hurry to get the information out.",
+          "text": "Alle Passagiere für den Flug nach München werden gebeten, sich umgehend zum Gate B27 zu begeben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Read this at a fast pace, but make sure it's still easy to understand.",
+          "text": "Dieses Gerät funktioniert am besten, wenn es regelmäßig gereinigt und gewartet wird.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I'd like you to speak this sentence quickly and efficiently.",
+          "text": "Die Software-Aktualisierung enthält wichtige Sicherheitsverbesserungen und neue Funktionen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Please say this at a brisk, energetic tempo.",
+          "text": "Der Hauptunterschied zwischen den beiden Modellen liegt in der Akkukapazität und der Bildschirmgröße.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this slowly and clearly.",
+          "text": "Könnten Sie mir bitte das Salz reichen?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Read this sentence at a slow, deliberate pace.",
+          "text": "Ich hätte gerne ein Glas Wasser ohne Kohlensäure.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Please speak this line with a relaxed, unhurried tempo.",
+          "text": "Zeigen Sie mir bitte den Weg zum Bahnhof.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. I want you to say this very slowly, as if you're carefully emphasizing every single word.",
+          "text": "Die Internationale Raumstation umkreist die Erde in einer Höhe von etwa vierhundert Kilometern.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line at an extremely slow pace, drawing out the words.",
+          "text": "Photosynthese ist der Prozess, bei dem grüne Pflanzen Lichtenergie in chemische Energie umwandeln.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Please read this sentence with a very slow and measured cadence.",
+          "text": "Das Great Barrier Reef vor der Küste Australiens ist das größte Korallenriffsystem der Welt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard case."
+          }
+        }
+      ]
+    }
+  ]
+}

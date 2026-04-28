@@ -1,0 +1,471 @@
+{
+  "taxonomy_node": "hard/composite/persona/ip_portrait",
+  "language": "zh",
+  "source_plan_file": "hard__composite__persona__ip_portrait.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一个中年男性的声音，听起来有点微醺，带着点四川口音的普通话。整个感觉要轻松、幽默，有点大大咧咧但内心里很热忱。",
+      "text": "哎呀，年轻人，别想那么多嘛。人生就这么回事，该吃吃，该喝喝，遇事别往心里搁。听我的，没错。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0001",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "taiyi_zhenren_nezha"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0001",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "taiyi_zhenren_nezha"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个中年男性的声音，听起来有点微醺，带着点四川口音的普通话。整个感觉要轻松、幽默，有点大大咧咧但内心里很热忱。",
+          "text": "哎呀，年轻人，别想那么多嘛。人生就这么回事，该吃吃，该喝喝，遇事别往心里搁。听我的，没错。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "模仿一个喝了点小酒的中年大叔，说话懒洋洋的，带一点四川方言的味道。语气要诙谐，感觉是个外表不修边幅但很善良的人。",
+          "text": "我跟你说，这个事情啊，急不得。你得慢慢来，就像炖肉一样，火候到了，自然就香了。懂我意思不？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我需要一个中年男声，听上去像是喝醉了，说话有点飘，普通话里夹杂着一些四川腔调。风格要轻松幽默，像个大大咧咧的好心人。",
+          "text": "你看你这个娃，咋就这么犟呢？有时候啊，退一步，反倒是好事。别钻牛角尖，把路走宽了才对嘛。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0002",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "spongebob"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个卡通感十足的高音调嗓音，节奏明快又有弹性。听起来要充满夸张的天真感和用不完的傻气活力。",
+          "text": "哇！这是我见过的最棒的一天！所有的事情都闪闪发光！我准备好迎接任何挑战啦！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我想要一个非常卡通化的高频声音，语速活泼，节奏感像弹簧一样。整个表达方式要极度乐观、精力充沛，带点傻乎乎的感觉。",
+          "text": "天哪！你敢相信吗？这简直太完美了！我感觉自己充满了力量，什么都能做到！耶！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种卡通人物的尖嗓音，语调要明亮、跳跃。表现出一种极致的天真和愚蠢的乐观精神，能量爆棚。",
+          "text": "太棒啦！太棒啦！今天真是太棒啦！我感觉空气里都是甜甜的味道！我们快去做点有意思的事吧！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0003",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "klee_genshin"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个非常年幼的小女孩的声音来朗读，音调要高，节奏活泼跳跃。要表现出一种天真又淘气的感觉，充满了想要去玩耍的爆炸性能量。",
+          "text": "我们悄悄地溜出去，把这个亮晶晶的东西藏到花园里，等他们来找，肯定特别好玩！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个幼女的音色，声音很高，充满活力。语调要像小兔子一样蹦蹦跳跳，带有一种想要恶作剧的顽皮感。",
+          "text": "嘘，别告诉别人哦。我发现了一个秘密基地，我们一起去探险吧！肯定会有很多好东西！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个小女孩的声音，音高要高，语速要轻快。整体感觉要天真烂漫，但又藏着一点点想做坏事的小心思，非常活泼。",
+          "text": "如果把所有的颜料都混在一起，会变成什么颜色呢？我们偷偷试一下好不好？就一下下！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0004",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "sunwukong_journey"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个灵活明亮的男声，充满自信和英雄气概。声音要有种玩世不恭的叛逆感，节奏要快速有力，吐字清晰敏捷。",
+          "text": "这天底下，还有什么地方是我去不得的？凭我的本事，上天入地，不过是眨眼之间罢了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个敏捷的男性嗓音，音色要洪亮，充满力量。要表现出一种自信满满、敢于挑战一切的英雄气魄，同时又带点顽皮。",
+          "text": "你们这些家伙一起上吧，也未必能碰到我一根毫毛。在我看来，你们的招数不过是些花拳绣腿！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个听起来很机灵的男声，语调高昂，充满活力。感觉上是个自信甚至有点自负的英雄，行事风格带点叛逆和戏谑。",
+          "text": "就这点小把戏也想困住我？简直是痴人说梦！看我如何把它搅个天翻地覆！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0005",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "elsa_frozen"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个优雅的成年女性声音，音色清冷，气息沉稳。要表现出一种高贵的克制感，听起来有些疏离，但内心蕴含着强大的情感张力。",
+          "text": "长久以来，我将自己与世隔绝，试图隐藏这份与生俱来的力量。但现在我明白，逃避不是答案。只有拥抱真实的自我，才能找到真正的安宁与自由。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个冷静而高贵的成年女声。语调要控制得很好，听起来有种距离感，但在这份疏远之下，能感受到一股被压抑的强大力量。",
+          "text": "他们所畏惧的，恰恰是我无法舍弃的。这份力量曾是我的枷锁，但从今往后，它将成为我存在的证明。我将独自站立，在这片属于我自己的天地里。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个成熟女性的声音，风格要典雅、清冷。说话时要带有贵族般的克制，情感不外露，但能让人感觉到她内心的波澜和力量。",
+          "text": "过去的我总是活在别人的期待和恐惧中，以为收敛自己就能换来平静。然而，真正的平静源于内心的接纳。我不再隐藏，也不再害怕，这就是我。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0006",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "joker_batman"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个戏剧化的、情绪不稳定的男性声音。语调和节奏要变幻莫测，在危险的戏谑和疯狂之间切换，让人捉摸不透。",
+          "text": "你们看，建立规则是多么可笑的一件事。只需要轻轻一推，只需要糟糕的一天，最正直的人也会变得面目全非。我们之间，其实并没有什么不同。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个充满表演感的男声，听起来精神状态极不稳定。他的节奏感很怪异，充满了挑衅的玩乐心态，让人感到一种危险的气息。",
+          "text": "秩序，道德，不过是你们用来催眠自己的童话故事。当混乱来临时，你们会发现，深藏在心底的野兽，其实一直都渴望着挣脱牢笼。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个男性的声音，风格要夸张，情绪要极度不稳定。说话时带着一种危险的玩味，节奏时快时慢，仿佛下一秒就会彻底失控。",
+          "text": "他们叫我疯子，但真正疯狂的是这个世界。每个人都戴着面具，假装自己正常。而我，只是选择活得更诚实一点罢了，哈哈！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0007",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "doraemon"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个温暖、友好的卡通嗓音，音色听起来圆润。要表现出一种乐于助人、循循善诱的感觉，带有一点点笨拙的权威感，让人觉得很安心。",
+          "text": "别担心，这个原理其实很简单。你把它想象成一个会自动整理房间的魔法盒子，你只要告诉它东西放哪里，它就能帮你搞定啦。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个圆圆的、很亲切的卡通声音。说话的语气要温和，像是在安慰人，但又带点小老师的派头，有点喜剧效果。",
+          "text": "你看，虽然这个问题看起来很复杂，但只要我们把它拆开来看，一步一步来，就会发现其实没那么难。交给我吧，我来帮你。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个听起来很善良的卡通音色，声音要柔和圆润。他说话时像个可靠的朋友，在提供帮助时又有点笨手笨脚的可爱感觉。",
+          "text": "没关系的，失败一次不要紧。我们可以换个方法再试试。你看，就像这样，调整一下角度，问题是不是就解决了？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0008",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "zengxiaoxian"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个成年男性的声音，模仿那种有点油嘴滑舌的喜剧脱口秀主持人的风格。节奏要夸张，有表演感，但听起来又不是那么发自内心地自信。",
+          "text": "听众朋友们，你们能想象吗？就在今天早上，我，一个如此英俊潇洒的都市青年，竟然在众目睽睽之下，被一扇旋转门给夹住了！当时那个场面，真是说多了都是泪啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个成年男声，带有一种刻意表演的电台主持人腔调，有点自恋又有点滑稽。他的语调很夸张，但能听出背后的一丝心虚。",
+          "text": "我必须得跟各位分享一下我今天的奇遇。我只是想优雅地喝一杯咖啡，结果呢？杯子它居然有自己的想法，直接在我雪白的衬衫上画了一幅地图。这难道就是传说中的行为艺术吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个男性声音，听起来像是在主持一档搞笑节目，说话很有节奏感，但那种自信是装出来的。整体感觉有点贱兮兮的，又很爱演。",
+          "text": "俗话说得好，人算不如天算。我精心计划了完美的出行路线，结果却因为追一只随风飘舞的塑料袋而错过了最后一班车。你们说，我是不是应该反思一下我的人生？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0009",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "maleficent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个成熟女性的声音，音色要暗沉、优雅，且带有压迫感。她的能量是内敛的，语调平稳而冰冷，像是一位言语间暗藏危险的贵族。",
+          "text": "我希望你能明白，有些界限是不能逾越的。任何无礼的试探，都将招致相应的后果。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个成年女声，听起来高贵而疏远，带着一种黑暗的优雅。说话要不疾不徐，冷静自持，但每一个字都透出不容置疑的威严。",
+          "text": "你的请求我听到了。但我是否应允，取决于你的价值。记住，不要让我感到失望。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个低沉、克制的女性声音，风格要华贵而冷漠。她的平静之下涌动着危险的暗流，给人一种强大的心理压力。",
+          "text": "不要误会我的耐心。我只是在欣赏你在做出最终选择前的挣扎而已。请务必谨慎行事。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_ip_portrait__0010",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "crayon_shinchan"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个小男孩的声音，带点懒洋洋又很顽皮的感觉。说话节奏要拖长，有点鼻音，听起来有种没大没小的厚脸皮劲儿。",
+          "text": "阿姨，你为什么每天都要在脸上画画呀？是不是因为不画画就不好看呀？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个男孩子的声音，听起来有点懒散，但又透着一股机灵。发音有点含糊，节奏慢悠悠的，语气非常大胆、没规矩。",
+          "text": "老师，你说的这些我都听不懂哎。你是不是也跟我一样，有时候也不想上班呀？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个小男孩的音色，感觉懒洋洋的，说话慢吞吞，带点鼻音。要表现出一种天真又无礼的顽童感觉，问一些让大人尴尬的问题。",
+          "text": "叔叔，你的肚子圆鼓鼓的，里面是装了一个小宝宝吗？什么时候生出来呀？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

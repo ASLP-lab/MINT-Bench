@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/texture",
+  "language": "fr",
+  "source_plan_file": "easy__timbre__direct__atomic__texture.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read this with a soft, breathy voice.",
+      "text": "Je me demande souvent si j'ai pris la bonne décision à ce moment-là.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and requests a breathy quality. Text is a neutral reflection."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. I need a slightly husky vocal quality for this line.",
+      "text": "J'ai laissé les documents sur la table du salon.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Slight variation in instruction phrasing. Text is neutral and casual."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Give this sentence a smoky quality.",
+      "text": "Il portait un long manteau qui flottait derrière lui à chaque pas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Concise instruction for a smoky quality. Text is a good narrative sentence."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Read this with a bright and resonant voice.",
+      "text": "Le prochain arrêt de ce bus est la Place de la Concorde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction pairs 'bright' with 'resonant'. Text is a simple announcement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. I need this explanation to be spoken with an exceptionally clear voice.",
+      "text": "Pour assembler le meuble, vous devez d'abord fixer les pieds à la base principale.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction emphasizes clarity. Text is a suitable explanatory sentence."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Read this with a nasal vocal quality.",
+      "text": "Ces chaises sont en bois de chêne.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a nasal quality. Text is a neutral statement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. I'm looking for a mellow, smooth, and relaxed voice for this line.",
+      "text": "Pourriez-vous me passer le sel, s'il vous plaît ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a mellow voice. Text is a polite, calm request."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this with a soft, breathy voice.",
+          "text": "Je me demande souvent si j'ai pris la bonne décision à ce moment-là.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and requests a breathy quality. Text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I want a delivery that has a lot of air in it, very breathy.",
+          "text": "Parfois, le silence est la seule réponse possible à certaines questions.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes 'breathy' in more detail. Text is a suitable reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use a breathy tone for this sentence.",
+          "text": "C'est dans ces petits moments qu'on trouve les plus grandes joies.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A concise instruction for a breathy tone. Text is reflective and neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this with a husky voice.",
+          "text": "Le train arrive à quai dans cinq minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a husky voice. Text is a neutral casual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I need a slightly husky vocal quality for this line.",
+          "text": "J'ai laissé les documents sur la table du salon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Slight variation in instruction phrasing. Text is neutral and casual."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Can you make the voice sound a bit husky?",
+          "text": "La réunion est prévue pour demain matin à dix heures.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is phrased as a question. Text is a standard casual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this line with a deep, smoky voice.",
+          "text": "Les vieilles pierres du château racontaient une histoire que peu de gens connaissaient.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a smoky voice. Text is narrative and does not leak the target."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I'm looking for a smoky vocal texture for this narration.",
+          "text": "Au loin, on pouvait apercevoir les lumières de la ville qui scintillaient doucement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a smoky texture. The text is descriptive and suitable."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Give this sentence a smoky quality.",
+          "text": "Il portait un long manteau qui flottait derrière lui à chaque pas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Concise instruction for a smoky quality. Text is a good narrative sentence."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this announcement with a bright and clear vocal tone.",
+          "text": "Veuillez noter que la bibliothèque fermera ses portes à dix-huit heures aujourd'hui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a bright tone. Text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I want a bright vocal quality for this reading.",
+          "text": "Le vol en provenance de Rome est maintenant attendu à la porte vingt-trois.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct request for a bright quality. The text is a suitable brief announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this with a bright and resonant voice.",
+          "text": "Le prochain arrêt de ce bus est la Place de la Concorde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction pairs 'bright' with 'resonant'. Text is a simple announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this with a very clear and distinct voice.",
+          "text": "Le processus se compose de trois étapes principales qui doivent être suivies dans l'ordre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a clear voice. Text is explanatory and neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I need this explanation to be spoken with an exceptionally clear voice.",
+          "text": "Pour assembler le meuble, vous devez d'abord fixer les pieds à la base principale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction emphasizes clarity. Text is a suitable explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use a clear, articulate tone for this sentence.",
+          "text": "La formule chimique de l'eau est composée de deux atomes d'hydrogène et d'un atome d'oxygène.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction links 'clear' with 'articulate'. Text is informational."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Can you make the voice sound nasal?",
+          "text": "Le bâtiment est situé au coin de la rue.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a nasal quality. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this with a nasal vocal quality.",
+          "text": "Ces chaises sont en bois de chêne.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a nasal quality. Text is a neutral statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. I'd like to hear this spoken with a distinct nasal tone.",
+          "text": "Le rapport final est dû pour vendredi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction phrasing variation for a nasal tone. Text is neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. I'm looking for a mellow, smooth, and relaxed voice for this line.",
+          "text": "Pourriez-vous me passer le sel, s'il vous plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a mellow voice. Text is a polite, calm request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this with a mellow and gentle tone.",
+          "text": "J'aimerais avoir un verre d'eau, si cela ne vous dérange pas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction pairs 'mellow' with 'gentle'. Text is a suitable simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use a soft, mellow delivery for this request.",
+          "text": "Si vous avez un moment, j'aurais besoin de votre aide pour ce dossier.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a soft, mellow delivery. Text is a calm and simple request."
+          }
+        }
+      ]
+    }
+  ]
+}

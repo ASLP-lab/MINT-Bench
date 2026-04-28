@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/personality",
+  "language": "es",
+  "source_plan_file": "easy__style__tag__atomic__personality.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Personality: Cheerful",
+      "text": "Me encanta cuando nos reunimos todos juntos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Personality: Serious",
+      "text": "El informe indica que los resultados no son los esperados.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Personality: Reserved",
+      "text": "A veces es mejor observar antes de formarse una opinión.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Personality: Confident",
+      "text": "No tengo ninguna duda de que lo conseguiremos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Personality: Aloof",
+      "text": "Cuando termine, te avisaré si es necesario.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Personality: Gentle",
+      "text": "Vamos a revisar los pasos uno por uno, con calma.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: Cheerful",
+          "text": "¡Qué buen día hace hoy para salir!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: Cheerful",
+          "text": "Me encanta cuando nos reunimos todos juntos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: Cheerful",
+          "text": "Acabo de recibir una noticia fantástica.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: Serious",
+          "text": "El informe indica que los resultados no son los esperados.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: Serious",
+          "text": "Es fundamental que sigamos el protocolo al pie de la letra.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: Serious",
+          "text": "La reunión ha sido pospuesta hasta nuevo aviso por el comité.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: Reserved",
+          "text": "Supongo que cada uno tiene su propia forma de ver las cosas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: Reserved",
+          "text": "A veces es mejor observar antes de formarse una opinión.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: Reserved",
+          "text": "Prefiero tomarme un momento para considerar todas las opciones.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: Confident",
+          "text": "Les aseguro que el proyecto estará listo a tiempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: Confident",
+          "text": "No tengo ninguna duda de que lo conseguiremos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: Confident",
+          "text": "Esta es la decisión correcta, sin lugar a dudas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: Aloof",
+          "text": "Déjame eso ahí y ya me encargaré yo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: Aloof",
+          "text": "No necesito ayuda, gracias.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: Aloof",
+          "text": "Cuando termine, te avisaré si es necesario.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: Gentle",
+          "text": "No te preocupes, a veces estas cosas simplemente ocurren.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: Gentle",
+          "text": "La idea es que todos nos sintamos cómodos con la solución.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: Gentle",
+          "text": "Vamos a revisar los pasos uno por uno, con calma.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/speed",
+  "language": "es",
+  "source_plan_file": "easy__style__direct__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. I need you to say this as fast as you possibly can.",
+      "text": "Atención a todos los pasajeros, el embarque para el vuelo comenzará en breve en la puerta designada.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Please read this at a fast pace.",
+      "text": "El informe indica que la temperatura promedio global ha aumentado en el último siglo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Read this in a slow, clear voice.",
+      "text": "Para entender el concepto, primero debemos analizar los componentes individuales y cómo interactúan entre sí.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Read the following text at an extremely slow pace.",
+      "text": "Todo cambia, pero algunas cosas permanecen igual.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. I need you to say this as fast as you possibly can.",
+          "text": "Atención a todos los pasajeros, el embarque para el vuelo comenzará en breve en la puerta designada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Say this extremely quickly.",
+          "text": "Les recordamos que la biblioteca cerrará sus puertas en quince minutos; por favor, diríjanse a la salida.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read the following at a very high speed.",
+          "text": "El próximo tren con destino al centro de la ciudad llegará a la plataforma número dos en aproximadamente cinco minutos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Please read this at a fast pace.",
+          "text": "El informe indica que la temperatura promedio global ha aumentado en el último siglo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Say the following text quickly.",
+          "text": "La fotosíntesis es el proceso mediante el cual las plantas convierten la luz solar en energía química.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Can you read this with a quick tempo?",
+          "text": "El sistema solar está compuesto por ocho planetas que orbitan alrededor de una estrella central.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this in a slow, clear voice.",
+          "text": "Para entender el concepto, primero debemos analizar los componentes individuales y cómo interactúan entre sí.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Say the following at a slow pace.",
+          "text": "La diferencia principal entre los dos modelos radica en la arquitectura interna del procesador central.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. I want you to speak slowly and deliberately.",
+          "text": "El procedimiento requiere que sigas cada paso en el orden exacto que se presenta en el manual.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this very slowly, drawing out the words.",
+          "text": "A veces, el silencio tiene su propio significado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read the following text at an extremely slow pace.",
+          "text": "Todo cambia, pero algunas cosas permanecen igual.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. I want you to speak as slowly as possible.",
+          "text": "El tiempo revela la verdadera naturaleza de las cosas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

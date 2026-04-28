@@ -1,0 +1,430 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "zh",
+  "generation_summary": {
+    "num_items": 10,
+    "domain": "extra_vocal",
+    "difficulty": "special",
+    "notes": "Testing model's ability to render speech with a specified global style while correctly interpreting and producing explicit non-verbal sounds from text tags. Instructions control the style, not the non-verbal events."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "hurried",
+        "emotion": "anxious"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "panting",
+          "quick_breath"
+        ]
+      },
+      "text_semantic": "urgent_report",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must contain at least one `[panting]` or `[quick_breath]` tag.",
+        "The text content should describe an urgent situation without using explicitly anxious words.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction must describe a hurried, out-of-breath delivery, as if someone just ran up.",
+        "Do not mention the specific non-verbal sounds in the text.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion",
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "sad",
+        "speaking_style": "suppressed_crying"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "sniffle",
+          "whimper"
+        ]
+      },
+      "text_semantic": "delivering_bad_news",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must contain `[sniffle]` and/or `[whimper]` tags.",
+        "The text itself should be a simple statement of fact, not overly emotional.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should ask for a sad delivery, as if trying to hold back tears.",
+        "Do not explicitly mention the non-verbal sounds in the instruction.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": true
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "amused"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "chuckle",
+          "giggle"
+        ]
+      },
+      "text_semantic": "sharing_a_funny_anecdote",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must include `[chuckle]` or `[giggle]` tags.",
+        "The story should be mildly funny but not hilarious on its own.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruct for an amused and lighthearted tone.",
+        "Do not mention the chuckling or giggling.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style",
+        "energy"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "sleepy",
+        "energy": "low"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "yawn",
+          "mumble"
+        ]
+      },
+      "text_semantic": "late_night_conversation",
+      "text_length": "long",
+      "text_constraints": [
+        "Must include at least one `[yawn]` and some `[mumble]` tags.",
+        "The topic should be mundane, suitable for a late-night talk.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Ask for a very sleepy, groggy delivery.",
+        "Do not mention the yawn or mumbles.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "speaking_style",
+        "vocal_quality"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speaking_style": "weak",
+        "vocal_quality": "raspy"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "cough",
+          "sneeze"
+        ]
+      },
+      "text_semantic": "calling_in_sick_to_work",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must include `[cough]` tags and optionally `[sneeze]`.",
+        "The text should be a simple statement about not feeling well.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruct for a weak, raspy voice, as if the speaker is ill.",
+        "Do not mention the coughs or sneezes.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion",
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "annoyed",
+        "speaking_style": "curt"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "tsk",
+          "sigh"
+        ]
+      },
+      "text_semantic": "reacting_to_a_minor_inconvenience",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must include `[tsk]` and/or `[sigh]` tags.",
+        "The text should express a neutral observation that can be interpreted as annoying in context.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Ask for an annoyed, impatient, and curt tone.",
+        "Do not refer to the non-verbal sounds.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion",
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "scared",
+        "speaking_style": "trembling"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "gasp",
+          "whimper"
+        ]
+      },
+      "text_semantic": "describing_a_frightening_event",
+      "text_length": "long",
+      "text_constraints": [
+        "Must include `[gasp]` and `[whimper]` tags.",
+        "The text should describe a situation without using words like 'scared' or 'frightened'.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to sound terrified, with a trembling voice.",
+        "Do not mention the gasp or whimper.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion",
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "content",
+        "speaking_style": "relaxed"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "humming",
+          "exhale"
+        ]
+      },
+      "text_semantic": "casual_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must include a `[humming]` or a relaxed `[exhale]` tag.",
+        "The text should be about a pleasant, simple topic.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Ask for a calm, content, and relaxed delivery.",
+        "Do not mention the humming or exhaling.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion",
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "embarrassed",
+        "speaking_style": "flustered"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "throat_clearing",
+          "mumble"
+        ]
+      },
+      "text_semantic": "apologizing_for_a_mistake",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must include `[throat_clearing]` and `[mumble]` tags.",
+        "The text should be an apology or explanation for a minor social faux pas.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Ask for an embarrassed and slightly flustered tone.",
+        "Do not mention the throat clearing or mumbling.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "emotion",
+        "speaking_style"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "joyful",
+        "speaking_style": "laughing_while_speaking"
+      },
+      "aux_values": {
+        "explicit_nv_tags": [
+          "laugh",
+          "burst_of_laughter"
+        ]
+      },
+      "text_semantic": "recounting_a_hilarious_story",
+      "text_length": "long",
+      "text_constraints": [
+        "Must include multiple laughing tags like `[laugh]` and `[burst_of_laughter]` interspersed with the text.",
+        "The text should build up a funny scenario.",
+        "final text should be written in Chinese",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to tell a story while laughing, finding it incredibly funny.",
+        "Do not specify where to laugh; let the tags in the text guide that.",
+        "final instruction should be written in Chinese",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

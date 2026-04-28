@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/volume",
+  "language": "zh",
+  "source_plan_file": "easy__style__direct__atomic__volume.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "像在耳语一样，用几乎听不见的声音说。",
+      "text": "我不确定这是否是正确的选择，但事到如今也只能这样了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "像在耳语一样，用几乎听不见的声音说。",
+          "text": "我不确定这是否是正确的选择，但事到如今也只能这样了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用非常轻的声音说，就好像在图书馆里怕打扰到别人一样。",
+          "text": "他那天晚上说的那些话，直到现在还回响在我的脑海里。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "把音量压到最低，用气声来说这句话。",
+          "text": "也许从一开始，我们就走错了方向，现在只是在弥补。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "小点声说，别吵到大家。",
+          "text": "你能帮我把那个杯子递过来吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用比较低的音量讲话。",
+          "text": "这份文件需要你签个字。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用安静一些的音量说。",
+          "text": "麻烦你把空调温度调高一点。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请大声一点，确保会议室后面的人也能听见。",
+          "text": "由于天气原因，原定于今天的户外活动将延期举行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "提高你的音量，用一种清晰洪亮的声音来说。",
+          "text": "所有参加本次培训的人员，请在下午两点前到指定地点集合。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "放大你的声音，就像在对一群人讲话一样。",
+          "text": "我们很高兴地通知大家，公司上半年的业绩目标已经顺利完成。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用尽全力喊出来，就好像对方在很远的山谷对面！",
+          "text": "把绳子拉紧，千万不要松手，我们马上就过来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "像在非常嘈杂的施工现场一样，用喊的方式说这句话。",
+          "text": "所有人立刻撤离到安全区域，这不是演习。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用你最大的音量说，声音要盖过周围所有的噪音。",
+          "text": "找到掩体卧倒，保护好你的头部，等待进一步指示。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

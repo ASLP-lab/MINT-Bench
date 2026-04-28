@@ -1,0 +1,843 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "ko",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 11,
+  "num_output_items": 11,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Start speaking slowly, then rapidly accelerate to a very fast pace in the middle, and finally settle back to a normal conversational speed.",
+      "text": "먼저, 씨앗이 땅속에서 천천히 뿌리를 내리고 싹을 틔웁니다. 그 다음, 줄기가 빛을 향해 놀라운 속도로 뻗어 나가고 잎사귀들이 펼쳐지기 시작합니다. 마지막으로, 완전히 자란 식물은 안정된 모습으로 그 자리에 서서 조용히 계절의 변화를 맞이합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes a three-phase process of a plant growing, which supports the speed change."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "very_fast",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Deliver the sentence with a dynamic volume change: begin normally, escalate to a powerful, very loud voice, and then conclude with a sudden drop to a very quiet voice.",
+      "text": "그 낡은 집 복도를 걷고 있을 때, 평범한 그림 하나가 눈에 들어왔습니다. 갑자기 그 그림이 벽에서 떨어지며 요란한 소리를 내며 바닥에 산산조각 났습니다. 그 순간, 등 뒤에서 누군가 내 이름을 속삭이는 소리가 들렸습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text tells a short, spooky story that supports the normal -> loud -> quiet dynamic."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "normal",
+          "very_loud",
+          "very_quiet"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. As you say the sentence, gradually and smoothly raise your pitch from low to high.",
+      "text": "저기, 혹시 제가 부탁 하나만 드려도 괜찮을지 모르겠는데, 이번 프로젝트에 꼭 필요한 자료라서 혹시 잠시만 시간을 내어 도와주실 수 있을까요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a request that builds in urgency, suitable for a rising pitch."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "low",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Begin with a neutral, matter-of-fact emotion. As you continue, transition into a worried feeling, and end the sentence sounding truly fearful.",
+      "text": "오늘 아침에 일어나서 창밖을 보니 그냥 평소와 같은 날씨였습니다. 그런데 문을 열었을 때, 어제까지 분명히 거기에 있었던 이웃집이 보이지 않았습니다. 그리고 그 자리에는 이상한 기호만 남아 있었습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes a situation that starts normal but becomes increasingly strange and alarming."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "neutral",
+          "worried",
+          "fearful"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Deliver this line by first sounding hesitant, then shifting to a firm tone, and concluding by pleading.",
+      "text": "저도 처음에는 그 계획이 좀 무리라고 생각했어요. 그렇지만 다시 생각해보니, 이 방법 외에는 다른 길이 없습니다. 부디 제안을 다시 한번 고려해 주시기를 부탁드립니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text shows a progression of thought that matches the required tonal shifts."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": [
+          "hesitant",
+          "firm",
+          "pleading"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Begin with a slow and thoughtful delivery, then transition to a fast and surprised one at the point where the realization hits.",
+      "text": "이 오래된 지도를 분석해 보니, 별들은 북쪽을 가리키고 있는 것 같아요... 그런데 이 별자리는 천 년 전에나 볼 수 있었던 거잖아요!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes analyzing a map and making a surprising discovery."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "thoughtful",
+          "surprised"
+        ],
+        "speed": [
+          "slow",
+          "fast"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Start off speaking quietly and with an indifferent tone, then build your volume and intensity to end with a loud, urging tone.",
+      "text": "정기 시스템 점검이 있을 예정임을 알려드립니다. 모든 직원들은 즉시 하던 작업을 중단하고 건물 밖으로 대피해 주시기 바랍니다. 이것은 훈련이 아닙니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is an announcement that escalates from routine to a critical emergency."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "tone": [
+          "indifferent",
+          "urging"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a three-part progression. First, speak slowly, in a low pitch, sounding sad. Second, switch to a fast, high-pitched, angry delivery. Finally, end at a normal pace and pitch, sounding thoughtful.",
+      "text": "그날 있었던 모든 일들이 이제는 그저 희미한 기억으로만 남아있습니다. 어떻게 나한테 그런 말을 할 수가 있었던 거지, 정말 용서할 수가 없어! 돌이켜보면, 어쩌면 그게 최선이었을지도 모르겠습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a reflection on a past event, structured in three parts to match the complex dynamic change."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "sad",
+          "angry",
+          "thoughtful"
+        ],
+        "pitch": [
+          "low",
+          "high",
+          "normal"
+        ],
+        "speed": [
+          "slow",
+          "fast",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Deliver the sentence with an A-B-A structure: start fast and urging, then switch to very slow and hesitant, and finally go back to fast and urging.",
+      "text": "이 길로 가면 훨씬 빠를 거예요, 어서 따라오세요! 그런데 저기 갈림길에서는... 왼쪽이었나 오른쪽이었나, 확신이 안 서네요. 괜찮아요, 이제 기억났어요, 이쪽이 맞아요, 갑시다!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes someone leading the way, getting momentarily lost, then finding the path again."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "very_slow",
+          "fast"
+        ],
+        "tone": [
+          "urging",
+          "hesitant",
+          "urging"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. The first half should sound happy and playful. Then, for the second half, shift your emotion to sad and your tone to disappointed.",
+      "text": "오늘 공원에서 정말 귀여운 강아지를 만나서 한참 동안 같이 놀았어! 그런데 주인이 나타나서 다시는 볼 수 없을 거라고 하더라.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes a happy encounter with a sad conclusion, providing a clear emotional pivot."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "happy",
+          "sad"
+        ],
+        "tone": [
+          "playful",
+          "disappointed"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Start speaking in a normal, calm voice, then steadily increase your speed, volume, and pitch throughout the sentence, ending in a very fast, loud, and high-pitched shout.",
+      "text": "지금부터 시스템 전체 점검을 시작하겠습니다. 각자 맡은 구역의 장비 상태를 확인하고, 모든 수치가 정상 범위에 있는지 보고한 후, 다음 지시가 있을 때까지 대기해 주시기 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a clear crescendo across all three attributes. Text is a neutral procedural command."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high"
+        ],
+        "volume": [
+          "normal",
+          "very_loud"
+        ],
+        "speed": [
+          "normal",
+          "very_fast"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "very_fast",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Start speaking slowly, then rapidly accelerate to a very fast pace in the middle, and finally settle back to a normal conversational speed.",
+          "text": "먼저, 씨앗이 땅속에서 천천히 뿌리를 내리고 싹을 틔웁니다. 그 다음, 줄기가 빛을 향해 놀라운 속도로 뻗어 나가고 잎사귀들이 펼쳐지기 시작합니다. 마지막으로, 완전히 자란 식물은 안정된 모습으로 그 자리에 서서 조용히 계절의 변화를 맞이합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a three-phase process of a plant growing, which supports the speed change."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Begin at a slow, deliberate pace. In the middle section, speak very, very quickly. Conclude the sentence at a regular pace.",
+          "text": "발사 카운트다운은 차분하고 느리게 진행되며 모든 시스템을 점검합니다. 점화 순간, 로켓은 엄청난 추력으로 대기권을 맹렬하게 뚫고 올라갑니다. 궤도에 진입한 후에는 고요한 우주 공간을 안정적인 속도로 항해하기 시작합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a rocket launch, which has three distinct phases of speed."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver the first part of the sentence slowly. Transition to a very fast speed for the second part. End the sentence speaking at a normal speed.",
+          "text": "처음에는 원두를 적시기 위해 물을 천천히 부어 잠시 기다립니다. 그 다음, 원을 그리며 정해진 양의 물을 신속하게 모두 부어줍니다. 마지막으로, 커피가 필터를 통해 완전히 추출될 때까지 평온하게 지켜봅니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes the process of making pour-over coffee, which aligns with the speed progression."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "normal",
+          "very_loud",
+          "very_quiet"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Start at a normal volume, build to a very loud crescendo in the middle, and then suddenly drop to a very quiet voice at the end.",
+          "text": "하늘 저편에서 먹구름이 몰려오는 것이 보였고, 바람이 조금씩 불기 시작했습니다. 이윽고 거대한 번개가 하늘을 가르며 천둥소리가 온 세상을 뒤흔들었습니다. 폭풍이 지나간 후에는 오직 빗방울 떨어지는 소리만 희미하게 들려왔습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a storm, aligning with the normal -> loud -> quiet volume progression."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a regular speaking voice for the first part, then get very loud for the climax, and end by speaking in a very soft, hushed tone.",
+          "text": "우리는 무대 조명이 켜지기를 기다리며 서로 이야기를 나누고 있었습니다. 마침내 음악이 시작되자 모든 관객이 함께 일어나 열광적으로 환호했습니다. 공연이 끝나고 모두가 떠난 자리에는 깊은 정적만이 남아 있었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a concert experience, which naturally follows the volume changes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver the sentence with a dynamic volume change: begin normally, escalate to a powerful, very loud voice, and then conclude with a sudden drop to a very quiet voice.",
+          "text": "그 낡은 집 복도를 걷고 있을 때, 평범한 그림 하나가 눈에 들어왔습니다. 갑자기 그 그림이 벽에서 떨어지며 요란한 소리를 내며 바닥에 산산조각 났습니다. 그 순간, 등 뒤에서 누군가 내 이름을 속삭이는 소리가 들렸습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text tells a short, spooky story that supports the normal -> loud -> quiet dynamic."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "low",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. As you say the sentence, gradually and smoothly raise your pitch from low to high.",
+          "text": "저기, 혹시 제가 부탁 하나만 드려도 괜찮을지 모르겠는데, 이번 프로젝트에 꼭 필요한 자료라서 혹시 잠시만 시간을 내어 도와주실 수 있을까요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a request that builds in urgency, suitable for a rising pitch."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Start speaking in a low pitch and continuously increase it so that you end the sentence in a high pitch.",
+          "text": "제가 지금부터 보여드릴 이 새로운 제품은 기존의 모든 문제를 해결할 뿐만 아니라, 여러분의 일상을 완전히 바꿔놓을 혁신적인 기능을 가지고 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text builds excitement about a new product, which supports a rising pitch."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this sentence so that your vocal pitch starts low and steadily rises throughout the entire utterance.",
+          "text": "우리가 오랫동안 기다려온 바로 그 순간이 드디어 다가오고 있는데, 모두 준비되셨나요, 정말 믿을 수 없는 경험이 될 거예요!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text conveys growing anticipation, which is a good fit for a continuous pitch rise."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "neutral",
+          "worried",
+          "fearful"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Begin with a neutral, matter-of-fact emotion. As you continue, transition into a worried feeling, and end the sentence sounding truly fearful.",
+          "text": "오늘 아침에 일어나서 창밖을 보니 그냥 평소와 같은 날씨였습니다. 그런데 문을 열었을 때, 어제까지 분명히 거기에 있었던 이웃집이 보이지 않았습니다. 그리고 그 자리에는 이상한 기호만 남아 있었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a situation that starts normal but becomes increasingly strange and alarming."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Read this with an emotional progression: start neutrally, then become concerned, and finish with a sense of fear.",
+          "text": "처음에는 그냥 전화벨이 한 번 울리고 끊어져서 별일 아니라고 생각했습니다. 조금 뒤에 다시 전화가 왔지만 아무 소리도 들리지 않았습니다. 이제는 문밖에서 누군가 문고리를 계속 돌리고 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a classic horror scenario that escalates from neutral to fearful."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Start reading this in a completely neutral way. Then, shift your tone to sound worried. For the final part, sound afraid.",
+          "text": "컴퓨터에서 처음 보는 파일을 하나 발견해서 그냥 열어보았습니다. 그 안에는 알 수 없는 문자들로 가득 차 있었고, 파일 이름이 조금 이상했습니다. 파일을 닫으려고 하자, 화면에 '안녕'이라는 단어가 나타났습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a digital scenario that becomes progressively more unsettling."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": [
+          "hesitant",
+          "firm",
+          "pleading"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Start speaking hesitantly, as if unsure. Then, become firm and confident in the middle. Finally, end with a pleading tone.",
+          "text": "음, 이걸 어떻게 말씀드려야 할지 잘 모르겠는데요. 하지만 이것이 우리 모두를 위한 최선의 선택이라는 점은 분명합니다. 제발, 제 말을 믿고 한 번만 더 기회를 주세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is structured as a piece of dialogue that directly follows the hesitant -> firm -> pleading arc."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this line by first sounding hesitant, then shifting to a firm tone, and concluding by pleading.",
+          "text": "저도 처음에는 그 계획이 좀 무리라고 생각했어요. 그렇지만 다시 생각해보니, 이 방법 외에는 다른 길이 없습니다. 부디 제안을 다시 한번 고려해 주시기를 부탁드립니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text shows a progression of thought that matches the required tonal shifts."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Your tone should change three times: start with hesitation, then become firm, and end by pleading with the listener.",
+          "text": "아마 제 생각이 틀렸을 수도 있겠죠, 저도 확신은 없어요. 하지만 이 결정이 가져올 결과에 대해서는 제가 모든 책임을 지겠습니다. 그러니 제발, 저를 믿어주세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text shows someone trying to convince another by expressing doubt, then conviction, then pleading."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "thoughtful",
+          "surprised"
+        ],
+        "speed": [
+          "slow",
+          "fast"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say the first half of the sentence slowly and thoughtfully. Then, as if a surprising realization dawns on you, say the second half quickly and with surprise.",
+          "text": "이 퍼즐의 모든 조각들은 서로 완벽하게 들어맞는 것처럼 보입니다... 잠깐만, 이 마지막 한 조각이 전체 그림을 완전히 다른 것으로 만들고 있잖아요!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a moment of realization while solving a puzzle, with a clear pivot."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Start speaking slowly, in a contemplative mood. Then, switch to a fast, surprised delivery for the rest of the sentence.",
+          "text": "기록에 따르면 그 유물은 박물관 창고에 안전하게 보관되어 있었습니다... 아니, 잠깐, 이 날짜를 보세요, 유물이 도난당한 바로 다음 날이잖아요!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes uncovering a discrepancy in a record, which supports the shift in emotion and speed."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Begin with a slow and thoughtful delivery, then transition to a fast and surprised one at the point where the realization hits.",
+          "text": "이 오래된 지도를 분석해 보니, 별들은 북쪽을 가리키고 있는 것 같아요... 그런데 이 별자리는 천 년 전에나 볼 수 있었던 거잖아요!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes analyzing a map and making a surprising discovery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "tone": [
+          "indifferent",
+          "urging"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Start off speaking quietly and with an indifferent tone, then build your volume and intensity to end with a loud, urging tone.",
+          "text": "정기 시스템 점검이 있을 예정임을 알려드립니다. 모든 직원들은 즉시 하던 작업을 중단하고 건물 밖으로 대피해 주시기 바랍니다. 이것은 훈련이 아닙니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is an announcement that escalates from routine to a critical emergency."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver the first part quietly and with a flat, indifferent tone. Then, transition to a loud and urgent tone for the second part.",
+          "text": "기상 예보에 따르면 오늘 오후에 약간의 비가 예상됩니다. 업데이트된 정보입니다, 모든 주민들께서는 즉시 안전한 곳으로 이동하십시오, 홍수 경보가 발령되었습니다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a weather report that changes from a simple forecast to an urgent warning."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Begin the sentence in a quiet, detached manner. As you progress, get louder and more urgent.",
+          "text": "잠시 후 열차는 종착역에 도착하겠습니다. 승객 여러분, 지금 즉시 모든 짐을 챙겨 앞쪽 칸으로 이동해 주십시오, 뒤쪽 칸에 문제가 발생했습니다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a train announcement that shifts from normal information to an emergency instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "sad",
+          "angry",
+          "thoughtful"
+        ],
+        "pitch": [
+          "low",
+          "high",
+          "normal"
+        ],
+        "speed": [
+          "slow",
+          "fast",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a three-part progression. First, speak slowly, in a low pitch, sounding sad. Second, switch to a fast, high-pitched, angry delivery. Finally, end at a normal pace and pitch, sounding thoughtful.",
+          "text": "그날 있었던 모든 일들이 이제는 그저 희미한 기억으로만 남아있습니다. 어떻게 나한테 그런 말을 할 수가 있었던 거지, 정말 용서할 수가 없어! 돌이켜보면, 어쩌면 그게 최선이었을지도 모르겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a reflection on a past event, structured in three parts to match the complex dynamic change."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this sentence in three distinct stages. Start slow, low, and sad. Then, become fast, high, and angry. Conclude at a normal speed and pitch with a thoughtful tone.",
+          "text": "우리가 함께 보냈던 시간들을 생각하면 가슴이 아려옵니다. 당신은 내 모든 것을 앗아갔어, 어떻게 그럴 수가 있어! 이제와서 생각하니, 모든 것에는 다 이유가 있었던 것 같기도 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text reflects on a past relationship with clear shifts in emotional perspective."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. This requires a complex dynamic change. Part one is slow, low-pitched, and sad. Part two is fast, high-pitched, and angry. Part three is spoken at a normal tempo and pitch in a thoughtful manner.",
+          "text": "그 결정이 내려졌을 때, 저는 아무 말도 할 수 없었습니다. 왜 아무도 내 의견은 들어주지 않았던 겁니까, 이건 정말 불공평해요! 하지만 지금 생각해보니, 다른 결과가 있었을까 싶기도 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is about reacting to a past decision, with phases of helplessness, anger, and contemplation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "very_slow",
+          "fast"
+        ],
+        "tone": [
+          "urging",
+          "hesitant",
+          "urging"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Start fast with an urging tone. Then, slow down significantly and sound hesitant for the middle part. Finish by returning to a fast, urging pace.",
+          "text": "자, 서두르세요, 이 공식을 먼저 적용해야 합니다! 그리고 이 부분은... 음, 변수가 너무 많아서... 어떻게 계산해야 할지 잠시만요. 아, 알겠습니다, 이 값을 대입하면 바로 답이 나옵니다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text depicts someone urgently solving a problem, with a moment of hesitation in the middle."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver the sentence with an A-B-A structure: start fast and urging, then switch to very slow and hesitant, and finally go back to fast and urging.",
+          "text": "이 길로 가면 훨씬 빠를 거예요, 어서 따라오세요! 그런데 저기 갈림길에서는... 왼쪽이었나 오른쪽이었나, 확신이 안 서네요. 괜찮아요, 이제 기억났어요, 이쪽이 맞아요, 갑시다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes someone leading the way, getting momentarily lost, then finding the path again."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this with a change in speed and tone. Begin fast and urging, slow down to very slow and hesitant, and then resume the initial fast and urging delivery.",
+          "text": "모두들 집중하세요, 이 기계를 빨리 멈춰야 합니다! 중앙에 있는 이 레버를... 잠깐, 설명서에는 빨간색 버튼을 먼저 누르라고 되어 있는데... 아니야, 레버가 맞아요, 지금 바로 당겨야 해요!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text creates a scenario of urgent action with a moment of critical uncertainty."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "happy",
+          "sad"
+        ],
+        "tone": [
+          "playful",
+          "disappointed"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. The first half should sound happy and playful. Then, for the second half, shift your emotion to sad and your tone to disappointed.",
+          "text": "오늘 공원에서 정말 귀여운 강아지를 만나서 한참 동안 같이 놀았어! 그런데 주인이 나타나서 다시는 볼 수 없을 거라고 하더라.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a happy encounter with a sad conclusion, providing a clear emotional pivot."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Begin the sentence in a happy, playful manner, but transition to a sad and disappointed delivery at the halfway point.",
+          "text": "이번 여행 계획 정말 완벽하게 세웠다고 생각했는데, 정말 기대된다! 하지만 방금 확인해보니 내가 예약한 비행기 표가 취소되었대.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes excitement for a trip that gets abruptly cancelled."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Start by speaking with a happy and playful voice. Then, switch to a sad and disappointed voice for the remainder of the sentence.",
+          "text": "내가 제일 좋아하는 아이스크림 가게에서 신메뉴가 나왔대, 정말 맛있겠다! 막상 가보니까 오늘부터 문을 닫는다고 적혀 있었어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text talks about excitement for a new treat, followed by the disappointment of the shop closing."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high"
+        ],
+        "volume": [
+          "normal",
+          "very_loud"
+        ],
+        "speed": [
+          "normal",
+          "very_fast"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Start speaking in a normal, calm voice, then steadily increase your speed, volume, and pitch throughout the sentence, ending in a very fast, loud, and high-pitched shout.",
+          "text": "지금부터 시스템 전체 점검을 시작하겠습니다. 각자 맡은 구역의 장비 상태를 확인하고, 모든 수치가 정상 범위에 있는지 보고한 후, 다음 지시가 있을 때까지 대기해 주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a clear crescendo across all three attributes. Text is a neutral procedural command."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Begin at a standard conversational pace and volume, then build into a crescendo, getting faster, louder, and higher in pitch until you reach the end of the sentence.",
+          "text": "모든 참가자들은 지정된 경로를 따라 이동해 주십시오. 경로를 이탈하지 않도록 주의하고, 최종 목적지에 도착하는 순서대로 신원을 확인받아야 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a clear crescendo across all three attributes. Text is a neutral procedural command."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver this line so that it starts at a normal speaking level and gradually escalates to become very fast, very loud, and very high-pitched by the very end.",
+          "text": "우리는 이 프로젝트를 성공적으로 완수하기 위해 모든 자원을 동원해야 합니다. 각 팀은 정해진 목표를 기한 내에 달성하고 결과를 중앙 본부에 즉시 보고해야 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a clear crescendo across all three attributes. Text is a neutral procedural command."
+          }
+        }
+      ]
+    }
+  ]
+}

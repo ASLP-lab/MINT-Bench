@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/disfluency",
+  "language": "fr",
+  "source_plan_file": "special__extra_vocal__abnormal__disfluency.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read the text with a noticeable stutter.",
+      "text": "La photosynthèse est le processus par lequel les plantes vertes utilisent la lumière du soleil pour synthétiser des aliments à partir de dioxyde de carbone et d'eau.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and requests a stutter. Text is a neutral factual statement in French."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this with frequent repetition of sounds and syllables.",
+      "text": "Pour la garniture, faites fondre le chocolat au bain-marie, en remuant doucement pour éviter qu'il ne brûle.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes repetition. Text is an explanatory sentence in French."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Your speech should have blocks, where you get stuck on a word and have to pause before you can say it.",
+      "text": "La ceinture de sécurité est obligatoire pour tous les passagers. Attachez-la, même pour les trajets les plus courts.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes speech blocking. Text is a brief announcement in French."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Say this with a hesitant onset, as if you struggle to get the first few words of the sentence out.",
+      "text": "Pardon de vous déranger, pourriez-vous m'indiquer où se trouve la station de métro la plus proche ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a hesitant start. Text is a simple request in French."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read this as if you have a noticeable stutter.",
+      "text": "Quand j'y repense, ce voyage était vraiment une expérience transformatrice. J'ai rencontré des gens incroyables et j'ai vu des paysages que je n'oublierai jamais.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a stutter. Text is a long, reflective sentence in French."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Your delivery should be marked by the repetition of certain syllables and words as you narrate this passage.",
+      "text": "Elle marchait le long de la plage, le sable froid sous ses pieds nus. Les vagues se brisaient doucement sur le rivage, emportant avec elles les soucis de la journée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes repetition of syllables/words. Text is a long, narrative passage in French."
+      },
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read the text with a noticeable stutter.",
+          "text": "La photosynthèse est le processus par lequel les plantes vertes utilisent la lumière du soleil pour synthétiser des aliments à partir de dioxyde de carbone et d'eau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and requests a stutter. Text is a neutral factual statement in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Please say this sentence as if you have a stutter.",
+          "text": "Le cycle de l'eau, également connu sous le nom de cycle hydrologique, décrit le mouvement continu de l'eau sur, au-dessus et au-dessous de la surface de la Terre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and requests a stutter. Text is a neutral factual statement in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this line with a stutter.",
+          "text": "La migration des oiseaux est un déplacement saisonnier régulier, souvent nord et sud le long d'un couloir de vol, entre les aires de reproduction et d'hivernage.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and requests a stutter. Text is a neutral factual statement in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. When you read this, repeat some of the words or syllables as you go.",
+          "text": "D'abord, préchauffez le four à cent quatre-vingts degrés Celsius et beurrez un moule à gâteau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes repetition. Text is an explanatory sentence in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speak with a disfluency where you often repeat the beginning of your words.",
+          "text": "Ensuite, mélangez la farine, le sucre et la levure dans un grand bol jusqu'à ce que tout soit bien combiné.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes repetition. Text is an explanatory sentence in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Say this with frequent repetition of sounds and syllables.",
+          "text": "Pour la garniture, faites fondre le chocolat au bain-marie, en remuant doucement pour éviter qu'il ne brûle.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes repetition. Text is an explanatory sentence in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this line as if you're blocking on some words, with tense pauses before you can get them out.",
+          "text": "N'oubliez pas de vérifier les piles de vos détecteurs de fumée. Un simple geste peut sauver des vies.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes speech blocking. Text is a brief announcement in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your speech should have blocks, where you get stuck on a word and have to pause before you can say it.",
+          "text": "La ceinture de sécurité est obligatoire pour tous les passagers. Attachez-la, même pour les trajets les plus courts.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes speech blocking. Text is a brief announcement in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this announcement with a speech pattern characterized by getting stuck on words, resulting in sudden stops in airflow.",
+          "text": "En période de canicule, pensez à vous hydrater régulièrement et à rester à l'ombre aux heures les plus chaudes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes speech blocking. Text is a brief announcement in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this question, but make it sound like it's difficult for you to start speaking.",
+          "text": "Excusez-moi, auriez-vous l'heure s'il vous plaît ? Ma montre s'est arrêtée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a hesitant start. Text is a simple request in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Say this with a hesitant onset, as if you struggle to get the first few words of the sentence out.",
+          "text": "Pardon de vous déranger, pourriez-vous m'indiquer où se trouve la station de métro la plus proche ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a hesitant start. Text is a simple request in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. When you begin speaking, have a slow and difficult start to the utterance.",
+          "text": "Bonjour, je cherche la rue Victor Hugo, est-ce que je suis dans la bonne direction ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a hesitant start. Text is a simple request in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Read this as if you have a noticeable stutter.",
+          "text": "Quand j'y repense, ce voyage était vraiment une expérience transformatrice. J'ai rencontré des gens incroyables et j'ai vu des paysages que je n'oublierai jamais.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a stutter. Text is a long, reflective sentence in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Please perform this text with a clear, consistent stutter throughout.",
+          "text": "C'était la première fois que je parlais devant une si grande foule. Au début, j'étais terrifié, mais ensuite, j'ai trouvé une sorte de calme et les mots sont venus plus facilement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a stutter. Text is a long, reflective sentence in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this reflection with a speech impediment, specifically a stutter.",
+          "text": "Je crois que le plus important, c'est de rester fidèle à soi-même, même quand c'est difficile. C'est une leçon que j'ai mis du temps à apprendre, mais qui guide mes décisions aujourd'hui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a stutter. Text is a long, reflective sentence in French."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this with frequent repetitions of initial sounds or words.",
+          "text": "Le vent soufflait fort cette nuit-là, faisant grincer les vieilles branches du chêne contre la fenêtre de sa chambre. Il se retourna dans son lit, incapable de trouver le sommeil.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes repetition of sounds/words. Text is a long, narrative passage in French."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your delivery should be marked by the repetition of certain syllables and words as you narrate this passage.",
+          "text": "Elle marchait le long de la plage, le sable froid sous ses pieds nus. Les vagues se brisaient doucement sur le rivage, emportant avec elles les soucis de la journée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes repetition of syllables/words. Text is a long, narrative passage in French."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. As you read, often repeat the first sound of a word, or sometimes the whole word itself.",
+          "text": "La petite place du village était déserte, baignée dans la lumière dorée du soleil couchant. Seul le son lointain d'une cloche d'église venait troubler le silence de la fin d'après-midi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes repetition of sounds/words. Text is a long, narrative passage in French."
+          }
+        }
+      ]
+    }
+  ]
+}

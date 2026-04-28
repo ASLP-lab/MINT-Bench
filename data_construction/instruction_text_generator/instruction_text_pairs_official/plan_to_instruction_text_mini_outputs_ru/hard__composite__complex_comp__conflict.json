@@ -1,0 +1,663 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "ru",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Sound outwardly happy and enthusiastic, but let a heavy sarcastic tone show through, as if you mean the exact opposite of what you're saying.",
+      "text": "Какая прекрасная погода для прогулки! Просто обожаю, когда идёт ледяной дождь.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of a positive statement intended for sarcastic delivery."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Use the voice of a young girl, but deliver the line with an unnerving and serious tone, completely devoid of any childish playfulness.",
+      "text": "Солнце — это звезда в центре Солнечной системы. Оно состоит в основном из водорода и гелия.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The factual, dry text creates a good contrast with a child's voice."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Your voice should be a low, slow whisper, but charged with unspoken fury. You are barely containing your anger.",
+      "text": "Давай оставим этот разговор на потом. Сейчас не лучшее время.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The seemingly calm request is a perfect vehicle for suppressed rage."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Use the voice of an elderly man, but deliver the lines with an unnatural, breathless speed, as if you're in a great hurry to get the words out.",
+      "text": "Раньше мы всё делали своими руками, строили дома, сажали сады, и не жаловались, а теперь у всех техника да гаджеты, а времени всё равно ни на что не хватает.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The long, rambling sentence works well with a very fast pace."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Deliver this line with an undercurrent of pleading, even though the speaker is trying to maintain a confident facade.",
+      "text": "Пожалуйста, дай мне ещё один шанс, я знаю, что могу всё исправить.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a direct request, which supports the pleading tone."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. The speaker is a man, but he is speaking with a flirtatious and slightly coy tone.",
+      "text": "А что, если я скажу, что приготовил для тебя маленький сюрприз?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The conflict is between the masculine gender and the coquettish tone."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp_conflict",
+      "target_values": {
+        "gender": "male",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. You are trying to hide a deep sadness. Speak with a bright, high-pitched voice, as if forcing a smile.",
+      "text": "Всё в полном порядке, правда. Тебе не о чем беспокоиться.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The reassuring text creates a stark contrast with the underlying sadness."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. The speaker has a naturally cheerful personality, but they are terrified right now. Let the fear tremble in their voice as they try to sound normal.",
+      "text": "Кажется, я слышу какой-то звук из подвала. Наверное, просто ветер.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The neutral observation allows the fearful emotion to create the atmosphere."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Attempt to sound assertive and strong, but let your slow pace and hesitation betray your lack of conviction.",
+      "text": "Пожалуйста, сделайте так, как я говорю. Это... это важно.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The strong command in the text contrasts with the hesitant delivery."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "firm",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Your character is secretly anxious but forces a facade of nonchalance by speaking in an overly loud and detached voice.",
+      "text": "НЕ ЗАБУДЬТЕ, ЧТО ЗАВТРА МАГАЗИН БУДЕТ ЗАКРЫТ НА УЧЁТ. НИЧЕГО ОСОБЕННОГО.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The mundane announcement text is a good canvas for the complex emotional state."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "loud",
+        "tone": "indifferent",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this with a bright, happy voice, but make it clear that you are being deeply sarcastic.",
+          "text": "О, замечательно. Ещё одно совещание, как раз то, чего мне не хватало для полного счастья.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of a positive statement intended for sarcastic delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your delivery should sound cheerful and pleased, but the underlying tone should be dripping with sarcasm.",
+          "text": "Я так рад, что ты решил поделиться своим мнением. Это невероятно ценно для всех нас.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of a positive statement intended for sarcastic delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Sound outwardly happy and enthusiastic, but let a heavy sarcastic tone show through, as if you mean the exact opposite of what you're saying.",
+          "text": "Какая прекрасная погода для прогулки! Просто обожаю, когда идёт ледяной дождь.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of a positive statement intended for sarcastic delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use the voice of a young girl, but deliver the line with an unnerving and serious tone, completely devoid of any childish playfulness.",
+          "text": "Солнце — это звезда в центре Солнечной системы. Оно состоит в основном из водорода и гелия.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The factual, dry text creates a good contrast with a child's voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. I want you to sound like a little girl, but speak with the gravity and seriousness of a seasoned academic.",
+          "text": "Кошки могут издавать более ста различных звуков, в то время как собаки — всего около десяти.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The factual, dry text creates a good contrast with a child's voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak as a little girl, but with a strangely formal and serious demeanor, as if you're reporting a scientific finding.",
+          "text": "Большинство насекомых вылупляются из яиц. Этот процесс называется вылуплением.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The factual, dry text creates a good contrast with a child's voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this with immense, suppressed anger. You're trying to keep your composure, so speak very slowly and quietly.",
+          "text": "Не мог бы ты, пожалуйста, повторить то, что только что сказал.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The seemingly calm request is a perfect vehicle for suppressed rage."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. You are filled with rage, but you are forcing yourself to remain calm. Deliver the line in a very quiet, measured, and slow voice.",
+          "text": "Я просто хочу понять, как ты пришёл к такому выводу.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The seemingly calm request is a perfect vehicle for suppressed rage."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your voice should be a low, slow whisper, but charged with unspoken fury. You are barely containing your anger.",
+          "text": "Давай оставим этот разговор на потом. Сейчас не лучшее время.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The seemingly calm request is a perfect vehicle for suppressed rage."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Talk like an old man, with the texture and wisdom in his voice, but speak at an extremely fast, almost frantic pace.",
+          "text": "Знаешь, самое главное в жизни — это не то, сколько у тебя денег или вещей, а то, сколько у тебя хороших воспоминаний, вот о чём надо думать, а не о всякой ерунде.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The long, rambling sentence works well with a very fast pace."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use the voice of an elderly man, but deliver the lines with an unnatural, breathless speed, as if you're in a great hurry to get the words out.",
+          "text": "Раньше мы всё делали своими руками, строили дома, сажали сады, и не жаловались, а теперь у всех техника да гаджеты, а времени всё равно ни на что не хватает.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The long, rambling sentence works well with a very fast pace."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. The speaker is an old man, but he speaks with the rapid-fire delivery of an auctioneer, rushing through his words.",
+          "text": "Помню, как-то раз мы пошли на рыбалку, а удочки забыли, так пришлось из веток делать, и ведь поймали же, да ещё какую, вот это было приключение, не то что сейчас.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The long, rambling sentence works well with a very fast pace."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. The speaker is usually very confident and self-assured, but in this instance, their voice has a desperate, pleading quality.",
+          "text": "Я прошу тебя, просто выслушай меня до конца хотя бы один раз.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a direct request, which supports the pleading tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this line with an undercurrent of pleading, even though the speaker is trying to maintain a confident facade.",
+          "text": "Пожалуйста, дай мне ещё один шанс, я знаю, что могу всё исправить.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a direct request, which supports the pleading tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Portray a character who is outwardly confident, but whose tone betrays a deep-seated need, making their request sound like a plea.",
+          "text": "Мне действительно нужна твоя помощь в этом деле, я больше не знаю, к кому обратиться.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a direct request, which supports the pleading tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp_conflict",
+      "target_values": {
+        "gender": "male",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use an adult male voice, but speak in a teasing, coquettish way.",
+          "text": "Неужели ты думал, что я так просто тебя отпущу? Вечер только начинается.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The conflict is between the masculine gender and the coquettish tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. The speaker is a man, but he is speaking with a flirtatious and slightly coy tone.",
+          "text": "А что, если я скажу, что приготовил для тебя маленький сюрприз?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The conflict is between the masculine gender and the coquettish tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. I need an adult male voice delivering this line in a charming and coquettish manner.",
+          "text": "Ты всегда знаешь, как заставить меня улыбнуться, даже когда я этого не хочу.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The conflict is between the masculine gender and the coquettish tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. You are trying to hide a deep sadness. Speak with a bright, high-pitched voice, as if forcing a smile.",
+          "text": "Всё в полном порядке, правда. Тебе не о чем беспокоиться.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The reassuring text creates a stark contrast with the underlying sadness."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this line with a cheerful, bright tone and a higher pitch, but let an undercurrent of profound sadness show through.",
+          "text": "Нет-нет, я справлюсь. Со мной всё будет хорошо, обещаю.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The reassuring text creates a stark contrast with the underlying sadness."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Sound very sad internally, but put on a brave face by speaking in a bright, almost artificially high-pitched voice.",
+          "text": "Не обращай на меня внимания, просто немного устала. Всё замечательно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The reassuring text creates a stark contrast with the underlying sadness."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. The speaker has a naturally cheerful personality, but they are terrified right now. Let the fear tremble in their voice as they try to sound normal.",
+          "text": "Кажется, я слышу какой-то звук из подвала. Наверное, просто ветер.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The neutral observation allows the fearful emotion to create the atmosphere."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your voice is usually bright and happy, but you are trying to make an announcement while being very scared. Your cheerfulness is cracking under the strain of fear.",
+          "text": "Ой, смотрите, в саду кто-то есть. Может, это наш сосед?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The neutral observation allows the fearful emotion to create the atmosphere."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Portray a character who is trying to maintain their usual cheerful disposition, but is failing because they are overcome with fear.",
+          "text": "Свет в коридоре только что мигнул. Интересно, почему.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The neutral observation allows the fearful emotion to create the atmosphere."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "firm",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this with a firm tone, but speak slowly and hesitantly, as if you're not truly confident in your own authority.",
+          "text": "Я требую, чтобы вы немедленно прекратили это делать.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The strong command in the text contrasts with the hesitant delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your words are meant to be a firm command, but your slow, uncertain delivery reveals your inner doubt.",
+          "text": "Вы должны покинуть это помещение. Прямо... сейчас.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The strong command in the text contrasts with the hesitant delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Attempt to sound assertive and strong, but let your slow pace and hesitation betray your lack of conviction.",
+          "text": "Пожалуйста, сделайте так, как я говорю. Это... это важно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The strong command in the text contrasts with the hesitant delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "loud",
+        "tone": "indifferent",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. You are very worried but trying to hide it behind a loud, indifferent tone. You're overcompensating with volume.",
+          "text": "ВНИМАНИЕ ВСЕМ, ПОЕЗД ОТПРАВЛЯЕТСЯ ЧЕРЕЗ ПЯТЬ МИНУТ. НЕ ОПАЗДЫВАЙТЕ.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The mundane announcement text is a good canvas for the complex emotional state."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your character is secretly anxious but forces a facade of nonchalance by speaking in an overly loud and detached voice.",
+          "text": "НЕ ЗАБУДЬТЕ, ЧТО ЗАВТРА МАГАЗИН БУДЕТ ЗАКРЫТ НА УЧЁТ. НИЧЕГО ОСОБЕННОГО.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The mundane announcement text is a good canvas for the complex emotional state."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. You are worried on the inside, but you want to appear completely unaffected. Announce this loudly and with a flat, indifferent tone.",
+          "text": "ПРОСТО НАПОМИНАЮ, ЧТО СРОК СДАЧИ ПРОЕКТА НЕ ИЗМЕНИЛСЯ. РАБОТАЙТЕ СПОКОЙНО.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The mundane announcement text is a good canvas for the complex emotional state."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/age",
+  "language": "de",
+  "source_plan_file": "easy__timbre__direct__atomic__age.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. I want to hear this read in a little girl's voice.",
+      "text": "Pferde können sehr schnell laufen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a little girl's voice; text is a neutral fact about an animal."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. I need this read in a normal adult male voice.",
+      "text": "Die wöchentliche Teambesprechung findet wie gewohnt am Mittwoch statt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a normal adult male voice; text is a neutral schedule notice."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Please read this with an older woman's voice.",
+      "text": "Es sieht so aus, als würde es heute Nachmittag regnen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests an older woman's voice; text is a simple observation about the weather."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Use a standard grown-up's voice for this.",
+      "text": "Lassen Sie den Tee je nach gewünschter Stärke einige Minuten ziehen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a grown-up voice; text explains a simple process."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Please use a child's voice for this sentence.",
+          "text": "Der Elefant ist ein sehr großes Tier.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a child voice; text is a neutral fact about an animal."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Can you make it sound like a young boy is speaking?",
+          "text": "Blau ist die Farbe des Himmels.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a young boy's voice; text is a neutral fact about a color."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. I want to hear this read in a little girl's voice.",
+          "text": "Pferde können sehr schnell laufen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a little girl's voice; text is a neutral fact about an animal."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Please use a standard adult voice.",
+          "text": "Zur Erinnerung: Ihre Besprechung wurde auf morgen um zehn Uhr verschoben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a standard adult voice; text is a neutral schedule reminder."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Read this with a typical adult female voice.",
+          "text": "Vergessen Sie bitte nicht Ihren Zahnarzttermin am Dienstag um 15 Uhr.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a typical adult female voice; text is a neutral appointment reminder."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. I need this read in a normal adult male voice.",
+          "text": "Die wöchentliche Teambesprechung findet wie gewohnt am Mittwoch statt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a normal adult male voice; text is a neutral schedule notice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Can you make this sound like an old man speaking?",
+          "text": "Die Rosen im Garten blühen dieses Jahr besonders schön.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests an old man's voice; text is a neutral observation about a garden."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Please read this with an older woman's voice.",
+          "text": "Es sieht so aus, als würde es heute Nachmittag regnen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests an older woman's voice; text is a simple observation about the weather."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use the voice of an elderly person for this line.",
+          "text": "Die Tomaten brauchen noch ein paar sonnige Tage, um richtig reif zu werden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests an elderly person's voice; text is a simple observation about a garden."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. I'd like this read in a regular adult voice.",
+          "text": "Zuerst kochen Sie Wasser auf und gießen es dann über den Teebeutel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a regular adult voice; text explains a simple process."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Read this with a mature, grown-up voice.",
+          "text": "Schreiben Sie die Adresse deutlich auf den Umschlag und kleben Sie eine Briefmarke darauf.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a mature adult voice; text explains a simple process."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use a standard grown-up's voice for this.",
+          "text": "Lassen Sie den Tee je nach gewünschter Stärke einige Minuten ziehen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a grown-up voice; text explains a simple process."
+          }
+        }
+      ]
+    }
+  ]
+}

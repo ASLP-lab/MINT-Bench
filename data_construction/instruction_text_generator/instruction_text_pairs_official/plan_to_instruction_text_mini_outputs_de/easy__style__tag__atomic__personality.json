@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/personality",
+  "language": "de",
+  "source_plan_file": "easy__style__tag__atomic__personality.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Personality: Cheerful",
+      "text": "Am Wochenende treffe ich mich mit ein paar alten Freunden, das wird bestimmt nett.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Personality: Serious",
+      "text": "Der Bericht muss bis spätestens Freitagmittag eingereicht werden.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Personality: Reserved",
+      "text": "Dieses Muster habe ich schon einmal gesehen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Personality: Confident",
+      "text": "Der grundlegende Mechanismus lässt sich in drei Phasen unterteilen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Personality: Aloof",
+      "text": "Ich hätte gerne die Unterlagen für das Projekt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Personality: Warm",
+      "text": "Die Bibliothek schließt heute um achtzehn Uhr, wie gewohnt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "warm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Personality: Cheerful",
+          "text": "Das Wetter heute ist einfach perfekt für einen Spaziergang im Park.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Personality: Cheerful",
+          "text": "Ich gehe später noch kurz in die Stadt, vielleicht finde ich ja was Schönes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Personality: Cheerful",
+          "text": "Am Wochenende treffe ich mich mit ein paar alten Freunden, das wird bestimmt nett.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Personality: Serious",
+          "text": "Der Bericht muss bis spätestens Freitagmittag eingereicht werden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Personality: Serious",
+          "text": "Die durchschnittliche Temperatur auf der Erdoberfläche beträgt etwa fünfzehn Grad Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Personality: Serious",
+          "text": "Das Gebäude wurde im neunzehnten Jahrhundert nach den Plänen eines bekannten Architekten errichtet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Personality: Reserved",
+          "text": "Dieses Muster habe ich schon einmal gesehen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Personality: Reserved",
+          "text": "Die Farbe ist ziemlich ungewöhnlich.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Personality: Reserved",
+          "text": "Es ist ruhiger hier als ich dachte.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Personality: Confident",
+          "text": "Wenn wir diesen Schritten folgen, werden wir das erwartete Ergebnis erzielen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Personality: Confident",
+          "text": "Die Daten deuten klar auf eine einzige Schlussfolgerung hin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Personality: Confident",
+          "text": "Der grundlegende Mechanismus lässt sich in drei Phasen unterteilen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Personality: Aloof",
+          "text": "Reichen Sie mir bitte das Buch dort.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Personality: Aloof",
+          "text": "Könnten Sie das Fenster schließen?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Personality: Aloof",
+          "text": "Ich hätte gerne die Unterlagen für das Projekt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "warm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Personality: Warm",
+          "text": "Zur Information, die Besprechung am Nachmittag findet in Raum 301 statt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Personality: Warm",
+          "text": "Der nächste Zug nach Hamburg fährt von Gleis sieben ab.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Personality: Warm",
+          "text": "Die Bibliothek schließt heute um achtzehn Uhr, wie gewohnt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

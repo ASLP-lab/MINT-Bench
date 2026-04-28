@@ -1,0 +1,1487 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/static",
+  "language": "es",
+  "source_plan_file": "hard__composite__complex_comp__static.json",
+  "num_input_items": 22,
+  "num_output_items": 22,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Age: elderly, Gender: male, Tone: firm",
+      "text": "La decisión final sobre este asunto ya ha sido comunicada a todas las partes involucradas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Read this with a cheerful female voice, keeping the tempo upbeat and quick.",
+      "text": "Atención a todos los pasajeros, el embarque para el vuelo cuatrocientos dos ha comenzado en la puerta siete.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Imagine you are a spirited child telling a story. Your voice should be high-pitched and full of life.",
+      "text": "El camino de piedras conducía directamente al centro del jardín, donde se encontraba una fuente de agua muy antigua.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high",
+        "texture": "bright",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Your voice should be soft and sorrowful, almost begging.",
+      "text": "¿Hay alguna otra cosa que pueda hacer para cambiar la situación?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "quiet",
+        "emotion": "sad",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Gender: male, Texture: husky, Personality: serious, Tone: indifferent",
+      "text": "El proceso de fotosíntesis convierte la luz solar, el agua y el dióxido de carbono en glucosa y oxígeno.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "husky",
+        "personality": "serious",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Your voice should be female and sound concerned about someone.",
+      "text": "Me di cuenta de que no viniste a la reunión, ¿está todo bien contigo?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Say this with a slow, low-pitched voice that conveys a feeling of letdown.",
+      "text": "Supongo que las cosas no siempre salen como uno las planea.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "speed": "slow",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Gender: male, Texture: deep, Personality: confident",
+      "text": "No hay duda de que esta estrategia nos dará los mejores resultados.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. As an older woman, deliver this line softly and with some hesitation, like you're searching for the right words to describe a memory.",
+      "text": "La casa tenía un olor particular, algo así como a madera vieja y a flores, aunque no estoy segura de qué flores eran.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "volume": "very_quiet",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Say this with an angry but sarcastic tone, at a normal pace.",
+      "text": "Claro, entiendo perfectamente por qué no pudiste hacerlo a tiempo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "sarcastic",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Personality: Gentle, Texture: Soft, Pitch: Normal",
+      "text": "Para regar la planta, vierte el agua lentamente sobre la tierra hasta que esté húmeda al tacto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in strict tag format as required."
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "gentle",
+        "texture": "soft",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. I want you to sound like a young boy who is trying to be quiet because he's afraid. Your voice should be soft and filled with fear.",
+      "text": "El armario de madera tiene una puerta que está un poco abierta y no puedo ver lo que hay dentro de la oscuridad.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "emotion": "fearful",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Say this in a fast, sweet, and teasing female voice, as if you're playfully pointing out a friend's quirk.",
+      "text": "Otra vez dejaste la taza de café justo al borde de la mesa, ¡siempre viviendo al límite!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "tone": "teasing",
+        "texture": "sweet",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Read this slowly and thoughtfully, in a reserved voice at a normal volume.",
+      "text": "La forma en que el autor utiliza el silencio entre los diálogos dice mucho más que las propias palabras, creando una tensión palpable.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "reserved",
+        "volume": "normal",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Tone: Smug, Emotion: Happy, Pitch: High, Gender: Male",
+      "text": "Tal como lo supuse, el último tornillo que faltaba estaba justo debajo del sofá.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in strict tag format as required."
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "smug",
+        "emotion": "happy",
+        "pitch": "high",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Say this very fast and loud, as if you're completely surprised by what you're reading or seeing.",
+      "text": "¡No me lo puedo creer, el pronóstico dice que va a nevar mañana en pleno verano!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "very_fast",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Read this in the voice of a humorous elderly person telling a playful story.",
+      "text": "El otro día mi gato intentó cazar el punto rojo del láser y terminó dando una voltereta tan ridícula que hasta él pareció avergonzado.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "personality": "humorous",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Deliver this in a breathy, feminine voice. The emotion is thoughtful, and the tone is euphemistic, like you're gently delivering some sensitive information.",
+      "text": "Hubo una pequeña reestructuración en el equipo, lo que significa que tu rol va a experimentar algunos cambios.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "breathy",
+        "emotion": "thoughtful",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Pitch: Very Low, Texture: Smoky, Volume: Very Quiet, Speed: Very Slow",
+      "text": "A veces el eco de una decisión no tomada resuena con más fuerza que las consecuencias de las que sí tomamos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is in strict tag format as required."
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "smoky",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Read this in the calm, neutral, and indifferent voice of an adult male giving a technical description.",
+      "text": "El proceso de polimerización se inicia mediante la adición de un catalizador, lo que provoca la unión secuencial de los monómeros para formar la cadena polimérica.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "personality": "calm",
+        "emotion": "neutral",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. You are a female speaker. Your voice is very loud, filled with anger, and has a strong defiant tone.",
+      "text": "Esto se termina aquí y ahora, y mi decisión es final e inamovible.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "angry",
+        "tone": "defiant",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Personality: warm, Tone: urging, Speed: normal",
+      "text": "Anímate y participa, te estamos esperando con muchas ganas para empezar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "warm",
+        "tone": "urging",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Age: elderly, Gender: male, Tone: firm",
+          "text": "La decisión final sobre este asunto ya ha sido comunicada a todas las partes involucradas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Age: elderly, Gender: male, Tone: firm",
+          "text": "El procedimiento estándar debe seguirse sin excepciones para garantizar la consistencia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Age: elderly, Gender: male, Tone: firm",
+          "text": "Bajo ninguna circunstancia se permitirá el acceso a personal no autorizado a esta área.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Deliver this announcement quickly, with a happy and bright female voice.",
+          "text": "Les informamos que el próximo tren con destino a la ciudad llegará en la plataforma número cinco.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Say this as a woman who is excited and speaking at a fast pace.",
+          "text": "La venta de boletos para el evento principal comenzará a las diez de la mañana en la taquilla.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with a cheerful female voice, keeping the tempo upbeat and quick.",
+          "text": "Atención a todos los pasajeros, el embarque para el vuelo cuatrocientos dos ha comenzado en la puerta siete.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high",
+        "texture": "bright",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Use the voice of a lively young child, with a bright quality and a high pitch.",
+          "text": "El sol se reflejaba en la superficie del lago, creando miles de pequeños destellos que se movían con la brisa de la tarde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this as an energetic child would, with a naturally high and clear voice.",
+          "text": "A través de la ventana se podía observar cómo las nubes viajaban por el cielo azul, cambiando de forma constantemente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Imagine you are a spirited child telling a story. Your voice should be high-pitched and full of life.",
+          "text": "El camino de piedras conducía directamente al centro del jardín, donde se encontraba una fuente de agua muy antigua.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "quiet",
+        "emotion": "sad",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this quietly, with a sad and pleading tone in your voice.",
+          "text": "Solo necesito un momento más para entender lo que pasó.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your voice should be soft and sorrowful, almost begging.",
+          "text": "¿Hay alguna otra cosa que pueda hacer para cambiar la situación?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this line with a quiet sense of sadness and an imploring quality.",
+          "text": "Déjame intentar arreglarlo una última vez, eso es todo lo que pido.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "husky",
+        "personality": "serious",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Gender: male, Texture: husky, Personality: serious, Tone: indifferent",
+          "text": "El proceso de fotosíntesis convierte la luz solar, el agua y el dióxido de carbono en glucosa y oxígeno.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Gender: male, Texture: husky, Personality: serious, Tone: indifferent",
+          "text": "La teoría de la relatividad alteró fundamentalmente la comprensión de la física sobre el espacio y el tiempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Gender: male, Texture: husky, Personality: serious, Tone: indifferent",
+          "text": "El sistema operativo gestiona los recursos de hardware y software del ordenador, proporcionando servicios comunes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. As an adult woman, ask this question with a worried tone.",
+          "text": "¿Has tenido noticias de él? No ha respondido mis mensajes desde ayer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your voice should be female and sound concerned about someone.",
+          "text": "Me di cuenta de que no viniste a la reunión, ¿está todo bien contigo?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this line like a woman who is feeling anxious for someone's sake.",
+          "text": "¿Estás seguro de que te sientes bien para hacer el viaje solo?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "speed": "slow",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this slowly, in a low pitch, with a tone of disappointment.",
+          "text": "Así que, después de todo el esfuerzo, este es el resultado final.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your voice should be low and your pace deliberate, as if you are reflecting on a disappointing result.",
+          "text": "No era exactamente lo que tenía en mente cuando empezamos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Say this with a slow, low-pitched voice that conveys a feeling of letdown.",
+          "text": "Supongo que las cosas no siempre salen como uno las planea.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Gender: male, Texture: deep, Personality: confident",
+          "text": "Me parece que la mejor opción es seguir el plan original sin cambios.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Gender: male, Texture: deep, Personality: confident",
+          "text": "Desde mi punto de vista, la película tiene un guion bastante predecible.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Gender: male, Texture: deep, Personality: confident",
+          "text": "No hay duda de que esta estrategia nos dará los mejores resultados.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "volume": "very_quiet",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Your voice should be that of an elderly woman speaking very quietly and hesitantly, as if trying to recall something.",
+          "text": "Recuerdo que había un árbol grande al final de la calle, o quizás... no, creo que estaba más cerca de la casa de la esquina.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. As an older woman, deliver this line softly and with some hesitation, like you're searching for the right words to describe a memory.",
+          "text": "La casa tenía un olor particular, algo así como a madera vieja y a flores, aunque no estoy segura de qué flores eran.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Use a very quiet, hesitant voice for an elderly female character who is thinking back to the distant past.",
+          "text": "En aquel entonces, solíamos caminar por ese sendero todos los días, pero los detalles exactos se han vuelto un poco borrosos con el tiempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "sarcastic",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this with an angry but sarcastic tone, at a normal pace.",
+          "text": "Claro, entiendo perfectamente por qué no pudiste hacerlo a tiempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your voice should convey sarcasm masking anger. Keep the speed of your speech normal.",
+          "text": "Oh, qué explicación tan conveniente para lo que sucedió.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this line with controlled anger and a heavy dose of sarcasm, speaking at a regular speed.",
+          "text": "No te preocupes, estoy seguro de que tenías una muy buena razón.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "gentle",
+        "texture": "soft",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: Gentle, Texture: Soft, Pitch: Normal",
+          "text": "Para regar la planta, vierte el agua lentamente sobre la tierra hasta que esté húmeda al tacto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: Gentle, Texture: Soft, Pitch: Normal",
+          "text": "Asegúrate de que el agua llegue a todas las raíces, regando de manera uniforme alrededor de la base de la planta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: Gentle, Texture: Soft, Pitch: Normal",
+          "text": "Evita mojar las hojas directamente; es mejor concentrar el riego en la tierra que la rodea.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "emotion": "fearful",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this as a young boy who is scared of something in the room, speaking in a quiet, fearful whisper.",
+          "text": "Esa silla grande en la esquina de la habitación tiene una sombra muy larga que se mueve un poco cuando la luz parpadea.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver the line in the voice of a little boy, sounding frightened and speaking very quietly, almost whispering.",
+          "text": "Hay un perchero junto a la puerta y la ropa colgada parece una persona alta y delgada que está parada sin moverse.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. I want you to sound like a young boy who is trying to be quiet because he's afraid. Your voice should be soft and filled with fear.",
+          "text": "El armario de madera tiene una puerta que está un poco abierta y no puedo ver lo que hay dentro de la oscuridad.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "tone": "teasing",
+        "texture": "sweet",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in a fast, sweet, and teasing female voice, as if you're playfully pointing out a friend's quirk.",
+          "text": "Otra vez dejaste la taza de café justo al borde de la mesa, ¡siempre viviendo al límite!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a quick, light, and sweet-sounding female voice. The tone should be teasing and playful.",
+          "text": "Te conozco, seguro que ya estás pensando en qué postre vas a pedir antes de ver el menú principal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your delivery should be fast and have a sweet quality, with a playfully teasing tone, as a woman speaking to a friend.",
+          "text": "Sabía que ibas a usar esa camisa hoy, es tu uniforme no oficial para los viernes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "reserved",
+        "volume": "normal",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this slowly and thoughtfully, in a reserved voice at a normal volume.",
+          "text": "La forma en que el autor utiliza el silencio entre los diálogos dice mucho más que las propias palabras, creando una tensión palpable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your delivery should be unhurried and measured, sounding like a reserved person sharing a thought at a regular speaking volume.",
+          "text": "Lo que me parece más interesante de esta pintura no son las figuras principales, sino los pequeños detalles casi ocultos en el fondo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Speak at a slow pace and normal volume, with a reserved and contemplative personality.",
+          "text": "La novela explora la idea de la memoria no como un registro fiel, sino como una reconstrucción constante que cambia con el tiempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "smug",
+        "emotion": "happy",
+        "pitch": "high",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Tone: Smug, Emotion: Happy, Pitch: High, Gender: Male",
+          "text": "Ah, aquí estaban. Sabía que había dejado las llaves en el bolsillo de mi otra chaqueta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Tone: Smug, Emotion: Happy, Pitch: High, Gender: Male",
+          "text": "Tal como lo supuse, el último tornillo que faltaba estaba justo debajo del sofá.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Tone: Smug, Emotion: Happy, Pitch: High, Gender: Male",
+          "text": "Lo encontré. El control remoto estaba escondido entre los cojines, como siempre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "very_fast",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this very fast and loud, as if you're completely surprised by what you're reading or seeing.",
+          "text": "¡No me lo puedo creer, el pronóstico dice que va a nevar mañana en pleno verano!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your delivery should be a loud, very quick burst of speech, full of surprise.",
+          "text": "¡Acaban de anunciar que el autobús que siempre llega tarde hoy va cinco minutos adelantado!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with a loud and surprised tone, speaking at a very fast pace.",
+          "text": "¡Mira por la ventana, el cielo se ha puesto de un color anaranjado muy extraño de repente!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "personality": "humorous",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this in the voice of a humorous elderly person telling a playful story.",
+          "text": "El otro día mi gato intentó cazar el punto rojo del láser y terminó dando una voltereta tan ridícula que hasta él pareció avergonzado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Sound like an older person with a good sense of humor, delivering the line with a playful and amused tone.",
+          "text": "Vi a un joven tan concentrado en su teléfono que casi choca con una estatua, y juraría que la estatua se movió un poquito para esquivarlo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Use an elderly voice that is both humorous and playful, as if sharing a funny, light-hearted observation.",
+          "text": "Mi vecino compró uno de esos robots aspiradores, y ahora pasa más tiempo buscando dónde se ha metido el aparato que lo que tardaba en barrer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "breathy",
+        "emotion": "thoughtful",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. As a woman, say this in a thoughtful, breathy voice, using a euphemistic tone to soften what you're saying.",
+          "text": "Bueno, digamos que el proyecto no avanzó exactamente como habíamos planeado desde un principio.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a female voice with a breathy quality. Your tone should be thoughtful and indirect, as if you're trying to phrase something delicately.",
+          "text": "Sobre tu propuesta, hemos decidido explorar otras alternativas que se alinean un poco más con nuestros objetivos actuales.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this in a breathy, feminine voice. The emotion is thoughtful, and the tone is euphemistic, like you're gently delivering some sensitive information.",
+          "text": "Hubo una pequeña reestructuración en el equipo, lo que significa que tu rol va a experimentar algunos cambios.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "smoky",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Pitch: Very Low, Texture: Smoky, Volume: Very Quiet, Speed: Very Slow",
+          "text": "A veces el eco de una decisión no tomada resuena con más fuerza que las consecuencias de las que sí tomamos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Pitch: Very Low, Texture: Smoky, Volume: Very Quiet, Speed: Very Slow",
+          "text": "El tiempo no es una línea recta que avanzamos, sino un paisaje inmenso que solo podemos percibir un instante a la vez.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Pitch: Very Low, Texture: Smoky, Volume: Very Quiet, Speed: Very Slow",
+          "text": "Nos pasamos la vida construyendo puentes, solo para darnos cuenta de que lo más difícil es aprender a cruzar los que otros construyeron para nosotros.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is in strict tag format as required."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "personality": "calm",
+        "emotion": "neutral",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this in the calm, neutral, and indifferent voice of an adult male giving a technical description.",
+          "text": "El proceso de polimerización se inicia mediante la adición de un catalizador, lo que provoca la unión secuencial de los monómeros para formar la cadena polimérica.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a calm, emotionally neutral male voice. Your tone should be indifferent, as if simply stating a fact without any personal investment.",
+          "text": "El sistema operativo asigna recursos de memoria y tiempo de procesador a las diferentes tareas en ejecución, siguiendo un algoritmo de planificación predeterminado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. As an adult man, deliver this line with a calm demeanor, a neutral emotion, and a tone of complete indifference.",
+          "text": "La impedancia del circuito se calcula como la suma vectorial de la resistencia y la reactancia, determinando la oposición total al paso de la corriente alterna.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "angry",
+        "tone": "defiant",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Deliver this as a woman shouting with defiant anger.",
+          "text": "¡No me van a silenciar, y no daré ni un paso atrás, jamás!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Use a female voice. The delivery should be very loud, furious, and refusing to back down.",
+          "text": "¡Basta ya! No toleraré ni una sola palabra más sobre este asunto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. You are a female speaker. Your voice is very loud, filled with anger, and has a strong defiant tone.",
+          "text": "Esto se termina aquí y ahora, y mi decisión es final e inamovible.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "warm",
+        "tone": "urging",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Personality: warm, Tone: urging, Speed: normal",
+          "text": "¿Por qué no vienes con nosotros? Será muy divertido, de verdad, no te arrepentirás.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Personality: warm, Tone: urging, Speed: normal",
+          "text": "Anímate y participa, te estamos esperando con muchas ganas para empezar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Personality: warm, Tone: urging, Speed: normal",
+          "text": "Vamos, únete al grupo. La experiencia será mucho mejor si estás aquí con todos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

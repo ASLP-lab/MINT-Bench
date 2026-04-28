@@ -1,0 +1,411 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "ru",
+  "generation_summary": {
+    "num_items": 11,
+    "domain": "composite",
+    "difficulty": "hard",
+    "notes": "Planning for dynamic changes in one or more vocal attributes over the course of an utterance. All items require long text and direct instructions. Language is Russian, requiring English instructions with a language cue."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "start slow, gradually accelerate to very fast"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "Text must be a single, long sentence with multiple clauses, allowing for a smooth acceleration.",
+        "Text content must be neutral and not imply speed.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction must describe a gradual acceleration, starting slow and ending very fast.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "volume": "begin very quiet and build up to very loud"
+      },
+      "aux_values": {},
+      "text_semantic": "dramatic_monologue",
+      "text_length": "long",
+      "text_constraints": [
+        "Text should have a clear build-up in its structure, suitable for a crescendo.",
+        "Avoid words that explicitly describe volume like 'loud' or 'quiet'.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction should describe a steady increase in volume from a whisper to a shout.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "pitch",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "pitch": "start low and rise to high",
+        "emotion": "from neutral to worried, then to fearful"
+      },
+      "aux_values": {},
+      "text_semantic": "descriptive_narrative",
+      "text_length": "long",
+      "text_constraints": [
+        "The narrative should have three distinct parts corresponding to the emotional shift.",
+        "Lexical content should not explicitly name the emotions.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction must specify the parallel progression of pitch and emotion.",
+        "The emotional shift should be described in stages: neutral -> worried -> fearful.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed",
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "start fast and then slow down to a crawl",
+        "tone": "begin with a firm tone that becomes hesitant"
+      },
+      "aux_values": {},
+      "text_semantic": "public_speaking_excerpt",
+      "text_length": "long",
+      "text_constraints": [
+        "Text should be a statement of belief or a proposal, which allows for a shift in confidence.",
+        "Avoid words that show hesitation like 'um' or 'er'.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction must link the change in speed with the change in tone, suggesting a loss of confidence.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "volume",
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "start angry, then transition to sad, and end on a thoughtful note",
+        "volume": "start loud, end quiet",
+        "speed": "start fast, end slow"
+      },
+      "aux_values": {},
+      "text_semantic": "personal_reflection",
+      "text_length": "long",
+      "text_constraints": [
+        "Text should be a reflection on a past event, suitable for a complex emotional journey.",
+        "Avoid explicit emotion words.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction must describe a three-stage emotional progression from angry to sad to thoughtful.",
+        "It should also mention the accompanying decrease in volume and speed.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "alternate between a pleading tone and a defiant tone"
+      },
+      "aux_values": {},
+      "text_semantic": "argumentative_dialogue",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be structured into clauses or short sentences that can be delivered with alternating tones.",
+        "The content should be about a negotiation or disagreement.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction should specify the oscillation between two distinct tones (pleading and defiant).",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "pitch",
+        "speed",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "pitch": "normal, then drops to very low, then suddenly very high",
+        "speed": "normal, then very slow, then suddenly very fast",
+        "volume": "normal, then very quiet, then suddenly very loud"
+      },
+      "aux_values": {},
+      "text_semantic": "storytelling_snippet",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a short, suspenseful story with a clear build-up and a surprising climax.",
+        "The structure should support the three distinct delivery phases.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction should describe a three-part dynamic sequence for a suspenseful effect: a normal start, a slow/quiet build-up, and a sudden loud/fast climax.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "start happy, but end sad",
+        "tone": "change from playful to disappointed"
+      },
+      "aux_values": {},
+      "text_semantic": "reaction_to_news",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a reaction to receiving some information, where the initial part expresses excitement and the latter part expresses disappointment.",
+        "Avoid words like 'happy' or 'sad'.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction needs to specify a clear turning point in the middle of the utterance.",
+        "The shift should be from a happy/playful state to a sad/disappointed one.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed",
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "start fast and then become slow",
+        "tone": "begin with an urging tone, but then shift to a complaining one"
+      },
+      "aux_values": {},
+      "text_semantic": "giving_instructions",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a set of instructions that starts with urgency but trails off into a complaint about the task's difficulty or pointlessness.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction should detail the shift from fast and urging to slow and complaining.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "volume",
+        "pitch",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "volume": "fluctuate between normal and loud",
+        "pitch": "fluctuate between normal and high",
+        "emotion": "surprised"
+      },
+      "aux_values": {},
+      "text_semantic": "recounting_an_event",
+      "text_length": "long",
+      "text_constraints": [
+        "Text should describe an exciting or surprising event, with plenty of details to emphasize.",
+        "The structure should not be monotonous.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction should describe a continuous fluctuation in volume and pitch to convey excitement/surprise.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "volume",
+        "pitch"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "start happy, but gradually fade to neutral",
+        "volume": "start loud and gradually fade to very quiet",
+        "pitch": "start high and gradually fall to low"
+      },
+      "aux_values": {},
+      "text_semantic": "end_of_day_report",
+      "text_length": "long",
+      "text_constraints": [
+        "Text could be someone recounting their day, starting with the exciting parts and ending with the mundane, tiring parts.",
+        "final text must be written in Russian",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruction must specify a gradual decline in emotional intensity, volume, and pitch, conveying a sense of becoming tired or losing energy.",
+        "Instruction must cue the target language 'Russian'.",
+        "final instruction must be in English and should begin with 'Speak in Russian.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

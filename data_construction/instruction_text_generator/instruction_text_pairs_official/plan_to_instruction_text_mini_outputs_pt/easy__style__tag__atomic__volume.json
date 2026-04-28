@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/volume",
+  "language": "pt",
+  "source_plan_file": "easy__style__tag__atomic__volume.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Volume: Very Quiet",
+      "text": "É curioso como a memória seleciona certos momentos para guardar, enquanto outros simplesmente desaparecem.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Volume: Quiet",
+      "text": "Os elefantes são os maiores mamíferos terrestres que existem atualmente no planeta.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Volume: Loud",
+      "text": "O portão de embarque foi alterado para o número sete.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Volume: Very Loud",
+      "text": "Afastem-se da beira da plataforma, o comboio está a chegar em alta velocidade.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard generation."
+      },
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Volume: Very Quiet",
+          "text": "Às vezes, penso em como as coisas poderiam ter sido diferentes se eu tivesse feito outras escolhas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Volume: Very Quiet",
+          "text": "É curioso como a memória seleciona certos momentos para guardar, enquanto outros simplesmente desaparecem.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Volume: Very Quiet",
+          "text": "A passagem do tempo parece acelerar à medida que envelhecemos, uma observação comum, mas ainda assim profunda.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Volume: Quiet",
+          "text": "A capital do Brasil é Brasília, e foi inaugurada em mil novecentos e sessenta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Volume: Quiet",
+          "text": "O ciclo da água envolve a evaporação, condensação, precipitação e coleta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Volume: Quiet",
+          "text": "Os elefantes são os maiores mamíferos terrestres que existem atualmente no planeta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Volume: Loud",
+          "text": "O próximo comboio parte dentro de cinco minutos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Volume: Loud",
+          "text": "Todos os funcionários devem comparecer à reunião.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Volume: Loud",
+          "text": "O portão de embarque foi alterado para o número sete.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Volume: Very Loud",
+          "text": "Larguem tudo o que estão a fazer e saiam do edifício imediatamente!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Volume: Very Loud",
+          "text": "Afastem-se da beira da plataforma, o comboio está a chegar em alta velocidade.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Volume: Very Loud",
+          "text": "Tragam os extintores de incêndio para este lado o mais rápido possível!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard generation."
+          }
+        }
+      ]
+    }
+  ]
+}

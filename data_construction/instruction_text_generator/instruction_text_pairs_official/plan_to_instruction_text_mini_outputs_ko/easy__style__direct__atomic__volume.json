@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/volume",
+  "language": "ko",
+  "source_plan_file": "easy__style__direct__atomic__volume.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Use a hushed, almost inaudible voice for this line.",
+      "text": "그날의 풍경이 아직도 눈앞에 선하다. 모든 색깔과 소리가 그대로 기억난다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a hushed voice; text is a neutral reflection."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Use a low volume, speaking softly.",
+      "text": "오늘 도착한 우편물은 각자 자리 위에서 확인하실 수 있습니다. 중요한 서류가 있을 수 있으니 꼭 살펴보세요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a low volume; text is a neutral daily notice."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Project your voice so that people in the back of the room can hear.",
+      "text": "모든 참가자분들께서는 지금부터 배부해 드린 자료를 참고해 주시기 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction specifies projecting to the back of a room; text is a neutral announcement."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Shout this out, as if you're trying to be heard over a lot of noise.",
+      "text": "이쪽으로 옮겨주세요!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests shouting over noise; text is a simple command."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this in a very quiet whisper.",
+          "text": "시간이 이렇게 빨리 지나갈 줄은 정말 몰랐다. 가끔은 모든 것이 꿈만 같다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a whisper; text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a hushed, almost inaudible voice for this line.",
+          "text": "그날의 풍경이 아직도 눈앞에 선하다. 모든 색깔과 소리가 그대로 기억난다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a hushed voice; text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this as if you're whispering a thought to yourself.",
+          "text": "돌이켜보면, 그때의 나는 지금과는 참 많이 달랐구나. 모든 게 낯설게 느껴진다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction frames whispering as self-talk; text is a neutral reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this in a quiet, soft voice.",
+          "text": "내일 오전 회의는 삼십 분 앞당겨져 아홉 시에 시작합니다. 모두 시간 맞춰 참석해 주세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a quiet voice; text is a neutral daily notice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a low volume, speaking softly.",
+          "text": "오늘 도착한 우편물은 각자 자리 위에서 확인하실 수 있습니다. 중요한 서류가 있을 수 있으니 꼭 살펴보세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a low volume; text is a neutral daily notice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. I need this spoken quietly, but not whispered.",
+          "text": "이번 주 금요일 저녁에 시스템 정기 점검이 있을 예정입니다. 작업 시간 동안 서비스 이용이 중단됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifically requests quiet (not whisper); text is a neutral daily notice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this loudly and clearly, as if you're making an announcement to a small group.",
+          "text": "잠시 후 저희는 다음 장소로 이동하겠습니다. 버스는 저쪽 주차장에 대기 중입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies projecting to a small group; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Project your voice so that people in the back of the room can hear.",
+          "text": "모든 참가자분들께서는 지금부터 배부해 드린 자료를 참고해 주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies projecting to the back of a room; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speak in a loud, clear voice, but don't shout.",
+          "text": "행사가 곧 시작될 예정이오니, 자리에 앉아 잠시만 기다려주시면 감사하겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies loud but not shouting; text is a neutral announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Shout this out, as if you're trying to be heard over a lot of noise.",
+          "text": "이쪽으로 옮겨주세요!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests shouting over noise; text is a simple command."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a very loud voice, like you are calling out to someone far away.",
+          "text": "지금 바로 출발해야 합니다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies calling to someone far away; text is a simple command."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Yell this text at maximum volume.",
+          "text": "모두 뒤로 물러서세요!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests maximum volume; text is a simple command."
+          }
+        }
+      ]
+    }
+  ]
+}

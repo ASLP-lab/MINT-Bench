@@ -1,0 +1,633 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "ja",
+  "source_plan_file": "special__extra_vocal__explicit_nv.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your voice should sound frail and unwell, making it a bit of an effort to speak.",
+      "text": "データを分析した結果、[cough] 興味深いパターンが見つかりました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a sick state, text has the tag."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "cough"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Recount this story with a warm, amused tone, as if remembering something funny that happened.",
+      "text": "猫が突然キーボードの上を歩き始めて、[chuckle] 画面に意味不明の文字が並んだんです。結局、[laugh] それがパスワードになってしまいました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes amusement, text has the tags."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "chuckle, laugh"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Read this with a sense of exhaustion and reluctant acceptance.",
+      "text": "また月曜日が来てしまった。[sigh] 今週も頑張るしかないか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes weariness, text has the tag."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sigh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your voice should be thick with unshed tears, making it difficult to speak clearly.",
+      "text": "時計の針が、[sobbing] ただ静かに進んでいく。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a sad, breaking voice, text has the tag."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sobbing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Read this with a very sleepy and bored tone of voice, as if you're about to fall asleep.",
+      "text": "このプロセスの第一段階は、[yawn] 全てのデータを収集し、それを正規化することから始まります。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes sleepiness, text has the tag."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "yawn"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Adopt a composed and authoritative voice, as if about to address a group of people.",
+      "text": "[throat_clearing] それでは、会議を始めさせていただきます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a formal, preparatory tone, text has the tag."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Deliver this line with a sharp intake of breath, full of surprise.",
+      "text": "ちょっと待って、[gasp] 今、何かが動いたような気がした。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes shock/surprise, text has the tag."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "gasp"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Read this with a shaky, emotional voice that betrays your sadness, even as you try to hide it.",
+      "text": "すぐに良くなるから、[sniffle] だから、そんな顔しないで。[whimper]",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes suppressed sadness, text has the tags."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sniffle, whimper"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Deliver this message in a hurried, breathless way, as if you've just run a long distance.",
+      "text": "[panting] みんな、[panting] 早くこっちに来て！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a breathless state, text has the tags."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "panting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Use a secretive, low-volume voice, speaking so as not to be overheard.",
+      "text": "[whisper] これが、例の計画の全貌です。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction asks for a quiet, hushed tone, text has the tag."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "whisper"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "cough"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read the text in a weak and sickly voice, as if you have a bad cold.",
+          "text": "この手順は、まず最初のステップを完了してから [cough] 次に進む必要があります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sick state, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound frail and unwell, making it a bit of an effort to speak.",
+          "text": "データを分析した結果、[cough] 興味深いパターンが見つかりました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sick state, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver the line with a raspy, unhealthy-sounding voice, like you're feeling under the weather.",
+          "text": "申し訳ありませんが、[cough] その書類は明日までにお渡しします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sick state, text has the tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "chuckle, laugh"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Recount this story with a warm, amused tone, as if remembering something funny that happened.",
+          "text": "猫が突然キーボードの上を歩き始めて、[chuckle] 画面に意味不明の文字が並んだんです。結局、[laugh] それがパスワードになってしまいました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes amusement, text has the tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speak with a lighthearted and cheerful voice, filled with mirth from a fond memory.",
+          "text": "子供の頃、兄は隠れているつもりが、[chuckle] 足だけがカーテンから見えていました。本当に面白くて [laugh] みんなで大喜びしました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes amusement, text has the tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your delivery should be bright and smiling, barely holding back your amusement as you tell the story.",
+          "text": "彼は真面目な顔で冗談を言うから、[chuckle] 最初は誰も気づかないんです。後からじわじわきて、[laugh] いつも耐えられなくなります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes amusement, text has the tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sigh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this with a tired, weary voice, full of resignation.",
+          "text": "やっと週末だけど、[sigh] やらなきゃいけない家事が山積みだ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes weariness, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your tone should be drained and fatigued, as if you've just finished a very long day.",
+          "text": "この報告書、まだ半分も終わっていないなんて。[sigh] 今夜は徹夜かな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes weariness, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Read this with a sense of exhaustion and reluctant acceptance.",
+          "text": "また月曜日が来てしまった。[sigh] 今週も頑張るしかないか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes weariness, text has the tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sobbing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver this line with a deeply emotional, breaking voice, as if you are overwhelmed with sadness.",
+          "text": "窓の外は、[sobbing] いつもと同じように晴れている。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sad, breaking voice, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should be thick with unshed tears, making it difficult to speak clearly.",
+          "text": "時計の針が、[sobbing] ただ静かに進んでいく。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sad, breaking voice, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speak as though you are trying to hold back immense grief, but your voice keeps cracking.",
+          "text": "あの公園のベンチには、[sobbing] もう誰も座っていない。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sad, breaking voice, text has the tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "yawn"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this with a very sleepy and bored tone of voice, as if you're about to fall asleep.",
+          "text": "このプロセスの第一段階は、[yawn] 全てのデータを収集し、それを正規化することから始まります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes sleepiness, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should be slow and monotonous, heavy with fatigue.",
+          "text": "年次予算報告書は、[yawn] 各部門からの提出物を集計し、その後、取締役会に提出されます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes sleepiness, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this explanation in a drowsy, disinterested manner, struggling to stay awake.",
+          "text": "この歴史的文書によれば、[yawn] 当時の貿易ルートは主に海路に依存していました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes sleepiness, text has the tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this in a formal, deliberate tone, as if preparing to make an important announcement.",
+          "text": "[throat_clearing] 皆様、本日はお集まりいただき、誠にありがとうございます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a formal, preparatory tone, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your delivery should be measured and serious, pausing slightly before you begin to speak.",
+          "text": "[throat_clearing] これより、第三四半期の業績についてご報告いたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a formal, preparatory tone, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Adopt a composed and authoritative voice, as if about to address a group of people.",
+          "text": "[throat_clearing] それでは、会議を始めさせていただきます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a formal, preparatory tone, text has the tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "gasp"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this with a shocked and surprised tone, as if you just saw something unbelievable.",
+          "text": "あれ、見て。[gasp] 空の色が急に変わった。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes shock/surprise, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should convey sudden astonishment and disbelief.",
+          "text": "まさか、[gasp] こんなところに鍵があったなんて。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes shock/surprise, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this line with a sharp intake of breath, full of surprise.",
+          "text": "ちょっと待って、[gasp] 今、何かが動いたような気がした。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes shock/surprise, text has the tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sniffle, whimper"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speak as if you're trying to sound brave and reassuring, but your voice is trembling and on the verge of tears.",
+          "text": "大丈夫、[sniffle] 私は本当に平気だから。心配しないで。[whimper]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes suppressed sadness, text has the tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound fragile and upset, despite trying to put on a strong front.",
+          "text": "ううん、何でもないの。[sniffle] ちょっと目にゴミが入っただけ。[whimper]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes suppressed sadness, text has the tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Read this with a shaky, emotional voice that betrays your sadness, even as you try to hide it.",
+          "text": "すぐに良くなるから、[sniffle] だから、そんな顔しないで。[whimper]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes suppressed sadness, text has the tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "panting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver this message in a hurried, breathless way, as if you've just run a long distance.",
+          "text": "[panting] みんな、[panting] 早くこっちに来て！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a breathless state, text has the tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your speech should be rushed and choppy, struggling to get the words out between short, sharp breaths.",
+          "text": "[panting] もう時間がない、[panting] 急がないと！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a breathless state, text has the tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speak with urgency, your voice strained from physical exertion.",
+          "text": "[panting] 荷物は置いていけ！[panting] 逃げるんだ！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a breathless state, text has the tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "whisper"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver this line in a very quiet, hushed tone, as if sharing a secret.",
+          "text": "[whisper] このことは、誰にも言わないでくださいね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction asks for a quiet, hushed tone, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a secretive, low-volume voice, speaking so as not to be overheard.",
+          "text": "[whisper] これが、例の計画の全貌です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction asks for a quiet, hushed tone, text has the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice should be a breathy, quiet murmur, full of confidentiality.",
+          "text": "[whisper] 今夜、午前三時に裏口で会いましょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction asks for a quiet, hushed tone, text has the tag."
+          }
+        }
+      ]
+    }
+  ]
+}

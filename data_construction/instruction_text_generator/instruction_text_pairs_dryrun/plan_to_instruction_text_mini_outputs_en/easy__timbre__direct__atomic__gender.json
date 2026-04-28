@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "en",
+  "source_plan_file": "easy__timbre__direct__atomic__gender.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Read this with a male voice.",
+      "text": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Meets all constraints."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with a male voice.",
+          "text": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Please use a male voice to say the following sentence.",
+          "text": "The Amazon River is the largest river by discharge volume of water in the world.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Can you generate this with a male voice?",
+          "text": "The printing press, invented in the 15th century, revolutionized modern communication.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I want to hear this in a female voice.",
+          "text": "Please remember that the library will close at five p.m. today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Generate the following text with a female voice.",
+          "text": "The weekly team meeting has been rescheduled for tomorrow morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a female voice for this.",
+          "text": "Don't forget to submit your timesheets by the end of the day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in a man's voice.",
+          "text": "Could you please tell me where the nearest bus stop is?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I'd like to hear this in a man's voice.",
+          "text": "What time does the next train to the city center depart?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Can you say this using a man's voice?",
+          "text": "Can you help me find the section for reference books?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Use a woman's voice for the following explanation.",
+          "text": "Photosynthesis is the process used by plants to convert light energy into chemical energy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want this read by a woman's voice.",
+          "text": "The water cycle describes the continuous movement of water on, above, and below the surface of the Earth.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Can you render this in a woman's voice?",
+          "text": "To begin, you first need to connect the device to a stable power source using the provided cable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Meets all constraints."
+          }
+        }
+      ]
+    }
+  ]
+}

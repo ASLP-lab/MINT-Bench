@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/personality",
+  "language": "ru",
+  "source_plan_file": "easy__style__direct__atomic__personality.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Read the text with a bright, cheerful tone.",
+      "text": "Напоминаем, что с завтрашнего дня в нашем районе будут проводиться плановые работы по благоустройству территории.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Read the text in a straightforward, serious manner.",
+      "text": "Результаты исследования показывают, что данный материал обладает высокой прочностью на разрыв.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Your tone should be quiet and reserved.",
+      "text": "Кажется, я начинаю понимать эту закономерность.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Your manner should be self-assured and firm.",
+      "text": "Вся команда согласилась с предложенным планом, и мы начнем работу с понедельника.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Read this with a cool, distant personality.",
+      "text": "Можно мне посмотреть этот документ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Your tone should be warm and approachable.",
+      "text": "Основная причина этого изменения заключается в повышении общей эффективности работы.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "warm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this with a cheerful and upbeat personality.",
+          "text": "Пожалуйста, не забудьте, что собрание жильцов состоится в эту среду в семь часов вечера в главном зале.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Read the text with a bright, cheerful tone.",
+          "text": "Напоминаем, что с завтрашнего дня в нашем районе будут проводиться плановые работы по благоустройству территории.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your personality is cheerful and optimistic.",
+          "text": "Внимание, уважаемые посетители! Наш центр закрывается через пятнадцать минут. Просим вас завершить покупки.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this line with a serious and sober personality.",
+          "text": "Согласно последним данным, средняя температура в этом месяце была на два градуса выше нормы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Read the text in a straightforward, serious manner.",
+          "text": "Результаты исследования показывают, что данный материал обладает высокой прочностью на разрыв.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your tone should be serious and matter-of-fact.",
+          "text": "Строительство нового моста через реку планируется завершить к концу следующего года.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read this with a reserved and thoughtful personality.",
+          "text": "Иногда тишина говорит больше, чем слова.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your tone should be quiet and reserved.",
+          "text": "Кажется, я начинаю понимать эту закономерность.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak in an introverted, slightly withdrawn manner.",
+          "text": "Нужно будет обдумать это еще раз.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this announcement with a confident, assured voice.",
+          "text": "Я подготовил все необходимые документы для завтрашней презентации, они уже у вас на почте.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Read the text with confidence and conviction.",
+          "text": "Мы проанализировали все риски и готовы приступить к реализации проекта в установленные сроки.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your manner should be self-assured and firm.",
+          "text": "Вся команда согласилась с предложенным планом, и мы начнем работу с понедельника.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Make this request with an aloof and detached tone.",
+          "text": "Передайте мне, пожалуйста, ту папку.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Read this with a cool, distant personality.",
+          "text": "Можно мне посмотреть этот документ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your voice should sound detached and uninterested.",
+          "text": "Оставьте это на столе, я потом заберу.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "warm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this with a warm and friendly personality.",
+          "text": "Эта система была разработана для того, чтобы упростить процесс подачи заявок для всех.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your tone should be warm and approachable.",
+          "text": "Основная причина этого изменения заключается в повышении общей эффективности работы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Read this explanation in a gentle, warm voice.",
+          "text": "Всё, что вам нужно сделать, это следовать инструкциям, которые вы найдете на первой странице.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

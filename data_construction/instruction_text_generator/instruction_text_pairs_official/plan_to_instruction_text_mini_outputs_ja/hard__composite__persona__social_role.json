@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "ja",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Read the text as a teacher patiently explaining a new topic to their students.",
+      "text": "光合成とは、植物が光エネルギーを化学エネルギーに変換するプロセスのことです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for a teacher persona."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Deliver the text in the clear, professional voice of a public announcer.",
+      "text": "まもなく、2番線に新宿方面行きの電車がまいります。ご注意ください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for an announcer persona."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Imagine you're a vendor at a festival, shouting enthusiastically to sell your food.",
+      "text": "今日のはこれが最後だよ！石焼き芋、すっごく甘いよ！お見逃しなく！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for a street vendor persona."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Adopt the tone of a very helpful and calm call center agent speaking to a customer.",
+      "text": "ご心配のことと存じます。ただいま、ご注文の状況を確認いたしますので、少々お待ちいただけますでしょうか。すぐに戻ってまいります。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for a customer service agent."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Perform this with the bright, cheerful, and informative voice of a tour guide.",
+      "text": "そして今、私たちは嵐山の竹林に到着いたしました。この道を歩くと、まるで別世界に足を踏み入れたかのような気分になります。静かな雰囲気をお楽しみください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for a tour guide persona."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Adopt a gentle and professional tone, like a doctor giving some simple lifestyle advice.",
+      "text": "バランスの取れた食事を続けることが大切ですよ。毎日のお食事に、もっと野菜を取り入れるようにしてみてください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for a doctor persona."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Use a fast, energetic, and staccato voice, like someone running an auction.",
+      "text": "二百万円、現在二百万円です。二百五十万の方はいらっしゃいませんか？二百五十万！三百万、三百万の方！はい、三百万円です！最後の呼び出しです、売れました！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for an auctioneer."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Use a casual and conversational tone, as if you're a podcast host talking directly to your listeners.",
+      "text": "というわけで、今日のエピソードはここまでです。最後まで聴いてくださって、本当にありがとうございました。何か感想があれば、ぜひソーシャルメディアで教えてくださいね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for a podcast host."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Sound like an excited and interactive live streamer talking to their online audience.",
+      "text": "よっしゃー！ついにボスを倒したぞ！みんな、チャットでアドバイスくれてありがとう！一緒にクリアしたね！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan for a live streamer."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read the text as a teacher patiently explaining a new topic to their students.",
+          "text": "光合成とは、植物が光エネルギーを化学エネルギーに変換するプロセスのことです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a teacher persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Adopt the voice of a kind teacher clearly explaining a concept to the class.",
+          "text": "物質の三態とは、固体、液体、そして気体のことです。水がその良い例ですね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a teacher persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Imagine you are a school teacher. Speak in a patient and clear tone to help your students understand.",
+          "text": "ローマ帝国は古代史上最も強力な帝国の一つで、千年以上も続きました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a teacher persona."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver the text in the clear, professional voice of a public announcer.",
+          "text": "まもなく、2番線に新宿方面行きの電車がまいります。ご注意ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for an announcer persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Read the text with the formal and polite tone of an announcer in a department store.",
+          "text": "お客様にお知らせいたします。当店の営業は、まもなく終了となります。本日はご来店いただき、誠にありがとうございました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for an announcer persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a crisp, official announcer's voice, like one you'd hear at a public event.",
+          "text": "ご来場の皆様にお願いいたします。会場内でのフラッシュ撮影はご遠慮ください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for an announcer persona."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Perform this line as an energetic street vendor calling out to people passing by.",
+          "text": "さあ、いらっしゃい、いらっしゃい！焼きたてのたこ焼き、熱々だよ！いかがですか？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a street vendor persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Sound like a food stall vendor, speaking with a loud, friendly, and inviting voice.",
+          "text": "うちのスペシャルクレープは町で一番だよ！クリームたっぷりで、美味しいよ！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a street vendor persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Imagine you're a vendor at a festival, shouting enthusiastically to sell your food.",
+          "text": "今日のはこれが最後だよ！石焼き芋、すっごく甘いよ！お見逃しなく！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a street vendor persona."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read the text in the polite, patient, and professional voice of a customer service representative on the phone.",
+          "text": "お電話ありがとうございます。テクニカルサポートでございます。品質向上のため、この通話は録音させていただくことがございます。恐れ入りますが、お客様のお名前と会員番号をお伺いしてもよろしいでしょうか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a customer service agent."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Adopt the tone of a very helpful and calm call center agent speaking to a customer.",
+          "text": "ご心配のことと存じます。ただいま、ご注文の状況を確認いたしますので、少々お待ちいただけますでしょうか。すぐに戻ってまいります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a customer service agent."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a consistently polite and clear voice, like a professional handling a customer inquiry over the phone.",
+          "text": "この度はご不便をおかけし、大変申し訳ございません。問題解決のため、一度、お使いの機器を再起動していただけますでしょうか。手順をご案内いたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a customer service agent."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this as a friendly and enthusiastic tour guide speaking to a group of tourists.",
+          "text": "皆様、右手をご覧ください。こちらが有名な金閣寺、またの名を鹿苑寺と申します。上の二層は、全面に金箔が貼られております。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a tour guide persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Perform this with the bright, cheerful, and informative voice of a tour guide.",
+          "text": "そして今、私たちは嵐山の竹林に到着いたしました。この道を歩くと、まるで別世界に足を踏み入れたかのような気分になります。静かな雰囲気をお楽しみください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a tour guide persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use an engaging and clear voice, like a guide explaining the history of a landmark to their tour group.",
+          "text": "このお城は、もともと400年以上前の江戸時代に建てられました。数々の火災や戦争を乗り越え、今日では街の歴史の象徴として立っています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a tour guide persona."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this in the calm, reassuring, and professional voice of a doctor talking to a patient.",
+          "text": "検査の結果ですが、ただの風邪のようですね。十分な休息と水分補給を心がけてください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a doctor persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Adopt a gentle and professional tone, like a doctor giving some simple lifestyle advice.",
+          "text": "バランスの取れた食事を続けることが大切ですよ。毎日のお食事に、もっと野菜を取り入れるようにしてみてください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a doctor persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Sound like a caring physician calmly explaining something to a patient to ease their worries.",
+          "text": "あなたが説明してくださった症状は、非常によくあるものです。お薬を出しておきますので、数日で楽になるはずですよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a doctor persona."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Perform this in the rapid-fire, rhythmic style of a professional auctioneer.",
+          "text": "百万円、百万円から、百十万の方いらっしゃいますか？百十万、はい！百二十万は？百二十万！さあ、よろしいですか？一度、二度、はい、百十万で落札です！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for an auctioneer."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speak very quickly and clearly, with a consistent rhythm, like an auctioneer calling out bids.",
+          "text": "五十万からスタートです！五十万、五十五万！はい五十五万！六十万！六十万です！他にはいらっしゃいませんか？六十五万！さあ、よろしいですか！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for an auctioneer."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a fast, energetic, and staccato voice, like someone running an auction.",
+          "text": "二百万円、現在二百万円です。二百五十万の方はいらっしゃいませんか？二百五十万！三百万、三百万の方！はい、三百万円です！最後の呼び出しです、売れました！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for an auctioneer."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this in the relaxed, friendly, and engaging style of a podcast host.",
+          "text": "はい、皆さんこんにちは。そして番組へようこそ。今日はですね、本当に面白いテーマを用意しましたので、コーヒーでも飲みながら、ゆっくり始めていきましょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a podcast host."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a casual and conversational tone, as if you're a podcast host talking directly to your listeners.",
+          "text": "というわけで、今日のエピソードはここまでです。最後まで聴いてくださって、本当にありがとうございました。何か感想があれば、ぜひソーシャルメディアで教えてくださいね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a podcast host."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Adopt the voice of a warm and natural podcast host, making the listeners feel welcome.",
+          "text": "今週のポッドキャストでは、多くの皆さんからリクエストがあったテーマを深掘りしていきます。これについての僕の考えを皆さんと共有できるのが、すごく楽しみです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a podcast host."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Perform this with the high energy and cheerful voice of a live streamer reacting to their game.",
+          "text": "うわー、危なかった！みんな、今の見た？たなかさん、スーパーチャットありがとう！やったね！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a live streamer."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Sound like an excited and interactive live streamer talking to their online audience.",
+          "text": "よっしゃー！ついにボスを倒したぞ！みんな、チャットでアドバイスくれてありがとう！一緒にクリアしたね！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a live streamer."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Use a very energetic and friendly tone, as if you're a streamer reading comments from your viewers.",
+          "text": "え、僕の機材について質問が多いですね。オッケー、じゃあこの試合が終わったら、ささっと見せますね！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan for a live streamer."
+          }
+        }
+      ]
+    }
+  ]
+}

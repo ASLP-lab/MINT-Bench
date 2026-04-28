@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/speed",
+  "language": "ru",
+  "source_plan_file": "easy__style__tag__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Speed: Very Fast",
+      "text": "Российская Федерация была образована в конце тысяча девятьсот девяносто первого года после распада Советского Союза.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Speed: Fast",
+      "text": "Уважаемые посетители, обращаем ваше внимание на изменение часов работы библиотеки со следующей недели.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Speed: Slow",
+      "text": "Звук дождя по крыше создаёт особое настроение.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Speed: Very Slow",
+      "text": "Для нормального роста большинству комнатных растений требуется регулярный полив чистой водой.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Speed: Very Fast",
+          "text": "Волга является самой длинной рекой в Европе, её протяжённость составляет более трёх с половиной тысяч километров.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Speed: Very Fast",
+          "text": "Российская Федерация была образована в конце тысяча девятьсот девяносто первого года после распада Советского Союза.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speed: Very Fast",
+          "text": "Озеро Байкал, расположенное в южной части Восточной Сибири, является самым глубоким озером на планете.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Speed: Fast",
+          "text": "Уважаемые посетители, обращаем ваше внимание на изменение часов работы библиотеки со следующей недели.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Speed: Fast",
+          "text": "Просим всех отдыхающих в парке убирать за собой мусор и поддерживать чистоту на территории.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speed: Fast",
+          "text": "В связи с проведением дорожных работ маршрут автобуса номер двенадцать временно изменён.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Speed: Slow",
+          "text": "Каждый осенний лист имеет свой уникальный оттенок.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Speed: Slow",
+          "text": "Звук дождя по крыше создаёт особое настроение.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speed: Slow",
+          "text": "Ночное небо было усыпано тысячами ярких звёзд.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Speed: Very Slow",
+          "text": "Чтобы сварить яйцо вкрутую, его нужно опустить в кипящую воду и варить примерно десять минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Speed: Very Slow",
+          "text": "Для нормального роста большинству комнатных растений требуется регулярный полив чистой водой.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speed: Very Slow",
+          "text": "Основная функция холодильника заключается в поддержании низкой температуры для сохранения свежести продуктов.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

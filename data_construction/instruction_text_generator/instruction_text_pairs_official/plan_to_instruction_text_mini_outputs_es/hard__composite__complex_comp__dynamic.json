@@ -1,0 +1,709 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "es",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 11,
+  "num_output_items": 11,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Deliver this with a building sense of urgency, starting slow and methodical, and getting faster and faster until the end.",
+      "text": "Primero, tienes que entender el concepto básico, que es fundamental. Luego, aplicas la fórmula a los datos que te hemos dado. A partir de ahí, los cálculos se vuelven más sencillos y puedes resolver el resto del problema con mucha más agilidad.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "progression: slow -> normal -> fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Start off speaking quietly with a worried tone, but build in volume and intensity, ending in an angry shout.",
+      "text": "Les expliqué la situación una y otra vez, pero parecía que no me escuchaban. Repetí todos los detalles, les mostré los documentos, y aun así no hicieron nada. ¡Es increíble que después de todo eso, todavía me digan que es mi culpa!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "progression: quiet -> loud",
+        "emotion": "progression: worried -> angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. I want you to begin with an unnaturally high-pitched voice, then transition smoothly down to your normal vocal range by the end of the sentence.",
+      "text": "¡Ay, qué susto! Pensé que algo malo había pasado. Pero no, ya veo que estás bien. Menos mal. Vamos a sentarnos un momento, y me cuentas qué ha sucedido con tranquilidad.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "progression: very_high -> high -> normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. As you read this, I want your emotion to change. Begin neutrally, then transition to surprise, and finally to joy.",
+      "text": "Recibí una nota de la oficina central, dice que revise el anexo B. A ver... un momento... ¡No me lo puedo creer! ¡Me han concedido la beca para estudiar en el extranjero el próximo año!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: neutral -> surprised -> happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Begin speaking with a hesitant, uncertain tone, but as you continue, your voice should become firm and decisive.",
+      "text": "He estado pensando mucho en las opciones... y... bueno, no ha sido fácil. Pero después de considerarlo todo, he llegado a una conclusión. Me quedo aquí para terminar el proyecto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "progression: hesitant -> firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Begin this line in a very slow, very quiet manner. As you speak, build to a normal volume and speed, as if a thought is solidifying in your mind.",
+      "text": "Parece que... la vida es una serie de puertas... y al final, no se trata de cuántas abrimos, sino de si tuvimos el coraje de cruzar el umbral de las más importantes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "progression: very_slow -> normal",
+        "volume": "progression: very_quiet -> normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Begin this line in a low-pitched, sad voice. Transition into a more neutral, pensive delivery with a normal pitch by the end.",
+      "text": "Esa casa ya no está, la demolieron hace años. A veces me pregunto si los lugares guardan los ecos de las risas que una vez contuvieron.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: sad -> thoughtful",
+        "pitch": "progression: low -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Begin this line slowly, as if you are begging. Then, your tone should become strong and defiant, and your speaking rate should get faster.",
+      "text": "Te lo ruego, considera lo que te estoy diciendo, es importante para ambos. Pero si no quieres verlo, está bien. ¡Yo seguiré mi propio camino y demostraré que tengo razón!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "progression: pleading -> defiant",
+        "speed": "progression: slow -> fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Deliver this line with a progression of emotions and volume: begin happy and normal, then become worried and quiet, and conclude fearful and very quiet.",
+      "text": "¡Qué bien, por fin llegamos a la cabaña! Es un poco más vieja de lo que recordaba, y la puerta está entreabierta. Un momento... creo que hay alguien adentro.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: happy -> worried -> fearful",
+        "volume": "progression: normal -> quiet -> very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Your delivery needs three distinct phases. Phase one: quiet, slow, thoughtful. Phase two: a furious climax, very loud and very fast. Phase three: quiet, slow, sad resignation.",
+      "text": "Uno intenta construir algo, pieza por pieza, con cuidado. ¡Y luego llegas tú y lo destruyes todo en un segundo sin pensarlo! Y yo... me quedo aquí, entre las ruinas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: thoughtful -> angry -> sad",
+        "speed": "progression: slow -> very_fast -> slow",
+        "volume": "progression: quiet -> very_loud -> quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Your tone should shift back and forth between sarcastic and complaining. Start sarcastic, then get whiny, and then return to sarcasm.",
+      "text": "Me encanta trabajar en equipo, es lo mejor. Especialmente cuando soy el único que hace todo el trabajo. Es genial ver cómo los demás se relajan mientras yo paso la noche en vela. Pero claro, el mérito será para todos por igual, ¡qué justo! Ya estoy harto, ¿por qué siempre tengo que cargar con todo? Es increíble que a nadie más le importe.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "oscillating: sarcastic <-> complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "progression: slow -> normal -> fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start speaking slowly and then gradually increase your pace, finishing at a fast speed.",
+          "text": "Para empezar, el primer paso es reunir todos los ingredientes necesarios. Después, debes mezclarlos en un tazón grande siguiendo el orden especificado. Finalmente, una vez que la mezcla sea homogénea, viértela en el molde y métela al horno, ¡y ya está listo!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Begin at a slow pace, accelerate to a normal speaking rate in the middle, and end the sentence quickly.",
+          "text": "El proceso de montaje es bastante metódico al principio, hay que asegurarse de que cada pieza encaje perfectamente. A medida que avanzas, puedes ir un poco más rápido con las partes más grandes. Al llegar a las últimas conexiones, todo se junta rápidamente para completar el modelo final.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this with a building sense of urgency, starting slow and methodical, and getting faster and faster until the end.",
+          "text": "Primero, tienes que entender el concepto básico, que es fundamental. Luego, aplicas la fórmula a los datos que te hemos dado. A partir de ahí, los cálculos se vuelven más sencillos y puedes resolver el resto del problema con mucha más agilidad.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "progression: quiet -> loud",
+        "emotion": "progression: worried -> angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start off speaking quietly with a worried tone, but build in volume and intensity, ending in an angry shout.",
+          "text": "Les expliqué la situación una y otra vez, pero parecía que no me escuchaban. Repetí todos los detalles, les mostré los documentos, y aun así no hicieron nada. ¡Es increíble que después de todo eso, todavía me digan que es mi culpa!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Begin this line in a quiet, concerned voice. As you continue, your voice should get louder and your emotion should shift from worry to outright anger.",
+          "text": "Al principio pensé que era un simple error, algo que se podría solucionar fácilmente. Pero luego me di cuenta de que era la tercera vez este mes. ¡Y cada vez que llamo, me ponen en espera y nadie sabe nada!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Perform this as a gradual escalation. Start quiet and worried, then get louder and angrier until you are yelling by the end.",
+          "text": "No entiendo por qué no funciona, seguí todas las instrucciones al pie de la letra. He revisado cada paso, cada conexión, todo parece estar bien. ¡No puede ser que haya pasado horas en esto para que al final no sirva para nada!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "progression: very_high -> high -> normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start speaking in a very high, excited pitch. Then, as you speak, gradually bring your pitch down to a normal, calm level.",
+          "text": "¡No te preocupes, no te preocupes, todo va a estar bien! Respira hondo conmigo. Eso es. Ya ves, no hay razón para alarmarse, solo tenemos que tomarnos un momento y pensar con claridad.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your voice should start in a very high register, as if panicked, but then it should slowly descend to a regular, reassuring pitch.",
+          "text": "¡Espera, espera, no corras! Mírame. Todo está bajo control. Sé que parece caótico ahora mismo, pero confía en mí, lo resolveremos juntos. Paso a paso.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. I want you to begin with an unnaturally high-pitched voice, then transition smoothly down to your normal vocal range by the end of the sentence.",
+          "text": "¡Ay, qué susto! Pensé que algo malo había pasado. Pero no, ya veo que estás bien. Menos mal. Vamos a sentarnos un momento, y me cuentas qué ha sucedido con tranquilidad.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: neutral -> surprised -> happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start reading this in a neutral, flat voice. In the middle, sound genuinely surprised. By the end, you should sound very happy.",
+          "text": "La reunión está programada para el martes a las diez. Ah, y una cosa más... ¿recuerdas esa propuesta que enviamos el mes pasado? ¡Acaban de aprobarla con todo el presupuesto que pedimos!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. As you read this, I want your emotion to change. Begin neutrally, then transition to surprise, and finally to joy.",
+          "text": "Recibí una nota de la oficina central, dice que revise el anexo B. A ver... un momento... ¡No me lo puedo creer! ¡Me han concedido la beca para estudiar en el extranjero el próximo año!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Perform a three-stage emotional shift: start neutral, then react with surprise, and end with clear happiness in your voice.",
+          "text": "Aquí dice que los resultados del concurso se publicarán la próxima semana. Pero espera, hay una posdata. Dice: 'Felicitaciones a los ganadores anticipados'. ¡Y mi nombre está en la lista!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "progression: hesitant -> firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Begin speaking with a hesitant, uncertain tone, but as you continue, your voice should become firm and decisive.",
+          "text": "He estado pensando mucho en las opciones... y... bueno, no ha sido fácil. Pero después de considerarlo todo, he llegado a una conclusión. Me quedo aquí para terminar el proyecto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Start this line as if you're not sure what to say, but end it with a strong, confident tone.",
+          "text": "Quizás... no sé si es lo correcto, pero... creo que es la única manera. Tenemos que cambiar nuestra estrategia por completo, y lo haremos a partir de mañana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. I want the delivery to transition from hesitant to firm. Start out sounding doubtful, but end with conviction.",
+          "text": "Podríamos seguir como hasta ahora, supongo... aunque no nos ha llevado a ninguna parte. No. A partir de ahora, vamos a tomar un nuevo rumbo, cueste lo que cueste.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "progression: very_slow -> normal",
+        "volume": "progression: very_quiet -> normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start off speaking very slowly and very quietly, like you're thinking out loud. Then, as the idea becomes clearer, bring your pace and volume up to normal.",
+          "text": "A veces... en el silencio de la noche... uno se da cuenta de las cosas más simples. Y es que la felicidad no es un destino, sino la forma en que viajamos por la vida.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Your delivery should transition from a very quiet and slow, almost whispered, reflection to a normal conversational pace and volume.",
+          "text": "Uno podría pensar que... el tiempo lo cura todo... pero quizás no es así. Lo que realmente importa es lo que hacemos con el tiempo que se nos ha dado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Begin this line in a very slow, very quiet manner. As you speak, build to a normal volume and speed, as if a thought is solidifying in your mind.",
+          "text": "Parece que... la vida es una serie de puertas... y al final, no se trata de cuántas abrimos, sino de si tuvimos el coraje de cruzar el umbral de las más importantes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: sad -> thoughtful",
+        "pitch": "progression: low -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start with a sad tone and a low pitch. As you continue, your voice should shift to a more thoughtful quality and a normal pitch.",
+          "text": "Recuerdo el día que se fue, fue un momento muy difícil para todos. Pero con el tiempo, he llegado a entender que algunas despedidas son necesarias para poder crecer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Begin this line in a low-pitched, sad voice. Transition into a more neutral, pensive delivery with a normal pitch by the end.",
+          "text": "Esa casa ya no está, la demolieron hace años. A veces me pregunto si los lugares guardan los ecos de las risas que una vez contuvieron.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your performance should begin with a low-pitched sadness, but evolve into a more reflective and normal-pitched tone.",
+          "text": "Perder esa oportunidad fue devastador en su momento. Ahora, mirando hacia atrás, veo que ese camino cerrado me obligó a encontrar una ruta mucho mejor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "progression: pleading -> defiant",
+        "speed": "progression: slow -> fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start with a slow, pleading tone. Then, shift your delivery to become fast and defiant.",
+          "text": "Por favor, solo trata de entender mi punto de vista, es todo lo que pido. No puedes seguir ignorando lo que siento. ¡No me rendiré hasta que me escuches!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. I want the tone to change from pleading to defiant, and the pace to increase from slow to fast.",
+          "text": "Solo necesito una oportunidad más, dame una razón para creer en esto. No, ¿sabes qué? Ya no necesito tu permiso. ¡Voy a hacerlo con o sin tu apoyo!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Begin this line slowly, as if you are begging. Then, your tone should become strong and defiant, and your speaking rate should get faster.",
+          "text": "Te lo ruego, considera lo que te estoy diciendo, es importante para ambos. Pero si no quieres verlo, está bien. ¡Yo seguiré mi propio camino y demostraré que tengo razón!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: happy -> worried -> fearful",
+        "volume": "progression: normal -> quiet -> very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. I want a three-part performance. Start happy at a normal volume. Then, sound worried and get quieter. Finally, end in a very quiet, fearful voice.",
+          "text": "El paseo por el bosque era perfecto, el sol brillaba entre los árboles. Pero... de repente el cielo se nubló y no reconocía el camino. Escuché un ruido extraño detrás de mí, entre las sombras.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line with a progression of emotions and volume: begin happy and normal, then become worried and quiet, and conclude fearful and very quiet.",
+          "text": "¡Qué bien, por fin llegamos a la cabaña! Es un poco más vieja de lo que recordaba, y la puerta está entreabierta. Un momento... creo que hay alguien adentro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your voice should start happy and at a normal volume, then transition to a quieter, worried tone, and finally end in a fearful whisper.",
+          "text": "Me encanta el sonido de la lluvia por la noche, es muy relajante. Aunque... esa no es la lluvia, es más como un golpeteo en la ventana. Y no para.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "progression: thoughtful -> angry -> sad",
+        "speed": "progression: slow -> very_fast -> slow",
+        "volume": "progression: quiet -> very_loud -> quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. This is a complex monologue. Start slow, quiet, and thoughtful. Build to a peak of very loud, very fast anger. Then, let it all collapse into a slow, quiet sadness.",
+          "text": "Siempre pensé que si hacía lo correcto, las cosas saldrían bien. ¡Pero no importa lo que haga, nunca es suficiente para ti! Y ahora... ahora ya no queda nada por lo que luchar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Perform this with a dramatic arc. Begin in a slow, quiet, reflective state. Explode into a very fast, very loud, furious outburst in the middle. Finally, end in a slow, quiet, defeated tone.",
+          "text": "Me pregunto en qué momento todo empezó a ir mal. ¿Fue cuando decidiste ignorar cada palabra que dije? ¿O cuando rompiste todas tus promesas? Al final... supongo que ya no importa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your delivery needs three distinct phases. Phase one: quiet, slow, thoughtful. Phase two: a furious climax, very loud and very fast. Phase three: quiet, slow, sad resignation.",
+          "text": "Uno intenta construir algo, pieza por pieza, con cuidado. ¡Y luego llegas tú y lo destruyes todo en un segundo sin pensarlo! Y yo... me quedo aquí, entre las ruinas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "oscillating: sarcastic <-> complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Start with a sarcastic tone, then shift to a complaining one, and then back to sarcastic. Keep alternating between these two tones throughout the line.",
+          "text": "Claro, qué manera tan maravillosa de empezar el día. Primero, el despertador no suena, así que me levanto tarde. Luego, voy a la cocina y, por supuesto, la cafetera decide que hoy no va a funcionar. Simplemente perfecto. Y para colmo, hay un tráfico terrible, como si todo el mundo hubiera decidido salir a la misma hora que yo. No me lo puedo creer, siempre me pasa lo mismo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line by oscillating between a sarcastic and a complaining tone. Go back and forth between the two throughout.",
+          "text": "Ah, las vacaciones, ¡qué maravilla! El hotel de cinco estrellas tenía unas vistas espectaculares... al aparcamiento. Y la 'playa privada' era un pequeño trozo de arena al lado de la carretera. Pero no importa, porque la comida del buffet era inolvidable, sobre todo la intoxicación alimentaria que nos dio. De verdad, no sé cómo voy a superar tanta diversión. ¿Por qué nunca podemos tener un viaje normal?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Your tone should shift back and forth between sarcastic and complaining. Start sarcastic, then get whiny, and then return to sarcasm.",
+          "text": "Me encanta trabajar en equipo, es lo mejor. Especialmente cuando soy el único que hace todo el trabajo. Es genial ver cómo los demás se relajan mientras yo paso la noche en vela. Pero claro, el mérito será para todos por igual, ¡qué justo! Ya estoy harto, ¿por qué siempre tengo que cargar con todo? Es increíble que a nadie más le importe.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/emotion",
+  "language": "ja",
+  "source_plan_file": "easy__style__direct__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Deliver this line with a sense of joy and optimism.",
+      "text": "来週の天気予報によると、ずっと晴れが続くみたいですよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your voice should sound annoyed and impatient.",
+      "text": "その書類はどこに置きましたか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your delivery should be sorrowful and a little downcast.",
+      "text": "テーブルの上に置いてあった鍵は、もうありませんでした。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Say this as if you are scared and anxious.",
+      "text": "すみません、今何時でしょうか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Deliver this line as if you've just had an unexpected realization.",
+      "text": "ここに置いておいたはずなのに。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your voice should sound uneasy and a bit anxious.",
+      "text": "明日のプレゼンテーションの資料は、一応全部準備できています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Read this with a pensive and reflective tone, at a slightly slower pace.",
+      "text": "空の色は、時間とともにゆっくりと変化していくんですね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+      },
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this with a bright and happy tone.",
+          "text": "週末に新しいレシピを試してみる予定です。材料は全部揃えました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Use a cheerful and upbeat voice.",
+          "text": "今日の午後は公園を散歩して、それからカフェで本を読みました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this line with a sense of joy and optimism.",
+          "text": "来週の天気予報によると、ずっと晴れが続くみたいですよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this in an irritated tone.",
+          "text": "もう一度、説明してもらえますか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound annoyed and impatient.",
+          "text": "その書類はどこに置きましたか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this with a sharp, angry edge.",
+          "text": "これをあそこに移動してください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this in a sad, melancholic voice.",
+          "text": "昨日の夜からずっと雨が降っていて、まだ止みそうにありません。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your delivery should be sorrowful and a little downcast.",
+          "text": "テーブルの上に置いてあった鍵は、もうありませんでした。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Say this with a feeling of sadness in your voice.",
+          "text": "窓の外を見ると、葉がすべて落ちて、冬が来たことがわかります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this as if you are scared and anxious.",
+          "text": "すみません、今何時でしょうか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound fearful, maybe a little shaky.",
+          "text": "このドア、開けてもいいですか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this with an anxious and frightened tone.",
+          "text": "あの、少しだけ待ってもらえますか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this with a tone of surprise, like you just noticed something.",
+          "text": "え、もうこんな時間なんですね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line as if you've just had an unexpected realization.",
+          "text": "ここに置いておいたはずなのに。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Sound surprised, as if you're announcing something you just discovered.",
+          "text": "今日の会議は午後三時からでした。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this in a worried, concerned tone.",
+          "text": "この手順で進めるのが、本当に一番良い方法なんでしょうか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound uneasy and a bit anxious.",
+          "text": "明日のプレゼンテーションの資料は、一応全部準備できています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this explanation with a sense of concern.",
+          "text": "この計画には、まだ考慮されていない点がいくつかあるように思います。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this with a pensive and reflective tone, at a slightly slower pace.",
+          "text": "空の色は、時間とともにゆっくりと変化していくんですね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your delivery should be thoughtful and contemplative.",
+          "text": "昔の人は、今とはまったく違う世界を見ていたのかもしれない。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Say this in a slow, thoughtful way, as if you're mulling it over.",
+          "text": "一つの言葉が持つ意味は、文脈によって大きく変わることがあります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is in Japanese and lexically neutral."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "ko",
+  "generation_summary": {
+    "num_items": 4,
+    "domain": "timbre",
+    "difficulty": "easy",
+    "notes": "Atomic control of gender using direct instructions. Plan ensures balanced values and diverse, non-leaking text semantics. Instructions are in English, text is in Korean."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "male"
+      },
+      "aux_values": {},
+      "text_semantic": "factual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must be in Korean.",
+        "Text content must be gender-neutral.",
+        "Topic should be about history or science.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Instruction must contain the phrase 'Speak in Korean'.",
+        "Use natural language to specify a male voice.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "female"
+      },
+      "aux_values": {},
+      "text_semantic": "simple_request",
+      "text_length": "short",
+      "text_constraints": [
+        "Text must be in Korean.",
+        "Text content must be gender-neutral.",
+        "The request should be polite and about a common daily task.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Instruction must contain the phrase 'Speak in Korean'.",
+        "Use natural language to request a female voice.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "male"
+      },
+      "aux_values": {},
+      "text_semantic": "daily_notice",
+      "text_length": "short",
+      "text_constraints": [
+        "Text must be in Korean.",
+        "Text content must be gender-neutral.",
+        "The notice should be about a schedule change or a public service announcement.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Instruction must contain the phrase 'Speak in Korean'.",
+        "Directly ask for a man's voice.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "female"
+      },
+      "aux_values": {},
+      "text_semantic": "casual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must be in Korean.",
+        "Text content must be gender-neutral.",
+        "The statement should be an opinion about food or weather.",
+        "final text must be written in Korean"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Instruction must contain the phrase 'Speak in Korean'.",
+        "Directly ask for a woman's voice.",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

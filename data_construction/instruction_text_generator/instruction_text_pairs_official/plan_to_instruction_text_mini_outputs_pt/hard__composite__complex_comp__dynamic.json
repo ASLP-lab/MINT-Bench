@@ -1,0 +1,709 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "pt",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 11,
+  "num_output_items": 11,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Deliver the line with a clear progression in speed: start slow, move to a normal pace, and end fast.",
+      "text": "A largada foi cautelosa, cada corredor a estudar os seus oponentes. Na metade do percurso, o grupo principal estabeleceu um ritmo constante e forte. Na reta final, foi uma explosão de energia, todos a dar o seu máximo até à linha de chegada.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal -> fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Deliver this speech by starting softly, as if sharing a secret, then raise your voice to a standard level, and finish with a powerful, loud delivery.",
+      "text": "Lembro-me de quando começámos, éramos apenas um pequeno grupo com uma ideia. Hoje, somos uma comunidade, uma força a ser reconhecida. E amanhã, seremos a mudança que este mundo tanto precisa!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Deliver this line with a continuous rise in pitch, starting low and ending high to convey increasing surprise.",
+      "text": "Primeiro, pensei que era apenas uma sombra na parede. Depois, vi que a sombra tinha uma forma definida. De repente, a forma moveu-se e eu percebi que não estava sozinho no quarto!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Start speaking thoughtfully. Let your voice show a flash of surprise in the middle, and then resolve into a happy tone at the end.",
+      "text": "Sempre assumi que o problema estava no motor principal. Mas e se não estiver? Oh! A falha não está no motor, está na fonte de alimentação! Que simples! Finalmente posso arranjar isto!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised -> happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Your delivery should shift through three tones: begin by pleading, then pause with hesitation, and conclude with firmness.",
+      "text": "Só te peço mais uma oportunidade, só isso. Bem... talvez não seja justo pedir isso. Quer saber? Já chega. A minha decisão está tomada.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "pleading -> hesitant -> firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Start speaking at a normal pace with a worried tone. As the realization of danger sets in, become more fearful and speed up your speech.",
+      "text": "Acho que deixei a porta da frente aberta, mas não tenho a certeza. Espera, estou a ouvir um barulho lá em baixo. Oh não, tem alguém em casa.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "worried -> fearful",
+        "speed": "normal -> fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say the first part of the sentence firmly and at a normal volume. Then, drop your volume to very quiet and adopt a sarcastic tone for the final phrase.",
+      "text": "Eu vou tratar de tudo, como sempre faço e garanto que o projeto será um sucesso. Afinal de contas, a tua ajuda foi absolutamente fundamental.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "normal -> very_quiet",
+        "tone": "firm -> sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Start neutrally. Then, as if hit by surprising news, transition to a surprised emotion, speaking faster and in a higher pitch.",
+      "text": "Ok, a carta diz que a minha candidatura foi recebida e está a ser processada. O quê? Eles ofereceram-me o cargo diretamente, sem entrevista?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high",
+        "speed": "normal -> fast",
+        "emotion": "neutral -> surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Start speaking quietly with a sad emotion. Transition into a thoughtful tone, and end hopefully at a normal volume.",
+      "text": "Lembro-me de como foi difícil naquela altura, parecia que nada ia dar certo. Mas talvez essas dificuldades me tenham tornado mais forte. E agora, olhando para a frente, sinto que posso conquistar qualquer coisa.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "sad -> thoughtful -> hopeful",
+        "volume": "quiet -> normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Start slow and hesitant. In the middle, become firm and speak at a normal pace. Then, at the end, return to a slow and hesitant delivery.",
+      "text": "Talvez... talvez eu devesse aceitar a proposta. Sim, é a coisa certa a fazer, não há outra opção! Ou será que... estou a precipitar-me?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm -> hesitant",
+        "speed": "slow -> normal -> slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Begin by giving this status update in a neutral, matter-of-fact voice with a normal pitch. As you get towards the end, your voice should become lower and filled with worry as the information becomes more serious.",
+      "text": "Relatório de progresso da amostra 734. A análise inicial dos componentes primários está completa e os resultados estão dentro dos parâmetros esperados. No entanto, durante a segunda fase de sequenciamento, detectamos uma anomalia inesperada. Os marcadores não correspondem a nenhuma das nossas bases de dados e parecem estar a replicar-se a um ritmo alarmante.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a clear dynamic shift in emotion and pitch. The text provides a narrative context for this shift."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried",
+        "pitch": "normal -> low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal -> fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Start narrating slowly, then increase your pace to a normal speed, and finish by speaking quickly as the action crescendos.",
+          "text": "O dia começou com uma brisa suave, as pessoas passeavam tranquilamente pela praça. De repente, ouviu-se um grito à distância, as cabeças viraram-se, curiosas. Então tudo explodiu em movimento, gente a correr em todas as direções, o caos instalou-se de vez.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Begin speaking at a slow, deliberate pace. Transition to a normal speaking rate in the middle, and accelerate to a fast pace by the end.",
+          "text": "Primeiro, apenas uma nuvem escura no horizonte, movendo-se sem pressa. Depois, o vento começou a soprar com mais força, agitando as folhas das árvores. Em segundos, o céu ficou negro, o trovão ribombou e a chuva caiu torrencialmente sobre a cidade.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the line with a clear progression in speed: start slow, move to a normal pace, and end fast.",
+          "text": "A largada foi cautelosa, cada corredor a estudar os seus oponentes. Na metade do percurso, o grupo principal estabeleceu um ritmo constante e forte. Na reta final, foi uma explosão de energia, todos a dar o seu máximo até à linha de chegada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Start your speech in a quiet, intimate voice, gradually build to a normal conversational volume, and end with a loud, commanding tone.",
+          "text": "Amigos, sei que muitos de vós tendes dúvidas, e eu entendo. Mas olhem para o que já alcançámos juntos, para as dificuldades que superámos. E é por isso que vos digo, com toda a certeza: o futuro está nas nossas mãos e vamos conquistá-lo!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this speech by starting softly, as if sharing a secret, then raise your voice to a standard level, and finish with a powerful, loud delivery.",
+          "text": "Lembro-me de quando começámos, éramos apenas um pequeno grupo com uma ideia. Hoje, somos uma comunidade, uma força a ser reconhecida. E amanhã, seremos a mudança que este mundo tanto precisa!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Perform this line as a crescendo. Begin quietly, increase to a normal volume, and conclude with a loud, passionate declaration.",
+          "text": "Podem dizer que é impossível, que os nossos sonhos são demasiado grandes. Eu digo que a nossa determinação é maior, a nossa vontade é mais forte. Juntos, vamos mostrar-lhes do que somos capazes!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Start speaking in a low pitch, gradually raise it to your normal range, and then continue to a high pitch as you describe the surprising discovery.",
+          "text": "Eu estava a caminhar pela praia, como de costume. Vi algo a brilhar na areia, parecia ser apenas uma concha. Mas quando me aproximei, percebi que era uma chave antiga, e estava ligada a uma caixa de madeira!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Let your vocal pitch climb steadily throughout the sentence, from low to high, reflecting growing amazement.",
+          "text": "O documento parecia ser um mapa antigo e simples da cidade. Mas ao observá-lo com mais atenção, notei umas marcações estranhas. Eram coordenadas que levavam a um local que não existe em nenhum mapa moderno!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver this line with a continuous rise in pitch, starting low and ending high to convey increasing surprise.",
+          "text": "Primeiro, pensei que era apenas uma sombra na parede. Depois, vi que a sombra tinha uma forma definida. De repente, a forma moveu-se e eu percebi que não estava sozinho no quarto!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised -> happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Begin in a thoughtful, pensive mood. As the realization dawns, transition to surprise, and then end with a happy, triumphant feeling.",
+          "text": "Se eu mover esta peça para aqui... não, isso não funciona. E se... espera um pouco. Se eu inverter a ordem, a conexão é estabelecida. É isso! Encontrei a solução!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Perform this line with a clear emotional progression: start by sounding pensive, then shift to surprised, and conclude with genuine happiness.",
+          "text": "Ando a pensar nisto há dias, e nada parece fazer sentido. A menos que... o que é aquilo? A variável que eu ignorei... claro! É por isso que não funcionava! Agora tudo se encaixa perfeitamente!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Start speaking thoughtfully. Let your voice show a flash of surprise in the middle, and then resolve into a happy tone at the end.",
+          "text": "Sempre assumi que o problema estava no motor principal. Mas e se não estiver? Oh! A falha não está no motor, está na fonte de alimentação! Que simples! Finalmente posso arranjar isto!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "pleading -> hesitant -> firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Start with a pleading tone, then become hesitant as if uncertain, and finally, end with a firm, resolved tone.",
+          "text": "Por favor, tenta entender o meu lado. Eu... eu não sei se consigo fazer isto. Não. Eu sei. Esta é a decisão certa e eu vou levá-la até ao fim.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Your delivery should shift through three tones: begin by pleading, then pause with hesitation, and conclude with firmness.",
+          "text": "Só te peço mais uma oportunidade, só isso. Bem... talvez não seja justo pedir isso. Quer saber? Já chega. A minha decisão está tomada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Change your tone during the utterance. Start pleadingly, then sound hesitant, and finish with a strong, firm voice.",
+          "text": "Não me obrigues a escolher, por favor. Eu... não sei qual o caminho a seguir. Não, espera. Eu sei sim. É isto que tem de ser feito, e ponto final.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "worried -> fearful",
+        "speed": "normal -> fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Start speaking at a normal pace with a worried tone. As the realization of danger sets in, become more fearful and speed up your speech.",
+          "text": "Acho que deixei a porta da frente aberta, mas não tenho a certeza. Espera, estou a ouvir um barulho lá em baixo. Oh não, tem alguém em casa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Begin with a worried expression and a normal speech rate. Then, transition to a fearful emotion and start speaking much faster.",
+          "text": "Este caminho não me parece familiar, devíamos ter virado antes. A gasolina está quase no fim. E porque é que aquele carro nos está a seguir?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the first part of the sentence with concern at a normal speed, then shift to fear and a rapid pace for the second part.",
+          "text": "Que estranho, todas as luzes da rua se apagaram. O que foi aquele som? Parecia um galho a partir-se, mas está muito perto, está mesmo aqui fora!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "normal -> very_quiet",
+        "tone": "firm -> sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say the first part of the sentence firmly and at a normal volume. Then, drop your volume to very quiet and adopt a sarcastic tone for the final phrase.",
+          "text": "Eu vou tratar de tudo, como sempre faço e garanto que o projeto será um sucesso. Afinal de contas, a tua ajuda foi absolutamente fundamental.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Begin with a firm, normal-volume delivery. For the last part, switch to a very quiet, sarcastic tone, as if making an aside.",
+          "text": "Claro que confio na tua capacidade para liderar esta equipa. A tua experiência anterior demonstra claramente que és a pessoa ideal para o cargo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Start speaking firmly and at your normal volume, but then deliver the end of the sentence very quietly and sarcastically.",
+          "text": "A tua explicação foi perfeitamente clara e resolveu todas as minhas dúvidas. Sim, agora percebo tudo na perfeição.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high",
+        "speed": "normal -> fast",
+        "emotion": "neutral -> surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Begin speaking in a neutral tone at a normal pitch and speed. Then, as you react with surprise, let your pitch rise and your speech accelerate.",
+          "text": "Estou a ver aqui os resultados... tudo parece normal, os números estão dentro do esperado. Espera aí! O que é isto na última linha? Ganhaste o prémio principal?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Start neutrally. Then, as if hit by surprising news, transition to a surprised emotion, speaking faster and in a higher pitch.",
+          "text": "Ok, a carta diz que a minha candidatura foi recebida e está a ser processada. O quê? Eles ofereceram-me o cargo diretamente, sem entrevista?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the line by starting in a neutral manner. Then, at the point of surprise, your voice should get faster and higher in pitch.",
+          "text": "Deixa-me só confirmar o e-mail, diz aqui que a reunião foi adiada. Não, não foi adiada! Foi cancelada e eles já tomaram uma decisão sem nós?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "sad -> thoughtful -> hopeful",
+        "volume": "quiet -> normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Start speaking quietly with a sad emotion. Transition into a thoughtful tone, and end hopefully at a normal volume.",
+          "text": "Lembro-me de como foi difícil naquela altura, parecia que nada ia dar certo. Mas talvez essas dificuldades me tenham tornado mais forte. E agora, olhando para a frente, sinto que posso conquistar qualquer coisa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this line with an emotional arc. Begin sadly and quietly, then become more pensive, and finally, raise your volume to normal as you become hopeful.",
+          "text": "Perdemos tanto naquele incêndio, foi uma época de muita dor. Pensando bem, forçou-nos a recomeçar do zero, a repensar tudo. Talvez tenha sido uma bênção disfarçada, uma oportunidade para um futuro melhor.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Your performance should move from quiet sadness, through a more thoughtful state, to a hopeful conclusion at a normal speaking volume.",
+          "text": "Aqueles anos foram sombrios, senti-me tão perdido. Mas foi nessa escuridão que encontrei uma nova perspetiva sobre a vida. E hoje, pela primeira vez em muito tempo, vejo uma luz no fim do túnel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm -> hesitant",
+        "speed": "slow -> normal -> slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Start slow and hesitant. In the middle, become firm and speak at a normal pace. Then, at the end, return to a slow and hesitant delivery.",
+          "text": "Talvez... talvez eu devesse aceitar a proposta. Sim, é a coisa certa a fazer, não há outra opção! Ou será que... estou a precipitar-me?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Your delivery should oscillate. Begin slowly and hesitantly, build to a firm, normal-paced statement in the middle, and then trail off slowly and hesitantly again.",
+          "text": "Não sei se sou a pessoa certa para isto. Mas alguém tem de o fazer, e eu sou o mais qualificado! Embora... e se eu falhar com toda a gente?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Create a vocal arc: start hesitant and slow, become firm and normal-speed for the central thought, and then revert back to hesitant and slow.",
+          "text": "E se eu estiver errado? Não, eu analisei todos os dados, a conclusão é lógica e inevitável! Mas... e se houver algo que eu não vi?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried",
+        "pitch": "normal -> low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Begin by giving this status update in a neutral, matter-of-fact voice with a normal pitch. As you get towards the end, your voice should become lower and filled with worry as the information becomes more serious.",
+          "text": "Relatório de progresso da amostra 734. A análise inicial dos componentes primários está completa e os resultados estão dentro dos parâmetros esperados. No entanto, durante a segunda fase de sequenciamento, detectamos uma anomalia inesperada. Os marcadores não correspondem a nenhuma das nossas bases de dados e parecem estar a replicar-se a um ritmo alarmante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a clear dynamic shift in emotion and pitch. The text provides a narrative context for this shift."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Start reading this update with a standard, neutral tone and a regular pitch. As you continue, transition your voice to sound more worried and drop your pitch.",
+          "text": "Aqui é o controle da missão. A sonda completou a sua mais recente verificação de sistemas e todos os indicadores estão normais. Os níveis de energia estão estáveis e a trajetória permanece correta. Contudo, acabámos de receber uma transmissão estranha dos sensores externos. As leituras de energia subiram exponencialmente, e... parece que há algo a aproximar-se da sonda, mas não aparece no radar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a clear dynamic shift in emotion and pitch. The text provides a narrative context for this shift."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the first part of this message in a straightforward, neutral manner at a normal pitch. Then, as the update reveals a problem, let your voice become lower and tinged with anxiety.",
+          "text": "Atualização sobre a manutenção da barragem. As equipas de inspeção concluíram a verificação da turbina três e não foram encontradas irregularidades. A produção de energia está a operar a noventa e cinco por cento da capacidade. Mas acabámos de receber um alerta do sistema de monitorização de pressão. Os sensores na base estão a detetar microfissuras que se estão a expandir rapidamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a clear dynamic shift in emotion and pitch. The text provides a narrative context for this shift."
+          }
+        }
+      ]
+    }
+  ]
+}

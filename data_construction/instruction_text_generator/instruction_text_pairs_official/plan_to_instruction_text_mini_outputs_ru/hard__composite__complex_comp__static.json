@@ -1,0 +1,1507 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/static",
+  "language": "ru",
+  "source_plan_file": "hard__composite__complex_comp__static.json",
+  "num_input_items": 22,
+  "num_output_items": 22,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Age: elderly, Gender: male, Emotion: thoughtful, Speed: slow",
+      "text": "Иногда смотришь на старую фотографию и понимаешь, как много воды утекло с тех пор.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a general reflection, does not leak targets."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Say this quickly and quietly, with a breathy voice, like you're trying not to be overheard.",
+      "text": "Встреча назначена на завтра в полдень у центрального входа в парк.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a neutral statement about a meeting."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "speed": "fast",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Use a low-pitched, serious, and firm voice for this formal announcement.",
+      "text": "Тестирование системы оповещения будет проведено в следующую среду.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral, factual announcement."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "serious",
+        "tone": "firm",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Deliver this line with the sweet, cheerful voice of a happy adult woman.",
+      "text": "Утреннее солнце так приятно освещает всю комнату через окно.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral observation about scenery."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "adult",
+        "emotion": "happy",
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Pitch: high, Volume: loud, Tone: urging, Speed: fast",
+      "text": "Пожалуйста, положите книгу обратно на полку, где вы её взяли.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a simple polite command, not inherently emotional."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "volume": "loud",
+        "tone": "urging",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Say this as a young girl who is lively and surprised, speaking very, very quickly.",
+      "text": "Ого, я никогда не замечала, что у этого стула на самом деле четыре ножки разной формы, и на одной из них есть маленькая царапина, похожая на звездочку!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a factual observation; the surprise is in the delivery."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "personality": "lively",
+        "emotion": "surprised",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Use the voice of an elderly woman who is complaining.",
+      "text": "Почта снова закрывается на час раньше, чем указано в расписании.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text states a fact; the complaining tone comes from the voice."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Personality: calm, Emotion: worried, Speed: slow",
+      "text": "Мы планируем выехать рано утром, чтобы избежать пробок, сделать одну остановку на полпути для отдыха, и прибыть на место до наступления вечера.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a neutral explanation of a plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "worried",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Speak in a hushed, deep, and very low tone, like a narrator setting a scene.",
+      "text": "За массивной дубовой дверью находился длинный, слабо освещённый коридор.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes a neutral scene; the mysterious quality comes from the delivery."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "pitch": "very_low",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Say this loudly with an angry and defiant tone.",
+      "text": "Это моё окончательное решение по данному вопросу.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a simple statement of fact."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "loud",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Tone: playful, Speed: fast, Personality: humorous",
+      "text": "Утконос — это млекопитающее, которое откладывает яйца. У самцов утконоса на задних лапах есть шпоры, выделяющие яд, что является редкостью для млекопитающих. Обитают эти животные исключительно в восточной части Австралии.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "playful",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Your voice should be that of a confident man, speaking firmly and with authority.",
+      "text": "Для начала разогрейте духовку до ста восьмидесяти градусов. Пока она греется, смешайте муку, сахар и яйца в большой миске до получения однородной массы. Затем вылейте тесто в форму и выпекайте тридцать пять минут.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "personality": "confident",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Deliver this very slowly and quietly, with a sad, husky voice.",
+      "text": "Завтра в центральных районах ожидается переменная облачность, без осадков. Ветер северо-западный, от трех до восьми метров в секунду. Температура воздуха днём составит от пятнадцати до семнадцати градусов тепла.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "sad",
+        "texture": "husky",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Sound like a happy, cheerful woman with a high-pitched voice.",
+      "text": "Так, что у нас в списке? Молоко, хлеб, дюжина яиц, сливочное масло и килограмм картошки.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "gender": "female",
+        "personality": "cheerful",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Gender: male, Age: child, Tone: pleading, Emotion: fearful",
+      "text": "Можешь, пожалуйста, проверить, что там под кроватью? Мне кажется, я что-то слышал.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "emotion": "fearful",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Deliver this with an aloof, smoky, low-pitched voice at a normal conversational speed.",
+      "text": "Протокол TCP/IP — это набор сетевых протоколов, который определяет, как данные должны быть пакетированы, адресованы, переданы, маршрутизированы и получены. Он состоит из четырех уровней: канального, сетевого, транспортного и прикладного.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "smoky",
+        "personality": "aloof",
+        "pitch": "low",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. The speaker is a woman with a normal voice pitch. She sounds sarcastic, but her overall emotion is flat and neutral.",
+      "text": "О, еще одно совещание. Я с таким нетерпением его жду, это точно будет очень продуктивно.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "sarcastic",
+        "gender": "female",
+        "emotion": "neutral",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Deliver this slowly, with the gentle and thoughtful voice of an elderly man reflecting on the past.",
+      "text": "Строительство Транссибирской магистрали началось в конце девятнадцатого века и стало одним из крупнейших инфраструктурных проектов своего времени. Эта железная дорога соединила европейскую часть России с Сибирью и Дальним Востоком.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "gentle",
+        "emotion": "thoughtful",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Volume: loud, Tone: urging, Gender: female, Texture: bright, Emotion: surprised",
+      "text": "Заканчивается посадка на рейс в Сочи! Опаздывающим пассажирам срочно пройти к выходу номер двенадцать.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "bright",
+        "volume": "loud",
+        "emotion": "surprised",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. The speaker is a serious man with a low voice. Read this status update with a disappointed tone.",
+      "text": "Дизайн пользовательского интерфейса был утвержден и передан команде разработчиков для реализации. Все сроки пока соблюдаются.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "low",
+        "personality": "serious",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. The voice should sound worried and complaining, speaking at a fast pace. Give it a nasal resonance, but keep the volume regular.",
+      "text": "Так, в список покупок входят: картофель, лук, морковь, свекла, капуста, куриное филе, подсолнечное масло, лавровый лист и черный перец горошком.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction combines all attributes into a direct request. Text is a neutral list of ingredients."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "tone": "complaining",
+        "emotion": "worried",
+        "speed": "fast",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Personality: Warm, Gender: Female, Texture: Soft, Pitch: Normal, Emotion: Happy",
+      "text": "Добро пожаловать в нашу компанию! Мы очень рады вас видеть. Чем я могу вам помочь сегодня?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses strict tag format. Text is a standard welcome message, appropriate for the requested persona."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "warm",
+        "gender": "female",
+        "texture": "soft",
+        "pitch": "normal",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Age: elderly, Gender: male, Emotion: thoughtful, Speed: slow",
+          "text": "Иногда смотришь на старую фотографию и понимаешь, как много воды утекло с тех пор.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a general reflection, does not leak targets."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Age: elderly, Gender: male, Emotion: thoughtful, Speed: slow",
+          "text": "Говорят, что каждый выбор определяет будущее, но кто знает, каким оно могло бы быть.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a general reflection, does not leak targets."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Age: elderly, Gender: male, Emotion: thoughtful, Speed: slow",
+          "text": "Забавно, как запахи могут мгновенно вернуть тебя в прошлое, в моменты, которые казались давно забытыми.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a general reflection, does not leak targets."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "speed": "fast",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this quickly and quietly, with a breathy voice, like you're trying not to be overheard.",
+          "text": "Встреча назначена на завтра в полдень у центрального входа в парк.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a neutral statement about a meeting."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a hushed, breathy voice and speak at a fast pace.",
+          "text": "Помни, что документы нужно забрать из левого ящика стола, не из правого.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a neutral reminder."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Deliver this in a rapid, quiet whisper with a lot of breath in your voice.",
+          "text": "Синяя папка находится на третьей полке сверху, рядом с книгой в красной обложке.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a neutral description of an object's location."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "serious",
+        "tone": "firm",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a low-pitched, serious, and firm voice for this formal announcement.",
+          "text": "Тестирование системы оповещения будет проведено в следующую среду.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, factual announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver the following line with a firm, low voice, sounding very serious.",
+          "text": "Проход в здание будет временно ограничен с десяти до одиннадцати часов утра.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, factual announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak in a low pitch with a serious and unwavering tone.",
+          "text": "Обновление программного обеспечения запланировано на конец рабочего дня.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, factual announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "adult",
+        "emotion": "happy",
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a sweet, happy adult female voice to make this pleasant observation.",
+          "text": "Посмотри, облака сегодня выглядят как-то по-особенному красиво.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral observation about scenery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. As an adult woman, say this with a genuinely happy and sweet tone.",
+          "text": "Кажется, дождь наконец-то прекратился, и воздух стал таким свежим.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral observation about the weather."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Deliver this line with the sweet, cheerful voice of a happy adult woman.",
+          "text": "Утреннее солнце так приятно освещает всю комнату через окно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral observation about scenery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "volume": "loud",
+        "tone": "urging",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Pitch: high, Volume: loud, Tone: urging, Speed: fast",
+          "text": "Переместите все файлы из этой папки в архив немедленно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple command, not inherently emotional."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Pitch: high, Volume: loud, Tone: urging, Speed: fast",
+          "text": "Проверьте все данные перед отправкой отчёта.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple command, not inherently emotional."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Pitch: high, Volume: loud, Tone: urging, Speed: fast",
+          "text": "Пожалуйста, положите книгу обратно на полку, где вы её взяли.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple polite command, not inherently emotional."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "personality": "lively",
+        "emotion": "surprised",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this as a young girl who is lively and surprised, speaking very, very quickly.",
+          "text": "Ого, я никогда не замечала, что у этого стула на самом деле четыре ножки разной формы, и на одной из них есть маленькая царапина, похожая на звездочку!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a factual observation; the surprise is in the delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this line with the voice of an energetic little girl, speaking extremely fast with a tone of surprise.",
+          "text": "Смотри, на этой ложке есть отражение всей комнаты, и оно перевёрнуто, а если её повернуть другой стороной, то всё становится нормальным, как это работает?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a factual observation; the surprise is in the delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a very fast, surprised, and lively little girl's voice.",
+          "text": "Я только что поняла, что у карандаша не шесть сторон, а восемь, если посчитать ещё и верхнюю и нижнюю, и на нём написано что-то очень мелкими буквами.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a factual observation; the surprise is in the delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use the voice of an elderly woman who is complaining.",
+          "text": "Почта снова закрывается на час раньше, чем указано в расписании.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text states a fact; the complaining tone comes from the voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Say this with a complaining tone, as if you're an older woman who is dissatisfied.",
+          "text": "Они изменили маршрут автобуса, и теперь он не останавливается на нашей улице.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text states a fact; the complaining tone comes from the voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Deliver this line in the grumbling voice of an elderly woman.",
+          "text": "Этот магазин открывается только в десять, приходится ждать целое утро.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text states a fact; the complaining tone comes from the voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "worried",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: calm, Emotion: worried, Speed: slow",
+          "text": "Сначала нужно будет сложить все документы в одну папку, затем отсортировать их в хронологическом порядке, и только после этого передать в архив.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a neutral explanation of a process."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: calm, Emotion: worried, Speed: slow",
+          "text": "Мы планируем выехать рано утром, чтобы избежать пробок, сделать одну остановку на полпути для отдыха, и прибыть на место до наступления вечера.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a neutral explanation of a plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: calm, Emotion: worried, Speed: slow",
+          "text": "Для начала вам следует подключить устройство к сети, дождаться, пока загорится зелёный индикатор, и после этого нажать на центральную кнопку для запуска.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a neutral explanation of a process."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "pitch": "very_low",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a deep, very low-pitched, and quiet voice, as if narrating something mysterious.",
+          "text": "На столе, под слоем пыли, лежала старая книга в кожаном переплёте.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a neutral object; the mysterious quality comes from the delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Narrate this sentence in a quiet, deep voice with a very low pitch.",
+          "text": "Единственный фонарь освещал пустую улицу, отбрасывая длинные тени от деревьев.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a neutral scene; the mysterious quality comes from the delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak in a hushed, deep, and very low tone, like a narrator setting a scene.",
+          "text": "За массивной дубовой дверью находился длинный, слабо освещённый коридор.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a neutral scene; the mysterious quality comes from the delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "loud",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this loudly with an angry and defiant tone.",
+          "text": "Это моё окончательное решение по данному вопросу.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a simple statement of fact."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this line in a loud, angry voice, full of defiance.",
+          "text": "Отчёт находится на столе, как и договаривались.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a simple statement of fact."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a loud and defiant tone, sounding angry.",
+          "text": "Я сделал всё в точности так, как было указано в инструкции.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a simple statement of fact."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "playful",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: humorous, Tone: playful, Speed: fast",
+          "text": "Осьминоги принадлежат к классу головоногих моллюсков. У них восемь конечностей, называемых щупальцами, которые оснащены присосками. Эти существа обладают тремя сердцами и голубой кровью из-за наличия гемоцианина.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Speed: fast, Personality: humorous, Tone: playful",
+          "text": "Капибара — самый крупный грызун в мире, обитающий в Южной Америке. Они ведут полуводный образ жизни и являются социальными животными, живущими в группах. Их диета состоит в основном из травы и водных растений.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Tone: playful, Speed: fast, Personality: humorous",
+          "text": "Утконос — это млекопитающее, которое откладывает яйца. У самцов утконоса на задних лапах есть шпоры, выделяющие яд, что является редкостью для млекопитающих. Обитают эти животные исключительно в восточной части Австралии.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "personality": "confident",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. I need you to sound like a confident adult man giving firm and clear directions.",
+          "text": "Чтобы добраться до центральной площади, вам нужно идти прямо по этой улице два квартала. Затем поверните направо на проспект Мира и продолжайте движение до большого фонтана. Здание администрации будет прямо перед вами.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver these instructions as a self-assured man with a firm, unwavering tone.",
+          "text": "Сначала вставьте деталь А в паз детали Б, убедившись, что они плотно соединены. После этого закрепите конструкцию с помощью четырех винтов из комплекта. Не затягивайте их слишком сильно до полной сборки.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your voice should be that of a confident man, speaking firmly and with authority.",
+          "text": "Для начала разогрейте духовку до ста восьмидесяти градусов. Пока она греется, смешайте муку, сахар и яйца в большой миске до получения однородной массы. Затем вылейте тесто в форму и выпекайте тридцать пять минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "sad",
+        "texture": "husky",
+        "volume": "very_quiet",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this very slowly and quietly, with a sad, husky voice.",
+          "text": "Завтра в центральных районах ожидается переменная облачность, без осадков. Ветер северо-западный, от трех до восьми метров в секунду. Температура воздуха днём составит от пятнадцати до семнадцати градусов тепла.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Read this with a very quiet, very slow, and sad delivery. Your voice should have a husky quality.",
+          "text": "В течение следующих суток атмосферное давление будет слабо падать. Влажность воздуха останется в пределах нормы, около шестидесяти процентов. В ночные часы температура опустится до восьми градусов со знаком плюс.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a very slow and very quiet voice, tinged with sadness and a husky texture.",
+          "text": "На выходных погодные условия существенно не изменятся. Сохранится преимущественно сухая погода, с небольшим количеством облаков. Геомагнитная обстановка останется спокойной. Водителям следует соблюдать осторожность утром из-за возможного тумана.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "gender": "female",
+        "personality": "cheerful",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Sound like a happy, cheerful woman with a high-pitched voice.",
+          "text": "Так, что у нас в списке? Молоко, хлеб, дюжина яиц, сливочное масло и килограмм картошки.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a female voice that is high in pitch and full of cheer and happiness.",
+          "text": "Нужно не забыть купить салфетки, бумажные полотенца, средство для мытья посуды и две упаковки макарон.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. I want a woman's voice, high-pitched and expressing a cheerful and happy personality.",
+          "text": "В отделе фруктов возьмём яблоки, бананы, апельсины, а еще нужен лимон для чая.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "emotion": "fearful",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Age: child, Gender: male, Emotion: fearful, Tone: pleading",
+          "text": "Пожалуйста, можно оставить свет в коридоре включенным еще на пять минут? Я почти уснул.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Gender: male, Age: child, Tone: pleading, Emotion: fearful",
+          "text": "Можешь, пожалуйста, проверить, что там под кроватью? Мне кажется, я что-то слышал.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Emotion: fearful, Tone: pleading, Age: child, Gender: male",
+          "text": "Можно ты не будешь закрывать дверь в мою комнату? Пожалуйста, оставь ее немного приоткрытой.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "smoky",
+        "personality": "aloof",
+        "pitch": "low",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. The voice should be low-pitched and smoky, with an aloof personality, speaking at a normal pace.",
+          "text": "Литий-ионный аккумулятор состоит из анода, катода, сепаратора и электролита. Во время разряда ионы лития перемещаются от анода к катоду через электролит, создавая электрический ток. Процесс обращается при зарядке.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this with an aloof, smoky, low-pitched voice at a normal conversational speed.",
+          "text": "Протокол TCP/IP — это набор сетевых протоколов, который определяет, как данные должны быть пакетированы, адресованы, переданы, маршрутизированы и получены. Он состоит из четырех уровней: канального, сетевого, транспортного и прикладного.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. I want a low, smoky voice, sounding distant and aloof, speaking at a regular speed.",
+          "text": "Фотосинтез представляет собой процесс, при котором зеленые растения и некоторые другие организмы используют солнечный свет для синтеза питательных веществ из углекислого газа и воды. В результате этого процесса выделяется кислород.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "sarcastic",
+        "gender": "female",
+        "emotion": "neutral",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a female voice with a normal pitch. The tone should be sarcastic, but the underlying emotion is neutral.",
+          "text": "Да, это просто гениальная идея. Удивительно, как мы раньше до этого не додумались.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. As a woman, say this sarcastically, while maintaining a neutral emotional facade and a normal pitch.",
+          "text": "Твой вклад в этот проект был поистине неоценим. Мы бы точно не справились без тебя.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. The speaker is a woman with a normal voice pitch. She sounds sarcastic, but her overall emotion is flat and neutral.",
+          "text": "О, еще одно совещание. Я с таким нетерпением его жду, это точно будет очень продуктивно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "gentle",
+        "emotion": "thoughtful",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this slowly, with the gentle and thoughtful voice of an elderly man reflecting on the past.",
+          "text": "Строительство Транссибирской магистрали началось в конце девятнадцатого века и стало одним из крупнейших инфраструктурных проектов своего времени. Эта железная дорога соединила европейскую часть России с Сибирью и Дальним Востоком.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. I want the voice of a gentle, thoughtful old man, speaking slowly as he recalls a memory.",
+          "text": "Санкт-Петербург был основан Петром Первым в тысяча семьсот третьем году. Город строился на болотистой местности, что потребовало огромных усилий и ресурсов для осушения земель и возведения зданий.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak slowly, in the thoughtful and gentle voice of an old man.",
+          "text": "Двенадцатого апреля тысяча девятьсот шестьдесят первого года Юрий Гагарин совершил первый в истории человечества полет в космос. Его корабль «Восток-1» сделал один виток вокруг Земли, а полет продлился сто восемь минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "bright",
+        "volume": "loud",
+        "emotion": "surprised",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Gender: female, Texture: bright, Volume: loud, Emotion: surprised, Tone: urging",
+          "text": "Уважаемые пассажиры, поезд дальше не пойдет! Просьба освободить вагоны.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Texture: bright, Emotion: surprised, Volume: loud, Gender: female, Tone: urging",
+          "text": "Внимание! Наш магазин закрывается через десять минут. Пожалуйста, пройдите на кассы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Volume: loud, Tone: urging, Gender: female, Texture: bright, Emotion: surprised",
+          "text": "Заканчивается посадка на рейс в Сочи! Опаздывающим пассажирам срочно пройти к выходу номер двенадцать.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "low",
+        "personality": "serious",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a serious, low-pitched adult male voice. Your tone should convey disappointment, despite the neutral words.",
+          "text": "Мы завершили этап сбора первоначальных данных в соответствии с графиком. Фаза анализа начнется в следующий понедельник, как и планировалось.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. The speaker is a serious man with a low voice. Read this status update with a disappointed tone.",
+          "text": "Дизайн пользовательского интерфейса был утвержден и передан команде разработчиков для реализации. Все сроки пока соблюдаются.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. As a serious man with a low-pitched voice, deliver this update with an undercurrent of disappointment.",
+          "text": "Интеграция стороннего программного интерфейса завершена. Теперь мы переходим к тестированию качества, как и было указано в плане работ.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "tone": "complaining",
+        "emotion": "worried",
+        "speed": "fast",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. I need you to read this quickly in a worried, complaining tone. The voice should also have a nasal quality, at a normal volume.",
+          "text": "Для этого рецепта нам понадобятся: мука, сахар, яйца, молоко, сливочное масло, соль, разрыхлитель, ванильный экстракт, немного лимонной цедры и свежие ягоды для украшения.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines all attributes into a direct request. Text is a neutral list of ingredients."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. The voice should sound worried and complaining, speaking at a fast pace. Give it a nasal resonance, but keep the volume regular.",
+          "text": "Так, в список покупок входят: картофель, лук, морковь, свекла, капуста, куриное филе, подсолнечное масло, лавровый лист и черный перец горошком.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines all attributes into a direct request. Text is a neutral list of ingredients."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a fast, complaining voice that sounds worried. It needs to have a nasal quality, spoken at a normal talking volume.",
+          "text": "В списке были: оливковое масло, чеснок, помидоры, базилик, орегано, пармезан, макароны, бальзамический уксус и щепотка красного перца.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines all attributes into a direct request. Text is a neutral list of ingredients."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "warm",
+        "gender": "female",
+        "texture": "soft",
+        "pitch": "normal",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: Warm, Gender: Female, Texture: Soft, Pitch: Normal, Emotion: Happy",
+          "text": "Добро пожаловать в нашу компанию! Мы очень рады вас видеть. Чем я могу вам помочь сегодня?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses strict tag format. Text is a standard welcome message, appropriate for the requested persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: Warm, Gender: Female, Texture: Soft, Pitch: Normal, Emotion: Happy",
+          "text": "Здравствуйте! Рады приветствовать вас в нашем офисе. Пожалуйста, проходите, мы вас ждали.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses strict tag format. Text is a standard welcome message, appropriate for the requested persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: Warm, Gender: Female, Texture: Soft, Pitch: Normal, Emotion: Happy",
+          "text": "Добрый день и добро пожаловать! Надеюсь, у вас был приятный путь. Мы готовы начать.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses strict tag format. Text is a standard welcome message, appropriate for the requested persona."
+          }
+        }
+      ]
+    }
+  ]
+}

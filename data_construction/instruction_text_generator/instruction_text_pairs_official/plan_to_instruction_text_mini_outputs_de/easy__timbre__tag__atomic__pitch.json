@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/pitch",
+  "language": "de",
+  "source_plan_file": "easy__timbre__tag__atomic__pitch.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Pitch: very_high",
+      "text": "Der Bericht fasst die wichtigsten Ergebnisse der Studie des letzten Quartals zusammen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction for a non-English language."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Pitch: high",
+      "text": "Bitte denken Sie daran, die Dokumente vor dem Verlassen des Büros zu unterschreiben.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction for a non-English language."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Pitch: low",
+      "text": "Die Bibliothek schließt heute um siebzehn Uhr.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction for a non-English language."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Pitch: very_low",
+      "text": "Die Reihenfolge der Schritte ist für das Endergebnis des Experiments entscheidend.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction for a non-English language."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Pitch: very_high",
+          "text": "Das System erfordert eine regelmäßige Wartung, um optimal zu funktionieren.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Pitch: very_high",
+          "text": "Der Bericht fasst die wichtigsten Ergebnisse der Studie des letzten Quartals zusammen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Pitch: very_high",
+          "text": "Die Konferenz findet dieses Jahr im Hauptgebäude der Universität statt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Pitch: high",
+          "text": "Könnten Sie mir bitte die Fernbedienung vom Tisch reichen?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Pitch: high",
+          "text": "Würden Sie bitte das Fenster öffnen, es ist etwas warm hier drin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Pitch: high",
+          "text": "Bitte denken Sie daran, die Dokumente vor dem Verlassen des Büros zu unterschreiben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Pitch: low",
+          "text": "Die Bibliothek schließt heute um siebzehn Uhr.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Pitch: low",
+          "text": "Das Treffen wurde auf morgen verschoben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Pitch: low",
+          "text": "Die Veranstaltung beginnt pünktlich um acht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Pitch: very_low",
+          "text": "Der Prozess wandelt chemische Energie in elektrische Energie um.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Pitch: very_low",
+          "text": "Diese Methode wird verwendet, um die Datenintegrität in der Datenbank sicherzustellen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Pitch: very_low",
+          "text": "Die Reihenfolge der Schritte ist für das Endergebnis des Experiments entscheidend.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction for a non-English language."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/personality",
+  "language": "es",
+  "source_plan_file": "easy__style__direct__atomic__personality.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Can you read this with a happy and bright tone of voice?",
+      "text": "He estado organizando los libros en mi estantería por orden alfabético todo el día.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text describes a neutral activity."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Deliver this line with a grave and serious tone.",
+      "text": "Según el manual, el dispositivo requiere una calibración mensual para funcionar correctamente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses synonyms 'grave and serious'. Text is a neutral technical statement."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Say this in the voice of someone who is reserved and a bit quiet.",
+      "text": "¿Me puedes pasar la sal, por favor?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction directly asks for a reserved personality. Text is a very common, neutral request."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Read this explanation with a humorous and witty personality.",
+      "text": "El proceso para ensamblar este mueble implica seguir las instrucciones paso a paso con mucho cuidado.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a witty tone. Text is a dry, procedural explanation."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "humorous"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Say this as a confident speaker addressing a group.",
+      "text": "Por favor, asegúrense de que todos sus dispositivos electrónicos estén apagados o en modo avión.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction provides a speaker context. Text is a common pre-flight announcement."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Deliver this line in a coolly detached and uninterested manner.",
+      "text": "Es interesante cómo funcionan las cosas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction provides more descriptive phrasing for 'aloof'. Text is a vague, general reflection."
+      },
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0001",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this with a cheerful and upbeat personality.",
+          "text": "El pronóstico del tiempo para mañana indica cielos parcialmente nublados con una ligera brisa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a neutral weather forecast."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Can you read this with a happy and bright tone of voice?",
+          "text": "He estado organizando los libros en mi estantería por orden alfabético todo el día.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text describes a neutral activity."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver the line as someone who is naturally very cheerful.",
+          "text": "La reunión está programada para las tres de la tarde en la sala de conferencias principal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct. Text is a standard scheduling statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0002",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read the following sentence with a serious personality.",
+          "text": "El nuevo sistema operativo se instalará en todos los ordenadores de la oficina la próxima semana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a serious personality. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line with a grave and serious tone.",
+          "text": "Según el manual, el dispositivo requiere una calibración mensual para funcionar correctamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses synonyms 'grave and serious'. Text is a neutral technical statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Say this as if you are a very serious person.",
+          "text": "La densidad del agua es de aproximadamente mil kilogramos por metro cúbico a cuatro grados Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction frames the request as roleplay. Text is a scientific fact."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0003",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in the voice of someone who is reserved and a bit quiet.",
+          "text": "¿Me puedes pasar la sal, por favor?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly asks for a reserved personality. Text is a very common, neutral request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this with a withdrawn and reserved personality.",
+          "text": "¿Sabes qué hora es?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a synonym 'withdrawn'. Text is a common question."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this request with a shy and reserved tone.",
+          "text": "Creo que dejé mi paraguas aquí.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a synonym 'shy'. Text is a simple, neutral statement that can function as a request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0004",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "humorous"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this explanation with a humorous and witty personality.",
+          "text": "El proceso para ensamblar este mueble implica seguir las instrucciones paso a paso con mucho cuidado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a witty tone. Text is a dry, procedural explanation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Say this line as if you find the situation amusing, with a lighthearted and humorous tone.",
+          "text": "Para conectar el dispositivo, primero hay que enchufar el cable azul en el puerto correspondiente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction gives a bit of context for the humor. Text is a neutral technical instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Can you deliver this with a dry, humorous wit?",
+          "text": "Se recomienda reiniciar la computadora cada vez que el programa deja de responder.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a 'dry' humor. Text is a common, relatable tech-support tip."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0005",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Make this announcement with a confident and self-assured voice.",
+          "text": "Les recordamos que la biblioteca cerrará en quince minutos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a confident voice. Text is a standard closing announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line with a strong sense of confidence and certainty.",
+          "text": "El próximo tren con destino a la capital saldrá del andén número cuatro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction emphasizes certainty. Text is a typical transit announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Say this as a confident speaker addressing a group.",
+          "text": "Por favor, asegúrense de que todos sus dispositivos electrónicos estén apagados o en modo avión.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides a speaker context. Text is a common pre-flight announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_direct_atomic_personality__0006",
+      "meta_path": "easy/style/direct/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this with an aloof and distant personality.",
+          "text": "El tiempo parece cambiar constantemente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for an aloof tone. Text is a neutral observation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line in a coolly detached and uninterested manner.",
+          "text": "Es interesante cómo funcionan las cosas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides more descriptive phrasing for 'aloof'. Text is a vague, general reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with a remote and aloof tone of voice.",
+          "text": "La gente tiene opiniones diferentes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a synonym 'remote'. Text is a simple, factual statement about people."
+          }
+        }
+      ]
+    }
+  ]
+}

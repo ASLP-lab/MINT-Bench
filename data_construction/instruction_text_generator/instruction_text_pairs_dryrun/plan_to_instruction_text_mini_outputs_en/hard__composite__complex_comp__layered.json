@@ -1,0 +1,482 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/layered",
+  "language": "en",
+  "source_plan_file": "hard__composite__complex_comp__layered.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Say this with a happy, upbeat voice. Underneath the cheerfulness, though, there should be a heavy layer of sarcasm, showing you mean the exact opposite of what you're saying.",
+      "text": "I'm so thrilled that the meeting was moved to seven in the morning. I just love waking up early.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this line with a bright, cheerful tone, as if you're delighted. However, make it clear that you're actually being deeply sarcastic and find the situation incredibly annoying.",
+          "text": "Oh, another traffic jam! This is just what I needed to make my day perfect.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this with a happy, upbeat voice. Underneath the cheerfulness, though, there should be a heavy layer of sarcasm, showing you mean the exact opposite of what you're saying.",
+          "text": "I'm so thrilled that the meeting was moved to seven in the morning. I just love waking up early.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your performance should sound happy on the surface, almost bubbly. But the subtext is pure sarcasm. Your tone should subtly betray your actual frustration.",
+          "text": "Working through the weekend again? What a wonderful opportunity to show my dedication to the company.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a calm and measured voice, as if you have everything under control. However, let a subtle tremor of worry show through, revealing that you're not as confident as you sound.",
+          "text": "Everything is proceeding according to the plan. There is no reason to be concerned at this time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Maintain a composed and steady delivery throughout. Your exterior is calm, but underneath, there's a clear hint of anxiety about the situation.",
+          "text": "We've accounted for all the variables. The system is stable and performing within expected parameters.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should be the picture of calm and reassurance. But let the listener hear the worry you're trying to suppress just beneath the surface.",
+          "text": "Don't you mind about that sound. It's perfectly normal, and we're monitoring it closely.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "neutral",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this line in a neutral, matter-of-fact way. On the surface, it should sound like a simple statement, but your tone should carry an undercurrent of deep disappointment.",
+          "text": "So, the board has made its decision. We have received the final report this morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this with a flat, indifferent affect, as though the outcome doesn't bother you. However, let a subtle tone of disappointment seep into your voice.",
+          "text": "The results are in, and they are what they are. We will proceed based on these findings.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Attempt to sound completely neutral and objective. This neutrality should be a thin veil over your true feelings of disappointment about the news.",
+          "text": "I see. So that's how it's going to be from now on. I understand the situation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "sad",
+        "emotion_layer_2": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Your delivery should be filled with sadness and a sense of loss. But beneath that sorrow, let a hint of suppressed anger and resentment be heard.",
+          "text": "There was nothing else that could have been done. It all happened just the way it was meant to.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak with a heavy, melancholic voice. While sadness is the primary emotion, there should be an undercurrent of simmering anger just below the surface.",
+          "text": "I've thought about it a thousand times. In the end, it was the only choice I had.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The overall feeling should be one of deep sadness. However, this sadness is layered over a core of anger that you're trying to keep hidden.",
+          "text": "We all did what we thought was right at the time. I suppose that's all anyone can say.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this update with a serious and professional demeanor, maintaining your composure. Despite your best efforts to sound calm, a subtle undercurrent of fear about the situation should be audible in your voice.",
+          "text": "We are continuing to monitor the containment field's integrity. Current readings are stable, but we are seeing some minor fluctuations that are slightly outside of our initial projections. All secondary systems are on standby.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this in a formal, serious tone, as if you're giving a critical briefing. You are trying to hide your fear, but it's not entirely successful; a slight tension should betray your anxiety.",
+          "text": "The initial data suggests our countermeasures are having the desired effect. We've seen a reduction in the primary anomaly's growth, and we believe the situation is manageable for now. We will continue our analysis.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should be composed and serious, projecting authority and control. However, beneath this professional facade, the listener should be able to detect the fear you're trying desperately to conceal.",
+          "text": "As of the last report, the pressure remains within acceptable limits, though it is approaching the upper threshold. We are confident in our procedures, and the team is prepared for any eventuality. We'll know more in the next hour.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "smug",
+        "tone_layer_2": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this as if you're trying to sound disappointed and sympathetic. But let a smug, self-satisfied tone shine through, revealing you're actually pleased with the outcome.",
+          "text": "Oh, that's a real shame. I truly thought you were going to succeed this time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Put on a performance of being let down or sorry for someone. Underneath this thin veneer of disappointment, your voice should betray a clear sense of smug satisfaction.",
+          "text": "Well, you gave it your best shot. Not everyone can get it right on the first try.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "You're feigning disappointment here. Your words say one thing, but your smug, 'I-told-you-so' tone should make your true feelings perfectly clear.",
+          "text": "I'm so sorry to hear it didn't work out. It was such an ambitious project, after all.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "warm",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a warm and friendly voice. However, your delivery should be hesitant, betraying an uncertainty or shyness about asking the question.",
+          "text": "I was just wondering, if you're not busy later, maybe you'd like to get some coffee?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your overall manner should be warm and inviting, but let a clear hesitation come through in your tone, showing you're a bit nervous about the response.",
+          "text": "There's this thing happening this weekend, and... I thought maybe you might be interested in going?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "While your personality is warm and open, the tone of your question should be hesitant and a little tentative, as if you're not quite sure you should be asking.",
+          "text": "I know it's short notice, but I have an extra ticket for the concert tonight, if... you'd want it?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this in a lighthearted, humorous way, as if you're just joking around. However, underneath the laughter, your tone should be firm and completely serious, making it clear this is not a suggestion.",
+          "text": "Look, you can try every fancy diet you want, but seriously, just eat a vegetable once in a while. I'm not kidding.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this with a humorous and playful personality. Despite the joking manner, there should be an unmistakable firmness in your voice that lets the listener know you mean business.",
+          "text": "Haha, yeah, putting it off is always an option, but for real, you need to get this done by Friday. No more extensions.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The surface delivery should be funny and casual. But layered underneath is a firm, non-negotiable tone that communicates the seriousness of the message.",
+          "text": "I know, I know, it sounds like I'm nagging. But trust me on this one, you do not want to be late for this meeting.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "playful",
+        "tone_layer_2": "coquettish"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with a playful, teasing tone. Underneath the playful surface, add a layer of coquettishness, making it clear you're flirting.",
+          "text": "You always seem to know exactly what to say, don't you?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your delivery should be light and playful. At the same time, make sure there's a clear, coquettish undertone to your voice.",
+          "text": "I've never seen anyone handle a situation like that quite so... effectively.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Sound like you're teasing them in a fun way, but make sure your voice also carries a distinctly coquettish and inviting quality.",
+          "text": "Is there anything you're not surprisingly good at? I'm starting to wonder.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "surprised",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You should sound genuinely surprised by what you just heard. But your surprise should be tinged with a clear tone of disdain, as if you can't believe someone would think or say that.",
+          "text": "Oh. I had no idea you felt that way about the project.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line as if you are taken aback and truly surprised. However, lace this surprise with a contemptuous undercurrent, showing you look down on the other person's view.",
+          "text": "Really? So that's the conclusion you've come to after all this time?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your initial reaction should be one of shock or surprise. But make it clear that this surprise is layered with disdain for the person you're speaking to.",
+          "text": "Well, that's certainly one way to look at the situation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

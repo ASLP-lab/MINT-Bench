@@ -1,0 +1,372 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "ko",
+  "generation_summary": {
+    "num_items": 10,
+    "domain": "extra_vocal",
+    "difficulty": "special",
+    "notes": "Planning items where the instruction sets a global speaking style, and the text contains a corresponding explicit non-verbal tag. The instruction must not mention the non-verbal event itself. Instructions are in English, text is in Korean."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "laugh"
+      },
+      "aux_values": {},
+      "text_semantic": "reacting_to_a_funny_story",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [laugh] once.",
+        "The text should be semantically appropriate for a happy reaction.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction must request a genuinely amused and cheerful delivery.",
+        "Instruction must NOT mention the word 'laugh' or related terms.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "sigh"
+      },
+      "aux_values": {},
+      "text_semantic": "commenting_on_a_long_day",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [sigh] at the beginning or end of the utterance.",
+        "The text should be a reflection on a tiring situation.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction must ask for a tired and resigned tone.",
+        "Instruction must NOT mention the word 'sigh' or related terms.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "gasp"
+      },
+      "aux_values": {},
+      "text_semantic": "reacting_to_surprising_news",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [gasp] at the beginning.",
+        "The text should express disbelief or shock.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should describe a tone of sudden shock or surprise.",
+        "Instruction must NOT mention the word 'gasp' or related terms.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "throat_clearing"
+      },
+      "aux_values": {},
+      "text_semantic": "beginning_a_formal_announcement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [throat_clearing] at the start of the text.",
+        "The text should be a somewhat serious or formal statement.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should ask for a serious, slightly nervous, and formal delivery.",
+        "Instruction must NOT mention the act of clearing one's throat.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "sobbing"
+      },
+      "aux_values": {},
+      "text_semantic": "describing_a_sad_event",
+      "text_length": "long",
+      "text_constraints": [
+        "Must contain the tag [sobbing] in the middle of the utterance.",
+        "The text should be emotionally heavy and express sorrow.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should request a very sad, heartbroken delivery, with a wavering voice.",
+        "Instruction must NOT use the words 'sob', 'cry', or related terms.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "yawn"
+      },
+      "aux_values": {},
+      "text_semantic": "late_night_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [yawn] somewhere in the sentence.",
+        "The text should be about being tired or wanting to sleep.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should describe a sleepy, low-energy speaking style.",
+        "Instruction must NOT mention the word 'yawn'.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "chuckle"
+      },
+      "aux_values": {},
+      "text_semantic": "sharing_a_lighthearted_observation",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [chuckle] at the end.",
+        "The text content should be mildly amusing or ironic.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should ask for a delivery that is quietly amused and knowing.",
+        "Instruction must NOT use words like 'chuckle' or 'laugh'.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "humming"
+      },
+      "aux_values": {},
+      "text_semantic": "contemplative_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [humming] twice, at the beginning and end.",
+        "The text should be about thinking or pondering something.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should ask for a thoughtful and content tone, as if speaking to oneself.",
+        "Instruction must NOT mention the word 'hum' or 'humming'.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "sniffle"
+      },
+      "aux_values": {},
+      "text_semantic": "talking_about_a_nostalgic_memory",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must contain the tag [sniffle] once.",
+        "The text should be bittersweet or sentimental.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction should request a slightly sad, sentimental delivery, as if holding back tears.",
+        "Instruction must NOT use words like 'sniffle' or 'cry'.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "attribute_set": [
+        "explicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "explicit_nv": "whisper"
+      },
+      "aux_values": {},
+      "text_semantic": "sharing_a_secret",
+      "text_length": "medium",
+      "text_constraints": [
+        "The entire text must be bookended by [whisper] tags, like '[whisper] a secret sentence [whisper]'.",
+        "The text should semantically suggest confidentiality.",
+        "final text must be written in Korean",
+        "insert explicit nonverbal tags naturally into the final text"
+      ],
+      "instruction_constraints": [
+        "Instruction must ask for a very soft, quiet, and conspiratorial tone.",
+        "Instruction must NOT use the word 'whisper'.",
+        "Instruction must begin with 'Speak in Korean.'",
+        "final instruction must be in English and should begin with 'Speak in Korean.'",
+        "use natural voice-direction phrasing in final realization",
+        "final instruction must not mention specific nonverbal events or explicit tags; let the text tags carry those cues"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": true,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

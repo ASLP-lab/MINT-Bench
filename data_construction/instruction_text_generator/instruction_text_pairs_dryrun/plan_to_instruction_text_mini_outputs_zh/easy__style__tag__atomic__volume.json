@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/volume",
+  "language": "zh",
+  "source_plan_file": "easy__style__tag__atomic__volume.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "音量：很轻",
+      "text": "我们每天都会做出无数个选择，而这些选择最终构成了我们的人生。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction for volume."
+      },
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音量：很轻",
+          "text": "有时候我会想，时间到底是什么，它从哪里来，又将到哪里去。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音量：很轻",
+          "text": "看着街上的人来人往，每个人似乎都朝着自己的方向前进。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "音量：很轻",
+          "text": "我们每天都会做出无数个选择，而这些选择最终构成了我们的人生。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音量：轻",
+          "text": "各位读者请注意，闭馆时间为晚上九点，请安排好您的时间。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音量：轻",
+          "text": "本馆将于下周一开始举办为期一周的图书展览，欢迎大家前来参观。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "音量：轻",
+          "text": "失物招领处有新收到的物品，请遗失物品的读者前往查询。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音量：大",
+          "text": "前方路段因施工临时封闭，请过往车辆注意绕行，遵守交通指示。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音量：大",
+          "text": "气象台发布高温预警，请市民注意防暑降温，尽量减少午间外出活动。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "音量：大",
+          "text": "开往中心广场方向的地铁三号线列车即将进站，请乘客在安全线外排队等候。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音量：很大",
+          "text": "这是一条系统测试信息，请勿惊慌。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音量：很大",
+          "text": "现在开始播报紧急警报系统测试。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "音量：很大",
+          "text": "本次警报测试将在三十秒后结束。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction for volume."
+          }
+        }
+      ]
+    }
+  ]
+}

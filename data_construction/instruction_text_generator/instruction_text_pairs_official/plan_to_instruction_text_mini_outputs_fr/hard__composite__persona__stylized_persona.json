@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/stylized_persona",
+  "language": "fr",
+  "source_plan_file": "hard__composite__persona__stylized_persona.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Please read this as a composed, elegant woman, with the warmth and wisdom of an older sister.",
+      "text": "La patience est une vertu qui s'apprend avec les années, je crois.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good match between instruction and a neutral, reflective text."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0001",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "yujie"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Use the voice of a very young girl, with a sweet and high-pitched tone.",
+      "text": "Tu peux me passer le livre qui est sur la table, s'il te plaît ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a simple request that avoids childish themes."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0002",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "loli"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Please use a child's voice with a naughty, playful tone. Imagine they just pulled a small, harmless prank.",
+      "text": "Ce n'est pas moi qui ai laissé la porte ouverte, je le promets.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is neutral but allows for a mischievous interpretation."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0003",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "mischievous_child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. I need a straightforward and confident young female voice, with a tomboyish quality to it.",
+      "text": "J'ai terminé de monter l'étagère, c'était plus simple que prévu.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text content is neutral and doesn't lean into gender stereotypes."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0004",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "tomboyish_youth"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Please use a quiet and timid young female voice, as if she's a bit shy.",
+      "text": "Euh, excusez-moi... je crois que c'est mon tour maintenant.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is simple and allows for a hesitant delivery."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0005",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "shy_girl"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Use a warm, kind, and caring female voice, like a gentle older sister giving advice.",
+      "text": "La meilleure façon de résoudre ce problème est de le décomposer en plusieurs petites étapes plus faciles à gérer.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is explanatory and avoids leaking the persona."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0006",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "gentle_sister"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. I need a 'tsundere' performance: deliver the line with a sharp, dismissive tone, but let a little bit of warmth or softness peek through.",
+      "text": "Tu es vraiment un idiot ! Tiens, prends mon parapluie, tu vas attraper froid.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text's internal contradiction supports the layered emotion."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0007",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "tsundere_girl"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. The delivery should be bright and lively, from a young man with a very optimistic personality.",
+      "text": "Hé, devinez quoi ? J'ai réussi à obtenir des billets pour le concert !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is positive without explicitly stating happy emotions."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0008",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "sunny_boy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Please read this with a cool, distant voice, as if the speaker is observing things from afar without getting involved.",
+      "text": "Les gens se pressaient dans la rue principale, chacun absorbé par ses propres pensées et ses propres objectifs.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral observation suitable for a detached delivery."
+      },
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0009",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "aloof_young_man"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0001",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "yujie"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. I want a voice that sounds like a mature and elegant older sister, very composed and gentle.",
+          "text": "Parfois, je me demande si nous avons vraiment fait les bons choix.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match between instruction and a neutral, reflective text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Could you use a mature, graceful female voice? She should sound calm and thoughtful, like a dependable older sister.",
+          "text": "Le temps passe si vite, il est important de chérir chaque moment.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match between instruction and a neutral, reflective text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Please read this as a composed, elegant woman, with the warmth and wisdom of an older sister.",
+          "text": "La patience est une vertu qui s'apprend avec les années, je crois.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good match between instruction and a neutral, reflective text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0002",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "loli"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use the voice of a very young girl, with a sweet and high-pitched tone.",
+          "text": "Tu peux me passer le livre qui est sur la table, s'il te plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a simple request that avoids childish themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I'd like to hear this in a high-pitched, sweet-sounding voice, like that of a little girl.",
+          "text": "Est-ce que tu pourrais m'aider à atteindre cet objet en hauteur ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a simple request that avoids childish themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Please speak with a very cute and young girl's voice, make it sound high and innocent.",
+          "text": "J'aimerais beaucoup savoir comment cela fonctionne, tu peux m'expliquer ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a simple request that avoids childish themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0003",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "mischievous_child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. I'm looking for a child's voice that sounds playful and a little mischievous, as if they're holding back a giggle.",
+          "text": "Je sais quelque chose que tu ne sais pas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is neutral but allows for a mischievous interpretation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Please use a child's voice with a naughty, playful tone. Imagine they just pulled a small, harmless prank.",
+          "text": "Ce n'est pas moi qui ai laissé la porte ouverte, je le promets.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is neutral but allows for a mischievous interpretation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Read this in the voice of a cheeky child, full of playful energy and maybe a hint of a secret.",
+          "text": "J'ai trouvé une cachette secrète juste derrière le grand arbre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is neutral but allows for a mischievous interpretation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0004",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "tomboyish_youth"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. The voice should be a young woman's, but energetic and straightforward, more like a tomboy.",
+          "text": "Le match commence à vingt heures, il ne faut pas être en retard.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content is neutral and doesn't lean into gender stereotypes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Can you deliver this with a youthful, energetic female voice? She should sound direct and not too 'girly'.",
+          "text": "Ce type de moteur est beaucoup plus efficace que l'ancien modèle.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content is neutral and doesn't lean into gender stereotypes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. I need a straightforward and confident young female voice, with a tomboyish quality to it.",
+          "text": "J'ai terminé de monter l'étagère, c'était plus simple que prévu.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content is neutral and doesn't lean into gender stereotypes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0005",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "shy_girl"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Please use a quiet and timid young female voice, as if she's a bit shy.",
+          "text": "Euh, excusez-moi... je crois que c'est mon tour maintenant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is simple and allows for a hesitant delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. The delivery should be hesitant and soft-spoken, like a shy girl trying to speak up.",
+          "text": "Je... je ne suis pas sûre de connaître la réponse à cette question.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is simple and allows for a hesitant delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. I want to hear a quiet, slightly nervous young woman's voice for this line.",
+          "text": "C'est une très bonne idée, mais je ne sais pas si je peux aider.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is simple and allows for a hesitant delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0006",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "gentle_sister"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a warm, kind, and caring female voice, like a gentle older sister giving advice.",
+          "text": "La meilleure façon de résoudre ce problème est de le décomposer en plusieurs petites étapes plus faciles à gérer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is explanatory and avoids leaking the persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I want a delivery that is very gentle and reassuring, like an older sister calmly explaining something.",
+          "text": "Ne t'inquiète pas si tu ne réussis pas du premier coup, l'important est de continuer à essayer et d'apprendre de ses erreurs.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is explanatory and avoids leaking the persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Can you read this in a soft, kindhearted female voice? Imagine a sweet older sister patiently teaching someone.",
+          "text": "Pour bien comprendre le contexte, il faut d'abord lire les chapitres précédents qui introduisent les personnages principaux.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is explanatory and avoids leaking the persona."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0007",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "tsundere_girl"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. The character should sound harsh and annoyed on the surface, but with an undercurrent of genuine concern. Like she's trying to hide that she cares.",
+          "text": "Ce n'est pas que je m'inquiète pour toi, c'est juste que ce serait ennuyeux si tu n'étais pas là.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a classic setup for a tsundere performance."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I need a 'tsundere' performance: deliver the line with a sharp, dismissive tone, but let a little bit of warmth or softness peek through.",
+          "text": "Tu es vraiment un idiot ! Tiens, prends mon parapluie, tu vas attraper froid.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's internal contradiction supports the layered emotion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak as a character who is outwardly cold and irritable but secretly kind. The tone should be sharp, but not genuinely mean.",
+          "text": "Arrête de faire autant de bruit ! Et puis... tu devrais manger quelque chose.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's internal contradiction supports the layered emotion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0008",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "sunny_boy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. I want a cheerful and energetic young male voice, full of positive energy.",
+          "text": "Bonne nouvelle, tout le monde ! Le pique-nique est maintenu pour samedi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is positive without explicitly stating happy emotions."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Please use an upbeat and sunny young man's voice for this line.",
+          "text": "J'ai vérifié la météo et il semblerait qu'on aura du soleil tout le week-end.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is positive without explicitly stating happy emotions."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. The delivery should be bright and lively, from a young man with a very optimistic personality.",
+          "text": "Hé, devinez quoi ? J'ai réussi à obtenir des billets pour le concert !",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is positive without explicitly stating happy emotions."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_persona_stylized_persona__0009",
+      "meta_path": "hard/composite/persona/stylized_persona",
+      "target_values": {
+        "stylized_persona": "aloof_young_man"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. The voice should be a cool and detached young man, speaking in a slightly distant, observant tone.",
+          "text": "De cet endroit, on pouvait observer les lumières de la ville qui scintillaient au loin, indifférentes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral observation suitable for a detached delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. I'm looking for an aloof young male voice, with a calm and unemotional delivery.",
+          "text": "La pluie a commencé à tomber, un événement prévisible compte tenu des nuages qui s'accumulaient depuis le matin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral observation suitable for a detached delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Please read this with a cool, distant voice, as if the speaker is observing things from afar without getting involved.",
+          "text": "Les gens se pressaient dans la rue principale, chacun absorbé par ses propres pensées et ses propres objectifs.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral observation suitable for a detached delivery."
+          }
+        }
+      ]
+    }
+  ]
+}

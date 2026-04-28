@@ -1,0 +1,471 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "en",
+  "source_plan_file": "special__extra_vocal__explicit_nv.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Read the text with a lighthearted and cheerful tone, as though sharing an entertaining anecdote that still makes you smile.",
+      "text": "We went on a camping trip, and my brother swore he knew how to set up the new tent. An hour later, we're standing in front of this... structure that looked more like a deflated parachute. [laugh] He insisted it was the 'modern, aerodynamic design'. Then a squirrel ran over the top of it, and the whole thing just collapsed into a pile of fabric. [laugh] We just had to sleep in the car.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes joyful delivery without using forbidden words. Text contains two required tags."
+      },
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "laugh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "laugh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as if you're telling a friend about a hilarious thing that happened last week. Your voice should be full of good humor and happiness.",
+          "text": "I remember this one time in college, we decided to try and cook a huge dinner for everyone in the dorm. Tom, who claimed he was a great chef, was in charge of the turkey. [laugh] He was so confident, strutting around the kitchen. But he completely forgot to take out the little bag of giblets inside before roasting it for hours. The look on his face when we carved it and found that melted plastic bag... [laugh] it was absolutely priceless.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes joyful delivery without using forbidden words. Text contains two required tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your tone should be joyful and bright, like you're recalling a wonderful, funny moment from your past.",
+          "text": "My daughter had this phase where she wanted to be a magician. For her big show, she tried to pull a rabbit out of a hat. But our cat, Mittens, had other ideas. [laugh] Just as she was saying the magic words, Mittens jumped out of the hat and bolted across the living room, trailing a string of colorful handkerchiefs. [laugh] We were all in stitches for at least ten minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes joyful delivery without using forbidden words. Text contains two required tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read the text with a lighthearted and cheerful tone, as though sharing an entertaining anecdote that still makes you smile.",
+          "text": "We went on a camping trip, and my brother swore he knew how to set up the new tent. An hour later, we're standing in front of this... structure that looked more like a deflated parachute. [laugh] He insisted it was the 'modern, aerodynamic design'. Then a squirrel ran over the top of it, and the whole thing just collapsed into a pile of fabric. [laugh] We just had to sleep in the car.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes joyful delivery without using forbidden words. Text contains two required tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sobbing"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as if you're completely heartbroken. Your voice should be thick with emotion, making it difficult to speak clearly.",
+          "text": "My dearest, by the time you read this, I will be gone. [whimper] I want you to know that every moment with you was a gift. I remember the day we met, the rain... [sobbing] I never thought I could feel such happiness. Please, don't be filled with sorrow for too long. Live fully. Live for both of us. [sobbing] I will always love you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes overwhelming emotion without using forbidden words. Text contains the required tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice is breaking and choked with feeling. You can barely get the words out because of the intense grief you're experiencing.",
+          "text": "He wrote... he wrote that he was sorry. [whimper] That he never meant for any of this to happen. He said he kept the picture I gave him, the one from the fair. [sobbing] He looked at it every night. How could he just leave? [sobbing] He said to remember the good times, but right now... right now all I can feel is the end.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes overwhelming emotion without using forbidden words. Text contains the required tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Perform this with a sense of profound loss. Your speech should be unsteady and punctuated by your overwhelming feelings.",
+          "text": "I'm reading from her last entry. 'The world seems so quiet now.' [whimper] 'I see the birds outside my window and I wish I could fly with them, just for a day.' [sobbing] 'Tell them... tell them I was brave. Tell them I miss them already.' [sobbing] I can't read any more.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes overwhelming emotion without using forbidden words. Text contains the required tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sigh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this with a sense of complete exhaustion, as if you've just come home from an incredibly draining day.",
+          "text": "First, the train was delayed. Then the meeting ran two hours over, and my lunch break was just five minutes at my desk. The commute home was packed. I just... I can't even think about what's for dinner right now. [sigh] Tomorrow has to be better.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes weariness without using forbidden words. Text contains the tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should be heavy and drained of all energy. Speak with a feeling of resignation.",
+          "text": "I went through all the reports, double-checked the figures, and then realized the initial data was wrong. So I had to start all over again, from scratch. Eight hours of work, just gone. [sigh] I guess I'll just get some coffee and start again.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes weariness without using forbidden words. Text contains the tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak like you have no energy left. Your words should come out slowly and without any enthusiasm.",
+          "text": "The kids were running around all day, the dog got into the trash, and the washing machine decided today was a good day to leak all over the floor. I've been putting out fires since seven this morning. [sigh] I'm just going to sit here for a minute.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes weariness without using forbidden words. Text contains the tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "yawn"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as if you are forcing yourself to stay awake to finish explaining something. Your voice should be low and dragging.",
+          "text": "So, the core principle of quantum entanglement is that two particles can be linked in such a way that their fates are intertwined, regardless of the distance separating them. This means that if you measure the spin of one particle, you instantly know the spin of the other. The information seems to... [yawn] it seems to travel faster than light, which is what Einstein called 'spooky action at a distance'.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes sleepiness without using forbidden words. Text contains the required tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "You sound like you're about to fall asleep at any moment. Your words are slow and drawn out as you fight to keep your eyes open.",
+          "text": "The Krebs cycle, also known as the citric acid cycle, is a series of chemical reactions used by all aerobic organisms to release stored energy. It begins when acetyl-CoA combines with oxaloacetate to form citrate. Through a series of... um... a series of enzymatic reactions, [yawn] the citrate is oxidized, releasing carbon dioxide and producing ATP, which is the cell's main energy currency.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes sleepiness without using forbidden words. Text contains the required tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should be very languid and heavy-lidded. You're struggling to concentrate and finish your thought.",
+          "text": "In macroeconomics, the Phillips curve represents the inverse relationship between the rate of unemployment and the rate of inflation in an economy. Essentially, when unemployment is low, inflation tends to be high, and vice versa. However, this relationship can break down during periods of... what's it called... [yawn] during periods of stagflation, where both unemployment and inflation are high.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes sleepiness without using forbidden words. Text contains the required tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "cough"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this announcement with a formal but slightly strained voice, as if you're trying to speak clearly despite having a rough throat.",
+          "text": "Attention all passengers. We would like to remind you that the final boarding call for flight 7B to Denver is now in effect. Please proceed to gate... [cough] excuse me... please proceed to gate 12 immediately. [cough] Thank you for your cooperation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes vocal strain without using forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should have a slightly hoarse quality. You sound like you're pushing through some vocal discomfort to make a statement.",
+          "text": "Good evening. This is a special bulletin. Due to the inclement weather conditions, all public schools in the district will be closed tomorrow, January 15th. [cough] All after-school activities are also canceled. We will... [cough] provide an update tomorrow afternoon. Please stay safe.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes vocal strain without using forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in a clear, public-address style, but with a gravelly undertone that suggests a physical irritation in your throat.",
+          "text": "May I have your attention, please. The library will be closing in fifteen minutes. [cough] Please bring all materials to the front desk for check-out. The computer labs will be shutting down in five minutes. [cough] Thank you, and have a good evening.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes vocal strain without using forbidden words. Text has required tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "giggle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a hushed, conspiratorial tone, filled with barely contained amusement, as if you're sharing something you shouldn't.",
+          "text": "Okay, so you are not going to believe what I saw. Mark from accounting, you know the really serious one? I saw him at the park this weekend trying to learn how to skateboard. [giggle] He was wearing full padding, helmet and everything, and wobbling like a baby deer. [giggle] It was adorable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes suppressed amusement without using forbidden words. Text contains tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should be light and playful, like you find the information you're sharing incredibly funny and have to try not to burst out.",
+          "text": "Did you hear about Sarah's new parrot? Apparently, the only thing it knows how to say is the theme song to that old TV show from the eighties. [giggle] She had the CEO on a video call, and the bird just started belting it out in the background. [giggle] She was mortified.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes suppressed amusement without using forbidden words. Text contains tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a low volume, as if leaning in to tell a friend something funny, with a bubbly quality to your voice.",
+          "text": "So listen to this. My boss told us he was going on a 'very important business retreat'. But his wife posted pictures from their trip to a tropical island. [giggle] And in one of them, he's wearing a giant inflatable flamingo floaty. [giggle] I can't look at him the same way.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes suppressed amusement without using forbidden words. Text contains tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as if you're standing at a podium, a little shaky and unsure of yourself as you begin to address a large crowd.",
+          "text": "Um, hello everyone. [throat_clearing] Good morning. My name is Alex, and... and today I'd like to talk to you all about the importance of urban green spaces. It's a topic I'm very passionate about.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes hesitation without using forbidden words. Text has required tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should be a bit unsteady and tentative. You're trying to project confidence but your apprehension is showing.",
+          "text": "Okay, is this... is this thing on? [throat_clearing] Right. Hi. Thanks for coming. For my presentation, I'll be discussing the migration patterns of the Arctic tern, which is... which is a truly remarkable bird.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes hesitation without using forbidden words. Text has required tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin speaking with some hesitation, as though gathering your courage before speaking to an important group of people.",
+          "text": "Good afternoon, members of the board. [throat_clearing] I'm here today to present my proposal for the fourth-quarter marketing initiative. I believe this new direction will... uh... significantly increase our brand visibility.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes hesitation without using forbidden words. Text has required tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "humming"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a relaxed, easygoing manner, as if you're explaining something simple while your hands are busy with a pleasant activity.",
+          "text": "So you just take the little seedling, [humming] make a small hole right here, not too deep. Then you place it in gently. [humming] And then you just cover the roots with soil. See? It's really that simple.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a relaxed, distracted state without using forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your tone should be calm and peaceful. You sound pleasantly occupied, with your speech flowing naturally between words and non-verbal sounds.",
+          "text": "First, you want to get the water to just the right temperature. [humming] Then you pour it over the tea leaves. Let it steep for about three minutes. [humming] That's the perfect amount of time, I think.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a relaxed, distracted state without using forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver the lines with a warm, casual tone. You sound completely at ease, maybe a little lost in your own thoughts as you speak.",
+          "text": "I always start by organizing the colors. [humming] All the blues together, then the greens. It just makes it easier to find what I need later. [humming] There, that looks much better already.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a relaxed, distracted state without using forbidden words. Text has required tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "whisper"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this with a hushed intensity, as if it's crucial that no one else hears what you're saying.",
+          "text": "Okay, listen carefully. [whisper] Go down the hall, take the third door on the left. The key is under the mat. Do not turn on any lights. [/whisper] Just get the package and leave. Got it?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes hushed delivery without using forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in a very low, secretive voice. Your tone is urgent, but you can't risk raising your volume.",
+          "text": "Be careful. They're watching the main entrance. [whisper] You'll have to use the service exit in the back. It's usually unlocked after midnight. Wait for my signal. [/whisper] Don't move until you see the light flash twice.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes hushed delivery without using forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a low, breathy tone, as if you're trying to be completely inconspicuous while conveying important information.",
+          "text": "This is the spot. [whisper] Look for the loose brick in the wall, three rows down from the top. The documents are inside. Take them and replace the brick exactly as you found it. [/whisper] And don't let anyone see you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes hushed delivery without using forbidden words. Text has required tags."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sniffle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a gentle, reflective tone that's thick with emotion. You sound like you're holding back from breaking down while recalling a memory.",
+          "text": "I found this old photograph of us at the lake that summer. We were so young. [sniffle] You can see the old wooden dock in the background, the one dad built. I remember how the water felt... so cold at first. It was a good day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes emotional vulnerability without forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should be soft and a little shaky, filled with a tender, heartfelt feeling as you remember something from the past.",
+          "text": "Every time I hear that song, it takes me right back to our first apartment. [sniffle] We didn't have any furniture yet, just a mattress on the floor and a little radio. We danced in the living room for hours. [sniffle] It was perfect.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes emotional vulnerability without forbidden words. Text has required tags."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this with a sense of poignant nostalgia. Your voice is wavering slightly, on the edge of becoming overwhelmed with emotion.",
+          "text": "He gave me this little seashell before he left. [sniffle] He said if I held it to my ear, I could always hear the ocean, and that would be like him saying hello. I still have it. I listen to it sometimes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes emotional vulnerability without forbidden words. Text has required tags."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/emotion",
+  "language": "it",
+  "source_plan_file": "easy__style__direct__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Use a bright and happy tone for this sentence.",
+      "text": "Guarda, ho trovato esattamente quello che stavamo cercando per il nostro progetto.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Say this with an angry and frustrated tone.",
+      "text": "Ti avevo detto di mettere i documenti sulla mia scrivania, e adesso non li trovo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Use a somber and sad tone for this line.",
+      "text": "È rimasto solo questo sul tavolo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Ask the question with a voice full of fear.",
+      "text": "La porta si è chiusa da sola?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Deliver this line with a surprised tone of voice.",
+      "text": "L'ufficio postale chiude alle cinque e trenta durante la settimana.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Please read this as if you are anxious about something.",
+      "text": "Non ho ancora ricevuto una risposta all'email che ho inviato stamattina.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. Deliver the following line with a reflective tone.",
+      "text": "Tutto sommato, le cose avrebbero potuto andare in un modo completamente diverso.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say the following with a happy and cheerful voice.",
+          "text": "Ho appena finito di leggere un libro fantastico, mi è piaciuto molto dall'inizio alla fine.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Please read this in a joyful tone.",
+          "text": "Oggi pomeriggio andiamo al parco a fare una passeggiata, il tempo è perfetto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Use a bright and happy tone for this sentence.",
+          "text": "Guarda, ho trovato esattamente quello che stavamo cercando per il nostro progetto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say this with an angry and frustrated tone.",
+          "text": "Ti avevo detto di mettere i documenti sulla mia scrivania, e adesso non li trovo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Read the text as if you are very irritated.",
+          "text": "Questa è la terza volta questo mese che la riunione viene spostata all'ultimo minuto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver the line with anger.",
+          "text": "Ancora una volta, le istruzioni che mi sono state date non erano corrette.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this in a sad, melancholic voice.",
+          "text": "La piazza è vuota a quest'ora.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Say the following with a tone of sadness.",
+          "text": "Ecco, la pioggia ha ricominciato a cadere.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Use a somber and sad tone for this line.",
+          "text": "È rimasto solo questo sul tavolo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this question as if you are scared.",
+          "text": "C'è qualcuno qui con me?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Say this with a fearful tone.",
+          "text": "Hai sentito anche tu quel rumore?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Ask the question with a voice full of fear.",
+          "text": "La porta si è chiusa da sola?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Deliver this line with a surprised tone of voice.",
+          "text": "L'ufficio postale chiude alle cinque e trenta durante la settimana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Read this as if you are surprised to learn it.",
+          "text": "Il prossimo autobus per il centro città non passerà prima di un'ora.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Say the sentence with a note of surprise.",
+          "text": "Hanno spostato la data della riunione di reparto a martedì prossimo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say the following sentence with a worried tone.",
+          "text": "Il tempo di consegna stimato per il pacco è tra le tre e le cinque.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Please read this as if you are anxious about something.",
+          "text": "Non ho ancora ricevuto una risposta all'email che ho inviato stamattina.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver this line with a sense of worry.",
+          "text": "L'ultimo treno parte tra meno di venti minuti dalla stazione centrale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this in a thoughtful and pensive manner.",
+          "text": "Il modo in cui le nuvole si muovono oggi è diverso dal solito.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Deliver the following line with a reflective tone.",
+          "text": "Tutto sommato, le cose avrebbero potuto andare in un modo completamente diverso.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Please speak this sentence in a pensive, contemplative voice.",
+          "text": "C'è qualcosa nel silenzio di questa stanza che fa pensare.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

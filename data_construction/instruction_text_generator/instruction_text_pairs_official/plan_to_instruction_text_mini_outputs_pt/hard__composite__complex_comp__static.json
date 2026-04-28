@@ -1,0 +1,1493 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/static",
+  "language": "pt",
+  "source_plan_file": "hard__composite__complex_comp__static.json",
+  "num_input_items": 22,
+  "num_output_items": 22,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Age: elderly, Gender: male, Emotion: thoughtful",
+      "text": "Leva tempo para entender certas verdades sobre a vida, e cada experiência nos ensina algo novo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Deliver the line as a confident woman with a firm tone.",
+      "text": "Quero que todos os relatórios estejam na minha mesa até o final do dia, sem exceções.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "confident",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say this as a happy child, speaking quickly and full of energy.",
+      "text": "Eu vi um cachorro enorme no parque hoje e ele correu atrás da bola que eu joguei pra ele!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "fast",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. The voice should be soft and breathy, and sound hesitant.",
+      "text": "Bem, eu acho que entendi o que você quis dizer, mas... não sei se concordo totalmente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Plan instruction_constraints were ambiguous ('tag' and 'direct' phrasing both requested). I followed instruction_form: 'direct'."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "volume": "quiet",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Age: adult, Gender: female, Emotion: worried, Personality: gentle",
+      "text": "Já se passaram duas horas desde que ele disse que ligaria, estou começando a ficar um pouco apreensiva com essa demora toda.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "worried",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Use a slow, indifferent delivery with a low, smoky voice.",
+      "text": "Eles mudaram o horário da reunião novamente. Agora é às quatro da tarde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "smoky",
+        "speed": "slow",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Deliver this with a loud, defiant, and angry male voice.",
+      "text": "Eu não vou aceitar essas condições sob nenhuma circunstância, e continuarei a lutar pelo que é certo para todos nós.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "volume": "loud",
+        "emotion": "angry",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Speed: very_slow, Personality: calm",
+      "text": "O processo de fermentação do pão é delicado e requer paciência, pois cada etapa contribui para o sabor e a textura final.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "speed": "very_slow",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Deliver this with a lively, playful, and surprised tone.",
+      "text": "Ora, vejam só quem decidiu aparecer! Pensei que você não viria mais hoje!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "lively",
+        "emotion": "surprised",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Use a high-pitched female voice that conveys sadness.",
+      "text": "Eu olhei pela janela por um longo tempo, mas o carro dele nunca mais voltou.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Age: adult, Gender: male, Texture: deep, Speed: normal, Emotion: neutral",
+      "text": "O Oceano Atlântico banha toda a costa leste do país.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct tag representation of the target values."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "texture": "deep",
+        "speed": "normal",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Imagine you are a timid young girl. Your voice is very quiet, almost a whisper, as you plead for something.",
+      "text": "Eu prometo que vou me comportar, só não me deixe sozinha.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a coherent persona from the target values."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "volume": "very_quiet",
+        "personality": "reserved",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Use a rapid, happy male voice, with a clear undertone of being smug.",
+      "text": "Eles acharam que eu não ia conseguir, mas mais uma vez eu provei que estavam errados.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction combines the attributes into a clear performance direction."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "happy",
+        "tone": "smug",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. The voice is extremely high and has a strong nasal quality. Deliver the lines with a whiny, complaining tone.",
+      "text": "Por que a minha comida sempre vem por último? Parece que eles fazem de propósito só para me irritar, eu tenho certeza.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction accurately describes the vocal qualities."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "pitch": "very_high",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Age: adult, Gender: female, Personality: humorous, Tone: teasing",
+      "text": "Nossa, você se arrumou todo só para ir na padaria? Que chique.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct tag representation of the target values."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "personality": "humorous",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Deliver the line in a rushed, hushed voice filled with fear.",
+      "text": "Você ouviu isso? Apague a luz, se esconda, não faça nenhum barulho.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text avoids explicit fear words, as per constraints."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "very_fast",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Imagine a serious man with a very deep and rich voice explaining something important.",
+      "text": "É fundamental compreender que as consequências de uma decisão apressada podem afetar a estrutura inteira do projeto a longo prazo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a coherent persona from the target values."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_low",
+        "texture": "rich",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Speak with a sarcastic tone, but keep your overall emotional expression neutral and your volume normal.",
+      "text": "Ah, claro, essa é uma ideia absolutamente brilhante. Como não pensei nisso antes?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction specifies dry, deadpan sarcasm."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "sarcastic",
+        "emotion": "neutral",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Emotion: happy, Tone: euphemistic",
+      "text": "Lembro-me de como ele sempre dizia que, quando chegasse a hora, ele simplesmente adormeceria. E foi o que aconteceu.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct tag representation of the target values."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "emotion": "happy",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Use a slow, low-pitched voice that sounds distant and aloof.",
+      "text": "A reunião de hoje foi adiada. Uma nova data será comunicada oportunamente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction combines attributes into a coherent vocal direction."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "aloof",
+        "speed": "slow",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. I need a female voice that sounds happy and sweet, with a playful and coquettish tone.",
+      "text": "Não sei, talvez você tenha razão. Mas e se a gente tentasse de um jeito diferente desta vez?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "sweet",
+        "tone": "coquettish",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Gender: male, Emotion: sad, Tone: disappointed, Volume: very_quiet",
+      "text": "Eu realmente achei que as coisas seriam diferentes desta vez. Passei semanas preparando tudo, certificando-me de que cada detalhe estava perfeito, mas no final, não fez a menor diferença.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "sad",
+        "tone": "disappointed",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: male, Emotion: thoughtful",
+          "text": "Leva tempo para entender certas verdades sobre a vida, e cada experiência nos ensina algo novo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: male, Emotion: thoughtful",
+          "text": "O silêncio da manhã traz uma clareza que raramente encontramos durante o resto do dia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: male, Emotion: thoughtful",
+          "text": "Às vezes, penso em como as coisas mudaram ao longo dos anos. É um ciclo constante de renovação.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "confident",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Deliver the line as a confident woman with a firm tone.",
+          "text": "Quero que todos os relatórios estejam na minha mesa até o final do dia, sem exceções.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use a firm, confident female voice, as if giving an order.",
+          "text": "A partir de agora, seguiremos o novo protocolo estritamente. Não haverá mais discussões sobre isso.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Say this with the firm confidence of a female leader.",
+          "text": "Esta é a decisão final e espero que todos a respeitem e colaborem para que seja implementada.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "fast",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this as a happy child, speaking quickly and full of energy.",
+          "text": "Eu vi um cachorro enorme no parque hoje e ele correu atrás da bola que eu joguei pra ele!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The speaker is a child, talking fast because they are happy.",
+          "text": "A gente vai na casa da vovó no fim de semana e ela disse que vai fazer aquele bolo de chocolate que eu gosto!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a fast-paced, happy child's voice.",
+          "text": "Meu desenho novo passou na televisão hoje de manhã, eu acordei cedinho só pra poder assistir!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "volume": "quiet",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this in a quiet, breathy voice with a hesitant tone.",
+          "text": "Eu não tenho certeza... talvez devêssemos esperar um pouco mais antes de decidir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Plan instruction_constraints were ambiguous ('tag' and 'direct' phrasing both requested). I followed instruction_form: 'direct'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The voice should be soft and breathy, and sound hesitant.",
+          "text": "Bem, eu acho que entendi o que você quis dizer, mas... não sei se concordo totalmente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Plan instruction_constraints were ambiguous ('tag' and 'direct' phrasing both requested). I followed instruction_form: 'direct'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the line quietly and hesitantly, with a breathy quality to the voice.",
+          "text": "Será que... você poderia me explicar de novo? Eu acho que perdi uma parte importante.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Plan instruction_constraints were ambiguous ('tag' and 'direct' phrasing both requested). I followed instruction_form: 'direct'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "worried",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: female, Emotion: worried, Personality: gentle",
+          "text": "Você poderia por favor verificar se a porta dos fundos está trancada? Eu tenho a sensação de que esqueci de fazer isso antes de sair.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: female, Emotion: worried, Personality: gentle",
+          "text": "Já se passaram duas horas desde que ele disse que ligaria, estou começando a ficar um pouco apreensiva com essa demora toda.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: female, Emotion: worried, Personality: gentle",
+          "text": "Por favor, dirija com cuidado, a estrada parece um pouco escorregadia por causa da chuva e eu não quero que nada aconteça.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "smoky",
+        "speed": "slow",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak slowly, in a low-pitched, smoky voice, sounding indifferent.",
+          "text": "O relatório indica que os números permaneceram estáveis durante o último trimestre fiscal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The voice should be slow and low, with a smoky quality and a tone of indifference.",
+          "text": "Choveu por cinco dias seguidos, mas o nível do reservatório não mudou significativamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a slow, indifferent delivery with a low, smoky voice.",
+          "text": "Eles mudaram o horário da reunião novamente. Agora é às quatro da tarde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "volume": "loud",
+        "emotion": "angry",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Deliver this with a loud, defiant, and angry male voice.",
+          "text": "Eu não vou aceitar essas condições sob nenhuma circunstância, e continuarei a lutar pelo que é certo para todos nós.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The speaker is a man, his voice is loud and defiant, filled with anger.",
+          "text": "Eles podem pensar que podem nos silenciar com suas ameaças, mas estão completamente enganados sobre nossa determinação.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a loud, angry male voice that carries a strong sense of defiance.",
+          "text": "Não importa o que eles decidam a portas fechadas, a minha posição sobre este assunto não mudará um milímetro.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "speed": "very_slow",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Speed: very_slow, Personality: calm",
+          "text": "O processo de fermentação do pão é delicado e requer paciência, pois cada etapa contribui para o sabor e a textura final.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Speed: very_slow, Personality: calm",
+          "text": "As estrelas que vemos no céu noturno são, na verdade, sóis de outras galáxias, muitas das quais estão a milhões de anos-luz de distância.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Speed: very_slow, Personality: calm",
+          "text": "Para cuidar bem das orquídeas, é fundamental entender que elas precisam de luz indireta e de um equilíbrio cuidadoso na rega.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "lively",
+        "emotion": "surprised",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Deliver this with a lively, playful, and surprised tone.",
+          "text": "Ora, vejam só quem decidiu aparecer! Pensei que você não viria mais hoje!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Say this with a lively and playful voice, showing some surprise.",
+          "text": "Não acredito que você conseguiu encontrar isso! Eu procurei por toda parte!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. The speaker is lively and playful, and their tone is one of pleasant surprise.",
+          "text": "Então era esse o grande segredo! Você realmente conseguiu me enganar direitinho.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a high-pitched female voice that conveys sadness.",
+          "text": "Eu olhei pela janela por um longo tempo, mas o carro dele nunca mais voltou.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The speaker is a woman with a high-pitched voice, and she is feeling sad.",
+          "text": "A casa parece tão vazia e silenciosa agora que todos se foram.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver the line with a sad emotion in a high-pitched female voice.",
+          "text": "Eu guardei todas as cartas que ele me escreveu, mas não consigo mais relê-las.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "texture": "deep",
+        "speed": "normal",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: male, Texture: deep, Speed: normal, Emotion: neutral",
+          "text": "A capital do Brasil é Brasília, localizada no Distrito Federal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: male, Texture: deep, Speed: normal, Emotion: neutral",
+          "text": "O Oceano Atlântico banha toda a costa leste do país.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: male, Texture: deep, Speed: normal, Emotion: neutral",
+          "text": "A água ferve a cem graus Celsius ao nível do mar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "volume": "very_quiet",
+        "personality": "reserved",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this as a shy little girl, speaking very softly and with a pleading tone.",
+          "text": "Por favor, você pode me ajudar a encontrar minha mãe?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a coherent persona from the target values."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use the voice of a reserved young girl, whispering a request and pleading with her tone.",
+          "text": "Será que eu poderia ficar com a luz acesa só mais um pouquinho?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a coherent persona from the target values."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Imagine you are a timid young girl. Your voice is very quiet, almost a whisper, as you plead for something.",
+          "text": "Eu prometo que vou me comportar, só não me deixe sozinha.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a coherent persona from the target values."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "happy",
+        "tone": "smug",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak quickly, as a man who is happy and quite smug about something.",
+          "text": "Eu disse que conseguiria terminar tudo antes de todo mundo, e olha só, consegui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines the attributes into a clear performance direction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Read this in a fast-paced, cheerful male voice that has a smug, self-satisfied tone.",
+          "text": "Parece que o meu plano funcionou perfeitamente, como sempre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines the attributes into a clear performance direction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a rapid, happy male voice, with a clear undertone of being smug.",
+          "text": "Eles acharam que eu não ia conseguir, mas mais uma vez eu provei que estavam errados.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines the attributes into a clear performance direction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "pitch": "very_high",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a very high-pitched, nasal voice. The tone should be one of constant, low-level complaining.",
+          "text": "Eu não acredito que temos que andar todo esse caminho de novo. Meus pés já estão doendo e ninguém parece se importar com o quão cansado eu estou.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction accurately describes the vocal qualities."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. The voice is extremely high and has a strong nasal quality. Deliver the lines with a whiny, complaining tone.",
+          "text": "Por que a minha comida sempre vem por último? Parece que eles fazem de propósito só para me irritar, eu tenho certeza.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction accurately describes the vocal qualities."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Adopt a very high, whiny voice with a lot of nasality, as if you're complaining about everything.",
+          "text": "Está muito frio aqui e o aquecedor não está funcionando direito. Eu avisei que isso ia acontecer, mas como sempre, ninguém me ouviu.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction accurately describes the vocal qualities."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "personality": "humorous",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: female, Personality: humorous, Tone: teasing",
+          "text": "Nossa, você se arrumou todo só para ir na padaria? Que chique.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: female, Personality: humorous, Tone: teasing",
+          "text": "Cuidado para não tropeçar no seu próprio ego, querido.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Age: adult, Gender: female, Personality: humorous, Tone: teasing",
+          "text": "Eu vi você tentando cozinhar ontem. Os bombeiros estão bem?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "very_fast",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak very quickly and quietly, as if you're terrified and trying not to be heard.",
+          "text": "Temos que sair daqui agora, antes que ele volte. Rápido, pela porta dos fundos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text avoids explicit fear words, as per constraints."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver the line in a rushed, hushed voice filled with fear.",
+          "text": "Você ouviu isso? Apague a luz, se esconda, não faça nenhum barulho.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text avoids explicit fear words, as per constraints."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. The voice is a panicked whisper, speaking very fast.",
+          "text": "A porta está trancada e eu não acho a chave em lugar nenhum. O que a gente vai fazer?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text avoids explicit fear words, as per constraints."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_low",
+        "texture": "rich",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a very low-pitched, rich male voice. The delivery should be serious and deliberate.",
+          "text": "O procedimento requer atenção meticulosa aos detalhes para garantir que cada componente seja alinhado corretamente antes da fase de montagem final.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a coherent persona from the target values."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this with a deep, resonant male voice, maintaining a serious personality throughout.",
+          "text": "A análise dos dados históricos revela um padrão consistente que não pode ser ignorado ao formularmos nossa estratégia para o próximo trimestre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a coherent persona from the target values."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Imagine a serious man with a very deep and rich voice explaining something important.",
+          "text": "É fundamental compreender que as consequências de uma decisão apressada podem afetar a estrutura inteira do projeto a longo prazo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a coherent persona from the target values."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "sarcastic",
+        "emotion": "neutral",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak with a sarcastic tone, but keep your overall emotional expression neutral and your volume normal.",
+          "text": "Ah, claro, essa é uma ideia absolutamente brilhante. Como não pensei nisso antes?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies dry, deadpan sarcasm."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this line with dry sarcasm, maintaining a normal volume and a deadpan, neutral affect.",
+          "text": "Estou muito animado para passar o fim de semana inteiro trabalhando. É exatamente o que eu queria.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies dry, deadpan sarcasm."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a normal speaking voice, but with a heavily sarcastic tone and a neutral emotional delivery.",
+          "text": "Que surpresa maravilhosa. Outra reunião que poderia ter sido um email.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies dry, deadpan sarcasm."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "emotion": "happy",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Emotion: happy, Tone: euphemistic",
+          "text": "Depois de uma vida tão longa e cheia de aventuras, o nosso querido vizinho foi descansar em um lugar melhor e mais tranquilo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Emotion: happy, Tone: euphemistic",
+          "text": "Ele não está mais entre nós, mas partiu para sua última grande jornada, com o coração em paz e um sorriso no rosto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Emotion: happy, Tone: euphemistic",
+          "text": "Lembro-me de como ele sempre dizia que, quando chegasse a hora, ele simplesmente adormeceria. E foi o que aconteceu.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct tag representation of the target values."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "aloof",
+        "speed": "slow",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a slow, low-pitched voice that sounds distant and aloof.",
+          "text": "A reunião de hoje foi adiada. Uma nova data será comunicada oportunamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines attributes into a coherent vocal direction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Speak slowly and in a low pitch, with a detached, aloof personality.",
+          "text": "Lembrem-se de que o prazo final para a entrega dos relatórios é amanhã, ao final do dia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines attributes into a coherent vocal direction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Adopt a slow, low-pitched delivery that conveys an aloof and uninterested character.",
+          "text": "O café da manhã será servido no salão principal das sete às dez, como de costume.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines attributes into a coherent vocal direction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "sweet",
+        "tone": "coquettish",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. I need a female voice that sounds happy and sweet, with a playful and coquettish tone.",
+          "text": "Não sei, talvez você tenha razão. Mas e se a gente tentasse de um jeito diferente desta vez?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver the line as a woman with a sweet voice. She's in a great mood, so make it happy and a little bit flirty.",
+          "text": "Ah, você sempre sabe exatamente o que dizer, não é? Estou começando a pensar que você me conhece muito bem.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a sweet female voice. The performance should be happy and have a teasing, coquettish quality to it.",
+          "text": "Estava aqui pensando... será que você adivinha o que eu estou planejando para o nosso fim de semana?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "sad",
+        "tone": "disappointed",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Gender: male, Emotion: sad, Tone: disappointed, Volume: very_quiet",
+          "text": "Eu realmente achei que as coisas seriam diferentes desta vez. Passei semanas preparando tudo, certificando-me de que cada detalhe estava perfeito, mas no final, não fez a menor diferença.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Gender: male, Emotion: sad, Tone: disappointed, Volume: very_quiet",
+          "text": "Depois de toda a nossa conversa e de tudo o que planejamos juntos, ver que nada mudou é... bem, eu esperava mais. É difícil aceitar que todo aquele esforço foi em vão.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Gender: male, Emotion: sad, Tone: disappointed, Volume: very_quiet",
+          "text": "Eles me disseram que era a minha grande chance, que se eu fizesse tudo certo, o resultado viria. Eu segui cada passo, cada instrução, e mesmo assim, aqui estamos nós, no mesmo lugar de sempre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard."
+          }
+        }
+      ]
+    }
+  ]
+}

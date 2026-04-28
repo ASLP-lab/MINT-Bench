@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/gender",
+  "language": "fr",
+  "source_plan_file": "easy__timbre__tag__atomic__gender.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: Male",
+      "text": "L'eau bout à cent degrés Celsius.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: Female",
+      "text": "Je voudrais réserver une table pour deux personnes pour ce soir, si c'est encore possible.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: Male",
+      "text": "Veuillez noter que le bureau des objets trouvés a été déplacé au rez-de-chaussée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Gender: Female",
+      "text": "Ce processus permet d'améliorer l'efficacité globale.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Gender: Male",
+          "text": "La réunion est prévue pour demain matin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Gender: Male",
+          "text": "Le ciel est bleu aujourd'hui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Gender: Male",
+          "text": "L'eau bout à cent degrés Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Gender: Female",
+          "text": "Pourriez-vous m'indiquer le chemin vers la bibliothèque la plus proche, s'il vous plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Gender: Female",
+          "text": "Serait-il possible de reporter notre rendez-vous à la semaine prochaine ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Gender: Female",
+          "text": "Je voudrais réserver une table pour deux personnes pour ce soir, si c'est encore possible.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Gender: Male",
+          "text": "N'oubliez pas que la cafétéria fermera exceptionnellement à quatorze heures aujourd'hui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Gender: Male",
+          "text": "Rappel : la maintenance informatique aura lieu ce soir à partir de vingt-deux heures.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Gender: Male",
+          "text": "Veuillez noter que le bureau des objets trouvés a été déplacé au rez-de-chaussée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Gender: Female",
+          "text": "Le système fonctionne en analysant les données entrantes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Gender: Female",
+          "text": "Ce processus permet d'améliorer l'efficacité globale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Gender: Female",
+          "text": "La cause principale est une augmentation de la demande.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text conform to the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

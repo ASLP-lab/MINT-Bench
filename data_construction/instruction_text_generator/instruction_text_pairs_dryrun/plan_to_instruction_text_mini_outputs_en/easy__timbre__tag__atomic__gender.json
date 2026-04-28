@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/timbre/tag/atomic/gender",
+  "language": "en",
+  "source_plan_file": "easy__timbre__tag__atomic__gender.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Gender: Male",
+      "text": "The earth revolves around the sun.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard atomic tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: Male",
+          "text": "The earth revolves around the sun.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: Male",
+          "text": "Photosynthesis is a process used by plants.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: Male",
+          "text": "That building is over a hundred years old.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: Female",
+          "text": "This is a reminder that the community meeting will be held tonight at seven p.m. in the main hall.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: Female",
+          "text": "Please be advised that the west entrance will be closed for maintenance tomorrow from nine a.m. until noon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: Female",
+          "text": "Just a quick announcement: please ensure all personal belongings are removed from the shared workspace by the end of the day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: Male",
+          "text": "Could you please confirm if the package has been sent out yet? I need to track its progress.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: Male",
+          "text": "Would you mind turning down the volume just a little bit? It's a bit hard to concentrate.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: Male",
+          "text": "If you have a spare moment, could you help me move this box? It's heavier than it looks.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: Female",
+          "text": "I think the keys are on the kitchen counter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: Female",
+          "text": "It looks like the bus is running late again.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: Female",
+          "text": "The weather today is surprisingly pleasant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

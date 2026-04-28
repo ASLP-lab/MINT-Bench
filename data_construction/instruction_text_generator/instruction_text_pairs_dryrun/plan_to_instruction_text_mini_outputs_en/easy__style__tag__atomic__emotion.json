@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/emotion",
+  "language": "en",
+  "source_plan_file": "easy__style__tag__atomic__emotion.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Emotion: happy",
+      "text": "I saw my cousin last weekend for the first time in years. We just picked up right where we left off.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a positive personal anecdote, fitting a happy delivery."
+      },
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: happy",
+          "text": "I saw my cousin last weekend for the first time in years. We just picked up right where we left off.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a positive personal anecdote, fitting a happy delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: happy",
+          "text": "That project I was working on finally came together this morning. Everything just clicked into place.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a successful outcome without using explicitly happy words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: happy",
+          "text": "They announced the new team assignments, and it turns out I'll be working with Alex and Sam again.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a positive recent event in a casual way."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: angry",
+          "text": "The printer keeps saying it's out of paper, but I've refilled the tray three times already.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a frustrating technical issue, a common trigger for anger."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: angry",
+          "text": "This is the third time the application has crashed today, and I've lost all my unsaved work again.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text states a recurring problem with negative consequences."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: angry",
+          "text": "I followed the instructions exactly, step-by-step, and the device still refuses to turn on.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a factual statement of failure despite correct procedure."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: sad",
+          "text": "The weekly meeting has been moved to Friday afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The neutral announcement can be delivered sadly, as if it's bad news."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: sad",
+          "text": "Due to unforeseen circumstances, the event has been postponed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A standard, neutral announcement of a cancellation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: sad",
+          "text": "Please be advised that the office will be closing early today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "This can be read neutrally, but a sad delivery implies a negative reason for the closure."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: fearful",
+          "text": "Is there any way we can get an extension on the project submission? I don't think we'll make it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a question that implies anxiety about a deadline."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: fearful",
+          "text": "Did they say what happens if we don't submit the report by the end of the day?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The question asks about consequences, which is consistent with fear."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: fearful",
+          "text": "I've been looking at the clock all morning; the deadline is only a few hours away.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "This text describes a situation of mounting pressure, suitable for a fearful tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: surprised",
+          "text": "The readings from the control group are identical to the ones from the experimental group.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text states an unexpected scientific result in a factual way."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: surprised",
+          "text": "We ran the test again, and the temperature actually dropped instead of rising as predicted.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Describes a result that directly contradicts the hypothesis."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: surprised",
+          "text": "I just checked the data, and the correlation is negative, not positive.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A simple, factual statement of an unexpected finding."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: worried",
+          "text": "They're saying the storm is supposed to hit right when we're scheduled to leave.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes an impending problem based on a forecast."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: worried",
+          "text": "The forecast shows freezing rain for tomorrow morning, right during the commute.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a factual statement about a potentially dangerous weather event."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: worried",
+          "text": "I just saw the updated weather report, and it looks like the wind speeds are picking up.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "This statement points to a developing negative situation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: thoughtful",
+          "text": "The library's destruction resulted in the loss of countless irreplaceable texts from antiquity.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A factual, historical statement that invites reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: thoughtful",
+          "text": "It took several decades for the new technology to be widely adopted by the general population.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A historical observation that is suitable for a pensive, thoughtful delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: thoughtful",
+          "text": "The decision to build the canal fundamentally altered the trade routes of that entire region.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Describes a historical event with long-term consequences, lending itself to a thoughtful tone."
+          }
+        }
+      ]
+    }
+  ]
+}

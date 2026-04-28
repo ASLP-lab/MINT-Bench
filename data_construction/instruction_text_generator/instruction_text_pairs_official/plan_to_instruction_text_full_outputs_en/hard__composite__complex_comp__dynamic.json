@@ -1,0 +1,2311 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "en",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 36,
+  "num_output_items": 36,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "I want you to begin at a comfortable, regular speaking rate and then smoothly get faster and faster throughout the sentence, finishing at a very high speed.",
+      "text": "The system initializes by loading the core modules, then it verifies the integrity of the data packets, and finally it establishes a secure connection with the main server to begin the transfer.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a smooth acceleration. Text describes a technical process, providing enough length for the change."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast -> very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Begin speaking very rapidly, as if you're excited and out of breath, then gradually slow down your pace until you're speaking slowly and calmly at the finish.",
+      "text": "I couldn't believe it, the car came around the corner, it was right there in front of me, and then the whole crowd just went silent as it crossed the finish line.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes deceleration from an excited state. Text is an exciting event narrative."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "very_fast -> slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Start this line in a calm, normal speaking voice. Then, at the midway point, make a sudden transition to speaking as fast as you can.",
+      "text": "Make sure you've documented all the changes in the logbook. Okay, now they're coming through the door, you have to wipe the servers right now.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction specifies a sudden, not gradual, change. Text provides a clear point for the shift in urgency."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Deliver this with a speaking rate that goes from slow to normal and back to slow. The pacing should reflect a thought process that starts with hesitation, finds a bit of certainty, and then ends in doubt.",
+      "text": "Maybe... maybe we should proceed as discussed, since we've come this far already, but then again, perhaps we should reconsider the whole thing.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a rise and fall in speed, linked to conviction. Text reflects this semantic."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal -> slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I want a crescendo in your voice. Begin in a near whisper, grow to a conversational volume, and finish with a strong, loud voice.",
+      "text": "It began as a small idea, something we barely considered, but it grew into a movement that will redefine our entire generation.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction calls for a crescendo. Text is a persuasive argument with a clear build-up."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Say this line starting at a very high volume, then let the energy drain out of your voice so that by the end, you're speaking very quietly.",
+      "text": "I'VE BEEN LYING TO ALL OF YOU, and the worst part is, I don't know how to tell him it was my fault.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a decrescendo from shouting. Text is a confession, fitting the semantic."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "very_loud -> quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Read most of this sentence in a normal, conversational tone, but then suddenly shout the last part of it.",
+      "text": "I was just walking down the street, minding my own business, when I looked up and saw IT WAS HEADED RIGHT FOR US!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction specifies a sudden increase in volume. Text describes a sudden event."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "normal -> very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice should start off soft, then rise to a loud peak in the center of the sentence, and finally fall back to a quiet tone for the last few words.",
+      "text": "The legend says that no one has entered the tomb for a thousand years, because THE GUARDIAN IS STILL WATCHING from somewhere inside those walls.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a rise and fall in volume. Text is a suspenseful narrative with a clear climax."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> loud -> quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Let your pitch glide upwards throughout the entire utterance. Begin with a low tone and end with a high one.",
+      "text": "First it was just a rumor, then we saw the preliminary reports, and now the official announcement is finally here.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction calls for a steady rise in pitch. Text conveys building excitement."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start speaking in a high pitch, as if you're excited or hopeful, but let your voice fall steadily to a very low pitch by the end, showing disappointment.",
+      "text": "We had it! The victory was in our grasp, we were so close, and then I saw the final score.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a falling pitch contour conveying deflation. Text matches this semantic."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "high -> low -> very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Your performance should start with a neutral, matter-of-fact voice. Transition to a tone of concern, and then end the sentence in a state of fear.",
+      "text": "The light outside just flickered for a moment. Now the power is cutting in and out, and I can hear a strange noise from the basement. It sounds like something is trying to get in.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The descriptive text allows for a natural build-up of fear."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried -> fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Read this with an emotional arc. Begin cheerfully, then react with surprise, and finish by sounding like you're contemplating something seriously.",
+      "text": "This new project is going to be so much fun, I'm really looking forward to it. Oh, they've assigned me as the team lead? I suppose I should start planning our first steps.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "A common scenario that naturally fits the emotional progression."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0012",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> surprised -> thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Build excitement as you speak. Begin at a conversational speed and volume, and then get faster and louder as you reach the conclusion.",
+      "text": "Every single one of you has contributed to this moment. And with our combined efforts, there is absolutely nothing that can stand in our way!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text builds from collective acknowledgment to a powerful statement."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0013",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Start out uncertain, speaking quietly and slowly. As you continue, become more self-assured, letting your speed and volume rise to a normal level.",
+      "text": "At first I thought I couldn't do it. But after reviewing the material, I realize that I am fully capable of handling this responsibility.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text describes the process of gaining confidence, which the voice should mirror."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0014",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal",
+        "volume": "quiet -> normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver this line as if you're running out of steam. Begin with a fast, loud delivery, and then trail off, becoming slower and quieter by the end.",
+      "text": "And another thing, you never listen to what I have to say! It's always about you, you, you! ...Honestly, I'm just... I'm tired of fighting about this.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text's content shifts from accusation to resignation, supporting the delivery."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0015",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "fast -> slow",
+        "volume": "loud -> quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Begin with a slow, pensive delivery. Then, as if a sudden idea strikes you, switch to a surprised tone and quicken your speech.",
+      "text": "I was just looking over the old case files, thinking about the timeline... and suddenly I realized the key wasn't missing, it was hidden in plain sight!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text explicitly mentions the sudden realization."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0016",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised",
+        "speed": "slow -> fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start reciting this list in a neutral tone and at a normal pace. As you continue, get progressively angrier and speak much faster.",
+      "text": "First, the project deadline was moved up. Then, the budget was cut by twenty percent. And now you're telling me half the team has been reassigned!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The list structure of increasingly bad news supports the build-up of anger."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0017",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> angry",
+        "speed": "normal -> very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Recount this memory by starting with a quick, joyful voice. Then, let the mood shift to sad, causing your speech to become very slow.",
+      "text": "On my tenth birthday, my father gave me this little wooden boat, it was the best present ever! He was gone by the time I was eleven.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text has a sharp, poignant turn that justifies the prosodic change."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0018",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> sad",
+        "speed": "fast -> very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start speaking quietly and sadly. As you continue, your emotion should build into anger, and your voice should become very loud by the end.",
+      "text": "I tried my best, you know. I really did. I gave this everything I had, and for what? For you to just throw it all away!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text shows a natural progression from sad reflection to angry accusation."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0019",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "sad -> angry",
+        "volume": "quiet -> very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start speaking in a normal, neutral voice. As you deliver the news, let your voice become louder and full of happiness.",
+      "text": "I'm just calling with an update on the test results. Everything looks good, and I'm very pleased to announce that you've been accepted into the program!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "A professional but happy announcement, fitting the dynamic change."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0020",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> happy",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver the first part of the line with a slow, hesitant voice. For the second part, become firm and resolute, speaking at a normal pace.",
+      "text": "Well... maybe we should wait a little longer. Things might get better on their own. On the other hand, we've already waited so long. That's it, I've made my decision. We're moving forward with the original plan.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Transition happens at 'That's it, I've made my decision.'"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0021",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm",
+        "speed": "slow -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Say the first sentence quietly and with a pleading tone. Then, deliver the rest of the text loudly and firmly.",
+      "text": "I'm just asking if you could help me with this, please. It won't take long. That's it, I'm done being polite. You are going to help me with this right now.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Transition happens after the first sentence."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0022",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "pleading -> firm",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Begin speaking in a flat, neutral manner. Then, transition into a sarcastic and overly happy tone as you deliver the compliment.",
+      "text": "So that's your new painting. It's... a piece of art, that's for sure. I especially love the use of color. It's just so vibrant and completely original. A masterpiece!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The transition to sarcasm happens after the first sentence."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0023",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "indifferent -> sarcastic",
+        "emotion": "neutral -> happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Begin speaking in a low, quiet voice. As you continue, build both your pitch and volume until you reach a loud, high-pitched peak at the very end.",
+      "text": "The detective looked at all the suspects gathered in the room. He reviewed the evidence one last time in his mind. Then, he pointed a finger and declared, the person responsible for this crime is you!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The build-up is steady, with the climax at the final word."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0024",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> high",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start with a high pitch and a fast speaking rate to convey excitement. Then, gradually slow down and lower your pitch to show the energy draining away.",
+      "text": "We were running, laughing, the energy was incredible, everyone was cheering us on! But then... as the miles went on... the excitement started to fade. And then... there was just the quiet sound of our own breathing.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The transition is gradual after the first exclamation."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0025",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "high -> low",
+        "speed": "fast -> slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver the first part playfully and happily. Then, suddenly switch your tone to one that is angry and firm.",
+      "text": "Alright, alright, you win this round, you're too quick for me! But hey, watch where you're stepping. No, I mean it. You nearly broke it. That's not funny.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The transition happens at 'No, I mean it.'"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0026",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> angry",
+        "tone": "playful -> firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Begin with a normal pace and an indifferent tone. Then, as you build your argument, transition to a fast, urging tone to persuade the listener.",
+      "text": "I understand your hesitation. It's a big step. But just think about the potential, think about what we could achieve! We can't let this opportunity slip away, we have to go for it!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The transition to urgency begins at 'But just think...'"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0027",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast",
+        "tone": "indifferent -> urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Begin in a calm, neutral voice. As you relay the news, your voice should grow in happiness, speed, and volume, culminating in an excited shout.",
+      "text": "So I've received the judges' feedback. They said the submission was well-structured... and the methodology was sound. And... and we won! We actually took first place!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The transition starts with 'And... and we won!'"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0028",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> happy",
+        "speed": "normal -> fast",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Begin speaking slowly, quietly, and thoughtfully. As you explain the situation, build your emotion into a fast, very loud, and angry delivery.",
+      "text": "At first, I thought it was just a simple mistake. A clerical error. But then I saw the pattern, how it affected only certain people, and I realized this wasn't an accident. It was a deliberate choice, and it is absolutely unacceptable!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The anger builds steadily from the middle to the end."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0029",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> angry",
+        "speed": "slow -> fast",
+        "volume": "quiet -> very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Tell the story starting in a happy mood, with a normal speed and volume. As you get to the tragic part near the end, your voice should become sad, slow, and quiet.",
+      "text": "I remember that summer we spent at the lake house. We were inseparable, always out on the boat, laughing until our sides hurt. That was the last time we were all together... before the accident.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The shift to sadness happens on the last sentence."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0030",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> sad",
+        "speed": "normal -> slow",
+        "volume": "normal -> quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Begin with a fearful, fast-paced delivery at a normal pitch. As you continue, your delivery should become very slow, low-pitched, and sad, as if the reality of the situation is sinking in.",
+      "text": "I can still hear the sound it made, a terrible roar that shook the very ground. We just ran, we didn't look back. But now... now it's quiet. Too quiet. I look around and all I see is what's left. It's all just rubble.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0031",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "fearful -> sad",
+        "speed": "fast -> very_slow",
+        "pitch": "normal -> low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start speaking at a normal pace and volume, with a somewhat detached, indifferent tone. As you get to the core of your message, your voice should get faster, louder, and much more urgent.",
+      "text": "I've laid out the facts as clearly as I can. You can choose to ignore them, of course. But listen to me, you have to understand what's at stake here. This isn't just a game; we need to act now before it's too late!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0032",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "indifferent -> urging",
+        "speed": "normal -> fast",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice should start quiet, slow, and pleading. Then, as if a switch has flipped, become loud, fast, and defiant.",
+      "text": "Can't you just give me one more chance? I know I can do better. No... you know what? I'm done asking. I have proven myself time and time again, and I won't beg for what I've already earned.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0033",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "pleading -> defiant",
+        "speed": "slow -> fast",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Read the first part quietly, with a thoughtful and indifferent air. Then, as the realization hits, your voice should become loud, surprised, and firm.",
+      "text": "So if the blue piece goes here, and the red one is adjacent... that doesn't really seem to change much. Unless... wait a minute. It's not about the colors at all! It's the sequence of prime numbers, that has to be it!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0034",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised",
+        "tone": "indifferent -> firm",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Begin with a slow, worried, and hesitant delivery. Then, as the danger becomes clear, speed up and adopt a fearful, urging tone.",
+      "text": "Did you... did you check the pressure gauges on your way in? Something feels a little off down here. Oh, my god, look at the meter! It's climbing way too fast! We need to run, now! Don't wait!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0035",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "worried -> fearful",
+        "tone": "hesitant -> urging",
+        "speed": "slow -> fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Tell the story in three parts. Begin at a normal pitch, speed, and volume. Ramp up to a fast, loud, high-pitched middle section. Finish the story by becoming slow, quiet, and low-pitched.",
+      "text": "The race began like any other, the cars jockeying for position. But then on the final lap, the lead car spun out, sending sparks flying everywhere! It was absolute chaos, a pile-up involving half the field, a deafening crash! After the smoke cleared... the track was silent. A single car limped across the finish line.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0036",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high -> low",
+        "speed": "normal -> fast -> slow",
+        "volume": "normal -> loud -> quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast -> very_fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking at a normal pace, then steadily increase your speed until you're talking very quickly by the end.",
+          "text": "First, you take the primary component and align it with the secondary housing, making sure the contact points are seated correctly, and then you introduce the catalyst which binds the two elements together creating the final assembly.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a smooth acceleration. Text describes a technical process, providing enough length for the change."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want you to begin at a comfortable, regular speaking rate and then smoothly get faster and faster throughout the sentence, finishing at a very high speed.",
+          "text": "The system initializes by loading the core modules, then it verifies the integrity of the data packets, and finally it establishes a secure connection with the main server to begin the transfer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a smooth acceleration. Text describes a technical process, providing enough length for the change."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this in a way that starts at a normal speed but gradually accelerates, so by the time you reach the end, you're speaking extremely fast.",
+          "text": "The initial phase involves gathering all the necessary materials, the second stage is the careful combination of those parts in a specific sequence, and the final step is the activation of the device itself.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a smooth acceleration. Text describes a technical process, providing enough length for the change."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "very_fast -> slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Begin speaking very rapidly, as if you're excited and out of breath, then gradually slow down your pace until you're speaking slowly and calmly at the finish.",
+          "text": "I couldn't believe it, the car came around the corner, it was right there in front of me, and then the whole crowd just went silent as it crossed the finish line.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes deceleration from an excited state. Text is an exciting event narrative."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Start this line at a very fast pace, full of energy, and then progressively get slower and more deliberate, ending at a slow, settled pace.",
+          "text": "And then he jumped, he was flying through the air, everyone was holding their breath, and he landed perfectly, just stood there for a moment.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes deceleration from an excited state. Text is an exciting event narrative."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should start out rushed and breathless, but then decelerate smoothly to a slow and calm rate by the end of the sentence.",
+          "text": "We saw the lights flash, the siren went off, people were running everywhere, and then, after a few minutes, everything just settled back to normal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes deceleration from an excited state. Text is an exciting event narrative."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Begin speaking at a normal rate, but about halfway through, abruptly switch to a very fast pace, like you've just realized time is running out.",
+          "text": "Alright, the first thing you need to do is open the main valve. Once that's done, you have to get to the control panel and reroute the primary circuits immediately.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sudden, not gradual, change. Text provides a clear point for the shift in urgency."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the first half of the sentence at a regular pace. Then, for the second half, suddenly start speaking very, very quickly.",
+          "text": "I need you to take this package down to the mailroom. After you drop it off, find Jenkins and tell him the containment field is about to fail.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sudden, not gradual, change. Text provides a clear point for the shift in urgency."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Start this line in a calm, normal speaking voice. Then, at the midway point, make a sudden transition to speaking as fast as you can.",
+          "text": "Make sure you've documented all the changes in the logbook. Okay, now they're coming through the door, you have to wipe the servers right now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sudden, not gradual, change. Text provides a clear point for the shift in urgency."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal -> slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking slowly and thoughtfully, pick up to a normal pace in the middle, and then trail off slowly again at the end, as if your confidence is fading.",
+          "text": "I thought... I thought we had a solid plan, and for a moment it seemed like everything was working, but now I'm just not so sure.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a rise and fall in speed, linked to conviction. Text reflects this semantic."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this line starting slowly, then accelerate to a normal speaking rate for the middle part, and finally decelerate back to a slow pace for the ending.",
+          "text": "At first I was certain this was the right path, we were making good progress on all fronts, but then... the new data made me question it all.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a rise and fall in speed, linked to conviction. Text reflects this semantic."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this with a speaking rate that goes from slow to normal and back to slow. The pacing should reflect a thought process that starts with hesitation, finds a bit of certainty, and then ends in doubt.",
+          "text": "Maybe... maybe we should proceed as discussed, since we've come this far already, but then again, perhaps we should reconsider the whole thing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a rise and fall in speed, linked to conviction. Text reflects this semantic."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking this line quietly, then gradually build your volume through a normal level, and end with a loud, powerful statement.",
+          "text": "We can choose to ignore the warnings, we can continue on our current path, or we can stand together and demand a change.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a crescendo. Text is a persuasive argument with a clear build-up."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want a crescendo in your voice. Begin in a near whisper, grow to a conversational volume, and finish with a strong, loud voice.",
+          "text": "It began as a small idea, something we barely considered, but it grew into a movement that will redefine our entire generation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a crescendo. Text is a persuasive argument with a clear build-up."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a steady increase in volume. Start off quiet, move through a normal speaking volume, and make the end of the sentence quite loud.",
+          "text": "Think about the initial investment, consider the potential for growth, and then imagine the impact this will have on the whole world.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a crescendo. Text is a persuasive argument with a clear build-up."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "very_loud -> quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start the sentence by shouting, as if in a moment of emotional outburst, and then let your voice diminish until you're whispering the final words.",
+          "text": "I CAN'T BELIEVE WHAT I DID, and now I have to live with the fact that I was the one who left the door unlocked.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a decrescendo from shouting. Text is a confession, fitting the semantic."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this with a dramatic decrease in volume. The first part should be very loud, and it should get progressively quieter, ending in a whisper.",
+          "text": "EVERYONE THINKS IT WAS AN ACCIDENT, but I know the truth about what happened that night by the old mill.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a decrescendo from shouting. Text is a confession, fitting the semantic."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this line starting at a very high volume, then let the energy drain out of your voice so that by the end, you're speaking very quietly.",
+          "text": "I'VE BEEN LYING TO ALL OF YOU, and the worst part is, I don't know how to tell him it was my fault.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a decrescendo from shouting. Text is a confession, fitting the semantic."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "normal -> very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read most of this sentence in a normal, conversational tone, but then suddenly shout the last part of it.",
+          "text": "I was just walking down the street, minding my own business, when I looked up and saw IT WAS HEADED RIGHT FOR US!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sudden increase in volume. Text describes a sudden event."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Start this line at a normal volume. For the last two or three words, abruptly raise your voice to a shout.",
+          "text": "Everything seemed to be going according to plan, all the systems were stable, and then I saw the warning light—THE CORE IS OVERLOADING!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sudden increase in volume. Text describes a sudden event."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver the first part of the sentence with a regular speaking volume, and then, make a sudden, sharp transition to a very loud voice for the end.",
+          "text": "I thought I heard a strange noise coming from the basement, but I figured it was just the pipes, until I opened the door and IT WAS RIGHT THERE!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sudden increase in volume. Text describes a sudden event."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "quiet -> loud -> quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Tell this story by starting quietly, building up the volume to a loud point in the middle, and then dropping back down to a quiet, tense whisper at the end.",
+          "text": "We crept through the dark hallway, step by step, until suddenly THE DOOR SLAMMED SHUT BEHIND US, and we were trapped in the dark.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a rise and fall in volume. Text is a suspenseful narrative with a clear climax."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should start off soft, then rise to a loud peak in the center of the sentence, and finally fall back to a quiet tone for the last few words.",
+          "text": "The legend says that no one has entered the tomb for a thousand years, because THE GUARDIAN IS STILL WATCHING from somewhere inside those walls.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a rise and fall in volume. Text is a suspenseful narrative with a clear climax."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Perform this with a dynamic volume change: begin quietly, get loud for the middle part to create a climax, and then end the sentence in a quiet, conspiratorial voice.",
+          "text": "He looked at the strange box on the table, not knowing what was inside, but then HE HEARD A SCRATCHING SOUND, and he realized he wasn't alone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a rise and fall in volume. Text is a suspenseful narrative with a clear climax."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this sentence with a continuously rising pitch. Start in a low register, move through your normal range, and end on a high note.",
+          "text": "And if we can get this last piece of funding, we'll be able to launch the project and change everything.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a steady rise in pitch. Text conveys building excitement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line so that your vocal pitch starts low and steadily goes up, finishing at a high pitch to show growing excitement.",
+          "text": "I just checked the final results from the competition, and you are not going to believe who won first place.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a steady rise in pitch. Text conveys building excitement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Let your pitch glide upwards throughout the entire utterance. Begin with a low tone and end with a high one.",
+          "text": "First it was just a rumor, then we saw the preliminary reports, and now the official announcement is finally here.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction calls for a steady rise in pitch. Text conveys building excitement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "high -> low -> very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking in a high pitch, as if you're excited or hopeful, but let your voice fall steadily to a very low pitch by the end, showing disappointment.",
+          "text": "We had it! The victory was in our grasp, we were so close, and then I saw the final score.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a falling pitch contour conveying deflation. Text matches this semantic."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this with a falling pitch contour. Begin on a high note, pass through your normal range, and end in a very low, dejected tone.",
+          "text": "I was so sure that my application would be accepted, I checked my email every single hour, but the letter finally came today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a falling pitch contour conveying deflation. Text matches this semantic."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your pitch should start high and slide all the way down to a very low register, as if all the hope is draining out of your voice.",
+          "text": "This was supposed to be the best day of the year, we had everything planned perfectly, and then we heard the weather forecast.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a falling pitch contour conveying deflation. Text matches this semantic."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried -> fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking in a calm, neutral tone. As you continue, your voice should become more worried, and by the end, you should sound genuinely fearful.",
+          "text": "The report indicates a small anomaly in the pressure readings from sector seven. It's deviating from the expected parameters more quickly now. Oh my god, the containment field is failing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good progression in the text supports the dynamic emotion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this as if you're observing a situation that's getting worse. Begin neutrally, then shift to worried, and conclude with a fearful delivery.",
+          "text": "We have a visual on the object. It appears to be moving on a steady trajectory. Wait, it's changing course and accelerating. It's heading directly for us.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text provides clear points for emotional transition."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your performance should start with a neutral, matter-of-fact voice. Transition to a tone of concern, and then end the sentence in a state of fear.",
+          "text": "The light outside just flickered for a moment. Now the power is cutting in and out, and I can hear a strange noise from the basement. It sounds like something is trying to get in.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The descriptive text allows for a natural build-up of fear."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0012",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> surprised -> thoughtful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start off happy, then let your voice show surprise in the middle, and end in a more pensive, thoughtful manner.",
+          "text": "I can't believe I won the grand prize! This is the best day ever. Wait, the prize includes a trip to the research station in Antarctica? I'll need to think about what that entails.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text structure clearly maps to the three emotional stages."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with an emotional arc. Begin cheerfully, then react with surprise, and finish by sounding like you're contemplating something seriously.",
+          "text": "This new project is going to be so much fun, I'm really looking forward to it. Oh, they've assigned me as the team lead? I suppose I should start planning our first steps.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A common scenario that naturally fits the emotional progression."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should go from happy, to surprised, to thoughtful. Make the transitions clear.",
+          "text": "I'm so glad we're finally going on vacation next week! It's going to be amazing. What do you mean you invited your cousin to join us? Hmm, I wonder how that will change things.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The interpersonal context makes the emotional shift believable."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0013",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this line like a motivational speaker. Start at a normal pace and volume, but gradually increase both your speed and loudness to build energy towards the end.",
+          "text": "We started this journey with a simple idea, a spark of inspiration. And now, as we stand on the brink of success, we must push forward with all our strength!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Classic motivational text that supports a crescendo."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Build excitement as you speak. Begin at a conversational speed and volume, and then get faster and louder as you reach the conclusion.",
+          "text": "Every single one of you has contributed to this moment. And with our combined efforts, there is absolutely nothing that can stand in our way!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text builds from collective acknowledgment to a powerful statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Start this speech at a moderate pace and volume, then progressively accelerate and raise your voice to create a powerful, climactic ending.",
+          "text": "Remember the challenges we've overcome and the obstacles we've shattered. This is our time, this is our moment, so let's go out there and seize it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Repetitive structure in the latter half helps build momentum."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0014",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "slow -> normal",
+        "volume": "quiet -> normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as if you're hesitant at first, but gain confidence as you go. Start slowly and quietly, and build to a normal, steady pace and volume by the end.",
+          "text": "I'm not sure if this is the right thing to say, but... I've thought about it, and I believe my plan is the best course of action we have.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text explicitly shows the transition from hesitation to assertion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your delivery should show a growth in conviction. Begin speaking in a quiet, slow manner, but end at a standard conversational pace and volume.",
+          "text": "Maybe... maybe I could try to lead the presentation. Actually, you know what? I've prepared for this, and I know I can do a great job.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's internal monologue makes the confidence gain feel natural."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Start out uncertain, speaking quietly and slowly. As you continue, become more self-assured, letting your speed and volume rise to a normal level.",
+          "text": "At first I thought I couldn't do it. But after reviewing the material, I realize that I am fully capable of handling this responsibility.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes the process of gaining confidence, which the voice should mirror."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0015",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "fast -> slow",
+        "volume": "loud -> quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start off speaking quickly and loudly, as if in the middle of an argument. Then, gradually slow your pace and lower your volume, as if you're calming down.",
+          "text": "I can't believe you would say that! It's completely unfair and you know it! ...Look, I'm sorry. I didn't mean to lose my temper like that.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text has a clear pivot from anger to apology, matching the prosodic shift."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line as if you're running out of steam. Begin with a fast, loud delivery, and then trail off, becoming slower and quieter by the end.",
+          "text": "And another thing, you never listen to what I have to say! It's always about you, you, you! ...Honestly, I'm just... I'm tired of fighting about this.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's content shifts from accusation to resignation, supporting the delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should start with high energy—fast and loud—but then diminish. Let your speed decrease to a slow pace and your volume drop to a quiet level.",
+          "text": "This is the last time I'm going to explain this to you! Don't you understand anything? ...Fine. Whatever. It doesn't matter anymore.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text moves from exasperation to defeat, a good arc for a decrescendo."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0016",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised",
+        "speed": "slow -> fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking in a slow, thoughtful way. Partway through, deliver the rest of the line with a sudden burst of surprise and a much faster pace.",
+          "text": "If we cross-reference the star charts from the third quadrant with the energy readings... wait a second, that pattern isn't a star, it's a ship!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A classic 'eureka' moment text structure."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin with a slow, pensive delivery. Then, as if a sudden idea strikes you, switch to a surprised tone and quicken your speech.",
+          "text": "I was just looking over the old case files, thinking about the timeline... and suddenly I realized the key wasn't missing, it was hidden in plain sight!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text explicitly mentions the sudden realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a shift in the middle. The first part should be slow and contemplative, and the second part should be fast and surprised.",
+          "text": "So the original formula required a catalyst to activate, which we never found... but what if the catalyst was the container itself this whole time!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text presents a slow thought process followed by an exciting hypothesis."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0017",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> angry",
+        "speed": "normal -> very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start reciting this list in a neutral tone and at a normal pace. As you continue, get progressively angrier and speak much faster.",
+          "text": "First, the project deadline was moved up. Then, the budget was cut by twenty percent. And now you're telling me half the team has been reassigned!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The list structure of increasingly bad news supports the build-up of anger."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with building frustration. Begin with a calm, even delivery, but let your emotion become angry and your pace very fast by the end.",
+          "text": "I took out the trash on Monday. I did the dishes on Tuesday. And I just finished cleaning the entire house, and you haven't lifted a finger!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A relatable scenario of escalating frustration with neutral-content list items."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should start neutral and at a normal speed. Gradually build into a very fast, angry tirade.",
+          "text": "The car had a flat tire this morning. Then the train was delayed because of signal problems. And after all that, my key card wouldn't even open the office door!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a series of misfortunes, which is a good basis for growing anger."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0018",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> sad",
+        "speed": "fast -> very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Begin speaking quickly and happily, as if reminiscing about a good time. Then, transition into a very slow, sad tone as the memory becomes painful.",
+          "text": "I remember running through the fields with her all summer, we were so full of life and laughter... I just can't believe that was the last time I ever saw her.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Classic bittersweet memory structure, ideal for the emotional and speed shift."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Start with a fast and happy delivery. As the sentence progresses, your emotion should turn to sadness and your pace should slow down dramatically.",
+          "text": "We used to go to that little cafe every weekend, talking for hours and planning our whole future together! It's all gone now, just... an empty building.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The contrast between the past and present in the text provides a clear turning point."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Recount this memory by starting with a quick, joyful voice. Then, let the mood shift to sad, causing your speech to become very slow.",
+          "text": "On my tenth birthday, my father gave me this little wooden boat, it was the best present ever! He was gone by the time I was eleven.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text has a sharp, poignant turn that justifies the prosodic change."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0019",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "sad -> angry",
+        "volume": "quiet -> very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking quietly and sadly. As you continue, your emotion should build into anger, and your voice should become very loud by the end.",
+          "text": "I tried my best, you know. I really did. I gave this everything I had, and for what? For you to just throw it all away!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text shows a natural progression from sad reflection to angry accusation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your performance should begin with a quiet, sad tone. Let that sadness turn into rage, making your voice grow to a very loud shout.",
+          "text": "I can't do this anymore. It just hurts too much. After all the sacrifices I've made, this is the thanks I get?!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text builds from despair to an outburst of frustration."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin with a subdued, sorrowful delivery. Gradually escalate into anger, culminating in a very loud, powerful voice.",
+          "text": "I thought you understood what this meant to me. I really trusted you. But you've proven that you don't care about anything but yourself!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift from hurt feelings to directed anger is well-supported by the text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0020",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> happy",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking in a normal, neutral voice. As you deliver the news, let your voice become louder and full of happiness.",
+          "text": "I'm just calling with an update on the test results. Everything looks good, and I'm very pleased to announce that you've been accepted into the program!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A professional but happy announcement, fitting the dynamic change."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Announce this news by beginning with a standard volume and a neutral emotion, then building to a loud and happy conclusion.",
+          "text": "We've finished reviewing all the applications for the position. And after much consideration, we'd like to officially offer you the job!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text structure allows for a build-up before the final, happy reveal."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin your delivery at a normal volume with a calm tone. Then, let your excitement show by getting louder and happier.",
+          "text": "I've just gotten off the phone with the publisher. They read your manuscript, and they absolutely love it, they want to give you a three-book deal!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The compounding good news in the text supports a growing happy and loud delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0021",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "hesitant -> firm",
+        "speed": "slow -> normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking slowly and hesitantly, as if unsure of your decision. Then, about halfway through, transition to a firm and decisive tone at a normal speaking speed.",
+          "text": "I mean, I could just take the job. It's safe, and the pay is good... but it's not what I really want to do. You know what? No. I'm going to follow my passion. I'm starting my own company.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Transition happens at 'You know what? No.'"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the first part of the line with a slow, hesitant voice. For the second part, become firm and resolute, speaking at a normal pace.",
+          "text": "Well... maybe we should wait a little longer. Things might get better on their own. On the other hand, we've already waited so long. That's it, I've made my decision. We're moving forward with the original plan.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Transition happens at 'That's it, I've made my decision.'"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin with a slow and hesitant tone. As you reach the turning point in the sentence, switch to a firm, confident tone and a regular speed.",
+          "text": "I'm not sure if this is the right thing to do... there are so many risks involved. What if it all goes wrong? Still, we can't let fear dictate our choices. I'm going to do it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Transition happens at 'Still, we can't let fear...'"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0022",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "pleading -> firm",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking in a quiet, pleading tone. At the beginning of the second sentence, shift to a loud, firm delivery, as if you're done asking nicely.",
+          "text": "Please, could you just listen to me for one second? I've been trying to get your attention for ten minutes now. Look at me when I'm talking to you; this is important!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Transition happens at the start of the second sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say the first sentence quietly and with a pleading tone. Then, deliver the rest of the text loudly and firmly.",
+          "text": "I'm just asking if you could help me with this, please. It won't take long. That's it, I'm done being polite. You are going to help me with this right now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Transition happens after the first sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin your delivery quietly, with a pleading quality to your voice. Then, switch to a loud and firm tone to show you've lost your patience.",
+          "text": "Sir, I really need you to reconsider. My family is depending on this. I have explained the situation clearly, and I will not be ignored any longer!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Transition happens mid-way through the text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0023",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "indifferent -> sarcastic",
+        "emotion": "neutral -> happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start with a neutral, indifferent tone. As you continue, your tone should become sarcastic, underlined by a hint of false happiness.",
+          "text": "Yeah, the presentation was fine. Everything was where it should be. Oh, and your design choices? Truly inspired. I've never seen anything quite like it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The sarcasm builds in the second half."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin speaking in a flat, neutral manner. Then, transition into a sarcastic and overly happy tone as you deliver the compliment.",
+          "text": "So that's your new painting. It's... a piece of art, that's for sure. I especially love the use of color. It's just so vibrant and completely original. A masterpiece!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition to sarcasm happens after the first sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should start as neutral and indifferent. Partway through, adopt a sarcastic tone with a veneer of forced happiness.",
+          "text": "I've read your report. It covers all the basic points we discussed. But the conclusion you drew from the data? Absolutely brilliant. I'm just thrilled with the outcome.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The sarcasm kicks in at 'But the conclusion...'"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0024",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> high",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start in a quiet, low-pitched voice. Gradually increase your volume and raise your pitch throughout the sentence, ending in a loud, high-pitched climax.",
+          "text": "He crept silently through the darkened halls, his hand on the hilt of his sword. He pushed the door open, inch by inch, and saw in the center of the room the one thing he never expected to find!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A gradual crescendo throughout the text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Narrate this with a steadily rising pitch and volume, starting from a low and quiet place and building to a dramatic reveal.",
+          "text": "For years, they had searched for the lost city, following ancient maps and cryptic clues. They finally reached the chamber, and as the torchlight fell upon the far wall, they realized it wasn't gold they'd found, but something far, far greater!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The build is continuous over the whole utterance."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin speaking in a low, quiet voice. As you continue, build both your pitch and volume until you reach a loud, high-pitched peak at the very end.",
+          "text": "The detective looked at all the suspects gathered in the room. He reviewed the evidence one last time in his mind. Then, he pointed a finger and declared, the person responsible for this crime is you!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The build-up is steady, with the climax at the final word."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0025",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "high -> low",
+        "speed": "fast -> slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start with a high pitch and a fast speaking rate to convey excitement. Then, gradually slow down and lower your pitch to show the energy draining away.",
+          "text": "We were running, laughing, the energy was incredible, everyone was cheering us on! But then... as the miles went on... the excitement started to fade. And then... there was just the quiet sound of our own breathing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition is gradual after the first exclamation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak the first part of the sentence quickly and with a high pitch. Then, let your voice slow down and your pitch drop to convey a sense of winding down.",
+          "text": "The festival was amazing! Lights everywhere, music pumping, people dancing for hours and hours! Then the sun came up, and the music stopped... and we all just... sort of... wandered home.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The comedown begins at 'Then the sun came up...'"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin with a fast pace and a high-pitched voice. Throughout the sentence, progressively slow down and lower your pitch.",
+          "text": "At first, the idea was exhilarating, a whirlwind of possibilities and endless potential! We worked day and night, fueled by coffee and dreams. But slowly, the reality of the situation... began to set in.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift is gradual over the course of the text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0026",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> angry",
+        "tone": "playful -> firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start in a happy and playful tone. Partway through, make an abrupt shift to a firm and angry tone, as if a line has been crossed.",
+          "text": "Haha, you almost got me! That was a good move, really clever. Okay, stop. I'm serious, don't do that again. That's not part of the game.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift is abrupt at 'Okay, stop.'"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the first part playfully and happily. Then, suddenly switch your tone to one that is angry and firm.",
+          "text": "Alright, alright, you win this round, you're too quick for me! But hey, watch where you're stepping. No, I mean it. You nearly broke it. That's not funny.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition happens at 'No, I mean it.'"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin with a playful, happy voice. Then, switch suddenly to an angry, firm voice to deliver a serious warning.",
+          "text": "This is so much fun, I haven't laughed this hard in ages! Hey, knock it off. That's enough. You're taking it too far now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift occurs at 'Hey, knock it off.'"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0027",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "normal -> fast",
+        "tone": "indifferent -> urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking at a normal speed with an indifferent tone. As you continue, make your tone more urgent and increase your speaking speed.",
+          "text": "You can choose not to believe me if you want. But look at the facts for yourself. You have to see that this is our only chance, we need to act now before it's too late!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift starts at 'You have to see...'"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin with a normal pace and an indifferent tone. Then, as you build your argument, transition to a fast, urging tone to persuade the listener.",
+          "text": "I understand your hesitation. It's a big step. But just think about the potential, think about what we could achieve! We can't let this opportunity slip away, we have to go for it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition to urgency begins at 'But just think...'"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver the first part of the sentence at a normal speed with a matter-of-fact tone. Then, become faster and more urging as you make your final point.",
+          "text": "At first, I wasn't sure either. But the more I looked into it, the more it made sense. Don't you see? This is the key to everything! We have to move on this immediately!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift happens at 'Don't you see?'"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0028",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> happy",
+        "speed": "normal -> fast",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking in a neutral manner at a normal speed and volume. As you continue, get progressively happier, faster, and louder, ending in an excited state.",
+          "text": "Okay, the initial diagnostic is complete. The numbers look... well, they're within expected parameters. Wait a second. Oh my gosh, look at this! It actually worked! It really worked!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The excitement builds from 'Wait a second.'"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin in a calm, neutral voice. As you relay the news, your voice should grow in happiness, speed, and volume, culminating in an excited shout.",
+          "text": "So I've received the judges' feedback. They said the submission was well-structured... and the methodology was sound. And... and we won! We actually took first place!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition starts with 'And... and we won!'"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this in a neutral voice at first. Then, as the good news is revealed, get faster, louder, and happier.",
+          "text": "Let me check the system for the final confirmation. It's processing now... one moment. Yes! We got the funding! The entire project is greenlit! This is incredible news!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The excitement explodes at 'Yes!'"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0029",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> angry",
+        "speed": "slow -> fast",
+        "volume": "quiet -> very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Begin speaking slowly, quietly, and thoughtfully. As you explain the situation, build your emotion into a fast, very loud, and angry delivery.",
+          "text": "At first, I thought it was just a simple mistake. A clerical error. But then I saw the pattern, how it affected only certain people, and I realized this wasn't an accident. It was a deliberate choice, and it is absolutely unacceptable!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The anger builds steadily from the middle to the end."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Start out with a quiet, slow, and pensive voice. As you continue, get progressively faster, louder, and angrier, culminating in an outburst.",
+          "text": "I tried to give them the benefit of the doubt. I really did. But the more I looked into it, the clearer it became that they knew exactly what they were doing. They lied to all of us, and I will not stand for it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift in emotion, speed, and volume is gradual."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver the beginning of the line in a quiet, slow, and thoughtful way. Then, as the injustice becomes clear, increase your speed and volume until you are speaking very loudly and with great anger.",
+          "text": "It started with a small discrepancy. Something you might overlook. But it kept growing, and when I finally understood the full picture, I saw the sheer scale of the deception. They took everything from us, and they thought they could get away with it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The build to anger is continuous throughout."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0030",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "happy -> sad",
+        "speed": "normal -> slow",
+        "volume": "normal -> quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Tell the story starting in a happy mood, with a normal speed and volume. As you get to the tragic part near the end, your voice should become sad, slow, and quiet.",
+          "text": "I remember that summer we spent at the lake house. We were inseparable, always out on the boat, laughing until our sides hurt. That was the last time we were all together... before the accident.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift to sadness happens on the last sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin with a happy delivery, speaking at a normal pace and volume. Toward the end of the text, transition to a sad, slow, and quiet delivery.",
+          "text": "He gave me this little music box for my birthday. I used to open it every single night, just to hear the melody. We had so many plans for the future. I still have it, but... I don't play it anymore.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The shift happens on the final clause."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Start off speaking happily and at a normal volume and speed. As the memory turns sad, your voice should get quieter, slower, and more sorrowful.",
+          "text": "We had the most beautiful garden. Every spring, the flowers would bloom in this explosion of color, and we'd spend all day out there. But after he was gone... I just couldn't bring myself to take care of it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition begins at 'But after he was gone...'"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0031",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "fearful -> sad",
+        "speed": "fast -> very_slow",
+        "pitch": "normal -> low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start talking quickly and fearfully, at a normal pitch. Then, as you describe the scene, your voice should slow down dramatically, drop in pitch, and fill with sadness.",
+          "text": "The sirens, they were everywhere, I couldn't even hear myself think. We had to get out, had to run, there was no time. But then... then we saw it. The dust settled, and there was... nothing. Just silence. Everything we knew was gone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin with a fearful, fast-paced delivery at a normal pitch. As you continue, your delivery should become very slow, low-pitched, and sad, as if the reality of the situation is sinking in.",
+          "text": "I can still hear the sound it made, a terrible roar that shook the very ground. We just ran, we didn't look back. But now... now it's quiet. Too quiet. I look around and all I see is what's left. It's all just rubble.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should start fast and fearful, with a normal pitch. Then, transition to a very slow, sad tone with a low pitch, as though overcome by the scale of the loss.",
+          "text": "Everyone was shouting, scrambling to find cover, the air thick with smoke. We were just trying to survive, moment to moment. And now... now that it's over... there's nothing left to go back to. Just a field of broken memories.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0032",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "indifferent -> urging",
+        "speed": "normal -> fast",
+        "volume": "normal -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start speaking at a normal pace and volume, with a somewhat detached, indifferent tone. As you get to the core of your message, your voice should get faster, louder, and much more urgent.",
+          "text": "I've laid out the facts as clearly as I can. You can choose to ignore them, of course. But listen to me, you have to understand what's at stake here. This isn't just a game; we need to act now before it's too late!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin your read with an indifferent tone, at a normal speed and volume. Build from there, making your delivery faster, louder, and more urging as you go on.",
+          "text": "The preliminary data is on your desk. It might not seem like much at a first glance. But look closer, can't you see the pattern? We have to move on this immediately, this is our only chance to get ahead of it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Start off sounding indifferent, speaking at a regular speed and volume. Then, build intensity, making your voice faster, louder, and more insistent and urging.",
+          "text": "Honestly, at first, I didn't think it was a big deal either. It's just another report to file. But the numbers don't lie, and they're telling a terrifying story. Please, you must listen to me, we need to evacuate the lower levels right now!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0033",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "pleading -> defiant",
+        "speed": "slow -> fast",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Begin speaking slowly and quietly, with a pleading tone. Then, find your strength and shift into a fast, loud, and defiant delivery.",
+          "text": "Please, just try to see it from my perspective. I've done everything you've asked of me. But I'm not going to be silent anymore. This is my decision, and you will respect it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should start quiet, slow, and pleading. Then, as if a switch has flipped, become loud, fast, and defiant.",
+          "text": "Can't you just give me one more chance? I know I can do better. No... you know what? I'm done asking. I have proven myself time and time again, and I won't beg for what I've already earned.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Start with a slow, quiet, pleading voice. Then, gather your courage and make a dramatic shift to a loud, fast, and defiant tone.",
+          "text": "I'm just asking you to listen, just for a moment. All I ever wanted was your approval. But I don't need it. I know what I'm capable of, and I'm going to do this with or without your help!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0034",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "thoughtful -> surprised",
+        "tone": "indifferent -> firm",
+        "volume": "quiet -> loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read the first part quietly, with a thoughtful and indifferent air. Then, as the realization hits, your voice should become loud, surprised, and firm.",
+          "text": "So if the blue piece goes here, and the red one is adjacent... that doesn't really seem to change much. Unless... wait a minute. It's not about the colors at all! It's the sequence of prime numbers, that has to be it!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Start speaking in a quiet, thoughtful, and somewhat indifferent way. When you get to the breakthrough moment, switch to a loud, surprised, and firm delivery.",
+          "text": "Let's see... the inscription mentions a king who lost his crown. Probably just a metaphor for something. But what if it's literal? Oh, of course! You don't look at the symbol, you look at the empty space where the crown should be! That's the key!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Begin your delivery in a quiet and thoughtful manner, with an indifferent tone. As the solution becomes clear, make your voice loud with surprise and firm with certainty.",
+          "text": "The pattern seems to repeat every five steps, which doesn't make any sense with a four-beat rhythm. Maybe I miscounted. One, two, three, four, five... Hold on. The silence is the fifth beat! The pause itself is part of the code!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0035",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "worried -> fearful",
+        "tone": "hesitant -> urging",
+        "speed": "slow -> fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start off slow, hesitant, and worried. As you speak, your voice should get faster, more fearful, and more urging.",
+          "text": "I'm not sure, but... I think I heard something outside the door just now. It's probably just the wind... oh no, listen! It's getting closer! You have to get out of here, right now! Go!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin with a slow, worried, and hesitant delivery. Then, as the danger becomes clear, speed up and adopt a fearful, urging tone.",
+          "text": "Did you... did you check the pressure gauges on your way in? Something feels a little off down here. Oh, my god, look at the meter! It's climbing way too fast! We need to run, now! Don't wait!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should start slow and hesitant, tinged with worry. As the realization of the danger hits, your delivery should become fast, fearful, and urgently insistent.",
+          "text": "Maybe we should... turn back? I have a bad feeling about this tunnel. Wait, do you smell that? It smells like gas! We have to leave! Get away from the entrance immediately!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0036",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high -> low",
+        "speed": "normal -> fast -> slow",
+        "volume": "normal -> loud -> quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start your read at a normal pitch, pace, and volume. Build to a climax in the middle, becoming fast, loud, and high-pitched. Then, bring it back down, ending slow, quiet, and low-pitched.",
+          "text": "We were just setting up for the festival, everything was going according to plan. Then the storm hit, faster than anyone could have predicted! The winds were howling, the tent was tearing apart, we were all screaming! And then... just as suddenly... it was over. We stood there, in the quiet, looking at what was left.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Tell the story in three parts. Begin at a normal pitch, speed, and volume. Ramp up to a fast, loud, high-pitched middle section. Finish the story by becoming slow, quiet, and low-pitched.",
+          "text": "The race began like any other, the cars jockeying for position. But then on the final lap, the lead car spun out, sending sparks flying everywhere! It was absolute chaos, a pile-up involving half the field, a deafening crash! After the smoke cleared... the track was silent. A single car limped across the finish line.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should trace a dramatic arc. Start normal. Build to a peak that is fast, loud, and high-pitched. Then, end the story in a slow, quiet, low-pitched way.",
+          "text": "We started the climb at dawn, the air was crisp and clear. By midday we were nearing the summit, when the avalanche started without any warning! A roar of snow and ice, it was terrifying, we scrambled for our lives, shouting to each other! And then... came the stillness. We were safe, but the mountain was forever changed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

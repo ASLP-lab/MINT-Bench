@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/speed",
+  "language": "ko",
+  "source_plan_file": "easy__style__direct__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Deliver the following line at a very fast pace.",
+      "text": "본 건물은 전체 금연 구역으로 지정되어 있으니, 협조해 주시면 감사하겠습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Formal phrasing in the instruction."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Read the following sentence quickly.",
+      "text": "지구는 태양 주위를 약 365일에 한 번씩 공전합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Straightforward instruction."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this slowly and deliberately.",
+      "text": "오래된 앨범을 넘기다 보면 잊고 있던 순간들이 떠오르곤 한다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text content is reflective but neutral."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Deliver the line at a very slow, drawn-out pace.",
+      "text": "대기압은 지구의 대기가 그 무게로 인해 지표면에 가하는 압력입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Uses 'drawn-out pace' in the instruction."
+      },
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this as fast as you possibly can.",
+          "text": "잠시 후 3번 게이트에서 탑승을 시작하겠습니다. 모든 승객 여러분께서는 준비해 주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction and neutral text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Read this very quickly, like you're in a huge hurry.",
+          "text": "오늘 오후 5시부터 시스템 점검이 있을 예정이오니, 이용에 참고하시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Slightly more descriptive instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver the following line at a very fast pace.",
+          "text": "본 건물은 전체 금연 구역으로 지정되어 있으니, 협조해 주시면 감사하겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Formal phrasing in the instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this at a fast pace.",
+          "text": "물의 끓는점은 해수면 기준으로 섭씨 100도입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple instruction and factual text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Read the following sentence quickly.",
+          "text": "지구는 태양 주위를 약 365일에 한 번씩 공전합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Straightforward instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speak with a fast tempo.",
+          "text": "컴퓨터의 중앙 처리 장치는 모든 계산과 데이터 처리를 담당합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Uses 'tempo' as suggested in plan constraints."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this slowly and deliberately.",
+          "text": "오래된 앨범을 넘기다 보면 잊고 있던 순간들이 떠오르곤 한다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content is reflective but neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Say the following at a slow pace.",
+          "text": "어릴 적에는 모든 것이 지금보다 훨씬 더 커 보였던 것 같다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard instruction for slow speech."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speak slowly and clearly.",
+          "text": "창밖으로 내리는 비를 보고 있으면 마음이 차분해지는 기분이다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Calm text content aligns well with slow pace without leaking."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this very slowly, as if explaining something difficult.",
+          "text": "광합성은 식물이 빛 에너지를 화학 에너지로 변환하는 과정입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contextual instruction for very slow speech."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Say this very slowly, dragging the words out.",
+          "text": "중력은 질량을 가진 모든 물체들이 서로 끌어당기는 힘을 말합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction directly mentions dragging out words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver the line at a very slow, drawn-out pace.",
+          "text": "대기압은 지구의 대기가 그 무게로 인해 지표면에 가하는 압력입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Uses 'drawn-out pace' in the instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

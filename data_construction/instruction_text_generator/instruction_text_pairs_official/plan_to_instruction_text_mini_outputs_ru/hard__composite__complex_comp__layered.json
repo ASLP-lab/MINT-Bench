@@ -1,0 +1,663 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/layered",
+  "language": "ru",
+  "source_plan_file": "hard__composite__complex_comp__layered.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Say this like you're a naturally cheerful person trying to deliver some disappointing news as gently as possible. Your upbeat personality is strained, and a bit of sadness is showing through your euphemistic tone.",
+      "text": "По поводу нашей встречи завтра... возникли небольшие изменения. Нам придётся перенести её на другую дату, но мы обязательно всё согласуем.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Deliver this line with a sarcastic tone that is barely concealing a deep sense of sadness or disappointment.",
+      "text": "Ну конечно, всё прошло именно так, как я и предполагал. Просто замечательно. Никаких сюрпризов.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "sarcastic",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. You need to sound like you're casually asking a question, but in reality, you're quite worried about the answer. Try to project an indifferent manner, but your underlying anxiety is still present.",
+      "text": "Я тут подумал, как там у тебя дела в последнее время? Давно не общались, вот и решил узнать, всё ли в порядке.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "worried",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Your character is a very serious person who is attempting to tell a joke. Their delivery should be a bit stiff and awkward, as they try to adopt a playful tone that doesn't come naturally to them.",
+      "text": "Физик, биолог и математик сидят в кафе. Они видят, как в дом напротив входят два человека, а через час выходят трое. Физик говорит: 'Это ошибка наблюдения'. Биолог: 'Они размножились'. Математик: 'Если сейчас туда войдёт один человек, дом снова станет пустым'.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Project an image of confidence and authority with your voice. But listen closely, and one can hear a note of desperation, a plea hidden within your firm words.",
+      "text": "Я пойду с тобой, и это не обсуждается. Моё присутствие там абсолютно необходимо, и другого варианта быть не может.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "confident",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Perform this as someone soft-spoken who has been pushed too far. They are attempting to sound firm and angry, but their gentle personality makes their delivery sound more hesitant and hurt than truly furious.",
+      "text": "Честно говоря, я очень разочарован. Я ожидал от тебя совершенно другого подхода к этому делу. Это очень... неприятно.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "emotion": "angry",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Your tone should be deceptively light and playful, maybe even with a little laugh. However, underneath this veneer, there is a clear and simmering anger.",
+      "text": "Ничего страшного, что ты опоздал. Мы совсем не скучали, нашли чем заняться, пока тебя ждали.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Deliver this with a calm, professional, and neutral tone. However, you have just heard something deeply frightening, and a subtle tremor of fear should be detectable beneath your composed exterior.",
+      "text": "Могли бы вы, пожалуйста, уточнить данные за последний квартал? Мне нужно перепроверить некоторые цифры в отчёте.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": [
+          "fearful",
+          "neutral"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Perform this as someone who is usually quiet and reserved, making a bold attempt to be charming and coquettish. The delivery should be slightly hesitant and not entirely smooth.",
+      "text": "Мне нравится, как ты рассуждаешь. С тобой всегда... ну... интересно разговаривать на такие темы.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "reserved",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Deliver this statement of resolve with a defiant tone. You are standing your ground, but there is an unmistakable undercurrent of sadness in your voice, betraying the pain this decision costs you.",
+      "text": "Нет, я не изменю своего мнения. Возможно, это не то, чего вы ожидали, но я должен оставаться верным своим принципам. Это мой выбор.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "defiant",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this like you're a naturally cheerful person trying to deliver some disappointing news as gently as possible. Your upbeat personality is strained, and a bit of sadness is showing through your euphemistic tone.",
+          "text": "По поводу нашей встречи завтра... возникли небольшие изменения. Нам придётся перенести её на другую дату, но мы обязательно всё согласуем.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your voice should sound like you're trying to maintain a cheerful demeanor while breaking some bad news. There's a layer of sadness underneath your attempt to be positive and use soft language.",
+          "text": "Я только что проверил статус посылки, и похоже, она прибудет немного позже, чем мы ожидали. Ничего страшного, просто придётся ещё чуть-чуть подождать.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Perform this as someone who is usually very positive, but right now they have to share something unfortunate. They are trying to soften the blow with a gentle, euphemistic tone, but their underlying sadness is noticeable.",
+          "text": "Итак, по поводу нашей поездки на выходные. Появился один нюанс с бронированием, так что план придётся немного скорректировать. Но мы всё равно что-нибудь придумаем.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "sarcastic",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this line with a sarcastic tone that is barely concealing a deep sense of sadness or disappointment.",
+          "text": "Ну конечно, всё прошло именно так, как я и предполагал. Просто замечательно. Никаких сюрпризов.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Say this with a layer of sarcasm over your genuine disappointment. You're trying to sound witty, but the sadness is breaking through.",
+          "text": "О, это просто великолепный результат. Лучше и быть не могло. Я в полном восторге от того, как всё обернулось.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your tone is sarcastic, but it's a defense mechanism. Underneath, you're actually quite sad about how things turned out.",
+          "text": "Что ж, очередной гениальный план сработал безупречно. Я даже не удивлён. Всё как всегда на высоте.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "worried",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read this question with a calm, almost indifferent tone, as if it's no big deal. However, underneath that facade, your voice should betray a hint of deep worry.",
+          "text": "Кстати, ты вчера добрался до дома без проблем? Просто интересно, как всё прошло после того, как мы разошлись.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your delivery should sound outwardly detached and calm, but you're asking something that you're secretly very anxious about. Let a little bit of that worry seep into your voice.",
+          "text": "Просто для информации, есть какие-нибудь новости по тому проекту? Не то чтобы это было срочно, я просто хотел быть в курсе.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. You need to sound like you're casually asking a question, but in reality, you're quite worried about the answer. Try to project an indifferent manner, but your underlying anxiety is still present.",
+          "text": "Я тут подумал, как там у тебя дела в последнее время? Давно не общались, вот и решил узнать, всё ли в порядке.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Your character is a very serious person who is attempting to tell a joke. Their delivery should be a bit stiff and awkward, as they try to adopt a playful tone that doesn't come naturally to them.",
+          "text": "Физик, биолог и математик сидят в кафе. Они видят, как в дом напротив входят два человека, а через час выходят трое. Физик говорит: 'Это ошибка наблюдения'. Биолог: 'Они размножились'. Математик: 'Если сейчас туда войдёт один человек, дом снова станет пустым'.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this as someone who is typically quite formal and serious, but is making an effort to be lighthearted and playful. The attempt should sound a little forced and unnatural.",
+          "text": "Два муравья встречаются на тропинке. Один спрашивает другого: 'Как жизнь?' Второй, после некоторого раздумья, отвечает: 'Знаешь, она могла бы быть и лучше, но, учитывая всеобщую энтропию вселенной, я полагаю, что жаловаться было бы неконструктивно'.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Imagine you are a stern professor trying to connect with students by telling a joke. Your delivery is serious by nature, but you're trying to inject some playfulness, which comes across as slightly awkward.",
+          "text": "Почему программисты всегда путают Хэллоуин и Рождество? Потому что тридцать первое октября равняется двадцати пяти декабрям. Понимаете? Восьмеричная и десятичная системы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "confident",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this with a confident, assertive voice, as if you are in control. However, let a subtle tone of pleading or desperation come through, showing that you're not as sure of the outcome as you sound.",
+          "text": "Я считаю, что нам нужно ещё раз всё обсудить. Это единственно верный путь, и я уверен, ты это тоже понимаешь.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your delivery should be firm and confident on the surface, making a strong demand. But underneath, there's a current of pleading, a desperate hope that the other person will agree.",
+          "text": "Ты должен дать мне ещё один шанс. Мы оба знаем, что это необходимо для того, чтобы всё исправить.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Project an image of confidence and authority with your voice. But listen closely, and one can hear a note of desperation, a plea hidden within your firm words.",
+          "text": "Я пойду с тобой, и это не обсуждается. Моё присутствие там абсолютно необходимо, и другого варианта быть не может.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "emotion": "angry",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. You are a naturally gentle person who is trying to be angry, but it's not working well. Your voice should sound hesitant and conflicted, with flashes of frustration that quickly soften.",
+          "text": "Я... я просто не понимаю, как ты мог так поступить. Я ведь рассчитывал на тебя, и это... это просто неправильно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Perform this as someone soft-spoken who has been pushed too far. They are attempting to sound firm and angry, but their gentle personality makes their delivery sound more hesitant and hurt than truly furious.",
+          "text": "Честно говоря, я очень разочарован. Я ожидал от тебя совершенно другого подхода к этому делу. Это очень... неприятно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your character is trying to express anger, but their inherent gentleness gets in the way. The result is a hesitant, almost apologetic tone mixed with clear frustration.",
+          "text": "Послушай, я думаю, что... что так больше продолжаться не может. Мне нужно, чтобы ты прекратил это делать. Пожалуйста.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this in a very sweet, almost playful voice, but let a sharp edge of anger cut through it. It should sound like a classic passive-aggressive comment.",
+          "text": "Ой, как мило, что ты решил помочь. У тебя всегда такие... оригинальные идеи о том, как всё должно быть сделано.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your tone should be deceptively light and playful, maybe even with a little laugh. However, underneath this veneer, there is a clear and simmering anger.",
+          "text": "Ничего страшного, что ты опоздал. Мы совсем не скучали, нашли чем заняться, пока тебя ждали.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Hide your real anger behind a playful and charming tone. The words are nice, but the feeling behind them is not.",
+          "text": "Какая интересная работа получилась! Я бы никогда не додумался сделать это именно так. Очень смелое решение.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": [
+          "fearful",
+          "neutral"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this with a calm, professional, and neutral tone. However, you have just heard something deeply frightening, and a subtle tremor of fear should be detectable beneath your composed exterior.",
+          "text": "Могли бы вы, пожалуйста, уточнить данные за последний квартал? Мне нужно перепроверить некоторые цифры в отчёте.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. You are trying to sound completely neutral and professional, but you're struggling to hide the fear you're feeling. Let that underlying fear subtly affect the steadiness of your voice.",
+          "text": "Я вижу, что сработал системный алерт. Можете предоставить мне полный протокол событий, которые к этому привели?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your voice should project a mask of neutrality and professionalism. Underneath, however, there is a deep fear that you are trying your best to conceal.",
+          "text": "Нам необходимо организовать встречу для обсуждения недавних результатов. Прошу подготовить все соответствующие материалы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "reserved",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. You are a shy and reserved person trying to be flirtatious. Deliver this compliment with a coquettish intention, but let your natural hesitation and awkwardness show through.",
+          "text": "У тебя... очень приятный смех. Его... приятно слушать, когда ты так улыбаешься.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Perform this as someone who is usually quiet and reserved, making a bold attempt to be charming and coquettish. The delivery should be slightly hesitant and not entirely smooth.",
+          "text": "Мне нравится, как ты рассуждаешь. С тобой всегда... ну... интересно разговаривать на такие темы.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your character is naturally reserved but is trying to sound coquettish and a bit flirty. This internal conflict should come across in the delivery, making it sound both a little charming and a little awkward.",
+          "text": "Странно, но когда ты рядом, кажется, что... всё становится как-то лучше, что ли.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "defiant",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Your tone should be strong and defiant, as if you've made a final decision. But underneath that strength, your voice should carry the weight of a deep sadness for the circumstances.",
+          "text": "Я принял решение, и оно окончательное. Я больше не могу быть частью этого. С этого момента я буду действовать самостоятельно, как считаю нужным.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this statement of resolve with a defiant tone. You are standing your ground, but there is an unmistakable undercurrent of sadness in your voice, betraying the pain this decision costs you.",
+          "text": "Нет, я не изменю своего мнения. Возможно, это не то, чего вы ожидали, но я должен оставаться верным своим принципам. Это мой выбор.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak with defiance and resolve, but let the sadness of the situation color your voice. It's the sound of someone doing what they must, not what they want.",
+          "text": "Пусть будет так. Я пойду этим путём один, если придётся. Я готов к последствиям, какими бы они ни были. Я справлюсь.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

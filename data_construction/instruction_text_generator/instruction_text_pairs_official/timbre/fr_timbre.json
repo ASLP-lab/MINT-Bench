@@ -1,0 +1,1795 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "fr",
+  "group_name": "timbre",
+  "num_items": 80,
+  "timbre_attributes": [
+    "age",
+    "gender",
+    "pitch",
+    "texture"
+  ],
+  "source_files": [
+    "easy__composite__simple_comp__static.json",
+    "easy__timbre__direct__atomic__age.json",
+    "easy__timbre__direct__atomic__gender.json",
+    "easy__timbre__direct__atomic__pitch.json",
+    "easy__timbre__direct__atomic__texture.json",
+    "easy__timbre__tag__atomic__age.json",
+    "easy__timbre__tag__atomic__gender.json",
+    "easy__timbre__tag__atomic__pitch.json",
+    "easy__timbre__tag__atomic__texture.json",
+    "hard__composite__complex_comp__conflict.json",
+    "hard__composite__complex_comp__dynamic.json",
+    "hard__composite__complex_comp__static.json"
+  ],
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Age: child, Gender: female",
+      "text": "Est-ce que vous pourriez m'indiquer le chemin pour aller à la gare ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Use a deep and slightly raspy voice.",
+      "text": "Je pense que le prochain bus arrivera dans environ dix minutes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Gender: male, Emotion: worried",
+      "text": "Je n'ai pas eu de ses nouvelles depuis hier soir, j'espère que tout va bien.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Speak as an elderly person with a complaining tone.",
+      "text": "De nos jours, le pain n'a plus le même goût qu'avant.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Age: elderly, Texture: soft",
+      "text": "On oublie parfois de regarder le ciel et de voir à quel point il est beau.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Use a man's voice that is high in pitch.",
+      "text": "La distance entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Pitch: high, Speed: very_fast",
+      "text": "Veuillez connecter le câble USB au port désigné avant de mettre l'appareil sous tension.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Say this with a deep, serious voice.",
+      "text": "Les conséquences du changement climatique affectent déjà des millions de personnes à travers le monde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a serious, deep voice."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Texture: breathy, Gender: female",
+      "text": "Est-ce que tu as vu les documents que j'ai laissés sur le bureau ce matin ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. As an adult, speak in an extremely low register.",
+      "text": "Le processus de vérification nécessite une signature de chaque département concerné.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a very low-pitched voice."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0014",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Gender: female, Personality: lively",
+      "text": "On pourrait peut-être aller au parc cet après-midi ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Use a child's voice, speaking at a slow pace as if you are choosing your words.",
+      "text": "Les feuilles des arbres changent de couleur quand il fait plus froid.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a slow-speaking child."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Texture: clear, Volume: quiet",
+      "text": "Chut, je crois que le bébé dort enfin, il ne faut pas le réveiller.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver the line in a reflective manner with a standard vocal pitch.",
+      "text": "Il existe plusieurs façons d'interpréter ces résultats, selon la méthode utilisée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this as a child would.",
+      "text": "On peut ouvrir la fenêtre ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral request."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Use a clear, adult speaking voice for this line.",
+      "text": "La photosynthèse est le processus par lequel les plantes vertes utilisent la lumière du soleil pour synthétiser des nutriments.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral factual statement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Your voice should sound like an older person making an observation.",
+      "text": "Je n'avais jamais remarqué à quel point les arbres de cette rue sont devenus hauts.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral reflection."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Announce this using a mature adult voice.",
+      "text": "Nous vous informons que le magasin fermera ses portes dans dix minutes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and clear. Text is a neutral announcement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Please use a male voice to say the following.",
+      "text": "Le système solaire se compose de huit planètes qui tournent autour du Soleil.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text is a factual statement in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. I need this read by a female speaker.",
+      "text": "Pourriez-vous répéter cela ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text is a simple request in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Use a man's voice for this line.",
+      "text": "Votre attention s'il vous plaît.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses specified phrasing. Text is a brief announcement in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. I'd like this to have a female-sounding voice.",
+      "text": "Je pense que nous devrions prendre une pause bientôt, la journée a été longue.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct. Text is a casual statement in French."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this with an extremely high voice.",
+      "text": "Les résultats de l'étude seront publiés dans le prochain journal scientifique.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this in a high voice.",
+      "text": "Est-ce que tu peux m'aider avec ça ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Speak in a low-pitched voice.",
+      "text": "Le prochain train à destination de Marseille partira de la voie numéro sept.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Say this with an extremely low-pitched voice.",
+      "text": "On devrait peut-être essayer ce nouveau restaurant.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read this with a soft, breathy voice.",
+      "text": "Je me demande souvent si j'ai pris la bonne décision à ce moment-là.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and requests a breathy quality. Text is a neutral reflection."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. I need a slightly husky vocal quality for this line.",
+      "text": "J'ai laissé les documents sur la table du salon.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Slight variation in instruction phrasing. Text is neutral and casual."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Give this sentence a smoky quality.",
+      "text": "Il portait un long manteau qui flottait derrière lui à chaque pas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Concise instruction for a smoky quality. Text is a good narrative sentence."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Read this with a bright and resonant voice.",
+      "text": "Le prochain arrêt de ce bus est la Place de la Concorde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction pairs 'bright' with 'resonant'. Text is a simple announcement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. I need this explanation to be spoken with an exceptionally clear voice.",
+      "text": "Pour assembler le meuble, vous devez d'abord fixer les pieds à la base principale.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction emphasizes clarity. Text is a suitable explanatory sentence."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Read this with a nasal vocal quality.",
+      "text": "Ces chaises sont en bois de chêne.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a nasal quality. Text is a neutral statement."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. I'm looking for a mellow, smooth, and relaxed voice for this line.",
+      "text": "Pourriez-vous me passer le sel, s'il vous plaît ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a mellow voice. Text is a polite, calm request."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Age: Child",
+      "text": "Est-ce que c'est l'heure de partir ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_age__0001",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Age: Adult",
+      "text": "Le fleuve Amazone est le plus grand du monde en termes de débit d'eau.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Age: Elderly",
+      "text": "Regarder les nuages passer dans le ciel est une activité très relaxante.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Age: Adult",
+      "text": "Le vol à destination de Lyon est maintenant prêt pour l'embarquement à la porte douze.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: Male",
+      "text": "L'eau bout à cent degrés Celsius.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: Female",
+      "text": "Je voudrais réserver une table pour deux personnes pour ce soir, si c'est encore possible.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: Male",
+      "text": "Veuillez noter que le bureau des objets trouvés a été déplacé au rez-de-chaussée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Gender: Female",
+      "text": "Ce processus permet d'améliorer l'efficacité globale.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text conform to the plan."
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Pitch: Very High",
+      "text": "Pourrais-je avoir un verre d'eau ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Pitch: High",
+      "text": "Selon le rapport, les ventes ont augmenté de cinq pour cent ce trimestre.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Pitch: Low",
+      "text": "Le bureau fermera à dix-sept heures aujourd'hui en raison des conditions météorologiques.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Pitch: Very Low",
+      "text": "Le prochain arrêt est la station centrale.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Texture: Breathy",
+      "text": "Parfois, je me demande si j'ai pris les bonnes décisions dans la vie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_texture__0001",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Texture: Deep",
+      "text": "Le fleuve Amazone est le plus grand fleuve du monde en termes de débit.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_texture__0002",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Texture: Bright",
+      "text": "Le train à destination de Lyon partira de la voie cinq.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_texture__0003",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Texture: Husky",
+      "text": "Je suis rentré un peu tard hier soir, la soirée était vraiment sympa.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_texture__0004",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Texture: Sweet",
+      "text": "Est-ce que tu aurais une minute à m'accorder ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_texture__0005",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Texture: Nasal",
+      "text": "Ce processus se décompose en plusieurs étapes distinctes que je vais vous présenter.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_texture__0006",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Texture: Clear",
+      "text": "Pensez à éteindre les lumières et les ordinateurs en quittant le bureau ce soir.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. As a female speaker, say this with a happy, cheerful voice, but with a complaining undertone.",
+      "text": "J'ai passé toute la journée à organiser les dossiers pour la réunion de demain.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "complaining",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Perform this as a young child who speaks with a very serious demeanor and a low-pitched, deep voice.",
+      "text": "J'aimerais avoir un verre d'eau, si cela ne vous dérange pas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "texture": "deep",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. The speaker is male. He is furious, but his voice is gentle and has a very high pitch, which is an odd combination.",
+      "text": "La distance entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "pitch": "very_high",
+        "texture": "soft",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. I want the voice of an elderly person who is full of life and energy, but is using a sarcastic tone to make a point.",
+      "text": "J'adore vraiment la nouvelle technologie, ça simplifie tellement la vie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "personality": "lively",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. The speaker is a man with a reserved nature. Deliver this line very loudly and rapidly, as if he's trying to get an unpleasant public speaking task over with as soon as possible.",
+      "text": "Nous informons notre aimable clientèle que le magasin fermera exceptionnellement ses portes à dix-huit heures aujourd'hui pour un inventaire annuel. Nous vous remercions de votre compréhension et nous nous excusons pour la gêne occasionnée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "speed": "very_fast",
+        "volume": "very_loud",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Your tone should be flat and indifferent, but let a hint of surprise show through, as if you're trying to hide your reaction.",
+      "text": "C'est donc ce qu'elle a choisi de faire à la fin. D'accord.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "emotion": "surprised",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Read this list starting at your normal pitch, let your pitch rise high in the middle, and then bring it back down to normal for the end.",
+      "text": "Pour ce projet, nous aurons besoin de plusieurs choses : du papier, des ciseaux, de la colle forte, des marqueurs de toutes les couleurs, et enfin, un peu de patience.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "start with a normal pitch, raise it to high in the middle, and then return to a normal pitch at the end"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this line with two opposing dynamic changes: your pitch should go up, and your volume should go down.",
+      "text": "C'était comme un cri puissant qui s'est transformé en un murmure strident, s'étirant vers le silence tout en devenant plus perçant.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "gradually rise from low to high",
+        "volume": "simultaneously fade from loud to quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Age: elderly, Gender: male, Tone: firm",
+      "text": "La construction de la cathédrale Notre-Dame de Paris s'est étendue sur près de deux siècles, débutant en 1163.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Use a high-pitched, bright female voice.",
+      "text": "Notre nouveau sérum hydratant est formulé avec de l'acide hyaluronique pur pour une peau visiblement plus lisse.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "texture": "bright",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. I want to hear a young girl's voice, full of happiness and speaking at a high volume.",
+      "text": "Le paon est célèbre pour les plumes colorées de sa queue, qu'il déploie pour attirer une partenaire. Chaque plume a un motif qui ressemble à un œil, avec des couleurs vives comme le bleu et le vert.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "emotion": "happy",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: male, Texture: deep, Personality: serious, Speed: slow",
+      "text": "Le doute n'est pas une condition agréable, mais la certitude est une condition absurde. C'est par le questionnement constant que nous nous approchons de la vérité, sans jamais prétendre la posséder entièrement.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep",
+        "personality": "serious",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. I want a thoughtful reading of this text, delivered in a low and mellow voice at a standard volume.",
+      "text": "La palette de couleurs est délibérément restreinte, ce qui accentue l'impact des quelques touches de couleur vive. Chaque élément pictural semble avoir été placé avec une intention précise pour servir l'harmonie générale du tableau.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "thoughtful",
+        "pitch": "low",
+        "texture": "mellow",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Deliver this line with heavy sarcasm, as if you're an adult woman who means the opposite of what she's saying.",
+      "text": "Bravo pour avoir fini le projet juste à temps. Ta gestion du temps est remarquable.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: male, Personality: lively, Speed: fast",
+      "text": "On a décidé de partir en randonnée sur un coup de tête le week-end dernier. On a suivi un sentier qu'on ne connaissait pas et on s'est retrouvés devant une cascade magnifique, complètement isolée. C'était la meilleure décision de la journée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "lively",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Use a husky female voice with a pleading tone.",
+      "text": "S'il te plaît, est-ce que tu pourrais reconsidérer ta décision ? Juste une dernière fois.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "husky",
+        "gender": "female",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Age: elderly, Gender: female, Personality: gentle",
+      "text": "Ma chérie, n'oublie jamais de mettre un peu d'argent de côté chaque mois, même si ce n'est qu'une petite somme. C'est dans les moments difficiles qu'on apprécie d'avoir été prévoyante. Pense aussi à bien t'hydrater, c'est plus important qu'on ne le croit.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Deliver this line in a loud, very high-pitched voice, as if you've just seen something unbelievable.",
+      "text": "Attendez, vous avez vu ça ? Le ciel vient de changer de couleur complètement !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "emotion": "surprised",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Use a young boy's voice, with a whining and complaining tone, but don't raise your voice.",
+      "text": "Il faut vraiment que je finisse tous mes devoirs avant de pouvoir aller jouer dehors ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "tone": "complaining",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Use a sweet, cheerful female voice, speaking at a normal pace.",
+      "text": "Coucou ! C'est un plaisir de vous voir ce matin, le soleil brille et tout va bien !",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "sweet",
+        "personality": "cheerful",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Age: adult, Gender: male, Emotion: angry, Volume: loud, Speed: fast",
+      "text": "Je ne peux pas croire que tu aies pris cette décision sans même m'en parler ! Tu savais très bien ce que j'en pensais et tu as choisi de m'ignorer complètement.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "emotion": "angry",
+        "volume": "loud",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this forecast in a very soft, calm manner, speaking slowly and at a low volume.",
+      "text": "Les conditions resteront stables pour les jours à venir. Attendez-vous à un temps sec et ensoleillé, idéal pour les activités en extérieur. Les températures maximales atteindront vingt degrés.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "calm",
+        "texture": "soft",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. In a happy and playful female voice, say this with a teasing tone.",
+      "text": "Oh, je vois que tu as mis ta chemise porte-bonheur. Tu essaierais de m'impressionner, par hasard ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "tone": "teasing",
+        "personality": "playful",
+        "gender": "female",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Speak as a humorous older gentleman with a deep, resonant voice, setting the stage for a funny story.",
+      "text": "Vous n'allez jamais croire ce qui est arrivé l'été dernier au mariage de ma nièce. Ça impliquait un gâteau à trois étages, un perroquet et le maire du village.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "humorous",
+        "texture": "rich"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Gender: male, Age: adult, Texture: deep, Emotion: thoughtful, Speed: slow",
+      "text": "L'érosion est un processus naturel qui façonne nos paysages. Le vent, l'eau et la glace déplacent lentement mais sûrement la roche et la terre, créant ainsi des vallées et des canyons au fil des millénaires.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "texture": "deep",
+        "emotion": "thoughtful",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this announcement loudly and firmly, with the voice of a confident woman.",
+      "text": "Ceci est un message pour tous les passagers du vol sept-cent-quatorze. L'embarquement commencera immédiatement à la porte B trente-deux. Veuillez préparer votre carte d'embarquement et une pièce d'identité.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "adult",
+        "personality": "confident",
+        "tone": "firm",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Sound like a little girl who is very scared, speaking in a fast whisper.",
+      "text": "Je crois que j'ai vu quelque chose bouger derrière la fenêtre de la cuisine.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "emotion": "fearful",
+        "volume": "very_quiet",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Gender: Male, Texture: Smoky, Tone: Indifferent, Speed: Normal, Pitch: Low",
+      "text": "Le rapport final conclut que les protocoles de sécurité actuels sont inadéquats pour prévenir les intrusions de ce type et recommande une révision complète du système d'authentification.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "smoky",
+        "tone": "indifferent",
+        "speed": "normal",
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "fr"
+    }
+  ]
+}

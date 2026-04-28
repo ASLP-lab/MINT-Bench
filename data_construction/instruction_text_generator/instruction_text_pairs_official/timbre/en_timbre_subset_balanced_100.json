@@ -1,0 +1,2216 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "en",
+  "group_name": "timbre_balanced_subset",
+  "num_items": 100,
+  "sampling_summary": {
+    "requested_num_samples": 100,
+    "actual_num_samples": 100,
+    "seed": 42,
+    "taken_per_timbre_attr": {
+      "age": 25,
+      "gender": 25,
+      "pitch": 25,
+      "texture": 25
+    },
+    "available_per_timbre_attr": {
+      "age": 70,
+      "gender": 57,
+      "pitch": 61,
+      "texture": 69
+    },
+    "num_unknown_items_ignored": 0
+  },
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: soft",
+      "text": "Historical artifact discovered at downtown construction site.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0019",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Please render this with a clear female voice, using a British accent. The delivery should be rapid and surprised.",
+      "text": "Of course, that's how it turned out. When you follow the steps precisely as laid out, the result is exactly what the manual predicts every single time.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0031",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "clear",
+        "accent": "british_accent",
+        "emotion": "surprised",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: clear",
+      "text": "All visitors are kindly reminded to check in at the front desk.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0021",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: husky",
+      "text": "Would you mind closing the window?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based atomic control."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0004",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as if you're an elderly person, maybe in your seventies.",
+      "text": "Could you please tell me where the nearest bus stop is?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0011",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "The voice should be a playful male child, speaking so fast he's almost tripping over his words.",
+      "text": "Fiscal policy refers to the use of government spending and tax policies to influence economic conditions.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Playful, fast child voice contrasts with dry, factual text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0047",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "child",
+        "speed": "very_fast",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak with a standard British accent, sounding angry and irritated.",
+      "text": "The afternoon sun cast long shadows across the garden.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between angry delivery and peaceful text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0052",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "british_accent",
+        "pitch": "normal",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Use an extremely high pitch for this line.",
+      "text": "Would you mind opening the window?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and text is a simple request, as planned."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Emotion: neutral, Age: adult",
+      "text": "A reminder that all timesheets must be submitted by the end of the day on Friday.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated according to plan."
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0033",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Gender: male, Accent: british_accent",
+      "text": "We're expecting scattered showers throughout the afternoon, clearing up by the evening.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Read this in the voice of a little kid.",
+      "text": "A giraffe is very tall and it eats leaves from trees.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Gender: female, Personality: reserved",
+      "text": "My findings are summarized on page three of the handout I provided.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0049",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice should be gentle and have a soft quality, perfect for lulling someone to sleep.",
+      "text": "The little boat drifted slowly down the moonlit river, its lantern casting a warm, golden glow on the water. The stars above twinkled like tiny diamonds scattered across a velvet cloth, and all was peaceful in the sleepy valley.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0046",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "soft",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Gender: female, Emotion: fearful",
+      "text": "He was hiding in the closet the entire time and nobody knew he was there.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0069",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start with a high pitch and a fast speaking rate to convey excitement. Then, gradually slow down and lower your pitch to show the energy draining away.",
+      "text": "We were running, laughing, the energy was incredible, everyone was cheering us on! But then... as the miles went on... the excitement started to fade. And then... there was just the quiet sound of our own breathing.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The transition is gradual after the first exclamation."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0025",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "high -> low",
+        "speed": "fast -> slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: bright",
+      "text": "Our records indicate that the last payment was processed on the first of the month.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0020",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a soft, slow, and cheerful female voice with a coquettish tone.",
+      "text": "I was just wondering if you could help me collate these inventory spreadsheets.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "happy",
+        "tone": "coquettish",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Read this sentence with an elderly voice.",
+      "text": "I find the harmony in this choral arrangement to be quite beautiful.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0009",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "The speaker is a woman with a naturally deep and husky voice. She's trying to be flirtatious and light, so there's a playful, coquettish quality to her tone that contrasts with her vocal texture.",
+      "text": "Well now, aren't you looking particularly sharp today?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good conflict between a heavy voice texture and a light tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0014",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "female",
+        "texture": "husky",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Gender: male, Texture: rich",
+      "text": "The process of photosynthesis converts light energy into chemical energy, which is stored in glucose.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "rich"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Emotion: fearful, Speed: fast, Volume: very_quiet, Gender: male",
+      "text": "I need all of you to keep a level head and remain perfectly still. Everything is under control, just stay calm.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text content (commanding calm) is in conflict with the fearful, quiet delivery instruction. This is intentional."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0071",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "fast",
+        "volume": "very_quiet",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in a soft, quiet voice, but maintain a firm, resolute tone.",
+      "text": "Very well, I'll concede on that particular issue for now.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0051",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "soft",
+        "volume": "quiet",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Imagine you've just seen something incredible. Your voice is high-pitched with astonishment.",
+      "text": "Is that really what I think it is? This changes everything!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0050",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Say this in the highest part of your vocal range.",
+      "text": "I think I left my keys on the counter this morning.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is descriptive and text is a casual statement, per plan."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Age: adult, Gender: female, Pitch: normal, Speed: very_fast",
+      "text": "The fundamental principles of quantum mechanics, particularly the superposition and entanglement phenomena, challenge our classical intuitions about the physical world.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "pitch": "normal",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver the line with a bright, happy voice, but make it clear through a sarcastic tone that you don't mean what you're saying.",
+      "text": "That's a brilliant idea. I can't believe none of us thought of that before.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of conflicting emotion and tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Request a voice suitable for an adult narrator.",
+      "text": "The research team published their findings in a leading scientific journal.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0008",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a man's voice that is naturally in a very high register. Deliver the command with a firm and unwavering tone that leaves no room for argument.",
+      "text": "You will follow my instructions to the letter.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between very high pitch and a firm, commanding tone for a male voice."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Read this in a clear, adult tone.",
+      "text": "This message is a reminder that seatbelts must be worn by all passengers at all times.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: nasal, Volume: loud",
+      "text": "Will the owner of a blue sedan, license plate number XYZ 123, please move your vehicle immediately.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0061",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: bright, Pitch: high, Speed: fast, Volume: loud",
+      "text": "There wasn't much to say after that, just a heavy stillness.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0038",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "bright",
+        "pitch": "high",
+        "speed": "fast",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Pitch: very_high",
+      "text": "Could you please pass the salt?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: magnetic",
+      "text": "Water boils at one hundred degrees Celsius at standard atmospheric pressure.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0018",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "magnetic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "The vocal target for this audio is masculine.",
+      "text": "Remember to check your smoke detectors regularly and change the batteries at least once a year.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0007",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I want to hear this in a man's voice.",
+      "text": "The process of distillation separates components of a liquid mixture based on their different boiling points.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0009",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Sound like a cheerful kid talking about something they like.",
+      "text": "I got it for my birthday, and it's my favorite color, which is green!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated according to plan."
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0034",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Gender: Female",
+      "text": "I was just thinking about that the other day.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0010",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Say this with a humorous and witty male voice.",
+      "text": "I'm not saying it was a long meeting, but I'm pretty sure I saw a season change through the window.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "standard generation"
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0064",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "humorous"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Gender: Female",
+      "text": "This issue occurs because the software is not compatible with the older hardware.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0008",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: soft",
+      "text": "Perhaps we could try another approach if this one doesn't work out.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based atomic control."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "soft"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I need a very soft, sad reading of this line. Speak at a very low volume, with a gentle, whispering quality.",
+      "text": "From the hilltop, they could see the entire town, with its quiet streets and the river winding through it.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a complex static state."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "sad",
+        "volume": "very_quiet",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Tell the story in three parts. Begin at a normal pitch, speed, and volume. Ramp up to a fast, loud, high-pitched middle section. Finish the story by becoming slow, quiet, and low-pitched.",
+      "text": "The race began like any other, the cars jockeying for position. But then on the final lap, the lead car spun out, sending sparks flying everywhere! It was absolute chaos, a pile-up involving half the field, a deafening crash! After the smoke cleared... the track was silent. A single car limped across the finish line.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0036",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high -> low",
+        "speed": "normal -> fast -> slow",
+        "volume": "normal -> loud -> quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Pitch: high",
+      "text": "We should probably get going soon if we want to catch the beginning of the movie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_pitch__0005",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: breathy",
+      "text": "Don't forget the team meeting at three o'clock.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0015",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Texture: nasal",
+      "text": "I guess we could go to the park later if the weather holds up, but I'm not really sure.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0022",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Gender: Male",
+      "text": "It feels like this week has been going on forever.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0009",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice should be rich and full, and your delivery confident.",
+      "text": "Here's to a successful year, and many more to come. Cheers!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0056",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "rich",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "The voice is female and high in pitch.",
+      "text": "With its sleek design and long-lasting battery, it's the only device you'll ever need.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I need a female speaker to say this.",
+      "text": "The traffic was pretty bad this morning.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0006",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Pitch: very_low, Accent: american_accent",
+      "text": "The international summit concluded today with a joint statement on climate action and economic cooperation.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "You're trying to be charming and deliver a flirty line, but your delivery is hesitant and awkward, not smooth at all.",
+      "text": "Do you have a map? I keep getting lost in your eyes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0024",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as a woman who is very frightened and timid. She's trying to give an order but her fear is showing through.",
+      "text": "You need to leave this place immediately and don't look back.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0027",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "fearful",
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak this with a very high-pitched British accent. Deliver the lines very slowly, drawing out the words.",
+      "text": "Quick, we need to go right now! There's no time to waste, hurry up!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Urgent text vs slow speed."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0068",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "speed": "very_slow",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver this announcement with a bright, high-pitched voice.",
+      "text": "Welcome aboard everyone, we hope you enjoy your trip with us today!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Age: child",
+      "text": "It feels a bit chilly in this room.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Pitch: very_high",
+      "text": "The weekly staff meeting has been rescheduled for ten o'clock tomorrow morning.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as if you are a young child.",
+      "text": "Can I have a glass of juice, please?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Read this in a deep voice.",
+      "text": "The main library houses a collection of over two million books, journals, and manuscripts available for public access.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct command for a deep voice. Text is a neutral factual statement."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak this in a teasing manner, using a bright and energetic adult male voice.",
+      "text": "I believe you're the one who left the light on in the kitchen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "tone": "teasing",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as an elderly grandparent who is secretly very worried about their grandchild, but is trying to hide it with a light, teasing tone so they don't seem like they're nagging.",
+      "text": "Are you eating enough over there, or are you just living on air and sunshine?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of layered affect; a teasing tone hiding worry."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0016",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "worried",
+        "tone": "teasing",
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I need a clear, articulate reading of this fact.",
+      "text": "Antarctica is the Earth's southernmost continent.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple instruction for a clear voice with a simple factual text."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0018",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "The speaker is a woman, and she sounds disappointed.",
+      "text": "It's just not what I was hoping for, I guess.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0054",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Pitch: very_low",
+      "text": "Sometimes the simplest solutions are the ones we overlook the longest.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_pitch__0014",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Gender: Male",
+      "text": "Would you mind helping me with this? I can't seem to figure it out.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Start speaking in a high pitch, as if you're excited or hopeful, but let your voice fall steadily to a very low pitch by the end, showing disappointment.",
+      "text": "We had it! The victory was in our grasp, we were so close, and then I saw the final score.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a falling pitch contour conveying deflation. Text matches this semantic."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "high -> low -> very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak with the deepest voice you can make.",
+      "text": "The primary function of this component is to regulate the flow of electricity.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for an extremely low pitch."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0015",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Say this in a mellow, easy-going way.",
+      "text": "I wonder what they're building over on that corner.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard direct instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0024",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a standard adult voice for this recording.",
+      "text": "The plumber is scheduled to arrive at ten in the morning.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0005",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak this with a woman's voice.",
+      "text": "The primary colors in additive color models are red, green, and blue.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard item."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in the voice of an elderly American man, but talk very, very fast, like you're reading the fine print on a commercial.",
+      "text": "Offer valid only in participating locations, subject to availability, not to be combined with any other offer, void where prohibited by law.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between elderly age and very fast speed."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "speed": "very_fast",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Age: child, Pitch: high, Tone: awkward",
+      "text": "The reason the sky appears blue is due to a phenomenon known as Rayleigh scattering, which affects light from the sun.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Confident text vs awkward tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0061",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Pitch: very_low, Emotion: happy, Accent: indian_accent",
+      "text": "Despite our best efforts, the project was ultimately unsuccessful.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Happy emotion contrasts with disappointing text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0043",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "emotion": "happy",
+        "accent": "indian_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Your voice should sound bright and full of positive energy.",
+      "text": "This is a wonderful opportunity for us to showcase our talents and creativity.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is upbeat without using words like 'bright'."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0016",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: sweet",
+      "text": "This particular model comes with a variety of features, including an updated user interface.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0011",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Lower your pitch for this command.",
+      "text": "Do not proceed any further.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests low pitch, text is an imperative command."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0010",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice is warm and has a normal pitch. Deliver this line slowly, with a pleading tone.",
+      "text": "This is the final notice. Rent must be paid in full by the first of the month to avoid eviction.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0030",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "speed": "slow",
+        "personality": "warm",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Use a smug, happy male voice, full of self-congratulation.",
+      "text": "I can't believe it worked out. I was just guessing for most of it.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0024",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "tone": "smug",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: smoky",
+      "text": "That was a day I won't soon forget.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_texture__0017",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a pleasant and sweet vocal tone.",
+      "text": "Please, allow me to help you with that.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard direct instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0021",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I'm looking for a barely audible male voice, speaking at a very slow pace. The texture should be smoky, and the emotion is sadness.",
+      "text": "This is a notice to let everyone know that the donuts in the breakroom are, for once, not the cheap kind, so please help yourselves.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "smoky",
+        "emotion": "sad",
+        "speed": "very_slow",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Age: adult, Volume: quiet",
+      "text": "He said he would call me back, but so far I haven't heard anything.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0053",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I want you to use the highest pitch you can possibly produce.",
+      "text": "Please be advised that the library will be closing in fifteen minutes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct; text is a neutral announcement."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Age: adult",
+      "text": "Please have your tickets ready for inspection.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_age__0007",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Let your pitch glide upwards throughout the entire utterance. Begin with a low tone and end with a high one.",
+      "text": "First it was just a rumor, then we saw the preliminary reports, and now the official announcement is finally here.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction calls for a steady rise in pitch. Text conveys building excitement."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Let's hear this with a deeper vocal tone.",
+      "text": "Photosynthesis is the process used by plants to convert light energy into chemical energy.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction avoids the word 'low' as requested."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0012",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: breathy, Speed: slow, Volume: quiet",
+      "text": "We should probably check the schedule one more time.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Age: adult, Gender: female, Accent: british_accent, Tone: urging, Volume: quiet",
+      "text": "Photosynthesis is the process used by plants, algae, and some bacteria to convert light energy into chemical energy.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Urging tone contrasts with non-urgent, factual text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0045",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "accent": "british_accent",
+        "tone": "urging",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speed: fast, Gender: male",
+      "text": "The ball is loose, picked up by the away team, they're racing down the court for a fast break, he goes up for the shot and it's good at the buzzer!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated according to plan."
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0035",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Ask for a voice that sounds like it belongs to a grown-up.",
+      "text": "To start, add the flour to the bowl and then mix in the sugar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0006",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Gender: Female",
+      "text": "Please be aware that the front entrance is temporarily closed.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple tag instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_gender__0006",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Pitch: low",
+      "text": "We should probably check the weather forecast before we head out.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_tag_atomic_pitch__0011",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a young person's voice for this line.",
+      "text": "The rain sounds very quiet today.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a gentle, mellow tone, like an old person telling a story from their youth.",
+      "text": "Back then, letters were the only way to keep in touch over long distances. You'd wait weeks, sometimes months, for a reply. Each one felt like a treasure, a little piece of a person you held in your hands, knowing they had held it too.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "mellow",
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a mellow and relaxed tone for this line.",
+      "text": "We've confirmed the reservations and all the travel documents are in order for your trip.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard direct instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0023",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Please use a smoky vocal quality.",
+      "text": "This process is designed to separate the components based on their relative density and weight.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction directly asks for a smoky voice. Text is neutral and explanatory."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0009",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Can you use a full, resonant tone for this line?",
+      "text": "The city's architecture is a mixture of modern glass towers and historical buildings from centuries past.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a full and resonant voice. Text is a neutral descriptive statement."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "rich"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a child's voice, but with a very firm and serious personality. You are explaining a technical concept as if the listener is a simpleton.",
+      "text": "No, that's a common misconception. The primary driver of macroeconomic instability in this model is the endogenous credit cycle, not exogenous shocks.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict arises from child voice + serious, complex topic."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice is syrupy sweet and you sound like you're teasing, but it's all a performance to hide your simmering anger.",
+      "text": "Well, isn't that just the most interesting way to handle things?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0021",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "playful",
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Please use a standard pitch for this request.",
+      "text": "Can you send me the link to that document we were discussing?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is for normal pitch, text is a simple request."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0009",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I'd like a delivery with a higher-than-average pitch.",
+      "text": "To complete the setup, you must first connect the device to a power source.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction follows the 'higher than average' phrasing."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0005",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "en"
+    }
+  ]
+}

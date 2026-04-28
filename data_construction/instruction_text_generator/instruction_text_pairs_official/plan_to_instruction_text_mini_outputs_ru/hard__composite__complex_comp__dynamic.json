@@ -1,0 +1,719 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "ru",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 11,
+  "num_output_items": 11,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Begin at a slow pace and steadily accelerate your speech throughout the sentence, finishing at a very fast speed.",
+      "text": "Круговорот воды в природе представляет собой сложный и непрерывный процесс, в ходе которого вода испаряется с поверхности океанов и суши, поднимается в атмосферу, конденсируется в облака и в конечном итоге возвращается на землю в виде осадков, питая реки и озёра.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start slow, gradually accelerate to very fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Deliver this with a steady crescendo, beginning almost inaudibly and ending with a powerful, loud voice.",
+      "text": "Сначала был только шепот надежды, потом он перерос в уверенный голос, а теперь это крик целого народа, который требует перемен!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "begin very quiet and build up to very loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Your voice should start low and neutral, then rise in pitch as you become worried, and end high and fearful.",
+      "text": "Я смотрел на экран монитора, как вдруг он мигнул и погас, а затем из динамиков раздался тихий, искаженный голос.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "start low and rise to high",
+        "emotion": "from neutral to worried, then to fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Begin speaking quickly and with conviction, but let your voice trail off, becoming slow and hesitant by the end of the sentence.",
+      "text": "Нет никаких сомнений в том, что это правильное решение для компании, оно принесет нам огромную прибыль... если, конечно, рынок отреагирует так, как мы предполагаем.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start fast and then slow down to a crawl",
+        "tone": "begin with a firm tone that becomes hesitant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Start off loud, fast, and angry. Then, transition into a sad tone, slowing down and getting quieter. End the sentence in a slow, quiet, thoughtful manner.",
+      "text": "Почему ты никогда меня не слушал, я же столько раз говорил тебе об этом, а теперь уже слишком поздно что-то менять, и остается только принять это.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start angry, then transition to sad, and end on a thoughtful note",
+        "volume": "start loud, end quiet",
+        "speed": "start fast, end slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Switch back and forth between a pleading and a defiant tone as you read the different phrases in this sentence.",
+      "text": "Я умоляю тебя, пойми меня, но я никогда не соглашусь на это; неужели ты не видишь, ведь это мое окончательное решение.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "alternate between a pleading tone and a defiant tone"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Deliver this in three stages: first, speak normally; second, become very slow, low-pitched and quiet; third, suddenly become very fast, high-pitched and loud.",
+      "text": "Я шел по темному коридору, и вдруг в самом конце я увидел, как под дверью медленно пробивается тонкий лучик света... и внезапно дверь распахнулась!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal, then drops to very low, then suddenly very high",
+        "speed": "normal, then very slow, then suddenly very fast",
+        "volume": "normal, then very quiet, then suddenly very loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Begin speaking in a happy and playful tone, but about halfway through, shift to a sad and disappointed tone.",
+      "text": "О, я выиграл билеты на концерт, как здорово, мы так давно хотели пойти... ой, подожди, это же на прошлую неделю.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start happy, but end sad",
+        "tone": "change from playful to disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Start off by giving the instructions quickly and with an urging tone, then slow down and shift into a complaining tone as you finish.",
+      "text": "Так, быстро бери эти коробки, неси их на склад и раскладывай по полкам... господи, почему этим всегда приходится заниматься именно мне.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start fast and then become slow",
+        "tone": "begin with an urging tone, but then shift to a complaining one"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Recount this story in a surprised and excited tone, letting your volume and pitch fluctuate throughout, getting louder and higher on the most unbelievable parts.",
+      "text": "Ты не поверишь, я иду по улице, и вдруг вижу огромную толпу, а в центре стоит слон, представляешь, настоящий живой слон!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "fluctuate between normal and loud",
+        "pitch": "fluctuate between normal and high",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Begin your speech with a loud, high-pitched, and happy voice. Gradually let your voice become quieter, lower in pitch, and emotionally neutral as if you are running out of steam.",
+      "text": "Лучший день в моей жизни! Утром мне сделали предложение! Я так счастлива, я кричала от радости! Мы весь день праздновали, гуляли по городу, ели в ресторане. Было просто волшебно. А сейчас уже поздно, я очень устала. Нужно смыть макияж, переодеться и просто лечь. Завтра будет много дел.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text support a dynamic shift from high energy to low energy."
+      },
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start happy, but gradually fade to neutral",
+        "volume": "start loud and gradually fade to very quiet",
+        "pitch": "start high and gradually fall to low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start slow, gradually accelerate to very fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start speaking this sentence slowly, then gradually increase your speed so that by the end you are speaking very rapidly.",
+          "text": "Основной принцип работы большинства современных поисковых систем заключается в индексации веб-страниц с помощью автоматических роботов, которые переходят по ссылкам и сохраняют контент, чтобы потом можно было быстро находить релевантную информацию по запросам пользователей.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Begin at a slow pace and steadily accelerate your speech throughout the sentence, finishing at a very fast speed.",
+          "text": "Круговорот воды в природе представляет собой сложный и непрерывный процесс, в ходе которого вода испаряется с поверхности океанов и суши, поднимается в атмосферу, конденсируется в облака и в конечном итоге возвращается на землю в виде осадков, питая реки и озёра.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Read the sentence starting slowly, and then pick up the pace continuously until you are speaking at top speed at the very end.",
+          "text": "Историческое развитие человеческой цивилизации можно рассматривать как последовательность культурных, технологических и социальных сдвигов, начиная от появления первых орудий труда и заканчивая современными цифровыми технологиями, изменившими мир до неузнаваемости.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "begin very quiet and build up to very loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start this line in a whisper and gradually build your volume until you are shouting by the end.",
+          "text": "Я думал, что всё это просто совпадение, потом начал сомневаться, а теперь я вижу правду, и я не буду молчать, я расскажу всем!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this with a steady crescendo, beginning almost inaudibly and ending with a powerful, loud voice.",
+          "text": "Сначала был только шепот надежды, потом он перерос в уверенный голос, а теперь это крик целого народа, который требует перемен!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Begin speaking very quietly and increase your volume steadily throughout the sentence, ending in a yell.",
+          "text": "Я терпел это день за днем, неделю за неделей, но теперь моему терпению пришел конец, и я заявляю, что с меня хватит!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "start low and rise to high",
+        "emotion": "from neutral to worried, then to fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start in a low-pitched, neutral tone. Then, shift to a worried tone with a higher pitch. End the sentence sounding very fearful in a high pitch.",
+          "text": "Я просто сидел в комнате и читал книгу, когда за окном послышался какой-то странный звук, а потом я увидел, что дверная ручка медленно поворачивается.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Begin with a neutral emotion and low pitch. As you continue, transition to worried with a rising pitch, and finally end in a high-pitched, fearful voice.",
+          "text": "В лесу было тихо и спокойно, но вдруг все птицы замолчали, и я услышал отчетливые шаги прямо за своей спиной.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your voice should start low and neutral, then rise in pitch as you become worried, and end high and fearful.",
+          "text": "Я смотрел на экран монитора, как вдруг он мигнул и погас, а затем из динамиков раздался тихий, искаженный голос.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start fast and then slow down to a crawl",
+        "tone": "begin with a firm tone that becomes hesitant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start this statement firmly and at a fast pace. As you continue, slow down significantly and sound more and more hesitant, as if losing confidence.",
+          "text": "Я абсолютно уверен, что наш план сработает, мы учли все переменные и готовы к любым вызовам... по крайней мере, я надеюсь, что мы ничего не упустили.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver the first part of the sentence with speed and a firm tone, then transition to a very slow and hesitant delivery for the second part.",
+          "text": "Мы должны действовать немедленно, это наш единственный шанс на успех, и я готов взять на себя ответственность... хотя, конечно, риски довольно велики.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Begin speaking quickly and with conviction, but let your voice trail off, becoming slow and hesitant by the end of the sentence.",
+          "text": "Нет никаких сомнений в том, что это правильное решение для компании, оно принесет нам огромную прибыль... если, конечно, рынок отреагирует так, как мы предполагаем.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start angry, then transition to sad, and end on a thoughtful note",
+        "volume": "start loud, end quiet",
+        "speed": "start fast, end slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start off loud, fast, and angry. Then, transition into a sad tone, slowing down and getting quieter. End the sentence in a slow, quiet, thoughtful manner.",
+          "text": "Почему ты никогда меня не слушал, я же столько раз говорил тебе об этом, а теперь уже слишком поздно что-то менять, и остается только принять это.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Perform this line with a three-stage progression: start with loud, fast anger, then shift to quiet, slower sadness, and conclude with a very slow, quiet, reflective tone.",
+          "text": "Я не могу поверить, что все так закончилось, столько усилий было потрачено впустую, и теперь у нас ничего не осталось... может, так и должно было быть.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your delivery should begin fast, loud, and angry. Then it should slow down and become sad and quiet. The final part should be very slow, soft, and thoughtful.",
+          "text": "Это была колоссальная ошибка, и я не понимаю, как мы могли ее допустить, ведь мы потеряли всё... или, возможно, приобрели какой-то важный урок.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": "alternate between a pleading tone and a defiant tone"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this line by alternating between a pleading tone and a defiant tone for each clause.",
+          "text": "Пожалуйста, выслушай меня, ведь я не отступлю от своих слов; просто дай мне шанс, потому что я знаю, что я прав.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Switch back and forth between a pleading and a defiant tone as you read the different phrases in this sentence.",
+          "text": "Я умоляю тебя, пойми меня, но я никогда не соглашусь на это; неужели ты не видишь, ведь это мое окончательное решение.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Read this sentence by oscillating between a begging, pleading tone and a firm, defiant tone.",
+          "text": "Прошу, не делай этого, потому что я тебе не позволю; это наша последняя надежда, и я буду бороться до конца.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal, then drops to very low, then suddenly very high",
+        "speed": "normal, then very slow, then suddenly very fast",
+        "volume": "normal, then very quiet, then suddenly very loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start at a normal pace and volume. Then, slow down, drop your pitch, and become very quiet to build suspense. End with a sudden, loud, fast, high-pitched exclamation.",
+          "text": "Все было как обычно, но потом в полной тишине я услышал медленный скрип... и тут прямо передо мной что-то пролетело!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Deliver this in three stages: first, speak normally; second, become very slow, low-pitched and quiet; third, suddenly become very fast, high-pitched and loud.",
+          "text": "Я шел по темному коридору, и вдруг в самом конце я увидел, как под дверью медленно пробивается тонкий лучик света... и внезапно дверь распахнулась!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a dramatic, three-part delivery: normal beginning, a suspenseful middle that is slow, low, and quiet, and an abrupt climax that is fast, high, and loud.",
+          "text": "Мы сидели у костра, как вдруг все звуки в лесу стихли, и из-за деревьев показалась какая-то тень... а это оказался просто наш пес!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start happy, but end sad",
+        "tone": "change from playful to disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Begin speaking in a happy and playful tone, but about halfway through, shift to a sad and disappointed tone.",
+          "text": "О, я выиграл билеты на концерт, как здорово, мы так давно хотели пойти... ой, подожди, это же на прошлую неделю.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Start this sentence with a genuinely happy and playful voice, then let that fade into clear disappointment and sadness by the end.",
+          "text": "Смотри, какой замечательный подарок мне прислали, я всегда о таком мечтал... а, это оказывается не для меня, а для соседа.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Deliver the first part of the sentence playfully and happily, then transition to a sad, disappointed tone for the final part.",
+          "text": "Представляешь, меня повысили, теперь я буду начальником отдела, это просто невероятно... правда, для этого придется переехать в другой город.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": "start fast and then become slow",
+        "tone": "begin with an urging tone, but then shift to a complaining one"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start off by giving the instructions quickly and with an urging tone, then slow down and shift into a complaining tone as you finish.",
+          "text": "Так, быстро бери эти коробки, неси их на склад и раскладывай по полкам... господи, почему этим всегда приходится заниматься именно мне.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Begin with a fast, urgent delivery, then transition into a slow, complaining manner by the end of the sentence.",
+          "text": "Давай-давай, нам нужно закончить этот отчет до обеда, так что открывай программу и вноси данные... я уже так устал от этих бесконечных цифр.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your tone should shift from urging and fast to complaining and slow as you read through the sentence.",
+          "text": "Нужно срочно все убрать до прихода гостей, так что бери тряпку и начинай вытирать пыль... ненавижу уборку, это просто пустая трата времени.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "fluctuate between normal and loud",
+        "pitch": "fluctuate between normal and high",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Recount this story in a surprised and excited tone, letting your volume and pitch fluctuate throughout, getting louder and higher on the most unbelievable parts.",
+          "text": "Ты не поверишь, я иду по улице, и вдруг вижу огромную толпу, а в центре стоит слон, представляешь, настоящий живой слон!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Tell this with a surprised emotion, making your voice go up and down in pitch and volume to emphasize the shocking details.",
+          "text": "Сначала я подумал, что это шутка, но потом он показал мне выигрышный лотерейный билет, и там была просто невероятная сумма денег!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use a surprised tone, and let your voice vary in loudness and pitch to convey your astonishment as you tell the story.",
+          "text": "Я открываю дверь, а там стоит мой брат, которого я не видел десять лет, и он говорит, что приехал всего на один день!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "start happy, but gradually fade to neutral",
+        "volume": "start loud and gradually fade to very quiet",
+        "pitch": "start high and gradually fall to low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Start off with a very happy and energetic tone, speaking loudly and with a high pitch. As you go on, gradually lose all that energy, so that by the end your voice is neutral, very quiet, and low-pitched.",
+          "text": "Сегодня был просто невероятный день! Сначала мы поехали в парк аттракционов, это было так весело! Я катался на всех каруселях! Потом мы пошли в кино на новый блокбастер. А после... после мы просто пошли домой. Я сделал домашнее задание, поужинал, и вот, теперь готовлюсь ко сну. Обычный вечер.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text support a dynamic shift from high energy to low energy."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Imagine you're telling a friend about your amazing day, starting with incredible excitement. Your voice should be loud, high, and full of joy. However, as you recount the later, more mundane parts of the day, let your voice slowly drain of energy, becoming much quieter, lower, and emotionally flat by the final sentence.",
+          "text": "Представляешь, я сегодня выиграл в лотерею! Не огромную сумму, но всё равно! Я был так рад, сразу побежал в магазин и купил себе новую игровую приставку! Мы с друзьями играли весь день! А потом... потом пришлось убираться в комнате, выносить мусор, делать всякие скучные дела. Завтра снова на работу, так что нужно ложиться спать.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text support a dynamic shift from high energy to low energy."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Begin your speech with a loud, high-pitched, and happy voice. Gradually let your voice become quieter, lower in pitch, and emotionally neutral as if you are running out of steam.",
+          "text": "Лучший день в моей жизни! Утром мне сделали предложение! Я так счастлива, я кричала от радости! Мы весь день праздновали, гуляли по городу, ели в ресторане. Было просто волшебно. А сейчас уже поздно, я очень устала. Нужно смыть макияж, переодеться и просто лечь. Завтра будет много дел.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text support a dynamic shift from high energy to low energy."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1421 @@
+{
+  "taxonomy_node": "easy/composite/simple_comp/static",
+  "language": "fr",
+  "source_plan_file": "easy__composite__simple_comp__static.json",
+  "num_input_items": 22,
+  "num_output_items": 22,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Age: child, Gender: female",
+      "text": "Est-ce que vous pourriez m'indiquer le chemin pour aller à la gare ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Use a deep and slightly raspy voice.",
+      "text": "Je pense que le prochain bus arrivera dans environ dix minutes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Emotion: happy, Speed: fast",
+      "text": "Attention tout le monde, le système sera mis à jour ce soir.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Give this command in a loud, confident voice.",
+      "text": "Veuillez vous assurer que toutes les portes sont bien fermées avant de partir.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "personality": "confident",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Gender: male, Emotion: worried",
+      "text": "Je n'ai pas eu de ses nouvelles depuis hier soir, j'espère que tout va bien.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Speak as an elderly person with a complaining tone.",
+      "text": "De nos jours, le pain n'a plus le même goût qu'avant.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Age: elderly, Texture: soft",
+      "text": "On oublie parfois de regarder le ciel et de voir à quel point il est beau.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Use a man's voice that is high in pitch.",
+      "text": "La distance entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Tone: pleading, Emotion: sad",
+      "text": "Essaie de comprendre ma situation, c'est tout ce que je demande.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0009",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Your delivery should be extremely slow and hushed.",
+      "text": "Chaque choix que nous faisons nous mène sur un chemin différent.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "speed": "very_slow",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Pitch: high, Speed: very_fast",
+      "text": "Veuillez connecter le câble USB au port désigné avant de mettre l'appareil sous tension.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Say this with a deep, serious voice.",
+      "text": "Les conséquences du changement climatique affectent déjà des millions de personnes à travers le monde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a serious, deep voice."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Texture: breathy, Gender: female",
+      "text": "Est-ce que tu as vu les documents que j'ai laissés sur le bureau ce matin ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. As an adult, speak in an extremely low register.",
+      "text": "Le processus de vérification nécessite une signature de chaque département concerné.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a very low-pitched voice."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0014",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Personality: humorous, Tone: playful",
+      "text": "J'ai découvert qu'il y a une bonne façon et une mauvaise façon de plier une serviette.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Shout this with an angry voice.",
+      "text": "Veuillez noter que le bureau fermera à dix-sept heures précises aujourd'hui.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for loud, angry delivery."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Gender: female, Personality: lively",
+      "text": "On pourrait peut-être aller au parc cet après-midi ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Use a child's voice, speaking at a slow pace as if you are choosing your words.",
+      "text": "Les feuilles des arbres changent de couleur quand il fait plus froid.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a slow-speaking child."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Speed: normal, Personality: calm",
+      "text": "Le corps humain adulte est composé d'environ soixante pour cent d'eau.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "speed": "normal",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Use a normal speaking volume, but make your tone firm and confident.",
+      "text": "Ceci est la procédure standard à suivre en cas d'urgence.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a firm tone."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "tone": "firm",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Texture: clear, Volume: quiet",
+      "text": "Chut, je crois que le bébé dort enfin, il ne faut pas le réveiller.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver the line in a reflective manner with a standard vocal pitch.",
+      "text": "Il existe plusieurs façons d'interpréter ces résultats, selon la méthode utilisée.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Age: child, Gender: female",
+          "text": "Pouvez-vous me passer le livre qui est sur l'étagère, s'il vous plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Age: child, Gender: female",
+          "text": "J'aimerais savoir quelle heure il est, si cela ne vous dérange pas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Age: child, Gender: female",
+          "text": "Est-ce que vous pourriez m'indiquer le chemin pour aller à la gare ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this with a low, husky voice.",
+          "text": "Le temps est assez imprévisible en cette saison, n'est-ce pas ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use a deep and slightly raspy voice.",
+          "text": "Je pense que le prochain bus arrivera dans environ dix minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your voice should be low-pitched and have a husky quality.",
+          "text": "La réunion est prévue pour demain matin à la première heure.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Emotion: happy, Speed: fast",
+          "text": "Juste pour vous informer, la livraison vient d'arriver au bureau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Emotion: happy, Speed: fast",
+          "text": "Attention tout le monde, le système sera mis à jour ce soir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Emotion: happy, Speed: fast",
+          "text": "Le train à destination de Lyon partira de la voie numéro cinq.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "personality": "confident",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Give this command in a loud, confident voice.",
+          "text": "Veuillez vous assurer que toutes les portes sont bien fermées avant de partir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Say this with a loud and assertive tone.",
+          "text": "Rassemblez tous les documents et placez-les sur mon bureau immédiatement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak loudly and with a sense of authority.",
+          "text": "Arrêtez tout ce que vous faites et écoutez attentivement les instructions.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Gender: male, Emotion: worried",
+          "text": "Tu es sûr que tu as bien éteint le four avant de partir ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Gender: male, Emotion: worried",
+          "text": "Je n'ai pas eu de ses nouvelles depuis hier soir, j'espère que tout va bien.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Gender: male, Emotion: worried",
+          "text": "Est-ce que tu as pensé à prendre les clés avec toi cette fois ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak as an elderly person with a complaining tone.",
+          "text": "De nos jours, le pain n'a plus le même goût qu'avant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use the voice of an older person who is grumbling about something.",
+          "text": "Ils ont encore changé l'horaire du bus sans prévenir personne.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Sound like an elderly person who is dissatisfied with the current situation.",
+          "text": "La musique que les jeunes écoutent est juste du bruit, ce n'est pas possible.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Age: elderly, Texture: soft",
+          "text": "On oublie parfois de regarder le ciel et de voir à quel point il est beau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Age: elderly, Texture: soft",
+          "text": "Le silence a sa propre mélodie pour ceux qui savent l'écouter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Age: elderly, Texture: soft",
+          "text": "Certaines choses changent, mais d'autres restent les mêmes au fond.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a man's voice that is high in pitch.",
+          "text": "La distance entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. The voice should be a high-pitched male voice.",
+          "text": "Le point d'ébullition de l'eau au niveau de la mer est de cent degrés Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak as a man with a higher-than-average vocal pitch.",
+          "text": "Le premier vol habité dans l'espace a eu lieu en mille neuf cent soixante et un.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0009",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Tone: pleading, Emotion: sad",
+          "text": "Donne-moi juste une autre chance de t'expliquer ce qui s'est passé.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Tone: pleading, Emotion: sad",
+          "text": "Est-ce que tu pourrais rester encore un petit moment avec moi ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Tone: pleading, Emotion: sad",
+          "text": "Essaie de comprendre ma situation, c'est tout ce que je demande.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "speed": "very_slow",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this very slowly and very quietly.",
+          "text": "Parfois, on ne voit les choses clairement qu'avec le temps.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your delivery should be extremely slow and hushed.",
+          "text": "Chaque choix que nous faisons nous mène sur un chemin différent.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak at a very slow pace and in a very low voice.",
+          "text": "Le souvenir d'un moment peut être plus puissant que le moment lui-même.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Pitch: high, Speed: very_fast",
+          "text": "Pour initialiser le système, vous devez d'abord entrer le mot de passe administrateur.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Pitch: high, Speed: very_fast",
+          "text": "L'algorithme trie les données en fonction du premier paramètre spécifié par l'utilisateur.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Pitch: high, Speed: very_fast",
+          "text": "Veuillez connecter le câble USB au port désigné avant de mettre l'appareil sous tension.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this with a deep, serious voice.",
+          "text": "Les conséquences du changement climatique affectent déjà des millions de personnes à travers le monde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a serious, deep voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use a deep and somber tone, like you're delivering important news.",
+          "text": "La préservation du patrimoine culturel est une responsabilité que nous partageons tous.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a serious, deep voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your voice should be deep and carry a sense of gravity and seriousness.",
+          "text": "L'équilibre des pouvoirs est un principe fondamental de toute démocratie moderne.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a serious, deep voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Texture: breathy, Gender: female",
+          "text": "Je pense que nous devrions peut-être reconsidérer notre approche initiale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Texture: breathy, Gender: female",
+          "text": "Est-ce que tu as vu les documents que j'ai laissés sur le bureau ce matin ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Texture: breathy, Gender: female",
+          "text": "Je ne suis pas sûre de comprendre ce que vous voulez dire par là.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0014",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Use a very low-pitched adult voice.",
+          "text": "Le rapport annuel sera disponible pour consultation à partir de lundi prochain.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a very low-pitched voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. As an adult, speak in an extremely low register.",
+          "text": "Le processus de vérification nécessite une signature de chaque département concerné.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a very low-pitched voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this line with an adult voice that has a very deep, low pitch.",
+          "text": "Toutes les transactions sont enregistrées dans le grand livre pour assurer la transparence.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a very low-pitched voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Personality: humorous, Tone: playful",
+          "text": "J'ai passé toute la matinée à chercher mes chaussettes de la même couleur.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Personality: humorous, Tone: playful",
+          "text": "Il semblerait que la machine à café ait décidé de prendre sa retraite aujourd'hui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Personality: humorous, Tone: playful",
+          "text": "J'ai découvert qu'il y a une bonne façon et une mauvaise façon de plier une serviette.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Shout this with an angry voice.",
+          "text": "Veuillez noter que le bureau fermera à dix-sept heures précises aujourd'hui.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for loud, angry delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this announcement in a very loud, furious tone.",
+          "text": "Rappel : la réunion du personnel est prévue pour demain matin à neuf heures.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for loud, angry delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your voice should be extremely loud and filled with anger.",
+          "text": "Tous les véhicules doivent être retirés du parking avant la fin de la journée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for loud, angry delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Gender: female, Personality: lively",
+          "text": "Tu pourrais me passer le sel, s'il te plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Gender: female, Personality: lively",
+          "text": "On pourrait peut-être aller au parc cet après-midi ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Gender: female, Personality: lively",
+          "text": "Est-ce que tu veux bien m'aider à porter ça ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. In a child's voice, say this slowly and thoughtfully.",
+          "text": "Je crois que les nuages se déplacent plus vite quand il y a du vent.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a slow-speaking child."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Sound like a child speaking carefully and slowly.",
+          "text": "Les fourmis marchent toujours en ligne, l'une derrière l'autre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a slow-speaking child."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Use a child's voice, speaking at a slow pace as if you are choosing your words.",
+          "text": "Les feuilles des arbres changent de couleur quand il fait plus froid.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a slow-speaking child."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "speed": "normal",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speed: normal, Personality: calm",
+          "text": "La distance moyenne entre la Terre et la Lune est d'environ trois cent quatre-vingt-quatre mille kilomètres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speed: normal, Personality: calm",
+          "text": "Le fleuve Amazone est le plus grand fleuve du monde par son débit.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speed: normal, Personality: calm",
+          "text": "Le corps humain adulte est composé d'environ soixante pour cent d'eau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "tone": "firm",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this in a firm tone, but at a normal volume.",
+          "text": "La politique de l'entreprise exige que toutes les dépenses soient approuvées au préalable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a firm tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use a normal speaking volume, but make your tone firm and confident.",
+          "text": "Ceci est la procédure standard à suivre en cas d'urgence.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a firm tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this explanation with a firm, decided tone at a regular volume.",
+          "text": "Les résultats doivent être soumis avant la date limite, sans exception.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a firm tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Texture: clear, Volume: quiet",
+          "text": "Je ne suis pas sûr d'avoir bien compris, pourriez-vous répéter s'il vous plaît ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Texture: clear, Volume: quiet",
+          "text": "Attends, je crois que j'ai laissé mon téléphone sur la table du café.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Texture: clear, Volume: quiet",
+          "text": "Chut, je crois que le bébé dort enfin, il ne faut pas le réveiller.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Say this in a pensive, deliberate way, using a normal pitch.",
+          "text": "La conséquence de cette décision n'était pas immédiatement apparente pour tout le monde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Adopt a thoughtful tone, as if carefully weighing your words, but keep your pitch natural.",
+          "text": "C'est une distinction subtile, mais elle est cruciale pour la suite du projet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver the line in a reflective manner with a standard vocal pitch.",
+          "text": "Il existe plusieurs façons d'interpréter ces résultats, selon la méthode utilisée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    }
+  ]
+}

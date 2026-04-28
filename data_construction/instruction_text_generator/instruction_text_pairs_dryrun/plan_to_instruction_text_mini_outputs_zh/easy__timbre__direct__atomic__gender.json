@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "zh",
+  "source_plan_file": "easy__timbre__direct__atomic__gender.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "请用男声来朗读这段文字。",
+      "text": "太阳系由太阳、八大行星及其卫星、矮行星、小行星、彗星和星际物质组成。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct request for a male voice. Text is a neutral factual statement."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用男声来朗读这段文字。",
+          "text": "太阳系由太阳、八大行星及其卫星、矮行星、小行星、彗星和星际物质组成。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a male voice. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个男性的声音来读这句话。",
+          "text": "光合作用是植物、藻类和某些细菌利用光能，将二氧化碳和水转化成储存能量的有机物，并释放出氧气的过程。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a male voice. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用男声读。",
+          "text": "哺乳动物的主要特征包括体表有毛、胎生、哺乳，以及心脏有四个腔室。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a male voice. Text is a neutral factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用女声读一下这句话，谢谢。",
+          "text": "今天天气真不错，很适合出去散步。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a conversational request for a female voice. Text is a casual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "找个女声来念吧。",
+          "text": "这家新开的咖啡店味道还挺好的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a conversational request for a female voice. Text is a casual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一个女性的声音读出来。",
+          "text": "我好像把钥匙忘在桌子上了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a conversational request for a female voice. Text is a casual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一个男人的声音读。",
+          "text": "请问，洗手间在哪个方向？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids 'male' and uses 'man'. Text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "让一位先生来念这段话。",
+          "text": "你好，可以借用一下你的笔吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids 'male' and uses 'gentleman'. Text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想听一个男士的声音。",
+          "text": "麻烦你，能帮我拿一下那个杯子吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids 'male' and uses 'man/gentleman'. Text is a simple request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "这段通知需要一个女人的声音来念。",
+          "text": "各位乘客请注意，下一站是中央公园，请下车的乘客提前做好准备。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a woman's voice. Text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一位女士的声音来播报。",
+          "text": "温馨提示：图书馆内请保持安静，并将手机调至静音或振动模式。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a lady's voice. Text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "让一个女性来读这个广播。",
+          "text": "因天气原因，原定于今天下午三点的户外活动取消，敬请谅解。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a female voice. Text is a neutral announcement."
+          }
+        }
+      ]
+    }
+  ]
+}

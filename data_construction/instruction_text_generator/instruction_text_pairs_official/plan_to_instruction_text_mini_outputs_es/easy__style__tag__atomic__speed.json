@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/speed",
+  "language": "es",
+  "source_plan_file": "easy__style__tag__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Speed: Very_fast",
+      "text": "La cordillera de los Andes se extiende a lo largo de siete países de América del Sur, siendo la cadena montañosa más larga del mundo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Speed: Fast",
+      "text": "El próximo tren con destino a la capital saldrá del andén número tres.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Speed: Slow",
+      "text": "Para resolver la ecuación, primero debes aislar la variable desconocida en un lado del signo de igualdad.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Speed: Very_slow",
+      "text": "El menú del comedor para hoy incluye sopa de verduras, pollo asado con patatas y una pieza de fruta de postre.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Speed: Very_fast",
+          "text": "La cordillera de los Andes se extiende a lo largo de siete países de América del Sur, siendo la cadena montañosa más larga del mundo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Speed: Very_fast",
+          "text": "El agua está compuesta por dos átomos de hidrógeno y un átomo de oxígeno, y su punto de ebullición a nivel del mar es de cien grados Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Speed: Very_fast",
+          "text": "La invención de la imprenta por Johannes Gutenberg en el siglo quince revolucionó la forma en que la información se difundía por toda Europa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Speed: Fast",
+          "text": "Les recordamos que la biblioteca cerrará en quince minutos.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Speed: Fast",
+          "text": "El próximo tren con destino a la capital saldrá del andén número tres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Speed: Fast",
+          "text": "Se informa a todos los pasajeros que el embarque ha comenzado en la puerta siete.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Speed: Slow",
+          "text": "El proceso de fotosíntesis es fundamental para las plantas, ya que les permite convertir la luz solar en energía química.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Speed: Slow",
+          "text": "La estructura de gobierno del país se divide en tres poderes independientes: el ejecutivo, el legislativo y el judicial.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Speed: Slow",
+          "text": "Para resolver la ecuación, primero debes aislar la variable desconocida en un lado del signo de igualdad.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Speed: Very_slow",
+          "text": "El menú del comedor para hoy incluye sopa de verduras, pollo asado con patatas y una pieza de fruta de postre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Speed: Very_slow",
+          "text": "Les informamos que la reunión semanal del equipo se ha reprogramado para mañana a las diez de la mañana en la sala de conferencias.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Speed: Very_slow",
+          "text": "Se recuerda a todos los empleados que deben completar el formulario de actualización de datos personales antes del final de esta semana.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

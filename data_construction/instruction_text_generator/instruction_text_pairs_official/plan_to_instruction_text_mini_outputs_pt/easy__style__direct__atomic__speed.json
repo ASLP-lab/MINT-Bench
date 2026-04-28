@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/speed",
+  "language": "pt",
+  "source_plan_file": "easy__style__direct__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Read the text with maximum urgency and speed, getting through it as fast as you can.",
+      "text": "A reunião foi remarcada para as três da tarde na sala de conferências principal, por favor tomem nota.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Read this at a quick pace, like the fine print in a commercial.",
+      "text": "O estudo concluiu que a exposição prolongada a estes elementos pode ter efeitos adversos na saúde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Read the sentence with a measured, unhurried pace, as if you're explaining something important.",
+      "text": "O processo de fotossíntese converte a luz solar em energia química para alimentar a planta.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say this extremely slowly and carefully, making sure every single word is heard and understood.",
+      "text": "Poderia, por favor, repetir o seu nome e número de telefone para mim?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this as quickly as you possibly can, like you're rushing to get the words out.",
+          "text": "Atenção a todos os passageiros, o embarque final para o voo trezentos e quarenta e dois começará em breve no portão sete.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver the line at an extremely high speed, as if you have no time to spare.",
+          "text": "O evento foi cancelado devido a circunstâncias imprevistas; pedimos desculpa por qualquer inconveniente causado.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Read the text with maximum urgency and speed, getting through it as fast as you can.",
+          "text": "A reunião foi remarcada para as três da tarde na sala de conferências principal, por favor tomem nota.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read this at a quick pace, like the fine print in a commercial.",
+          "text": "O estudo concluiu que a exposição prolongada a estes elementos pode ter efeitos adversos na saúde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver this with a rapid, energetic pace, faster than a typical conversational speed.",
+          "text": "A população da cidade aumentou dez por cento na última década, segundo os dados do censo mais recente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Say the sentence quickly, like an auctioneer calling out information.",
+          "text": "O sistema solar é composto por oito planetas que orbitam uma estrela central, o Sol.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Read the sentence with a measured, unhurried pace, as if you're explaining something important.",
+          "text": "O processo de fotossíntese converte a luz solar em energia química para alimentar a planta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Take your time with this line, speaking deliberately to ensure the listener understands every word.",
+          "text": "A gravidade é a força que atrai dois corpos um para o outro, dependendo das suas massas e da distância entre eles.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Deliver this at a relaxed and drawn-out pace, making sure each concept is clear.",
+          "text": "Para resolver a equação, primeiro é necessário isolar a variável de um lado do sinal de igual.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Say this extremely slowly and carefully, making sure every single word is heard and understood.",
+          "text": "Poderia, por favor, repetir o seu nome e número de telefone para mim?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Read the text at a crawl, articulating each word with precision.",
+          "text": "Preciso que me confirme o endereço de entrega antes de finalizarmos o pedido.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Use a very drawn-out and careful pace, as if speaking to someone who has trouble understanding.",
+          "text": "Por favor, soletre o apelido para que eu possa anotá-lo corretamente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

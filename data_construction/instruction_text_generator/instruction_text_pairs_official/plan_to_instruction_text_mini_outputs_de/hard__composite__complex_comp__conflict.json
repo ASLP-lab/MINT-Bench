@@ -1,0 +1,665 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "de",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Say this in a happy, cheerful voice, but with a deeply sarcastic tone underneath.",
+      "text": "Oh, das ist ja eine wundervolle Überraschung. Ich bin wirklich begeistert.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. The speaker is a little boy, but his voice is much deeper than you'd expect. He's speaking with a firm and resolute tone.",
+      "text": "Hör jetzt genau zu. Wir müssen diesen Plan exakt befolgen, sonst funktioniert es nicht.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "texture": "deep",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. I want you to shout this line with a lot of anger and force in your voice.",
+      "text": "Es tut mir wirklich leid! Ich habe nicht nachgedacht, bitte verzeih mir.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "very_loud",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. The speaker is an elderly woman who is naturally gentle, but she's trying her best to sound defiant and firm.",
+      "text": "Nein, das werde ich nicht tun. Meine Entscheidung steht fest.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "personality": "gentle",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Your pace should be very fast, rushing through the sentence, but your tone should betray hesitation and a lack of confidence.",
+      "text": "Ich weiß nicht, wie ich das sagen soll, also sage ich es einfach schnell: Ich habe gelogen, als ich sagte, ich hätte die Prüfung bestanden, und es tut mir wirklich leid.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_fast",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. The speaker is a normally cheerful person, but they're quietly complaining to themselves. The volume should be low, like they're muttering.",
+      "text": "Schon wieder hat jemand die Kaffeemaschine nicht sauber gemacht. Das ist doch nicht zu fassen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "tone": "complaining",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Say this factual statement with a pleading, begging tone in your voice, as if your life depended on it.",
+      "text": "Die Hauptstadt von Frankreich ist Paris. Die Bevölkerung beträgt etwa 2,1 Millionen Einwohner.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Your voice should project confidence, but the delivery should be stilted and awkward because you're explaining something embarrassing.",
+      "text": "In Bezug auf die... finanziellen Unstimmigkeiten... scheint es, als ob einige Ausgaben, sagen wir mal, nicht ganz den Richtlinien entsprachen. Das ist eine etwas heikle Angelegenheit.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. The performance requires a layered emotion: a playful tone on the surface, meant to calm a child, but with an undercurrent of real fear.",
+      "text": "Siehst du, der Hund bellt nur, weil er mit uns spielen will. Er ist gar nicht böse, wirklich nicht.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. I want to hear an adult man's voice that is surprisingly high in pitch. His tone should be smug and boastful.",
+      "text": "Während ihr noch überlegt habt, habe ich die Lösung schon längst gefunden. War ja auch nicht besonders schwer.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this in a happy, cheerful voice, but with a deeply sarcastic tone underneath.",
+          "text": "Oh, das ist ja eine wundervolle Überraschung. Ich bin wirklich begeistert.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your voice should sound bright and happy, but the sarcasm in your tone should be unmistakable.",
+          "text": "Dein neuer Haarschnitt ist absolut fantastisch. Besser hätte es nicht werden können.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver the line with a forced, overly-enthusiastic happiness that drips with sarcasm.",
+          "text": "Ich freue mich so sehr für dich. Du hast das wirklich verdient.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "texture": "deep",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. I want to hear a young boy's voice, but it should be surprisingly deep. He's giving a very firm, serious instruction.",
+          "text": "Lass das sofort liegen. Du weißt genau, dass du das nicht anfassen darfst.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. The speaker is a little boy, but his voice is much deeper than you'd expect. He's speaking with a firm and resolute tone.",
+          "text": "Hör jetzt genau zu. Wir müssen diesen Plan exakt befolgen, sonst funktioniert es nicht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Imagine a child, a boy, with an unexpectedly deep voice. He's speaking very seriously and firmly.",
+          "text": "Das ist keine Bitte, das ist ein Befehl. Du wirst jetzt genau das tun, was ich gesagt habe.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "very_loud",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. I want you to shout this line with a lot of anger and force in your voice.",
+          "text": "Es tut mir wirklich leid! Ich habe nicht nachgedacht, bitte verzeih mir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line by yelling it, as if you're furious, but the words themselves are an apology.",
+          "text": "Ich wollte das wirklich nicht! Bitte glaub mir, es war ein Fehler!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Speak at a very high volume, full of rage, like you're shouting at someone.",
+          "text": "Ich übernehme die volle Verantwortung! Verstehst du? Es tut mir aufrichtig leid!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "personality": "gentle",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. The speaker is an elderly woman who is naturally gentle, but she's trying her best to sound defiant and firm.",
+          "text": "Nein, das werde ich nicht tun. Meine Entscheidung steht fest.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I need the voice of an old woman. Her base personality is kind and gentle, but in this line, she is attempting a tone of defiance.",
+          "text": "Ich bin anderer Meinung und dabei bleibe ich auch. Du kannst mich nicht überzeugen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Perform as an elderly lady with a soft-spoken nature, who is now pushing herself to speak with defiance.",
+          "text": "Das magst du so sehen, aber ich sehe das anders. Und ich werde nicht nachgeben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_fast",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this very quickly, like you're trying to get the words out as fast as possible, but at the same time, your tone should be hesitant and uncertain.",
+          "text": "Okay, also, ich muss dir was sagen und es ist mir wirklich unangenehm, aber ich glaube, ich war derjenige, der aus Versehen dein Lieblingsbuch ruiniert hat, es war ein Unfall.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your pace should be very fast, rushing through the sentence, but your tone should betray hesitation and a lack of confidence.",
+          "text": "Ich weiß nicht, wie ich das sagen soll, also sage ich es einfach schnell: Ich habe gelogen, als ich sagte, ich hätte die Prüfung bestanden, und es tut mir wirklich leid.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The delivery should be a rushed, rapid-fire speech, yet punctuated by a sense of hesitation and doubt in the voice.",
+          "text": "Hör zu, ich wollte das schon lange erzählen, aber ich hatte Angst, also hier ist es: Ich habe das Geld nicht verloren, ich habe es ausgegeben, und ich verspreche, ich zahle es zurück.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "tone": "complaining",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. The speaker is a normally cheerful person, but they're quietly complaining to themselves. The volume should be low, like they're muttering.",
+          "text": "Schon wieder hat jemand die Kaffeemaschine nicht sauber gemacht. Das ist doch nicht zu fassen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Imagine a bubbly, happy person who is quietly grumbling about something. Their cheerful nature is still there, but it's overshadowed by a quiet, complaining tone.",
+          "text": "Warum muss der Bus ausgerechnet heute zu spät kommen? Ich habe es doch so eilig.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this line in a low volume, as if complaining under your breath. The underlying personality is cheerful, which makes the complaining tone stand out.",
+          "text": "Oh Mann, mein Computer ist schon wieder abgestürzt. Ich verliere noch den Verstand mit dieser Technik.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this factual statement with a pleading, begging tone in your voice, as if your life depended on it.",
+          "text": "Die Hauptstadt von Frankreich ist Paris. Die Bevölkerung beträgt etwa 2,1 Millionen Einwohner.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Even though the text is just a neutral fact, deliver it with a desperate, pleading quality.",
+          "text": "Wasser besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom. Der Gefrierpunkt liegt bei null Grad Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Read this sentence as if you are begging someone for something very important.",
+          "text": "Der Bericht muss bis spätestens Freitag um 17 Uhr eingereicht werden. Es sind keine Verlängerungen möglich.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "confident",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. The speaker is normally a very confident person, but the subject matter is making them feel incredibly awkward, and it comes through in their tone.",
+          "text": "Also, äh, es ist wichtig, dass wir über persönliche Hygiene sprechen. Manchmal, nun ja, können Gerüche entstehen, und es gibt da... äh... bestimmte Produkte, die helfen können.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your voice should project confidence, but the delivery should be stilted and awkward because you're explaining something embarrassing.",
+          "text": "In Bezug auf die... finanziellen Unstimmigkeiten... scheint es, als ob einige Ausgaben, sagen wir mal, nicht ganz den Richtlinien entsprachen. Das ist eine etwas heikle Angelegenheit.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Perform as a self-assured individual who has to explain something that clearly makes them uncomfortable, resulting in an awkward tone.",
+          "text": "Es geht um das... nun ja, das Feedback zum Team-Event. Anscheinend gab es einige... Zwischenfälle mit dem Karaoke, die wir jetzt... ansprechen müssen. Es ist ein bisschen peinlich.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "fearful",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Try to sound playful and reassuring, as if talking to a child, but let a hint of genuine fear show through in your voice.",
+          "text": "Hörst du das Gewitter? Das sind nur die Wolken, die Purzelbäume schlagen. Alles ist gut, wir sind hier sicher.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your tone should be light and playful, but underneath, there's an undeniable tremor of fear.",
+          "text": "Keine Sorge, das ist nur ein kleiner Stromausfall. Lass uns ein Spiel spielen, bis das Licht wieder angeht, ja?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The performance requires a layered emotion: a playful tone on the surface, meant to calm a child, but with an undercurrent of real fear.",
+          "text": "Siehst du, der Hund bellt nur, weil er mit uns spielen will. Er ist gar nicht böse, wirklich nicht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. The speaker is an adult male with a very high-pitched voice. He is speaking with a smug, self-satisfied tone.",
+          "text": "Natürlich habe ich die Beförderung bekommen. Es war ja klar, dass niemand sonst dafür in Frage kam.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I want to hear an adult man's voice that is surprisingly high in pitch. His tone should be smug and boastful.",
+          "text": "Während ihr noch überlegt habt, habe ich die Lösung schon längst gefunden. War ja auch nicht besonders schwer.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Perform as a grown man with an uncommonly high voice, delivering this line with a great deal of smugness.",
+          "text": "Mein neuer Sportwagen? Ja, er ist ziemlich schnell. Wahrscheinlich schneller als alles, was du je fahren wirst.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/pitch",
+  "language": "en",
+  "source_plan_file": "easy__timbre__direct__atomic__pitch.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak this sentence using the highest part of your vocal range.",
+      "text": "According to the latest report, the population has increased by three percent this year.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard atomic instruction."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in a very high vocal register.",
+          "text": "The main components of the new system will be installed over the weekend.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want you to use an extremely high voice for this line.",
+          "text": "Geothermal energy is a renewable resource that harnesses heat from within the earth.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak this sentence using the highest part of your vocal range.",
+          "text": "According to the latest report, the population has increased by three percent this year.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Could you try reading this in a higher register?",
+          "text": "Would you mind closing the door?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "For this one, can you make your voice a bit higher than usual?",
+          "text": "Can you please send me the file?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Let's try this with a lighter, higher tone.",
+          "text": "Please remind me to call them later.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Alright, for this take, please use a lower tone of voice.",
+          "text": "I've been thinking about what you said earlier, and it makes a lot of sense.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Let's drop your vocal register a bit for this sentence.",
+          "text": "It's strange to look back on those days and see how much has changed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line with a low vocal pitch.",
+          "text": "You never really know what's going to happen next, do you?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I need you to say this with a very deep voice.",
+          "text": "The software automatically backs up all the data to a remote server every hour.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak this line from the very bottom of your vocal range.",
+          "text": "This particular model is known for its durability and long-lasting battery life.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Give me a really low, resonant vocal tone for this one.",
+          "text": "The foundation of the building is reinforced with steel to ensure its stability.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

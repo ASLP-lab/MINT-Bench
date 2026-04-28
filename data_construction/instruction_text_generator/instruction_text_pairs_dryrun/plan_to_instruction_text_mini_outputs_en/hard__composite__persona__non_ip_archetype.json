@@ -1,0 +1,427 @@
+{
+  "taxonomy_node": "hard/composite/persona/non_ip_archetype",
+  "language": "en",
+  "source_plan_file": "hard__composite__persona__non_ip_archetype.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as a young woman of noble birth, with a gentle and refined voice, like a character from a classic story.",
+      "text": "It's strange how a single kind word can change the course of an entire day, for oneself and for others.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0001",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "princess"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0001",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "princess"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a young woman of noble birth, with a gentle and refined voice, like a character from a classic story.",
+          "text": "It's strange how a single kind word can change the course of an entire day, for oneself and for others.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Could you read this in the voice of a gentle, well-spoken young lady of high standing? She should sound graceful and sincere.",
+          "text": "I often wonder if the path we choose is the one that truly makes us happy, or just the one we feel we ought to take.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a character from a fairytale: a very kind and noble young woman with a soft, melodic voice.",
+          "text": "Sometimes, the simplest things, like the warmth of the sun or the song of a bird, hold the greatest beauty.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0002",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "wizard"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as an ancient, wise man who has seen the rise and fall of ages. His voice should be deep, resonant, and carry immense authority.",
+          "text": "The patterns of the universe reveal themselves not to those who look, but to those who learn to see.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the voice of a profoundly old and powerful sage. He speaks slowly, with the weight of centuries in his tone.",
+          "text": "Time is a river, and most people are content to float on its surface. Few ever learn to dive into its depths.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want you to sound like an old hermit with ancient knowledge. Your voice should be powerful yet measured, as if every word is carefully chosen.",
+          "text": "Cause and effect are but two ends of the same thread, and tugging one inevitably moves the other, no matter the distance between them.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0003",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "knight"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a formal, stoic voice, like a dedicated protector giving a report. The tone should be honorable and unwavering.",
+          "text": "The eastern perimeter is secure. The shipment arrived at dawn without incident, and all goods have been accounted for.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a loyal guardian. His voice is firm, clear, and disciplined, showing a strong sense of duty.",
+          "text": "I have completed the survey of the northern pass. The route remains clear, and the watch has been set for the night.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak with the resolute and formal tone of a sworn shield, someone whose every word is a testament to their loyalty and honor.",
+          "text": "The delegation has been escorted to the chambers as requested. They await your presence. All protocols were observed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0004",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "vampire_noble"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as an old, cultured aristocrat with a hypnotic, sophisticated charm. His voice should hint at a perspective that spans centuries, carrying a subtle, dark allure.",
+          "text": "This artist captures the fleeting nature of human emotion so perfectly. It's a passion I've seen play out in a thousand different ways across the ages, yet it always feels new to them. How quaint.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a timeless nobleman with a dark, captivating voice. He should sound elegant, worldly, and perhaps a little dangerous.",
+          "text": "The brushwork is bold, certainly, but lacks the true understanding of shadow. Real shadow is not merely the absence of light; it has depth, a texture, a life of its own that these modern painters seem to have forgotten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Perform this line as an ancient being of noble lineage, speaking with a smooth, alluring tone. There's a sense of immense history and weary sophistication in his voice.",
+          "text": "They call this 'impressionism,' a style capturing a single moment. I find it amusing. I have seen so many such moments flicker and die, like candles in the wind. This painting will outlast its creator, just as so many things do.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0005",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "ghost"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a whispery, ethereal voice, full of sorrow. The character is a lost soul, forever echoing a past memory.",
+          "text": "The door was open... I remember the scent of rain on the stone path... and then... nothing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a sorrowful, lingering presence. The voice should be light, airy, and filled with a sense of loss.",
+          "text": "I was waiting by the window. The trees were just beginning to turn color... Was it autumn already?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Please read this with a sad, wispy tone. Imagine a voice that is barely there, like a faint memory you can't quite grasp.",
+          "text": "Someone was singing a lullaby, a melody I almost knew. It drifted from the room at the top of the stairs.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0006",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "elf"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a graceful, melodic voice, as if you are an ancient being with a deep connection to the natural world.",
+          "text": "The oldest trees in this forest remember the stars as they looked a thousand years ago. If you listen closely, you can still hear their stories in the rustling of the leaves.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a wise, ageless forest-dweller. The voice should be elegant, serene, and carry a hint of ancient knowledge.",
+          "text": "Sunlight filters through the canopy in patterns that shift with the seasons, each one a silent word in a language older than any spoken tongue.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a light, clear, and musical tone, like a character who is as old as the hills and speaks with the wisdom of the earth itself.",
+          "text": "The river sings the same song it has always sung, a melody of stone and water that tells of the mountains' slow journey to the sea.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0007",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "queen"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a powerful and regal head of state addressing her subjects. Her voice should be clear, authoritative, and full of grace.",
+          "text": "It is with great pleasure that I announce the dedication of the new Grand Centennial Park. Let this place be a testament to our community's enduring spirit and a sanctuary of peace for generations to come.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a sovereign leader making a formal proclamation. The tone is commanding yet benevolent, with natural, noble poise.",
+          "text": "By official decree, the annual harvest festival will henceforth be recognized as a national holiday. Let this be a time for celebration, for family, and for giving thanks for the prosperity of our lands and people.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this in the voice of a matriarchal ruler speaking to her nation. She is firm, graceful, and her authority is unquestioned.",
+          "text": "Today, we break ground on the new public library and archive. This institution will stand as a beacon of knowledge, preserving our shared history and lighting the way for the future of all our children.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0008",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "witch"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a mysterious hermit who lives on the edge of town. Her voice is cunning and a little raspy, and she speaks in riddles.",
+          "text": "The path you seek is found not by looking forward, but by understanding where your shadow falls behind you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a reclusive old woman known for her strange wisdom. Her tone is sharp, knowing, and slightly unsettling.",
+          "text": "Be wary of a quiet dog and still water. What you cannot see beneath the surface is what will pull you under.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this in the voice of a mysterious outcast who knows more than she lets on. Her delivery is cryptic and has a sharp, intelligent edge.",
+          "text": "You bring me a broken cup and ask for water. The flaw is not in the well, my dear, but in the vessel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_non_ip_archetype__0009",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "undead_spirit"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a chilling, hollow voice, like a tormented being from beyond the grave. The tone should be menacing and unsettling.",
+          "text": "There are doors that, once opened, can never be closed again. You are standing before one now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a restless, malevolent entity. The voice is a low, raspy whisper that seems to echo from a great, empty space.",
+          "text": "This place remembers. It holds every whisper, every shadow. And it does not forgive those who trespass.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a cold, hollow tone, filled with ancient malice. It's the voice of something that has been trapped for a very long time and is hungry for release.",
+          "text": "You think you are alone here. You are not. You have never been. We are the silence between your heartbeats.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

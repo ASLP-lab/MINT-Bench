@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/texture",
+  "language": "ko",
+  "source_plan_file": "easy__timbre__direct__atomic__texture.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a voice that is low-pitched and has a full, sonorous quality.",
+      "text": "아마존 열대우림은 지구상에서 가장 넓은 열대우림으로, 다양한 생물종의 서식지입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a low, resonant voice without using the target word. Text is a factual statement about geography."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a soft, airy voice, almost like you're whispering.",
+      "text": "저 멀리 보이는 산의 능선이 구름과 맞닿아 있는 모습이 정말 아름답다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for an airy, soft voice without using the target word. Text is a personal reflection on a landscape."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I want a voice that is a bit rough and raspy.",
+      "text": "이제 슬슬 저녁 준비를 해야겠다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a rough, raspy voice without using the target word. Text is a simple observation."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Use a clear, lively voice with a higher pitch.",
+      "text": "이번 주 토요일, 저희 동네 공원에서 열리는 연례 바자회에 주민 여러분을 초대합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a clear, high-pitched voice without using the target word. Text is a public announcement."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a very precise and easy-to-understand voice.",
+      "text": "전원 버튼을 3초간 길게 누르면 기기가 재부팅됩니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for an intelligible, well-articulated voice without using the target word. Text is an explanation."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. I want a voice that has a pronounced twang, as if you have a cold.",
+      "text": "혹시 저 펜 좀 잠시 빌릴 수 있을까요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a voice resonating in the nose without using the target word. Text is a short request."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a soft, gentle, and melodious voice.",
+      "text": "저희 도서관은 매주 월요일과 공휴일에 휴관하오니 이용에 참고하시기 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a soft, melodious voice without using the target word. Text is a neutral notice."
+      },
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Use a voice that is low-pitched and has a full, sonorous quality.",
+          "text": "아마존 열대우림은 지구상에서 가장 넓은 열대우림으로, 다양한 생물종의 서식지입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a low, resonant voice without using the target word. Text is a factual statement about geography."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I want a voice with a low, resonant tone that fills the space.",
+          "text": "고대 로마는 공화정에서 제정으로 전환되면서 역사에 큰 획을 그었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a low, resonant voice without using the target word. Text is a factual statement about history."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Make the voice sound low and full-bodied, with a noticeable resonance.",
+          "text": "조선 왕조는 500년 이상 한반도를 통치하며 독자적인 문화를 발전시켰습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a low, resonant voice without using the target word. Text is a factual statement about history."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a soft, airy voice, almost like you're whispering.",
+          "text": "저 멀리 보이는 산의 능선이 구름과 맞닿아 있는 모습이 정말 아름답다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an airy, soft voice without using the target word. Text is a personal reflection on a landscape."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I want a voice that sounds very gentle and has a lot of air in it.",
+          "text": "해질녘 노을이 바다를 붉게 물들이는 풍경은 언제 봐도 마음이 평온해진다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an airy, gentle voice without using the target word. Text is a personal reflection on a landscape."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Use a hushed, intimate tone with a noticeable whispery quality.",
+          "text": "고요한 호숫가에 앉아 있으니 바람 소리 외에는 아무것도 들리지 않는구나.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a hushed, whispery voice without using the target word. Text is a personal reflection on a landscape."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Use a slightly gravelly, low-pitched voice.",
+          "text": "벌써 시간이 이렇게 됐네.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a rough, low voice without using the target word. Text is a simple observation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I want a voice that is a bit rough and raspy.",
+          "text": "이제 슬슬 저녁 준비를 해야겠다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a rough, raspy voice without using the target word. Text is a simple observation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Make the voice sound a little hoarse and low.",
+          "text": "어느새 해가 지고 있네.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a hoarse, low voice without using the target word. Text is a simple observation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Use a clear, lively voice with a higher pitch.",
+          "text": "이번 주 토요일, 저희 동네 공원에서 열리는 연례 바자회에 주민 여러분을 초대합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a clear, high-pitched voice without using the target word. Text is a public announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I want a voice that sounds upbeat and high-pitched.",
+          "text": "다음 달부터 주민 센터에서 새로운 컴퓨터 강좌가 개설되니 많은 참여 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an upbeat, high-pitched voice without using the target word. Text is a public announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Make the voice sound very energetic and clear, with a higher tone.",
+          "text": "어린이날을 맞이하여 도서관에서 특별 동화 구연 행사를 진행할 예정입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an energetic, clear, high-pitched voice without using the target word. Text is a public announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a very precise and easy-to-understand voice.",
+          "text": "전원 버튼을 3초간 길게 누르면 기기가 재부팅됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an intelligible, well-articulated voice without using the target word. Text is an explanation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a perfectly articulated voice, making sure every word is distinct.",
+          "text": "리모컨의 설정 메뉴로 이동하여 와이파이 네트워크를 선택하세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an intelligible, well-articulated voice without using the target word. Text is an explanation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. I want a voice that is sharp and intelligible, without any roughness.",
+          "text": "먼저 제품 뒷면에 있는 배터리 덮개를 열고 건전지를 교체해 주십시오.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an intelligible, well-articulated voice without using the target word. Text is an explanation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0006",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Make the voice sound like it's coming through the nose.",
+          "text": "저기, 소금 좀 건네주시겠어요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a voice resonating in the nose without using the target word. Text is a short request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a voice with a strong resonance in the nose.",
+          "text": "실례지만, 그 책 좀 이쪽으로 주세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a voice resonating in the nose without using the target word. Text is a short request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. I want a voice that has a pronounced twang, as if you have a cold.",
+          "text": "혹시 저 펜 좀 잠시 빌릴 수 있을까요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a voice resonating in the nose without using the target word. Text is a short request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a soft, gentle, and melodious voice.",
+          "text": "저희 도서관은 매주 월요일과 공휴일에 휴관하오니 이용에 참고하시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a soft, melodious voice without using the target word. Text is a neutral notice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a very kind and musical voice.",
+          "text": "도서관 자료실은 오전 9시부터 오후 6시까지 운영됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a kind, musical voice without using the target word. Text is a neutral notice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. I want a pleasant, soft-spoken voice with a musical quality.",
+          "text": "도서 반납일이 지난 경우, 연체 일수만큼 대출이 정지될 수 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a soft, musical voice without using the target word. Text is a neutral notice."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "ru",
+  "source_plan_file": "easy__timbre__direct__atomic__gender.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Use a male voice.",
+      "text": "Первый искусственный спутник Земли, Спутник-1, был запущен Советским Союзом четвёртого октября тысяча девятьсот пятьдесят седьмого года.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Use a female voice for this.",
+      "text": "Уважаемые пассажиры, поезд отправляется через две минуты.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Say this as a man.",
+      "text": "Простите, не подскажете, который час?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. A woman is speaking.",
+      "text": "Помидоры любят много солнца и регулярный полив, но не терпят застоя воды у корней.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated as per plan."
+      },
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a male voice.",
+          "text": "Первый искусственный спутник Земли, Спутник-1, был запущен Советским Союзом четвёртого октября тысяча девятьсот пятьдесят седьмого года.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. I want to hear this in a man's voice.",
+          "text": "В 1812 году армия Наполеона вторглась в Россию, что стало началом Отечественной войны, закончившейся поражением французских войск.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Please generate this with a male speaker.",
+          "text": "Скорость света в вакууме является фундаментальной физической константой, равной приблизительно двумстам девяноста девяти тысячам семистам девяноста двум километрам в секунду.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a female voice for this.",
+          "text": "Уважаемые пассажиры, поезд отправляется через две минуты.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. I'd like to hear a woman say this.",
+          "text": "Внимание, наш магазин закрывается через десять минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Please render this with a female speaker.",
+          "text": "По техническим причинам касса временно не работает.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this as a man.",
+          "text": "Простите, не подскажете, который час?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. A man is asking this question.",
+          "text": "Можно, пожалуйста, один билет до центра?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Can you generate this with a man's voice?",
+          "text": "Вы не знаете, где здесь ближайшая аптека?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this as a woman explaining something.",
+          "text": "Чтобы тесто для блинов получилось без комочков, муку следует просеивать и добавлять в жидкость постепенно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. A woman is speaking.",
+          "text": "Помидоры любят много солнца и регулярный полив, но не терпят застоя воды у корней.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. I want to hear this in a female voice.",
+          "text": "Для посадки роз лучше всего выбирать хорошо освещенное место, защищенное от сильных ветров.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated as per plan."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/non_ip_archetype",
+  "language": "ko",
+  "source_plan_file": "hard__composite__persona__non_ip_archetype.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Embody the persona of a fairytale princess. Use a sweet, gentle, and graceful voice with a youthful quality.",
+      "text": "혹시 무슨 힘든 일이라도 있으세요? 제가 도울 수 있는 일이 있다면 좋겠어요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0001",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "princess"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Embody the persona of a commanding queen. Use a mature, composed, and authoritative tone for your delivery.",
+      "text": "긴 논의 끝에, 우리는 공동의 미래를 위해 이 길을 선택하기로 결정했습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0002",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "queen"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Your voice should be that of an ancient, sorrowful spirit. Make it sound ethereal and hollow, perhaps a little whispery.",
+      "text": "그림자가 길어지면, 돌아올 수 없는 길을 가게 될 거예요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0003",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "undead_spirit"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Embody the character of a very old and wise wizard. Speak in a thoughtful, deep, and resonant tone, as if teaching a valuable lesson.",
+      "text": "바람이 산을 깎고 물이 바위를 뚫는 것을 보아라. 세상의 가장 강력한 힘은 종종 가장 끈기 있고 조용한 것들 속에 숨어 있단다. 시간의 흐름을 이해하는 자는 그 힘의 일부를 다룰 수 있게 되지.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0004",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "wizard"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Sound like a reclusive witch from the woods. Your voice should be raspy and gravelly, with a hint of dark amusement.",
+      "text": "사람들은 언제나 자기들이 이해하지 못하는 걸 두려워하지. 그리고 그걸 파괴하려고 안달을 낸다니까.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0005",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "witch"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Embody the persona of an honorable knight. Use a clear, firm voice that conveys resolve and loyalty.",
+      "text": "어젯밤, 마을의 식량 창고에서 화재가 발생했습니다. 원인은 아직 조사 중입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0006",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "knight"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Your character is an ancient elf reflecting on nature. Your delivery should be smooth, musical, and have a sense of ageless wisdom.",
+      "text": "여름의 태양은 뜨겁게 타오르다 결국 서쪽으로 기울고, 그 자리는 서늘한 달빛이 채웁니다. 모든 것에는 때가 있고, 자연의 이치는 변함이 없어 수천 년이 지나도 그대로입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0007",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "elf"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Embody a noble vampire persona. Your voice should be smooth and seductive, but also carry a clear sense of danger and command.",
+      "text": "이번 주말에 특별한 손님들을 위한 자리를 마련했습니다. 당신이 꼭 와주셔야겠습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0008",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "vampire_noble"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Your persona is a serene and devout high priestess. Your voice should be calm, gentle, yet firm, inspiring a sense of peace.",
+      "text": "마음의 짐을 내려놓으세요. 당신의 길은 이미 정해져 있으니, 그저 믿음을 갖고 나아가면 됩니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard persona realization."
+      },
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0009",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "priestess"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0001",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "princess"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I want you to sound like a classic fairytale princess. Your voice should be graceful, gentle, and youthful.",
+          "text": "별일 없으신가요? 요즘 얼굴이 많이 안 좋아 보여서 걱정이 되었어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Embody the persona of a fairytale princess. Use a sweet, gentle, and graceful voice with a youthful quality.",
+          "text": "혹시 무슨 힘든 일이라도 있으세요? 제가 도울 수 있는 일이 있다면 좋겠어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Please speak as a classic princess from a storybook. Your delivery should be soft, kind, and have a very graceful, young sound.",
+          "text": "잠시 여기 와서 좀 쉬세요. 따뜻한 차라도 한 잔 드릴까요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0002",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "queen"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I want you to sound like a powerful and regal queen. Your voice should be authoritative, mature, and perfectly composed.",
+          "text": "오늘부터 우리는 새로운 지침을 따를 것입니다. 모두의 협조를 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Embody the persona of a commanding queen. Use a mature, composed, and authoritative tone for your delivery.",
+          "text": "긴 논의 끝에, 우리는 공동의 미래를 위해 이 길을 선택하기로 결정했습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Please speak as a regal and powerful queen. Your voice should carry weight and authority, remaining calm and mature throughout.",
+          "text": "이 결정은 우리 모두에게 영향을 미칠 중대한 사안임을 명심해 주십시오.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0003",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "undead_spirit"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Your voice should be that of an ancient, sorrowful spirit. Make it sound ethereal and hollow, perhaps a little whispery.",
+          "text": "그림자가 길어지면, 돌아올 수 없는 길을 가게 될 거예요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I want you to sound like an undead spirit, forever bound to one place. Use an ethereal, hollow voice filled with ancient sorrow.",
+          "text": "곧 다가올 시간을 조심하세요. 모든 것이 변하게 될 테니까요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Perform as a sorrowful, ancient spirit. Your delivery should be hollow and ethereal, like a voice echoing from another place.",
+          "text": "바람이 멈추는 날, 이곳에 다시 오지 마세요. 후회하게 될 겁니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0004",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "wizard"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Your persona is a wise, old wizard speaking to his student. Use a deep, resonant, and thoughtful voice.",
+          "text": "별들의 움직임은 그저 밤하늘의 장식이 아니란다. 그것은 우주의 거대한 시계와 같아서, 모든 계절의 변화와 바다의 흐름을 관장하지. 그 패턴을 이해하는 것이 모든 지식의 시작이다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I want you to sound like a classic, wise old wizard explaining something profound. Your voice should be deep, resonant, and patient.",
+          "text": "보아라, 이 작은 씨앗 하나에도 숲 전체를 만들 힘이 담겨 있단다. 생명의 순환은 보이지 않는 힘에 의해 연결되어 있으며, 가장 작은 것에서 가장 위대한 것을 볼 수 있어야 한다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Embody the character of a very old and wise wizard. Speak in a thoughtful, deep, and resonant tone, as if teaching a valuable lesson.",
+          "text": "바람이 산을 깎고 물이 바위를 뚫는 것을 보아라. 세상의 가장 강력한 힘은 종종 가장 끈기 있고 조용한 것들 속에 숨어 있단다. 시간의 흐름을 이해하는 자는 그 힘의 일부를 다룰 수 있게 되지.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0005",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "witch"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Sound like a reclusive witch from the woods. Your voice should be raspy and gravelly, with a hint of dark amusement.",
+          "text": "사람들은 언제나 자기들이 이해하지 못하는 걸 두려워하지. 그리고 그걸 파괴하려고 안달을 낸다니까.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Embody the persona of a sinister witch. Use a raspy voice, and sound a little cynical and amused by the folly of others.",
+          "text": "착한 마음? 그런 건 배고플 땐 아무 소용도 없어. 결국 다들 자기 잇속만 챙기게 되어 있다구.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. I want the voice of a slightly sinister, reclusive witch. Make it a bit gravelly, and deliver the line with a cynical, knowing tone.",
+          "text": "그들은 약속을 밥 먹듯이 하지만, 지키는 사람은 거의 없지. 그게 바로 인간들이란다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0006",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "knight"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Your voice should be that of a loyal and honorable knight. Speak with a firm, clear, and resolute tone, full of conviction.",
+          "text": "동쪽 경계에서 수상한 움직임을 포착했습니다. 즉시 지원이 필요합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Embody the persona of an honorable knight. Use a clear, firm voice that conveys resolve and loyalty.",
+          "text": "어젯밤, 마을의 식량 창고에서 화재가 발생했습니다. 원인은 아직 조사 중입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speak with the conviction of a loyal knight. Your delivery should be firm, clear, and unwavering.",
+          "text": "임무를 완수하고 복귀했습니다. 모든 대원들은 무사합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0007",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "elf"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I want you to sound like an ancient, wise elf. Your voice should be melodious and smooth, with a slightly detached quality that suggests great age.",
+          "text": "숲은 다시 녹색 옷을 벗고, 붉은색과 황금색으로 물들고 있군요. 이 광경을 수없이 보아왔지만, 잎사귀 하나하나가 지는 모습은 언제나 새로운 슬픔과 아름다움을 느끼게 합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Embody the persona of a very old and wise elf. Use a smooth, melodious voice that sounds calm and timeless.",
+          "text": "겨울의 침묵이 지나면, 얼어붙은 땅을 뚫고 새 생명이 솟아나는 것을 봅니다. 시간의 흐름이란 이처럼 멈추지 않는 순환이며, 모든 끝은 새로운 시작을 품고 있지요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Your character is an ancient elf reflecting on nature. Your delivery should be smooth, musical, and have a sense of ageless wisdom.",
+          "text": "여름의 태양은 뜨겁게 타오르다 결국 서쪽으로 기울고, 그 자리는 서늘한 달빛이 채웁니다. 모든 것에는 때가 있고, 자연의 이치는 변함이 없어 수천 년이 지나도 그대로입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0008",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "vampire_noble"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I want the voice of an old, aristocratic vampire. It should be charismatic and smooth, but with a slightly menacing, dangerous undertone.",
+          "text": "곧 있을 제 저택에서의 작은 모임에 당신을 초대하고 싶군요. 거절은 받지 않겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Embody a noble vampire persona. Your voice should be smooth and seductive, but also carry a clear sense of danger and command.",
+          "text": "이번 주말에 특별한 손님들을 위한 자리를 마련했습니다. 당신이 꼭 와주셔야겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Sound like a charismatic but dangerous vampire aristocrat. Use a smooth, alluring voice that hides a threat.",
+          "text": "당신 같은 분을 제 행사에 모시게 되어 영광일 겁니다. 오지 않으시면... 제가 직접 데리러 가야 할지도 모르죠.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_persona_non_ip_archetype__0009",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "priestess"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Your persona is a serene and devout high priestess. Your voice should be calm, gentle, yet firm, inspiring a sense of peace.",
+          "text": "마음의 짐을 내려놓으세요. 당신의 길은 이미 정해져 있으니, 그저 믿음을 갖고 나아가면 됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Embody the character of a high priestess. Use a gentle and calm voice that is also firm, meant to reassure and guide someone.",
+          "text": "어둠 속에서도 빛은 항상 존재합니다. 지금의 시련은 당신을 더 강하게 만들어 줄 거예요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speak as a serene high priestess offering comfort. Your voice should be peaceful and gentle, but with an undercurrent of firm conviction.",
+          "text": "불안해하지 마세요. 모든 것은 제자리로 돌아갈 것입니다. 내면의 목소리에 귀를 기울여 보세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard persona realization."
+          }
+        }
+      ]
+    }
+  ]
+}

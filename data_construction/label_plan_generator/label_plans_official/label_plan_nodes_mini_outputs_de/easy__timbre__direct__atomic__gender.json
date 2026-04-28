@@ -1,0 +1,149 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/gender",
+  "language": "de",
+  "generation_summary": {
+    "num_items": 4,
+    "domain": "timbre",
+    "difficulty": "easy",
+    "notes": "Direct control of gender for German TTS. Instructions are in English, text is in German."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "male"
+      },
+      "aux_values": {},
+      "text_semantic": "factual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must be in German.",
+        "Avoid words or topics that are strongly gendered.",
+        "final text must be written in German"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Must start with 'Speak in German.'",
+        "Directly ask for a male voice without using a tag format.",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "female"
+      },
+      "aux_values": {},
+      "text_semantic": "simple_request",
+      "text_length": "short",
+      "text_constraints": [
+        "Text must be in German.",
+        "Avoid words or topics that are strongly gendered.",
+        "final text must be written in German"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Must start with 'Speak in German.'",
+        "Phrase the request for a female voice naturally.",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "male"
+      },
+      "aux_values": {},
+      "text_semantic": "brief_announcement",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must be in German.",
+        "Content should be neutral and professional.",
+        "final text must be written in German"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Must start with 'Speak in German.'",
+        "Request a masculine-sounding voice.",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "attribute_set": [
+        "gender"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "gender": "female"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Text must be in German.",
+        "Content should be introspective but not emotionally charged.",
+        "Avoid gender stereotypes.",
+        "final text must be written in German"
+      ],
+      "instruction_constraints": [
+        "Instruction must be in English.",
+        "Must start with 'Speak in German.'",
+        "Describe the desired voice as feminine.",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

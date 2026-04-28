@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/volume",
+  "language": "en",
+  "source_plan_file": "easy__style__tag__atomic__volume.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Volume: loud",
+      "text": "The next train arriving at platform three is the ten-fifteen service to Manchester.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral announcement, instruction is a standard tag."
+      },
+      "plan_id": "PLAN__en__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_volume__0001",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Volume: loud",
+          "text": "The next train arriving at platform three is the ten-fifteen service to Manchester.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral announcement, instruction is a standard tag."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Volume: loud",
+          "text": "Our store will be closing in fifteen minutes. Please bring all your items to the checkout.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral announcement, instruction is a standard tag."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Volume: loud",
+          "text": "Due to a technical issue, the main elevator is currently out of service.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral announcement, instruction is a standard tag."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_volume__0002",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Volume: quiet",
+          "text": "The chemical symbol for gold is Au, which comes from the Latin word aurum.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple factual statement, avoiding words that suggest quietness."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Volume: quiet",
+          "text": "Mount Everest is the highest mountain on Earth, standing at over twenty-nine thousand feet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple factual statement, avoiding words that suggest quietness."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Volume: quiet",
+          "text": "The Pacific Ocean is the largest and deepest of the world's five oceans.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple factual statement, avoiding words that suggest quietness."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_volume__0003",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Volume: very_loud",
+          "text": "Please take this folder to the accounting department.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral command without exclamation marks or urgent wording."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Volume: very_loud",
+          "text": "Ensure that all the windows are closed before you leave.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral command without exclamation marks or urgent wording."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Volume: very_loud",
+          "text": "Remember to submit your timesheet by the end of the day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral command without exclamation marks or urgent wording."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_tag_atomic_volume__0004",
+      "meta_path": "easy/style/tag/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Volume: very_quiet",
+          "text": "The sky looks a bit grey this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple observation, avoiding words related to secrets or hushed tones."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Volume: very_quiet",
+          "text": "I think I left my keys on the kitchen counter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple observation, avoiding words related to secrets or hushed tones."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Volume: very_quiet",
+          "text": "It seems the bus is running a few minutes late.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple observation, avoiding words related to secrets or hushed tones."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/dysphonia",
+  "language": "en",
+  "source_plan_file": "special__extra_vocal__abnormal__dysphonia.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice should sound airy and weak, like you can't quite catch your breath while speaking.",
+      "text": "There are several factors to consider before making a final decision on the matter.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses 'airy' and 'can't catch your breath'. Text is a neutral explanatory sentence."
+      },
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as if you're consistently short on air, making it hard to get through the sentence.",
+          "text": "The main reason for this phenomenon is the gravitational pull of the moon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a breathless state without using the word. Text is a neutral explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should sound airy and weak, like you can't quite catch your breath while speaking.",
+          "text": "There are several factors to consider before making a final decision on the matter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'airy' and 'can't catch your breath'. Text is a neutral explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a voice that sounds like you've just run up a flight of stairs and are trying to speak normally.",
+          "text": "This process is generally completed in three distinct stages over several weeks.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction gives a scenario to elicit the breathless voice. Text is a neutral explanatory sentence."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a rough, gravelly voice, as if your throat is irritated.",
+          "text": "I think I left my keys on the counter by the coffee maker again.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'rough, gravelly'. Text is a casual statement that doesn't mention illness."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should sound scratchy and strained, like you've been yelling at a concert all night.",
+          "text": "We should probably check the traffic before we head out this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'scratchy and strained' and a scenario. Text is a casual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a raspy vocal quality throughout the sentence, making it sound a bit frayed.",
+          "text": "I'm pretty sure that movie is playing at the theater downtown.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'raspy' and 'frayed'. Text is a casual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with a quavering, unsteady voice, where the pitch wavers slightly on the words.",
+          "text": "It's strange how a particular scent can bring back memories from so long ago, moments you thought were completely forgotten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'quavering, unsteady'. Text is reflective and long, with calm content."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should have a consistent, slight flutter to it, making it sound somewhat unstable.",
+          "text": "Sometimes I just sit by the window and watch the clouds drift by, each one a different shape on its own silent journey across the sky.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'flutter' and 'unstable'. Text is calm and reflective."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver the line with a pronounced vocal tremor, as if your voice isn't fully under your control.",
+          "text": "I often wonder what the world looked like to the people who lived here centuries before us, what they saw in these same hills and stars.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'vocal tremor'. Text is a long, reflective sentence."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a lot of effort, as if it's physically difficult to push the sound out. Your voice should sound tight.",
+          "text": "The new bridge is scheduled to open to the public on the first of next month.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an effortful, tight voice. Text is a factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line with a tense, constricted vocal quality. It should sound like you're forcing each word out.",
+          "text": "According to the latest report, annual rainfall has increased by nearly fifteen percent.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'tense, constricted'. Text is factual."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should sound physically taxed and pressed, like you're speaking through a very tight throat.",
+          "text": "The library's main collection contains over two hundred thousand volumes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses 'taxed and pressed'. Text is a factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as if you've just sprinted to catch a bus and you're trying to talk to someone right after. You're out of breath and panting.",
+          "text": "Just a quick reminder for everyone that the building's water will be shut off for maintenance tomorrow morning between nine and noon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides a clear scenario. Text is a long daily notice unrelated to exercise."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Imagine you've just finished a very intense workout. Read this sentence while still trying to catch your breath.",
+          "text": "Please be aware that the parking lot on the north side will be closed for repaving all weekend, so you'll need to plan to park elsewhere.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a workout scenario. Text is a neutral notice and sufficiently long."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should be gasping and punctuated by deep breaths, like you've just completed a long, difficult run.",
+          "text": "The weekly staff meeting has been rescheduled from Tuesday afternoon to Wednesday morning at ten o'clock in the main conference room.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct about the vocal delivery. Text is a long, neutral notice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as someone who has just stopped crying moments ago. Your voice should sound thick and a little stuffy, maybe with a small hitch in your breath.",
+          "text": "No, it's fine. I was just wondering if you've seen the blue folder.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the post-cry state. Text is neutral dialogue."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line with the vocal quality of someone who has been crying heavily. Your voice should be a bit raspy and congested.",
+          "text": "I think I'll just have a glass of water, thank you. Are you ready to order?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction focuses on the vocal quality. Text is neutral dialogue."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine you're trying to act normal after having a good cry. Your voice should sound a little choked up and rough around the edges.",
+          "text": "Yeah, I'm okay. Let's just figure out what we need to get at the store.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides a role-playing scenario. Text is neutral dialogue."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "fatigued_voice"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as if you've been talking all day long and your voice is completely worn out. Your delivery should be low on energy and a bit rough.",
+          "text": "Could you please pass me that book from the top shelf?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction gives a clear cause for the fatigued voice. Text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should sound vocally exhausted, like a teacher at the end of a long day. It should be quiet and slightly frayed.",
+          "text": "Can you help me look for the remote? I can't seem to find it anywhere.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a teacher analogy. Text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak with a tired, strained voice, as if you've given a long presentation and have very little vocal energy left.",
+          "text": "Would you mind turning down the music just a little bit?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a presentation scenario. Text is a simple request."
+          }
+        }
+      ]
+    }
+  ]
+}

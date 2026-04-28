@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/dysphonia",
+  "language": "ko",
+  "source_plan_file": "special__extra_vocal__abnormal__dysphonia.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Your voice should sound breathy and winded, as though you've just finished some strenuous activity.",
+      "text": "죄송하지만, 문 좀 잠시만 열어 주시겠어요? 제가 손이 없어서요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a simple request in Korean and does not leak the target."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this with a hoarse, raspy voice, like you have a sore throat.",
+      "text": "어제 본 영화는 생각보다 훨씬 더 재미있었던 것 같아.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a casual statement in Korean and does not mention illness."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Your voice should have a slight, consistent tremor throughout the sentence, as if you can't keep it steady.",
+      "text": "이 건물은 1988년에 완공되었으며, 총 20층으로 구성되어 있습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a neutral factual statement in Korean."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Use a voice that sounds frail and unsupported from the diaphragm, making it quiet and thin.",
+      "text": "해당 알고리즘의 핵심 원리는 입력된 데이터를 분석하여 패턴을 식별하고, 이를 기반으로 미래의 결과를 예측하는 것입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a long explanatory sentence in Korean and does not leak the target."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Deliver this with a strained voice, as if it takes a lot of effort just to speak.",
+      "text": "내일 오전 회의는 3층 회의실에서 진행될 예정입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a daily notice in Korean and avoids leaking keywords."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this as if you just finished a five-kilometer run and are trying to catch your breath.",
+      "text": "잠시 후, 도서관 시스템 점검이 있을 예정이니 이용에 참고 바랍니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a brief announcement in Korean and has unrelated content."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Your voice should sound vocally fatigued, as if you've been speaking at a conference all day.",
+      "text": "결국 모든 것은 우리가 어떤 관점에서 바라보느냐에 따라 다르게 해석될 수 있다는 것을 깨달았다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct, text is a long reflection in Korean and does not mention fatigue."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "fatigued_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this as if you're out of breath, like you just ran up a flight of stairs.",
+          "text": "혹시 저기 창가에 있는 파란색 책 좀 가져다 주실 수 있나요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a simple request in Korean and does not leak the target."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should sound breathy and winded, as though you've just finished some strenuous activity.",
+          "text": "죄송하지만, 문 좀 잠시만 열어 주시겠어요? 제가 손이 없어서요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a simple request in Korean and does not leak the target."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver the line with a breathless quality, catching your breath between phrases.",
+          "text": "실례합니다, 이 근처에 우체국이 어디에 있는지 알려주실 수 있으세요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a simple request in Korean and does not leak the target."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a hoarse, raspy voice, like you have a sore throat.",
+          "text": "어제 본 영화는 생각보다 훨씬 더 재미있었던 것 같아.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a casual statement in Korean and does not mention illness."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should sound gravelly and hoarse, as if you've been talking all day.",
+          "text": "오늘 날씨가 정말 좋아서 공원에 산책이라도 가고 싶네.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a casual statement in Korean and does not mention illness."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Use a hoarse vocal quality for this line, with a bit of a rasp.",
+          "text": "이 카페 커피는 언제 마셔도 항상 맛이 일정한 것 같아.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a casual statement in Korean and does not mention illness."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say the sentence with a voice that is noticeably trembling, but keep the emotional tone neutral.",
+          "text": "보고서에 따르면, 작년도 매출은 전년 대비 십오 퍼센트 증가했습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a neutral factual statement in Korean."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should have a slight, consistent tremor throughout the sentence, as if you can't keep it steady.",
+          "text": "이 건물은 1988년에 완공되었으며, 총 20층으로 구성되어 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a neutral factual statement in Korean."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver the line with a shaky, trembling voice, but without conveying any particular emotion.",
+          "text": "회의는 오후 세 시 정각에 시작될 예정이니 참고하시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a neutral factual statement in Korean."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this with a very thin, weak voice that lacks support, as if you're struggling to project.",
+          "text": "이 시스템은 여러 개의 독립된 모듈로 구성되어 있으며, 각 모듈은 특정한 기능을 담당하도록 설계되었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a long explanatory sentence in Korean and does not leak the target."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should sound unsupported and powerless, with very little breath behind it.",
+          "text": "전통적인 방식과 현대적인 기술을 결합함으로써 우리는 효율성을 극대화하고 비용을 절감할 수 있었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a long explanatory sentence in Korean and does not leak the target."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Use a voice that sounds frail and unsupported from the diaphragm, making it quiet and thin.",
+          "text": "해당 알고리즘의 핵심 원리는 입력된 데이터를 분석하여 패턴을 식별하고, 이를 기반으로 미래의 결과를 예측하는 것입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a long explanatory sentence in Korean and does not leak the target."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Deliver this with a strained voice, as if it takes a lot of effort just to speak.",
+          "text": "내일 오전 회의는 3층 회의실에서 진행될 예정입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a daily notice in Korean and avoids leaking keywords."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should sound tight and strained, like you're forcing the words out.",
+          "text": "모든 직원들은 퇴근 전에 반드시 컴퓨터를 꺼주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a daily notice in Korean and avoids leaking keywords."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this with an effortful, strained vocal quality, pushing the sound.",
+          "text": "이번 주 금요일은 회사 창립 기념일로 휴무임을 알려드립니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a daily notice in Korean and avoids leaking keywords."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this as if you just finished a five-kilometer run and are trying to catch your breath.",
+          "text": "잠시 후, 도서관 시스템 점검이 있을 예정이니 이용에 참고 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a brief announcement in Korean and has unrelated content."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should be breathless and tired, like you just sprinted to get here on time.",
+          "text": "오늘 오후 4시까지 제출해야 하는 서류가 있으니 잊지 마세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a brief announcement in Korean and has unrelated content."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Sound like you're winded after a long run, taking breaths in the middle of the sentence.",
+          "text": "모든 방문객께서는 안내 데스크에 먼저 등록해 주시기 바랍니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a brief announcement in Korean and has unrelated content."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "fatigued_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Your voice should sound vocally fatigued, as if you've been speaking at a conference all day.",
+          "text": "결국 모든 것은 우리가 어떤 관점에서 바라보느냐에 따라 다르게 해석될 수 있다는 것을 깨달았다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a long reflection in Korean and does not mention fatigue."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Read this with a weary, tired voice, like your vocal cords are exhausted from overuse.",
+          "text": "때로는 가장 간단한 해결책이 바로 눈앞에 있는데도, 복잡한 생각 때문에 그것을 보지 못할 때가 있다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a long reflection in Korean and does not mention fatigue."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Use a voice that sounds worn out from too much talking, making it low in energy and slightly hoarse.",
+          "text": "오늘 하루를 돌이켜보면, 예상치 못했던 작은 일들이 모여 큰 의미를 만들어낸 것 같다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct, text is a long reflection in Korean and does not mention fatigue."
+          }
+        }
+      ]
+    }
+  ]
+}

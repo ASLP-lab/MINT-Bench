@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/disfluency",
+  "language": "es",
+  "source_plan_file": "special__extra_vocal__abnormal__disfluency.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Deliver the line with a stutter.",
+      "text": "La capital de Argentina es Buenos Aires, una ciudad conocida por su vibrante cultura.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/stutter",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Read this request with some word repetitions, as if the speaker is trying to find the right way to ask.",
+      "text": "Quería preguntarte si me puedes ayudar con este problema de matemáticas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/repetition",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. The speaker has a speech block, where they get stuck and can't get words out, causing tense pauses.",
+      "text": "El monte Everest es la montaña más alta del mundo, con una altitud de más de ocho mil metros.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/blocking",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. The speaker has a very hesitant onset, struggling to get the first few words of the sentence out.",
+      "text": "A veces pienso que deberíamos haber tomado un camino diferente en aquel entonces.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/hesitant_onset",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Deliver this line with a stutter, as if you're finding it very difficult to admit something.",
+      "text": "Tengo que decirte algo, pero me cuesta mucho encontrar las palabras correctas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/stutter",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Out of frustration, the speaker repeats some words as they give the order.",
+      "text": "Dame esos papeles antes de que cometas un error más grande.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/repetition",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/stutter",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Deliver the line with a stutter.",
+          "text": "La capital de Argentina es Buenos Aires, una ciudad conocida por su vibrante cultura.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read the sentence as someone who stutters.",
+          "text": "El proceso de fotosíntesis convierte la luz solar en energía química para las plantas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. The speaker has a noticeable stutter throughout the sentence.",
+          "text": "La historia del arte se puede dividir en muchos períodos diferentes, cada uno con su propio estilo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/repetition",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. The speaker is nervous and repeats some of the words as they speak.",
+          "text": "¿Podrías por favor pasarme la sal que está sobre la mesa?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Due to hesitation, the speaker repeats some words or short phrases.",
+          "text": "Me gustaría saber si todavía tienes disponible ese libro que me mencionaste.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this request with some word repetitions, as if the speaker is trying to find the right way to ask.",
+          "text": "Quería preguntarte si me puedes ayudar con este problema de matemáticas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/blocking",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. The speaker has a speech block, where they get stuck and can't get words out, causing tense pauses.",
+          "text": "El monte Everest es la montaña más alta del mundo, con una altitud de más de ocho mil metros.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read the line with speech blocking, where the flow of speech is interrupted by an inability to produce sound for a moment.",
+          "text": "La Gran Barrera de Coral es el sistema de arrecifes de coral más grande del planeta.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. The speaker's words are characterized by blocking, with moments where they struggle to start a word, leading to awkward silences.",
+          "text": "Los pingüinos emperador son conocidos por sus largos viajes a través del hielo antártico para reproducirse.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/hesitant_onset",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. The speaker has a very hesitant onset, struggling to get the first few words of the sentence out.",
+          "text": "A veces pienso que deberíamos haber tomado un camino diferente en aquel entonces.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Begin the sentence with significant difficulty and hesitation, as if it's hard to start speaking.",
+          "text": "Creo que la decisión más importante es siempre la que viene a continuación.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Show a lot of hesitation at the start of the utterance before the words finally start to flow.",
+          "text": "Recuerdo con claridad el día que nos conocimos por primera vez en el parque.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/stutter",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. You're nervous while making a confession, which causes you to stutter.",
+          "text": "Yo no quería que las cosas terminaran de esta manera entre nosotros.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line with a stutter, as if you're finding it very difficult to admit something.",
+          "text": "Tengo que decirte algo, pero me cuesta mucho encontrar las palabras correctas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. The speaker is struggling with regret and stutters as they try to explain themselves.",
+          "text": "Si pudiera volver atrás, te juro que haría las cosas de forma diferente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency/repetition",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. The speaker is agitated and repeats the first few words of the command for emphasis.",
+          "text": "¡Deja de hacer eso ahora mismo y escúchame con atención!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this command with some word repetitions at the start, driven by a sense of insistence.",
+          "text": "Necesito que vengas aquí de inmediato, es una emergencia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Out of frustration, the speaker repeats some words as they give the order.",
+          "text": "Dame esos papeles antes de que cometas un error más grande.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

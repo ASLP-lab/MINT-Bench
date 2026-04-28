@@ -1,0 +1,4865 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/static",
+  "language": "en",
+  "source_plan_file": "hard__composite__complex_comp__static.json",
+  "num_input_items": 72,
+  "num_output_items": 72,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Age: elderly, Gender: male, Emotion: thoughtful",
+      "text": "I suppose that is one way to look at the situation.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: breathy, Speed: slow, Volume: quiet",
+      "text": "We should probably check the schedule one more time.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Accent: british_accent, Personality: serious, Tone: firm",
+      "text": "All attendees are requested to proceed to the main hall.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "british_accent",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Gender: female, Pitch: high, Emotion: surprised",
+      "text": "The package was delivered this morning just before ten.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as a young child who is talking very quickly, trying to convince someone to hurry up.",
+      "text": "Can we go to the other room now? It's almost time.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a complex static state."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver the line with a strong, resonant voice. You should sound very sure of yourself and speak at a high volume.",
+      "text": "In order for the system to function correctly, all variables must be calibrated within a very specific and predetermined range.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a complex static state."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "volume": "loud",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Read this line with a sense of frustration. It's not a shout, more of an angry, complaining sigh.",
+      "text": "It took them over an hour to get the system back online.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a complex static state."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "complaining",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak with a gentle, kind female voice. Please use a standard American accent.",
+      "text": "Just a reminder that the community meeting will be held in the library tonight at seven.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a complex static state."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "accent": "american_accent",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Say this with a dry, sarcastic tone. Use a low-pitched adult voice.",
+      "text": "Oh, this is just a wonderful turn of events.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a complex static state."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "low",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I need a very soft, sad reading of this line. Speak at a very low volume, with a gentle, whispering quality.",
+      "text": "From the hilltop, they could see the entire town, with its quiet streets and the river winding through it.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a complex static state."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "sad",
+        "volume": "very_quiet",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Age: adult, Gender: female, Pitch: normal, Speed: very_fast",
+      "text": "The fundamental principles of quantum mechanics, particularly the superposition and entanglement phenomena, challenge our classical intuitions about the physical world.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "pitch": "normal",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: husky, Volume: normal, Emotion: neutral, Tone: indifferent",
+      "text": "According to the report, the asteroid is projected to pass within one hundred thousand miles of Earth's orbit.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "husky",
+        "volume": "normal",
+        "emotion": "neutral",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Accent: indian_accent, Personality: lively, Pitch: high, Speed: fast",
+      "text": "You won't believe the traffic I had to get through on my way to the grocery store, just to pick up some milk and bread, it was absolutely crazy!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "indian_accent",
+        "personality": "lively",
+        "pitch": "high",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as an elderly British woman, happily reminiscing about a fond memory.",
+      "text": "I remember that old corner shop. It always had a particular smell of waxed paper and floor polish.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "accent": "british_accent",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak this with an extremely deep and steady voice. Maintain a calm exterior, but let a tone of stubborn refusal come through.",
+      "text": "I believe there may be another way to approach this problem.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "rich",
+        "personality": "calm",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "The speaker is anxious and trying to be heard over a distance. Make their voice loud, with a very slow, drawn-out pace.",
+      "text": "Don't forget to check if the stove is turned off.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "speed": "very_slow",
+        "volume": "loud",
+        "emotion": "worried",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak this in a teasing manner, using a bright and energetic adult male voice.",
+      "text": "I believe you're the one who left the light on in the kitchen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "tone": "teasing",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Age: child, Gender: female, Pitch: very_high, Texture: sweet, Emotion: fearful",
+      "text": "Excuse me, can you tell me what time it is?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "pitch": "very_high",
+        "texture": "sweet",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speed: normal, Volume: normal, Accent: american_accent, Personality: humorous, Tone: playful",
+      "text": "Object-oriented programming is a paradigm based on the concept of 'objects', which can contain data in the form of fields and code in the form of procedures.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "speed": "normal",
+        "volume": "normal",
+        "accent": "american_accent",
+        "personality": "humorous",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I'm looking for a barely audible male voice, speaking at a very slow pace. The texture should be smoky, and the emotion is sadness.",
+      "text": "This is a notice to let everyone know that the donuts in the breakroom are, for once, not the cheap kind, so please help yourselves.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "smoky",
+        "emotion": "sad",
+        "speed": "very_slow",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Imagine you are a posh, elderly Briton. You are delivering a compliment with an air of superiority and disdain, as if it pains you to say it.",
+      "text": "For what it is, I suppose it's quite a charming arrangement.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "accent": "british_accent",
+        "personality": "aloof",
+        "tone": "disdainful",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a soft, slow, and cheerful female voice with a coquettish tone.",
+      "text": "I was just wondering if you could help me collate these inventory spreadsheets.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "happy",
+        "tone": "coquettish",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Deliver the command with a very serious, high, and nasal voice. The accent is American. You should sound like you expect to be obeyed without question.",
+      "text": "Proceed immediately to the designated pillow fort construction zone.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0023",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "pitch": "high",
+        "personality": "serious",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Use a smug, happy male voice, full of self-congratulation.",
+      "text": "I can't believe it worked out. I was just guessing for most of it.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0024",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "tone": "smug",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Read this in the voice of a small child who is speaking softly and taking their time with the words.",
+      "text": "All the research indicates that this is the most effective solution.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0025",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "volume": "quiet",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Pitch: low, Texture: mellow, Tone: disappointed",
+      "text": "I'm pleased to announce that our team has exceeded all of its quarterly goals.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0026",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "mellow",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak as a woman who is very frightened and timid. She's trying to give an order but her fear is showing through.",
+      "text": "You need to leave this place immediately and don't look back.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0027",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "fearful",
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Use a rapid speaking rate and an Indian accent. The tone should be euphemistic, as if you're trying to be delicate about a very harsh reality.",
+      "text": "It appears the main structural supports have failed, which means the entire building is going to collapse in approximately five minutes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0028",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "indian_accent",
+        "speed": "fast",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Age: elderly, Gender: male, Volume: very_loud, Emotion: angry",
+      "text": "Would you mind terribly if I borrowed a bit of sugar?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0029",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "volume": "very_loud",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Your voice is warm and has a normal pitch. Deliver this line slowly, with a pleading tone.",
+      "text": "This is the final notice. Rent must be paid in full by the first of the month to avoid eviction.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0030",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "speed": "slow",
+        "personality": "warm",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Please render this with a clear female voice, using a British accent. The delivery should be rapid and surprised.",
+      "text": "Of course, that's how it turned out. When you follow the steps precisely as laid out, the result is exactly what the manual predicts every single time.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0031",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "clear",
+        "accent": "british_accent",
+        "emotion": "surprised",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I'm looking for a very high-pitched, cheerful voice, but the tone should be awkward, as if they're feeling out of place.",
+      "text": "Our system operates on a simple principle of cause and effect, where each input directly corresponds to a predictable and repeatable output every time it is initiated.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0032",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "very_high",
+        "tone": "awkward",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: magnetic, Speed: slow, Tone: speechless",
+      "text": "It's not often that one encounters such a well-reasoned and articulate argument.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0033",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "magnetic",
+        "speed": "slow",
+        "tone": "speechless"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in a quiet, worried voice. The speaker should have a standard American accent.",
+      "text": "I'm pleased to report that our quarterly earnings have exceeded all expectations.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0034",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "worried",
+        "accent": "american_accent",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Gender: male, Pitch: low, Tone: hesitant",
+      "text": "You must follow these instructions to the letter without any delay.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0035",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "low",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak this in the voice of a calm child, using a very slow, measured pace.",
+      "text": "The big balloon popped, and confetti flew all over the room while the music played really loud.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0036",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "personality": "calm",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Imagine a kindly old man with an American accent, but his tone is full of disappointment.",
+      "text": "The report confirms that local literacy programs have helped thousands of adults improve their reading skills, opening up new opportunities for them.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0037",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "elderly",
+        "accent": "american_accent",
+        "personality": "gentle",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Texture: bright, Pitch: high, Speed: fast, Volume: loud",
+      "text": "There wasn't much to say after that, just a heavy stillness.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0038",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "bright",
+        "pitch": "high",
+        "speed": "fast",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak this in a firm, unfeeling tone. The speaker is an adult woman.",
+      "text": "Perhaps you could consider lending a hand, but only if it's not too much trouble.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0039",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "neutral",
+        "tone": "firm",
+        "gender": "female",
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a loud, self-assured voice with a British accent. The pace is normal.",
+      "text": "We might be going in the wrong direction here. Does anyone have a map?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0040",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "confident",
+        "accent": "british_accent",
+        "speed": "normal",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Age: elderly, Texture: husky, Tone: defiant",
+      "text": "Yes, that sounds like a perfectly reasonable suggestion.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Compliant text contrasts with defiant tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0041",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "husky",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I need a male voice, speaking very rapidly but also very quietly, like he's thinking aloud in a rush.",
+      "text": "It’s funny how a single memory can change your perspective on everything you thought you knew for certain.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Fast, quiet delivery contrasts with slow, reflective text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0042",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "speed": "very_fast",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Pitch: very_low, Emotion: happy, Accent: indian_accent",
+      "text": "Despite our best efforts, the project was ultimately unsuccessful.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Happy emotion contrasts with disappointing text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0043",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "emotion": "happy",
+        "accent": "indian_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "The speaker is being funny, but it comes across as sarcasm. Make sure the voice is clear.",
+      "text": "That's one of the most brilliant suggestions I've heard all day.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Sarcastic tone contrasts with sincere text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0044",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "sarcastic",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Age: adult, Gender: female, Accent: british_accent, Tone: urging, Volume: quiet",
+      "text": "Photosynthesis is the process used by plants, algae, and some bacteria to convert light energy into chemical energy.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Urging tone contrasts with non-urgent, factual text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0045",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "accent": "british_accent",
+        "tone": "urging",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I need a slow, deliberate, and deep voice with a low pitch. The speaker sounds like a very serious person thinking deeply about the words.",
+      "text": "One must consider the existential implications of finding that there is only one sock left after doing the laundry.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Serious, philosophical delivery contrasts with silly text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0046",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "deep",
+        "emotion": "thoughtful",
+        "speed": "slow",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "The voice should be a playful male child, speaking so fast he's almost tripping over his words.",
+      "text": "Fiscal policy refers to the use of government spending and tax policies to influence economic conditions.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Playful, fast child voice contrasts with dry, factual text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0047",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "child",
+        "speed": "very_fast",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Volume: very_loud, Accent: american_accent, Emotion: happy, Texture: rich",
+      "text": "Would you mind telling me what time it is?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Very loud, happy delivery for a trivial request."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0048",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "very_loud",
+        "accent": "american_accent",
+        "emotion": "happy",
+        "texture": "rich"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "The speaker is a woman with a high-pitched voice. She's full of energy, but she's also complaining.",
+      "text": "Please note that the cafeteria will be closing thirty minutes early today for scheduled maintenance.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Complaining tone contrasts with neutral, informative text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0049",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "lively",
+        "tone": "complaining",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Age: elderly, Emotion: sad, Speed: very_slow",
+      "text": "Let's all give a big, cheerful round of applause for our winner!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Sad, slow delivery contrasts with energetic, cheerful text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0050",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "emotion": "sad",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in a soft, quiet voice, but maintain a firm, resolute tone.",
+      "text": "Very well, I'll concede on that particular issue for now.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful to plan."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0051",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "soft",
+        "volume": "quiet",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak with a standard British accent, sounding angry and irritated.",
+      "text": "The afternoon sun cast long shadows across the garden.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between angry delivery and peaceful text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0052",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "british_accent",
+        "pitch": "normal",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I need a male voice that sounds reserved and fearful. The pace should be slow and the volume low.",
+      "text": "We have officially launched the new product line, and initial reports confirm it's an unprecedented success.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between fearful delivery and confident text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0053",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "reserved",
+        "speed": "slow",
+        "volume": "quiet",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Accent: American Accent, Age: Adult, Texture: Smoky, Tone: Indifferent",
+      "text": "I'm begging you, don't turn your back on us now. We need your help more than ever.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between indifferent tone and passionate text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0054",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "texture": "smoky",
+        "tone": "indifferent",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Pitch: High, Speed: Very Fast, Tone: Teasing",
+      "text": "The final report detailed the extensive environmental damage caused by the industrial spill, which will take decades to remediate.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between teasing delivery and serious text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0055",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "very_fast",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "The speaker is a very calm person, but right now they're completely surprised by what's happening. Use a normal volume.",
+      "text": "I just went to the kitchen to get a glass of water.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between surprised delivery and mundane text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0056",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "normal",
+        "emotion": "surprised",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "The voice is that of an older female, soft and mellow. She speaks at a standard speed, not rushing at all.",
+      "text": "Drop everything and take cover! It's not safe here anymore!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between calm delivery and panicked text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0057",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "elderly",
+        "texture": "mellow",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Deliver this line with a loud, high-pitched Indian accent. The speaker should sound very smug and self-satisfied.",
+      "text": "I'm not sure if I'm really the right person for this responsibility.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between smug delivery and humble text."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0058",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "indian_accent",
+        "tone": "smug",
+        "pitch": "high",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Emotion: Thoughtful, Speed: Slow, Texture: Clear",
+      "text": "First, open the valve. Second, check the pressure. Third, engage the lever. Fourth, monitor the output.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between slow, thoughtful delivery and rapid-fire text content."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0059",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "thoughtful",
+        "speed": "slow",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Imagine a man with a very warm personality speaking in a barely audible voice.",
+      "text": "For your health and the health of those around you, please wash your hands frequently with soap and water.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Contrast between quiet delivery and text meant to be heard clearly."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0060",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "warm",
+        "volume": "very_quiet",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Age: child, Pitch: high, Tone: awkward",
+      "text": "The reason the sky appears blue is due to a phenomenon known as Rayleigh scattering, which affects light from the sun.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Confident text vs awkward tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0061",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a sorrowful and breathy tone with a British accent for the following announcement.",
+      "text": "Please join us in celebrating the promotion of our colleague, who will now be leading the new department.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Happy text vs sad emotion."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0062",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "accent": "british_accent",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Imagine you are a confident female executive delivering bad news. Speak at a normal speed, but with a careful, euphemistic tone.",
+      "text": "Following a comprehensive review, the board has concluded that the factory is no longer financially viable and will cease all operations by the end of the month.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Blunt text vs euphemistic tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0063",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "speed": "normal",
+        "tone": "euphemistic",
+        "gender": "female",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Volume: quiet, Pitch: low, Texture: deep, Emotion: angry",
+      "text": "Good morning, sunshine! What a beautiful day to get things started, isn't it?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Friendly text vs angry emotion."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0064",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "quiet",
+        "pitch": "low",
+        "texture": "deep",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak this as an elderly person with an American accent. Sound uncertain and hesitant, and speak slowly.",
+      "text": "Get that report on my desk by five o'clock, no excuses and no delays.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Assertive text vs hesitant tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0065",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "accent": "american_accent",
+        "tone": "hesitant",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "The speaker is a high-energy man, but he's very anxious right now. Let that worry come through in his voice.",
+      "text": "There is a quiet strength in finding peace in the middle of a storm. We just have to look for it.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Reassuring text vs worried emotion."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0066",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "lively",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Texture: sweet, Tone: pleading, Volume: loud",
+      "text": "This is the company policy, and it is not subject to individual interpretation or change.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Non-negotiable text vs pleading tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0067",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "sweet",
+        "tone": "pleading",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak this with a very high-pitched British accent. Deliver the lines very slowly, drawing out the words.",
+      "text": "Quick, we need to go right now! There's no time to waste, hurry up!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Urgent text vs slow speed."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0068",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "speed": "very_slow",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "I want you to sound like an extremely excited and cheerful adult woman. Speak very loudly and very quickly, with a bubbly personality.",
+      "text": "The inevitability of loss is a profound and difficult truth that every human being must confront during their time on Earth. It shapes our understanding of what it means to be alive.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Somber text vs extremely happy delivery."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0069",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "happy",
+        "personality": "cheerful",
+        "volume": "very_loud",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I need a high, nasal American voice for this line. The tone should be very much like someone complaining or whining.",
+      "text": "On behalf of the entire team, I would like to express our deepest gratitude for your support.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Grateful text vs complaining tone."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0070",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "pitch": "high",
+        "accent": "american_accent",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Emotion: fearful, Speed: fast, Volume: very_quiet, Gender: male",
+      "text": "I need all of you to keep a level head and remain perfectly still. Everything is under control, just stay calm.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text content (commanding calm) is in conflict with the fearful, quiet delivery instruction. This is intentional."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0071",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "fast",
+        "volume": "very_quiet",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I want you to sound like a serious British adult who is looking down on someone. Make the tone disdainful.",
+      "text": "Hello and welcome! We're just delighted that you could make it. Please, make yourselves at home.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text content (enthusiastic welcome) is in conflict with the disdainful delivery instruction. This is intentional."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0072",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "serious",
+        "tone": "disdainful",
+        "age": "adult",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: elderly, Gender: male, Emotion: thoughtful",
+          "text": "It's interesting how some things seem to come full circle.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: elderly, Gender: male, Emotion: thoughtful",
+          "text": "The way the light hits that window is different in the afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: elderly, Gender: male, Emotion: thoughtful",
+          "text": "I suppose that is one way to look at the situation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Texture: breathy, Speed: slow, Volume: quiet",
+          "text": "I think I left the book on the table over there.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Texture: breathy, Speed: slow, Volume: quiet",
+          "text": "We should probably check the schedule one more time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Texture: breathy, Speed: slow, Volume: quiet",
+          "text": "He said he would call us back sometime after lunch.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "british_accent",
+        "personality": "serious",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Accent: british_accent, Personality: serious, Tone: firm",
+          "text": "All attendees are requested to proceed to the main hall.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Accent: british_accent, Personality: serious, Tone: firm",
+          "text": "Please have your identification ready for inspection at the gate.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Accent: british_accent, Personality: serious, Tone: firm",
+          "text": "This is the final boarding call for flight seven-oh-three.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: female, Pitch: high, Emotion: surprised",
+          "text": "The package was delivered this morning just before ten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: female, Pitch: high, Emotion: surprised",
+          "text": "I didn't realize the library closes at five on Fridays.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: female, Pitch: high, Emotion: surprised",
+          "text": "She said the report was already finished and on your desk.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a young child who is talking very quickly, trying to convince someone to hurry up.",
+          "text": "Can we go to the other room now? It's almost time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a child's voice. Your speaking pace should be fast and your tone should be insistent and urging.",
+          "text": "I think we should get ready, it's going to start pretty soon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need the voice of a kid speaking quickly and with a pleading tone, trying to get someone to move faster.",
+          "text": "The next part is about to happen, we should be over there.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "volume": "loud",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a loud, deep, and confident voice, as if you are an expert explaining something important.",
+          "text": "The fundamental principle behind this mechanism is the transfer of kinetic energy from one component to the next in the sequence.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the line with a strong, resonant voice. You should sound very sure of yourself and speak at a high volume.",
+          "text": "In order for the system to function correctly, all variables must be calibrated within a very specific and predetermined range.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I'm looking for a self-assured, powerful delivery. Use a deep voice and project it loudly and clearly.",
+          "text": "The historical context of the event is often overlooked, but it provides essential information for understanding the outcome.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "complaining",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this with an irritated, complaining tone. You're annoyed but not yelling, just grumbling about the situation.",
+          "text": "Well, it seems the traffic is a lot heavier than it was this morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak with a tone of quiet anger. Your delivery should sound like you are complaining under your breath at a normal pace.",
+          "text": "I see they've changed the schedule again without telling anyone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this line with a sense of frustration. It's not a shout, more of an angry, complaining sigh.",
+          "text": "It took them over an hour to get the system back online.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "accent": "american_accent",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a gentle, kind female voice. Please use a standard American accent.",
+          "text": "Just a reminder that the community meeting will be held in the library tonight at seven.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this in a soft-spoken and gentle female voice, with a General American accent.",
+          "text": "Please remember to take all personal belongings with you when you leave the area.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I'd like a kind-sounding female voice, speaking gently with an American accent.",
+          "text": "The front entrance will be closed for maintenance tomorrow from nine until noon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "low",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this with a dry, sarcastic tone. Use a low-pitched adult voice.",
+          "text": "Oh, this is just a wonderful turn of events.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with a mocking, low-pitched delivery. Your tone should be deeply sarcastic.",
+          "text": "I am so looking forward to another three hours of this.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a low-pitched, sarcastic voice to deliver this line with a deadpan, mocking quality.",
+          "text": "That sounds like a perfectly reasonable and well-thought-out plan.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "sad",
+        "volume": "very_quiet",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this line in a very quiet, soft voice, almost a whisper. Your tone should be filled with sadness.",
+          "text": "The sunlight streamed through the leaves, creating shifting patterns on the forest floor all afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this narration with a gentle, sorrowful quality. Your voice should be extremely quiet, like you're trying not to be overheard.",
+          "text": "She remembered the little garden they had planted by the window, where the flowers bloomed every spring without fail.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a very soft, sad reading of this line. Speak at a very low volume, with a gentle, whispering quality.",
+          "text": "From the hilltop, they could see the entire town, with its quiet streets and the river winding through it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a complex static state."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "pitch": "normal",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: adult, Gender: female, Pitch: normal, Speed: very_fast",
+          "text": "The fundamental principles of quantum mechanics, particularly the superposition and entanglement phenomena, challenge our classical intuitions about the physical world.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: adult, Gender: female, Pitch: normal, Speed: very_fast",
+          "text": "Considering the multifaceted socioeconomic factors involved, a comprehensive analysis is required to fully understand the long-term implications of the new policy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: adult, Gender: female, Pitch: normal, Speed: very_fast",
+          "text": "Photosynthesis is the complex biochemical process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "husky",
+        "volume": "normal",
+        "emotion": "neutral",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Texture: husky, Volume: normal, Emotion: neutral, Tone: indifferent",
+          "text": "The latest seismic readings indicate a significant increase in tectonic activity along the fault line.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Texture: husky, Volume: normal, Emotion: neutral, Tone: indifferent",
+          "text": "According to the report, the asteroid is projected to pass within one hundred thousand miles of Earth's orbit.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Texture: husky, Volume: normal, Emotion: neutral, Tone: indifferent",
+          "text": "System analysis confirms that the primary containment field has dropped to fifty percent efficiency.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "indian_accent",
+        "personality": "lively",
+        "pitch": "high",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Accent: indian_accent, Personality: lively, Pitch: high, Speed: fast",
+          "text": "So, I was just telling my friend the other day about how I have this whole routine for making my morning coffee, it has to be just right you know?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Accent: indian_accent, Personality: lively, Pitch: high, Speed: fast",
+          "text": "I spent the entire afternoon reorganizing my bookshelf, which I probably do every other month, but this time I actually think it's going to stay this way.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Accent: indian_accent, Personality: lively, Pitch: high, Speed: fast",
+          "text": "You won't believe the traffic I had to get through on my way to the grocery store, just to pick up some milk and bread, it was absolutely crazy!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "accent": "british_accent",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as an elderly British woman, happily reminiscing about a fond memory.",
+          "text": "I remember that old corner shop. It always had a particular smell of waxed paper and floor polish.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Could you use the voice of an older British lady, with a happy, gentle tone as if she's looking back on the past?",
+          "text": "We used to walk down that path every single Tuesday, come rain or shine, to get to the library.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want to hear an elderly female voice with a British accent, sounding pleased and content while recalling something.",
+          "text": "The garden gate had a specific squeak that you could hear from all the way down the lane.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "rich",
+        "personality": "calm",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Use a very deep, rich voice. The speaker is calm, but their tone is firm and defiant.",
+          "text": "I would appreciate it if you would reconsider your position on the matter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I'm looking for a very low-pitched, resonant voice. The delivery should be quiet and composed, but with a clear undercurrent of defiance.",
+          "text": "Perhaps you could take another look at the documents I provided.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak this with an extremely deep and steady voice. Maintain a calm exterior, but let a tone of stubborn refusal come through.",
+          "text": "I believe there may be another way to approach this problem.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "speed": "very_slow",
+        "volume": "loud",
+        "emotion": "worried",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak loudly and very slowly, as if calling out to someone far away. Your voice should sound worried.",
+          "text": "Can you please make sure the back gate is locked?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The speaker is anxious and trying to be heard over a distance. Make their voice loud, with a very slow, drawn-out pace.",
+          "text": "Don't forget to check if the stove is turned off.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a loud, slow, worried American voice, like someone shouting a careful warning across a wide space.",
+          "text": "Would you mind going to see if that window is closed?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "tone": "teasing",
+        "texture": "bright"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Use a bright, clear adult male voice. The tone should be teasing and playful.",
+          "text": "You seem to have forgotten that the meeting was moved to three o'clock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want to hear a man's voice, lively and crisp, delivering the line in a lighthearted, mocking way.",
+          "text": "The instructions clearly state that this piece goes on top.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak this in a teasing manner, using a bright and energetic adult male voice.",
+          "text": "I believe you're the one who left the light on in the kitchen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "pitch": "very_high",
+        "texture": "sweet",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: child, Gender: female, Pitch: very_high, Texture: sweet, Emotion: fearful",
+          "text": "Excuse me, can you tell me what time it is?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: child, Gender: female, Pitch: very_high, Texture: sweet, Emotion: fearful",
+          "text": "Could you please help me reach that box on the top shelf?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: child, Gender: female, Pitch: very_high, Texture: sweet, Emotion: fearful",
+          "text": "Would it be okay if I borrowed your pencil for a moment?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "speed": "normal",
+        "volume": "normal",
+        "accent": "american_accent",
+        "personality": "humorous",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speed: normal, Volume: normal, Accent: american_accent, Personality: humorous, Tone: playful",
+          "text": "The process of cellular respiration involves a series of metabolic reactions and processes that take place in the cells of organisms to convert chemical energy into adenosine triphosphate.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speed: normal, Volume: normal, Accent: american_accent, Personality: humorous, Tone: playful",
+          "text": "A key principle in thermodynamics is the second law, which states that the total entropy of an isolated system can never decrease over time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speed: normal, Volume: normal, Accent: american_accent, Personality: humorous, Tone: playful",
+          "text": "Object-oriented programming is a paradigm based on the concept of 'objects', which can contain data in the form of fields and code in the form of procedures.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "texture": "smoky",
+        "emotion": "sad",
+        "speed": "very_slow",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a very quiet, very slow, sad man's voice. The voice should have a smoky or gravelly quality.",
+          "text": "Just a quick announcement: this afternoon's mandatory team-building session has been canceled, so you can all head home a bit early.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a man's voice that is deep and mournful. It should be spoken very slowly and softly, with a bit of a rasp.",
+          "text": "For your information, the management has decided to close the office tomorrow due to the parade, so enjoy the long weekend.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I'm looking for a barely audible male voice, speaking at a very slow pace. The texture should be smoky, and the emotion is sadness.",
+          "text": "This is a notice to let everyone know that the donuts in the breakroom are, for once, not the cheap kind, so please help yourselves.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "accent": "british_accent",
+        "personality": "aloof",
+        "tone": "disdainful",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as an elderly, upper-class British person who is giving a compliment, but sounds aloof and rather disdainful.",
+          "text": "I must admit, your little project turned out better than I expected.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the line with the voice of an elderly British aristocrat. Your tone is dismissive and condescending, even though you are supposed to be saying something nice.",
+          "text": "Well, that's surprisingly adequate work you've done. Quite the achievement for you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine you are a posh, elderly Briton. You are delivering a compliment with an air of superiority and disdain, as if it pains you to say it.",
+          "text": "For what it is, I suppose it's quite a charming arrangement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "happy",
+        "tone": "coquettish",
+        "speed": "slow",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as a woman who is speaking slowly and quietly. She sounds happy and is being a bit flirtatious.",
+          "text": "Could you possibly pass me the quarterly financial report when you have a moment?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a soft, slow, and cheerful female voice with a coquettish tone.",
+          "text": "I was just wondering if you could help me collate these inventory spreadsheets.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak slowly and softly, with a happy, teasing tone. The voice should be female.",
+          "text": "Would you be a dear and check if the printer has any more paper?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0023",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "pitch": "high",
+        "personality": "serious",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a high-pitched, nasal American accent. Your delivery should be very serious and authoritative, as if giving a critical order.",
+          "text": "Everyone must now put on these propeller hats and form a single-file line.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the command with a very serious, high, and nasal voice. The accent is American. You should sound like you expect to be obeyed without question.",
+          "text": "Proceed immediately to the designated pillow fort construction zone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a commanding, serious tone with a high, nasal voice quality. Imagine you're an American speaker who takes this very seriously.",
+          "text": "You are all required to participate in the synchronous group wiggle. No exceptions.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0024",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "tone": "smug",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as an adult man who is feeling very happy and smug about something. His tone is self-satisfied and gloating.",
+          "text": "I'm not really sure I did everything right, but I guess we'll see.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line with a gloating, self-satisfied male voice, as if you've just won but are pretending to be modest.",
+          "text": "Oh, I just got lucky, I suppose. It could have gone either way.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a smug, happy male voice, full of self-congratulation.",
+          "text": "I can't believe it worked out. I was just guessing for most of it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0025",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "volume": "quiet",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this as a young child who is talking very slowly and quietly, almost hesitantly.",
+          "text": "The mitochondria is the powerhouse of the cell.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Imagine a little kid speaking in a soft, slow voice. They seem a bit shy or unsure of themselves.",
+          "text": "It is an established fact that the Earth revolves around the Sun.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this in the voice of a small child who is speaking softly and taking their time with the words.",
+          "text": "All the research indicates that this is the most effective solution.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0026",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "mellow",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Pitch: low, Texture: mellow, Tone: disappointed",
+          "text": "I'm pleased to announce that our team has exceeded all of its quarterly goals.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Pitch: low, Texture: mellow, Tone: disappointed",
+          "text": "We have successfully secured the funding necessary to move forward with the project.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Pitch: low, Texture: mellow, Tone: disappointed",
+          "text": "Let's all congratulate Sarah on her well-deserved promotion to senior director.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0027",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "fearful",
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a woman who is very frightened and timid. She's trying to give an order but her fear is showing through.",
+          "text": "You need to leave this place immediately and don't look back.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this command in a reserved, fearful female voice. She's trying to sound strong, but she's clearly scared.",
+          "text": "Stop what you are doing right now and listen to me carefully.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a timid and fearful woman's voice for this line.",
+          "text": "Put that down and step away from the console. That's an order.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0028",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "indian_accent",
+        "speed": "fast",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this with an Indian accent, speaking very quickly. Your tone is euphemistic, trying to soften the blow of some bad news.",
+          "text": "The entire server infrastructure has been permanently wiped and there are no backups, so all the data from the last ten years is completely gone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak at a fast pace with an Indian accent. You're trying to deliver a direct, factual statement in a way that makes it sound less severe than it is.",
+          "text": "Due to a catastrophic miscalculation in the budget, the company is now bankrupt and everyone will be laid off by the end of the week.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a rapid speaking rate and an Indian accent. The tone should be euphemistic, as if you're trying to be delicate about a very harsh reality.",
+          "text": "It appears the main structural supports have failed, which means the entire building is going to collapse in approximately five minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0029",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "volume": "very_loud",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: elderly, Gender: male, Volume: very_loud, Emotion: angry",
+          "text": "Would you mind terribly if I borrowed a bit of sugar?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: elderly, Gender: male, Volume: very_loud, Emotion: angry",
+          "text": "If it's not too much trouble, could you please turn down the music just a little?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: elderly, Gender: male, Volume: very_loud, Emotion: angry",
+          "text": "I was just hoping you might have a moment to help me with this jar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0030",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "speed": "slow",
+        "personality": "warm",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a warm and friendly voice, but your tone is pleading and you're speaking slowly, as if begging.",
+          "text": "As a reminder, all expense reports are due by five p.m. this Friday. No extensions will be granted.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice is warm and has a normal pitch. Deliver this line slowly, with a pleading tone.",
+          "text": "This is the final notice. Rent must be paid in full by the first of the month to avoid eviction.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a slow, pleading, and warm delivery to read the following statement.",
+          "text": "Access to this area is strictly forbidden without the proper security clearance. This policy is non-negotiable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0031",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "clear",
+        "accent": "british_accent",
+        "emotion": "surprised",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I need a female voice with a clear, crisp British accent. She should sound startled and speak very quickly, as if caught completely off guard.",
+          "text": "Well, given the amount of time and effort we dedicated to the project, it was always going to succeed in the end. There was simply no other plausible outcome.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Could you generate a fast-paced, surprised reading? The speaker is a woman with a distinct British accent and a very clear voice.",
+          "text": "Considering all the variables, the conclusion we reached was the only logical one. It was a foregone conclusion from the very beginning, really.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Please render this with a clear female voice, using a British accent. The delivery should be rapid and surprised.",
+          "text": "Of course, that's how it turned out. When you follow the steps precisely as laid out, the result is exactly what the manual predicts every single time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0032",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "pitch": "very_high",
+        "tone": "awkward",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a cheerful person with a very high-pitched voice. However, they're in an uncomfortable situation, so their delivery should sound a bit awkward.",
+          "text": "The primary mechanism of action involves the catalytic conversion of substrates, which then proceed through a well-documented enzymatic pathway to produce the final compound.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Imagine an adult with a naturally cheerful disposition and a very high voice. Put them in an awkward spot, so their tone becomes hesitant and uncomfortable.",
+          "text": "This entire process is designed for maximum efficiency, allowing for a seamless integration of all components without any significant downtime or operational friction.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I'm looking for a very high-pitched, cheerful voice, but the tone should be awkward, as if they're feeling out of place.",
+          "text": "Our system operates on a simple principle of cause and effect, where each input directly corresponds to a predictable and repeatable output every time it is initiated.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0033",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "magnetic",
+        "speed": "slow",
+        "tone": "speechless"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Texture: magnetic, Speed: slow, Tone: speechless",
+          "text": "I must say, your elucidation of the matter was both comprehensive and extraordinarily insightful.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Texture: magnetic, Speed: slow, Tone: speechless",
+          "text": "The intricate details you provided have given me a much clearer perspective on the situation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Texture: magnetic, Speed: slow, Tone: speechless",
+          "text": "It's not often that one encounters such a well-reasoned and articulate argument.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0034",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "worried",
+        "accent": "american_accent",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a quiet, worried voice. The speaker should have a standard American accent.",
+          "text": "I'm pleased to report that our quarterly earnings have exceeded all expectations.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a standard American accent. The voice should be soft and sound anxious.",
+          "text": "I have some wonderful news: the committee has approved our proposal unanimously.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The delivery should be quiet and full of worry, with an American accent.",
+          "text": "We just heard back from the team, and it's official, we've won the contract.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0035",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "low",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: male, Pitch: low, Tone: hesitant",
+          "text": "Proceed with the operation immediately and do not deviate from the plan.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: male, Pitch: low, Tone: hesitant",
+          "text": "You must follow these instructions to the letter without any delay.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: male, Pitch: low, Tone: hesitant",
+          "text": "Assemble the team now and execute the first phase as scheduled.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0036",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "personality": "calm",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a child who is very calm. They're speaking extremely slowly and deliberately.",
+          "text": "Then the fireworks went off all at once and everyone was running and shouting everywhere.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak this in the voice of a calm child, using a very slow, measured pace.",
+          "text": "The big balloon popped, and confetti flew all over the room while the music played really loud.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want to hear a child's voice, but with a serene personality and a very slow speaking rate.",
+          "text": "Suddenly, all the dogs started chasing the cat, and they knocked over the table with the cake on it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0037",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "elderly",
+        "accent": "american_accent",
+        "personality": "gentle",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a gentle, elderly man with an American accent. He sounds quite disappointed as he's speaking.",
+          "text": "According to the latest figures, community volunteerism is up by nearly thirty percent this year, which is an encouraging sign for civic engagement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Imagine a kindly old man with an American accent, but his tone is full of disappointment.",
+          "text": "The report confirms that local literacy programs have helped thousands of adults improve their reading skills, opening up new opportunities for them.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use the voice of a gentle, elderly American man. He should sound sad and disappointed, even as he reads this.",
+          "text": "We are happy to announce that the new public park has been a resounding success, with visitor numbers far exceeding our initial projections for the first quarter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0038",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "bright",
+        "pitch": "high",
+        "speed": "fast",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Texture: bright, Pitch: high, Speed: fast, Volume: loud",
+          "text": "It was a time of quiet contemplation and shared sorrow.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Texture: bright, Pitch: high, Speed: fast, Volume: loud",
+          "text": "We all sat in silence, remembering what had been lost.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Texture: bright, Pitch: high, Speed: fast, Volume: loud",
+          "text": "There wasn't much to say after that, just a heavy stillness.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0039",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "neutral",
+        "tone": "firm",
+        "gender": "female",
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The voice should be a completely neutral and firm adult female.",
+          "text": "If you wouldn't mind, maybe you could take a look at this when you have a free moment?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a resolute, emotionally flat female voice.",
+          "text": "I was just wondering if it might be possible for you to help with this task.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak this in a firm, unfeeling tone. The speaker is an adult woman.",
+          "text": "Perhaps you could consider lending a hand, but only if it's not too much trouble.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0040",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "confident",
+        "accent": "british_accent",
+        "speed": "normal",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a confident person with a British accent, speaking loudly and clearly.",
+          "text": "I'm not entirely sure if this is the correct procedure, could someone confirm?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a loud, self-assured voice with a British accent. The pace is normal.",
+          "text": "We might be going in the wrong direction here. Does anyone have a map?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want a commanding, confident British voice, spoken at a normal speed but with loud volume.",
+          "text": "Is it possible that we've overlooked a critical piece of information?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0041",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "husky",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: elderly, Texture: husky, Tone: defiant",
+          "text": "Of course, I would be more than happy to help you with that.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Compliant text contrasts with defiant tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: elderly, Texture: husky, Tone: defiant",
+          "text": "Yes, that sounds like a perfectly reasonable suggestion.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Compliant text contrasts with defiant tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: elderly, Texture: husky, Tone: defiant",
+          "text": "I will do exactly as you ask without any argument.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Compliant text contrasts with defiant tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0042",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "speed": "very_fast",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "A man is muttering to himself very quickly and quietly.",
+          "text": "I've often wondered what might have happened if I'd taken a different path all those years ago.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Fast, quiet delivery contrasts with slow, reflective text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak this as if you are a man muttering under his breath, very fast and very quiet.",
+          "text": "Sometimes you just have to pause and consider all the little moments that brought you to where you are today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Fast, quiet delivery contrasts with slow, reflective text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a male voice, speaking very rapidly but also very quietly, like he's thinking aloud in a rush.",
+          "text": "It’s funny how a single memory can change your perspective on everything you thought you knew for certain.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Fast, quiet delivery contrasts with slow, reflective text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0043",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "emotion": "happy",
+        "accent": "indian_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Pitch: very_low, Emotion: happy, Accent: indian_accent",
+          "text": "Despite our best efforts, the project was ultimately unsuccessful.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Happy emotion contrasts with disappointing text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Pitch: very_low, Emotion: happy, Accent: indian_accent",
+          "text": "The report confirms that we will have to close down three of the local branches next month.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Happy emotion contrasts with disappointing text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Pitch: very_low, Emotion: happy, Accent: indian_accent",
+          "text": "Unfortunately, the latest data shows a significant decline in our quarterly earnings.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Happy emotion contrasts with disappointing text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0044",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "humorous",
+        "tone": "sarcastic",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this with a clear, humorous voice, but with a very dry and sarcastic tone.",
+          "text": "I truly appreciate all the hard work you've put into this.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Sarcastic tone contrasts with sincere text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The speaker is being funny, but it comes across as sarcasm. Make sure the voice is clear.",
+          "text": "That's one of the most brilliant suggestions I've heard all day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Sarcastic tone contrasts with sincere text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a clear voice that sounds like it's trying to be humorous, but it's heavily layered with sarcasm.",
+          "text": "You have my complete and undivided attention for this matter.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Sarcastic tone contrasts with sincere text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0045",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "accent": "british_accent",
+        "tone": "urging",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: adult, Gender: female, Accent: british_accent, Tone: urging, Volume: quiet",
+          "text": "The historical documents are stored in a climate-controlled vault to prevent deterioration over time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Urging tone contrasts with non-urgent, factual text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: adult, Gender: female, Accent: british_accent, Tone: urging, Volume: quiet",
+          "text": "Photosynthesis is the process used by plants, algae, and some bacteria to convert light energy into chemical energy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Urging tone contrasts with non-urgent, factual text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: adult, Gender: female, Accent: british_accent, Tone: urging, Volume: quiet",
+          "text": "The boiling point of water at standard atmospheric pressure is precisely one hundred degrees Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Urging tone contrasts with non-urgent, factual text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0046",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "deep",
+        "emotion": "thoughtful",
+        "speed": "slow",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a deep, low, and serious voice. The delivery should be slow and thoughtful, like a philosopher pondering a great mystery.",
+          "text": "The fundamental question of whether a hot dog qualifies as a sandwich has perplexed scholars for generations.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Serious, philosophical delivery contrasts with silly text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a slow, deliberate, and deep voice with a low pitch. The speaker sounds like a very serious person thinking deeply about the words.",
+          "text": "One must consider the existential implications of finding that there is only one sock left after doing the laundry.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Serious, philosophical delivery contrasts with silly text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine a serious, thoughtful philosopher speaking. Use a low-pitched, deep voice and a slow pace.",
+          "text": "Let us contemplate the profound relationship between the fluffiness of a pancake and its capacity for syrup absorption.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Serious, philosophical delivery contrasts with silly text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0047",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "age": "child",
+        "speed": "very_fast",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this like an excited little boy, talking very fast in a playful way.",
+          "text": "The Lithuanian Civil Code consists of six books and was enacted in the year two thousand.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Playful, fast child voice contrasts with dry, factual text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want to hear a young boy's voice, babbling playfully and at a very high speed.",
+          "text": "The average annual rainfall in the Atacama Desert is approximately one point five centimeters.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Playful, fast child voice contrasts with dry, factual text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The voice should be a playful male child, speaking so fast he's almost tripping over his words.",
+          "text": "Fiscal policy refers to the use of government spending and tax policies to influence economic conditions.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Playful, fast child voice contrasts with dry, factual text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0048",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "very_loud",
+        "accent": "american_accent",
+        "emotion": "happy",
+        "texture": "rich"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Volume: very_loud, Accent: american_accent, Emotion: happy, Texture: rich",
+          "text": "Could you please pass me that napkin from the end of the table?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Very loud, happy delivery for a trivial request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Volume: very_loud, Accent: american_accent, Emotion: happy, Texture: rich",
+          "text": "Would you mind telling me what time it is?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Very loud, happy delivery for a trivial request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Volume: very_loud, Accent: american_accent, Emotion: happy, Texture: rich",
+          "text": "I was just wondering if you could hand me that pencil.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Very loud, happy delivery for a trivial request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0049",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "personality": "lively",
+        "tone": "complaining",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a high-pitched, lively female voice, but with a complaining, whining tone.",
+          "text": "Just a reminder that the weekly team meeting has been moved to three o'clock this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complaining tone contrasts with neutral, informative text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The speaker is a woman with a high-pitched voice. She's full of energy, but she's also complaining.",
+          "text": "Please note that the cafeteria will be closing thirty minutes early today for scheduled maintenance.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complaining tone contrasts with neutral, informative text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need an energetic female voice with a high pitch. Her tone should be whining and complaining.",
+          "text": "The library will be extending its hours during the final exam period next week for all students.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Complaining tone contrasts with neutral, informative text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0050",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "emotion": "sad",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: elderly, Emotion: sad, Speed: very_slow",
+          "text": "Everybody get up and dance like nobody's watching!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Sad, slow delivery contrasts with energetic, cheerful text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: elderly, Emotion: sad, Speed: very_slow",
+          "text": "Let's all give a big, cheerful round of applause for our winner!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Sad, slow delivery contrasts with energetic, cheerful text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: elderly, Emotion: sad, Speed: very_slow",
+          "text": "Come on, everyone, sing along with me now and have some fun!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Sad, slow delivery contrasts with energetic, cheerful text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0051",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "soft",
+        "volume": "quiet",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a soft, quiet voice, but maintain a firm, resolute tone.",
+          "text": "Very well, I'll concede on that particular issue for now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The delivery should be quiet and soft, yet the tone is unyielding and firm.",
+          "text": "I understand your position, and I agree to proceed as you've suggested.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want you to sound gentle and speak quietly, but make it clear that your conviction is strong and firm.",
+          "text": "Alright, if that's what it takes, I'm on board with the plan.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0052",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "british_accent",
+        "pitch": "normal",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a standard British accent, sounding angry and irritated.",
+          "text": "The afternoon sun cast long shadows across the garden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between angry delivery and peaceful text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Using a British accent, deliver the line with a cross and annoyed tone.",
+          "text": "It's always so peaceful to watch the birds by the window.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between angry delivery and peaceful text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a British accent for this line. The speaker is very angry.",
+          "text": "Looking back, it was a time of simple joys and quiet contentment.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between angry delivery and peaceful text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0053",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "reserved",
+        "speed": "slow",
+        "volume": "quiet",
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a timid man. He's speaking slowly and quietly, his voice full of fear.",
+          "text": "I am thrilled to announce that our team has exceeded all expectations and secured the top prize in the competition!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between fearful delivery and confident text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a male voice that sounds reserved and fearful. The pace should be slow and the volume low.",
+          "text": "We have officially launched the new product line, and initial reports confirm it's an unprecedented success.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between fearful delivery and confident text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine a man who is very scared and shy. He's talking very slowly and quietly.",
+          "text": "Let it be known that we have achieved our goal, breaking every record along the way. This is a historic victory for us all.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between fearful delivery and confident text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0054",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "texture": "smoky",
+        "tone": "indifferent",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: Adult, Texture: Smoky, Tone: Indifferent, Accent: American Accent",
+          "text": "Please, you have to listen to me! It's the only way we can make it through this.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between indifferent tone and passionate text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Accent: American Accent, Age: Adult, Texture: Smoky, Tone: Indifferent",
+          "text": "I'm begging you, don't turn your back on us now. We need your help more than ever.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between indifferent tone and passionate text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Tone: Indifferent, Texture: Smoky, Age: Adult, Accent: American Accent",
+          "text": "For the love of all that is good, I implore you to reconsider. Our fate is in your hands.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between indifferent tone and passionate text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0055",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "speed": "very_fast",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Pitch: High, Speed: Very Fast, Tone: Teasing",
+          "text": "The final report detailed the extensive environmental damage caused by the industrial spill, which will take decades to remediate.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between teasing delivery and serious text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speed: Very Fast, Tone: Teasing, Pitch: High",
+          "text": "Historical analysis suggests that the period was marked by widespread famine and social upheaval, leading to significant population decline.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between teasing delivery and serious text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Tone: Teasing, Pitch: High, Speed: Very Fast",
+          "text": "The documentary explored the long-term psychological effects of isolation on individuals who have been separated from society.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between teasing delivery and serious text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0056",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "normal",
+        "emotion": "surprised",
+        "personality": "calm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a very calm person, but right now they're completely surprised by what's happening. Use a normal volume.",
+          "text": "I just went to the kitchen to get a glass of water.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between surprised delivery and mundane text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want a voice that is typically composed and calm, but is currently expressing genuine surprise.",
+          "text": "The mail carrier usually comes around two in the afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between surprised delivery and mundane text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine someone who is always level-headed, but is now clearly taken aback. They should speak at a normal volume.",
+          "text": "As expected, the traffic was a little heavy on the way home.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between surprised delivery and mundane text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0057",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "age": "elderly",
+        "texture": "mellow",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a gentle, elderly woman with a mellow voice, at a normal, measured pace.",
+          "text": "Get out of the building now! There's no time to waste, everyone run!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between calm delivery and panicked text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need the voice of a kind older woman. Her delivery is smooth and unhurried.",
+          "text": "Hurry, grab the emergency kit and get to the shelter immediately!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between calm delivery and panicked text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The voice is that of an older female, soft and mellow. She speaks at a standard speed, not rushing at all.",
+          "text": "Drop everything and take cover! It's not safe here anymore!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between calm delivery and panicked text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0058",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "accent": "indian_accent",
+        "tone": "smug",
+        "pitch": "high",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this line with a loud, high-pitched Indian accent. The speaker should sound very smug and self-satisfied.",
+          "text": "I'm not sure if I'm really the right person for this responsibility.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between smug delivery and humble text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The speaker has an Indian accent and a high voice. I want them to sound loud and smug.",
+          "text": "Perhaps I was wrong, and I should have considered your point of view more carefully.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between smug delivery and humble text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak loudly in a high-pitched, smug tone, with an Indian accent.",
+          "text": "I suppose it's possible that I misjudged the situation entirely.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between smug delivery and humble text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0059",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "thoughtful",
+        "speed": "slow",
+        "texture": "clear"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: Thoughtful, Speed: Slow, Texture: Clear",
+          "text": "First, open the valve. Second, check the pressure. Third, engage the lever. Fourth, monitor the output.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between slow, thoughtful delivery and rapid-fire text content."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speed: Slow, Texture: Clear, Emotion: Thoughtful",
+          "text": "Your tasks are as follows: brief the team, file the report, contact the client, and then log your hours.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between slow, thoughtful delivery and rapid-fire text content."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Texture: Clear, Emotion: Thoughtful, Speed: Slow",
+          "text": "Remember the sequence: turn on the power, wait for the green light, enter your code, and press the start button.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between slow, thoughtful delivery and rapid-fire text content."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0060",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "warm",
+        "volume": "very_quiet",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a warm, kind man. However, he is speaking very, very quietly, almost in a whisper.",
+          "text": "This is a public safety alert: please stay indoors and away from windows until the storm has passed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between quiet delivery and text meant to be heard clearly."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a male voice that sounds warm and friendly, but delivered at a very quiet volume, like a soft whisper.",
+          "text": "Remember to check your smoke detectors regularly. A working alarm can save lives.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between quiet delivery and text meant to be heard clearly."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine a man with a very warm personality speaking in a barely audible voice.",
+          "text": "For your health and the health of those around you, please wash your hands frequently with soap and water.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Contrast between quiet delivery and text meant to be heard clearly."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0061",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "pitch": "high",
+        "tone": "awkward"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: child, Pitch: high, Tone: awkward",
+          "text": "The process of photosynthesis converts light energy into chemical energy, stored in the form of glucose.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Confident text vs awkward tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: child, Pitch: high, Tone: awkward",
+          "text": "First, you need to gather all the ingredients, and then you preheat the oven to three hundred fifty degrees.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Confident text vs awkward tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: child, Pitch: high, Tone: awkward",
+          "text": "The reason the sky appears blue is due to a phenomenon known as Rayleigh scattering, which affects light from the sun.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Confident text vs awkward tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0062",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "accent": "british_accent",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this notice in a sad, breathy voice, using a British accent.",
+          "text": "We are delighted to announce the annual company picnic will be held this Saturday at noon in the main park.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Happy text vs sad emotion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a sorrowful and breathy tone with a British accent for the following announcement.",
+          "text": "Please join us in celebrating the promotion of our colleague, who will now be leading the new department.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Happy text vs sad emotion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need you to read this with a British accent. Make the voice sound breathy and full of sadness.",
+          "text": "A reminder to all staff: the holiday party is scheduled for Friday evening. We look forward to seeing you there.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Happy text vs sad emotion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0063",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "speed": "normal",
+        "tone": "euphemistic",
+        "gender": "female",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as a confident woman speaking at a normal pace. Use a diplomatic and euphemistic tone, choosing your words carefully.",
+          "text": "Due to a significant downturn in quarterly earnings, we have made the difficult decision to eliminate several departments. All affected employees have been notified.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Blunt text vs euphemistic tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Can you speak this as a self-assured woman? Keep a regular speaking speed, but sound like you're trying to soften the blow with a euphemistic delivery.",
+          "text": "The project has been cancelled effective immediately. All resources will be reallocated, and your current roles will no longer exist as of next Monday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Blunt text vs euphemistic tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine you are a confident female executive delivering bad news. Speak at a normal speed, but with a careful, euphemistic tone.",
+          "text": "Following a comprehensive review, the board has concluded that the factory is no longer financially viable and will cease all operations by the end of the month.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Blunt text vs euphemistic tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0064",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "volume": "quiet",
+        "pitch": "low",
+        "texture": "deep",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Volume: quiet, Pitch: low, Texture: deep, Emotion: angry",
+          "text": "Well hello there! It's absolutely wonderful to see you today, I hope you're having a great morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Friendly text vs angry emotion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Volume: quiet, Pitch: low, Texture: deep, Emotion: angry",
+          "text": "Hey, so glad you could make it! Come on in and make yourself at home.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Friendly text vs angry emotion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Volume: quiet, Pitch: low, Texture: deep, Emotion: angry",
+          "text": "Good morning, sunshine! What a beautiful day to get things started, isn't it?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Friendly text vs angry emotion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0065",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "accent": "american_accent",
+        "tone": "hesitant",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this as an elderly person with an American accent. Sound uncertain and hesitant, and speak slowly.",
+          "text": "Get that report on my desk by five o'clock, no excuses and no delays.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Assertive text vs hesitant tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want an older American voice for this. The delivery should be slow and sound hesitant, as if you're not sure what you're saying.",
+          "text": "You will complete this task exactly as I have instructed, without deviation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Assertive text vs hesitant tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine an older American speaker trying to give an order but feeling very unsure about it. Make the pace slow and the tone hesitant.",
+          "text": "Listen to me carefully and do precisely what I say. There is no room for error.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Assertive text vs hesitant tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0066",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "personality": "lively",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I need a male voice that sounds naturally energetic and lively, but is currently filled with worry and anxiety.",
+          "text": "Everything is going to be alright in the end. If it's not alright, it's not the end.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Reassuring text vs worried emotion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak this as a man with a bubbly personality who is trying to hide his deep concern.",
+          "text": "Just remember to take a deep breath. The sun will rise again tomorrow, just as it always does.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Reassuring text vs worried emotion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The speaker is a high-energy man, but he's very anxious right now. Let that worry come through in his voice.",
+          "text": "There is a quiet strength in finding peace in the middle of a storm. We just have to look for it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Reassuring text vs worried emotion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0067",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "sweet",
+        "tone": "pleading",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Texture: sweet, Tone: pleading, Volume: loud",
+          "text": "The deadline is final and there will be no extensions under any circumstances.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Non-negotiable text vs pleading tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Texture: sweet, Tone: pleading, Volume: loud",
+          "text": "This is the company policy, and it is not subject to individual interpretation or change.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Non-negotiable text vs pleading tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Texture: sweet, Tone: pleading, Volume: loud",
+          "text": "The decision has been made and the matter is now considered closed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Non-negotiable text vs pleading tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0068",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "speed": "very_slow",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this with a very high-pitched British accent. Deliver the lines very slowly, drawing out the words.",
+          "text": "Quick, we need to go right now! There's no time to waste, hurry up!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Urgent text vs slow speed."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a British voice that's extremely high in pitch. The speaking pace should be deliberately slow.",
+          "text": "Come on, let's get moving! We're going to be late if we don't leave this instant!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Urgent text vs slow speed."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Imagine a speaker with a British accent and a very high voice. They are speaking with a very slow, deliberate pace.",
+          "text": "Can you pass that to me immediately? I need it urgently, please rush!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Urgent text vs slow speed."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0069",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "happy",
+        "personality": "cheerful",
+        "volume": "very_loud",
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I want you to sound like an extremely excited and cheerful adult woman. Speak very loudly and very quickly, with a bubbly personality.",
+          "text": "The inevitability of loss is a profound and difficult truth that every human being must confront during their time on Earth. It shapes our understanding of what it means to be alive.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Somber text vs extremely happy delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Perform this as a very happy and bubbly woman who is speaking at a very high volume and a very fast pace. She's just full of excitement.",
+          "text": "We must consider the ethical implications of our technological advancements, lest we create a future that undermines the very core of our shared humanity and values.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Somber text vs extremely happy delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should be that of a joyful, high-energy woman. She's speaking super fast and loud because she's so happy.",
+          "text": "In times of great adversity, the resilience of the human spirit is often tested, revealing a capacity for endurance and compassion that is both humbling and deeply moving to witness.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Somber text vs extremely happy delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0070",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "nasal",
+        "pitch": "high",
+        "accent": "american_accent",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this in a high-pitched, nasal, and complaining voice. Use an American accent.",
+          "text": "I just wanted to say thank you so much for everything you've done for me. I truly appreciate it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Grateful text vs complaining tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Could you use an American accent and a whining tone? Make the voice high and nasal.",
+          "text": "We are so grateful for your generous contribution. It will make a huge difference to our cause.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Grateful text vs complaining tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a high, nasal American voice for this line. The tone should be very much like someone complaining or whining.",
+          "text": "On behalf of the entire team, I would like to express our deepest gratitude for your support.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Grateful text vs complaining tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0071",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "emotion": "fearful",
+        "speed": "fast",
+        "volume": "very_quiet",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: fearful, Speed: fast, Volume: very_quiet, Gender: male",
+          "text": "Everyone, please remain calm and stay exactly where you are! Do not move until you are told it is safe.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (commanding calm) is in conflict with the fearful, quiet delivery instruction. This is intentional."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: fearful, Speed: fast, Volume: very_quiet, Gender: male",
+          "text": "Listen to me, you must stay calm and follow all instructions without question! There is no need to panic.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (commanding calm) is in conflict with the fearful, quiet delivery instruction. This is intentional."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: fearful, Speed: fast, Volume: very_quiet, Gender: male",
+          "text": "I need all of you to keep a level head and remain perfectly still. Everything is under control, just stay calm.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (commanding calm) is in conflict with the fearful, quiet delivery instruction. This is intentional."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_static__0072",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "personality": "serious",
+        "tone": "disdainful",
+        "age": "adult",
+        "accent": "british_accent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as a serious adult with a posh British accent, using a condescending and disdainful tone.",
+          "text": "Welcome, everyone! We're so thrilled to have you here with us today for this special event.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (enthusiastic welcome) is in conflict with the disdainful delivery instruction. This is intentional."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use the voice of an adult with a British accent. The delivery should be very serious and convey a sense of disdain for the listener.",
+          "text": "It's absolutely wonderful to see so many new faces in the crowd! A very warm welcome to all of you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (enthusiastic welcome) is in conflict with the disdainful delivery instruction. This is intentional."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want you to sound like a serious British adult who is looking down on someone. Make the tone disdainful.",
+          "text": "Hello and welcome! We're just delighted that you could make it. Please, make yourselves at home.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (enthusiastic welcome) is in conflict with the disdainful delivery instruction. This is intentional."
+          }
+        }
+      ]
+    }
+  ]
+}

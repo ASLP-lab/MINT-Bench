@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/non_ip_archetype",
+  "language": "ja",
+  "source_plan_file": "hard__composite__persona__non_ip_archetype.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Adopt the voice of a graceful and noble young princess, conveying a sense of warmth and optimism.",
+      "text": "いつか、この国中の人々が心から笑い合える日が来ることを、私は信じています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the persona, text is a hopeful statement about the people's happiness."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0001",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "princess"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Speak as a resolute and commanding queen, with a tone of unwavering conviction and regal grace.",
+      "text": "これより、新たな時代への第一歩を踏み出します。皆の者、私に力を貸してください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a queen's persona, text is a formal proclamation about the nation's future."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0002",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "queen"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Your voice is that of a very old and knowledgeable wizard. Explain the workings of fate with a slow, deliberate pace and a sense of great wisdom.",
+      "text": "万物は流転し、定められた軌道を描く。だが、その軌道さえも、強き意志の前には僅かに揺らぐことがある。古の力とは、その揺らぎを見極め、導くためのものなのだよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a wizard persona, text is a complex explanation about fate and ancient power."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0003",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "wizard"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Speak as a sly, cunning witch, offering a piece of advice with a hint of a cackle and dark amusement.",
+      "text": "おや、迷子かい？その道を行けば望みは叶うかもしれないよ。もっとも、代償は高くつくだろうけどねえ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a witch persona, text is a cryptic and menacing piece of advice."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0004",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "witch"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Your voice is that of a dutiful and honorable warrior, pledging fealty with deep sincerity and conviction.",
+      "text": "たとえこの身が朽ち果てようとも、我が魂は永遠にあなた様と共にあり、お仕えし続けるでしょう。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a knight persona, text is a solemn oath of eternal service."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0005",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "knight"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Speak with the musical and timeless quality of an elf, as if you are one with the wind you are describing.",
+      "text": "風には形がありませんが、意思があります。花の香りを運び、雲を動かし、そして時には、忘れられた歌を遠い場所へと届けるのです。その歌が聞こえますか？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes an elf persona, text is a poetic description of the wind."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0006",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "elf"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Your voice is that of a charming but dangerous vampire. Deliver a monologue on time with a sense of superiority and deep ennui.",
+      "text": "あなたがたは時間を惜しむが、我々にとって時間とは、ただ過ぎ去るのを眺めるだけのもの。その価値観の違いが、我々とあなた方を隔てる壁なのです。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a vampire persona, text is a cynical reflection on time."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0007",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "vampire_noble"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Adopt the persona of a mournful ghost. Your delivery should be a quiet, breathy whisper, conveying a sense of being lost and alone.",
+      "text": "昔、ここで誰かと約束したような…でも、それが誰だったのか、どんな約束だったのか、もう…わかりません…",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a ghost persona, text is a whispered lament about a forgotten promise."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0008",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "ghost"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Embody a vengeful, undead spirit. Your voice should be cold, hollow, and filled with chilling resolve.",
+      "text": "この恨み、決して忘れはしない。たとえこの体が滅びようとも、私の憎しみは永遠にお前を追い続ける。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a vengeful spirit, text is a promise of retribution."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0009",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "undead_spirit"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0001",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "princess"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Embody the character of a young, kind-hearted princess, speaking with grace and a gentle, hopeful tone.",
+          "text": "この庭の花々が、いつまでも美しく咲き続けますように。そして、この平和が永遠に続きますように。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the persona, text is a hopeful statement about a garden and peace."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Adopt the voice of a graceful and noble young princess, conveying a sense of warmth and optimism.",
+          "text": "いつか、この国中の人々が心から笑い合える日が来ることを、私は信じています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the persona, text is a hopeful statement about the people's happiness."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice should be that of a refined and gentle princess, full of hope for the future.",
+          "text": "小鳥のさえずりが聞こえますか？この美しい庭が、皆の心を癒してくれるといいのですが。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the persona, text is a gentle observation and wish related to a garden."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0002",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "queen"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver the lines with the authority and dignity of a powerful queen, your voice firm and resolute.",
+          "text": "我が民のためならば、この身を捧げる覚悟はできています。未来を切り拓くのは、我々の義務なのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a queen's persona, text is a formal proclamation about duty and sacrifice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speak as a resolute and commanding queen, with a tone of unwavering conviction and regal grace.",
+          "text": "これより、新たな時代への第一歩を踏み出します。皆の者、私に力を貸してください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a queen's persona, text is a formal proclamation about the nation's future."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Adopt the persona of a dignified queen, speaking with gravitas about the sacrifices necessary for the nation.",
+          "text": "この国の未来のため、いかなる困難も乗り越えてみせましょう。それが私の果たすべき務めです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a queen's persona, text is a formal proclamation about duty and overcoming hardship."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0003",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "wizard"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speak as a wise and ancient wizard, patiently explaining a profound cosmic secret. Your voice should be deep and measured.",
+          "text": "夜空に輝く星々は、ただの光ではない。あれは古の力が紡いだ運命の糸、我々の行く末を静かに示しているのだ。その流れを読むには、心の目を開かねばならん。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a wizard persona, text is a complex explanation about stars and fate."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice is that of a very old and knowledgeable wizard. Explain the workings of fate with a slow, deliberate pace and a sense of great wisdom.",
+          "text": "万物は流転し、定められた軌道を描く。だが、その軌道さえも、強き意志の前には僅かに揺らぐことがある。古の力とは、その揺らぎを見極め、導くためのものなのだよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a wizard persona, text is a complex explanation about fate and ancient power."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Adopt the persona of an ancient sage or wizard, revealing a deep truth about the world with a patient and slightly mysterious tone.",
+          "text": "この世界の理は、目に見えるものだけで成り立っているわけではない。遥か昔、星々が生まれた時から存在する力が、今もなお、我々の運命に静かに干渉している。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a wizard persona, text is a complex explanation about unseen powers and stars."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0004",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "witch"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speak as a sly, cunning witch, offering a piece of advice with a hint of a cackle and dark amusement.",
+          "text": "おや、迷子かい？その道を行けば望みは叶うかもしれないよ。もっとも、代償は高くつくだろうけどねえ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a witch persona, text is a cryptic and menacing piece of advice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should be that of a cackling witch, finding grim humor in warning the listener about a perilous choice.",
+          "text": "その願い、本当に叶えたいのかい？手に入れた後で後悔しても、もう戻れはしないのさ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a witch persona, text is an ambiguous warning about a wish."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Embody a wicked witch giving a cryptic warning. Your tone should be menacingly playful, with a rasp in your voice.",
+          "text": "気をつけるんだよ。森の奥には、甘い誘惑と深い絶望が口を開けて待っているからねぇ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a witch persona, text is a menacing piece of advice about a forest."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0005",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "knight"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speak with the unwavering voice of a stoic and honorable knight, making a solemn oath.",
+          "text": "この身ある限り、必ずやあなた様をお守りいたします。いかなる脅威からも、この盾となって。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a knight persona, text is a solemn promise of protection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Adopt the persona of a loyal knight, your tone firm, serious, and full of unwavering resolve.",
+          "text": "我が忠誠は、ただあなた様一人のために。この誓いは、決して揺らぐことはありません。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a knight persona, text is a solemn promise of loyalty."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice is that of a dutiful and honorable warrior, pledging fealty with deep sincerity and conviction.",
+          "text": "たとえこの身が朽ち果てようとも、我が魂は永遠にあなた様と共にあり、お仕えし続けるでしょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a knight persona, text is a solemn oath of eternal service."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0006",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "elf"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Your voice should be ethereal and melodic, like an ancient elf speaking of the forest's secrets.",
+          "text": "森の息吹に耳を澄ませてごらんなさい。風は木の葉を揺らし、千年の物語を囁いています。私たちはずっと、その声と共に生きてきたのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an elf persona, text is a poetic description of the forest and wind."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Adopt the graceful, ancient, and slightly distant voice of an elf, describing nature with a sense of deep connection.",
+          "text": "あの巨木を見て。あれはただの木ではありません。大地に深く根を張り、空と語らい、季節の移ろいを静かに見守ってきた、森の賢者なのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an elf persona, text is a poetic description of a great tree in the forest."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Speak with the musical and timeless quality of an elf, as if you are one with the wind you are describing.",
+          "text": "風には形がありませんが、意思があります。花の香りを運び、雲を動かし、そして時には、忘れられた歌を遠い場所へと届けるのです。その歌が聞こえますか？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an elf persona, text is a poetic description of the wind."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0007",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "vampire_noble"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speak as an ancient, aristocratic vampire noble. Your tone should be smooth, charming, and world-weary, with a subtle undercurrent of menace.",
+          "text": "人の一生とは、実に儚いものですね。瞬く間に生まれ、そして消えていく。悠久の時を生きる我々には、まるで夜空を流れる星のようです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a vampire persona, text is a cynical monologue on mortality."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Adopt the persona of a sophisticated and cynical noble who has lived for centuries. Your voice is captivating but carries a cold detachment.",
+          "text": "時代は変われど、人の営みはいつも同じ。愛、憎しみ、欲望…何度見せられれば、この退屈は終わるのでしょうか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a vampire persona, text is a world-weary reflection on human nature."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice is that of a charming but dangerous vampire. Deliver a monologue on time with a sense of superiority and deep ennui.",
+          "text": "あなたがたは時間を惜しむが、我々にとって時間とは、ただ過ぎ去るのを眺めるだけのもの。その価値観の違いが、我々とあなた方を隔てる壁なのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a vampire persona, text is a cynical reflection on time."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0008",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "ghost"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Your voice should be a sorrowful, airy whisper, as if you are a ghost lamenting a lost memory.",
+          "text": "ここは…どこなのでしょう。懐かしい香りがするのに、何も思い出せないのです…私は、ずっとここにいるのでしょうか…",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a ghost persona, text is a whispered lament about being lost."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speak as a lost spirit, with a distant and echoing quality to your voice, full of sadness.",
+          "text": "あの人の名前を…呼びたいのに、声が出ない。暖かい光が、私を置いて遠ざかっていく…",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a ghost persona, text is a whispered lament about a faded memory."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Adopt the persona of a mournful ghost. Your delivery should be a quiet, breathy whisper, conveying a sense of being lost and alone.",
+          "text": "昔、ここで誰かと約束したような…でも、それが誰だったのか、どんな約束だったのか、もう…わかりません…",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a ghost persona, text is a whispered lament about a forgotten promise."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_non_ip_archetype__0009",
+      "meta_path": "hard/composite/persona/non_ip_archetype",
+      "target_values": {
+        "non_ip_archetype": "undead_spirit"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Embody a vengeful, undead spirit. Your voice should be cold, hollow, and filled with chilling resolve.",
+          "text": "この恨み、決して忘れはしない。たとえこの体が滅びようとも、私の憎しみは永遠にお前を追い続ける。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a vengeful spirit, text is a promise of retribution."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speak as a cold, malevolent spirit promising retribution. Your delivery should have a ghostly, echoing quality.",
+          "text": "私を裏切ったこと、後悔させてやる。お前がどこへ逃げようと、私の声からは逃れられない。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a vengeful spirit, text is a direct curse."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Adopt the persona of a vengeful spirit bound by a curse. Your voice is chillingly calm and devoid of warmth, promising an inescapable fate.",
+          "text": "我々の絆は、死んでも断ち切れない。お前は、私と共にこの闇を永遠に彷徨うのだ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a vengeful spirit, text is a curse about an unbreakable bond."
+          }
+        }
+      ]
+    }
+  ]
+}

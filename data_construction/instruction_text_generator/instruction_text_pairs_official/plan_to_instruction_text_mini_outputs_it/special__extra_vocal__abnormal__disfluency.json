@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/disfluency",
+  "language": "it",
+  "source_plan_file": "special__extra_vocal__abnormal__disfluency.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Say this with a noticeable stutter.",
+      "text": "Potremmo avere il conto quando ha un momento, per favore?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Your speech is marked by the repetition of certain syllables or short words.",
+      "text": "L'acqua è composta da due atomi di idrogeno e un atomo di ossigeno.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. As you say this, sometimes get stuck on a word, where no sound comes out for a moment.",
+      "text": "La capitale della Francia è Parigi, una città famosa per la sua arte e cultura.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Italian. You have difficulty starting to speak. Read this line with a hesitant onset.",
+      "text": "Attenzione, il negozio chiuderà tra dieci minuti.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Italian. Read this whole passage with a noticeable stutter.",
+      "text": "A volte penso che il tempo passi troppo in fretta. Ricordo ancora quando ero bambino e le estati sembravano non finire mai.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Italian. Deliver this line with a disfluency where you often repeat the beginning of your words.",
+      "text": "Dobbiamo ricordarci di comprare il latte quando torniamo a casa.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read the text with a stutter.",
+          "text": "Potresti passarmi quel libro sullo scaffale, per favore?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Deliver the line as someone who has a stutter.",
+          "text": "Mi scusi, potrebbe indicarmi la strada per la stazione?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Say this with a noticeable stutter.",
+          "text": "Potremmo avere il conto quando ha un momento, per favore?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this sentence, but repeat some of the initial sounds or syllables of the words as you speak.",
+          "text": "Il processo di fotosintesi converte l'energia luminosa in energia chimica.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Deliver the line with an involuntary repetition of some words and sounds.",
+          "text": "La rotazione terrestre è la causa principale dell'alternarsi del giorno e della notte.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Your speech is marked by the repetition of certain syllables or short words.",
+          "text": "L'acqua è composta da due atomi di idrogeno e un atomo di ossigeno.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. As you say this, sometimes get stuck on a word, where no sound comes out for a moment.",
+          "text": "La capitale della Francia è Parigi, una città famosa per la sua arte e cultura.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your speech has blocks where you pause, unable to get the word out.",
+          "text": "Il sole sorge a est e tramonta a ovest ogni giorno.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Read the sentence as if you have a speech block, occasionally freezing mid-word before continuing.",
+          "text": "Il Monte Everest è la montagna più alta del mondo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say this announcement, but have a lot of trouble and hesitation getting the first few words out.",
+          "text": "Il treno per Milano è in arrivo al binario cinque.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. You have difficulty starting to speak. Read this line with a hesitant onset.",
+          "text": "Attenzione, il negozio chiuderà tra dieci minuti.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Begin this sentence with a lot of hesitation, as if you're struggling to start speaking.",
+          "text": "L'imbarco per il volo AZ789 è ora aperto al gate B12.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Read this whole passage with a noticeable stutter.",
+          "text": "A volte penso che il tempo passi troppo in fretta. Ricordo ancora quando ero bambino e le estati sembravano non finire mai.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your speech has a consistent stutter. Read the following lines.",
+          "text": "Camminare nel bosco è una delle mie attività preferite. I suoni della natura mi aiutano a rilassarmi e a schiarirmi le idee.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver this reflection as someone who has a stutter that affects their speech throughout.",
+          "text": "Credo che imparare una nuova lingua apra la mente. Ti permette di vedere il mondo da una prospettiva diversa e di connetterti con più persone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__it__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Italian. Say this line casually, but with a tendency to repeat the first sound of some words.",
+          "text": "Penso che andrò al cinema stasera, c'è un film nuovo che voglio vedere.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Italian. Your speech pattern involves repeating the initial syllable of words. Read this sentence.",
+          "text": "Ho appena comprato questo maglione, ti piace il colore?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Italian. Deliver this line with a disfluency where you often repeat the beginning of your words.",
+          "text": "Dobbiamo ricordarci di comprare il latte quando torniamo a casa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

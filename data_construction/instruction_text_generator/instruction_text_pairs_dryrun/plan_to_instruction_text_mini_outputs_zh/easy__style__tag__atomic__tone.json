@@ -1,0 +1,471 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/tone",
+  "language": "zh",
+  "source_plan_file": "easy__style__tag__atomic__tone.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "语气：坚决",
+      "text": "把这份文件立刻送到经理办公室。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard atomic tag instruction."
+      },
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0001",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0001",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：坚决",
+          "text": "把这份文件立刻送到经理办公室。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：坚决",
+          "text": "会议期间请保持安静。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：坚决",
+          "text": "你现在就去完成这项任务。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0002",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：犹豫",
+          "text": "我不知道这么做是不是最好的选择。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：犹豫",
+          "text": "我们真的要现在就开始吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：犹豫",
+          "text": "也许我们可以再考虑一下这个计划。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0003",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：讽刺",
+          "text": "哦，你可真是个天才，这都能想到。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：讽刺",
+          "text": "这主意听起来好极了，完全没有任何问题。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：讽刺",
+          "text": "我非常期待看到这个计划的成果。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0004",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：抱怨",
+          "text": "今天又要加班到很晚才能回家。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：抱怨",
+          "text": "这已经是这个星期第三次堵车了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：抱怨",
+          "text": "我手头还有三个报告没写完呢。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0005",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：恳求",
+          "text": "再给我一次机会好吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：恳求",
+          "text": "就帮我这一次吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：恳求",
+          "text": "我真的很需要你的帮助。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0006",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：冷漠",
+          "text": "下午三点的会议照常进行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：冷漠",
+          "text": "你的快递已经放在前台了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：冷漠",
+          "text": "水电费的账单已经出来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0007",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：俏皮",
+          "text": "你猜我今天发现了什么？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：俏皮",
+          "text": "我就不告诉你答案是什么。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：俏皮",
+          "text": "这个东西看起来有点意思。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0008",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：失望",
+          "text": "我以为今天会收到回复的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：失望",
+          "text": "结果和我们预想的不太一样。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：失望",
+          "text": "他最后还是没有来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0009",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：戏谑",
+          "text": "哟，今天穿得这么正式啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：戏谑",
+          "text": "没想到你还有这一面呢。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：戏谑",
+          "text": "你是不是有什么事情瞒着我们？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_tag_atomic_tone__0010",
+      "meta_path": "easy/style/tag/atomic/tone",
+      "target_values": {
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "语气：挑衅",
+          "text": "那我们就等着看好了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语气：挑衅",
+          "text": "我的看法就是这样，没有改变。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "语气：挑衅",
+          "text": "随便你怎么想，我不在乎。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard atomic tag instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

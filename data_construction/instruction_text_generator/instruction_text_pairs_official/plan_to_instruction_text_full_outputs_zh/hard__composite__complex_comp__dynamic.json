@@ -1,0 +1,2767 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "zh",
+  "source_plan_file": "hard__composite__complex_comp__dynamic.json",
+  "num_input_items": 36,
+  "num_output_items": 36,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "我需要一个语速递增的效果。一开始用沉稳缓慢的语调，然后逐渐加速，到结尾时语速要非常快，有一种紧迫感。",
+      "text": "故事的开头很平静，主角只是在小镇上过着日复一日的生活。然而，一个偶然的发现打破了这份宁静，线索开始一个个浮现。最后，真相大白，所有的谜团汇集到一点，指向一个惊人的阴谋。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes a story's plot development, building momentum towards a climax."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "normal",
+          "fast"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请用先快后慢的语速来讲述。开头要非常急促，充满紧张感，结尾则要放慢节奏，进入一种沉思的状态。",
+      "text": "电话响个不停，邮件一封接一封地弹出来，老板在咆哮，客户在催促，我感觉自己快要爆炸了！就在这时，我一抬头，看见窗外的夕阳，染红了半边天，那一刻，所有的喧嚣都离我远去。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes a frantic work situation that resolves into a moment of peace."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "very_fast",
+          "slow"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "朗读时，请在中间部分将语速提至最快，然后再放缓，恢复到开始时的正常速度。",
+      "text": "我看着这幅画，起初只觉得色彩很和谐。但当我注意到那个角落的签名时，我瞬间明白了，这个签名，这个笔触，还有颜料的质感，这绝对是那位失踪多年的大师的作品！这个发现让我重新审视了整幅画。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text describes a sudden realization while observing art."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "very_fast",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用逐渐增强的音量来朗读。一开始是轻声的，然后音量正常，最后要大声地喊出来。",
+      "text": "你们有没有听到什么奇怪的声音？好像是从地下室传来的。等一下，那声音越来越近了，好像有什么东西上来了！快跑！离开这里！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text content builds from a quiet question to a loud command."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "quiet",
+          "normal",
+          "loud"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "开始时要用很大的声音，充满情绪，然后音量逐渐减弱，到结尾时要非常非常轻。",
+      "text": "这不关我的事！你们不能把责任都推给我！我只是…只是在旁边看着。但…我本可以阻止他的。我什么都没做。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text's emotional arc from deflection to quiet guilt supports the volume change."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "loud",
+          "quiet",
+          "very_quiet"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "用正常的音量开始，中间部分情绪爆发，声音变得非常响亮，最后再安静下来，带着一丝疲惫。",
+      "text": "我试了一整天，想把这个程序跑通。我检查了每一行代码，每一个参数，但它就是不行！为什么！为什么就是不行！……算了，就这样吧，我放弃了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text shows rising frustration, an outburst, and then quiet resignation."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "normal",
+          "very_loud",
+          "quiet"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我需要一个音高爬升的效果。开始时声音压低，然后一点点升高，到结尾时达到一个兴奋的高点。",
+      "text": "他一直是个很普通的孩子，成绩平平，毫不起眼。直到有一天，学校举办才艺表演，他走上台，拿起了吉他。当第一个音符响起时，所有人都安静了。当他开始唱歌时，整个礼堂都为他沸腾了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "An underdog story that builds to a triumphant climax."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "low",
+          "normal",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "我需要一个音高下落的效果。从一个略高的音调开始，然后不断下降，最后用一个非常低的音调结束，传达出沉重的消息。",
+      "text": "大家听我说，关于公司的未来，我有一个非常重要的消息要宣布。董事会经过长时间的讨论，最终还是做出了一个艰难的决定。公司…要进行重组了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a formal announcement of bad corporate news, suiting the falling pitch."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "high",
+          "low",
+          "very_low"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "朗读时，音高要有一个突变。开头和结尾音高正常，但在说到关键信息时，要用一个非常高的音调，然后马上恢复。",
+      "text": "我们一直在找那份丢失的文件，翻遍了整个办公室。会不会在昨天的会议室里？不对！那份文件根本就不存在！那只是个幌子！现在我明白了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text describes a sudden insight during an investigation, with a sharp realization."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用一种从平静到开心的情绪转变来朗读。开始时是中性的，在理解了信息后，情绪变得非常高兴。",
+      "text": "嗯，好的，我明白了。所以，你的意思是……我通过了？真的吗？太好了！我真的通过了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text shows a dawning realization of good news, moving from neutral comprehension to joy."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "neutral",
+          "happy"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "表演这段独白，情绪要从忧虑过渡到盛怒。",
+      "text": "我等了你一晚上，电话也不接，信息也不回，我还以为你遇到危险了。没想到，你只是在和他们一起庆祝，庆祝你们是怎么把我耍得团团转的！好，真好！你们真是我的好朋友！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The transition from explicit worry to sarcastic rage is well-defined."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "worried",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用声音演绎出心境的变化：起初是伤感，然后是思考，最终是内心的平静。",
+      "text": "我曾经无法原谅，也无法忘记。那段记忆就像一根刺，扎在心里很多年。我问过无数次为什么，也设想过无数种可能。不过，都过去了。现在，它只是我生命里的一段经历而已。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text effectively conveys the journey from pain to acceptance."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0012",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "sad",
+          "thoughtful",
+          "neutral"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "朗读时，请将语速和音量同步提升，从平稳的陈述过渡到激昂的号召。",
+      "text": "改变从来都不是一件容易的事。它需要勇气，需要决心，更需要我们每个人的参与。不要再等待，不要再观望！是时候让我们用自己的双手，去创造一个属于我们的明天了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Persuasive text that supports a gradual increase in speed and volume."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0013",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "fast"
+        ],
+        "volume": [
+          "normal",
+          "loud"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "在说到最后那个关键问题时，你的语调应该随着紧张感的增加而升高，同时为了强调，语速要放慢。",
+      "text": "我们讨论了所有的细节，分析了每一种可能性，也考虑了最坏的结果。我们做了所有能做的准备。现在，一切都摆在面前了，我只想问你一句：你真的准备好了吗？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text provides a good buildup to the final, emphasized question."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0014",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "high"
+        ],
+        "speed": [
+          "normal",
+          "slow"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "朗读这段话时，请让你的声音慢慢变轻、变低沉，传达出一种放弃抵抗、心灰意冷的感觉。",
+      "text": "曾经我相信，只要我们并肩作战，就没有克服不了的困难。可是你看现在，我们之间只剩下猜忌和疲惫。也许我们真的走到了尽头。就这样结束，也好。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of resignation after a long struggle, perfect for the dynamic change."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0015",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "normal",
+          "quiet"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "请用持续响亮的声音进行播报。开始时语速较慢，吐字清晰，然后逐渐加快播报速度。",
+      "text": "各位市民请注意，以下为紧急通知。因前方路段发生意外事故，三号线地铁将临时停运。请各位乘客听从工作人员指引，有序离站，换乘其他交通工具。重复一遍，三号线临时停运。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Classic public announcement text that fits the constant loud volume and accelerating speed."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0016",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "这段话的情绪和音量是递进的。从低声的、中立的陈述开始，最后演变成高声的、充满怒气的质问。",
+      "text": "请你冷静一点，我们先理清事实。事情的经过是这样的…… 等等，你这是什么意思？你是在怀疑我吗？在你心里我就是这样的人？我受够了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The escalation from trying to be calm to becoming angry is very clear."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0017",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "emotion": [
+          "neutral",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "开始时，用坚定、正常的语速说话。讲到后面，随着疑虑的产生，语速要变得非常缓慢，语气也变得犹豫不决。",
+      "text": "这个计划的核心理念是绝对正确的，这一点我毫不怀疑。我们只需要按部就班地执行下去…… 但，我最近一直在想，我们是不是忽略了什么…… 也许，也许这个前提本身，就……有问题？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text shows a clear shift from certainty to doubt, supporting the dynamic change in delivery."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0018",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "very_slow"
+        ],
+        "tone": [
+          "firm",
+          "hesitant"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "朗读时，情绪和音高要发生急剧变化。从平淡的叙述，瞬间切换到极度惊讶的语调，音高也要提得非常高。",
+      "text": "这场魔术表演有点无聊，就是些普通的纸牌戏法。魔术师把最后一张牌翻了过来，应该是黑桃A。可翻过来的竟然是…… 我的身份证？这怎么可能！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The personal and unexpected nature of the surprise makes the dynamic shift very effective."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0019",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high"
+        ],
+        "emotion": [
+          "neutral",
+          "surprised"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "开始时用响亮、坚定的语气说话，表明自己的立场。但说到最后，要转变为轻声的、近乎恳求的语调。",
+      "text": "我说的每一句话都是事实，我有证据！你不可以这样不分青红皂白地指责我！…… 好吧，就算…… 就算我错了，你能不能…… 再给我一次机会？求你了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text clearly shows a breakdown from a strong defense to a plea."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0020",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "tone": [
+          "firm",
+          "pleading"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用一个先喜后悲的表演方式。开头用活泼开心的语气讲述，然后平滑地过渡到伤感、失望的情绪。",
+      "text": "我上大学的时候，最好的朋友承诺说我毕业典礼那天他一定会来。我们甚至开玩笑说，他要穿上最滑稽的衣服，在人群里一眼就能看到他。我真的满心期待，可毕业那天，我从头到尾在人群里找了无数遍，始终没有看到那个熟悉的身影，只收到了一条简短的抱歉短信。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text provides a clear narrative arc for the emotional transition."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0021",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "happy",
+          "sad"
+        ],
+        "tone": [
+          "playful",
+          "disappointed"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "开始时用一种深思而冷淡的语气陈述事实，好像在分析一个与自己无关的问题。当意识到其中的危险时，语气立刻变得恐惧和急切。",
+      "text": "这份报告显示，过去三个月我们地区的异常气象事件增加了百分之三十，这在数据上看只是个普通的波动。但是……等一下，如果把这个数据和地质勘探报告里提到的地壳活跃度结合起来看……天哪，这意味着我们脚下的火山随时可能喷发！我们必须马上疏散所有人！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text presents a clear point of realization for the dynamic shift."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0022",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "thoughtful",
+          "fearful"
+        ],
+        "tone": [
+          "indifferent",
+          "urging"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "先用一种带着怒气和不服输的口吻说话，像是在发泄情绪，之后转为平静而坚决的语气，陈述一个事实。",
+      "text": "你们凭什么认为这个项目一定会失败？就因为我年轻吗？我告诉你们，你们都错了！我已经厌倦了向你们证明自己。所以，不必再争论了。我已经用我自己的资金启动了这个项目，无论结果如何，都由我一人承担。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text clearly separates the outburst from the calm decision."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0023",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "angry",
+          "neutral"
+        ],
+        "tone": [
+          "defiant",
+          "firm"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请用坚定的语调进行汇报。前半段保持中立，客观地呈现数据，后半段在解释这些数据的含义时，情绪要转为忧虑。",
+      "text": "从这份体检报告来看，您的大部分常规指标，比如血压和血糖，都在正常范围内。不过，我们注意到您的几项肿瘤标志物指数略高于正常水平。这本身不代表任何确定的诊断，但我们认为有必要进行更进一步的影像学检查来排除风险。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text structure supports the gradual shift in emotion."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0024",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "neutral",
+          "worried"
+        ],
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "你的表演需要一个从平静到愤怒的完整过程。开始时语速慢，声音小，情绪平静，然后逐步加速，声音变大，最后以愤怒的情绪达到高潮。",
+      "text": "我以为只要我做得足够好，就能够得到认可。我默默地做了那么多事，承担了那么多不属于我的工作。可结果呢？功劳是他们的，错误是我的。凭什么？这不公平！我再也不会这样任人摆布了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text provides a clear crescendo structure."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0025",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "emotion": [
+          "neutral",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "用声音描绘一幅从混乱到沉寂的画面。开头的叙述要快而响亮，随着场景的转换，声音要变得缓慢、轻柔，音调也要更低沉。",
+      "text": "风暴来的时候，海浪像山一样砸在岸上，雨点密集得让人睁不开眼，整栋房子都在摇晃！我们只能躲在地下室里祈祷！……天亮之后，风停了。我们走出去，看到的是一片狼藉。曾经的家园，现在只剩下沉默的残骸。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The narrative structure provides a clear contrast between chaos and aftermath."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0026",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "slow"
+        ],
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "请全程使用正常的音高。前半段语速放慢，带着忧虑的情绪；后半段语速加快，用开心的情绪来讲述。",
+      "text": "眼看着船的燃料就要耗尽了，我们还被困在这片暴风雨里，当时我真的觉得我们可能回不去了。可就在大家绝望的时候，雷达上突然出现了一个小光点！是一艘救援船！我们得救了！他们正在朝我们的方向全速驶来！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text clearly separates the problem from the solution, facilitating the dynamic shift."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0027",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "worried",
+          "happy"
+        ],
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "请先用一种严肃、正常的语调说话。然后，你的语调要变得缓慢、尖锐，并且充满讽刺意味。",
+      "text": "我明确告诉过你，这个花瓶是古董，必须小心轻放。可你呢，把它当成篮球来抛。现在好了，它碎成了几百片。干得真漂亮，我是不是还得给你颁个奖，表彰你出色的破坏能力啊？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text provides a natural transition point from factual statement to sarcasm."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0028",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": [
+          "firm",
+          "sarcastic"
+        ],
+        "speed": [
+          "normal",
+          "slow"
+        ],
+        "pitch": [
+          "normal",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "音量保持不变。你的情绪需要从悲伤开始，然后演变成愤怒，最后平静下来，进入一种沉思的状态。",
+      "text": "他那么努力地生活，对每个人都那么好，最后却得到这样的结局，这让我感到很悲哀。为什么好人没有好报？那些做尽坏事的人反而活得好好的，这简直荒谬！……但话说回来，用这种标准去衡量得失，或许本身就是一种执念吧。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is structured into three clear emotional sections."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0029",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "sad",
+          "angry",
+          "thoughtful"
+        ],
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "你的表演需要一个巨大的转变。开头的反应是音量大、音调高、充满惊讶，然后声音变得轻柔、低沉，进入思考状态。",
+      "text": "他们离婚了？！不会吧！他们可是我们所有人眼中的模范夫妻啊！……不过仔细想想，她上周发的朋友圈，配图是一片大海，文字却只写了“终于自由了”。原来，那个时候就已经有预兆了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text provides a clear point of reaction followed by reflection."
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0030",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "pitch": [
+          "high",
+          "low"
+        ],
+        "emotion": [
+          "surprised",
+          "thoughtful"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用不带感情的语气播报，但整个过程语速、音量和音高持续上升。",
+      "text": "确认启动指令。引力稳定器已激活，功率百分之十五。护盾发生器预热中，能量水平百分之四十。武器系统上线，能量水平百分之六十五。引擎超载模式准备就绪，即将达到最大功率。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0031",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "pitch": [
+          "low",
+          "high"
+        ],
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "故事的开头要讲得快速、活泼、充满喜悦，音量适中。故事的结尾则要放慢语速，变得非常安静，充满悲伤和失望。",
+      "text": "我们一起种下的那棵小树，每天给它浇水，盼着它快快长大。夏天的时候，它真的开花了，小小的，特别漂亮。我们以为它会一直陪着我们，直到那个冬天，一场大雪把它压断了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0032",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "very_slow"
+        ],
+        "emotion": [
+          "happy",
+          "sad"
+        ],
+        "tone": [
+          "playful",
+          "disappointed"
+        ],
+        "volume": [
+          "normal",
+          "quiet"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "开始时用正常、中立的语气说话，然后语速、音量、音调逐渐提高，情绪也越来越愤怒，最后达到顶点。",
+      "text": "我一开始只是觉得有点奇怪，为什么每次开会都挑我不在的时候。后来我发现，他们讨论项目的时候，根本就没打算通知我。现在倒好，出了问题，他们居然想让我一个人来承担所有责任！这简直太离谱了！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0033",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "fast"
+        ],
+        "volume": [
+          "normal",
+          "very_loud"
+        ],
+        "pitch": [
+          "normal",
+          "high"
+        ],
+        "emotion": [
+          "neutral",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "整个过程语气都要坚定。从快速、大声、恐惧的状态，逐渐过渡到缓慢、轻声、情绪平稳的状态。",
+      "text": "这没什么好怕的，只是我的想象在作祟。我是安全的，这里很安全。听我说，一切都会好起来的。专注于呼吸，感受心跳慢下来。好了，我已经没事了，可以继续了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0034",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "slow"
+        ],
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "emotion": [
+          "fearful",
+          "neutral"
+        ],
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "用害怕的感情来叙述。从正常语速、音量和坚定的语调开始，然后为了制造紧张气氛，逐渐变得语速极慢、声音极轻、语气犹豫不决。",
+      "text": "我告诉自己这只是个废弃的仓库，没什么好怕的。我的脚步声在空旷的空间里回响。突然，我听到远处传来一声金属摩擦声。我立刻停了下来，呼吸都变轻了。我不敢……我不敢再往前走了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0035",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "very_slow"
+        ],
+        "volume": [
+          "normal",
+          "very_quiet"
+        ],
+        "tone": [
+          "firm",
+          "hesitant"
+        ],
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "开头用正常的语速和音高，表现出惊讶但无所谓的态度。接着，逐渐转变为缓慢、低沉、深思熟虑的表达，语气中带着一种难以言喻的震撼感。",
+      "text": "所以你的意思是，时间并不是线性的？这说法真新鲜。等一下，如果真是这样，那么过去和未来……就都同时存在于某个维度。我的天……我需要好好想一想这个。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0036",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "slow"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ],
+        "emotion": [
+          "surprised",
+          "thoughtful"
+        ],
+        "tone": [
+          "indifferent",
+          "speechless"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "normal",
+          "fast"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用逐渐加快的语速来朗读。一开始慢一些，然后过渡到正常语速，最后变得很快。",
+          "text": "首先，将两种溶液小心地倒入烧杯中。接着，轻轻摇晃，你会看到颜色开始发生微妙的变化。最终，反应进入高潮，液体剧烈翻腾，释放出大量的热和光。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a chemical reaction with increasing intensity, supporting the speed change."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，请让你的语速从慢到快，分三个阶段变化。开头缓慢，中间正常，结尾部分要很快。",
+          "text": "项目启动初期，我们主要进行市场调研和数据收集，这个阶段进展比较平稳。中期，随着方案的确定，开发工作全面铺开，各项任务并行推进。到了冲刺阶段，所有团队成员都投入进来，日夜兼程，为了按时上线而全力以赴。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a project timeline, naturally accelerating towards the deadline."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我需要一个语速递增的效果。一开始用沉稳缓慢的语调，然后逐渐加速，到结尾时语速要非常快，有一种紧迫感。",
+          "text": "故事的开头很平静，主角只是在小镇上过着日复一日的生活。然而，一个偶然的发现打破了这份宁静，线索开始一个个浮现。最后，真相大白，所有的谜团汇集到一点，指向一个惊人的阴谋。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a story's plot development, building momentum towards a climax."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "very_fast",
+          "slow"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用飞快的语速开始，描述出混乱的场面，然后到结尾时，语速要明显放慢，变得沉静下来。",
+          "text": "警报声突然大作，人们尖叫着四处奔逃，东西被撞得东倒西歪，整个场面乱成一团！我拼命挤出人群，躲在角落里，只听见自己的心跳声，然后，世界突然安静了，只剩下一片羽毛，在空中缓缓飘落。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text shifts from a chaotic escape to a single, quiet observation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用先快后慢的语速来讲述。开头要非常急促，充满紧张感，结尾则要放慢节奏，进入一种沉思的状态。",
+          "text": "电话响个不停，邮件一封接一封地弹出来，老板在咆哮，客户在催促，我感觉自己快要爆炸了！就在这时，我一抬头，看见窗外的夕阳，染红了半边天，那一刻，所有的喧嚣都离我远去。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a frantic work situation that resolves into a moment of peace."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想让你用极快的语速开始这段话，然后逐渐减速，到最后一句时变得非常缓慢而清晰。",
+          "text": "我们拼命地跑，穿过拥挤的街道，跳过障碍物，身后的追赶声越来越近，心脏都快跳出来了！终于，我们冲进了一条小巷，靠在墙上大口喘气，巷子尽头，一只猫懒洋洋地打了个哈欠。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text depicts a chase scene that ends in a quiet, safe alley."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "very_fast",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用正常语速开始，中间部分突然加快，像思绪奔涌一样，最后再回到正常的语速。",
+          "text": "我一直在思考这个问题的症结所在，似乎总有些地方不对劲。等等，如果把这两个看似无关的线索联系起来，那不就意味着他当时根本不在场，一切都是他编造的谎言吗？想到这里，我反而冷静了下来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text structure follows a normal thought, a rapid realization, and a calm conclusion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "这段话的语速需要一个爆发。开头和结尾都保持平稳的语速，但中间要用非常快的速度说出来，表现出思维的火花。",
+          "text": "我本来还在纠结那个方案的细节，觉得怎么都行不通。突然，我意识到，为什么我们非要遵守常规？要是我们逆向操作，先发布产品再收集反馈，这样不仅节省了时间成本，还能快速验证市场！对，就应该这么做。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text shows a moment of creative problem-solving with a burst of ideas."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读时，请在中间部分将语速提至最快，然后再放缓，恢复到开始时的正常速度。",
+          "text": "我看着这幅画，起初只觉得色彩很和谐。但当我注意到那个角落的签名时，我瞬间明白了，这个签名，这个笔触，还有颜料的质感，这绝对是那位失踪多年的大师的作品！这个发现让我重新审视了整幅画。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a sudden realization while observing art."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "quiet",
+          "normal",
+          "loud"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用逐渐增强的音量来朗读。一开始是轻声的，然后音量正常，最后要大声地喊出来。",
+          "text": "你们有没有听到什么奇怪的声音？好像是从地下室传来的。等一下，那声音越来越近了，好像有什么东西上来了！快跑！离开这里！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text content builds from a quiet question to a loud command."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "我需要一个从轻到响的声音效果。开头说得轻一点，像是在自言自语，然后声音逐渐变大，结尾要非常有力量。",
+          "text": "这座桥看起来有点旧了。你们看，桥上好像出现了一些裂缝。不对，裂缝在扩大！我们必须马上离开！所有人快走！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The urgency of the warning escalates naturally, supporting the volume increase."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "让你的声音从安静开始，慢慢变响，最后达到一个高潮，用很大的声音结束。",
+          "text": "天气预报说今天只是小雨。但是你看外面的天，越来越黑了。风也变大了，那边的树都在晃！暴风雨要来了！快关窗户！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes observing a worsening storm, justifying the crescendo."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "loud",
+          "quiet",
+          "very_quiet"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一个从响亮到几乎无声的音量变化来表达。开头要大声，像是在辩解，然后慢慢变轻，最后变成耳语。",
+          "text": "我没有做！你们为什么都看着我？我根本不知道发生了什么！……好吧，我承认，我当时在场。其实…是我做的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text moves from loud denial to a quiet, whispered confession."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "开始时要用很大的声音，充满情绪，然后音量逐渐减弱，到结尾时要非常非常轻。",
+          "text": "这不关我的事！你们不能把责任都推给我！我只是…只是在旁边看着。但…我本可以阻止他的。我什么都没做。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's emotional arc from deflection to quiet guilt supports the volume change."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个递减的音量来朗读。从大声的否认开始，然后音量降低，最后用气声说出真相。",
+          "text": "绝对不是我！我发誓我跟这件事毫无关系！你们找错人了！……其实，我那天晚上确实见过他。是我…把那封信藏起来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a classic confession structure, moving from loud lies to a soft truth."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "normal",
+          "very_loud",
+          "quiet"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用正常的音量开始，中间部分情绪爆发，声音变得非常响亮，最后再安静下来，带着一丝疲惫。",
+          "text": "我试了一整天，想把这个程序跑通。我检查了每一行代码，每一个参数，但它就是不行！为什么！为什么就是不行！……算了，就这样吧，我放弃了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text shows rising frustration, an outburst, and then quiet resignation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时音量要有一个起伏。开头平稳，中间部分大声喊出来，表达极度的不耐烦，结尾时音量降到很低。",
+          "text": "我跟他们解释了无数遍，这个方案是最好的选择。他们就是不听，还在提那些愚蠢的问题！我真的受够了！……随他们便吧，我不管了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text depicts a communication breakdown, leading to a shout of frustration and a quiet withdrawal."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请这样朗读：开始时正常叙述，然后声音突然拔高，变得非常响亮，最后又轻声结束，仿佛泄了气一样。",
+          "text": "我排了三个小时的队，就为了买这张票。眼看就要到我了，他们居然说卖完了！怎么可能！我明明看到还有票的！……唉，真倒霉。回家吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a frustrating everyday scenario that builds to a climax and ends in defeat."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "low",
+          "normal",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用逐渐升高的音高来讲述这个故事。开头用低沉的声线，随着情节发展，音高慢慢抬升，结尾时变得兴奋而高昂。",
+          "text": "我们在那座古老的图书馆里翻找了很久，寻找着传说中的地图。起初，我们一无所获。后来，在一本旧书的夹层里，我们发现了一张羊皮纸。展开一看，天哪，真的是它！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The story of a search builds to an exciting discovery, matching the rising pitch."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，请让你的音高从低到高变化。一开始是沉稳的低音，然后逐渐变得明亮，最后要用高昂的音调来表达惊喜。",
+          "text": "比赛进行到了最后一分钟，我们还落后一分。所有人都觉得没希望了。就在这时，他从中场带球，一路突破，晃过了所有防守队员。他起脚射门了！球进了！我们赢了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a last-minute victory in a sports game, a classic scenario for rising excitement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我需要一个音高爬升的效果。开始时声音压低，然后一点点升高，到结尾时达到一个兴奋的高点。",
+          "text": "他一直是个很普通的孩子，成绩平平，毫不起眼。直到有一天，学校举办才艺表演，他走上台，拿起了吉他。当第一个音符响起时，所有人都安静了。当他开始唱歌时，整个礼堂都为他沸腾了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "An underdog story that builds to a triumphant climax."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "high",
+          "low",
+          "very_low"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用逐渐降低的音高来朗读。开头带一点紧张感，音高略高，然后慢慢降下来，最后变得非常低沉和严肃。",
+          "text": "我刚接到医院的电话。他们说，检查结果出来了。情况…比我们想象的要复杂一些。我们…需要做好最坏的打算。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text delivers bad medical news, with the gravity increasing sentence by sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，音高要从高到低变化。开始时声音有些发紧，然后逐渐放松，音高下沉，结尾时非常低沉。",
+          "text": "关于这次的远征计划，我们遇到了一个意想不到的障碍。最初的报告显示一切顺利，但最新的数据显示，前方的风暴系统…异常强大。我们…可能无法按时返航了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes a mission going wrong, with the tone becoming more grave as the problem is revealed."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我需要一个音高下落的效果。从一个略高的音调开始，然后不断下降，最后用一个非常低的音调结束，传达出沉重的消息。",
+          "text": "大家听我说，关于公司的未来，我有一个非常重要的消息要宣布。董事会经过长时间的讨论，最终还是做出了一个艰难的决定。公司…要进行重组了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a formal announcement of bad corporate news, suiting the falling pitch."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high",
+          "normal"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用正常的音高开始，在中间部分突然把音高提到非常高，表现出惊讶，然后又恢复正常。",
+          "text": "我今天出门的时候，记得锁门了，煤气也关了。哦天哪！我把钥匙忘在桌子上了！这下我该怎么回去呢。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text portrays a common, startling realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，音高要有一个突变。开头和结尾音高正常，但在说到关键信息时，要用一个非常高的音调，然后马上恢复。",
+          "text": "我们一直在找那份丢失的文件，翻遍了整个办公室。会不会在昨天的会议室里？不对！那份文件根本就不存在！那只是个幌子！现在我明白了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a sudden insight during an investigation, with a sharp realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我需要一个音高上的“尖峰”效果。大部分时间用正常音高，但在某个词或短语上，音高要急剧升高，之后再降回正常水平。",
+          "text": "我正在整理旧照片，看到了很多小时候的回忆。这张是我们去海边玩的，这张是……等等！照片后面的人是谁？我从来没见过他！这真是太奇怪了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text describes a startling discovery while reminiscing, creating a natural pitch spike."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "neutral",
+          "happy"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用一种从平静到开心的情绪转变来朗读。开始时是中性的，在理解了信息后，情绪变得非常高兴。",
+          "text": "嗯，好的，我明白了。所以，你的意思是……我通过了？真的吗？太好了！我真的通过了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text shows a dawning realization of good news, moving from neutral comprehension to joy."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，请让情绪有一个明显的变化。开头是冷静、客观的，然后逐渐变得喜悦和兴奋。",
+          "text": "请重复一下刚才的获奖名单。第三名是……第二名是……那么第一名是……是我吗？真的是我！我简直不敢相信！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text depicts someone listening to results and realizing they have won."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我需要一个情绪递进的效果。从一个中性的、聆听的状态开始，然后转变为发自内心的高兴。",
+          "text": "所以你今天约我出来，就是为了告诉我这件事吗？……什么？你是在向我求婚吗？天哪！我愿意！我当然愿意！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text shows a reaction to a surprise marriage proposal, a classic neutral-to-happy scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "worried",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "朗读时，从担忧的情绪开始，随着内容发展，逐渐转变为明显的愤怒。",
+          "text": "我不明白，我真的不明白。我以为我们之间有最基本的信任。我到处找你，担心你是不是出了什么事……结果呢？结果你就是这样回报我的？你把我当成什么了？傻瓜吗！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good progression from confusion/worry to anger."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语气应该有一个转变，从一开始的焦虑不安，到最后变成愤怒的质问。",
+          "text": "他们告诉我的时候，我还不相信。我为你找了那么多借口，想着你一定有什么苦衷。可现在证据就摆在眼前，你让我怎么想？你为什么要这么做？为什么要背叛我！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text clearly supports the emotional shift from denial to accusation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "表演这段独白，情绪要从忧虑过渡到盛怒。",
+          "text": "我等了你一晚上，电话也不接，信息也不回，我还以为你遇到危险了。没想到，你只是在和他们一起庆祝，庆祝你们是怎么把我耍得团团转的！好，真好！你们真是我的好朋友！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition from explicit worry to sarcastic rage is well-defined."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0012",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "sad",
+          "thoughtful",
+          "neutral"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "朗读时，情绪需要经历三个阶段：从开始的悲伤，转为中段的沉思，最后以平静释然的语气结束。",
+          "text": "刚失去它的时候，我以为我的世界都崩塌了。后来我花了很长时间去想，这件事到底意味着什么，它又改变了我什么。现在，我终于可以坦然地提起它，就像在说一个别人的故事。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text structure mirrors the three emotional stages perfectly."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的语调要有一个从悲伤到深思，再到坦然接受的演变过程。",
+          "text": "那些年，我总是在夜里因为这件事辗转难眠。我反复回想每一个细节，试图找到一个答案，一个可以让自己好过一点的理由。但现在，我想通了，有些事没有答案，接受它，然后继续生活，才是唯一的出路。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text shows a clear progression of coming to terms with a past event."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用声音演绎出心境的变化：起初是伤感，然后是思考，最终是内心的平静。",
+          "text": "我曾经无法原谅，也无法忘记。那段记忆就像一根刺，扎在心里很多年。我问过无数次为什么，也设想过无数种可能。不过，都过去了。现在，它只是我生命里的一段经历而已。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text effectively conveys the journey from pain to acceptance."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0013",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "fast"
+        ],
+        "volume": [
+          "normal",
+          "loud"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "这是一段演讲。开始时用正常的语速和音量，然后逐渐加快、加强，在结尾达到高潮。",
+          "text": "我们今天站在这里，是为了一个共同的目标。这个目标或许遥远，或许艰难，但我们不能因此而退缩。想想我们的前辈，想想我们的未来！为了这一切，我们必须行动起来，现在就行动起来！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text builds to a clear climax suitable for the instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，请将语速和音量同步提升，从平稳的陈述过渡到激昂的号召。",
+          "text": "改变从来都不是一件容易的事。它需要勇气，需要决心，更需要我们每个人的参与。不要再等待，不要再观望！是时候让我们用自己的双手，去创造一个属于我们的明天了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Persuasive text that supports a gradual increase in speed and volume."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说话的节奏要越来越快，声音要越来越响亮，表现出一种情绪不断累积并最终爆发的感觉。",
+          "text": "有人说我们是在痴人说梦，有人说我们是以卵击石。但我要告诉他们，历史是由梦想者创造的，世界是由挑战者改变的！所以，让我们团结起来，发出我们的声音，让他们看看我们的力量！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text has a strong rhetorical structure that builds intensity well."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0014",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "high"
+        ],
+        "speed": [
+          "normal",
+          "slow"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在说到最后那个关键问题时，你的语调应该随着紧张感的增加而升高，同时为了强调，语速要放慢。",
+          "text": "我们讨论了所有的细节，分析了每一种可能性，也考虑了最坏的结果。我们做了所有能做的准备。现在，一切都摆在面前了，我只想问你一句：你真的准备好了吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text provides a good buildup to the final, emphasized question."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "随着对话的推进，你的声音要变得更高，语速要变得更慢，以营造出一种紧张而郑重的氛围。",
+          "text": "我知道这个要求很过分，也知道这会让你陷入两难的境地。我思考了很久，真的没有别的办法了。所以，看着我的眼睛，告诉我，你愿意为我做这件事吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text creates a context that justifies the tense, slow, high-pitched delivery of the question."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "表演时，前半段用正常的音高和语速，但越往后，音高要逐渐拉高，语速则要刻意放缓，来凸显问题的分量。",
+          "text": "这些年来，你一直说你是无辜的，说你和那件事毫无关系，我们所有人都选择相信你。但是，这张照片又要怎么解释呢？告诉我，那天晚上，你到底在哪里？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The confrontational nature of the text lends itself well to the dynamic shift in pitch and speed."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0015",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "normal",
+          "quiet"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话时，音量和音高要逐渐降低，从正常的叙述变为近乎耳语的低沉独白，表现出一种接受现实的无奈感。",
+          "text": "我试过了，我真的用尽了所有办法。我曾经以为只要足够努力，就一定能改变什么。但现在我明白了，有些事情从一开始就注定了。就这样吧，我认输了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content of giving up strongly supports the delivery instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音要有一个由强转弱的过程，结尾部分要说得又轻又低，仿佛耗尽了所有力气。",
+          "text": "我们争论了这么久，坚持了这么久，到头来又得到了什么呢？也许你从一开始就是对的，我们只是在和命运作对。算了，我不想再争了，就这样吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text conveys weariness and resignation, fitting the vocal instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读这段话时，请让你的声音慢慢变轻、变低沉，传达出一种放弃抵抗、心灰意冷的感觉。",
+          "text": "曾经我相信，只要我们并肩作战，就没有克服不了的困难。可是你看现在，我们之间只剩下猜忌和疲惫。也许我们真的走到了尽头。就这样结束，也好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Good example of resignation after a long struggle, perfect for the dynamic change."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0016",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用持续响亮的声音进行播报。开始时语速较慢，吐字清晰，然后逐渐加快播报速度。",
+          "text": "各位市民请注意，以下为紧急通知。因前方路段发生意外事故，三号线地铁将临时停运。请各位乘客听从工作人员指引，有序离站，换乘其他交通工具。重复一遍，三号线临时停运。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Classic public announcement text that fits the constant loud volume and accelerating speed."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用洪亮的声音朗读，保持音量不变。但语速要从缓慢庄重开始，逐步变得急促。",
+          "text": "各位旅客请注意，您乘坐的A188次航班现已开始登机。请携带好您的随身物品，前往32号登机口排队等候。本次航班即将起飞，请尚未登机的旅客尽快登机。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The increasing urgency in the text justifies the acceleration in speed."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "全程保持大音量。朗读的节奏由慢到快，前半段沉稳，后半段语速加快。",
+          "text": "园区通知：为配合电力系统检修，本园区将于明日上午九点至下午五点暂停供电。请各单位提前做好数据备份和设备关停工作，以免造成不必要的损失。给您带来的不便，敬请谅解。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "An official announcement text that works well with a slow-to-fast delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0017",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "emotion": [
+          "neutral",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时用一种平静、轻柔的语气说话，但随着对话的进行，情绪逐渐激动，最后以响亮、愤怒的语调结束。",
+          "text": "我不明白你为什么要这么说。我只是想和你好好谈谈这件事。可是你看看你现在的态度，你根本就没在听我说话！你是不是觉得我永远都不会生气？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text provides a very natural path for emotional and volume escalation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音需要有一个从轻声细语到大声怒吼的转变，情绪也从冷静变为愤怒。",
+          "text": "一开始，我认为这只是个误会。我可以解释，只要你愿意听。但你一再地打断我，根本不给我机会！你到底想怎么样？你就是想把所有责任都推到我身上是吗！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The structure of the text clearly shows one side of an argument escalating."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "这段话的情绪和音量是递进的。从低声的、中立的陈述开始，最后演变成高声的、充满怒气的质问。",
+          "text": "请你冷静一点，我们先理清事实。事情的经过是这样的…… 等等，你这是什么意思？你是在怀疑我吗？在你心里我就是这样的人？我受够了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The escalation from trying to be calm to becoming angry is very clear."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0018",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "very_slow"
+        ],
+        "tone": [
+          "firm",
+          "hesitant"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时，用坚定、正常的语速说话。讲到后面，随着疑虑的产生，语速要变得非常缓慢，语气也变得犹豫不决。",
+          "text": "这个计划的核心理念是绝对正确的，这一点我毫不怀疑。我们只需要按部就班地执行下去…… 但，我最近一直在想，我们是不是忽略了什么…… 也许，也许这个前提本身，就……有问题？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text shows a clear shift from certainty to doubt, supporting the dynamic change in delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的朗读风格需要一个转变：从前半段的果断、流畅，转变为后半段的迟疑、缓慢。",
+          "text": "我一直坚信，我们做的是对社会有益的事情。我们的数据和研究都支持这一点。可是…… 看着这些新的报告，我…… 我开始不确定了。万一，我们从一开始就想错了呢？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text explicitly states the change from belief to uncertainty."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用声音表现出自信心的动摇。开头语气坚定，语速正常；结尾时语速极慢，充满迟疑。",
+          "text": "他告诉我的版本是这样的，逻辑清晰，证据确凿，我完全相信了。但是，如果那份证据是伪造的呢？那么…… 那么我们所做的一切，不就都…… 都建立在一个谎言之上了吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's structure, including the ellipses, helps guide the hesitant and slow delivery at the end."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0019",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": [
+          "normal",
+          "very_high"
+        ],
+        "emotion": [
+          "neutral",
+          "surprised"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用平常的语气开始描述，当事件发生转折时，你的情绪要立刻转为惊讶，音高也要随之飙升到非常高。",
+          "text": "他只是像往常一样走在街上，天气很好，一切看起来都很正常。他正要过马路，突然…… 天哪！那辆车是怎么回事？它从哪里冒出来的！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A classic scenario of a mundane scene being interrupted by a sudden event."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音要有一个突变。前半段是冷静的旁观者，后半段因为看到了惊人的景象，音调变得尖锐，充满震惊。",
+          "text": "我正看着窗外，那只猫在屋顶上懒洋洋地晒着太阳。它打了个哈欠，伸了个懒腰，然后…… 等等！那是什么东西在天上飞？那不是鸟！是个人！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The surreal twist in the text provides a strong justification for the vocal surprise."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读时，情绪和音高要发生急剧变化。从平淡的叙述，瞬间切换到极度惊讶的语调，音高也要提得非常高。",
+          "text": "这场魔术表演有点无聊，就是些普通的纸牌戏法。魔术师把最后一张牌翻了过来，应该是黑桃A。可翻过来的竟然是…… 我的身份证？这怎么可能！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The personal and unexpected nature of the surprise makes the dynamic shift very effective."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0020",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "tone": [
+          "firm",
+          "pleading"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时用响亮、坚定的语气说话，表明自己的立场。但说到最后，要转变为轻声的、近乎恳求的语调。",
+          "text": "我说的每一句话都是事实，我有证据！你不可以这样不分青红皂白地指责我！…… 好吧，就算…… 就算我错了，你能不能…… 再给我一次机会？求你了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text clearly shows a breakdown from a strong defense to a plea."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音要有一个从强硬到软弱的转变。开头音量大，语气强硬，结尾音量小，语气带着乞求。",
+          "text": "这不公平！你不能这么决定，这个项目对我们有多重要你不是不知道！…… 我明白了，看来已经没有商量的余地了。那，至少…… 至少让我把最后的工作做完，好吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The transition from protest to resigned pleading is natural and fits the instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读时，要表现出一种气势上的衰减。从大声、坚决的辩护，逐渐变为小声、哀求的妥协。",
+          "text": "我坚持我的观点，因为我看到的是未来的风险！你们现在这样做，以后一定会后悔的！…… 难道…… 难道真的没有人支持我吗？好吧…… 那拜托了，至少听我最后一个建议，行吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text shows the moment of realizing defeat, leading to the vocal shift."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0021",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "happy",
+          "sad"
+        ],
+        "tone": [
+          "playful",
+          "disappointed"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用开心又调皮的语气开始，好像在分享一个美好的回忆，然后情绪慢慢转为悲伤和失望，好像在述说一个遗憾的结局。",
+          "text": "还记得吗，小时候我们一起在后院的大榕树下埋了个“时光宝盒”，你说要在里面放满我们最喜欢的弹珠和卡片。我们当时还傻乎乎地画了张藏宝图，约定二十年后一起挖出来。可谁知道，还没等到二十年，那棵树就因为修路被砍掉了，我们的约定也再没机会实现了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a clear narrative arc for the emotional transition."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "开始的语气是快乐而俏皮的，带着回忆的甜蜜。随着故事的进展，逐渐转变为难过和失落的语调。",
+          "text": "以前楼下那只叫“大黄”的流浪狗，我最喜欢偷偷拿火腿肠喂它。每次我一吹口哨，它就摇着尾巴跑过来，用头蹭我的腿，特别好玩。我一直以为它会永远在那里等我，直到有一天，我像往常一样去找它，却只看到了空荡荡的狗窝，邻居说它再也不会回来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a clear narrative arc for the emotional transition."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一个先喜后悲的表演方式。开头用活泼开心的语气讲述，然后平滑地过渡到伤感、失望的情绪。",
+          "text": "我上大学的时候，最好的朋友承诺说我毕业典礼那天他一定会来。我们甚至开玩笑说，他要穿上最滑稽的衣服，在人群里一眼就能看到他。我真的满心期待，可毕业那天，我从头到尾在人群里找了无数遍，始终没有看到那个熟悉的身影，只收到了一条简短的抱歉短信。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a clear narrative arc for the emotional transition."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0022",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "thoughtful",
+          "fearful"
+        ],
+        "tone": [
+          "indifferent",
+          "urging"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时用一种深思而冷淡的语气陈述事实，好像在分析一个与自己无关的问题。当意识到其中的危险时，语气立刻变得恐惧和急切。",
+          "text": "这份报告显示，过去三个月我们地区的异常气象事件增加了百分之三十，这在数据上看只是个普通的波动。但是……等一下，如果把这个数据和地质勘探报告里提到的地壳活跃度结合起来看……天哪，这意味着我们脚下的火山随时可能喷发！我们必须马上疏散所有人！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text presents a clear point of realization for the dynamic shift."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一种冷静思考的语气开始，对事情的进展显得有些漠不关心，然后突然意识到问题的严重性，转为充满恐惧和催促的语气。",
+          "text": "他说他只是出去散散步，超过两个小时没回来也很正常，毕竟他喜欢一个人待着。可我刚才看到新闻说，城外的森林里发现了大型野兽的踪迹。他散步的方向……不就是那片森林吗？糟了，手机也打不通，快！我们得赶紧去找他！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text presents a clear point of realization for the dynamic shift."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "从一个沉思的、无所谓的叙述开始，随着你把线索拼凑起来，你的声音应该充满恐惧，并带着一种强烈的紧迫感。",
+          "text": "我一直在想，为什么最近小区里的宠物总是无故失踪。也许只是巧合吧，毕竟春天到了，动物们也喜欢乱跑。但刚才我看到监控录像，有一个穿着黑色雨衣的人在凌晨三点出现……等等，他的手里好像拿着一个捕网。不好，他正朝着我们这栋楼走过来，快把门锁好！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text presents a clear point of realization for the dynamic shift."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0023",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "angry",
+          "neutral"
+        ],
+        "tone": [
+          "defiant",
+          "firm"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时用愤怒和挑衅的语气表达你的不满，然后，冷静下来，用中立而坚定的语气宣布你的最终决定。",
+          "text": "我再也受不了这种无休止的争吵和猜忌了！你到底把我当成什么了？你的下属吗？够了！我不想再这样下去了。从今天起，我们结束了。我会搬出去，这是最终决定，没有商量的余地。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text clearly separates the outburst from the calm decision."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "先用一种带着怒气和不服输的口吻说话，像是在发泄情绪，之后转为平静而坚决的语气，陈述一个事实。",
+          "text": "你们凭什么认为这个项目一定会失败？就因为我年轻吗？我告诉你们，你们都错了！我已经厌倦了向你们证明自己。所以，不必再争论了。我已经用我自己的资金启动了这个项目，无论结果如何，都由我一人承担。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text clearly separates the outburst from the calm decision."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "表演一段情绪的转变：从愤怒和叛逆的爆发开始，然后转变为冷静、中立和坚定的陈述。",
+          "text": "够了！别再跟我说什么“为了我好”了！你们从来就没有真正听过我的想法！我的生活不是你们用来规划的蓝图！……我已经决定了，明天就去办理退学手续。我会用我自己的方式去生活，这是我的选择，不是一时冲动。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text clearly separates the outburst from the calm decision."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0024",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "neutral",
+          "worried"
+        ],
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在整个过程中保持坚定的语气。开始时以中立的情绪陈述事实，但在揭示坏消息时，让你的情绪转变为担忧。",
+          "text": "根据我们的初步调查，一号反应堆的各项指标目前都处于正常范围，冷却系统也运作良好。但是，我们对周边区域的空气样本进行了分析，结果显示，其中检测到了微量的放射性同位素。虽然剂量很低，但这说明可能存在我们尚未发现的泄漏点。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text structure supports the gradual shift in emotion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话的语气要始终保持沉稳。开始时，你的情绪是客观中立的，但随着你解释报告中令人不安的发现，你的声音应该流露出担忧。",
+          "text": "本次财务审计显示，公司上半年的总收入同比增长了百分之五，基本符合市场预期。然而，在核查应收账款时，我们发现有几笔来自主要客户的大额款项已经逾期超过九十天。如果这些款项无法收回，将对我们下半年的现金流造成严重影响。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text structure supports the gradual shift in emotion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用坚定的语调进行汇报。前半段保持中立，客观地呈现数据，后半段在解释这些数据的含义时，情绪要转为忧虑。",
+          "text": "从这份体检报告来看，您的大部分常规指标，比如血压和血糖，都在正常范围内。不过，我们注意到您的几项肿瘤标志物指数略高于正常水平。这本身不代表任何确定的诊断，但我们认为有必要进行更进一步的影像学检查来排除风险。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text structure supports the gradual shift in emotion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0025",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "emotion": [
+          "neutral",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请表演一个情绪逐渐爆发的过程。开始时语速缓慢，声音轻柔，情绪中立，然后逐渐变得语速加快，音量增高，最终以愤怒的情绪结束。",
+          "text": "一开始，我以为这只是个小问题，可以解决的。我试着和他们沟通，一次又一次。但他们根本不听，只是不断地推卸责任。现在我明白了，他们根本就没想过要解决问题！他们只想让我闭嘴！我受够了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a clear crescendo structure."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用声音表现出一种情绪的升级。从缓慢、轻声、平静的独白开始，然后语速和音量不断提升，最后用愤怒的语气爆发出来。",
+          "text": "我一直在忍耐。我告诉自己，要冷静，要体谅。但每件事都像是在挑战我的底线。那件小事，还有昨天那句话，所有的一切都堆积在一起。我真的无法再忍受了！你们到底想怎么样！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a clear crescendo structure."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的表演需要一个从平静到愤怒的完整过程。开始时语速慢，声音小，情绪平静，然后逐步加速，声音变大，最后以愤怒的情绪达到高潮。",
+          "text": "我以为只要我做得足够好，就能够得到认可。我默默地做了那么多事，承担了那么多不属于我的工作。可结果呢？功劳是他们的，错误是我的。凭什么？这不公平！我再也不会这样任人摆布了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a clear crescendo structure."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0026",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "slow"
+        ],
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时语速快，音量大，描述混乱的场面。然后逐渐放慢语速，降低音量和音高，以传达一种庄严肃穆的氛围。",
+          "text": "警报声、尖叫声、建筑倒塌的巨响混在一起，所有人都疯了似的在街上跑！我被人流推着向前，根本无法思考。……现在，一切都安静了。只有风吹过废墟的声音，和远处传来的零星的哭泣声。整个城市，就像死了一样。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The narrative structure provides a clear contrast between chaos and aftermath."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用声音描绘一幅从混乱到沉寂的画面。开头的叙述要快而响亮，随着场景的转换，声音要变得缓慢、轻柔，音调也要更低沉。",
+          "text": "风暴来的时候，海浪像山一样砸在岸上，雨点密集得让人睁不开眼，整栋房子都在摇晃！我们只能躲在地下室里祈祷！……天亮之后，风停了。我们走出去，看到的是一片狼藉。曾经的家园，现在只剩下沉默的残骸。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The narrative structure provides a clear contrast between chaos and aftermath."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种从激昂到低沉的讲述方式。开始时语速快，音量高，充满紧迫感。结尾时语速变慢，音量减弱，音高降低，营造出沉重的气氛。",
+          "text": "战斗爆发得非常突然，炮火声震耳欲聋，我们只能拼命地还击，根本没时间去想别的！整个阵地都在燃烧！……不知道过了多久，枪声终于停了。战场上弥漫着硝烟的味道，周围静得可怕，只有倒下的战友们，静静地躺在那里。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The narrative structure provides a clear contrast between chaos and aftermath."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0027",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "worried",
+          "happy"
+        ],
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "音高保持正常。开始时用缓慢而担忧的语气描述一个难题，然后，在解释解决方案时，变得语速加快，情绪也转为高兴。",
+          "text": "我们项目的关键数据模型一直无法收敛，整个团队为此熬了好几个通宵，几乎就要放弃了。但就在今天早上，我突然想到，如果我们换一个角度，把算法的核心逻辑反过来呢？结果你猜怎么着？我们试了一下，竟然成功了！问题解决了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text clearly separates the problem from the solution, facilitating the dynamic shift."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请全程使用正常的音高。前半段语速放慢，带着忧虑的情绪；后半段语速加快，用开心的情绪来讲述。",
+          "text": "眼看着船的燃料就要耗尽了，我们还被困在这片暴风雨里，当时我真的觉得我们可能回不去了。可就在大家绝望的时候，雷达上突然出现了一个小光点！是一艘救援船！我们得救了！他们正在朝我们的方向全速驶来！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text clearly separates the problem from the solution, facilitating the dynamic shift."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用正常的音高说话。开始描述问题时，语速慢一些，情绪是担忧的。当讲到如何解决问题时，语速要加快，情绪要变得快乐起来。",
+          "text": "为了给病人找到匹配的骨髓，我们联系了国内外所有的骨髓库，但都没有结果，手术时间一天天临近，我们都非常着急。然而就在昨天，我们接到了一个电话，说一位新的志愿者，经过检测，竟然和病人完美匹配！这真是个奇迹！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text clearly separates the problem from the solution, facilitating the dynamic shift."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0028",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "tone": [
+          "firm",
+          "sarcastic"
+        ],
+        "speed": [
+          "normal",
+          "slow"
+        ],
+        "pitch": [
+          "normal",
+          "high"
+        ]
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时以坚定、正常的语速和音高进行陈述。然后，转变为缓慢、高音调的讽刺语气。",
+          "text": "根据行动手册，所有人员都应该在指定位置待命。但是我们的这位英雄，显然认为规则不适用于他。哦，瞧瞧他干的好事，一个人冲进去，不仅没解决问题，还触发了所有警报。真是太“聪明”了，我们都得感谢他。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a natural transition point from factual statement to sarcasm."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用坚定的语气和正常的语速、音高开始。接着，把语速放慢，音高抬高，用一种尖锐的嘲讽语气继续说下去。",
+          "text": "这个项目的目标是提高用户满意度。而你呢，为了所谓的“效率”，直接砍掉了三个最受欢迎的功能。现在用户满意度下降了百分之五十，你一定对这个结果感到很自豪吧？真是个天才的决策，了不起。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a natural transition point from factual statement to sarcasm."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请先用一种严肃、正常的语调说话。然后，你的语调要变得缓慢、尖锐，并且充满讽刺意味。",
+          "text": "我明确告诉过你，这个花瓶是古董，必须小心轻放。可你呢，把它当成篮球来抛。现在好了，它碎成了几百片。干得真漂亮，我是不是还得给你颁个奖，表彰你出色的破坏能力啊？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text provides a natural transition point from factual statement to sarcasm."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0029",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": [
+          "sad",
+          "angry",
+          "thoughtful"
+        ],
+        "volume": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "保持正常的音量，但情绪要经历三个阶段的转变：从悲伤开始，转为愤怒，最后以深思的状​​态结束。",
+          "text": "看到那些无家可归的人，我真的很难过，他们什么都没做错，却要承受这么多苦难。凭什么有些人可以挥霍无度，而有些人却连最基本的温饱都无法保证？这个世界太不公平了！……不过，也许愤怒也无济于事，我们真正应该思考的，是如何从根本上改变这种状况。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is structured into three clear emotional sections."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "音量保持不变。你的情绪需要从悲伤开始，然后演变成愤怒，最后平静下来，进入一种沉思的状态。",
+          "text": "他那么努力地生活，对每个人都那么好，最后却得到这样的结局，这让我感到很悲哀。为什么好人没有好报？那些做尽坏事的人反而活得好好的，这简直荒谬！……但话说回来，用这种标准去衡量得失，或许本身就是一种执念吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is structured into three clear emotional sections."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用正常的音量说话。在表演中，情绪要依次经历悲伤、愤怒和深思这三个阶段。",
+          "text": "这个物种就这么灭绝了，我们再也看不到了，想起来真让人伤心。都是因为人类的贪婪和短视，才会造成这种无法挽回的悲剧！我们到底要毁掉多少东西才肯罢休！……或许，这就是大自然的法则吧，无法适应变化的，终将被淘汰，哪怕我们自己，也可能不例外。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is structured into three clear emotional sections."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0030",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "pitch": [
+          "high",
+          "low"
+        ],
+        "emotion": [
+          "surprised",
+          "thoughtful"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "从一个响亮、高亢、惊讶的反应开始，然后过渡到安静、低沉、深思的语气。",
+          "text": "什么？他把公司卖掉了？这怎么可能！他昨天还跟我们说要一起奋斗下一个十年！……这么说来，他最近频繁地和那些投资人接触，原来不是为了拉投资，而是在……在为自己找退路。我明白了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text provides a clear point of reaction followed by reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的表演需要一个巨大的转变。开头的反应是音量大、音调高、充满惊讶，然后声音变得轻柔、低沉，进入思考状态。",
+          "text": "他们离婚了？！不会吧！他们可是我们所有人眼中的模范夫妻啊！……不过仔细想想，她上周发的朋友圈，配图是一片大海，文字却只写了“终于自由了”。原来，那个时候就已经有预兆了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text provides a clear point of reaction followed by reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "开始时用高亢、响亮的声音表达你的震惊，然后让你的声音降下来，变得低沉、安静，仿佛在自言自语地思考这件事。",
+          "text": "你说这座城市要被放弃了？开什么玩笑！我们在这里生活了几十年！……难怪……难怪最近物资的补给越来越少，很多公共服务也停止了。原来他们早就做好了决定，只是没有告诉我们而已。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text provides a clear point of reaction followed by reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0031",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "slow",
+          "fast"
+        ],
+        "volume": [
+          "quiet",
+          "loud"
+        ],
+        "pitch": [
+          "low",
+          "high"
+        ],
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "保持中性的情绪，但语速、音量和音调要从慢、轻、低逐渐提高到快、响、高。",
+          "text": "能量核心启动程序开始。第一阶段注入完成，功率输出百分之十。第二阶段稳定，功率输出百分之三十。冷却系统正常，核心温度稳定。第三阶段注入，功率输出百分之七十。所有参数正常，准备进入全功率运行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，情绪保持中立，但声音要从低沉、安静、缓慢，平稳地过渡到高昂、响亮、快速。",
+          "text": "系统自检完成，所有单元无异常。正在载入主序列。能量流已连接，输出功率百分之五。反应堆正在同步，功率提升至百分之二十五。磁场约束稳定，功率达到百分之六十。准备进行峰值输出测试。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用不带感情的语气播报，但整个过程语速、音量和音高持续上升。",
+          "text": "确认启动指令。引力稳定器已激活，功率百分之十五。护盾发生器预热中，能量水平百分之四十。武器系统上线，能量水平百分之六十五。引擎超载模式准备就绪，即将达到最大功率。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0032",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "very_slow"
+        ],
+        "emotion": [
+          "happy",
+          "sad"
+        ],
+        "tone": [
+          "playful",
+          "disappointed"
+        ],
+        "volume": [
+          "normal",
+          "quiet"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时用轻快、开心、俏皮的语气，语速较快，音量正常。讲到后面，逐渐转为非常缓慢、悲伤、失望的语气，声音也变轻。",
+          "text": "我还记得那天我们一起放风筝，风很大，我们笑得也很开心，你说我们的未来会像风筝一样，飞得又高又远。可是后来，风停了，线也断了，我眼睁睁看着它掉了下去，再也找不回来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "故事的开头要讲得快速、活泼、充满喜悦，音量适中。故事的结尾则要放慢语速，变得非常安静，充满悲伤和失望。",
+          "text": "我们一起种下的那棵小树，每天给它浇水，盼着它快快长大。夏天的时候，它真的开花了，小小的，特别漂亮。我们以为它会一直陪着我们，直到那个冬天，一场大雪把它压断了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读这个故事。开头部分语速快，情绪是开心的，语调好玩。结尾部分语速要非常慢，音量要轻，情绪变成悲伤和失望。",
+          "text": "他送我的那只小猫，刚来的时候特别活泼，总是在我脚边打转。我给它起了个名字叫“幸运”，希望它能给我带来好运。可它只陪了我一个夏天，就在一个雨天跑丢了，再也没有回来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0033",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "fast"
+        ],
+        "volume": [
+          "normal",
+          "very_loud"
+        ],
+        "pitch": [
+          "normal",
+          "high"
+        ],
+        "emotion": [
+          "neutral",
+          "angry"
+        ]
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时用正常、中立的语气说话，然后语速、音量、音调逐渐提高，情绪也越来越愤怒，最后达到顶点。",
+          "text": "我一开始只是觉得有点奇怪，为什么每次开会都挑我不在的时候。后来我发现，他们讨论项目的时候，根本就没打算通知我。现在倒好，出了问题，他们居然想让我一个人来承担所有责任！这简直太离谱了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的情绪从平静开始，逐步升级为愤怒。说话的速度、音量和音高也随之不断增强，最后变成一声怒吼。",
+          "text": "我跟你说过一次，这件事需要大家一起商量。然后我说了第二次，你还是不听。现在已经是第三次了，你还是自作主张。你到底有没有把我的话放在心上？你是不是觉得我好欺负？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "从冷静的陈述开始，然后逐渐变得激动和愤怒，语速越来越快，声音越来越大，音调也越来越高。",
+          "text": "本来这只是一个小问题，只要及时处理就好了。我提醒过你，也给了你解决方案。但你一直拖着，现在问题越闹越大，已经无法收拾了。你知不知道因为你的拖延，我们损失了多少？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0034",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "fast",
+          "slow"
+        ],
+        "volume": [
+          "loud",
+          "quiet"
+        ],
+        "emotion": [
+          "fearful",
+          "neutral"
+        ],
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "保持坚定的语气。开始时语速快，声音大，带着恐惧；然后慢慢平静下来，语速放缓，声音变轻，情绪恢复中立。",
+          "text": "没事的，没事的，这只是暂时的。冷静下来，深呼吸，一切都会过去的。我以前也遇到过更糟的情况，不也都挺过来了吗。对，就是这样，吸气，呼气。事情没有那么糟，我能处理好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "贯穿始终地使用坚定语调。开始时是恐惧的，语速很快，音量也大。随后逐渐减速，降低音量，直到最后完全平静下来。",
+          "text": "不要慌，不要慌，越慌越乱。先想一想现在该做什么，一步一步来。没关系，这都在我的控制范围内。我只需要集中精神，把眼前的事情做好就行了。对，就这样，我已经感觉好多了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "整个过程语气都要坚定。从快速、大声、恐惧的状态，逐渐过渡到缓慢、轻声、情绪平稳的状态。",
+          "text": "这没什么好怕的，只是我的想象在作祟。我是安全的，这里很安全。听我说，一切都会好起来的。专注于呼吸，感受心跳慢下来。好了，我已经没事了，可以继续了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0035",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "very_slow"
+        ],
+        "volume": [
+          "normal",
+          "very_quiet"
+        ],
+        "tone": [
+          "firm",
+          "hesitant"
+        ],
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "保持恐惧的情绪。开始时以正常的语速和音量，用坚定的语气讲述，但随着情节发展，声音要变得非常缓慢、非常轻，语气也变得犹豫，以营造悬念。",
+          "text": "我必须穿过这条走廊才能离开。一开始我还能告诉自己要勇敢，脚步也很稳。但越往里走，光线就越暗，我好像听到了什么声音。我的脚步不由自主地放慢了，心也提到了嗓子眼。前面……那是什么？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "朗读时，全程都要带着恐惧感。开头用正常的语速和音量，语气坚定。然后逐渐变得非常慢、非常安静，语气也从坚定转为迟疑。",
+          "text": "地图上说出口就在前面。我紧紧握着手电筒，尽量走得快一些。但是，墙壁上开始出现奇怪的划痕，空气也变得冰冷。我不敢再走快了，每一步都小心翼翼。我好像……感觉有东西在看着我。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用害怕的感情来叙述。从正常语速、音量和坚定的语调开始，然后为了制造紧张气氛，逐渐变得语速极慢、声音极轻、语气犹豫不决。",
+          "text": "我告诉自己这只是个废弃的仓库，没什么好怕的。我的脚步声在空旷的空间里回响。突然，我听到远处传来一声金属摩擦声。我立刻停了下来，呼吸都变轻了。我不敢……我不敢再往前走了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_complex_comp_dynamic__0036",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "speed": [
+          "normal",
+          "slow"
+        ],
+        "pitch": [
+          "normal",
+          "low"
+        ],
+        "emotion": [
+          "surprised",
+          "thoughtful"
+        ],
+        "tone": [
+          "indifferent",
+          "speechless"
+        ]
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "开始时语速和音调都正常，带着惊讶和一点不在意的感觉。然后，随着思考的深入，语速变慢，音调降低，情绪转为沉思，语气变得像说不出话来一样，仿佛被震撼了。",
+          "text": "哦？原来是这样运作的……这听起来有点意思。但如果这个理论是对的，那就意味着……我们之前对宇宙的所有认知，可能都是……片面的。这怎么可能……这彻底改变了一切。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "开头用正常的语速和音高，表现出惊讶但无所谓的态度。接着，逐渐转变为缓慢、低沉、深思熟虑的表达，语气中带着一种难以言喻的震撼感。",
+          "text": "所以你的意思是，时间并不是线性的？这说法真新鲜。等一下，如果真是这样，那么过去和未来……就都同时存在于某个维度。我的天……我需要好好想一想这个。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "以正常的速度和音高开始，情绪是惊讶，语气是淡然的。然后逐渐过渡到缓慢、低沉的语调，情绪变为深思，语气中充满了敬畏和说不出话的感觉。",
+          "text": "你的这个发现……确实出乎我的意料。我本以为这只是个小小的异常数据。但如果把这些点都连起来看……它揭示了一个我们从未想象过的……一个全新的规律。这简直……太惊人了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

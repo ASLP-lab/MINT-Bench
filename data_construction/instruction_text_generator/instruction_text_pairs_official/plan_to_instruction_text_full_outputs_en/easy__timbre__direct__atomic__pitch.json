@@ -1,0 +1,943 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/pitch",
+  "language": "en",
+  "source_plan_file": "easy__timbre__direct__atomic__pitch.json",
+  "num_input_items": 15,
+  "num_output_items": 15,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Use an extremely high pitch for this line.",
+      "text": "Would you mind opening the window?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct and text is a simple request, as planned."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Say this in the highest part of your vocal range.",
+      "text": "I think I left my keys on the counter this morning.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is descriptive and text is a casual statement, per plan."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "I want you to use the highest pitch you can possibly produce.",
+      "text": "Please be advised that the library will be closing in fifteen minutes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is direct; text is a neutral announcement."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak with a raised vocal pitch.",
+      "text": "The capital of France is Paris.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction avoids the word 'high' as requested."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "I'd like a delivery with a higher-than-average pitch.",
+      "text": "To complete the setup, you must first connect the device to a power source.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction follows the 'higher than average' phrasing."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0005",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Use a high vocal pitch for the following sentence.",
+      "text": "It's strange how things can change so quickly.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Natural phrasing used for the instruction; text is a short reflection."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0006",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in your regular, conversational pitch.",
+      "text": "The package arrived this afternoon.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a regular pitch, text is a daily notice."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0007",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Just speak normally, with your standard vocal pitch.",
+      "text": "The new cafe down the street has pretty good coffee.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a standard pitch, text is a casual statement."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0008",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Please use a standard pitch for this request.",
+      "text": "Can you send me the link to that document we were discussing?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is for normal pitch, text is a simple request."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0009",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Lower your pitch for this command.",
+      "text": "Do not proceed any further.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests low pitch, text is an imperative command."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0010",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Please use a lower vocal pitch for this line.",
+      "text": "They decided to postpone the meeting until everyone could be present.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Simple, direct instruction for low pitch."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0011",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Let's hear this with a deeper vocal tone.",
+      "text": "Photosynthesis is the process used by plants to convert light energy into chemical energy.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction avoids the word 'low' as requested."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0012",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak this from the lowest part of your vocal range.",
+      "text": "The office will be closed on Monday for the holiday.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Direct instruction for a very low pitch."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0013",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "I'd like you to use a very deep voice for this.",
+      "text": "It's interesting how certain events can change one's perspective entirely.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction for a very deep voice."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0014",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak with the deepest voice you can make.",
+      "text": "The primary function of this component is to regulate the flow of electricity.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for an extremely low pitch."
+      },
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0015",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Make your voice as high as you can.",
+          "text": "Could you please pass me that book?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and text is a simple request, as planned."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak with a very high-pitched voice.",
+          "text": "Can you help me with this for a moment?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and text is a simple request, as planned."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use an extremely high pitch for this line.",
+          "text": "Would you mind opening the window?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct and text is a simple request, as planned."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this in the highest part of your vocal range.",
+          "text": "I think I left my keys on the counter this morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is descriptive and text is a casual statement, per plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a voice that is pitched extremely high, like a cartoon mouse.",
+          "text": "The weather forecast says it's going to be sunny all weekend.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is descriptive and text is a casual statement, per plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Please read this with a very, very high voice.",
+          "text": "I just finished watching that new series everyone is talking about.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is descriptive and text is a casual statement, per plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this at the very top of your pitch range.",
+          "text": "The meeting scheduled for three o'clock has been moved to the main conference room.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want you to use the highest pitch you can possibly produce.",
+          "text": "Please be advised that the library will be closing in fifteen minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak as if you've inhaled helium, making your voice extremely high.",
+          "text": "All visitors are reminded to sign in at the front desk upon arrival.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct; text is a neutral announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a raised vocal pitch.",
+          "text": "The capital of France is Paris.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids the word 'high' as requested."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a voice in the upper part of your register.",
+          "text": "Water is composed of hydrogen and oxygen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids the word 'high' as requested."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Pitch your voice up for this line.",
+          "text": "The Earth revolves around the Sun.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids the word 'high' as requested."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0005",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Please use a voice that is noticeably higher than your normal speaking pitch.",
+          "text": "The primary reason for the delay was an unexpected issue with the supply chain.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction follows the 'higher than average' phrasing."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak this line in a high-pitched voice.",
+          "text": "This process works by converting the input signal into a digital format for analysis.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction follows the 'higher than average' phrasing."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I'd like a delivery with a higher-than-average pitch.",
+          "text": "To complete the setup, you must first connect the device to a power source.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction follows the 'higher than average' phrasing."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0006",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Can you read this with a high voice?",
+          "text": "I never really thought about it that way before.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Natural phrasing used for the instruction; text is a short reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a high vocal pitch for the following sentence.",
+          "text": "It's strange how things can change so quickly.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Natural phrasing used for the instruction; text is a short reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this with a voice that is pitched high.",
+          "text": "I wonder what will happen next year.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Natural phrasing used for the instruction; text is a short reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0007",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Just use your normal speaking voice.",
+          "text": "The mail has been delivered.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a regular pitch, text is a daily notice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with your everyday pitch.",
+          "text": "Don't forget to take out the trash.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a regular pitch, text is a daily notice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in your regular, conversational pitch.",
+          "text": "The package arrived this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a regular pitch, text is a daily notice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0008",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in your natural voice, with no change in pitch.",
+          "text": "I'm planning to go to the grocery store later today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a standard pitch, text is a casual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Just speak normally, with your standard vocal pitch.",
+          "text": "The new cafe down the street has pretty good coffee.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a standard pitch, text is a casual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use your typical, average speaking pitch for this sentence.",
+          "text": "I think I'll just stay in and watch a movie tonight.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a standard pitch, text is a casual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0009",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read the following with a normal pitch.",
+          "text": "Could you please let me know when the report is ready?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is for normal pitch, text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Please use a standard pitch for this request.",
+          "text": "Can you send me the link to that document we were discussing?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is for normal pitch, text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this in your regular speaking voice.",
+          "text": "Would you be able to check if my reservation is confirmed?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is for normal pitch, text is a simple request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0010",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a low voice.",
+          "text": "Put the documents on the desk.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests low pitch, text is an imperative command."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with a low vocal pitch.",
+          "text": "Complete this task by five o'clock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests low pitch, text is an imperative command."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Lower your pitch for this command.",
+          "text": "Do not proceed any further.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests low pitch, text is an imperative command."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0011",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a low-pitched voice.",
+          "text": "The report was left on the desk for you to review this afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple, direct instruction for low pitch."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Please use a lower vocal pitch for this line.",
+          "text": "They decided to postpone the meeting until everyone could be present.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple, direct instruction for low pitch."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this in a low voice.",
+          "text": "The system update is scheduled to begin at midnight and will last for several hours.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple, direct instruction for low pitch."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0012",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Could you drop your voice down a bit for this reading?",
+          "text": "The average annual rainfall in this region has remained consistent for the past decade.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids the word 'low' as requested."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak from a deeper place in your vocal range.",
+          "text": "Water is composed of hydrogen and oxygen atoms in a two to one ratio.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids the word 'low' as requested."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Let's hear this with a deeper vocal tone.",
+          "text": "Photosynthesis is the process used by plants to convert light energy into chemical energy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction avoids the word 'low' as requested."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0013",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this from the lowest part of your vocal range.",
+          "text": "The office will be closed on Monday for the holiday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a very low pitch."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use the bottom of your register for this line.",
+          "text": "Please remember to submit your timesheets by five o'clock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a very low pitch."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need you to speak from your lowest possible pitch.",
+          "text": "The weekly staff meeting has been moved to Thursday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction for a very low pitch."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0014",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I'd like you to use a very deep voice for this.",
+          "text": "It's interesting how certain events can change one's perspective entirely.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction for a very deep voice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with a really deep, resonant voice.",
+          "text": "Sometimes the simplest solution is the one we overlook the most.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction for a very deep voice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Give me a very low, deep vocal tone.",
+          "text": "We often remember the journey more than the destination itself.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction for a very deep voice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_timbre_direct_atomic_pitch__0015",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with the deepest voice you can make.",
+          "text": "The primary function of this component is to regulate the flow of electricity.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an extremely low pitch."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use your absolute lowest pitch for this sentence.",
+          "text": "This process allows for the conversion of raw data into a more usable format.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an extremely low pitch."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want you to find the deepest, most resonant tone you have.",
+          "text": "The procedure involves several steps that must be completed in a specific order.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an extremely low pitch."
+          }
+        }
+      ]
+    }
+  ]
+}

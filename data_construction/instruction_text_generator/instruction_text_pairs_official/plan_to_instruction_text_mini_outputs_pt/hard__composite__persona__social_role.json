@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "pt",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Speak in a patient, encouraging tone, like a teacher explaining a difficult subject to make it seem easy.",
+      "text": "A gravidade é a força invisível que nos mantém presos ao chão e faz com que os objetos caiam. Tudo o que tem massa, como os planetas e as estrelas, exerce essa força de atração.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes an encouraging teacher; text explains a concept simply."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Use a formal, clear, and slightly grandiloquent tone, like a professional event announcer opening a ceremony.",
+      "text": "Senhoras e senhores, sejam todos muito bem-vindos à cerimônia de premiação desta noite. É com grande honra que damos início a este evento tão especial.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a formal announcer tone; text is a formal event opening."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Use a booming, cheerful voice, like a vendor on the beach calling out to people.",
+      "text": "Água de coco geladinha! A melhor da praia, doce como mel! Chega mais, freguesia, pra refrescar nesse calorão!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a booming beach vendor; text is an informal pitch."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Use a calm, patient, and helpful tone with a slightly scripted quality, like a call center employee guiding someone.",
+      "text": "Com certeza, eu posso ajudar com isso. Primeiro, por favor, clique no ícone de configurações no canto superior direito da tela.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a scripted, helpful tone; text is procedural guidance."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Speak as an engaging and friendly tour guide, enthusiastically sharing details about a historical site with a group.",
+      "text": "E aqui à nossa direita, podemos ver o Mosteiro dos Jerónimos, um exemplo magnífico da arquitetura manuelina do século dezasseis. Observem os detalhes intrincados da fachada, que contam histórias das grandes navegações portuguesas. Foi construído para celebrar o regresso de Vasco da Gama da Índia.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests an engaging guide; text is a long, detailed historical description."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Speak in a calm, professional manner, providing clear and reassuring health instructions.",
+      "text": "Para cuidar desse pequeno ferimento, limpe a área com água e sabão suavemente e depois aplique a pomada. Mantenha o curativo sempre limpo e seco.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a calm, professional manner; text provides simple health instructions."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Your delivery should be rapid and full of energy, with a rising excitement, just like an auctioneer's call.",
+      "text": "Mil, mil, quem me dá mil e duzentos? Mil e duzentos! Agora mil e quinhentos, vamos subir! Mil e quinhentos, que belo lance! Dou-lhe uma, dou-lhe duas... e vendido por mil e quinhentos!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for rapid, energetic delivery; text contains increasing numbers and repetitive phrases."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Speak in a warm and engaging tone, as if you're starting a conversation with a close friend through their headphones.",
+      "text": "E aí, tudo bem? Queria começar o nosso papo de hoje com uma pergunta: você já se sentiu completamente sobrecarregado pela quantidade de informações que recebe todos os dias? É sobre esse excesso e como lidar com ele que vamos conversar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a warm, engaging tone; text is an intro posing a question."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Speak with a high-energy, enthusiastic, and interactive tone, like a live streamer reacting to something while talking to their audience.",
+      "text": "Não acredito! Vocês viram isso? Que jogada incrível! Mandem aí nos comentários o que acharam, porque eu ainda estou em choque! Isso foi épico!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction asks for a high-energy, interactive tone; text reacts to an event and addresses an audience."
+      },
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Deliver this as if you are a patient teacher clearly explaining a new concept to your class.",
+          "text": "A fotossíntese é o processo que as plantas usam para converter a luz do sol em energia. Elas absorvem dióxido de carbono do ar e água do solo, e com a ajuda da luz, produzem glicose, que é o seu alimento.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a patient teacher; text is a simple scientific explanation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use the calm and clear voice of an educator explaining a historical event.",
+          "text": "Em 1500, uma frota portuguesa liderada por Pedro Álvares Cabral chegou à costa do que hoje conhecemos como Brasil. Este evento marcou o início da colonização europeia na região.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an educator's voice; text is a simple historical explanation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Speak in a patient, encouraging tone, like a teacher explaining a difficult subject to make it seem easy.",
+          "text": "A gravidade é a força invisível que nos mantém presos ao chão e faz com que os objetos caiam. Tudo o que tem massa, como os planetas e as estrelas, exerce essa força de atração.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an encouraging teacher; text explains a concept simply."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a formal, clear, and slightly grandiloquent tone, like a professional event announcer opening a ceremony.",
+          "text": "Senhoras e senhores, sejam todos muito bem-vindos à cerimônia de premiação desta noite. É com grande honra que damos início a este evento tão especial.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a formal announcer tone; text is a formal event opening."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Your voice should be that of an announcer at a formal gala: polished, resonant, and clear.",
+          "text": "Boa noite a todos. É um imenso prazer recebê-los para a celebração do nosso décimo aniversário. Preparem-se para uma noite inesquecível.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a polished announcer's voice; text is a formal welcome."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Announce the start of a conference with a formal and engaging tone.",
+          "text": "Damos as boas-vindas a todos os participantes da conferência internacional. Que os próximos dias sejam de muito aprendizado e colaboração mútua.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies an engaging announcer; text is a formal conference welcome."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Sound like a loud, enthusiastic, and friendly street vendor trying to attract customers to their food stall.",
+          "text": "Olha o pastel quentinho, minha gente! Acabou de sair! É o mais recheado da feira, pode vir que não se arrepende!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a loud, friendly vendor; text is a colloquial sales pitch for food."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use a booming, cheerful voice, like a vendor on the beach calling out to people.",
+          "text": "Água de coco geladinha! A melhor da praia, doce como mel! Chega mais, freguesia, pra refrescar nesse calorão!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a booming beach vendor; text is an informal pitch."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Adopt the persona of a street vendor, speaking with a persuasive and energetic voice to highlight your product.",
+          "text": "Pamonha, pamonha, pamonha fresquinha! Feita com o milho mais novo! Leva uma pra experimentar, é uma delícia!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a persuasive, energetic vendor; text praises the food."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a calm, patient, and helpful tone with a slightly scripted quality, like a call center employee guiding someone.",
+          "text": "Com certeza, eu posso ajudar com isso. Primeiro, por favor, clique no ícone de configurações no canto superior direito da tela.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a scripted, helpful tone; text is procedural guidance."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Your voice should be professional and reassuring, like a customer service agent walking a user through a process.",
+          "text": "Para redefinir sua senha, acesse nossa página principal e procure o link 'Esqueci minha senha'. O sistema enviará novas instruções para o seu e-mail.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a professional, reassuring voice; text guides a user."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Speak in a consistently polite and helpful manner, as if you are reading from a script to provide support.",
+          "text": "Entendo perfeitamente. Para dar continuidade, preciso que me confirme o número de referência que recebeu por mensagem de texto.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a polite, scripted manner; text is a standard procedural step."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak as an engaging and friendly tour guide, enthusiastically sharing details about a historical site with a group.",
+          "text": "E aqui à nossa direita, podemos ver o Mosteiro dos Jerónimos, um exemplo magnífico da arquitetura manuelina do século dezasseis. Observem os detalhes intrincados da fachada, que contam histórias das grandes navegações portuguesas. Foi construído para celebrar o regresso de Vasco da Gama da Índia.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests an engaging guide; text is a long, detailed historical description."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use the informative and friendly voice of someone leading a tour, pointing out interesting features of a famous location.",
+          "text": "Se olharem para cima, verão os famosos Arcos da Lapa, no Rio de Janeiro. Originalmente construído para levar água do rio Carioca para o centro da cidade, hoje é um dos cartões postais mais conhecidos e um ponto de encontro para a vida noturna local. A estrutura é realmente impressionante, não acham?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for an informative, friendly voice; text describes a landmark."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Adopt the persona of a knowledgeable guide, explaining the history of a piece of art in a way that captivates your audience.",
+          "text": "Estamos agora diante do 'Abaporu', de Tarsila do Amaral, uma das obras mais importantes do modernismo brasileiro. A figura de proporções exageradas representa a ideia de 'antropofagia cultural', ou seja, a absorção de influências estrangeiras para criar algo genuinamente nosso. É uma peça que convida à reflexão.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a knowledgeable guide; text explains a piece of art."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a calm, reassuring, and professional tone, as if you are a doctor explaining a course of action to someone.",
+          "text": "É importante que você tome este medicamento a cada oito horas, durante os próximos sete dias. Beba bastante líquido e procure descansar. Você deve começar a se sentir melhor em breve.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a calm, professional tone; text gives medical instructions."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Deliver these instructions with the gentle authority and clear voice of a medical professional giving advice.",
+          "text": "Os resultados dos exames estão normais, não há motivo para preocupação. Recomendo apenas que mantenha uma dieta equilibrada e faça caminhadas leves regularmente.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a gentle, authoritative voice; text is reassuring medical advice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Speak in a calm, professional manner, providing clear and reassuring health instructions.",
+          "text": "Para cuidar desse pequeno ferimento, limpe a área com água e sabão suavemente e depois aplique a pomada. Mantenha o curativo sempre limpo e seco.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a calm, professional manner; text provides simple health instructions."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Deliver this with the fast-paced, rhythmic, and exciting energy of an auctioneer calling for bids.",
+          "text": "Temos duzentos, quem dá duzentos e cinquenta? Duzentos e cinquenta na mesa, agora trezentos, trezentos, trezentos! Alguém dá trezentos e cinquenta? Dou-lhe uma, dou-lhe duas... vendido por trezentos!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests fast, rhythmic energy; text is a rapid bidding call."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Speak very quickly and with a clear, rhythmic cadence, like someone conducting a fast-paced auction.",
+          "text": "Começamos com quinhentos. Tenho quinhentos, procuro seiscentos. Seiscentos ali no fundo! Agora setecentos, vamos lá, setecentos! Setecentos na primeira fila! Dou-lhe uma, dou-lhe duas, e já foi!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a quick, rhythmic cadence; text is a classic auction call."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Your delivery should be rapid and full of energy, with a rising excitement, just like an auctioneer's call.",
+          "text": "Mil, mil, quem me dá mil e duzentos? Mil e duzentos! Agora mil e quinhentos, vamos subir! Mil e quinhentos, que belo lance! Dou-lhe uma, dou-lhe duas... e vendido por mil e quinhentos!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for rapid, energetic delivery; text contains increasing numbers and repetitive phrases."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Use a relaxed, intimate, and conversational style, as if you're a host speaking directly to your listeners.",
+          "text": "Olá e bem-vindos de volta. Vocês já pararam para pensar no que realmente significa ser feliz? Será que é ter sucesso, dinheiro, ou algo mais profundo? Hoje vamos explorar as diferentes filosofias sobre a felicidade ao longo da história.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a relaxed, conversational style; text is an engaging monologue."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Speak in a warm and engaging tone, as if you're starting a conversation with a close friend through their headphones.",
+          "text": "E aí, tudo bem? Queria começar o nosso papo de hoje com uma pergunta: você já se sentiu completamente sobrecarregado pela quantidade de informações que recebe todos os dias? É sobre esse excesso e como lidar com ele que vamos conversar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a warm, engaging tone; text is an intro posing a question."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Adopt a casual and friendly persona, like someone hosting a show, introducing a new topic in an engaging way.",
+          "text": "Oi pessoal, que bom ter vocês aqui de novo. Pensem comigo por um instante: e se as viagens no tempo fossem possíveis? Quais paradoxos e dilemas éticos nós enfrentaríamos? É essa viagem maluca que eu quero propor para vocês hoje.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a casual, friendly persona; text is a conversational intro."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__pt__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Portuguese. Speak with a high-energy, enthusiastic, and interactive tone, like a live streamer reacting to something while talking to their audience.",
+          "text": "Não acredito! Vocês viram isso? Que jogada incrível! Mandem aí nos comentários o que acharam, porque eu ainda estou em choque! Isso foi épico!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a high-energy, interactive tone; text reacts to an event and addresses an audience."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Portuguese. Use a very energetic and excited voice, as if you're broadcasting live and interacting with viewer comments.",
+          "text": "Caramba, essa foi por pouco! Meu coração quase saiu pela boca! Valeu aí pelo apoio, galera, vocês são demais! Vamos para a próxima!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies an energetic, excited voice; text acknowledges an unseen audience."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Portuguese. Adopt the persona of an online entertainer, speaking enthusiastically and directly to your followers during a live event.",
+          "text": "Que isso, gente! Simplesmente sensacional! Agradeço a todos que estão assistindo e mandando essa energia positiva. Vamos continuar que a noite só está começando!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an enthusiastic online entertainer; text is interactive commentary."
+          }
+        }
+      ]
+    }
+  ]
+}

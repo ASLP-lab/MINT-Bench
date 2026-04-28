@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/personality",
+  "language": "ru",
+  "source_plan_file": "easy__style__tag__atomic__personality.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Personality: Cheerful",
+      "text": "Нужно будет прибраться дома на выходных и разобрать старые вещи на балконе.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization. The text about chores is mundane, which contrasts well with the cheerful delivery target."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Personality: Serious",
+      "text": "Тостер поджаривает хлеб с помощью инфракрасного излучения, которое исходит от раскаленных электрических спиралей.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization. The text is a technical and neutral explanation."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Personality: Reserved",
+      "text": "Простите, вы не подскажете, который час?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization. A simple, polite request suitable for a reserved delivery."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Personality: Confident",
+      "text": "Мы утвердили бюджет на следующий квартал. Все детали будут разосланы по электронной почте сегодня днем.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization. The text is a straightforward announcement of a finalized decision."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Personality: Warm",
+      "text": "Я вижу, у тебя много дел. Если нужна помощь с чем-нибудь, не стесняйся обращаться.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization. The text is considerate and encourages the other person to ask for help."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "warm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Personality: Aloof",
+      "text": "Магазин закрывается через десять минут.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization. The text states a simple fact without any emotional coloring."
+      },
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0001",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: Cheerful",
+          "text": "На этих выходных я, наверное, схожу в магазин за продуктами, а вечером, может быть, посмотрю какой-нибудь фильм.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is neutral, allowing the cheerful personality to be expressed through prosody."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: Cheerful",
+          "text": "Я думаю съездить за город в субботу, если погода будет хорошая. Просто погулять немного.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text about a potential trip is simple and not inherently exciting."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: Cheerful",
+          "text": "Нужно будет прибраться дома на выходных и разобрать старые вещи на балконе.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text about chores is mundane, which contrasts well with the cheerful delivery target."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0002",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "serious"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: Serious",
+          "text": "Электрический чайник работает по простому принципу: ток проходит через нагревательный элемент, который передает тепло воде.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is a dry, factual explanation suitable for a serious tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: Serious",
+          "text": "Микроволновая печь использует микроволны для нагрева пищи. Эти волны заставляют молекулы воды в еде вибрировать, создавая тепло.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text explains a process factually, matching the serious persona."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: Serious",
+          "text": "Тостер поджаривает хлеб с помощью инфракрасного излучения, которое исходит от раскаленных электрических спиралей.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is a technical and neutral explanation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0003",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "reserved"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: Reserved",
+          "text": "Простите, вы не подскажете, который час?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. A simple, polite request suitable for a reserved delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: Reserved",
+          "text": "Извините, не знаете, как пройти к ближайшей остановке?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. A common and brief question that doesn't invite extended conversation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: Reserved",
+          "text": "Будьте добры, этот автобус идет до центра?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is a short, functional question."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0004",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: Confident",
+          "text": "После рассмотрения всех вариантов, я решил выбрать проект, который мы обсуждали на прошлой неделе.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text states a decision clearly and without hesitation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: Confident",
+          "text": "Я проанализировал данные и пришел к выводу, что нам следует изменить нашу текущую стратегию.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The phrasing suggests a firm conclusion based on analysis."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: Confident",
+          "text": "Мы утвердили бюджет на следующий квартал. Все детали будут разосланы по электронной почте сегодня днем.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is a straightforward announcement of a finalized decision."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0005",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "warm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: Warm",
+          "text": "Если у тебя возникнут какие-либо вопросы по этому документу, просто дай мне знать, я помогу разобраться.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is a simple, supportive offer of help."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: Warm",
+          "text": "Я вижу, у тебя много дел. Если нужна помощь с чем-нибудь, не стесняйся обращаться.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is considerate and encourages the other person to ask for help."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: Warm",
+          "text": "Я как раз закончил со своими задачами. Могу я чем-нибудь помочь тебе, чтобы ускорить процесс?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text offers assistance in a gentle, non-intrusive way."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__easy_style_tag_atomic_personality__0006",
+      "meta_path": "easy/style/tag/atomic/personality",
+      "target_values": {
+        "personality": "aloof"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Personality: Aloof",
+          "text": "Похоже, сегодня снова будет дождь.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text is a short, detached observation about the weather."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Personality: Aloof",
+          "text": "На улице довольно прохладно для этого времени года.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. A factual, impersonal comment that fits an aloof personality."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Personality: Aloof",
+          "text": "Магазин закрывается через десять минут.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization. The text states a simple fact without any emotional coloring."
+          }
+        }
+      ]
+    }
+  ]
+}

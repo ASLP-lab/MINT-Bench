@@ -1,0 +1,379 @@
+{
+  "taxonomy_node": "special/extra_vocal/implicit_nv",
+  "language": "de",
+  "generation_summary": {
+    "num_items": 10,
+    "domain": "extra_vocal",
+    "difficulty": "special",
+    "notes": "Planning for implicit non-verbal events in German, with English instructions. The instructions will describe the vocal event, but the text will not contain explicit tags."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0001",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "sigh"
+      },
+      "aux_values": {
+        "event_type": "sigh",
+        "placement": "at the beginning of the utterance"
+      },
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "Must be a reflective or slightly weary statement.",
+        "The text itself should not mention tiredness or sighing.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to let out a sigh of resignation or tiredness just before starting to speak.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0002",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "chuckle"
+      },
+      "aux_values": {
+        "event_type": "chuckle",
+        "placement": "in the middle of the sentence"
+      },
+      "text_semantic": "casual_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "The sentence should have a natural pause point in the middle where a chuckle would fit.",
+        "The text should not contain obviously funny words.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "Ask the speaker to say the line with amusement, letting a small chuckle escape in the middle of the sentence.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0003",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "throat_clearing"
+      },
+      "aux_values": {
+        "event_type": "throat_clearing",
+        "placement": "before starting to speak"
+      },
+      "text_semantic": "brief_announcement",
+      "text_length": "medium",
+      "text_constraints": [
+        "The text should be a simple, declarative statement suitable for an announcement.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to clear their throat to get attention before delivering the line.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0004",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "gasp"
+      },
+      "aux_values": {
+        "event_type": "gasp",
+        "placement": "immediately after the last word"
+      },
+      "text_semantic": "simple_request",
+      "text_length": "medium",
+      "text_constraints": [
+        "The text should be a mundane request that doesn't imply shock.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "The speaker should say the line normally, but then let out a sharp gasp right after finishing, as if they've just seen something shocking.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0005",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "panting"
+      },
+      "aux_values": {
+        "event_type": "panting",
+        "frequency": "interspersed throughout",
+        "intensity": "light"
+      },
+      "text_semantic": "explanatory_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "The sentence should be long enough to be broken up by breaths.",
+        "The content should be neutral and not mention physical activity.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "The speaker should sound out of breath, as if they have just run up a flight of stairs, with their speech interspersed with panting.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0006",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "sobbing"
+      },
+      "aux_values": {
+        "event_type": "sobbing",
+        "placement": "breaking up words towards the end"
+      },
+      "text_semantic": "emotionally_ambiguous_statement",
+      "text_length": "medium",
+      "text_constraints": [
+        "The text should be something one might say to reassure themselves or someone else, like 'It's all going to work out'.",
+        "The text must not contain words like 'cry', 'sad', 'tears'.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "The speaker is trying to speak bravely but is overwhelmed by emotion, their voice breaking and catching on sobs, especially near the end.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0007",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "yawn"
+      },
+      "aux_values": {
+        "event_type": "yawn",
+        "placement": "in the middle of the sentence, suppressed"
+      },
+      "text_semantic": "factual_statement",
+      "text_length": "long",
+      "text_constraints": [
+        "A long, slightly boring factual statement.",
+        "The content should not be related to sleep or boredom.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "The speaker is very tired and can't suppress a yawn that happens in the middle of their sentence.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0008",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "sniffle"
+      },
+      "aux_values": {
+        "event_type": "sniffle",
+        "frequency": "once or twice between phrases"
+      },
+      "text_semantic": "daily_notice",
+      "text_length": "medium",
+      "text_constraints": [
+        "The content should be mundane, like a weather report or a reminder.",
+        "The text must not refer to being sick or cold.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "Ask the speaker to sound like they have a bit of a cold, with an occasional sniffle during pauses.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": true,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0009",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "humming"
+      },
+      "aux_values": {
+        "event_type": "humming",
+        "placement": "briefly before starting to speak"
+      },
+      "text_semantic": "short_reflection",
+      "text_length": "medium",
+      "text_constraints": [
+        "A pleasant, contented observation.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "The speaker should sound happy and thoughtful, humming a little to themselves before they begin talking.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_implicit_nv__0010",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "attribute_set": [
+        "implicit_nv"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "implicit_nv": "mumble"
+      },
+      "aux_values": {
+        "event_type": "mumble",
+        "placement": "the last few words of the sentence"
+      },
+      "text_semantic": "mild_dialogue",
+      "text_length": "medium",
+      "text_constraints": [
+        "The text should be a statement of reluctant agreement or uncertainty.",
+        "final text must be written in German",
+        "final text must not contain bracketed nonverbal tags"
+      ],
+      "instruction_constraints": [
+        "Ask the speaker to start the sentence clearly, but then trail off into an indistinct mumble for the last few words, as if they are unsure or speaking to themselves.",
+        "Must include the phrase 'Speak in German.'",
+        "final instruction must be in English and should begin with 'Speak in German.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "static",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

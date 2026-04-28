@@ -1,0 +1,651 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/layered",
+  "language": "fr",
+  "source_plan_file": "hard__composite__complex_comp__layered.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Sound happy on the surface, but let a tone of deep disappointment seep through your voice.",
+      "text": "Oh, c'est formidable que tu aies eu la promotion. Je suis vraiment... content pour toi.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. In a gentle, sweet manner, deliver a sarcastic compliment. The sarcasm should be subtle, almost hidden by your soft-spoken nature.",
+      "text": "C'est une robe très... unique. Il faut vraiment avoir du cran pour porter quelque chose comme ça.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Speak with outward confidence, but a tremor of worry should be audible just beneath the surface, revealing the gravity of the situation you're all in.",
+      "text": "Tout va bien se passer. L'équipe de secours est en route et nos défenses tiennent bon. Nous devons juste tenir encore un peu, et tout rentrera dans l'ordre. Restez calmes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "confident",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Read this joke with a forced playfulness. Your default serious personality should make the attempt at humor feel slightly unnatural.",
+      "text": "Qu'est-ce qui est jaune et qui attend ? Jonathan. C'est une blague, vous comprenez le jeu de mot.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. You are an aloof person who hates asking for help. Your tone should be pleading, but your underlying disdain for the situation should still be clear.",
+      "text": "Je ne vous demanderais pas ça si ce n'était pas absolument nécessaire. Pourriez-vous envisager de m'aider ?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "aloof",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Tell this story with a cheerful voice, but let the sadness of the past seep in, making the overall performance sound bittersweet and nostalgic.",
+      "text": "La première fois que nous avons vu la neige tomber, c'était magique. On a passé des heures à jouer dehors, complètement insouciants. J'aimerais tellement pouvoir revivre un instant comme celui-là.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Deliver this line as if you don't care at all, but your real emotion is sadness, which subtly colors your voice despite your efforts.",
+      "text": "Peu importe. Ça ne change pas grand-chose pour moi, au final.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Speak as a warm and friendly person, but with a firm, unyielding undertone that makes it clear your suggestion is not optional.",
+      "text": "Je pense que ce serait dans l'intérêt de tout le monde que vous acceptiez notre proposition. Ce serait vraiment dommage de devoir explorer d'autres options.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "warm",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Speak in a calm, measured way, as if discussing a simple problem. Let the intensity of your barely-contained anger build subtly throughout the sentence.",
+      "text": "Analysons la situation de manière objective. Le protocole n'a pas été respecté. Les fonds ont été déplacés sans autorisation. Ce n'est pas une question d'opinion, c'est un fait vérifiable.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Deliver this line with a playful, coquettish tone. The subtext is that you are gently letting someone down, using charm to soften the blow.",
+      "text": "Oh, c'est vraiment adorable de ta part de proposer, mais je crois que mon programme est déjà bien rempli pour le moment.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Sound happy on the surface, but let a tone of deep disappointment seep through your voice.",
+          "text": "Oh, c'est formidable que tu aies eu la promotion. Je suis vraiment... content pour toi.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Say this with a bright, cheerful expression, but with an undercurrent of disappointment in your tone.",
+          "text": "Alors, vous partez tous en vacances sans moi ? Amusez-vous bien, ça a l'air génial.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your performance should be of someone putting on a brave face, trying to be happy, but their voice betrays their true feeling of disappointment.",
+          "text": "Je vois que la fête continue après mon départ. C'est super, profitez bien de votre soirée.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. In a gentle, sweet manner, deliver a sarcastic compliment. The sarcasm should be subtle, almost hidden by your soft-spoken nature.",
+          "text": "C'est une robe très... unique. Il faut vraiment avoir du cran pour porter quelque chose comme ça.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your natural personality is gentle, but you're making a sarcastic remark. Let the sarcasm be a subtle undertone to your otherwise sweet-sounding voice.",
+          "text": "Ton nouvel appartement est charmant. C'est incroyable tout ce que tu as réussi à faire avec un si petit espace.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Say this with a gentle voice, but lace the words with a fine thread of sarcasm that is just barely perceptible.",
+          "text": "Merci beaucoup pour ton aide. Je ne sais vraiment pas ce que j'aurais fait sans tes excellents conseils.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "confident",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. As a leader, project confidence to your team, but let the deep worry you feel about the situation create an undercurrent of anxiety in your voice.",
+          "text": "Je sais que la situation semble difficile, mais je vous assure que nous avons un plan. Chaque étape a été calculée. Faites-moi confiance et suivez les instructions à la lettre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Deliver this reassurance with a confident posture, but your voice should betray the worry you're trying to conceal from your followers.",
+          "text": "Il n'y a aucune raison de paniquer. Nous avons déjà traversé des épreuves similaires. L'important est de rester unis et de se concentrer sur l'objectif final que nous nous sommes fixé.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak with outward confidence, but a tremor of worry should be audible just beneath the surface, revealing the gravity of the situation you're all in.",
+          "text": "Tout va bien se passer. L'équipe de secours est en route et nos défenses tiennent bon. Nous devons juste tenir encore un peu, et tout rentrera dans l'ordre. Restez calmes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. You are a very serious person attempting to tell a joke. Try to sound playful, but your natural seriousness makes the delivery a bit stiff and awkward.",
+          "text": "Pourquoi les plongeurs tombent-ils toujours en arrière du bateau ? Parce que s'ils tombaient en avant, ils seraient toujours dans le bateau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Read this joke with a forced playfulness. Your default serious personality should make the attempt at humor feel slightly unnatural.",
+          "text": "Qu'est-ce qui est jaune et qui attend ? Jonathan. C'est une blague, vous comprenez le jeu de mot.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. As someone who is typically very serious, try to deliver this line playfully. The effort should be audible, making the joke sound a little rigid.",
+          "text": "Deux grains de sable arrivent à la plage. L'un dit à l'autre: 'Je crois qu'aujourd'hui, c'est bondé'.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "aloof",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. You are an aloof person who hates asking for help. Your tone should be pleading, but your underlying disdain for the situation should still be clear.",
+          "text": "Je ne vous demanderais pas ça si ce n'était pas absolument nécessaire. Pourriez-vous envisager de m'aider ?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speak with a pleading tone, but let your proud, aloof nature show through, making it sound like you're reluctant to be asking for a favor.",
+          "text": "Je me trouve dans une situation délicate. J'aurais besoin de votre assistance, si cela ne vous dérange pas trop.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your voice should carry a pleading quality, but it's layered over a personality that is distant and proud, revealing your discomfort with being in a position of need.",
+          "text": "C'est la dernière fois que je vous importune, je le promets. J'ai vraiment besoin de votre aide sur ce coup-là.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "cheerful",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. As a naturally cheerful person, recount a happy memory. However, the memory is tinged with a deep sadness for what has been lost, creating a bittersweet delivery.",
+          "text": "Je me souviens des étés passés dans le jardin de ma grand-mère. On courait partout, on cueillait des framboises. Le soleil semblait ne jamais se coucher à cette époque.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Your voice should reflect your cheerful personality as you talk about a fond memory, but an undercurrent of sadness should be present, hinting at a sense of loss.",
+          "text": "Tu te rappelles nos soirées sur la plage ? On refaisait le monde autour du feu de camp, persuadés que rien ne pourrait jamais changer entre nous. C'était le bon temps.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Tell this story with a cheerful voice, but let the sadness of the past seep in, making the overall performance sound bittersweet and nostalgic.",
+          "text": "La première fois que nous avons vu la neige tomber, c'était magique. On a passé des heures à jouer dehors, complètement insouciants. J'aimerais tellement pouvoir revivre un instant comme celui-là.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. You are deeply sad, but you're trying to hide it behind a tone of complete indifference. The underlying hurt should still be perceptible.",
+          "text": "Ah, d'accord. Je vois. Merci de m'avoir prévenu.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Adopt a flat, indifferent tone to mask your profound sadness. A slight tremor or hollowness in your voice might betray your true feelings.",
+          "text": "C'est noté. Il faut faire ce qu'il faut, je suppose.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Deliver this line as if you don't care at all, but your real emotion is sadness, which subtly colors your voice despite your efforts.",
+          "text": "Peu importe. Ça ne change pas grand-chose pour moi, au final.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "warm",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speak as a warm and friendly person, but with a firm, unyielding undertone that makes it clear your suggestion is not optional.",
+          "text": "Je pense que ce serait dans l'intérêt de tout le monde que vous acceptiez notre proposition. Ce serait vraiment dommage de devoir explorer d'autres options.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use a warm voice, but deliver the line with a firm tone that hints at a threat beneath the friendly words.",
+          "text": "Nous serions ravis de vous compter parmi nous. J'espère sincèrement que vous ferez le bon choix pour votre avenir.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Your personality is warm, but your tone is firm. Deliver this invitation in a way that sounds pleasant on the surface but carries an unmistakable warning.",
+          "text": "Pourquoi ne pas nous rejoindre pour discuter ? Je suis certain que nous pouvons trouver un arrangement qui satisfera tout le monde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. You have a naturally calm personality and are trying to remain composed, but you are seething with anger just beneath the surface. This contained rage should color your measured speech.",
+          "text": "Si nous examinons les faits, nous constatons plusieurs incohérences. Le rapport indique une chose, mais les preuves matérielles en suggèrent une autre. Il y a une explication, et nous allons la trouver.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Maintain a calm, analytical exterior while speaking. However, your voice should carry the tension of suppressed anger, making every word feel heavy.",
+          "text": "La procédure a été suivie à la lettre, du moins en apparence. Chaque action a des conséquences. Il est simplement question de retracer la chaîne des événements pour comprendre où la faille s'est produite.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speak in a calm, measured way, as if discussing a simple problem. Let the intensity of your barely-contained anger build subtly throughout the sentence.",
+          "text": "Analysons la situation de manière objective. Le protocole n'a pas été respecté. Les fonds ont été déplacés sans autorisation. Ce n'est pas une question d'opinion, c'est un fait vérifiable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Deliver this line with a playful, coquettish tone. The subtext is that you are gently letting someone down, using charm to soften the blow.",
+          "text": "Oh, c'est vraiment adorable de ta part de proposer, mais je crois que mon programme est déjà bien rempli pour le moment.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Use a charming and coquettish tone to say this, as if you're subtly turning someone down without hurting their feelings.",
+          "text": "Quelle bonne idée ! Peut-être une autre fois ? Je suis sûre qu'on trouvera un meilleur moment.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Say this with a light, flirty voice. You are rejecting an offer, but you're doing it in such a sweet way that it almost sounds like a compliment.",
+          "text": "Tu es un amour de penser à moi. Mais je vais devoir garder ça pour une occasion spéciale.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

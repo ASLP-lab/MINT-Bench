@@ -1,0 +1,295 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/disfluency",
+  "language": "zh",
+  "source_plan_file": "special__extra_vocal__abnormal__disfluency.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "说话时带点结巴。",
+      "text": "太阳能电池板通过光伏效应将阳光直接转换成电能。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__zh__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话时带点结巴。",
+          "text": "太阳能电池板通过光伏效应将阳光直接转换成电能。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用口吃的语气读出这句话。",
+          "text": "大多数植物的叶子因为含有叶绿素而呈现绿色。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用结结巴巴的方式朗读以下文字。",
+          "text": "地球的自转是导致昼夜交替现象的主要原因。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话时重复一些词语，听起来好像在边想边说，有点犹豫。",
+          "text": "你能不能，呃，能不能帮我把那个架子上的书拿下来？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "读的时候，像是因为紧张而重复某些词或短语。",
+          "text": "我想，我想问一下，这个周末的会议是不是改时间了？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的声音听起来有点不确定，在说话过程中会重复一些字词。",
+          "text": "麻烦你，麻烦你帮我查一下，下一班去市中心的公交车是几点？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "朗读时，在句子中间突然卡住，停顿一下，就像某个词说不出来一样。",
+          "text": "我们时常在追求未来的幸福，却忽略了当下的拥有，其实真正的宝藏可能就隐藏在平凡的每一天里。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你的声音听起来像是在努力说话，但话语会在中途突然中断，形成不自然的停顿。",
+          "text": "时间的流逝并不会真正治愈什么，它只是教会我们如何与记忆共存，如何带着过往继续前行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说话时会出现语塞的情况，导致句子里有突然的、无声的停顿。",
+          "text": "人们常常高估了一年内能做到的事，却又低估了十年内能完成的改变，坚持的力量远超想象。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话前有明显的犹豫，尤其是在每句话的开头，很难开始。",
+          "text": "各位乘客请注意，本次列车即将到达终点站，请提前做好下车准备。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "句子开头的部分说得特别迟疑，好像在鼓起勇气才把话说出来。",
+          "text": "下面我来宣布一下，本周五的部门会议因故推迟，具体时间另行通知。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你在开口说话时会很困难，第一句话的第一个字要停顿一下才能说出。",
+          "text": "尊敬的各位来宾，我们的活动马上就要开始了，请大家在指定位置就座。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用轻微但持续的口吃方式，读完下面这个长句。",
+          "text": "制作柠檬水的过程其实很简单，你只需要将新鲜柠檬挤出汁，然后加入适量的水和糖，搅拌均匀即可。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "整句话都要带有一点结巴，但不要太夸张，保持连贯性。",
+          "text": "要想把这个软件安装好，首先需要双击安装包，然后按照屏幕上出现的提示一步步点击“下一步”直到完成。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请在朗读时，始终保持一种轻微结巴的语调。",
+          "text": "光合作用是植物利用光能，将二氧化碳和水转化成储存能量的有机物，并释放出氧气的过程。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话时好像在边说边想，重复好几个词的第一个音节。",
+          "text": "我觉得，我觉得我们应该先，先看看天气预报再决定去不去。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "在读这句对话时，有几个词的开头会重复一下，表现出思考的感觉。",
+          "text": "那个，那个电影我好像看，看过了，讲的是一个关于时间旅行的故事。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你的语速不快，中间会重复一些词的开头部分，听起来像在组织语言。",
+          "text": "也许，也许我们可以试试另一家餐厅，听说那，那边的菜品不错。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

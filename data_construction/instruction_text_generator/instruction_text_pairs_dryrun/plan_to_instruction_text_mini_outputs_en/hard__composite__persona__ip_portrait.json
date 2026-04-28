@@ -1,0 +1,471 @@
+{
+  "taxonomy_node": "hard/composite/persona/ip_portrait",
+  "language": "en",
+  "source_plan_file": "hard__composite__persona__ip_portrait.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "I want a theatrical, unstable male voice. The delivery should have a dangerously playful quality, with a provocative and unpredictable rhythm that keeps you on edge.",
+      "text": "The funny thing about a straight line is that it's just a circle with an infinite horizon. You can run forever and never get anywhere new.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the vocal portrait without using the character's name. Text is paradoxical and avoids forbidden keywords."
+      },
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0001",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "joker_batman"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0001",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "joker_batman"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I want a theatrical, unstable male voice. The delivery should have a dangerously playful quality, with a provocative and unpredictable rhythm that keeps you on edge.",
+          "text": "The funny thing about a straight line is that it's just a circle with an infinite horizon. You can run forever and never get anywhere new.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the vocal portrait without using the character's name. Text is paradoxical and avoids forbidden keywords."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak with the voice of a gleeful anarchist. It should sound theatrical and emotionally volatile, shifting between amusement and menace with a singsong, unsettling rhythm.",
+          "text": "Sanity is just a little box, and you know, once you've seen the outside, you can't ever quite fit back in. Isn't that a laugh?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the vocal portrait without using the character's name. Text is paradoxical and avoids forbidden keywords."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt a male persona that is both charming and terrifying. The voice should be filled with a dangerous playfulness, using an erratic pace to build tension and suggest profound instability.",
+          "text": "All it takes is one little push to see that all the rules are just a bad joke, and we're all just one punchline away from the truth.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the vocal portrait without using the character's name. Text is paradoxical and avoids forbidden keywords."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0002",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "spongebob"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a very high-pitched, energetic cartoon voice. The delivery should be bright and springy, full of exaggerated innocence and a slightly silly quality.",
+          "text": "The best way to build a tower is to start with the biggest block on the bottom, and then add another one, and another one, until it's super tall!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction captures the high-pitched, energetic style. Text is cheerful and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a cartoonish, high-pitched voice brimming with excitement. It should have a bouncy rhythm and a tone of pure, almost naive, cheerfulness.",
+          "text": "I found out that if you mix the red paint and the yellow paint, you get a whole new color! Isn't that the most amazing thing you've ever heard?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction captures the high-pitched, energetic style. Text is cheerful and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Give me an overly enthusiastic and silly cartoon voice. It's high in pitch, with a very springy and energetic delivery that conveys boundless optimism.",
+          "text": "Okay, so the first step is to get the glitter, and then you get the glue, and then you put the glitter ON the glue, and then you have a masterpiece!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction captures the high-pitched, energetic style. Text is cheerful and avoids forbidden themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0003",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "klee_genshin"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the voice of a very young, energetic girl, like Klee from Genshin Impact. The delivery should be bouncy and lively, with a tone of innocent mischievousness.",
+          "text": "Look what I found! It's a shiny rock, and it's super warm! I bet if I hide it, no one will ever find my secret treasure.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction explicitly references the character as allowed. Text is childlike and avoids game jargon."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I'm looking for a vocal performance similar to the character Klee from Genshin Impact. It should be a high-pitched young girl's voice, full of playful, explosive energy and a bouncy rhythm.",
+          "text": "I saw a big fuzzy caterpillar today! It was wiggling all over the leaf and I wanted to follow it to see where it was going on its adventure!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction explicitly references the character as allowed. Text is childlike and avoids game jargon."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Please generate audio in the style of Klee from Genshin Impact: a high-pitched, very young girl's voice with a super lively and bouncy cadence, full of mischievous cheer.",
+          "text": "If you jump in the puddle really, really hard, the water goes 'spshhhhh' everywhere! It's the best sound in the whole world!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction explicitly references the character as allowed. Text is childlike and avoids game jargon."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0004",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "elsa_frozen"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a cool, elegant, and regal female voice, reminiscent of Elsa from Frozen. The delivery should be marked by noble restraint, but with a powerful inner tension just beneath the calm surface.",
+          "text": "From this day forward, these walls will not be a prison, but a sanctuary. I will uphold the duties of my station with the conviction required, and I shall do it alone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is formal and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I'm looking for a vocal style similar to Elsa in Frozen. It's an adult female voice that is poised and controlled, almost emotionally distant, yet you can feel the immense power she's holding back.",
+          "text": "The burden of leadership is one I have chosen to bear. Let it be known that my resolve is absolute, and I will not permit any distraction from the path I must walk.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is formal and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a powerful queen, like Elsa. The voice should be elegant and cool, with very controlled breath support. Convey a sense of noble isolation and restrained emotional depth.",
+          "text": "There are certain responsibilities one cannot abdicate. I have made my decision, and though the cost is great, it is a price I am willing to pay for the preservation of order.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is formal and avoids forbidden themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0005",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "deadpool"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "I need a glib, fast-talking male voice, like a certain wisecracking mercenary in a red suit. The delivery should be sarcastic, irreverent, and full of playful aggression.",
+          "text": "Oh, sure, that sounds like a fantastic plan. What could possibly go wrong with an idea that's one hundred percent guaranteed to be mildly inconvenient?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction alludes to the character without naming them. Text is sarcastic and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak with the unstable seriousness and sharp comic timing of a fourth-wall-breaking antihero. The voice is male, fast-paced, and dripping with sarcasm.",
+          "text": "You see, the secret to success is to look like you know what you're doing. Everyone's just improvising anyway, they're just not honest enough to admit it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction alludes to the character without naming them. Text is sarcastic and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Give me a male voice that is playfully aggressive and relentlessly sarcastic. He talks fast, sounds a bit unhinged, and treats everything like it's the punchline to a joke only he gets.",
+          "text": "And they all lived happily ever after? Please. That's just the part where the credits roll before the really messy, interesting stuff starts happening.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction alludes to the character without naming them. Text is sarcastic and avoids forbidden themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0006",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "po_kungfu_panda"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a warm, enthusiastic male voice with a slight heaviness to it, like Po from Kung Fu Panda. The delivery should mix earnestness with a touch of comic clumsiness.",
+          "text": "I know it seems impossible right now, but I just have this feeling that if I keep trying my best, something amazing is going to happen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is optimistic and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I'm looking for a vocal performance in the style of Po from Kung Fu Panda. It's a friendly, optimistic cartoon voice, full of earnest drive and a lovable, slightly awkward energy.",
+          "text": "Maybe I'm not the most graceful person, but I have a lot of heart! And I'm pretty sure that's got to count for something, right?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is optimistic and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a big, friendly character like a panda hero. The voice is warm and driven by pure enthusiasm, but with an undercurrent of well-meaning clumsiness.",
+          "text": "Wow. I can't believe I'm actually here, doing this. It's going to be a lot of hard work, but I'm so ready to start the journey!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction alludes to the character archetype. Text is optimistic and avoids forbidden themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0007",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "maleficent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Adopt the persona of a dark and imposing sorceress, in the style of Maleficent. The voice should be elegant and low, with a dangerous calmness and aristocratic coldness.",
+          "text": "Be warned. Such alliances are fragile things, and the loyalty you so eagerly place in others may well become your undoing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is a cryptic warning and avoids forbidden words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I want a female voice that is regal and threatening, much like Maleficent. Use a low and controlled energy, speaking with a chilling elegance that suggests immense, restrained power.",
+          "text": "You would do well to remember that some doors, once opened, can never be closed again. Tread carefully in this place.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is a cryptic warning and avoids forbidden words."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak with the dark elegance and imposing presence of a character like Maleficent. The delivery is calm and controlled, but filled with pressure and a cold, aristocratic demeanor.",
+          "text": "I wonder if you truly comprehend the consequences of your actions. A fleeting victory can precede a permanent sorrow.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is a cryptic warning and avoids forbidden words."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0008",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "crayon_shinchan"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a boyish, nasal voice with a mischievous and lazy tone, like Crayon Shin-chan. The rhythm should be a bit draggy and the delivery full of cheeky irreverence.",
+          "text": "Hey, miss? Why do grown-ups always look so tired when they're just walking around?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is a simple, cheeky question."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I'm looking for a vocal performance in the style of Crayon Shin-chan. It's a young boy's voice that's comically shameless, with a lazy, nasal drawl.",
+          "text": "If I eat all my vegetables now, does that mean I don't have to eat them tomorrow? Or the next day?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is a simple, cheeky question."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a cheeky little boy like Shin-chan. The voice should be slightly nasal, with a slow, draggy cadence that sounds both lazy and mischievous.",
+          "text": "Can I have some of that juice? The red one looks way more interesting than my boring water.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is a simple, cheeky question."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0009",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "harry_potter"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in the voice of a teenage boy, similar in style to Harry Potter. The delivery should be earnest and polite, yet carry a determined, brave undertone.",
+          "text": "I'm not sure what's going on, but something feels different. I can't explain it, but I know we have to figure it out.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is earnest and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I'm looking for a clear, youthful teenage boy's voice, inspired by a character like Harry Potter. It should convey a sense of earnestness and restrained bravery.",
+          "text": "There's a pattern here, I think. It seems too strange to be a coincidence, but I don't know what it means yet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is earnest and avoids forbidden themes."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt a vocal persona like Harry Potter's: a teenage boy who is polite but firm. The tone is clear and youthful, with a quality of quiet determination.",
+          "text": "He said not to worry, but the way he looked away when he said it... I have a feeling he wasn't telling us the whole truth.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character as allowed. Text is earnest and avoids forbidden themes."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_ip_portrait__0010",
+      "meta_path": "hard/composite/persona/ip_portrait",
+      "target_values": {
+        "ip_portrait": "sunwukong_journey"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as the Monkey King, Sun Wukong. The voice should be nimble, bright, and masculine, filled with playful rebelliousness and a confident, heroic energy.",
+          "text": "Ha! Let them try to stop me. There isn't a challenge in this world that I can't overcome with my own two hands.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character archetype as allowed. Text is boastful and avoids specific myths."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a vocal performance inspired by the archetype of Sun Wukong. It's an agile male voice with a quick rhythmic attack, brimming with self-assuredness and a rebellious spirit.",
+          "text": "Rules are for people who need them. I make my own path, and I suggest you either follow or get out of the way.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character archetype as allowed. Text is boastful and avoids specific myths."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a legendary trickster hero like the Monkey King. The voice is bright and agile, projecting an unshakeable confidence and a playful, defiant energy.",
+          "text": "You think that's impressive? Just you wait. I haven't even started to show you what I'm truly capable of.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction references the character archetype as allowed. Text is boastful and avoids specific myths."
+          }
+        }
+      ]
+    }
+  ]
+}

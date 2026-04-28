@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/timbre/direct/atomic/age",
+  "language": "zh",
+  "source_plan_file": "easy__timbre__direct__atomic__age.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "用天真活泼的儿童声音来说。",
+      "text": "我们什么时候可以开始呀？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses descriptive words for a child's voice. Text is an age-neutral question."
+      },
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用小孩子的声音说。",
+          "text": "请问这个要放在哪里？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct request for a child's voice. Text is an age-neutral question."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "模仿一个小女孩的声音说话。",
+          "text": "你可以帮我一下吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a little girl's voice. Text is a simple, age-neutral request for help."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用天真活泼的儿童声音来说。",
+          "text": "我们什么时候可以开始呀？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses descriptive words for a child's voice. Text is an age-neutral question."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用标准的成年人声音朗读。",
+          "text": "根据最新的天气预报，明天白天会有阵雨。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a standard adult voice. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用一个普通的成年男性的声音来说。",
+          "text": "这个城市的公共交通系统在早上七点开始运营。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a regular adult male voice. Text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用清晰、自然的成年女性声音朗读。",
+          "text": "这种植物的叶子在秋天会变成红色或黄色。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a clear, natural adult female voice. Text is a neutral factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一位老年人的声音说话，语速稍微慢一点。",
+          "text": "回想起来，那个决定确实改变了很多事情。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests an elderly voice with a slightly slower pace. Text is an age-neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用沉稳、年长的声音来朗读这句话。",
+          "text": "有时候，最简单的道理反而最容易被忽略。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses descriptive words for an elderly voice. Text is a short, age-neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "声音听起来像一位阅历丰富的老者，从容不迫。",
+          "text": "时间过得真快，很多事情都和以前不一样了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes an experienced elder's voice. Text is a common, age-neutral reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_timbre_direct_atomic_age__0004",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用成熟稳重的声音说。",
+          "text": "请大家注意，会议将在五分钟后开始。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a mature and steady voice. Text is a common daily notice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用一个成熟、可靠的成年人声音播报。",
+          "text": "今天的活动安排已经张贴在公告栏上。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a mature, reliable adult voice. Text is a neutral notice."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一个听起来比较有阅历的成年人声音说。",
+          "text": "图书馆将于下午六点准时关闭。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests an experienced-sounding adult voice. Text is a standard announcement."
+          }
+        }
+      ]
+    }
+  ]
+}

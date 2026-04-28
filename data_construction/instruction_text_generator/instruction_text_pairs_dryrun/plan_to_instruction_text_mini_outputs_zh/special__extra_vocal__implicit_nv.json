@@ -1,0 +1,471 @@
+{
+  "taxonomy_node": "special/extra_vocal/implicit_nv",
+  "language": "zh",
+  "source_plan_file": "special__extra_vocal__implicit_nv.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "说话时，在中间停顿一下，带出一声轻笑，仿佛回忆起了什么趣事。",
+      "text": "小时候我们做的傻事，现在想起来还是觉得很好笑。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implicit NV case."
+      },
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0001",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0001",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在句子中间轻轻笑一声，就像想起了什么好玩的事。",
+          "text": "我还记得他当时那个表情，真的是太逗了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说话时，在中间停顿一下，带出一声轻笑，仿佛回忆起了什么趣事。",
+          "text": "小时候我们做的傻事，现在想起来还是觉得很好笑。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读时，在中间加入一声忍俊不禁的轻笑。",
+          "text": "他居然以为那是个真的道具，结果一碰就碎了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0002",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sigh"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "带着疲惫的叹息开始说话。",
+          "text": "这件事到头来还是得我们自己处理。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "先叹一口气，然后再说出这句话，表现出无奈的感觉。",
+          "text": "我本来以为今天能早点结束的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "句首带上一次轻微的叹气。",
+          "text": "又要加班了，这周已经是第三次了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0003",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在开始说话前，请清一下嗓子，好像要引起大家的注意。",
+          "text": "各位来宾，今天的会议现在正式开始。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "发言前先响亮地清清喉咙。",
+          "text": "我想借此机会，宣布一个重要的决定。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用清嗓子的声音作为句子的开头。",
+          "text": "接下来，我将向大家介绍我们下一阶段的计划。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0004",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "gasp"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在说话时突然倒吸一口气，像是猛然想起了什么惊人的事情。",
+          "text": "等一下，如果他是昨天离开的，那意味着他不可能到那儿。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "话说到一半，插入一个短促的吸气声，表现出震惊。",
+          "text": "我刚刚看到新闻，他们说的那个地方不就是我们家附近吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一声急促的抽气打断自己的话语。",
+          "text": "你看这张照片，这个人长得好像……天哪，这不是失踪的那个人吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0005",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sobbing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "声音要充满悲伤，在短语之间带上轻微的抽泣，但不要让哭声完全盖过话语。",
+          "text": "我们尽力了，但是医生说情况非常不乐观，他可能再也醒不过来了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用哽咽的语气说话，句间可以有压抑的啜泣声。",
+          "text": "我接到电话的时候，完全不敢相信这是真的，我不知道该怎么告诉你们这个坏消息。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读时，在句子停顿处加入难以抑制的哭泣声，声音要颤抖。",
+          "text": "他一直是个那么好的人，总是帮助别人，为什么会发生这种事在他身上。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0006",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "yawn"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在句子中间打一个疲惫的哈欠，让一两个字听起来有点模糊。",
+          "text": "我真的太困了，这报告明天之前必须得写完。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "话说到一半时，忍不住打个哈欠，声音要显得很疲倦。",
+          "text": "都这个点了，他们还在楼上吵个不停，真是没法睡了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "在朗读过程中加入一个大大的哈欠，表现出极度困倦。",
+          "text": "我已经连续工作超过十五个小时了，眼睛都快睁不开了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0007",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sniffle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "说话时，偶尔带上轻微的吸鼻子声，像是在强忍着悲伤或得了感冒。",
+          "text": "没关系，我真的没事，你不用担心我。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "在句子的停顿处加入几次吸鼻子的声音，表现出难过的情绪。",
+          "text": "他走的时候，什么都没说，就把这个留给了我。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用带着鼻音和偶尔抽吸的声音说话。",
+          "text": "我只是觉得有点冷，大概是窗户没关好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0008",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "humming"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在开始说话前，先心满意足地轻轻哼一小段曲子。",
+          "text": "今天天气真好，下午去公园散散步应该很舒服。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "开口前先哼唱几秒钟，表现出愉快满足的心情。",
+          "text": "这道菜的味道，跟妈妈做的一模一样。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一段轻松的哼唱作为开场，然后再说出这句话。",
+          "text": "能像这样安静地坐着看看书，感觉真好。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0009",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "mumble"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在说完这句话后，用非常低的声音咕哝一句抱怨或保留意见的话。",
+          "text": "好吧，既然大家都同意，那就这么办吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "句末带上一句含糊不清的嘟囔，表达不情愿。",
+          "text": "行，我知道了，我会去处理的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说完主要内容后，用几乎听不见的声音小声嘀咕。",
+          "text": "嗯，听起来是个不错的计划，就这样决定了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__special_extra_vocal_implicit_nv__0010",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "gulp"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "在句子中间停顿一下，然后发出一个紧张的吞咽声，像是鼓起勇气一样。",
+          "text": "其实有件事，我一直想跟你说但是没敢开口。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "话说到一半时，紧张地咽一下口水，然后再继续说下去。",
+          "text": "关于那笔钱，我……我把它弄丢了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "在句中停顿后，加入一个明显的吞咽动作的声音。",
+          "text": "我必须承认，上次的错误……其实是我的责任。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard implicit NV case."
+          }
+        }
+      ]
+    }
+  ]
+}

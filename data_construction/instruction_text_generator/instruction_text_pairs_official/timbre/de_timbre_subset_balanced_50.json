@@ -1,0 +1,1133 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "de",
+  "group_name": "timbre_balanced_subset",
+  "num_items": 50,
+  "sampling_summary": {
+    "requested_num_samples": 50,
+    "actual_num_samples": 50,
+    "seed": 42,
+    "taken_per_timbre_attr": {
+      "age": 13,
+      "gender": 12,
+      "pitch": 13,
+      "texture": 12
+    },
+    "available_per_timbre_attr": {
+      "age": 24,
+      "gender": 20,
+      "pitch": 15,
+      "texture": 19
+    },
+    "num_unknown_items_ignored": 0
+  },
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Pitch: normal, Gender: male",
+      "text": "Lokale Behörden warnen vor starken Regenfällen und möglichen Überschwemmungen am Wochenende.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Gender: Male",
+      "text": "Die durchschnittliche Temperatur auf der Erdoberfläche beträgt etwa fünfzehn Grad Celsius.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_gender__0001",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Age: elderly, Gender: male, Personality: serious",
+      "text": "Die Jahre nach dem großen Ereignis waren geprägt von einem Gefühl des Wandels, das in der Luft lag.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_personality",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Speak slowly, as an elderly person might.",
+      "text": "Gehen Sie einfach diese Straße hinunter und biegen Sie dann an der zweiten Ampel links ab.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Read this with a soft, gentle voice.",
+      "text": "Tief im Wald, wo die Sonnenstrahlen den Boden kaum berührten, schlief ein kleiner Bär in seiner Höhle.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "soft",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Age: Adult",
+      "text": "Der Pazifische Ozean ist der größte und tiefste Ozean der Erde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. I need a child's voice, sounding bright and happy, speaking quickly and with excitement.",
+      "text": "Es hat Räder und einen Knopf, und wenn man den drückt, macht es ein Geräusch.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static/age_texture_emotion_speed",
+      "target_values": {
+        "age": "child",
+        "texture": "bright",
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Emotion: surprised, Speed: fast, Pitch: high, Gender: female",
+      "text": "Das Konzert war innerhalb von nur fünf Minuten komplett ausverkauft.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static/emotion_speed_pitch_gender",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "fast",
+        "pitch": "high",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Pitch: high",
+      "text": "Bitte denken Sie daran, die Dokumente vor dem Verlassen des Büros zu unterschreiben.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction for a non-English language."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. The speaker is a man with a deep, resonant voice, delivering the line with confidence.",
+      "text": "Dieses Modell ist mit einem Allradantrieb und einem adaptiven Federungssystem ausgestattet.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static/gender_texture_personality",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. I want to hear an adult man's voice that is surprisingly high in pitch. His tone should be smug and boastful.",
+      "text": "Während ihr noch überlegt habt, habe ich die Lösung schon längst gefunden. War ja auch nicht besonders schwer.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "very_high",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. I want to hear this read in a little girl's voice.",
+      "text": "Pferde können sehr schnell laufen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a little girl's voice; text is a neutral fact about an animal."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_age__0001",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "child"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. I'd like a masculine-sounding voice for this announcement.",
+      "text": "Achtung, der Zug auf Gleis drei hat eine Verspätung von ungefähr zehn Minuten. Wir bitten um Ihr Verständnis.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a masculine voice; text is a neutral announcement."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Use a low-pitched, slightly raspy voice.",
+      "text": "Es ist seltsam, wie schnell die Zeit vergeht, wenn man nicht aufpasst.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Deliver the text in a calm, slow manner, using a soft vocal quality.",
+      "text": "Die Wahrnehmung der Zeit ist eine seltsame Sache, sie dehnt sich und zieht sich zusammen, je nachdem, was wir erleben. Ein Augenblick kann sich wie eine Ewigkeit anfühlen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static/personality_speed_texture",
+      "target_values": {
+        "personality": "calm",
+        "speed": "slow",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Gender: male, Age: adult, Pitch: low, Volume: loud, Tone: firm",
+      "text": "Wir weisen darauf hin, dass die Bibliothek aufgrund von Wartungsarbeiten am kommenden Wochenende geschlossen bleibt. Wir bitten um Ihr Verständnis und entschuldigen uns für die Unannehmlichkeiten.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static/gender_age_pitch_volume_tone",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "pitch": "low",
+        "volume": "loud",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Age: Adult",
+      "text": "Der nächste Zug nach Berlin fährt von Gleis sieben ab.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0004",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this explanation with the serious and thoughtful voice of a male academic.",
+      "text": "Bei der Photosynthese handelt es sich um einen biochemischen Prozess, bei dem Pflanzen, Algen und einige Bakterien Lichtenergie nutzen, um Kohlendioxid und Wasser in Glukose und Sauerstoff umzuwandeln.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_emotion_personality",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "emotion": "thoughtful",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Use a very low-pitched voice.",
+      "text": "Das ist eine interessante Perspektive.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Gender: Male",
+      "text": "Die Besprechung wurde auf morgen verschoben.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German with a high-pitched voice.",
+      "text": "Die Konferenz beginnt morgen um neun Uhr im Hauptsaal.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Gender: female, Pitch: high",
+      "text": "Morgen erwartet uns sonniges Wetter mit Temperaturen bis zu fünfundzwanzig Grad.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Pitch: very_high",
+      "text": "Der Bericht fasst die wichtigsten Ergebnisse der Studie des letzten Quartals zusammen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction for a non-English language."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0001",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Age: Elderly",
+      "text": "Manchmal ist es gut, einfach nur dazusitzen und die Stille zu genießen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_age__0003",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Pitch: very_low",
+      "text": "Die Reihenfolge der Schritte ist für das Endergebnis des Experiments entscheidend.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag-based instruction for a non-English language."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_pitch__0004",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. The speaker is an elderly woman who is naturally gentle, but she's trying her best to sound defiant and firm.",
+      "text": "Nein, das werde ich nicht tun. Meine Entscheidung steht fest.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "personality": "gentle",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Use a smoky, low-pitched voice. Deliver this line with a detached, indifferent tone at a regular speed.",
+      "text": "Die Verhandlungen über das neue Handelsabkommen wurden heute ohne Ergebnis vertagt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static/pitch_texture_tone_speed",
+      "target_values": {
+        "pitch": "low",
+        "texture": "smoky",
+        "tone": "indifferent",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Texture: deep, Speed: normal",
+      "text": "Tief in den Wäldern des Amazonas lebt eine Vielzahl von seltenen und unentdeckten Arten.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "deep",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German, making your voice sound low.",
+      "text": "Wegen Wartungsarbeiten ist der Aufzug vorübergehend außer Betrieb.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Emotion: angry, Volume: loud, Pitch: normal",
+      "text": "Das Signal wird dann durch den Verstärker geleitet und an den Ausgangsanschluss weitergeleitet.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static/emotion_volume_pitch",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "loud",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this line with a mostly indifferent, normal-pitched voice. For the middle phrase, however, inject a burst of high-pitched, urgent energy, then immediately return to your original indifferent delivery.",
+      "text": "Die Inszenierung war wie erwartet, mit solidem, aber uninspiriertem Schauspiel. Aber es gab da diese eine Szene im zweiten Akt, die war absolut brillant, die musst du sehen! Danach verfiel das Stück leider wieder in seine gewohnte Monotonie.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high -> normal",
+        "tone": "indifferent -> urging -> indifferent"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Texture: sweet",
+      "text": "Wir freuen uns über jede helfende Hand beim Unkrautjäten am kommenden Samstag.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "German text for English tag instruction."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Start by speaking loudly and with a high pitch, as if addressing a large audience. Gradually decrease your volume and lower your pitch, ending in a quiet, low-pitched, more intimate tone.",
+      "text": "Wir stehen vor großen Herausforderungen, das ist unbestreitbar, und es wird die Anstrengung von uns allen erfordern! Aber wenn wir zusammenarbeiten, mit Entschlossenheit und Einigkeit, dann bin ich zuversichtlich, dass wir diese Hürden überwinden werden. Lassen Sie uns also mit Hoffnung in die Zukunft blicken, auf eine bessere Welt für die kommenden Generationen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "volume": "loud -> normal -> quiet",
+        "pitch": "high -> normal -> low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Speak with the extreme speed, volume, and urgency of an auctioneer, but maintain a clear voice.",
+      "text": "Ich sehe hier vorne eine Hand, da hinten noch eine, wer bietet mehr, zum ersten, zum zweiten, wir brauchen eine Entscheidung, die Zeit läuft ab, beeilen Sie sich, letzte Chance!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static/texture_volume_speed_tone",
+      "target_values": {
+        "texture": "clear",
+        "volume": "very_loud",
+        "speed": "very_fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Texture: nasal",
+      "text": "Können Sie noch einmal nachsehen, ob die Reservierung auf meinen Namen lautet?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "German text for English tag instruction."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_texture__0006",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Gender: Female",
+      "text": "Dieses Prinzip erklärt, warum Objekte mit Masse eine Anziehungskraft aufeinander ausüben.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. The speaker is a little boy, but his voice is much deeper than you'd expect. He's speaking with a firm and resolute tone.",
+      "text": "Hör jetzt genau zu. Wir müssen diesen Plan exakt befolgen, sonst funktioniert es nicht.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "texture": "deep",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Use an airy, whispered tone for the following sentence.",
+      "text": "Ich glaube, es fängt bald an zu schneien, die Luft ist schon so still.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_texture__0001",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Use a very high-pitched voice.",
+      "text": "Könnten Sie mir bitte das Salz reichen?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Texture: clear",
+      "text": "Das Ziel des Spiels ist es, als Erster alle eigenen Spielfiguren ins Ziel zu bringen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "German text for English tag instruction."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_texture__0005",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. I want you to sound like an elderly woman who is always finding something to complain about.",
+      "text": "Schon wieder so ein Wind, man kann kaum die Zeitung in der Hand halten.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_tone",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Make your voice crisp and easy to understand for this announcement.",
+      "text": "Der nächste Halt ist Hauptbahnhof. Bitte alle aussteigen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_texture__0003",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Adopt the voice of an elderly woman who is thoughtful and hesitant. She should speak slowly, choosing her words with care.",
+      "text": "Die Hauptstadt von Australien ist Canberra, soweit ich mich erinnere. Viele Leute denken, es sei Sydney, aber... ich bin ziemlich sicher, dass es Canberra ist.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_speed_emotion_tone",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "speed": "slow",
+        "emotion": "thoughtful",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Please read this with a female voice.",
+      "text": "Wo ist der nächste Bahnhof, bitte?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction requests a female voice; text is a simple, neutral question."
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Use a gravelly and slightly strained voice for this line.",
+      "text": "Ich glaube, ich mache für heute Schluss und gehe nach Hause.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. I want you to sound like a man with a deep, booming voice, full of defiant anger.",
+      "text": "Auf der Liste stehen Kartoffeln, Zwiebeln, Äpfel, Mehl und Zucker.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses descriptive language ('deep, booming') to cue the target attributes. Text is neutral."
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static/gender_pitch_volume_emotion_tone",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_low",
+        "volume": "very_loud",
+        "emotion": "angry",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Say this with a warm, encouraging voice, urging the listener to complete the next step carefully.",
+      "text": "Jetzt ist es ganz wichtig, die Zutaten langsam und vorsichtig unterzuheben, damit der Teig schön luftig bleibt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static/personality_tone_volume_pitch",
+      "target_values": {
+        "personality": "warm",
+        "tone": "urging",
+        "volume": "normal",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Texture: deep",
+      "text": "Das Brandenburger Tor wurde zwischen 1788 und 1791 auf Anweisung des preußischen Königs Friedrich Wilhelm II. errichtet.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "German text for English tag instruction."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_texture__0001",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Texture: husky",
+      "text": "Am liebsten höre ich morgens beim Frühstück die Nachrichten im Radio.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "German text for English tag instruction."
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_texture__0003",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "de"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Gender: Female",
+      "text": "Kann ich bitte die Rechnung haben?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__easy_timbre_tag_atomic_gender__0002",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "de"
+    }
+  ]
+}

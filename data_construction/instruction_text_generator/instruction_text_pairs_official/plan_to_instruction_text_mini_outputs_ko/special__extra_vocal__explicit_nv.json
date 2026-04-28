@@ -1,0 +1,633 @@
+{
+  "taxonomy_node": "special/extra_vocal/explicit_nv",
+  "language": "ko",
+  "source_plan_file": "special__extra_vocal__explicit_nv.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Say this as if you just heard a hilarious joke and you're full of genuine amusement.",
+      "text": "와, 그 이야기 진짜 웃기다. [laugh] 어떻게 그런 생각을 했지?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes amusement without using the word 'laugh'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "laugh"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Deliver the line with a feeling of exhaustion and resignation.",
+      "text": "일이 끝이 없구나. 언제쯤이면 다 끝날까. [sigh]",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a tired state without using the word 'sigh'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sigh"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Deliver this line as if you've just heard something completely unexpected and shocking.",
+      "text": "[gasp] 세상에, 그게 정말 사실이야? 믿을 수가 없어.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a shocked reaction without using the word 'gasp'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "gasp"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Say this in a formal, serious tone, as if you're about to make an important announcement to a group.",
+      "text": "[throat_clearing] 모두 주목해 주시기 바랍니다. 중요한 공지사항이 있습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a formal context without mentioning the throat clearing."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Deliver this line with a heartbroken, trembling voice, as if you're struggling to get the words out through immense sadness.",
+      "text": "그때 제가 할 수 있는 게 아무것도 없었어요. [sobbing] 그냥 지켜볼 수밖에 없었다는 게 너무 힘들어요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction requests a sad, wavering voice without using the word 'sob'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sobbing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Say this in a very sleepy, low-energy voice, as if you're about to fall asleep.",
+      "text": "이제 정말 한계다. [yawn] 더는 못 버티겠어, 자러 가야지.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a sleepy state without using the word 'yawn'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "yawn"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Your tone should be light and subtly playful, as if you've noticed something ironic.",
+      "text": "맨날 바쁘다고 하면서 드라마는 다 챙겨보더라. [chuckle]",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction asks for an amused tone without using 'chuckle' or 'laugh'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Say this with a soft, thoughtful voice, as if pondering something with no particular urgency.",
+      "text": "[humming] 오늘 저녁은 뭘 먹을지 생각해 봐야겠다. [humming]",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction requests a contemplative tone without using the word 'hum'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "humming"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Deliver this with a sentimental, slightly choked-up voice, as if recalling a touching memory.",
+      "text": "이 사진을 보니까 어릴 때 생각이 나네요. [sniffle] 참 좋은 시절이었는데.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction describes a sentimental state without using 'sniffle' or 'cry'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sniffle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Deliver this line very softly, with a low volume, as if you are telling a secret.",
+      "text": "[whisper] 사실은 그 사람이 범인이 아니었대. [whisper]",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": true,
+        "notes": "Instruction requests a quiet delivery without using the word 'whisper'."
+      },
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "whisper"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0001",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "laugh"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this as if you just heard a hilarious joke and you're full of genuine amusement.",
+          "text": "와, 그 이야기 진짜 웃기다. [laugh] 어떻게 그런 생각을 했지?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes amusement without using the word 'laugh'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this line with a bright, cheerful tone, like you're reacting to something very funny.",
+          "text": "아, 정말요? 상상도 못 했어요. [laugh] 너무 재밌네요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes amusement without using the word 'laugh'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this with a joyous and lighthearted voice, as if you're delighted by a funny anecdote.",
+          "text": "그 친구 정말 대단하다. [laugh] 듣기만 해도 기분이 좋아지네.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes amusement without using the word 'laugh'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0002",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sigh"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this with a tired, world-weary voice, as if you've just finished a very long day.",
+          "text": "[sigh] 오늘 하루도 정말 길었네. 이제 좀 쉬고 싶다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a tired state without using the word 'sigh'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver the line with a feeling of exhaustion and resignation.",
+          "text": "일이 끝이 없구나. 언제쯤이면 다 끝날까. [sigh]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a tired state without using the word 'sigh'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this in a low-energy, slightly dejected tone, reflecting on a draining experience.",
+          "text": "[sigh] 결국 오늘도 야근이네. 정말 지친다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a tired state without using the word 'sigh'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0003",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "gasp"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Deliver this line as if you've just heard something completely unexpected and shocking.",
+          "text": "[gasp] 세상에, 그게 정말 사실이야? 믿을 수가 없어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a shocked reaction without using the word 'gasp'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Read this with a sudden intake of breath, expressing total surprise.",
+          "text": "[gasp] 아니, 그럴 리가! 뭔가 잘못 안 거 아니야?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a shocked reaction without using the word 'gasp'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Your tone should be one of utter astonishment, as if you're reacting to unbelievable news.",
+          "text": "[gasp] 잠깐만, 뭐라고 다시 말해봐. 내가 제대로 들은 거 맞아?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a shocked reaction without using the word 'gasp'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0004",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this in a formal, serious tone, as if you're about to make an important announcement to a group.",
+          "text": "[throat_clearing] 모두 주목해 주시기 바랍니다. 중요한 공지사항이 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a formal context without mentioning the throat clearing."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Adopt a slightly nervous but official manner, like you're gathering yourself to speak publicly.",
+          "text": "[throat_clearing] 지금부터 회의를 시작하겠습니다. 다들 자리에 앉아주세요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a formal context without mentioning the throat clearing."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver this with a deliberate, formal pace, as if addressing an audience for a serious matter.",
+          "text": "[throat_clearing] 여러분께 드릴 말씀이 있습니다. 잠시 제 얘기를 들어주십시오.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a formal context without mentioning the throat clearing."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0005",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sobbing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Deliver this line with a heartbroken, trembling voice, as if you're struggling to get the words out through immense sadness.",
+          "text": "그때 제가 할 수 있는 게 아무것도 없었어요. [sobbing] 그냥 지켜볼 수밖에 없었다는 게 너무 힘들어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a sad, wavering voice without using the word 'sob'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should be full of sorrow and on the verge of breaking, conveying deep emotional pain.",
+          "text": "그 소식을 처음 들었을 때, 정말 세상이 무너지는 것 같았죠. [sobbing] 아직도 그 순간이 잊히지 않아요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a sad, wavering voice without using the word 'sob'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this as someone overwhelmed by grief, with a shaky and unsteady delivery.",
+          "text": "마지막으로 봤던 모습이 아직도 눈에 선한데, [sobbing] 이제는 다시 볼 수 없다는 사실이 믿기지 않아요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a sad, wavering voice without using the word 'sob'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0006",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "yawn"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this in a very sleepy, low-energy voice, as if you're about to fall asleep.",
+          "text": "이제 정말 한계다. [yawn] 더는 못 버티겠어, 자러 가야지.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sleepy state without using the word 'yawn'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver the line with a drowsy, slow pace, showing you are extremely tired.",
+          "text": "벌써 시간이 이렇게 됐네. [yawn] 내일 일찍 일어나야 하는데 큰일이다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sleepy state without using the word 'yawn'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Your voice should sound heavy with sleep, barely able to keep your eyes open.",
+          "text": "미안, 나 너무 졸려서 [yawn] 무슨 말인지 잘 모르겠어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sleepy state without using the word 'yawn'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0007",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this with a knowing, quietly amused tone, as if sharing a little inside joke.",
+          "text": "역시 그럴 줄 알았어. 사람들은 변하지 않는다니까. [chuckle]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction asks for an amused tone without using 'chuckle' or 'laugh'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this line with a gentle, warm sense of private amusement.",
+          "text": "고양이들은 정말 자기가 세상의 주인인 줄 아는 것 같아. [chuckle]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction asks for an amused tone without using 'chuckle' or 'laugh'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Your tone should be light and subtly playful, as if you've noticed something ironic.",
+          "text": "맨날 바쁘다고 하면서 드라마는 다 챙겨보더라. [chuckle]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction asks for an amused tone without using 'chuckle' or 'laugh'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0008",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "humming"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this in a relaxed, contemplative tone, as if lost in pleasant thought.",
+          "text": "[humming] 이걸 어디에 두는 게 제일 좋을까. [humming]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a contemplative tone without using the word 'hum'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your delivery should be calm and content, like you are musing to yourself while doing a simple task.",
+          "text": "[humming] 날씨가 좋으니 기분도 덩달아 좋아지네. [humming]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a contemplative tone without using the word 'hum'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Say this with a soft, thoughtful voice, as if pondering something with no particular urgency.",
+          "text": "[humming] 오늘 저녁은 뭘 먹을지 생각해 봐야겠다. [humming]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a contemplative tone without using the word 'hum'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0009",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "sniffle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Deliver this with a sentimental, slightly choked-up voice, as if recalling a touching memory.",
+          "text": "이 사진을 보니까 어릴 때 생각이 나네요. [sniffle] 참 좋은 시절이었는데.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sentimental state without using 'sniffle' or 'cry'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should be gentle and full of nostalgia, with a hint of sadness for a time that has passed.",
+          "text": "할머니가 만들어 주시던 된장찌개 맛이 아직도 기억나요. [sniffle]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sentimental state without using 'sniffle' or 'cry'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Read this with a soft, wavering tone, like you're trying to keep your emotions in check while sharing something bittersweet.",
+          "text": "우리가 처음 만났던 공원이 이제는 사라지고 없대요. [sniffle]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction describes a sentimental state without using 'sniffle' or 'cry'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__special_extra_vocal_explicit_nv__0010",
+      "meta_path": "special/extra_vocal/explicit_nv",
+      "target_values": {
+        "explicit_nv": "whisper"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this in a very quiet, secretive tone, as if you don't want anyone else to overhear.",
+          "text": "[whisper] 이거 아무한테도 말하면 안 돼, 우리 둘만 아는 거야. [whisper]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a quiet delivery without using the word 'whisper'."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Use a hushed, conspiratorial voice, leaning in to share a piece of confidential information.",
+          "text": "[whisper] 내가 서랍 맨 아래 칸에 선물을 숨겨 놨어. [whisper]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a quiet delivery without using the word 'whisper'."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Deliver this line very softly, with a low volume, as if you are telling a secret.",
+          "text": "[whisper] 사실은 그 사람이 범인이 아니었대. [whisper]",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": true,
+            "notes": "Instruction requests a quiet delivery without using the word 'whisper'."
+          }
+        }
+      ]
+    }
+  ]
+}

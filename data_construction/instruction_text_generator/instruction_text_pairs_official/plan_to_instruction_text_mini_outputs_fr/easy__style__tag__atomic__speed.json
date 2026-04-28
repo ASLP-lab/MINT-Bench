@@ -1,0 +1,261 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/speed",
+  "language": "fr",
+  "source_plan_file": "easy__style__tag__atomic__speed.json",
+  "num_input_items": 4,
+  "num_output_items": 4,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Speed: very_fast",
+      "text": "Le vol Air France AF7742 en provenance de Nice est annoncé à l'atterrissage, les passagers sont attendus à la porte de livraison des bagages numéro douze.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text content (an airport announcement) is a natural fit for a very fast speaking rate."
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in French. Speed: fast",
+      "text": "Je suis désolé mais je suis un peu pressé, mon train part dans moins de dix minutes et je ne veux absolument pas le rater.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in French. Speed: slow",
+      "text": "Il est parfois nécessaire de s'arrêter un instant pour contempler le chemin parcouru.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in French. Speed: very_slow",
+      "text": "Pour bien comprendre ce concept, il faut analyser chaque partie une par une, sans se presser.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text's meaning encourages a very slow, deliberate delivery."
+      },
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0001",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speed: very_fast",
+          "text": "Attention Mesdames et Messieurs, le TGV numéro 8543 à destination de Marseille Saint-Charles va entrer en gare voie A, éloignez-vous de la bordure du quai.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (a train announcement) is a natural fit for a very fast speaking rate."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speed: very_fast",
+          "text": "Information voyageurs, en raison d'un bagage abandonné, le trafic est momentanément interrompu sur l'ensemble de la ligne, reprise estimée dans vingt minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (a train announcement) is a natural fit for a very fast speaking rate."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speed: very_fast",
+          "text": "Le vol Air France AF7742 en provenance de Nice est annoncé à l'atterrissage, les passagers sont attendus à la porte de livraison des bagages numéro douze.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text content (an airport announcement) is a natural fit for a very fast speaking rate."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0002",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speed: fast",
+          "text": "J'ai tellement de choses à faire aujourd'hui, je dois passer à la banque, faire les courses, et récupérer un colis avant que la poste ne ferme.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speed: fast",
+          "text": "Alors écoute bien, tu prends la première à droite, tu continues tout droit sur environ deux cents mètres, et tu verras le restaurant juste sur ta gauche.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speed: fast",
+          "text": "Je suis désolé mais je suis un peu pressé, mon train part dans moins de dix minutes et je ne veux absolument pas le rater.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0003",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speed: slow",
+          "text": "Chaque décision que nous prenons dans la vie nous amène sur un chemin unique et irremplaçable.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speed: slow",
+          "text": "Il est parfois nécessaire de s'arrêter un instant pour contempler le chemin parcouru.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speed: slow",
+          "text": "Je me suis rendu compte que le plus important n'est pas la destination, mais bien le voyage lui-même.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__fr__easy_style_tag_atomic_speed__0004",
+      "meta_path": "easy/style/tag/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in French. Speed: very_slow",
+          "text": "Pour bien comprendre ce concept, il faut analyser chaque partie une par une, sans se presser.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's meaning encourages a very slow, deliberate delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in French. Speed: very_slow",
+          "text": "Ceci est le point le plus important de toute la démonstration, alors écoutez attentivement.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's meaning encourages a very slow, deliberate delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in French. Speed: very_slow",
+          "text": "N'oubliez jamais que la véritable force réside dans la patience et la persévérance.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text's meaning encourages a very slow, deliberate delivery."
+          }
+        }
+      ]
+    }
+  ]
+}

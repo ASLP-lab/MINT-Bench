@@ -1,0 +1,405 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "en",
+  "generation_summary": {
+    "num_items": 11,
+    "domain": "composite",
+    "difficulty": "hard",
+    "notes": "Planning dynamic speech where one or more attributes change over the course of the utterance. Focus on diverse multi-stage progressions."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "neutral -> thoughtful -> happy"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should describe a past event or a personal realization.",
+        "Avoid words that explicitly name any of the target emotions (neutral, thoughtful, happy).",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Describe a three-stage emotional progression.",
+        "The instruction should specify a gradual transition through the stages.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "angry -> neutral",
+        "volume": "loud -> quiet"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a response to a frustrating situation.",
+        "Avoid explicitly angry or calming words like 'furious', 'calm down', etc.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to start loud and angry and gradually calm down, becoming quieter and more neutral.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone",
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "firm -> hesitant",
+        "speed": "fast -> slow"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a technical or complex explanation of a concept.",
+        "Avoid words that indicate certainty or uncertainty (e.g., 'definitely', 'maybe').",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Describe a loss of confidence during a speech.",
+        "The delivery should start firm and quick, but then become slow and hesitant.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed",
+        "volume",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "slow -> normal -> fast",
+        "volume": "quiet -> normal -> loud",
+        "emotion": "neutral -> neutral -> surprised"
+      },
+      "aux_values": {},
+      "text_semantic": "narratable_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should build up to a reveal or a climax at the end.",
+        "Avoid words that directly express surprise or suspense.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to build suspense by gradually getting faster and louder.",
+        "The emotion should remain neutral until a sudden switch to surprise at the very end.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "speed",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "neutral -> sad",
+        "speed": "normal -> slow",
+        "volume": "normal -> quiet"
+      },
+      "aux_values": {},
+      "text_semantic": "short_reflection",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a memory that starts factually but has a sad undertone.",
+        "Do not use overtly sad words like 'crying', 'unhappy', 'tragedy'.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to start with a normal, neutral delivery.",
+        "The delivery should then trail off, becoming slower, quieter, and sadder towards the end.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone",
+        "pitch"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "pleading -> defiant",
+        "pitch": "low -> normal"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be part of a negotiation or disagreement.",
+        "Avoid words like 'please', 'beg', 'never', 'I refuse'.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "The instruction should describe a change in attitude from begging to standing firm.",
+        "The pitch should start low and rise to a normal, determined level.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "thoughtful -> surprised -> happy",
+        "speed": "slow -> fast -> normal"
+      },
+      "aux_values": {},
+      "text_semantic": "explanatory_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should describe the process of solving a puzzle or problem.",
+        "Avoid exclamations or words like 'aha', 'eureka', 'happy', 'surprised'.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Describe a 'lightbulb moment'.",
+        "The delivery starts slow and thoughtful, has a sudden burst of surprised speed, and then settles into a happy, normal pace.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "sarcastic -> disappointed"
+      },
+      "aux_values": {},
+      "text_semantic": "mild_dialogue",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a comment on someone else's action or result.",
+        "The text should be interpretable as either sarcastic or genuinely disappointed.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to start with a sarcastic tone.",
+        "The sarcasm should then fade, revealing genuine disappointment by the end of the sentence.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": true
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "normal -> fast",
+        "emotion": "neutral -> worried"
+      },
+      "aux_values": {},
+      "text_semantic": "brief_announcement",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should be a factual announcement that contains some complex or detailed information.",
+        "Avoid words that explicitly signal worry or stress.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Describe a speaker getting flustered as they deliver a message.",
+        "The speech should start normally but speed up as the speaker becomes more worried.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "indifferent -> urging"
+      },
+      "aux_values": {},
+      "text_semantic": "factual_statement",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should present a set of facts or observations about a situation.",
+        "Avoid words that command or plead (e.g., 'must', 'should', 'I urge you').",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to begin by matter-of-factly stating information with an indifferent tone.",
+        "As they continue, their tone should become more invested and urgent.",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "volume",
+        "pitch"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "volume": "quiet -> loud -> quiet",
+        "pitch": "low -> high -> low"
+      },
+      "aux_values": {},
+      "text_semantic": "narratable_sentence",
+      "text_length": "long",
+      "text_constraints": [
+        "The text should describe a single event with a clear rise and fall in action.",
+        "The vocabulary should be neutral and descriptive.",
+        "final text should be written in English",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Instruct the speaker to follow the arc of an event.",
+        "The voice should swell in the middle (louder, higher pitch) and then diminish at the end (quieter, lower pitch).",
+        "final instruction should be written in English",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

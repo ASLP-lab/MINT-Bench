@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/scenario",
+  "language": "ja",
+  "source_plan_file": "hard__composite__persona__scenario.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Read this as a news anchor delivering the evening report, with a clear and professional tone.",
+      "text": "政府は本日、新しい経済政策を発表し、中小企業への支援を強化する方針を示しました。この政策は、来月から施行される予定です。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Deliver this with the artistic expression and measured pace of a poetry recitation.",
+      "text": "雨上がりの庭、雫が葉の先で宝石のように輝く。土の匂いが立ち上り、新しい生命の息吹を感じさせる。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Your voice should be quiet and soothing, perfect for telling a child a story before they go to sleep.",
+      "text": "小さな川のほとりに、カエルのケロちゃんが住んでいました。ケロちゃんは歌うのが大好きで、毎晩、お月様に向かってきれいな声で歌いました。その歌声を聞くと、森の動物たちは安心して眠りにつくことができました。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Deliver this script in the style of a documentary narrator, with a clear, authoritative, and compelling voice.",
+      "text": "この一枚の絵画には、作者の激動の生涯が映し出されています。大胆な筆使いと鮮やかな色彩は、彼が抱えていた情熱と苦悩の表れであり、見る者の心に深く訴えかけます。それは時代を超えた傑作として、今なお多くの人々を魅了し続けています。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. You are giving a public address to rally support. Speak with passion, clarity, and a persuasive tone.",
+      "text": "この中央広場を、緑豊かな公園に変える時が来ました。子供たちが安全に走り回り、家族が週末を過ごせる、そんな憩いの場を想像してみてください。この計画は、私たちの生活の質を向上させるための重要な一歩です。ご協力をお願いします。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Read this as a friendly and upbeat radio host on a daytime show.",
+      "text": "こんにちは、お昼のひととき、いかがお過ごしですか？さて、今日の特集は「週末に行きたい隠れ家カフェ」です。リスナーの皆さんから寄せられた、とっておきの情報をお届けしますよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Perform this as if you are narrating an audiobook. Your delivery should be smooth and expressive, capturing the mood of the text.",
+      "text": "彼女は古い手紙をもう一度読み返した。インクのかすれた文字が、遠い昔の記憶を鮮やかに呼び覚ます。あの頃の自分は、こんなにも単純で、まっすぐに未来を信じていた。時の流れの残酷さと、変わらない想いの温かさが、同時に心に押し寄せた。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Announce this weather information clearly and professionally, with a friendly and positive demeanor.",
+      "text": "今週の気温の傾向です。週の前半は平年並みの暖かさが続きますが、後半は寒気が流れ込み、気温がぐっと下がるでしょう。体調管理にお気をつけください。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Announce this with the excitement and rapid pace of a sports broadcaster calling a thrilling play.",
+      "text": "ここでボールをインターセプト！一気に敵陣深くまで切り込んでいく！相手のタックルを華麗にかわし、ゴールキーパーと一対一だ！キーパーの位置をよく見て、冷静に流し込んだ！見事な個人技からの追加点です！",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard scenario."
+      },
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this as a news anchor delivering the evening report, with a clear and professional tone.",
+          "text": "政府は本日、新しい経済政策を発表し、中小企業への支援を強化する方針を示しました。この政策は、来月から施行される予定です。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this report in the style of a professional newscaster on an evening broadcast.",
+          "text": "最新の世論調査によりますと、内閣支持率は先月からわずかに下落しました。専門家は、今後の経済動向が支持率に影響を与える可能性があると分析しています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. You are a news anchor. Present the following information in a formal, neutral, and clear manner.",
+          "text": "今日の株式市場は、海外からの投資増加を受けて大幅に上昇しました。日経平均株価は、今年の最高値を更新しています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Recite the following lines with a thoughtful and artistic tone, as if reading a poem.",
+          "text": "静かな森の奥、木漏れ日が地面に優しい模様を描く。風がそっと葉を揺らし、季節の移ろいを告げている。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Read this piece with a gentle, reflective quality, suitable for a poetry reading.",
+          "text": "秋の夕暮れ、空は燃えるような色に染まり、遠くの山々の輪郭を際立たせる。やがて一番星が静かに瞬き始める。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this with the artistic expression and measured pace of a poetry recitation.",
+          "text": "雨上がりの庭、雫が葉の先で宝石のように輝く。土の匂いが立ち上り、新しい生命の息吹を感じさせる。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this bedtime story for a young child. Use a very calm, gentle, and soothing voice to help them fall asleep.",
+          "text": "昔々、森の小さな家に、うさぎのピーターが住んでいました。ピーターは毎日、友達のリスさんと一緒に、おいしい木の実を探しに出かけました。ある日、二人はキラキラ光る不思議な泉を見つけたのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Tell this story in a soft, reassuring voice, as if you're tucking a child into bed.",
+          "text": "広い野原に、臆病な子鹿がいました。その子鹿はお母さんといつも一緒でしたが、ある日、森の中で迷子になってしまいました。すると、賢いフクロウさんが現れて、優しく帰り道を教えてくれました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Your voice should be quiet and soothing, perfect for telling a child a story before they go to sleep.",
+          "text": "小さな川のほとりに、カエルのケロちゃんが住んでいました。ケロちゃんは歌うのが大好きで、毎晩、お月様に向かってきれいな声で歌いました。その歌声を聞くと、森の動物たちは安心して眠りにつくことができました。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Narrate this for a historical documentary. Your tone should be serious, informative, and engaging.",
+          "text": "この古代都市は、かつて広大な帝国の中心として栄えました。発掘された精巧な陶器や装飾品は、当時の高度な技術と豊かな文化を物語っています。しかし、その文明は突如として歴史から姿を消したのです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this script in the style of a documentary narrator, with a clear, authoritative, and compelling voice.",
+          "text": "この一枚の絵画には、作者の激動の生涯が映し出されています。大胆な筆使いと鮮やかな色彩は、彼が抱えていた情熱と苦悩の表れであり、見る者の心に深く訴えかけます。それは時代を超えた傑作として、今なお多くの人々を魅了し続けています。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Provide the narration for this documentary segment. Your voice should be steady and knowledgeable, drawing the listener into the story.",
+          "text": "ここに展示されている刀は、伝説的な武将が愛用したものです。その刃に刻まれた紋様は、単なる装飾ではなく、一族の誇りと歴史を象徴しています。数々の戦いを経て、この刀は時代の証人として静かに佇んでいます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver this as a leader giving an inspiring speech to a crowd. Your voice should be confident, persuasive, and full of conviction.",
+          "text": "皆さん、私たちの町には新しい図書館が必要です。それは単なる本の置き場所ではありません。子供たちが夢を育み、若者が未来を学び、そして私たち全員が繋がるための、コミュニティの中心となる場所なのです。共にこの計画を実現させましょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. You are giving a public address to rally support. Speak with passion, clarity, and a persuasive tone.",
+          "text": "この中央広場を、緑豊かな公園に変える時が来ました。子供たちが安全に走り回り、家族が週末を過ごせる、そんな憩いの場を想像してみてください。この計画は、私たちの生活の質を向上させるための重要な一歩です。ご協力をお願いします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Imagine you are speaking to an assembly of citizens. Your delivery should be inspiring and motivational, aiming to unite them behind a common goal.",
+          "text": "我々の手で、この町に新しい市民ホールを建設しようではありませんか。そこは、文化的なイベントや集会が開かれ、私たちの町の活気を生み出す源泉となるでしょう。未来への投資として、この素晴らしいビジョンを共有し、力を合わせましょう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Read this as a friendly and upbeat radio host on a daytime show.",
+          "text": "こんにちは、お昼のひととき、いかがお過ごしですか？さて、今日の特集は「週末に行きたい隠れ家カフェ」です。リスナーの皆さんから寄せられた、とっておきの情報をお届けしますよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this in a bright, cheerful voice, like a radio DJ introducing the next part of their show.",
+          "text": "さあ、ここで一曲お届けした後は、皆さんお待ちかねのゲストコーナーです。今日は、今話題のあの俳優さんがスタジオに来てくれています。お楽しみに！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. You are hosting a lighthearted radio show. Your tone should be warm, engaging, and energetic.",
+          "text": "天気の良い午後ですね。こんな日はどこかに出かけたくなりませんか？この後は、ドライブにぴったりの最新ヒット曲をノンストップでお送りします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Narrate this passage from a novel for an audiobook. Your voice should be clear, steady, and engaging, drawing the listener into the story.",
+          "text": "彼は窓の外に広がる見知らぬ街を眺めていた。灰色のビルが立ち並び、その間を人々が忙しなく行き交う。この場所で、自分は本当に新しい生活を始めることができるのだろうか。期待と不安が入り混じった複雑な気持ちが、彼の胸を締め付けた。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Read this text as an audiobook narrator. Maintain a consistent and immersive tone throughout the passage.",
+          "text": "その家は丘の上にひっそりと建っていた。長い間誰も住んでいなかったようで、庭は雑草に覆われ、壁のペンキは所々剥がれ落ちている。しかし、夕日に照らされたその姿には、どこか懐かしく、そして物悲しい美しさがあった。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Perform this as if you are narrating an audiobook. Your delivery should be smooth and expressive, capturing the mood of the text.",
+          "text": "彼女は古い手紙をもう一度読み返した。インクのかすれた文字が、遠い昔の記憶を鮮やかに呼び覚ます。あの頃の自分は、こんなにも単純で、まっすぐに未来を信じていた。時の流れの残酷さと、変わらない想いの温かさが、同時に心に押し寄せた。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver the following weather forecast with a professional, clear, and slightly cheerful tone.",
+          "text": "全国の明日の天気です。北日本では一日を通して晴れますが、関東から西の地域では、午後から雲が広がり、所によりにわか雨があるでしょう。お出かけの際は傘をお持ちください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Read this weather report in a bright and clear voice, like a television forecaster.",
+          "text": "週末の天気予報をお伝えします。土曜日は全国的に高気圧に覆われ、絶好の行楽日和となりそうです。日曜日は、西から天気が崩れ、雨が降り出す見込みです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Announce this weather information clearly and professionally, with a friendly and positive demeanor.",
+          "text": "今週の気温の傾向です。週の前半は平年並みの暖かさが続きますが、後半は寒気が流れ込み、気温がぐっと下がるでしょう。体調管理にお気をつけください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Deliver this as an excited sports commentator during a critical moment of a game. Your pace should be fast and your voice energetic.",
+          "text": "さあ、試合時間も残りわずか！ブルーチーム、ボールを奪って一気にカウンターだ！中央をドリブルで突破、ディフェンスを一人、二人とかわしていく！ゴール前、フリーの味方にパスが通った！シュート！決まったー！土壇場で逆転ゴール！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Provide a high-energy, fast-paced play-by-play commentary for this action sequence.",
+          "text": "レッドチーム、最後の攻撃にかけます！右サイドからの速いクロス、ゴール前に選手が走り込む！ヘディングで合わせた！惜しい！ボールはわずかにゴールの枠を外れた！ここで試合終了のホイッスルです！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Announce this with the excitement and rapid pace of a sports broadcaster calling a thrilling play.",
+          "text": "ここでボールをインターセプト！一気に敵陣深くまで切り込んでいく！相手のタックルを華麗にかわし、ゴールキーパーと一対一だ！キーパーの位置をよく見て、冷静に流し込んだ！見事な個人技からの追加点です！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard scenario."
+          }
+        }
+      ]
+    }
+  ]
+}

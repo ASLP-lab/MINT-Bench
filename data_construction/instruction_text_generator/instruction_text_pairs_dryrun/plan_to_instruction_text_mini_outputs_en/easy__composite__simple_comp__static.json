@@ -1,0 +1,1022 @@
+{
+  "taxonomy_node": "easy/composite/simple_comp/static",
+  "language": "en",
+  "source_plan_file": "easy__composite__simple_comp__static.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Age: child, Gender: female",
+      "text": "Would you mind holding the door for me for a moment?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a simple request, not child-themed."
+      },
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0001",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: child, Gender: female",
+          "text": "Can you please pass me the salt from the kitchen counter?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple request, not child-themed."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: child, Gender: female",
+          "text": "Could you tell me what time the store closes tonight?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple request, not child-themed."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: child, Gender: female",
+          "text": "Would you mind holding the door for me for a moment?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a simple request, not child-themed."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0002",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a low-pitched, husky voice.",
+          "text": "The capital of France is Paris, located on the river Seine.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a deep voice with a husky, slightly rough quality.",
+          "text": "Water boils at one hundred degrees Celsius at sea level.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need a low voice, with a bit of a rasp or huskiness to it.",
+          "text": "The solar system consists of the Sun and the objects that orbit it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0003",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "pitch": "high"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: male, Pitch: high",
+          "text": "I think I left my keys on the table by the front door.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: male, Pitch: high",
+          "text": "We should probably get going if we want to catch that movie.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: male, Pitch: high",
+          "text": "It's a nice day out, perfect for a walk in the park.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0004",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with the soft, gentle voice of an elderly person.",
+          "text": "It's interesting how the weather can change so quickly in this area.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is reflective but not about age."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a soft vocal texture, sounding like an older individual.",
+          "text": "That particular melody always brings back a certain feeling.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is reflective but not about age."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I'm looking for an elderly voice, but with a very soft and mild quality.",
+          "text": "You can learn a lot just by watching how people interact.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is reflective but not about age."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0005",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Gender: female, Texture: breathy",
+          "text": "I'm not sure I understand what you mean by that.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Gender: female, Texture: breathy",
+          "text": "Oh, I didn't realize you were already here.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Gender: female, Texture: breathy",
+          "text": "Perhaps we could try a different approach next time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "emotion": "worried",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Emotion: worried, Speed: fast",
+          "text": "The system requires a full reboot after the update is installed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is neutral and explanatory, does not leak worry."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Emotion: worried, Speed: fast",
+          "text": "You have to make sure all the connections are secure before turning it on.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is neutral and explanatory, does not leak worry."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Emotion: worried, Speed: fast",
+          "text": "The final report is due by five o'clock and we still have to collate the data.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is neutral and explanatory, does not leak worry."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "volume": "quiet",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak quietly, with a hesitant and uncertain tone.",
+          "text": "I suppose that could be one way of looking at the situation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the line in a low volume, as if you're not quite sure what to say.",
+          "text": "Well, I saw the report on your desk this morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this in a quiet, faltering voice, with a lot of hesitation.",
+          "text": "It's just that... I thought we had already made a decision.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "personality": "gentle",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Personality: gentle, Emotion: sad",
+          "text": "The rain continued to fall throughout the afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is narratable and does not explicitly contain sadness."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Personality: gentle, Emotion: sad",
+          "text": "She looked at the old photograph for a long time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is narratable and does not explicitly contain sadness."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Personality: gentle, Emotion: sad",
+          "text": "The house stood empty at the end of the long lane.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is narratable and does not explicitly contain sadness."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0009",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "accent": "british_accent",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a slow, deliberate British accent.",
+          "text": "Please be advised that the main entrance will be closed for maintenance tomorrow.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a British accent and speak at a slower than normal pace.",
+          "text": "A reminder that all timesheets must be submitted by the end of the day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a British accent, taking your time with the words.",
+          "text": "The weekly staff meeting has been rescheduled for Friday morning at ten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0010",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "tone": "firm",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Tone: firm, Personality: serious",
+          "text": "Ensure that all equipment is properly secured before you leave.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Tone: firm, Personality: serious",
+          "text": "Do not proceed beyond this point without proper authorization.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Tone: firm, Personality: serious",
+          "text": "Report any unusual activity to the supervisor immediately.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a loud, angry voice.",
+          "text": "Can you please pass me that book over there?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the line with a loud and angry delivery.",
+          "text": "I need you to listen to me for just one minute.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Yell the text with an angry tone.",
+          "text": "Would it be possible for you to turn the music down?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "accent": "indian_accent",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Accent: Indian, Personality: Cheerful",
+          "text": "The weather today is absolutely perfect for a walk in the park.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Accent: Indian, Personality: Cheerful",
+          "text": "I just heard from my cousin and she's coming to visit next week!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Accent: Indian, Personality: Cheerful",
+          "text": "This new recipe I tried turned out to be incredibly delicious.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "speed": "very_slow",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak very slowly and very quietly.",
+          "text": "It's strange how some memories just fade away over time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say the words at a very slow pace, almost a whisper.",
+          "text": "I wonder what it all meant in the grand scheme of things.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should be extremely quiet and deliberate.",
+          "text": "Sometimes you just have to stop and think about where you're going.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0014",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this in a happy, playful way.",
+          "text": "I think you'll be surprised by what I got you for your birthday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the line with a playful and happy tone.",
+          "text": "Are you sure you don't want to know the secret? I might just tell you.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver the text with a sense of fun and happiness.",
+          "text": "Guess what I found while I was cleaning out the attic!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0015",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: Child, Emotion: Surprised",
+          "text": "The Eiffel Tower is made of wrought-iron and is over three hundred meters tall.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format. Non-child-themed text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: Child, Emotion: Surprised",
+          "text": "I just learned that water can exist as a solid, a liquid, and a gas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format. Non-child-themed text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: Child, Emotion: Surprised",
+          "text": "Did you know that the sun is actually a star, just like the ones we see at night?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format. Non-child-themed text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0016",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a male voice at a normal pace.",
+          "text": "This process involves several key steps that must be followed in sequence.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this as a man speaking at a regular speed.",
+          "text": "The main reason for the delay was an unexpected system malfunction.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a male voice and speak at a standard conversational speed.",
+          "text": "To complete the assembly, you first need to attach the smaller component to the base.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Pitch: Very high, Tone: Urging",
+          "text": "You need to get out of the building right now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Pitch: Very high, Tone: Urging",
+          "text": "Please, we have to finish this before the deadline.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Pitch: Very high, Tone: Urging",
+          "text": "Come on, everyone is waiting for us to start.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0018",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "rich",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak with a rich, confident voice.",
+          "text": "We are pleased to announce the launch of our new initiative.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a confident delivery with a full, resonant vocal quality.",
+          "text": "The results of the study are conclusive and will be published next month.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should be rich and convey a strong sense of confidence.",
+          "text": "I can assure you that we have everything under control.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0019",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Age: Elderly, Volume: Quiet",
+          "text": "It's remarkable how the city has changed over the years.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format. Non-age-themed text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Age: Elderly, Volume: Quiet",
+          "text": "A good cup of tea can make almost any afternoon better.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format. Non-age-themed text."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Age: Elderly, Volume: Quiet",
+          "text": "I've always found that the simplest solutions are often the best ones.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Strict tag format. Non-age-themed text."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a thoughtful female voice.",
+          "text": "That's an interesting way of looking at the situation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a female voice and a thoughtful, reflective tone.",
+          "text": "I'm not sure if I agree, but I see your point.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line as a woman who is considering something carefully.",
+          "text": "There might be another way to approach this problem.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple direct instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0021",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "normal",
+        "accent": "american_accent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Pitch: normal, Accent: american_accent",
+          "text": "I think I'll just stay in tonight and watch a movie, it's been a long week.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Pitch: normal, Accent: american_accent",
+          "text": "The weather's supposed to be really nice this weekend, we should plan something.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Pitch: normal, Accent: american_accent",
+          "text": "I just finished that book you recommended, and it was surprisingly good.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard tag-based instruction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_composite_simple_comp_static__0022",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak quickly and with a clear, articulate voice.",
+          "text": "Just a quick reminder for everyone that the weekly team meeting has been moved to three o'clock in conference room B.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard direct-form instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this at a fast pace, making sure your enunciation is crisp.",
+          "text": "Attention shoppers, the store will be closing in fifteen minutes, please bring all your final purchases to the front registers.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard direct-form instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this with a rapid tempo and very clear diction.",
+          "text": "This is a final boarding call for all passengers on flight 7B to Denver, please proceed immediately to gate C4 for departure.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard direct-form instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

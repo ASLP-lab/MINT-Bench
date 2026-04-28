@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "easy/style/tag/atomic/emotion",
+  "language": "de",
+  "source_plan_file": "easy__style__tag__atomic__emotion.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Emotion: happy",
+      "text": "Ich habe meine Schlüssel auf den Tisch gelegt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral statement."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Emotion: angry",
+      "text": "Bitte wiederholen Sie die letzte Frage.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral request."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Emotion: sad",
+      "text": "Die Zeit vergeht, und die Dinge ändern sich.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral reflection."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Emotion: surprised",
+      "text": "Ein Oktopus hat drei Herzen und blaues Blut.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is an unexpected factual statement."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Emotion: fearful",
+      "text": "Hast du das Geräusch auch gehört?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral question for a tense situation."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Emotion: worried",
+      "text": "Er hat seit gestern Morgen nicht mehr auf meine Nachrichten geantwortet.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral explanatory sentence."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Emotion: thoughtful",
+      "text": "Was würde passieren, wenn wir eine völlig andere Entscheidung getroffen hätten?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a neutral, abstract question."
+      },
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0001",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: happy",
+          "text": "Ich habe meine Schlüssel auf den Tisch gelegt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: happy",
+          "text": "Der Zug kommt pünktlich um siebzehn Uhr an.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: happy",
+          "text": "Das Paket wurde gestern geliefert.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0002",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: angry",
+          "text": "Wo ist der Bericht, den ich angefordert habe?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: angry",
+          "text": "Bitte wiederholen Sie die letzte Frage.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: angry",
+          "text": "Die Besprechung sollte um neun Uhr beginnen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral statement that can support anger."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0003",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: sad",
+          "text": "Ich erinnere mich an den Tag, als wäre es gestern gewesen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: sad",
+          "text": "Er hat das Haus vor langer Zeit verlassen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: sad",
+          "text": "Die Zeit vergeht, und die Dinge ändern sich.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral reflection."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0004",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: surprised",
+          "text": "Ein Oktopus hat drei Herzen und blaues Blut.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is an unexpected factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: surprised",
+          "text": "Es gibt mehr Bäume auf der Erde als Sterne in der Milchstraße.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is an unexpected factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: surprised",
+          "text": "Honig verdirbt nicht; er wurde in ägyptischen Gräbern gefunden und war noch essbar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is an unexpected factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0005",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: fearful",
+          "text": "Hast du das Geräusch auch gehört?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral question for a tense situation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: fearful",
+          "text": "Ist da jemand in dem anderen Zimmer?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral question for a tense situation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: fearful",
+          "text": "Die Tür war doch vorhin noch geschlossen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral statement for a tense situation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0006",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: worried",
+          "text": "Die Ergebnisse des Tests werden erst nächste Woche bekannt gegeben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: worried",
+          "text": "Er hat seit gestern Morgen nicht mehr auf meine Nachrichten geantwortet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: worried",
+          "text": "Laut Wetterbericht soll der Sturm heute Abend die Küste erreichen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral explanatory sentence."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__easy_style_tag_atomic_emotion__0007",
+      "meta_path": "easy/style/tag/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: thoughtful",
+          "text": "Was würde passieren, wenn wir eine völlig andere Entscheidung getroffen hätten?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, abstract question."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: thoughtful",
+          "text": "Wie misst man den Wert einer Handlung, die niemand jemals bemerkt?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, abstract question."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: thoughtful",
+          "text": "Kann eine Struktur ohne Fundament wirklich stabil sein?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a neutral, abstract question."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1125 @@
+{
+  "taxonomy_node": "aggregate/timbre",
+  "language": "pt",
+  "group_name": "timbre_balanced_subset",
+  "num_items": 50,
+  "sampling_summary": {
+    "requested_num_samples": 50,
+    "actual_num_samples": 50,
+    "seed": 42,
+    "taken_per_timbre_attr": {
+      "age": 13,
+      "gender": 13,
+      "pitch": 12,
+      "texture": 12
+    },
+    "available_per_timbre_attr": {
+      "age": 23,
+      "gender": 20,
+      "pitch": 18,
+      "texture": 18
+    },
+    "num_unknown_items_ignored": 0
+  },
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Age: elderly, Gender: male, Emotion: thoughtful",
+      "text": "Leva tempo para entender certas verdades sobre a vida, e cada experiência nos ensina algo novo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Use a high-pitched female voice that conveys sadness.",
+      "text": "Eu olhei pela janela por um longo tempo, mas o carro dele nunca mais voltou.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say this as if a woman is speaking.",
+      "text": "Próxima paragem, Avenida da Liberdade. Portas do lado direito.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0002",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Begin by giving this status update in a neutral, matter-of-fact voice with a normal pitch. As you get towards the end, your voice should become lower and filled with worry as the information becomes more serious.",
+      "text": "Relatório de progresso da amostra 734. A análise inicial dos componentes primários está completa e os resultados estão dentro dos parâmetros esperados. No entanto, durante a segunda fase de sequenciamento, detectamos uma anomalia inesperada. Os marcadores não correspondem a nenhuma das nossas bases de dados e parecem estar a replicar-se a um ritmo alarmante.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a clear dynamic shift in emotion and pitch. The text provides a narrative context for this shift."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "emotion": "neutral -> worried",
+        "pitch": "normal -> low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say this as a happy child, speaking quickly and full of energy.",
+      "text": "Eu vi um cachorro enorme no parque hoje e ele correu atrás da bola que eu joguei pra ele!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "child",
+        "speed": "fast",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Please use a voice that is higher in pitch.",
+      "text": "O céu está tão limpo hoje, sem uma única nuvem.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0004",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Use a gravelly voice that is extremely low in pitch.",
+      "text": "As sombras dançavam na parede enquanto o fogo crepitava na lareira antiga.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0013",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "very_low",
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Pitch: low",
+      "text": "Atenção, passageiros, o embarque para o voo quatro cinco seis começará em breve.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_pitch__0003",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Use a slow, indifferent delivery with a low, smoky voice.",
+      "text": "Eles mudaram o horário da reunião novamente. Agora é às quatro da tarde.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "pitch": "low",
+        "texture": "smoky",
+        "speed": "slow",
+        "tone": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. You are happy about the outcome, but you're delivering this line with a complaining, whining tone, as if talking about the minor inconveniences along the way.",
+      "text": "Conseguimos o contrato, o que é ótimo, mas agora tenho que preencher toda esta papelada.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict between positive emotion and negative tone."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "complaining",
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Start neutrally. Then, as if hit by surprising news, transition to a surprised emotion, speaking faster and in a higher pitch.",
+      "text": "Ok, a carta diz que a minha candidatura foi recebida e está a ser processada. O quê? Eles ofereceram-me o cargo diretamente, sem entrevista?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "target_values": {
+        "pitch": "normal -> high",
+        "speed": "normal -> fast",
+        "emotion": "neutral -> surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__dynamic.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/dynamic",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Gender: Male",
+      "text": "Você poderia confirmar se recebeu o e-mail que enviei ontem?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0003",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. I need a very high-pitched voice.",
+      "text": "A Floresta Amazônica é a maior floresta tropical do mundo, cobrindo a maior parte da bacia do rio Amazonas na América do Sul.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_pitch__0001",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say this as if you were an old person.",
+      "text": "As nuvens estão a mover-se rapidamente hoje, parece que vai chover.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_age__0003",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "elderly"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Age: child, Emotion: happy",
+      "text": "O meu desenho ganhou um adesivo de estrela dourada na escola!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0007",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Your voice should be bright and happy, and pitched very high.",
+      "text": "Mal posso esperar pela festa de amanhã, vai ser super divertida!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0020",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "very_high",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Imagine a small boy speaking with a voice that doesn't match his age at all. It should be deep and have a very low pitch.",
+      "text": "O meu brinquedo partiu-se. Podes ajudar-me a consertá-lo, por favor?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Good example of conflicting age vs. pitch/texture."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "pitch": "very_low",
+        "texture": "deep"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Gender: Female, Texture: Clear",
+      "text": "Lembramos a todos os visitantes que o museu encerrará as suas atividades dentro de trinta minutos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0011",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "clear",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Age: elderly, Gender: female, Emotion: happy, Tone: euphemistic",
+      "text": "Lembro-me de como ele sempre dizia que, quando chegasse a hora, ele simplesmente adormeceria. E foi o que aconteceu.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct tag representation of the target values."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "emotion": "happy",
+        "tone": "euphemistic"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Read this in a normal adult voice.",
+      "text": "A fotossíntese é o processo pelo qual as plantas usam a luz solar para sintetizar alimentos.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_age__0002",
+      "meta_path": "easy/timbre/direct/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/age",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Texture: breathy, Volume: very_quiet",
+      "text": "Acho que não devíamos estar aqui, é melhor a gente voltar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0008",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Texture: clear",
+      "text": "O corpo humano adulto é composto por cerca de sessenta por cento de água.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_texture__0002",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "clear"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Age: adult, Gender: male, Texture: deep, Speed: normal, Emotion: neutral",
+      "text": "O Oceano Atlântico banha toda a costa leste do país.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct tag representation of the target values."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "texture": "deep",
+        "speed": "normal",
+        "emotion": "neutral"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Texture: mellow",
+      "text": "O processo de fotossíntese converte a luz solar em energia química para as plantas.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_texture__0007",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Pitch: high",
+      "text": "Pode me passar o sal, por favor?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_pitch__0002",
+      "meta_path": "easy/timbre/tag/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/pitch",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. The voice should be soft and breathy, and sound hesitant.",
+      "text": "Bem, eu acho que entendi o que você quis dizer, mas... não sei se concordo totalmente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Plan instruction_constraints were ambiguous ('tag' and 'direct' phrasing both requested). I followed instruction_form: 'direct'."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "texture": "breathy",
+        "volume": "quiet",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Say this with a nasal voice quality.",
+      "text": "Pode me passar o sal, por favor?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_texture__0004",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Use a deep male voice for the following text.",
+      "text": "A inflação representa o aumento geral dos preços e a consequente queda do poder de compra da moeda.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0003",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Gender: male, Emotion: sad, Tone: disappointed, Volume: very_quiet",
+      "text": "Eu realmente achei que as coisas seriam diferentes desta vez. Passei semanas preparando tudo, certificando-me de que cada detalhe estava perfeito, mas no final, não fez a menor diferença.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "sad",
+        "tone": "disappointed",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Age: adult, Gender: female, Emotion: worried, Personality: gentle",
+      "text": "Já se passaram duas horas desde que ele disse que ligaria, estou começando a ficar um pouco apreensiva com essa demora toda.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "worried",
+        "personality": "gentle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Texture: nasal",
+      "text": "A reunião de amanhã foi cancelada.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_texture__0005",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "nasal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Texture: breathy",
+      "text": "Às vezes, fico a pensar em como as coisas poderiam ter sido diferentes.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_texture__0001",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "breathy"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Gender: female, Speed: slow",
+      "text": "Cada peça foi cuidadosamente posicionada para criar um padrão intrincado.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0006",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "female",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Can you make the voice pitch as low as possible?",
+      "text": "O tempo parece passar mais devagar nos fins de semana, mas a segunda-feira sempre chega rápido demais.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_pitch__0004",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "very_low"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Say this as if you are a young girl talking.",
+      "text": "Hoje aprendi a andar de bicicleta sem as rodinhas de apoio!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0012",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "age": "child",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Use a deep, resonant voice.",
+      "text": "A capital do Brasil é Brasília, inaugurada em mil novecentos e sessenta.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_texture__0002",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "deep"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. I need the voice of a very old woman, but she's in a wonderful mood. Make her sound cheerful and mischievous, almost like a young girl.",
+      "text": "Ainda me lembro de quando eras do tamanho de um feijão e agora achas que me podes enganar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Conflict comes from subverting age stereotype."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "playful",
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Deliver this line with a sarcastic tone. However, the speaker's underlying personality is bubbly and cheerful, so there should be a hint of that brightness bleeding through the sarcasm.",
+      "text": "Adoro passar o sábado à noite a organizar folhas de cálculo. É o meu passatempo favorito.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Layered conflict between personality and tone."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "cheerful",
+        "tone": "sarcastic",
+        "gender": "female"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "hard__composite__complex_comp__conflict.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/conflict",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Use a male voice to say the following sentence.",
+      "text": "O sol é a estrela no centro do nosso sistema solar e é de longe o objeto mais importante para a vida na Terra.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_gender__0001",
+      "meta_path": "easy/timbre/direct/atomic/gender",
+      "target_values": {
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/gender",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Pitch: high, Tone: pleading",
+      "text": "Eu prometo que não vou pedir de novo, só desta vez, por favor me escute.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0009",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "pitch": "high",
+        "tone": "pleading"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Texture: bright",
+      "text": "Temos o prazer de anunciar o vencedor do nosso concurso anual.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_texture__0006",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "bright"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Use a rapid, happy male voice, with a clear undertone of being smug.",
+      "text": "Eles acharam que eu não ia conseguir, mas mais uma vez eu provei que estavam errados.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction combines the attributes into a clear performance direction."
+      },
+      "plan_id": "PLAN__pt__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "happy",
+        "tone": "smug",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "hard__composite__complex_comp__static.json",
+      "source_taxonomy_node": "hard/composite/complex_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Use a male voice filled with concern.",
+      "text": "Espero que ela esteja bem, mas este silêncio todo não é normal.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_composite_simple_comp_static__0017",
+      "meta_path": "easy/composite/simple_comp/static",
+      "target_values": {
+        "gender": "male",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__composite__simple_comp__static.json",
+      "source_taxonomy_node": "easy/composite/simple_comp/static",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Portuguese. Use a high vocal pitch.",
+      "text": "A reunião da equipe é às dez da manhã.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_pitch__0002",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "high"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Read this with a smoky, low voice.",
+      "text": "A noite caiu sobre a cidade, envolvendo as ruas em um manto de neblina.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_texture__0005",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "smoky"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Gender: Female",
+      "text": "O processo de calibração deve ser realizado anualmente.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard tag instruction."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_gender__0004",
+      "meta_path": "easy/timbre/tag/atomic/gender",
+      "target_values": {
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__gender.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/gender",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Portuguese. Use a low-pitched voice for this.",
+      "text": "Você poderia me passar o sal, por favor?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard implementation."
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_pitch__0003",
+      "meta_path": "easy/timbre/direct/atomic/pitch",
+      "target_values": {
+        "pitch": "low"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "source_file": "easy__timbre__direct__atomic__pitch.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/pitch",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Age: adult",
+      "text": "A água congela a zero graus Celsius ao nível do mar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_age__0002",
+      "meta_path": "easy/timbre/tag/atomic/age",
+      "target_values": {
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__age.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/age",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. The voice should be calm and mellow.",
+      "text": "Para obter um bom resultado, é importante seguir as instruções passo a passo.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__pt__easy_timbre_direct_atomic_texture__0007",
+      "meta_path": "easy/timbre/direct/atomic/texture",
+      "target_values": {
+        "texture": "mellow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__direct__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/direct/atomic/texture",
+      "language": "pt"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Portuguese. Texture: husky",
+      "text": "Hoje o dia está a passar muito devagar.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__pt__easy_timbre_tag_atomic_texture__0003",
+      "meta_path": "easy/timbre/tag/atomic/texture",
+      "target_values": {
+        "texture": "husky"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "source_file": "easy__timbre__tag__atomic__texture.json",
+      "source_taxonomy_node": "easy/timbre/tag/atomic/texture",
+      "language": "pt"
+    }
+  ]
+}

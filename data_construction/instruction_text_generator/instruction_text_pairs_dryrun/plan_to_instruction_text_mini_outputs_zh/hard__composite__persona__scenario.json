@@ -1,0 +1,427 @@
+{
+  "taxonomy_node": "hard/composite/persona/scenario",
+  "language": "zh",
+  "source_plan_file": "hard__composite__persona__scenario.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "请模仿一位资深新闻主持人，用沉稳、客观、字正腔圆的语气播送一段重要简报。",
+      "text": "近日，有关部门联合发布了一项关于加强人工智能领域伦理治理的指导意见，旨在促进相关技术的健康发展。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用专业、严肃、清晰的晚间新闻主播的口吻来播报以下内容。",
+          "text": "国家统计局今日发布最新数据，显示第三季度国内生产总值同比增长百分之四点九，整体经济运行保持恢复态势。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请模仿一位资深新闻主持人，用沉稳、客观、字正腔圆的语气播送一段重要简报。",
+          "text": "近日，有关部门联合发布了一项关于加强人工智能领域伦理治理的指导意见，旨在促进相关技术的健康发展。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "假设你正在主持一档严肃的电视节目，请用权威而平稳的语调，向观众传达以下信息。",
+          "text": "本月，我国对外贸易总额实现平稳增长，其中对新兴市场的出口额度有了显著提升，显示出外贸结构的持续优化。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请在文化活动上为观众表演这段文字，注意语气的抑扬顿挫和情感表达。",
+          "text": "当秋风拂过，金黄的叶子便如蝴蝶般翩翩起舞，它们在空中画出最后的弧线，然后静静地回归大地。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请富有感情地演绎这段文学作品，声音要有艺术感和节奏感。",
+          "text": "远方的山峦沉默不语，披着一层薄薄的暮色，仿佛一位沉思的巨人，守护着这片宁静的土地。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "你正在一个艺术沙龙进行朗读表演，请用充满感染力的声音来诠释这段文字的意境。",
+          "text": "月光如水，洒在寂静的庭院里，为每一片瓦、每一块石都镀上了一层温柔的银辉。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用非常轻柔、舒缓的语气给一个孩子讲一段话，帮助他慢慢进入梦乡。",
+          "text": "在森林的深处，有一只叫小米的小兔子。他今天发现了一颗亮晶晶的石头，像天上的星星一样闪着光。他决定把这颗小石头放在枕头下面，做一个甜甜的梦。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用你最温柔、最平静的声音，好像在哄一个小孩，缓缓地读出下面的话。",
+          "text": "有一只小小的萤火虫，它提着一盏小小的灯笼，在草丛里飞来飞去。它在找它的朋友，一只正在花瓣上打瞌睡的小瓢虫。它轻轻地飞过去，不想吵醒它的朋友。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "想象一个孩子正依偎在你身边，请用几乎是耳语般的、非常安详的口吻讲述这个小片段。",
+          "text": "云朵宝宝在天上飘呀飘，觉得有点累了。月亮妈妈对它说，快靠在我身边吧。于是云朵宝宝就闭上了眼睛，天空中变得一片安静，只剩下闪烁的星星在眨着眼睛。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请为一部关于历史的影片配音，语气要权威、引人入胜，带一点戏剧感。",
+          "text": "在数千年前的这片土地上，一个伟大的文明悄然崛起。他们用智慧和汗水，建造了这些至今仍令人叹为观止的宏伟建筑，向我们无声地诉说着往日的辉煌。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "你正在为一个自然影片做旁白，请用一种沉稳而富有吸引力的声音，讲述下面的内容。",
+          "text": "在地球最深的海沟里，阳光永远无法到达。这里的生命进化出了独特的生存方式，它们在完全的黑暗和巨大的压力下，创造了一个充满神秘色彩的生态系统。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用庄重而富有磁性的声音进行讲述，仿佛在揭示一个深刻的科学奥秘。",
+          "text": "宇宙的诞生源于一次难以想象的大爆炸。在最初的几微秒内，决定了我们今天所知的一切物理定律。从最微小的粒子到最庞大的星系，都遵循着这古老的法则。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite_persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你是一位领导者，正在一个重要场合对大批人群发表讲话。请用充满力量、自信和鼓舞人心的语气来传达。",
+          "text": "朋友们，未来的道路或许充满挑战，但我们不能畏惧。让我们携起手来，用我们的热情点燃希望，用我们的行动开创未来。只要我们团结一心，就没有克服不了的困难！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "假设你在一个盛大的集会上发言，请用坚定有力、富有感召力的声音说出这段话。",
+          "text": "我们站在这里，不仅是为了回顾过去的成就，更是为了展望未来的可能。我们要敢于梦想，更要勇于实践。让我们每一个人都成为变革的推动者，成为时代的先行者！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请以一位激励人心的人物的身份，对广大群众发表一段慷慨激昂的讲话。",
+          "text": "历史将由我们来书写，未来将由我们来创造。不要问别人能为我们做什么，而要问我们能为这个世界带来什么。让我们共同努力，为了一个更光明、更美好的明天而奋斗！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你正在主持一个深夜谈话类的栏目，请用轻松、温暖、亲切的语气和大家聊聊天。",
+          "text": "最近听到一首老歌，一下子就把我带回了那个夏天。不知道你们有没有过这样的体验，某段旋律就像一把钥匙，能瞬间打开记忆的匣子。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请扮演一位谈心栏目的主持人，用一种非常友好和真诚的口吻，分享你的感受。",
+          "text": "我刚刚看完一部电影，心里有很多感触。它讲的其实是一个很简单的道理，就是在我们追求很多东西的时候，别忘了回头看看身边最重要的人。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "想象你正对着麦克风，和看不见的同伴们交流，语气要自然、放松，像在和朋友说话一样。",
+          "text": "今天在街上看到一个很有意思的涂鸦，色彩特别大胆。有时候觉得，我们生活的这个城市，处处都隐藏着这样的小惊喜，就看你有没有一双发现美的眼睛。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你正在为听众录制一本书，请用清晰、平稳的语速和良好的吐字来朗读这段文字。",
+          "text": "他推开那扇沉重的木门，一股尘封已久的气息扑面而来。阳光透过高高的窗户，在空气中投下几道光柱，无数细小的尘埃在光柱中缓缓飞舞。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请以平实、清晰的叙述风格，把下面的场景生动地呈现给听者。",
+          "text": "街道两旁是高耸入云的建筑，它们的表面反射着五光十色的霓虹。空中轨道车无声地滑过，留下一道道残影，地面上的人群则像潮水般涌动不息。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请用一种沉浸式的讲述方式来演绎这段文字，注意把握节奏，让听众有身临其境的感觉。",
+          "text": "那条小巷又窄又暗，两边的墙壁上布满了青苔。他放慢脚步，每一步都踩得小心翼翼，唯一能听到的，只有自己越来越快的心跳声和远处传来的几声猫叫。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请像在电视节目里一样，用清晰、友好的语气，为观众介绍接下来的气象状况。",
+          "text": "我们来看一下未来二十四小时的情况。本市夜间多云，最低气温12摄氏度。明天白天转晴，最高气温可达22摄氏度，适宜出行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用亲切、清晰的口吻，播报一下近期的气象信息。",
+          "text": "受新一股冷空气影响，预计从后天开始，本地区将迎来一次明显的降温过程，局部地区可能伴有小雨，请大家提前做好准备。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请以一种专业而又和蔼的风格，向公众说明最新的大气条件。",
+          "text": "目前，市区风力三到四级，空气湿度百分之六十，体感舒适。预计午后紫外线强度会有所增强，外出时请注意适当防护。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__hard_composite_persona_scenario__0009",
+      "meta_path": "hard_composite_persona_scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "你正在现场直播一场快节奏的激烈对抗，请用非常激动、充满能量的语气，以极快的语速进行描述。",
+          "text": "他拿球了！一个漂亮的转身过人！面对两名防守队员的夹击，他把球传了出去！跟上的队友直接起脚远射！球进了！太精彩了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请扮演一位激情四射的讲解员，用紧张而兴奋的语调，来描述这最后关头的场面。",
+          "text": "只剩下最后十秒钟！他带球全速向前推进！时间来不及了，他必须出手！在三分线外急停跳投！球在空中划出一道弧线！压哨命中！他们赢了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用充满爆发力的声音，快速地喊出这段话，传达出赛场上千钧一发的紧张气氛。",
+          "text": "进入最后的直道冲刺！两位选手几乎齐头并进！差距非常非常小！他还在加速！在最后时刻，他超越了对手！第一个冲过终点线！新的记录诞生了！",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

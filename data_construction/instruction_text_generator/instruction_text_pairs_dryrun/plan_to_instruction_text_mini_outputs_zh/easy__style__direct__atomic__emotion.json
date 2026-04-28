@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/emotion",
+  "language": "zh",
+  "source_plan_file": "easy__style__direct__atomic__emotion.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "听起来要充满阳光和活力。",
+      "text": "我刚刚收到了一个包裹，你猜猜里面是什么？",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Generated according to plan."
+      },
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用愉快的语气说出来。",
+          "text": "今天天气真不错，我们出去走走吧。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "听起来要充满阳光和活力。",
+          "text": "我刚刚收到了一个包裹，你猜猜里面是什么？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说这句话的时候要面带微笑。",
+          "text": "这个周末的计划都已经安排好了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种非常不耐烦的语气解释。",
+          "text": "这个模块的输入参数必须是整数，我已经重复过好几次了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "听起来像是忍无可忍了。",
+          "text": "根据用户手册第三章第五节的规定，这个操作是绝对不允许的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "带着怒气，但尽量克制住。",
+          "text": "数据传输协议明确要求使用加密信道，否则会造成严重的安全漏洞。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种低落、沮丧的语气说。",
+          "text": "我看着窗外的叶子一片片地落下来，秋天真的到了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "听起来有点忧郁和失望。",
+          "text": "我们曾经在这里度过了很多时光，但现在一切都变了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用充满遗憾的口吻来回忆这件事。",
+          "text": "那本书我找了很久，最后还是没有找到。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用紧张、害怕的语气问。",
+          "text": "外面那个声音是什么？你听到了吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "听起来很不安，带着一丝颤抖。",
+          "text": "请问，这里还有其他人吗？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "非常焦虑地提出这个请求。",
+          "text": "你能过来一下吗？我好像看到什么东西了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用非常吃惊的语气描述你看到的东西。",
+          "text": "桌子上的那盆花，昨天还只是个花苞，今天就全部盛开了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "就像你突然发现了什么不可思议的事情一样。",
+          "text": "我查了一下记录，这个账户最后一次登录是在三年前。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "表现出一种难以置信的感觉。",
+          "text": "原来这两种材料的化学成分是完全一样的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用担忧的语气读出这条通知。",
+          "text": "请注意，由于天气原因，原定于明天上午的航班已全部取消。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "听起来很关切，像是在提醒大家注意。",
+          "text": "最新的检测报告显示，该区域的水质样本中发现了不明污染物。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种不安的语气来陈述这个事实。",
+          "text": "根据系统日志，服务器在过去一个小时内多次出现连接中断的情况。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用一种若有所思的语气来解释。",
+          "text": "所以，这个问题的关键可能并不在于技术本身，而在于我们如何去应用它。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "听起来像是在仔细斟酌每一个词。",
+          "text": "如果我们换一个角度来看，这个现象其实揭示了更深层次的结构性问题。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用一种沉静、思考的语调说。",
+          "text": "这个过程的每一步都环环相扣，任何一个环节出错都会导致完全不同的结果。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Generated according to plan."
+          }
+        }
+      ]
+    }
+  ]
+}

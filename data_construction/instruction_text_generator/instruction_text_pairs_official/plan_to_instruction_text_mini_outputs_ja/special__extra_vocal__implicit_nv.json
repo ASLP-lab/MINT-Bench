@@ -1,0 +1,633 @@
+{
+  "taxonomy_node": "special/extra_vocal/implicit_nv",
+  "language": "ja",
+  "source_plan_file": "special__extra_vocal__implicit_nv.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Let out a sigh of resignation and then say the line.",
+      "text": "まあ、こんなものだろう。期待しすぎた私が悪かった。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text suggests resignation without explicitly mentioning sighing."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0001",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sigh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. As you say this, let a brief chuckle escape, as if recalling something funny.",
+      "text": "まさか自分がこんなことを言う日が来るなんて、思ってもみなかったよ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text expresses self-aware irony, suitable for a chuckle."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0002",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Just before you start, give a slight cough to clear your throat.",
+      "text": "それでは、本日の議題について説明させていただきます。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a formal announcement, fitting for a throat-clearing preamble."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0003",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Start with a sudden gasp of surprise, then say the line.",
+      "text": "まさか、あの事件の犯人が彼の兄弟だったなんて。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text expresses shock and disbelief, justifying a gasp."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0004",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "gasp"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Sound very sleepy, and try to suppress a yawn in the middle of this long sentence.",
+      "text": "このシステムの根本的な問題点は、古いアーキテクチャに依存していることで、データ処理の効率が著しく低下していることにあります。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Long, technical text is suitable for a tired, yawning delivery."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0005",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "yawn"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Speak as if you have a bit of a cold, with a sniffle or two during the line.",
+      "text": "ごめん、今日はちょっと体調が悪くて、あまり話せないんだ。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text explains not feeling well, matching the sniffle."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0006",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sniffle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Japanese. Your voice should be trembling, on the verge of crying, with a small whimper mixed in.",
+      "text": "もうやめて。これ以上は、私には耐えられない。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a plea of distress, matching a whimpering tone."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0007",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "whimper"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Japanese. Sound anxious, and make a swallowing sound before you get to the most difficult part of the request.",
+      "text": "もしご迷惑でなければ…少しだけお金を貸していただけませんか。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a nervous preamble to a difficult request."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0008",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "gulp"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Say the first part of the sentence clearly, then mumble the rest to yourself.",
+      "text": "ああ、そうだ、帰りに牛乳を買って帰らないと…あと何だったかな。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is self-talk that naturally trails off."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0009",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "mumble"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Japanese. Let out a little contented hum before you speak.",
+      "text": "やっぱり、週末にのんびりするのは一番の贅沢だね。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a pleasant observation fitting a contented mood."
+      },
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0010",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "humming"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0001",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sigh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Let out a tired sigh, and then say the following sentence.",
+          "text": "ああ、また一日が終わってしまったな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text suggests resignation without explicitly mentioning sighing."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Start with a weary sigh before you begin speaking.",
+          "text": "結局、何一つ思い通りにはいかないものだね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text suggests resignation without explicitly mentioning sighing."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Let out a sigh of resignation and then say the line.",
+          "text": "まあ、こんなものだろう。期待しすぎた私が悪かった。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text suggests resignation without explicitly mentioning sighing."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0002",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this sentence with a small, amused chuckle in the middle of it.",
+          "text": "あの時の彼の顔を思い出すと、今でもつい笑ってしまうんだ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes an amusing memory, which justifies the chuckle."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Deliver this line with a warm, gentle chuckle somewhere in the middle.",
+          "text": "昔はあんなに小さなことでも、大騒ぎしていたんだから面白いよね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text describes an amusing memory, which justifies the chuckle."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. As you say this, let a brief chuckle escape, as if recalling something funny.",
+          "text": "まさか自分がこんなことを言う日が来るなんて、思ってもみなかったよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text expresses self-aware irony, suitable for a chuckle."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0003",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Clear your throat to get attention, and then make the announcement.",
+          "text": "えー、皆様にご連絡がございます。会議は十五分後に開始いたします。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a formal announcement, fitting for a throat-clearing preamble."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Just before you start, give a slight cough to clear your throat.",
+          "text": "それでは、本日の議題について説明させていただきます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a formal announcement, fitting for a throat-clearing preamble."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Give a single throat-clearing sound, and then deliver the following line formally.",
+          "text": "ご静粛にお願いします。ただ今より、開会式を始めます。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a formal announcement, fitting for a throat-clearing preamble."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0004",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "gasp"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Start with a sudden gasp of surprise, then say the line.",
+          "text": "まさか、あの事件の犯人が彼の兄弟だったなんて。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text expresses shock and disbelief, justifying a gasp."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Let out a sharp intake of breath as if you've just realized something, and then speak.",
+          "text": "見て、この古い写真。これ、私たちのおじいちゃんじゃない？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a sudden realization, which works well with a gasp."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Begin with an audible gasp, as if you've just seen something shocking.",
+          "text": "信じられない、株価が一晩で半分以下に暴落している。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text expresses shock and disbelief, justifying a gasp."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0005",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "yawn"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Sound very sleepy, and try to suppress a yawn in the middle of this long sentence.",
+          "text": "このシステムの根本的な問題点は、古いアーキテクチャに依存していることで、データ処理の効率が著しく低下していることにあります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Long, technical text is suitable for a tired, yawning delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. In the middle of the sentence, let a yawn almost escape, as if you're struggling to stay awake while explaining.",
+          "text": "つまり、彼の理論によれば、時空の歪みは重力だけでなく、観測者の意識にも影響される可能性があるということです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Long, complex text is suitable for a tired, yawning delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. As you say this, try to stifle a yawn, showing how tired you are.",
+          "text": "この手続きを完了させるためには、まず申請書を提出し、その後で担当部署からの承認を待つ必要があります。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Long, procedural text is suitable for a tired, yawning delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0006",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sniffle"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Speak as if you have a bit of a cold, with a sniffle or two during the line.",
+          "text": "ごめん、今日はちょっと体調が悪くて、あまり話せないんだ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text explains not feeling well, matching the sniffle."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Your voice should sound a little stuffy, and you should sniffle a couple of times as you speak.",
+          "text": "外はすごく寒いから、暖かくして出かけないとだめだよ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text context (cold weather) aligns with having a cold."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this line with a slight nasal quality and a few sniffles, like you're fighting off a cold.",
+          "text": "この季節はいつもこうなんだ。すぐに風邪をひいてしまう。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text explicitly mentions catching colds, justifying the sniffle."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0007",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "whimper"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Your voice should be trembling, on the verge of crying, with a small whimper mixed in.",
+          "text": "もうやめて。これ以上は、私には耐えられない。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a plea of distress, matching a whimpering tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Speak through a suppressed sob, letting a little whimper escape.",
+          "text": "どうして、私だけがこんな目に遭わなきゃいけないの。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a plea of distress, matching a whimpering tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this line with a whimpering, tearful voice.",
+          "text": "お願いだから、どこにも行かないで。一人にしないで。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a plea of distress, matching a whimpering tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0008",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "gulp"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Say this nervously, with an audible gulp just before you say the second half of the sentence.",
+          "text": "あの、実は…あなたにお願いしたいことがあるんです。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a nervous preamble to a difficult request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Sound anxious, and make a swallowing sound before you get to the most difficult part of the request.",
+          "text": "もしご迷惑でなければ…少しだけお金を貸していただけませんか。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a nervous preamble to a difficult request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Deliver this line with hesitation, including a nervous swallow.",
+          "text": "大変申し上げにくいのですが、今回のプロジェクトから外させてください。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a nervous preamble to a difficult request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0009",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "mumble"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. Start speaking clearly, but let your voice trail off into an indistinct mumble by the end.",
+          "text": "あれ、鍵はどこに置いたかな…確かこのポケットに入れたはずなのに。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is self-talk that naturally trails off."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Begin the sentence at a normal volume, then trail off as if you're lost in thought.",
+          "text": "今日の会議で言われたこと、やっぱり納得いかないな…何か方法がないか…。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is self-talk that naturally trails off."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Say the first part of the sentence clearly, then mumble the rest to yourself.",
+          "text": "ああ、そうだ、帰りに牛乳を買って帰らないと…あと何だったかな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is self-talk that naturally trails off."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ja__special_extra_vocal_implicit_nv__0010",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "humming"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Japanese. In a happy mood, hum a little tune to yourself and then say the line.",
+          "text": "うん、今日の天気は最高だね。どこかに出かけたくなっちゃうな。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a pleasant observation fitting a contented mood."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Japanese. Start with a bit of cheerful humming, then make this pleasant observation.",
+          "text": "このコーヒー、すごくいい香り。なんだか落ち着くなあ。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a pleasant observation fitting a contented mood."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Japanese. Let out a little contented hum before you speak.",
+          "text": "やっぱり、週末にのんびりするのは一番の贅沢だね。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a pleasant observation fitting a contented mood."
+          }
+        }
+      ]
+    }
+  ]
+}

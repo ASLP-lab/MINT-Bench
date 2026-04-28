@@ -1,0 +1,489 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "en",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Use the voice of a little girl, but make her sound scornful and dismissive.",
+      "text": "That building has a lot of windows on it.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction creates conflict between child voice and disdainful tone. Text is neutral."
+      },
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "female",
+        "tone": "disdainful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this as a young girl, but with a tone of complete disdain, as if you're looking down on something very simple.",
+          "text": "The car is red and it has four wheels.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between child voice and disdainful tone. Text is neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use the voice of a little girl, but make her sound scornful and dismissive.",
+          "text": "That building has a lot of windows on it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between child voice and disdainful tone. Text is neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I want the voice of a small child, a girl, but her tone should be full of contempt and scorn.",
+          "text": "The sky is blue today and there are some clouds.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between child voice and disdainful tone. Text is neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You're telling a story about something good that happened, so you feel happy, but you're delivering it with a complaining, whining tone.",
+          "text": "We went to the park and then we got ice cream afterwards.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between happy emotion and complaining tone. Text is positive."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Sound happy on the inside, but use a complaining tone of voice, as if you're grumbling about this good thing.",
+          "text": "My friends all came over to my house for the party.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between happy emotion and complaining tone. Text is positive."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with a whining, complaining tone, but make it clear that the underlying emotion is actually happiness.",
+          "text": "I got the exact present I wanted for my birthday this year.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between happy emotion and complaining tone. Text is positive."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "emotion": "surprised",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You are a very reserved and quiet person, but you've just heard something so shocking that you can't help but react with loud surprise.",
+          "text": "I had no idea that was going to happen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between reserved personality and loud, surprised reaction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Imagine you're a shy, soft-spoken individual who is suddenly forced to shout in astonishment. Make the surprise sound loud, but like it's coming from someone who rarely raises their voice.",
+          "text": "You mean he was here the entire time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between reserved personality and loud, surprised reaction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The speaker is normally very quiet and reserved. In this moment, however, they are so surprised that they speak very loudly, which is out of character for them.",
+          "text": "That's not what I was expecting to see.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between reserved personality and loud, surprised reaction."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_fast",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "You have to deliver this sad news as quickly as possible. Speak very fast, but keep the sad emotion in your voice.",
+          "text": "The meeting has been moved to the main conference room.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between very fast speed and sad emotion. Text is neutral."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this line in a hurry, speaking at a very fast pace. At the same time, your voice should be heavy with sadness.",
+          "text": "We need to get the documents from the upstairs office right now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between very fast speed and sad emotion. Text is neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice is filled with sorrow, but you're in a huge rush. Say this as fast as you can without losing the sad quality.",
+          "text": "The package was delivered to the front desk this morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between very fast speed and sad emotion. Text is neutral."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "volume": "very_quiet",
+        "tone": "firm",
+        "gender": "male"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "As a male speaker, deliver this line with a firm, commanding tone, but speak very quietly, almost in a whisper.",
+          "text": "Leave the documents on the table and close the door on your way out.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between quiet volume and firm tone. Text is a command."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice is barely audible, but it's full of authority. Give this command in a very quiet yet firm male voice.",
+          "text": "You will do exactly as I have instructed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between quiet volume and firm tone. Text is a command."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Use a man's voice. I want this to sound very forceful and resolute, but it needs to be spoken at a very low volume, like a whispered threat.",
+          "text": "Make sure no one follows you when you leave.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between quiet volume and firm tone. Text is a command."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "age": "adult"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this line as if you are absolutely furious, but the words themselves are about something pleasant.",
+          "text": "I just love how the sun feels on a warm summer day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between angry emotion and positive text semantics."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this cheerful sentence, but with a deeply angry and frustrated voice.",
+          "text": "My favorite part of the holiday is spending time with family.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between angry emotion and positive text semantics."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your tone should be seething with anger, but you have to read these very positive and happy words.",
+          "text": "The cake they made for the celebration was really delicious.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between angry emotion and positive text semantics."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "The speaker is a naturally gentle and soft-spoken person. For this line, however, they are being incredibly sarcastic.",
+          "text": "Oh, that's just a wonderful idea. I can't imagine how we ever managed before you came up with that brilliant suggestion.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between gentle personality and sarcastic tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with a sarcastic tone. The speaker is usually a very kind and gentle person, so the sarcasm is a bit of a surprise.",
+          "text": "Thank you so much for your input, it's been truly invaluable. I'm sure your contribution will make all the difference to our project.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between gentle personality and sarcastic tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Despite having a gentle personality, the speaker is using a heavily sarcastic tone here to make a point.",
+          "text": "Well, of course you're right. Your flawless logic is impossible to argue with, and I'm sure everyone here is completely convinced.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between gentle personality and sarcastic tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "personality": "lively",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak as an elderly person who is full of life and energy. They're telling a story excitedly, so they speak quite fast.",
+          "text": "And then, before I could even turn around, the whole thing just took off down the street, and we had to chase it for nearly three blocks!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict by contrasting elderly age with a lively, fast delivery."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The voice should be that of an older person, but they have a very lively personality and a quick way of speaking. Recount this memory with speed and enthusiasm.",
+          "text": "We didn't have time to think, we just grabbed our things and ran for the train, and we barely made it as the doors were closing.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict by contrasting elderly age with a lively, fast delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Contrary to what you might expect from an elderly speaker, this person is very animated and speaks rapidly. Make them sound lively.",
+          "text": "It was the most incredible sight I had ever seen, with all the colors and the lights flashing everywhere all at once, so much was happening.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict by contrasting elderly age with a lively, fast delivery."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "tone": "pleading",
+        "emotion": "happy",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Using a female voice, sound very happy and excited, but use a pleading tone, as if you're playfully begging for something you want.",
+          "text": "Can we please go get some ice cream now?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between a happy emotion and a pleading tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "The speaker is a woman who is in a great mood. She's making a request with a pleading tone, but it's all in good fun.",
+          "text": "Oh, please just let me have one more piece of chocolate.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between a happy emotion and a pleading tone."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "She's cheerful and happy, but she's also begging. Combine a genuinely happy emotion with a pleading delivery for this line.",
+          "text": "Just five more minutes, please, I'm almost finished with this part.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction creates conflict between a happy emotion and a pleading tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "gender": "male",
+        "pitch": "high",
+        "texture": "sweet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this factual statement in a male voice that has a naturally high pitch and a soft, sweet vocal quality.",
+          "text": "The mitochondria are the powerhouse of the cell.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a counter-stereotypical male voice (high pitch, sweet)."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need a man's voice, but one that is higher in pitch and has a very sweet and gentle texture.",
+          "text": "Photosynthesis is the process used by plants to convert light energy into chemical energy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a counter-stereotypical male voice (high pitch, sweet)."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "The speaker is a man, but his voice is not deep. It's high-pitched and has a sweet tone. Read the line with this voice.",
+          "text": "The Earth revolves around the Sun approximately once every 365 days.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction requests a counter-stereotypical male voice (high pitch, sweet)."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "de",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Adopt the persona of a teacher explaining a historical concept to students. Your tone should be clear, patient, and structured.",
+      "text": "Die industrielle Revolution, die im 18. Jahrhundert in Großbritannien begann, veränderte die Gesellschaft grundlegend durch die Einführung neuer Maschinen und Fabriken.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Sound like a public announcer at an airport. Your voice should be professional, clear, and carry well.",
+      "text": "Letzter Aufruf für die Passagiere des Fluges LH zweihundertsiebzehn nach Paris. Bitte begeben Sie sich unverzüglich zum Flugsteig B vierundzwanzig.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Your voice should be that of a helpful customer service agent on the phone. Sound patient, professional, and empathetic as you explain a solution.",
+      "text": "Ich verstehe vollkommen Ihre Situation. Um das Problem zu beheben, gehen Sie bitte zuerst auf unsere Webseite und klicken Sie oben rechts auf 'Mein Konto'. Von dort aus können Sie Ihr Passwort sicher zurücksetzen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Sound like an engaging tour guide telling a story to a group. Your delivery should be expressive and clear, capturing the listeners' attention.",
+      "text": "Wenn Sie nun nach links blicken, sehen Sie die Überreste der alten Stadtmauer, die im vierzehnten Jahrhundert erbaut wurde, um die Bewohner vor feindlichen Angriffen zu schützen. Jeder Stein hier erzählt eine eigene Geschichte.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Sound like a medical professional speaking to a patient. Use a calm and clear voice to explain the next steps in a reassuring manner.",
+      "text": "Die Ergebnisse sind in Ordnung, aber zur Sicherheit möchten wir in drei Monaten eine Kontrolluntersuchung durchführen. Das ist ein ganz normaler Vorgang.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Your delivery needs to be extremely fast and engaging, in the style of an auctioneer. Use a clear but rapid articulation with rising intonation to build excitement.",
+      "text": "Zweihundert, hab ich zweihundert, wer sagt zweihundertfünfzig, ja, dreihundert, dreihundert am Telefon, dreihundertfünfzig, vierhundert, vierhundert jetzt! Zum Ersten, zum Zweiten und verkauft für vierhundert!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Adopt the intimate and conversational tone of a podcast host speaking directly to their audience. The delivery should feel natural and engaging.",
+      "text": "Und das bringt mich zu der Frage, die ich mir in letzter Zeit oft stelle: Wie definieren wir eigentlich Erfolg in einer Welt, die sich ständig verändert? Es ist nicht mehr nur der Job oder das Gehalt, es geht um viel mehr.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Sound like you're hosting a live stream, with a very energetic and slightly informal tone. React with excitement and address your audience directly.",
+      "text": "Nein, oder? Das kann nicht sein! Habt ihr das auch gesehen? Das war so knapp! Ich brauche mal kurz einen Moment, um das zu verarbeiten. Absolut verrückt, was für ein Spiel!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Adopt the persona of a friendly market stall holder calling out to people passing by. Be loud, persuasive, and cheerful.",
+      "text": "Schauen Sie mal hier, meine Damen und Herren! Der beste Käse aus den Alpen, cremig und würzig im Geschmack! Probieren Sie ein Stück, Sie werden es nicht bereuen!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Faithful realization of the plan."
+      },
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Adopt the persona of a teacher explaining a historical concept to students. Your tone should be clear, patient, and structured.",
+          "text": "Die industrielle Revolution, die im 18. Jahrhundert in Großbritannien begann, veränderte die Gesellschaft grundlegend durch die Einführung neuer Maschinen und Fabriken.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Sound like a knowledgeable and engaging educator. Your voice should be clear and well-paced, as if you're teaching a class.",
+          "text": "Photosynthese ist der Prozess, bei dem grüne Pflanzen Lichtenergie nutzen, um Kohlendioxid und Wasser in Glukose und Sauerstoff umzuwandeln.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use the voice of a patient instructor leading a lesson. Make sure your explanation is easy to follow and your tone is encouraging.",
+          "text": "Das Herz ist ein Muskel, der als Pumpe fungiert und Blut durch den gesamten Körper zirkulieren lässt, um Organe mit Sauerstoff zu versorgen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Use a formal, clear announcer's voice, like one you'd hear in a public transport hub. The delivery should be steady and authoritative.",
+          "text": "Achtung, an Gleis fünf: Der Intercity-Express nach München hat eine voraussichtliche Verspätung von zwanzig Minuten. Wir bitten um Ihr Verständnis.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Sound like a public announcer at an airport. Your voice should be professional, clear, and carry well.",
+          "text": "Letzter Aufruf für die Passagiere des Fluges LH zweihundertsiebzehn nach Paris. Bitte begeben Sie sich unverzüglich zum Flugsteig B vierundzwanzig.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Adopt the persona of a public address announcer. Speak clearly and formally, with a slightly reverberant quality.",
+          "text": "Sehr geehrte Damen und Herren, die Vorstellung beginnt in wenigen Minuten. Bitte nehmen Sie Ihre Plätze ein und schalten Sie Ihre Mobiltelefone aus.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Your voice should be that of a helpful customer service agent on the phone. Sound patient, professional, and empathetic as you explain a solution.",
+          "text": "Ich verstehe vollkommen Ihre Situation. Um das Problem zu beheben, gehen Sie bitte zuerst auf unsere Webseite und klicken Sie oben rechts auf 'Mein Konto'. Von dort aus können Sie Ihr Passwort sicher zurücksetzen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Adopt a professional and reassuring tone, like a call center employee guiding a customer. Be clear and polite.",
+          "text": "Keine Sorge, wir können das gemeinsam klären. Ich habe Ihnen soeben eine E-Mail mit einem Bestätigungslink geschickt. Bitte klicken Sie auf diesen Link, um den Vorgang abzuschließen, und dann sollte alles wieder funktionieren.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Embody a friendly and competent customer support representative. Your tone should be calm and helpful, making the listener feel at ease.",
+          "text": "Vielen Dank für Ihre Geduld. Ich habe die erforderlichen Änderungen in Ihrem Profil vorgenommen. Sie sollten in den nächsten fünf Minuten eine Bestätigung erhalten. Kann ich Ihnen sonst noch irgendwie behilflich sein?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Sound like an engaging tour guide telling a story to a group. Your delivery should be expressive and clear, capturing the listeners' attention.",
+          "text": "Wenn Sie nun nach links blicken, sehen Sie die Überreste der alten Stadtmauer, die im vierzehnten Jahrhundert erbaut wurde, um die Bewohner vor feindlichen Angriffen zu schützen. Jeder Stein hier erzählt eine eigene Geschichte.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Adopt the persona of an enthusiastic tour guide. Speak clearly and with a lively tone, as if you're pointing out interesting historical details to your group.",
+          "text": "Wir stehen jetzt vor dem berühmten Dom, dessen Bau über sechshundert Jahre dauerte. Die kunstvollen Glasfenster, die Sie im Inneren bewundern können, sind weltberühmt und stammen aus verschiedenen Epochen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use an animated and friendly voice, like a tour guide leading a walking tour. Your pace should be comfortable for a group to follow as you share a historical anecdote.",
+          "text": "In dieser kleinen Gasse hier soll der Legende nach ein berühmter Komponist die Inspiration für eines seiner bekanntesten Werke gefunden haben. Man sagt, die Melodie sei ihm beim Klang der Kirchturmglocken eingefallen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Adopt the calm, reassuring, and authoritative tone of a doctor explaining a medical procedure to a patient. Your voice should inspire confidence.",
+          "text": "Der Eingriff ist ein Routineverfahren und dauert nur wenige Minuten. Wir werden eine lokale Betäubung verwenden, sodass Sie keinerlei Schmerzen verspüren werden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Sound like a medical professional speaking to a patient. Use a calm and clear voice to explain the next steps in a reassuring manner.",
+          "text": "Die Ergebnisse sind in Ordnung, aber zur Sicherheit möchten wir in drei Monaten eine Kontrolluntersuchung durchführen. Das ist ein ganz normaler Vorgang.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use a patient and professional voice, like a doctor explaining a diagnosis. Your tone should be both informative and comforting.",
+          "text": "Es ist wichtig, dass Sie dieses Medikament jeden Tag zur gleichen Zeit einnehmen. Das hilft, den Wirkstoffspiegel im Blut konstant zu halten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Adopt the rapid-fire, rhythmic, and exciting delivery of an auctioneer. The pace should be very fast and build in intensity.",
+          "text": "Fünfhundert biete ich, fünfhundert Euro, wer gibt mir fünfhundertfünfzig, fünfhundertfünfzig jetzt, sechshundert, sechshundert vom Herrn in der ersten Reihe, sechshundertfünfzig, siebenhundert? Zum Ersten, zum Zweiten und verkauft!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Speak very quickly and with a rhythmic cadence, like an auctioneer calling out bids. Your voice should be energetic and persuasive.",
+          "text": "Eintausend zum Start, tausend Euro, wer bietet elfhundert, elfhundert, ich habe elfhundert, jetzt zwölfhunder, ja, da hinten, dreizehnhundert, vierzehnhundert? Letzte Chance, vierzehnhundert?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Your delivery needs to be extremely fast and engaging, in the style of an auctioneer. Use a clear but rapid articulation with rising intonation to build excitement.",
+          "text": "Zweihundert, hab ich zweihundert, wer sagt zweihundertfünfzig, ja, dreihundert, dreihundert am Telefon, dreihundertfünfzig, vierhundert, vierhundert jetzt! Zum Ersten, zum Zweiten und verkauft für vierhundert!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Adopt the intimate and conversational tone of a podcast host speaking directly to their audience. The delivery should feel natural and engaging.",
+          "text": "Und das bringt mich zu der Frage, die ich mir in letzter Zeit oft stelle: Wie definieren wir eigentlich Erfolg in einer Welt, die sich ständig verändert? Es ist nicht mehr nur der Job oder das Gehalt, es geht um viel mehr.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Sound like you're hosting a podcast. Your voice should be close and personal, creating a one-on-one feeling with the listener. Use a thoughtful, relaxed pace.",
+          "text": "Ich glaube, einer der interessantesten Aspekte der digitalen Kommunikation ist, wie sie unsere Wahrnehmung von Nähe und Distanz beeinflusst hat. Man kann sich jemandem unglaublich nah fühlen, den man noch nie persönlich getroffen hat.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Imagine you are recording a solo podcast episode. Your tone should be reflective and conversational, as if you're sharing your personal thoughts with a trusted friend.",
+          "text": "Es ist faszinierend, wenn man darüber nachdenkt, wie sehr sich unsere Arbeitsgewohnheiten in den letzten Jahren gewandelt haben. Die Idee des Neun-bis-Fünf-Bürojobs fühlt sich für viele von uns schon fast wie eine ferne Erinnerung an.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Use a high-energy, enthusiastic voice like a live streamer reacting to something in real-time. Your style should feel spontaneous and interactive.",
+          "text": "Wow, Leute, seht euch das an! Das ist ja der absolute Wahnsinn, ich kann gar nicht glauben, was hier gerade passiert! Schreibt mal in den Chat, was ihr davon haltet, das ist unglaublich!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Adopt the persona of a gamer or host streaming live. Your voice should be energetic and informal, as if you're talking directly to your online viewers.",
+          "text": "Okay, okay, ich sehe eure Kommentare, danke für den Support! Wir versuchen jetzt mal die andere Strategie, die ihr vorgeschlagen habt. Mal sehen, ob das funktioniert, ich bin echt gespannt!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Sound like you're hosting a live stream, with a very energetic and slightly informal tone. React with excitement and address your audience directly.",
+          "text": "Nein, oder? Das kann nicht sein! Habt ihr das auch gesehen? Das war so knapp! Ich brauche mal kurz einen Moment, um das zu verarbeiten. Absolut verrückt, was für ein Spiel!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Project your voice like a street vendor trying to attract customers at a market. Your tone should be loud, friendly, and enthusiastic.",
+          "text": "Frische Erdbeeren, direkt vom Feld! Süßer und saftiger geht es nicht, heute Morgen erst geerntet! Greifen Sie zu, so gut schmecken sie nur bei uns!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Adopt the persona of a friendly market stall holder calling out to people passing by. Be loud, persuasive, and cheerful.",
+          "text": "Schauen Sie mal hier, meine Damen und Herren! Der beste Käse aus den Alpen, cremig und würzig im Geschmack! Probieren Sie ein Stück, Sie werden es nicht bereuen!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use the loud, energetic, and inviting voice of a street vendor. Your goal is to get the attention of people walking by with your friendly call.",
+          "text": "Heiß und knusprig, direkt aus dem Ofen! Die besten Brezeln der ganzen Stadt, kommen Sie näher und riechen Sie selbst! Besser kann der Tag nicht starten!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Faithful realization of the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

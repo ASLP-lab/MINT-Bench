@@ -1,0 +1,1509 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/static",
+  "language": "de",
+  "source_plan_file": "hard__composite__complex_comp__static.json",
+  "num_input_items": 22,
+  "num_output_items": 22,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Age: elderly, Gender: male, Personality: serious",
+      "text": "Die Jahre nach dem großen Ereignis waren geprägt von einem Gefühl des Wandels, das in der Luft lag.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_personality",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Say this in a hushed, rushed voice, as if you are concerned about something.",
+      "text": "Hast du die Nachricht gesehen? Wir haben nicht viel Zeit, wir müssen jetzt handeln.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static/emotion_speed_volume",
+      "target_values": {
+        "emotion": "worried",
+        "speed": "fast",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. I need a female voice that is high in pitch and full of life, with a teasing, playful quality.",
+      "text": "Ich sehe, du hast die Anleitung für den Zusammenbau des Regals gefunden.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static/gender_pitch_tone_personality",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "tone": "playful",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. I need a child's voice, sounding bright and happy, speaking quickly and with excitement.",
+      "text": "Es hat Räder und einen Knopf, und wenn man den drückt, macht es ein Geräusch.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static/age_texture_emotion_speed",
+      "target_values": {
+        "age": "child",
+        "texture": "bright",
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Gender: male, Age: adult, Pitch: low, Volume: loud, Tone: firm",
+      "text": "Wir weisen darauf hin, dass die Bibliothek aufgrund von Wartungsarbeiten am kommenden Wochenende geschlossen bleibt. Wir bitten um Ihr Verständnis und entschuldigen uns für die Unannehmlichkeiten.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static/gender_age_pitch_volume_tone",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "pitch": "low",
+        "volume": "loud",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. I want you to sound like an elderly woman who is always finding something to complain about.",
+      "text": "Schon wieder so ein Wind, man kann kaum die Zeitung in der Hand halten.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_tone",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Deliver the text in a calm, slow manner, using a soft vocal quality.",
+      "text": "Die Wahrnehmung der Zeit ist eine seltsame Sache, sie dehnt sich und zieht sich zusammen, je nachdem, was wir erleben. Ein Augenblick kann sich wie eine Ewigkeit anfühlen.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static/personality_speed_texture",
+      "target_values": {
+        "personality": "calm",
+        "speed": "slow",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Emotion: angry, Volume: loud, Pitch: normal",
+      "text": "Das Signal wird dann durch den Verstärker geleitet und an den Ausgangsanschluss weitergeleitet.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static/emotion_volume_pitch",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "loud",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. The speaker is a man with a deep, resonant voice, delivering the line with confidence.",
+      "text": "Dieses Modell ist mit einem Allradantrieb und einem adaptiven Federungssystem ausgestattet.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static/gender_texture_personality",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. The speaker is an adult woman who sounds both sad and disappointed.",
+      "text": "Der Termin um neun Uhr ist die Besprechung, gefolgt vom Mittagessen um zwölf Uhr dreißig.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_emotion_tone",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "sad",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Gender: male, Texture: husky, Personality: reserved, Speed: very_slow",
+      "text": "Um zum Bahnhof zu kommen, gehen Sie zuerst diese Straße geradeaus bis zur großen Kreuzung. Dort biegen Sie dann links ab und folgen der Hauptstraße für ungefähr fünfhundert Meter. Sie werden an einer alten Kirche vorbeikommen. Gleich danach ist der Bahnhof auf der rechten Seite.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static/gender_texture_personality_speed",
+      "target_values": {
+        "gender": "male",
+        "texture": "husky",
+        "personality": "reserved",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Please speak very quietly and gently, like an old man sharing a calm observation from a nature documentary.",
+      "text": "Hoch oben in den Ästen des alten Baumes sitzt das Eichhörnchen und knackt eine Nuss. Sein buschiger Schwanz zuckt bei jedem Geräusch. Es hat einen Vorrat für den Winter angelegt und prüft nun sorgfältig seine Verstecke.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_personality_volume",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "gentle",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Use a smoky, low-pitched voice. Deliver this line with a detached, indifferent tone at a regular speed.",
+      "text": "Die Verhandlungen über das neue Handelsabkommen wurden heute ohne Ergebnis vertagt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static/pitch_texture_tone_speed",
+      "target_values": {
+        "pitch": "low",
+        "texture": "smoky",
+        "tone": "indifferent",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Say this with a warm, encouraging voice, urging the listener to complete the next step carefully.",
+      "text": "Jetzt ist es ganz wichtig, die Zutaten langsam und vorsichtig unterzuheben, damit der Teig schön luftig bleibt.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static/personality_tone_volume_pitch",
+      "target_values": {
+        "personality": "warm",
+        "tone": "urging",
+        "volume": "normal",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Emotion: surprised, Speed: fast, Pitch: high, Gender: female",
+      "text": "Das Konzert war innerhalb von nur fünf Minuten komplett ausverkauft.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static/emotion_speed_pitch_gender",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "fast",
+        "pitch": "high",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this explanation with the serious and thoughtful voice of a male academic.",
+      "text": "Bei der Photosynthese handelt es sich um einen biochemischen Prozess, bei dem Pflanzen, Algen und einige Bakterien Lichtenergie nutzen, um Kohlendioxid und Wasser in Glukose und Sauerstoff umzuwandeln.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_emotion_personality",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "emotion": "thoughtful",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Speak with the extreme speed, volume, and urgency of an auctioneer, but maintain a clear voice.",
+      "text": "Ich sehe hier vorne eine Hand, da hinten noch eine, wer bietet mehr, zum ersten, zum zweiten, wir brauchen eine Entscheidung, die Zeit läuft ab, beeilen Sie sich, letzte Chance!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static/texture_volume_speed_tone",
+      "target_values": {
+        "texture": "clear",
+        "volume": "very_loud",
+        "speed": "very_fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Use a rich male voice. The personality should be humorous, but the tone is clearly sarcastic.",
+      "text": "Du meinst also, wenn ich ohne Schirm im Regen stehe, könnte ich nass werden? Faszinierend.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_texture_personality_tone",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "texture": "rich",
+        "personality": "humorous",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Gender: female, Pitch: high, Texture: sweet, Emotion: happy, Personality: cheerful",
+      "text": "Die Blumenwiese erstreckt sich bis zum Horizont unter dem blauen Himmel.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static/gender_pitch_texture_emotion_personality",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "texture": "sweet",
+        "emotion": "happy",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Adopt the voice of an elderly woman who is thoughtful and hesitant. She should speak slowly, choosing her words with care.",
+      "text": "Die Hauptstadt von Australien ist Canberra, soweit ich mich erinnere. Viele Leute denken, es sei Sydney, aber... ich bin ziemlich sicher, dass es Canberra ist.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_speed_emotion_tone",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "speed": "slow",
+        "emotion": "thoughtful",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. I want you to sound like a man with a deep, booming voice, full of defiant anger.",
+      "text": "Auf der Liste stehen Kartoffeln, Zwiebeln, Äpfel, Mehl und Zucker.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses descriptive language ('deep, booming') to cue the target attributes. Text is neutral."
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static/gender_pitch_volume_emotion_tone",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_low",
+        "volume": "very_loud",
+        "emotion": "angry",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Personality: aloof, Texture: nasal, Speed: normal, Tone: disdainful, Volume: normal",
+      "text": "Nun, ich muss zugeben, das ist überraschend gut gemacht.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction uses strict tag format. Text is a backhanded compliment, which supports the disdainful tone."
+      },
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static/personality_texture_speed_tone_volume",
+      "target_values": {
+        "personality": "aloof",
+        "texture": "nasal",
+        "speed": "normal",
+        "tone": "disdainful",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0001",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_personality",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Age: elderly, Gender: male, Personality: serious",
+          "text": "Die Jahre nach dem großen Ereignis waren geprägt von einem Gefühl des Wandels, das in der Luft lag.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Age: elderly, Gender: male, Personality: serious",
+          "text": "Man erinnert sich an die langen Diskussionen, die in den Ratskammern stattfanden, bevor eine Entscheidung getroffen wurde.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Age: elderly, Gender: male, Personality: serious",
+          "text": "Die Architektur jener Zeit spiegelte die vorherrschenden Ideale wider, mit klaren Linien und funktionalem Design.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0002",
+      "meta_path": "hard/composite/complex_comp/static/emotion_speed_volume",
+      "target_values": {
+        "emotion": "worried",
+        "speed": "fast",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Deliver the line quickly and quietly, with a worried tone.",
+          "text": "Wir müssen uns sofort treffen, es gibt etwas, das du wissen musst, bevor es zu spät ist.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Say this in a hushed, rushed voice, as if you are concerned about something.",
+          "text": "Hast du die Nachricht gesehen? Wir haben nicht viel Zeit, wir müssen jetzt handeln.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The delivery should be fast-paced and quiet, conveying a sense of worry.",
+          "text": "Ich habe es gerade erst herausgefunden, und ich bin mir nicht sicher, was die nächsten Schritte sind.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0003",
+      "meta_path": "hard/composite/complex_comp/static/gender_pitch_tone_personality",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "tone": "playful",
+        "personality": "lively"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Use a lively, high-pitched female voice with a playful tone.",
+          "text": "Die Katze sitzt auf dem Fensterbrett und schaut nach draußen auf die Straße.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I need a female voice that is high in pitch and full of life, with a teasing, playful quality.",
+          "text": "Ich sehe, du hast die Anleitung für den Zusammenbau des Regals gefunden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The speaker is a woman with a high-pitched voice, delivering the line in a lively and playful manner.",
+          "text": "Die Blumen im Garten fangen an zu blühen, besonders die gelben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0004",
+      "meta_path": "hard/composite/complex_comp/static/age_texture_emotion_speed",
+      "target_values": {
+        "age": "child",
+        "texture": "bright",
+        "emotion": "happy",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. I need a child's voice, sounding bright and happy, speaking quickly and with excitement.",
+          "text": "Es hat Räder und einen Knopf, und wenn man den drückt, macht es ein Geräusch.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line as a happy child, with a bright vocal quality and a fast pace.",
+          "text": "Das hier ist der Teil, der sich bewegt, und die Lichter sind rot und blau.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The speaker is a child, talking very fast with a happy and bright voice.",
+          "text": "Man kann es auseinandernehmen und dann wieder auf eine ganz andere Weise zusammensetzen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0005",
+      "meta_path": "hard/composite/complex_comp/static/gender_age_pitch_volume_tone",
+      "target_values": {
+        "gender": "male",
+        "age": "adult",
+        "pitch": "low",
+        "volume": "loud",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Gender: male, Age: adult, Pitch: low, Volume: loud, Tone: firm",
+          "text": "Alle Passagiere werden gebeten, die Sicherheitsrichtlinien zu beachten und ihr Gepäck jederzeit bei sich zu behalten. Das Betreten der markierten Bereiche ist strengstens untersagt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Gender: male, Age: adult, Pitch: low, Volume: loud, Tone: firm",
+          "text": "Gemäß der neuen Verordnung, die am ersten des Monats in Kraft tritt, müssen alle Anträge bis zum Fälligkeitsdatum elektronisch eingereicht werden. Spätere Einreichungen können nicht berücksichtigt werden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Gender: male, Age: adult, Pitch: low, Volume: loud, Tone: firm",
+          "text": "Wir weisen darauf hin, dass die Bibliothek aufgrund von Wartungsarbeiten am kommenden Wochenende geschlossen bleibt. Wir bitten um Ihr Verständnis und entschuldigen uns für die Unannehmlichkeiten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0006",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_tone",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Speak as an elderly woman who is complaining about things.",
+          "text": "Es hat die ganze Nacht geregnet, und jetzt ist die ganze Straße nass.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. The voice should be that of an older woman, with a complaining, disgruntled tone.",
+          "text": "Die Vorhersage sagt, dass die Temperatur heute Nachmittag wieder steigen wird.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. I want you to sound like an elderly woman who is always finding something to complain about.",
+          "text": "Schon wieder so ein Wind, man kann kaum die Zeitung in der Hand halten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0007",
+      "meta_path": "hard/composite/complex_comp/static/personality_speed_texture",
+      "target_values": {
+        "personality": "calm",
+        "speed": "slow",
+        "texture": "soft"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Deliver the text in a calm, slow manner, using a soft vocal quality.",
+          "text": "Die Wahrnehmung der Zeit ist eine seltsame Sache, sie dehnt sich und zieht sich zusammen, je nachdem, was wir erleben. Ein Augenblick kann sich wie eine Ewigkeit anfühlen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. The reading should be very slow and relaxed, with a soft, calm voice.",
+          "text": "Manchmal sind die stillsten Momente diejenigen, in denen wir die tiefsten Einsichten gewinnen, weit entfernt vom Lärm des Alltags. Die Stille hat ihre eigene Sprache.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Speak slowly and softly, with a calm and thoughtful personality.",
+          "text": "Jede Entscheidung, die wir treffen, ist wie ein Pfad, der sich von unzähligen anderen abzweigt, die wir hätten gehen können. Das Netz der Möglichkeiten ist unendlich und unsichtbar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0008",
+      "meta_path": "hard/composite/complex_comp/static/emotion_volume_pitch",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "loud",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: angry, Volume: loud, Pitch: normal",
+          "text": "Der erste Schritt besteht darin, die Hauptstromversorgung zu unterbrechen, bevor das Gehäuse geöffnet wird.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: angry, Volume: loud, Pitch: normal",
+          "text": "Das Signal wird dann durch den Verstärker geleitet und an den Ausgangsanschluss weitergeleitet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: angry, Volume: loud, Pitch: normal",
+          "text": "Man muss sicherstellen, dass die Kalibrierungswerte genau innerhalb der angegebenen Toleranz liegen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0009",
+      "meta_path": "hard/composite/complex_comp/static/gender_texture_personality",
+      "target_values": {
+        "gender": "male",
+        "texture": "deep",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Use a confident male voice with a deep texture.",
+          "text": "Das Gehäuse besteht aus gebürstetem Edelstahl und verfügt über ein kratzfestes Saphirglas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I need a deep male voice that sounds very sure of itself and confident.",
+          "text": "Der integrierte Prozessor ermöglicht eine schnelle Datenverarbeitung und einen reibungslosen Betrieb.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. The speaker is a man with a deep, resonant voice, delivering the line with confidence.",
+          "text": "Dieses Modell ist mit einem Allradantrieb und einem adaptiven Federungssystem ausgestattet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0010",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_emotion_tone",
+      "target_values": {
+        "age": "adult",
+        "gender": "female",
+        "emotion": "sad",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. The speaker is an adult woman who sounds both sad and disappointed.",
+          "text": "Der Termin um neun Uhr ist die Besprechung, gefolgt vom Mittagessen um zwölf Uhr dreißig.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this line as a woman who is feeling sad and let down by something.",
+          "text": "Abfahrt des Zuges ist um siebzehn Uhr, Ankunft ist dann für zwanzig Uhr geplant.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. I need a female voice that conveys sadness and disappointment.",
+          "text": "Morgen früh um acht ist der Anruf mit dem Team, und danach geht es direkt weiter zum nächsten Punkt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0011",
+      "meta_path": "hard/composite/complex_comp/static/gender_texture_personality_speed",
+      "target_values": {
+        "gender": "male",
+        "texture": "husky",
+        "personality": "reserved",
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Gender: male, Texture: husky, Personality: reserved, Speed: very_slow",
+          "text": "Um zum Bahnhof zu kommen, gehen Sie zuerst diese Straße geradeaus bis zur großen Kreuzung. Dort biegen Sie dann links ab und folgen der Hauptstraße für ungefähr fünfhundert Meter. Sie werden an einer alten Kirche vorbeikommen. Gleich danach ist der Bahnhof auf der rechten Seite.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Gender: male, Texture: husky, Personality: reserved, Speed: very_slow",
+          "text": "Der Weg zum Museum ist eigentlich ganz einfach. Nehmen Sie die nächste Straße rechts und gehen Sie immer geradeaus. Nach etwa zehn Minuten sehen Sie einen großen Park auf Ihrer linken Seite. Das Museum befindet sich direkt gegenüber dem Haupteingang des Parks.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Gender: male, Texture: husky, Personality: reserved, Speed: very_slow",
+          "text": "Wenn Sie die Bibliothek suchen, gehen Sie über diese Brücke und dann die zweite Straße links. Folgen Sie dieser Straße, bis Sie ein hohes Glasgebäude sehen. Das ist die Stadtbibliothek. Der Eingang ist um die Ecke, neben dem kleinen Café.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0012",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_personality_volume",
+      "target_values": {
+        "age": "elderly",
+        "gender": "male",
+        "personality": "gentle",
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Narrate this as an elderly man with a very quiet, gentle voice, as if you're observing a delicate creature without wanting to disturb it.",
+          "text": "Hier, tief im Unterholz, hat der kleine Igel seinen Bau. Vorsichtig schnüffelt er in der Dämmerung nach Nahrung. Jedes Geräusch lässt ihn zusammenzucken, doch der Hunger treibt ihn weiter voran durch das raschelnde Laub des Waldbodens.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your voice should be that of a gentle, elderly man, speaking very quietly and softly, as if telling a secret about nature.",
+          "text": "Am frühen Morgen, wenn der Nebel noch über dem See liegt, kann man manchmal den Eisvogel beobachten. Mit einem blitzschnellen Stoß taucht er ins kalte Wasser, um einen kleinen Fisch zu fangen. Sein Gefieder schillert in den ersten Sonnenstrahlen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Please speak very quietly and gently, like an old man sharing a calm observation from a nature documentary.",
+          "text": "Hoch oben in den Ästen des alten Baumes sitzt das Eichhörnchen und knackt eine Nuss. Sein buschiger Schwanz zuckt bei jedem Geräusch. Es hat einen Vorrat für den Winter angelegt und prüft nun sorgfältig seine Verstecke.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0013",
+      "meta_path": "hard/composite/complex_comp/static/pitch_texture_tone_speed",
+      "target_values": {
+        "pitch": "low",
+        "texture": "smoky",
+        "tone": "indifferent",
+        "speed": "normal"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Read this news update in a low-pitched, smoky voice. Your tone should be completely indifferent, and you should speak at a normal pace.",
+          "text": "Die neuesten Wirtschaftsdaten zeigen ein moderates Wachstum im zweiten Quartal des Jahres.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Use a smoky, low-pitched voice. Deliver this line with a detached, indifferent tone at a regular speed.",
+          "text": "Die Verhandlungen über das neue Handelsabkommen wurden heute ohne Ergebnis vertagt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Your voice should be low and have a smoky quality. Maintain a normal speed and an indifferent, matter-of-fact tone.",
+          "text": "Lokale Behörden haben eine neue Verkehrsregelung für das Stadtzentrum angekündigt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0014",
+      "meta_path": "hard/composite/complex_comp/static/personality_tone_volume_pitch",
+      "target_values": {
+        "personality": "warm",
+        "tone": "urging",
+        "volume": "normal",
+        "pitch": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this with a warm, encouraging voice, urging the listener to complete the next step carefully.",
+          "text": "Jetzt ist es ganz wichtig, die Zutaten langsam und vorsichtig unterzuheben, damit der Teig schön luftig bleibt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Read this recipe instruction with a warm personality and a gentle, urging tone. Your volume and pitch should be normal.",
+          "text": "Vergessen Sie nicht, den Ofen rechtzeitig vorzuheizen, das ist entscheidend für ein gutes Ergebnis.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this line in a warm, friendly manner, with an encouraging and slightly urging tone.",
+          "text": "Rühren Sie die Soße so lange, bis sie eine cremige Konsistenz erreicht hat, dann wird sie perfekt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0015",
+      "meta_path": "hard/composite/complex_comp/static/emotion_speed_pitch_gender",
+      "target_values": {
+        "emotion": "surprised",
+        "speed": "fast",
+        "pitch": "high",
+        "gender": "female"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Emotion: surprised, Speed: fast, Pitch: high, Gender: female",
+          "text": "Er hat tatsächlich den ganzen Kuchen alleine aufgegessen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Emotion: surprised, Speed: fast, Pitch: high, Gender: female",
+          "text": "Sie hat ihren Job gekündigt und plant jetzt eine Weltreise.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Emotion: surprised, Speed: fast, Pitch: high, Gender: female",
+          "text": "Das Konzert war innerhalb von nur fünf Minuten komplett ausverkauft.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0016",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_emotion_personality",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "emotion": "thoughtful",
+        "personality": "serious"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Explain this concept as a serious, thoughtful adult man, carefully considering each word.",
+          "text": "Die grundlegende Prämisse der Quantenmechanik besagt, dass Energie und Materie auf der atomaren und subatomaren Ebene diskrete Einheiten, sogenannte Quanten, aufweisen. Dieses Prinzip unterscheidet sich fundamental von der klassischen Physik.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this explanation with the serious and thoughtful voice of a male academic.",
+          "text": "Bei der Photosynthese handelt es sich um einen biochemischen Prozess, bei dem Pflanzen, Algen und einige Bakterien Lichtenergie nutzen, um Kohlendioxid und Wasser in Glukose und Sauerstoff umzuwandeln.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Sound like a serious man, speaking in a thoughtful manner as you explain this complex idea.",
+          "text": "Die Relativitätstheorie postuliert, dass die Gesetze der Physik für alle Beobachter in Inertialsystemen gleich sind und dass die Lichtgeschwindigkeit im Vakuum für alle Beobachter konstant ist, unabhängig von der Bewegung der Lichtquelle.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0017",
+      "meta_path": "hard/composite/complex_comp/static/texture_volume_speed_tone",
+      "target_values": {
+        "texture": "clear",
+        "volume": "very_loud",
+        "speed": "very_fast",
+        "tone": "urging"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Announce this very loudly and very fast, with a clear, urgent tone, as if you are a sports commentator describing a critical moment.",
+          "text": "Und da kommt er um die Ecke, er überholt den ersten, jetzt den zweiten, er ist fast an der Ziellinie, das wird ein knappes Rennen, unglaublich, was für ein Endspurt!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Speak with the extreme speed, volume, and urgency of an auctioneer, but maintain a clear voice.",
+          "text": "Ich sehe hier vorne eine Hand, da hinten noch eine, wer bietet mehr, zum ersten, zum zweiten, wir brauchen eine Entscheidung, die Zeit läuft ab, beeilen Sie sich, letzte Chance!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this line with great speed and volume. Your voice should be clear and have an urgent, pressing tone.",
+          "text": "Er nimmt den Ball, er rennt über das Feld, er weicht dem Verteidiger aus, er schießt, er schießt und es ist ein Tor, was für ein unglaubliches Spiel, die Menge tobt!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0018",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_texture_personality_tone",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "texture": "rich",
+        "personality": "humorous",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this as an adult man with a rich, humorous voice, dripping with sarcasm as you state the obvious.",
+          "text": "Ach was, Wasser ist also nass? Das ist ja eine bahnbrechende Erkenntnis.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Use a rich male voice. The personality should be humorous, but the tone is clearly sarcastic.",
+          "text": "Du meinst also, wenn ich ohne Schirm im Regen stehe, könnte ich nass werden? Faszinierend.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this line with a rich, sarcastic, and humorous tone, as if you're stating something incredibly obvious to a clueless person.",
+          "text": "Tatsächlich, die Sonne geht im Osten auf. Wer hätte das gedacht?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0019",
+      "meta_path": "hard/composite/complex_comp/static/gender_pitch_texture_emotion_personality",
+      "target_values": {
+        "gender": "female",
+        "pitch": "high",
+        "texture": "sweet",
+        "emotion": "happy",
+        "personality": "cheerful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Gender: female, Pitch: high, Texture: sweet, Emotion: happy, Personality: cheerful",
+          "text": "Die Blumenwiese erstreckt sich bis zum Horizont unter dem blauen Himmel.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Gender: female, Pitch: high, Texture: sweet, Emotion: happy, Personality: cheerful",
+          "text": "Der kleine Bach schlängelt sich friedlich durch den grünen Wald.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Gender: female, Pitch: high, Texture: sweet, Emotion: happy, Personality: cheerful",
+          "text": "Von diesem Hügel aus kann man die ganze Stadt und die Berge sehen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0020",
+      "meta_path": "hard/composite/complex_comp/static/age_gender_speed_emotion_tone",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "speed": "slow",
+        "emotion": "thoughtful",
+        "tone": "hesitant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Perform this as an elderly woman speaking slowly and hesitantly, as if she's trying hard to recall the details.",
+          "text": "Der Supermarkt schließt, glaube ich, um acht Uhr. Aber vielleicht ist es auch neun... Ich bin mir nicht mehr ganz sicher, es hat sich neulich geändert.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Adopt the voice of an elderly woman who is thoughtful and hesitant. She should speak slowly, choosing her words with care.",
+          "text": "Die Hauptstadt von Australien ist Canberra, soweit ich mich erinnere. Viele Leute denken, es sei Sydney, aber... ich bin ziemlich sicher, dass es Canberra ist.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Sound like an elderly woman who is thinking out loud. Speak slowly, with a thoughtful and hesitant tone.",
+          "text": "Das Rezept... ja, das habe ich irgendwo. Man braucht Mehl und Zucker, natürlich, und Eier... ich müsste nachsehen, wie viele es genau waren.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0021",
+      "meta_path": "hard/composite/complex_comp/static/gender_pitch_volume_emotion_tone",
+      "target_values": {
+        "gender": "male",
+        "pitch": "very_low",
+        "volume": "very_loud",
+        "emotion": "angry",
+        "tone": "defiant"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. As an angry man with a very low-pitched voice, shout this list defiantly.",
+          "text": "Wir brauchen Milch, Eier, Brot und Butter. Und vergiss den Käse nicht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction combines all attributes into a coherent persona. Text is a neutral grocery list."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I want you to sound like a man with a deep, booming voice, full of defiant anger.",
+          "text": "Auf der Liste stehen Kartoffeln, Zwiebeln, Äpfel, Mehl und Zucker.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses descriptive language ('deep, booming') to cue the target attributes. Text is neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this as a man shouting defiantly. Your voice should be very low and filled with rage.",
+          "text": "Ich sehe hier Tomaten, Salat, Öl, Essig und Gewürze. Das ist alles.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction clearly specifies the volume, tone, pitch, and emotion. Text is a neutral list of items."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__hard_composite_complex_comp_static__0022",
+      "meta_path": "hard/composite/complex_comp/static/personality_texture_speed_tone_volume",
+      "target_values": {
+        "personality": "aloof",
+        "texture": "nasal",
+        "speed": "normal",
+        "tone": "disdainful",
+        "volume": "normal"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Personality: aloof, Texture: nasal, Speed: normal, Tone: disdainful, Volume: normal",
+          "text": "Nun, ich muss zugeben, das ist überraschend gut gemacht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses strict tag format. Text is a backhanded compliment, which supports the disdainful tone."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Personality: aloof, Texture: nasal, Speed: normal, Tone: disdainful, Volume: normal",
+          "text": "Dein neues Outfit ist... akzeptabel, schätze ich.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses strict tag format. Text is a lexically positive but contextually dismissive statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Personality: aloof, Texture: nasal, Speed: normal, Tone: disdainful, Volume: normal",
+          "text": "Für deine Verhältnisse ist diese Arbeit nicht schlecht.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses strict tag format. Text is a condescending compliment, fitting the target tone."
+          }
+        }
+      ]
+    }
+  ]
+}

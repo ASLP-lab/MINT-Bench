@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/scenario",
+  "language": "ru",
+  "source_plan_file": "hard__composite__persona__scenario.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Read the text as if you are a television news presenter, with a formal and very clear enunciation.",
+      "text": "Министерство транспорта подтвердило планы по строительству новой скоростной магистрали. Проект должен значительно сократить время в пути между крупными городами региона.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Read this with a dramatic, emotional tone. Imagine you are reciting a classic poem, paying close attention to rhythm and cadence.",
+      "text": "Осенний лист, сорвавшись с ветки, кружил в последнем танце, прежде чем опуститься на мокрую землю, укрытую туманом.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Your voice should be a gentle whisper, full of warmth and kindness. You are telling a story to help someone fall asleep peacefully.",
+      "text": "Лунный свет пробивался сквозь густые ветви, рисуя на земле серебряные узоры. Медвежонок в своей берлоге сладко зевнул и закрыл глазки, слушая колыбельную ветра.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Narrate this text with a knowledgeable and calm voice, like you're the host of a historical documentary.",
+      "text": "В начале восемнадцатого века произошли коренные изменения в структуре общества. Новые торговые пути открыли возможности для экономического роста, что, в свою очередь, повлияло на политическую обстановку.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Perform this as a powerful public address. Project your voice and speak with unwavering belief in your words.",
+      "text": "Давайте не будем ждать, что кто-то другой решит наши проблемы. Мы сами — творцы своей судьбы, и только от нас зависит, каким будет наше завтра.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Narrate this text as if you're reading an engaging story. Your pace should be even and your tone should capture the mood of the scene.",
+      "text": "Комната была наполнена запахом старых книг и пыли. Солнечный луч, пробивавшийся сквозь щель в занавеске, освещал танцующие в воздухе пылинки, создавая ощущение застывшего времени.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Read this in the cheerful and clear style of a TV weather presenter.",
+      "text": "В ближайшие дни нас ожидает переменчивая погода. Солнечные периоды будут сменяться кратковременными дождями, а температура воздуха останется в пределах двадцати градусов тепла.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Say this with high energy and excitement, speaking quickly like a sports commentator during a crucial moment in a game.",
+      "text": "Он получает шайбу, обходит одного защитника, второго! Выходит один на один с вратарём! Бросок! Какое спасение!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Use a friendly, relaxed, and conversational tone, as if you are a morning radio host sharing a story with your listeners.",
+      "text": "И вот представьте, я захожу в кафе, а там сидит мой старый школьный друг, которого я не видел лет десять. Мы проговорили несколько часов, вспоминая всякие забавные истории.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this line with the formal, crisp, and authoritative tone of a professional news anchor presenting the evening headlines.",
+          "text": "Сегодня городские власти объявили о завершении реконструкции центрального парка. Торжественное открытие запланировано на ближайшую субботу.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use the voice of a news broadcaster: clear, serious, and with a steady pace.",
+          "text": "В результате ночного шторма несколько районов остались без электричества. Ремонтные бригады уже работают над устранением последствий.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Read the text as if you are a television news presenter, with a formal and very clear enunciation.",
+          "text": "Министерство транспорта подтвердило планы по строительству новой скоростной магистрали. Проект должен значительно сократить время в пути между крупными городами региона.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Recite the text with deep feeling and artistic pauses, as if you are performing a profound poem on stage.",
+          "text": "Серебристая луна омывала холодным светом уснувшие поля, и лишь ветер шептал что-то древнее в верхушках сосен.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Read this with a dramatic, emotional tone. Imagine you are reciting a classic poem, paying close attention to rhythm and cadence.",
+          "text": "Осенний лист, сорвавшись с ветки, кружил в последнем танце, прежде чем опуститься на мокрую землю, укрытую туманом.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Perform this piece with the soul of a poet, using a voice full of emotion and measured pauses to emphasize the imagery.",
+          "text": "Тишина опустилась на город, словно бархатное покрывало, и звёзды зажглись в бездонной глубине ночного неба.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Tell this story in a soft, soothing voice, as if you're trying to lull a child to sleep.",
+          "text": "Маленький зайчонок устроился поудобнее в своей норке, укрывшись тёплым одеялом из мха. Снаружи тихо падал снег, и старая сова ухала на ветке, охраняя лесные сны.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a very gentle and warm tone, like you are reading a bedtime story to a young child who is already getting sleepy.",
+          "text": "Все лесные зверюшки уже готовились ко сну. Белочка спрятала последний орешек, а ёжик свернулся в клубочек под корнями большого дерева. Скоро весь лес погрузится в тихий и глубокий сон.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your voice should be a gentle whisper, full of warmth and kindness. You are telling a story to help someone fall asleep peacefully.",
+          "text": "Лунный свет пробивался сквозь густые ветви, рисуя на земле серебряные узоры. Медвежонок в своей берлоге сладко зевнул и закрыл глазки, слушая колыбельную ветра.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Narrate this text with a knowledgeable and calm voice, like you're the host of a historical documentary.",
+          "text": "В начале восемнадцатого века произошли коренные изменения в структуре общества. Новые торговые пути открыли возможности для экономического роста, что, в свою очередь, повлияло на политическую обстановку.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your tone should be engaging yet informative, clear and slightly formal, suitable for narrating a documentary.",
+          "text": "Строительство великих пирамид требовало невероятной организации труда и точных инженерных расчётов. Тысячи рабочих трудились на протяжении десятилетий, чтобы возвести эти монументальные сооружения.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Adopt the persona of a documentary narrator: your voice should be measured, clear, and carry an air of authority on the subject.",
+          "text": "Распространение книгопечатания стало поворотным моментом в истории Европы. Знания стали доступны не только узкому кругу учёных, но и широким слоям населения, что ускорило культурное развитие.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver this line with passion and conviction, as if you are giving an inspirational speech to a large crowd.",
+          "text": "Вместе мы можем построить будущее, о котором мечтаем! Пусть наши общие цели станут маяком, ведущим нас вперёд, через любые трудности.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Speak as if you're a leader addressing a rally. Your voice should be strong, persuasive, and full of emotion to inspire the audience.",
+          "text": "Пришло время объединить наши усилия ради великой цели. Каждый из нас — это сила, но вместе мы — несокрушимая стена, способная изменить мир.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Perform this as a powerful public address. Project your voice and speak with unwavering belief in your words.",
+          "text": "Давайте не будем ждать, что кто-то другой решит наши проблемы. Мы сами — творцы своей судьбы, и только от нас зависит, каким будет наше завтра.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read this passage with the steady, clear voice of an audiobook narrator bringing a classic novel to life.",
+          "text": "Он стоял на вершине холма и смотрел на город, раскинувшийся внизу. Огни мерцали, как россыпь драгоценных камней, и в голове роились мысли о том, какой разной может быть жизнь за каждым из этих окон.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Narrate this text as if you're reading an engaging story. Your pace should be even and your tone should capture the mood of the scene.",
+          "text": "Комната была наполнена запахом старых книг и пыли. Солнечный луч, пробивавшийся сквозь щель в занавеске, освещал танцующие в воздухе пылинки, создавая ощущение застывшего времени.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Use an expressive yet controlled voice suitable for narrating a literary work. Engage the listener without overacting.",
+          "text": "Ей казалось, что все принятые ею решения вели именно к этому моменту. Каждое слово, каждый поступок были невидимыми нитями, сплетающими узор её судьбы, и теперь она видела его целиком.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read this in the cheerful and clear style of a TV weather presenter.",
+          "text": "В ближайшие дни нас ожидает переменчивая погода. Солнечные периоды будут сменяться кратковременными дождями, а температура воздуха останется в пределах двадцати градусов тепла.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use an upbeat, friendly, and informative tone, as if you're giving the weather forecast on television.",
+          "text": "Циклон, пришедший с запада, принесёт с собой похолодание и сильный ветер. Уже к вечеру вторника ожидается значительное понижение температуры, так что одевайтесь теплее.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Deliver this with a bright and clear voice, like a meteorologist explaining the forecast to the public.",
+          "text": "К выходным антициклон укрепит свои позиции, и мы можем рассчитывать на ясную и сухую погоду. Это прекрасное время для прогулок на свежем воздухе.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Say this with high energy and excitement, speaking quickly like a sports commentator during a crucial moment in a game.",
+          "text": "Он получает шайбу, обходит одного защитника, второго! Выходит один на один с вратарём! Бросок! Какое спасение!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Your voice should be loud, fast, and full of adrenaline, as if you're commentating a live hockey match.",
+          "text": "Остаются последние секунды! Идёт передача в центр, удар по воротам! Мяч летит прямо в девятку! Это невероятно!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Perform this with the rapid-fire, enthusiastic delivery of a live sports announcer describing the action as it happens.",
+          "text": "Какая скорость, он просто прорывается сквозь оборону! Ещё один финт, и вот он, решающий момент! Гол!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a friendly, relaxed, and conversational tone, as if you are a morning radio host sharing a story with your listeners.",
+          "text": "И вот представьте, я захожу в кафе, а там сидит мой старый школьный друг, которого я не видел лет десять. Мы проговорили несколько часов, вспоминая всякие забавные истории.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Adopt a warm and engaging persona, like a radio DJ talking casually to their audience.",
+          "text": "На днях я пытался приготовить новое блюдо по сложному рецепту. В итоге у меня получилась какая-то непонятная масса, но, как ни странно, было очень вкусно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Your delivery should be light-hearted and conversational, like you're telling a funny personal anecdote on the radio.",
+          "text": "Моя кошка научилась открывать холодильник. Теперь каждое утро начинается с ревизии и проверки, не пропало ли чего-нибудь вкусненького за ночь.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK."
+          }
+        }
+      ]
+    }
+  ]
+}

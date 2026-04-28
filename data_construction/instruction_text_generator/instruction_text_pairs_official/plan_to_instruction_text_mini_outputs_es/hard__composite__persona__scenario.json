@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/scenario",
+  "language": "es",
+  "source_plan_file": "hard__composite__persona__scenario.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Imagine you are a news presenter on television. Read the text with a clear, neutral, and professional tone.",
+      "text": "Los líderes de ambas naciones se reunirán la próxima semana para discutir los términos del nuevo acuerdo comercial.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Read this text in the style of a poetry recitation. Your voice should be expressive and thoughtful, with a deliberate, rhythmic pace.",
+      "text": "El eco de tu risa perdura en los pasillos vacíos de mi memoria.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Tell this as a bedtime story for a child. Your voice should be very soft, calming, and gentle to help them fall asleep.",
+      "text": "En un bosque encantado, vivía un pequeño conejo llamado Pipo que soñaba con tocar la luna, y todas las noches saltaba muy alto esperando alcanzarla.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Read this in the style of a documentary narrator. Your voice should sound knowledgeable and engaging, drawing the listener into the subject.",
+      "text": "El complejo ecosistema del arrecife de coral depende de un delicado equilibrio que ahora se ve amenazado por el aumento de las temperaturas oceánicas globales.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Spanish. Read this as though you are giving an important speech. Project your voice with power and use a persuasive, inspiring tone.",
+      "text": "No podemos permitir que el miedo nos paralice; debemos enfrentar los desafíos que tenemos por delante con coraje, determinación y una fe inquebrantable en nuestros principios.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Say this in the style of a friendly and upbeat radio host. Your tone should be warm, engaging, and conversational.",
+      "text": "¡Y estamos de vuelta! Espero que estén disfrutando de la mañana tanto como nosotros aquí en el estudio.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Spanish. Narrate this sentence as if you are reading an audiobook. Your voice should be clear and expressive, subtly conveying the mood of the text.",
+      "text": "La lluvia golpeaba suavemente contra los cristales de la ventana, mientras él observaba las calles vacías de la ciudad, iluminadas únicamente por el resplandor de los faroles.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Use an informative and friendly tone, as though you are presenting the forecast for the upcoming day.",
+      "text": "Las condiciones se mantendrán estables en el sur, con vientos ligeros del este y una mínima que descenderá hasta los doce grados por la noche.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Spanish. Read this with maximum excitement and a very fast pace, as if you're commentating on the final seconds of an important match.",
+      "text": "Solo quedan diez segundos en el reloj, tiene la posesión, busca el espacio, lanza desde lejos, ¡increíble!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this as a professional news anchor delivering a report. Your tone should be clear, authoritative, and neutral.",
+          "text": "Las autoridades locales han anunciado nuevas medidas de seguridad tras los recientes acontecimientos en el centro de la ciudad.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line in the style of a news broadcast. Your voice should be formal, clear, and carry a sense of authority.",
+          "text": "El informe económico publicado esta mañana revela un crecimiento inesperado en el sector tecnológico durante el último trimestre.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Imagine you are a news presenter on television. Read the text with a clear, neutral, and professional tone.",
+          "text": "Los líderes de ambas naciones se reunirán la próxima semana para discutir los términos del nuevo acuerdo comercial.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Recite this line as if it's from a poem. Use an emotional and rhythmic delivery, paying attention to pauses and emphasis.",
+          "text": "En el silencio de la noche, las estrellas susurran secretos antiguos al viento solitario.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this text in the style of a poetry recitation. Your voice should be expressive and thoughtful, with a deliberate, rhythmic pace.",
+          "text": "El eco de tu risa perdura en los pasillos vacíos de mi memoria.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Perform this line with the artistic feeling of a poet reading their work aloud. Emphasize the rhythm and the emotional weight of the words.",
+          "text": "Las olas rompen contra la orilla, borrando las huellas de un verano que ya no volverá.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Tell this as a bedtime story for a child. Your voice should be very soft, calming, and gentle to help them fall asleep.",
+          "text": "En un bosque encantado, vivía un pequeño conejo llamado Pipo que soñaba con tocar la luna, y todas las noches saltaba muy alto esperando alcanzarla.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this line in a very gentle and soothing voice, as if you were telling a bedtime story to a sleepy child.",
+          "text": "El hada de los sueños voló por la ventana, esparciendo polvo de estrellas sobre los párpados de los niños para que tuvieran dulces sueños.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Use a soft, comforting tone for this sentence. Imagine you are tucking a child into bed and telling them one last story for the night.",
+          "text": "El osito de peluche abrazó fuerte a la niña mientras la barca de sus sueños navegaba lentamente por un río de chocolate bajo un cielo de algodón de azúcar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Narrate this sentence as if it were for a documentary. Your tone should be serious, engaging, and thoughtful.",
+          "text": "Durante siglos, estas antiguas ruinas permanecieron ocultas bajo la densa vegetación de la selva, guardando los secretos de una civilización perdida en el tiempo.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this in the style of a documentary narrator. Your voice should sound knowledgeable and engaging, drawing the listener into the subject.",
+          "text": "El complejo ecosistema del arrecife de coral depende de un delicado equilibrio que ahora se ve amenazado por el aumento de las temperaturas oceánicas globales.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Deliver this line with a serious, thoughtful tone, like you're narrating a historical or scientific documentary.",
+          "text": "La invención de la imprenta no solo revolucionó la difusión del conocimiento, sino que también sentó las bases para profundos cambios sociales y políticos en toda Europa.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Deliver this line as part of a passionate public speech. Your voice should be powerful and clear, with conviction, as if speaking to a large audience.",
+          "text": "Ha llegado el momento de unirnos, de dejar de lado nuestras diferencias y de trabajar juntos por un futuro en el que cada ciudadano tenga la oportunidad de prosperar.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this as though you are giving an important speech. Project your voice with power and use a persuasive, inspiring tone.",
+          "text": "No podemos permitir que el miedo nos paralice; debemos enfrentar los desafíos que tenemos por delante con coraje, determinación y una fe inquebrantable en nuestros principios.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Imagine you are on a stage, addressing a crowd. Speak this line with the conviction and clear projection of a public speaker.",
+          "text": "Les pido hoy que se unan a esta causa, no por mí, sino por las generaciones venideras, para que hereden un mundo más justo, más libre y más esperanzador.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this in the style of a friendly and upbeat radio host. Your tone should be warm, engaging, and conversational.",
+          "text": "¡Y estamos de vuelta! Espero que estén disfrutando de la mañana tanto como nosotros aquí en el estudio.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this with a warm and conversational voice, as if you were hosting a radio show.",
+          "text": "A continuación, tenemos una canción que seguro les traerá muchos recuerdos a todos nuestros oyentes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Imagine you're a radio personality talking to your audience. Use an engaging, friendly, and upbeat tone.",
+          "text": "No se vayan a ninguna parte, porque después de la pausa hablaremos con un invitado muy especial que tenemos hoy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Narrate this sentence as if you are reading an audiobook. Your voice should be clear and expressive, subtly conveying the mood of the text.",
+          "text": "La lluvia golpeaba suavemente contra los cristales de la ventana, mientras él observaba las calles vacías de la ciudad, iluminadas únicamente por el resplandor de los faroles.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Read this line in the style of an audiobook narrator. Use your voice to express the atmosphere of the scene without overacting.",
+          "text": "El viejo castillo se alzaba en la colina, una silueta oscura y amenazante contra el cielo crepuscular, y un viento frío aullaba a través de sus torres rotas.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Perform this line as if you're narrating a story for an audiobook. Your delivery should be clear, well-paced, and emotionally resonant with the passage.",
+          "text": "Abrió la puerta con cuidado y entró en la biblioteca, donde el olor a cuero viejo y papel llenaba el aire y miles de historias esperaban en silencio en las estanterías.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Read this as if you are giving a weather forecast. Your delivery should be clear, pleasant, and informative.",
+          "text": "Para mañana en la zona norte, esperamos cielos mayormente despejados con temperaturas máximas que alcanzarán los veinticinco grados.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line in the style of a pleasant and clear weather report on the news.",
+          "text": "Durante el fin de semana, se pronostica un aumento de la nubosidad en la costa, con una probabilidad del cuarenta por ciento de chubascos aislados.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Use an informative and friendly tone, as though you are presenting the forecast for the upcoming day.",
+          "text": "Las condiciones se mantendrán estables en el sur, con vientos ligeros del este y una mínima que descenderá hasta los doce grados por la noche.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Spanish. Say this like an excited sports commentator during a crucial moment of a game. Your voice should be high-energy, fast-paced, and filled with excitement.",
+          "text": "Recibe el balón, avanza por la banda izquierda, esquiva a uno, a dos, ¡se acerca al área!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Spanish. Deliver this line with the high energy and rapid pace of a sports announcer calling a thrilling play.",
+          "text": "¡Ahí va el contraataque, es una carrera de tres contra dos, la pasa al centro, dispara y...!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Spanish. Read this with maximum excitement and a very fast pace, as if you're commentating on the final seconds of an important match.",
+          "text": "Solo quedan diez segundos en el reloj, tiene la posesión, busca el espacio, lanza desde lejos, ¡increíble!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/layered",
+  "language": "ko",
+  "source_plan_file": "hard__composite__complex_comp__layered.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Deliver this line with forced happiness. You have to tell someone something disappointing, so you're trying to soften the blow by sounding upbeat, but your sadness still comes through.",
+      "text": "회의에서 결정된 사항인데, 한번 들어봐.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is neutral and suitable for the context."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Deliver this with deadpan sarcasm. Your voice should be very calm and level, almost monotonous, which makes the sarcastic tone even more pointed.",
+      "text": "아, 정말 대단한 계획이네요. 성공할 수밖에 없겠어요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is superficially positive, perfect for sarcasm."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this as a very serious and stoic person who is attempting to tell a joke. The effort to be playful is clear, but the delivery is stiff, awkward, and completely misses the mark.",
+      "text": "왜냐면 그건... 재미있는 사실이기 때문입니다. 하하.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The stilted laugh is a good cue for awkwardness."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. The speaker is a leader trying to project strength and confidence. Their voice is firm, but they are secretly very worried, and this deep-seated anxiety should be barely perceptible in their delivery.",
+      "text": "우리가 가진 정보가 전부입니다. 이걸로도 충분히 상황을 통제할 수 있다고 확신합니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text expresses confidence while hinting at limited resources."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "worried",
+        "personality": "confident",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Perform this line as someone trying to act tough and unconcerned. Despite this cool exterior, a subtle hint of desperation and pleading should be audible in your voice.",
+      "text": "이거 하나만 도와주면 더는 귀찮게 안 할게.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The bargaining nature of the text suits the underlying desperation."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "pleading",
+        "tone_hidden": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Use a soft, kind voice, but make sure the underlying tone is complaining. It should sound like you're trying to be nice but can't quite hide your dissatisfaction.",
+      "text": "음식이 정말 독특하네요. 이런 맛은 처음 먹어봐요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The word 'unique' is a common euphemism for 'not good'."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Deliver this line as an angry outburst. But the anger is fueled by fear, so there should be an undercurrent of panic or a slight tremor in your voice.",
+      "text": "그거 만지지 마! 손대지 말라고 했잖아!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "A sharp, prohibitive command that works well with anger/fear."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "angry",
+        "emotion_hidden": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Say this in a gentle, teasing tone to a friend. The playfulness should be rooted in a warm, affectionate personality, so it sounds fond, not mean.",
+      "text": "어휴, 너 정말 못 말린다니까. 그래서 내가 널 좋아하나 봐.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text is a very clear example of affectionate teasing."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "warm",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Read this in a thoughtful, contemplative manner, as if pondering a deep idea. However, add a subtle undercurrent of smugness, suggesting you've already figured it out and are pleased with yourself.",
+      "text": "결국 모든 것은 단순한 원리로 귀결되는 법이지.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Text is a pseudo-profound statement fitting the smug/thoughtful persona."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "thoughtful",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Your voice should be gentle and indirect, wrapping a refusal in polite phrasing. Despite the soft delivery, your tone should convey an absolute, non-negotiable finality.",
+      "text": "그 문제에 대해서는 다양한 의견이 있을 수 있겠으나, 저희는 내부적으로 오랜 논의 끝에 이미 결정을 내린 상태입니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "The text politely states that the decision is already made and final."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "euphemistic",
+        "tone_hidden": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0001",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "happy",
+        "tone": "disappointed"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this as if you're trying to put on a brave face and sound cheerful while delivering some bad news. Your voice should sound happy on the surface, but with a clear undercurrent of disappointment.",
+          "text": "결과가 나왔는데, 우리가 예상했던 거랑은 조금 다르네.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is ambiguous, fits the layered emotion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this line with forced happiness. You have to tell someone something disappointing, so you're trying to soften the blow by sounding upbeat, but your sadness still comes through.",
+          "text": "회의에서 결정된 사항인데, 한번 들어봐.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is neutral and suitable for the context."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Your voice should carry a layer of manufactured cheerfulness over a base of genuine disappointment. You're trying to announce something as if it's fine, but it's really not.",
+          "text": "음, 결국 이렇게 하기로 했어. 이게 최선이라고 하네.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text implies a decision that might be disappointing."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0002",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "calm",
+        "tone": "sarcastic"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Deliver this with deadpan sarcasm. Your voice should be very calm and level, almost monotonous, which makes the sarcastic tone even more pointed.",
+          "text": "아, 정말 대단한 계획이네요. 성공할 수밖에 없겠어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is superficially positive, perfect for sarcasm."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Say this with a completely placid and calm demeanor, but let a dry, sarcastic tone color your words. The delivery should be understated.",
+          "text": "이게 당신이 생각해 낸 최선의 방법이라니, 정말 놀랍군요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a backhanded compliment suitable for sarcastic delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. The voice should be calm and collected, but the tone should be dripping with sarcasm. It's a very subtle, almost emotionless delivery that hides a sharp critique.",
+          "text": "당신의 의견은 언제나 그렇듯 아주 독창적이라 마음에 들어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is well-suited for a deadpan, sarcastic tone."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0003",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "serious",
+        "tone": "playful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this as a very serious and stoic person who is attempting to tell a joke. The effort to be playful is clear, but the delivery is stiff, awkward, and completely misses the mark.",
+          "text": "왜냐면 그건... 재미있는 사실이기 때문입니다. 하하.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The stilted laugh is a good cue for awkwardness."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. You are a naturally serious individual trying your best to be lighthearted and playful. Your tone should be forced and wooden, making the attempt at humor fall flat.",
+          "text": "제가 방금 농담을 한 겁니다. 이제 웃으시면 됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text itself describes the failed attempt at humor."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. The speaker is trying to be funny and engaging, but their serious personality makes the delivery sound stilted and unnatural. The playfulness is an obvious, but failed, attempt.",
+          "text": "자, 다들 주목. 제가 아주 재미있는 이야기를 해드리겠습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The formal setup for a joke highlights the serious personality."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0004",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "worried",
+        "personality": "confident",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Deliver this line with a confident and firm tone, as if you're reassuring your team. However, beneath the surface of confidence, there should be a subtle tremor or hint of worry in your voice that you're trying to suppress.",
+          "text": "계획은 변경되지 않았습니다. 모두들 제 지시를 따르면 아무 문제 없을 겁니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a firm, reassuring statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. The speaker is a leader trying to project strength and confidence. Their voice is firm, but they are secretly very worried, and this deep-seated anxiety should be barely perceptible in their delivery.",
+          "text": "우리가 가진 정보가 전부입니다. 이걸로도 충분히 상황을 통제할 수 있다고 확신합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text expresses confidence while hinting at limited resources."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speak with a resolute and confident voice to calm everyone down. Despite your best efforts, a slight strain in your voice reveals your true, worried state of mind.",
+          "text": "걱정할 필요 없어. 내가 모든 가능성을 다 고려해 뒀으니까, 그냥 날 믿으면 돼.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The explicit reassurance provides a good contrast for hidden worry."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0005",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "pleading",
+        "tone_hidden": "indifferent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this with a cool, indifferent facade, as if you don't really care what the answer is. But underneath that casualness, your voice should betray a desperate, pleading quality.",
+          "text": "혹시 시간 있으면, 잠깐만 같이 가줄 수 있어?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a very casual and simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your delivery should sound nonchalant on the surface. However, the performance should have an undercurrent of urgent pleading, revealing that you actually care a great deal.",
+          "text": "네가 하고 싶으면 하고, 아니면 말아. 난 상관없어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text explicitly states indifference, creating a strong contrast."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Perform this line as someone trying to act tough and unconcerned. Despite this cool exterior, a subtle hint of desperation and pleading should be audible in your voice.",
+          "text": "이거 하나만 도와주면 더는 귀찮게 안 할게.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The bargaining nature of the text suits the underlying desperation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0006",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "gentle",
+        "tone": "complaining"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Your voice should sound sweet, gentle, and polite. However, underneath the pleasantries, your tone should carry a clear, passive-aggressive complaint.",
+          "text": "아, 여기 있었구나. 한참 찾았네. 괜찮아, 내가 좀 더 일찍 와볼걸 그랬어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Perfect example of passive-aggressive text."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Adopt a very gentle personality for this line. But deliver it with an undercurrent of disapproval, so it comes across as a polite but pointed complaint.",
+          "text": "새로 산 셔츠 예쁘다. 지난번 거랑 디자인이 거의 똑같네.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A classic backhanded compliment."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Use a soft, kind voice, but make sure the underlying tone is complaining. It should sound like you're trying to be nice but can't quite hide your dissatisfaction.",
+          "text": "음식이 정말 독특하네요. 이런 맛은 처음 먹어봐요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The word 'unique' is a common euphemism for 'not good'."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0007",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "angry",
+        "emotion_hidden": "fearful"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Shout this command angrily. This anger is a mask for deep fear, so your voice should be shaky or breathless, betraying the terror you're trying to cover up.",
+          "text": "저리 가! 내 눈앞에서 당장 사라져!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Classic angry command."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this line as an angry outburst. But the anger is fueled by fear, so there should be an undercurrent of panic or a slight tremor in your voice.",
+          "text": "그거 만지지 마! 손대지 말라고 했잖아!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A sharp, prohibitive command that works well with anger/fear."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Your voice should be loud and angry, but it's a defensive reaction because you're terrified. Let a hint of that fear—a crack or a bit of breathlessness—come through the anger.",
+          "text": "나한테서 떨어져! 더 이상 가까이 오지 마!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Directly expresses the desire for distance, common in fearful situations."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0008",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "personality": "warm",
+        "tone": "teasing"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Say this in a gentle, teasing tone to a friend. The playfulness should be rooted in a warm, affectionate personality, so it sounds fond, not mean.",
+          "text": "어휴, 너 정말 못 말린다니까. 그래서 내가 널 좋아하나 봐.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text is a very clear example of affectionate teasing."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Deliver this with a playful, teasing lilt. Underneath the teasing, your voice should convey warmth and affection for the person you're speaking to.",
+          "text": "또 그런 옷을 입었네. 너의 패션 감각은 정말 아무도 못 따라가겠다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Ambiguous compliment about fashion, a common teasing topic."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. The tone should be light and teasing, but the overall feeling should be one of warmth and fondness. You're poking fun at someone you care about.",
+          "text": "네가 요리한 건... 음, 아주 건강한 맛이 나. 정말이야.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A classic teasing remark about a friend's cooking."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0009",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "emotion": "thoughtful",
+        "tone": "smug"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Read this in a thoughtful, contemplative manner, as if pondering a deep idea. However, add a subtle undercurrent of smugness, suggesting you've already figured it out and are pleased with yourself.",
+          "text": "결국 모든 것은 단순한 원리로 귀결되는 법이지.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text is a pseudo-profound statement fitting the smug/thoughtful persona."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your delivery should seem pensive and reflective on the surface. But underneath, the tone should be slightly self-satisfied and smug, as if you're admiring your own intellect.",
+          "text": "보통 사람들은 이런 것까지는 생각하지 못하더군.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Text explicitly suggests intellectual superiority."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Speak as if you're musing on a complex topic. Your pace should be thoughtful, but there should be a hint of a self-satisfied smile in your voice, a smugness that says 'I knew it all along.'",
+          "text": "흥미로운 관점이긴 한데, 핵심을 놓치고 있는 것 같아.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "A classic way to sound thoughtful while being dismissive and smug."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_layered__0010",
+      "meta_path": "hard/composite/complex_comp/layered",
+      "target_values": {
+        "tone": "euphemistic",
+        "tone_hidden": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Deliver this difficult message using very soft, polite, and euphemistic language. However, your underlying tone must be completely firm and unyielding, leaving no room for negotiation.",
+          "text": "저희도 귀하의 제안을 긍정적으로 검토하였으나, 현재 저희가 추구하는 방향과는 다소 차이가 있어 이번에는 함께하기 어려울 것 같습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Classic example of polite but firm corporate rejection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Your voice should be gentle and indirect, wrapping a refusal in polite phrasing. Despite the soft delivery, your tone should convey an absolute, non-negotiable finality.",
+          "text": "그 문제에 대해서는 다양한 의견이 있을 수 있겠으나, 저희는 내부적으로 오랜 논의 끝에 이미 결정을 내린 상태입니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "The text politely states that the decision is already made and final."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Use a euphemistic and considerate tone, as if you're trying to spare the listener's feelings. But make it clear through a firm undertone that the decision is final and unchangeable.",
+          "text": "다시 한번 생각해 볼 기회를 주셔서 감사하지만, 저희의 입장은 변함이 없을 것임을 미리 말씀드립니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "This text is very direct about the finality while maintaining a polite frame."
+          }
+        }
+      ]
+    }
+  ]
+}

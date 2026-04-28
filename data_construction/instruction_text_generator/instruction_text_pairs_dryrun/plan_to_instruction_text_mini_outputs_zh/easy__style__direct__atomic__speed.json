@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/speed",
+  "language": "zh",
+  "source_plan_file": "easy__style__direct__atomic__speed.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "请用很急促的语速念出来，好像有什么急事一样。",
+      "text": "各位乘客请注意，列车即将到站，请提前做好下车准备，不要遗漏个人物品。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction suggests urgency for a very fast pace."
+      },
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用很急促的语速念出来，好像有什么急事一样。",
+          "text": "各位乘客请注意，列车即将到站，请提前做好下车准备，不要遗漏个人物品。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction suggests urgency for a very fast pace."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "语速要非常快，有一种赶时间的感觉，把话说得密不透风。",
+          "text": "今天的会议内容很多，我们必须在十一点之前结束，所以现在我们直接开始第一个议题。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction suggests a packed, rushed delivery."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "用连珠炮似的语速说出这句话，不要有任何停顿。",
+          "text": "紧急通知，由于天气原因，原定于下午的户外活动取消，请所有人员留在室内。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a 'machine-gun-like' metaphor for speed."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用比平时说话稍快的语速来读这段文字。",
+          "text": "这个方案的优点在于它充分考虑了市场现有的各种可能性，并为每一种情况都设计了应对策略。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple, direct request for a slightly faster pace."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "说得轻快一些，让整体听起来更有活力。",
+          "text": "细胞是构成生命的基本单位，所有生物体都是由一个或多个细胞组成的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Links a faster pace to a lively feeling."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "请加快一点语速，但不要显得匆忙。",
+          "text": "我们今天的讨论主要围绕三个核心问题展开，分别是成本控制、市场拓展和人员配置。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Specifies a faster pace while cautioning against being rushed."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请放慢语速，一字一句地读，让每个词都很有分量。",
+          "text": "回想起那些过往的岁月，才明白原来最珍贵的，是那些平淡无奇的日常。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Connects slow pace with adding weight to words."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用比较舒缓的语速来念，营造一种深思的感觉。",
+          "text": "有时候，我们需要的不是答案，而是面对问题时内心的那份平静。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Links a relaxed, slow pace to a contemplative mood."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "说得慢一点，好像在仔细斟酌每一个字，为了让听众听得更清楚。",
+          "text": "历史告诉我们，任何伟大的变革都不是一蹴而就的，需要几代人的共同努力。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Connects a slow pace with the goal of clarity."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用非常非常慢的语速说，把每个字都拉长一点读出来。",
+          "text": "光在真空中的传播速度是恒定的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Simple instruction for an extremely slow, drawn-out pace."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "拖长声音，一个字一个字地慢慢念，确保听众能听清每一个音节。",
+          "text": "这是一个重要的基本概念。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Emphasizes syllabic clarity for a very slow pace."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "像教小孩子识字一样，把每个字都读得特别慢、特别清晰。",
+          "text": "这个实验结果证明了假设。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Uses an analogy to prompt a very slow, clear delivery."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "es",
+  "generation_summary": {
+    "num_items": 11,
+    "domain": "composite",
+    "difficulty": "hard",
+    "notes": "Planning items with dynamic progression in one or more attributes over the course of the utterance. All items use direct instructions and long text to accommodate the changes. The language is Spanish, so instructions must be in English and cue the target language."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "progression: slow -> normal -> fast"
+      },
+      "aux_values": {},
+      "text_semantic": "explaining a process",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should naturally support a gradual increase in speaking speed, like building up to a conclusion.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to start slowly, then gradually speed up to a fast pace by the end.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "volume",
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "volume": "progression: quiet -> loud",
+        "emotion": "progression: worried -> angry"
+      },
+      "aux_values": {},
+      "text_semantic": "recounting a frustrating event",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The semantic content should not explicitly mention worry or anger.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to begin in a quiet, worried manner, but build in volume and anger as they speak.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "pitch"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "pitch": "progression: very_high -> high -> normal"
+      },
+      "aux_values": {},
+      "text_semantic": "calming someone down",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should be a reassuring message.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to start with a very high pitch as if panicked or overly excited, then gradually lower it to a normal, calm pitch.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "progression: neutral -> surprised -> happy"
+      },
+      "aux_values": {},
+      "text_semantic": "reading a message or letter",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should describe a series of events that can be interpreted with the target emotional progression.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to begin reading in a neutral voice, then sound surprised, and finally end up happy by the conclusion.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "progression: hesitant -> firm"
+      },
+      "aux_values": {},
+      "text_semantic": "announcing a decision",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The content should be about making a choice, without using words like 'hesitate' or 'decide'.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to begin with a hesitant tone, as if unsure, but become firm and confident by the end of the sentence.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "progression: very_slow -> normal",
+        "volume": "progression: very_quiet -> normal"
+      },
+      "aux_values": {},
+      "text_semantic": "a short reflection",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should be a thoughtful or philosophical statement.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to start very slowly and quietly, as if thinking aloud, then transition to a normal pace and volume as their thought becomes clear.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "pitch"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "progression: sad -> thoughtful",
+        "pitch": "progression: low -> normal"
+      },
+      "aux_values": {},
+      "text_semantic": "remembering a past event",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should be about a memory, without explicitly labeling the emotions involved.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to start with a sad, low-pitched voice, then shift to a more thoughtful, normal-pitched delivery.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone",
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "progression: pleading -> defiant",
+        "speed": "progression: slow -> fast"
+      },
+      "aux_values": {},
+      "text_semantic": "making an argument",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should be a statement of personal conviction.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to begin with a slow, pleading tone, but then shift to a faster, defiant one.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "progression: happy -> worried -> fearful",
+        "volume": "progression: normal -> quiet -> very_quiet"
+      },
+      "aux_values": {},
+      "text_semantic": "narrating a suspenseful story",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text must describe a scene that starts pleasant but becomes increasingly ominous.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct a three-stage progression: start happy at a normal volume, then become worried and quieter, and end fearful in a very quiet voice.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "speed",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "progression: thoughtful -> angry -> sad",
+        "speed": "progression: slow -> very_fast -> slow",
+        "volume": "progression: quiet -> very_loud -> quiet"
+      },
+      "aux_values": {},
+      "text_semantic": "a dramatic monologue",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should be a single, continuous monologue that allows for a complex emotional arc.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Describe a complex progression: begin slow, quiet and thoughtful; build to a very fast, very loud, angry peak; and then fall into a slow, quiet, sad state.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__es__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "oscillating: sarcastic <-> complaining"
+      },
+      "aux_values": {},
+      "text_semantic": "reacting to an inconvenience",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be in Spanish.",
+        "The text should describe a series of minor annoyances.",
+        "final text must be written in Spanish",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Spanish.'",
+        "Instruct the speaker to alternate between a sarcastic tone and a complaining tone throughout the utterance.",
+        "final instruction must be in English and should begin with 'Speak in Spanish.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": true,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

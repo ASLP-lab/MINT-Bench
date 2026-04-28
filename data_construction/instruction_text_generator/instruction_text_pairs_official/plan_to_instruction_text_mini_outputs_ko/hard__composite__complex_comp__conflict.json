@@ -1,0 +1,681 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/conflict",
+  "language": "ko",
+  "source_plan_file": "hard__composite__complex_comp__conflict.json",
+  "num_input_items": 10,
+  "num_output_items": 10,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Can you portray a female speaker who is deeply sad but is trying to mask it with a playful, lighthearted tone? Her voice should have an undercurrent of sorrow, even as she tries to sound cheerful.",
+      "text": "오늘 날씨 정말 좋네, 우리 어디라도 갈까?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between sadness and a playful tone. Text is a neutral, casual statement."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "playful",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Can you generate the voice of a male child speaking with a slow, firm tone that's not typical for his age? He sounds like he's trying to be a stern authority figure.",
+      "text": "이쪽으로 와서, 조용히 앉아 있도록 해.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes a child speaking in an uncharacteristically adult manner. Text is a simple command."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "tone": "firm",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Korean. Could you perform this as a reserved and shy person who has to make a happy announcement loudly? Their voice should convey happiness, but with a slight awkwardness from being loud.",
+      "text": "여러분, 저희 팀이 이번 대회에서 우승했습니다!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between a reserved personality and a loud, happy delivery. Text is a positive announcement."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "emotion": "happy",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Can you generate a worried voice that speaks at a very fast speed, but with a hesitant delivery? It's a conflict between the urgency to speak and the uncertainty of what to say.",
+      "text": "서류를 분명히 책상 위에 뒀는데, 지금은 어디에도 보이지가 않아요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between fast speed and a hesitant tone. Text is a neutral explanation."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_fast",
+        "tone": "hesitant",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I need a quiet, sarcastic delivery that is dripping with anger. The character is controlling their rage and channeling it into cold, sharp words.",
+      "text": "네가 한 일에 대해서 정말, 정말 자랑스러워.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes quiet, sarcastic anger. Text is a phrase that can be delivered sarcastically."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "sarcastic",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. Please render this in the voice of an older woman who speaks with a surprisingly flirtatious and charming manner. Her tone should be light and coquettish.",
+      "text": "시간 괜찮으면, 나랑 차 한잔 하지 않겠어요?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the unexpected coquettish tone for an elderly woman. Text is a simple request."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Korean. Portray a male character with a deep voice who is urgently pleading for something. The delivery should be fast and sound desperate.",
+      "text": "이것만은 제발 들어주세요. 다른 건 아무것도 바라지 않아요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between a deep voice and a fast, pleading tone. Text expresses a plea."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "texture": "deep",
+        "gender": "male",
+        "tone": "pleading",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I want a voice that is trying to maintain a brave face but is failing. This person is normally upbeat, but the sad news they have to share is making their voice hesitant and sorrowful.",
+      "text": "다들 아끼던 우리 동네 서점이 다음 달을 마지막으로 문을 닫게 되었다고 합니다. 정말 아쉬운 일이에요.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between a lively personality and a sad, hesitant delivery. Text is a notice of bad news."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "lively",
+        "tone": "hesitant",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. The speaker is furious. Instead of shouting, they are delivering the line very quietly and slowly, with an unshakeable, firm tone. The anger is palpable beneath the surface.",
+      "text": "시계는 지금 정확히 세 시를 가리키고 있어.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes cold, controlled rage. Text is a factual statement that can be delivered with menace."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "slow",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Korean. I need a confident, male voice. The catch is that his pitch is very high, which might typically sound youthful or unauthoritative, but his delivery should be anything but. He is completely self-assured.",
+      "text": "우리가 제안하는 새로운 전략은 시장 점유율을 확대하고 장기적인 성장을 보장하는 것을 핵심 목표로 삼고 있습니다.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the conflict between a high-pitched voice and a confident personality. Text is formal and presentational."
+      },
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "very_high",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0001",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "sad",
+        "tone": "playful",
+        "gender": "female"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Can you portray a female speaker who is deeply sad but is trying to mask it with a playful, lighthearted tone? Her voice should have an undercurrent of sorrow, even as she tries to sound cheerful.",
+          "text": "오늘 날씨 정말 좋네, 우리 어디라도 갈까?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between sadness and a playful tone. Text is a neutral, casual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I need a female voice that sounds playful on the surface, but if you listen closely, you can hear she's actually very sad. She's putting on a brave face.",
+          "text": "이거 봐, 내가 새로 산 옷인데 어때? 예쁘지?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between sadness and a playful tone. Text is a neutral, casual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Give me a female voice that is trying to be playful and fun, but is failing to completely hide her underlying sadness. The delivery should feel a bit forced.",
+          "text": "걱정 마, 나는 정말 괜찮아. 그냥 좀 피곤해서 그래.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between sadness and a playful tone. Text is a neutral, casual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0002",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "child",
+        "gender": "male",
+        "tone": "firm",
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I'd like the voice of a little boy who is trying to be very serious and adult-like. He should speak slowly and with a firm, commanding tone, as if he's imitating his father.",
+          "text": "거기 있는 물건, 만지지 말고 가만히 둬.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a child speaking in an uncharacteristically adult manner. Text is a simple command."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Imagine a young boy playing a game where he is the boss. He needs to speak slowly and firmly, giving an order with uncharacteristic seriousness for his age.",
+          "text": "지금부터 내 말만 듣는 거야. 알겠지?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a child speaking in an uncharacteristically adult manner. Text is a simple command."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Can you generate the voice of a male child speaking with a slow, firm tone that's not typical for his age? He sounds like he's trying to be a stern authority figure.",
+          "text": "이쪽으로 와서, 조용히 앉아 있도록 해.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes a child speaking in an uncharacteristically adult manner. Text is a simple command."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0003",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "reserved",
+        "emotion": "happy",
+        "volume": "loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. Could you perform this as a reserved and shy person who has to make a happy announcement loudly? Their voice should convey happiness, but with a slight awkwardness from being loud.",
+          "text": "여러분, 저희 팀이 이번 대회에서 우승했습니다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a reserved personality and a loud, happy delivery. Text is a positive announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. The speaker is naturally quiet and reserved, but they've been asked to share some great news with a group. They need to sound loud and happy, even though it's out of their comfort zone.",
+          "text": "제가 이번에 장학금을 받게 되었다는 소식을 전해드립니다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a reserved personality and a loud, happy delivery. Text is a positive announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. I need a voice that is both loud and happy, but delivered by someone who seems shy. There's a conflict between their reserved personality and the loud, cheerful delivery they're attempting.",
+          "text": "오늘 제 생일 파티에 와주셔서 정말 감사합니다!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a reserved personality and a loud, happy delivery. Text is a positive announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0004",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "speed": "very_fast",
+        "tone": "hesitant",
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. The speaker is very worried and trying to explain a situation quickly. However, despite their rush, their tone is hesitant, with slight pauses, as if they're unsure how to say it.",
+          "text": "제가 문을 잠갔다고 생각했는데, 다시 확인해 보니까 열려 있었어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between fast speed and a hesitant tone. Text is a neutral explanation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I need a delivery that is very fast-paced due to worry, but at the same time, the tone should be hesitant. The person is rushing their words but still stumbling over them.",
+          "text": "그 사람이 이쪽으로 온다고 했는데, 아직까지 아무런 연락이 없어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between fast speed and a hesitant tone. Text is a neutral explanation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Can you generate a worried voice that speaks at a very fast speed, but with a hesitant delivery? It's a conflict between the urgency to speak and the uncertainty of what to say.",
+          "text": "서류를 분명히 책상 위에 뒀는데, 지금은 어디에도 보이지가 않아요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between fast speed and a hesitant tone. Text is a neutral explanation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0005",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "tone": "sarcastic",
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. The speaker is seething with anger, but instead of yelling, they're being very quiet and sarcastic. The tone should be sharp and biting despite the low volume.",
+          "text": "아, 정말 대단한 생각이네. 어떻게 그런 생각을 다 했어?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes quiet, sarcastic anger. Text is a phrase that can be delivered sarcastically."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I need a quiet, sarcastic delivery that is dripping with anger. The character is controlling their rage and channeling it into cold, sharp words.",
+          "text": "네가 한 일에 대해서 정말, 정말 자랑스러워.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes quiet, sarcastic anger. Text is a phrase that can be delivered sarcastically."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Portray a character who is furious but is speaking very quietly. Their anger comes through in a heavily sarcastic tone.",
+          "text": "걱정해줘서 정말 고마워. 덕분에 기분이 훨씬 나아졌어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes quiet, sarcastic anger. Text is a phrase that can be delivered sarcastically."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0006",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "elderly",
+        "gender": "female",
+        "tone": "coquettish"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I'm looking for the voice of an elderly woman, but she has a very coquettish and playful tone that one wouldn't typically expect. Her delivery should be a bit flirtatious.",
+          "text": "혹시 저기 선반 위에 있는 것 좀 꺼내줄 수 있을까요, 총각?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the unexpected coquettish tone for an elderly woman. Text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. Please render this in the voice of an older woman who speaks with a surprisingly flirtatious and charming manner. Her tone should be light and coquettish.",
+          "text": "시간 괜찮으면, 나랑 차 한잔 하지 않겠어요?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the unexpected coquettish tone for an elderly woman. Text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. The character is an elderly female, but she speaks with a coquettish, almost teasing tone. It's a surprising and playful combination.",
+          "text": "이 무거운 짐 좀 들어주면 정말 고마울 텐데.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the unexpected coquettish tone for an elderly woman. Text is a simple request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0007",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "texture": "deep",
+        "gender": "male",
+        "tone": "pleading",
+        "speed": "fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I need a deep male voice delivering this line. The tone should be pleading and desperate, and he should speak quickly, as if he's running out of time.",
+          "text": "제발, 한 번만 더 기회를 주세요. 제가 다 설명할 수 있어요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a deep voice and a fast, pleading tone. Text expresses a plea."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. The speaker is a man with a naturally deep voice. However, he is speaking fast and with a pleading tone, which contrasts with the usual authority of a deep voice.",
+          "text": "제가 정말 잘못했어요. 다시는 그런 일 없을 거라고 약속할게요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a deep voice and a fast, pleading tone. Text expresses remorse."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Portray a male character with a deep voice who is urgently pleading for something. The delivery should be fast and sound desperate.",
+          "text": "이것만은 제발 들어주세요. 다른 건 아무것도 바라지 않아요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a deep voice and a fast, pleading tone. Text expresses a plea."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0008",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "personality": "lively",
+        "tone": "hesitant",
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. The speaker is usually a very lively and cheerful person. But now they have to deliver some sad news, so their voice is hesitant and filled with sadness, which is very out of character for them.",
+          "text": "음... 모두에게 안 좋은 소식을 전하게 되어 유감입니다. 이번 프로젝트는 예산 문제로 전면 중단되었습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a lively personality and a sad, hesitant delivery. Text is a notice of bad news."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I want a voice that is trying to maintain a brave face but is failing. This person is normally upbeat, but the sad news they have to share is making their voice hesitant and sorrowful.",
+          "text": "다들 아끼던 우리 동네 서점이 다음 달을 마지막으로 문을 닫게 되었다고 합니다. 정말 아쉬운 일이에요.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a lively personality and a sad, hesitant delivery. Text is a notice of bad news."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Imagine a character who is known for being energetic and positive. Now, render their voice as they reluctantly inform others of a disappointing outcome, making them sound sad and hesitant.",
+          "text": "오늘 예정되었던 야유회는 갑작스러운 폭우 예보 때문에 어쩔 수 없이 취소하게 되었습니다. 모두 기대가 컸을 텐데 죄송합니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a lively personality and a sad, hesitant delivery. Text is a notice of bad news."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0009",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "emotion": "angry",
+        "volume": "very_quiet",
+        "speed": "slow",
+        "tone": "firm"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. I want a performance of someone who is incandescent with rage, but is showing it by becoming very quiet, slow, and firm. It's a cold, controlled anger.",
+          "text": "네가 어제 그 자리에 있었다는 거, 나는 알고 있어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes cold, controlled rage. Text is a factual statement that can be delivered with menace."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. The speaker is furious. Instead of shouting, they are delivering the line very quietly and slowly, with an unshakeable, firm tone. The anger is palpable beneath the surface.",
+          "text": "시계는 지금 정확히 세 시를 가리키고 있어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes cold, controlled rage. Text is a factual statement that can be delivered with menace."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Can you render a voice filled with anger, but expressed with extreme control? The volume should be very quiet, the pace slow, and the tone firm and unwavering.",
+          "text": "이 방에는 우리 둘 말고는 아무도 없어.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes cold, controlled rage. Text is a factual statement that can be delivered with menace."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ko__hard_composite_complex_comp_conflict__0010",
+      "meta_path": "hard/composite/complex_comp/conflict",
+      "target_values": {
+        "age": "adult",
+        "gender": "male",
+        "pitch": "very_high",
+        "personality": "confident"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Korean. The speaker is an adult male with a naturally very high-pitched voice. Despite his high pitch, he should sound completely confident and authoritative, as if he's giving a lecture.",
+          "text": "이 그래프에서 보시다시피, 지난 분기 대비 매출이 약 십오 퍼센트 상승한 것을 명확히 확인할 수 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a high-pitched voice and a confident personality. Text is formal and presentational."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Korean. I need a confident, male voice. The catch is that his pitch is very high, which might typically sound youthful or unauthoritative, but his delivery should be anything but. He is completely self-assured.",
+          "text": "우리가 제안하는 새로운 전략은 시장 점유율을 확대하고 장기적인 성장을 보장하는 것을 핵심 목표로 삼고 있습니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a high-pitched voice and a confident personality. Text is formal and presentational."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Korean. Portray an adult man who speaks with great confidence and clarity. His voice, however, is in a very high register. The contrast is between the high pitch and the confident personality.",
+          "text": "본 연구의 결과는 기존의 학설을 뒤집는 중요한 증거를 제시하며, 향후 관련 분야의 연구에 큰 영향을 미칠 것으로 기대됩니다.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the conflict between a high-pitched voice and a confident personality. Text is formal and presentational."
+          }
+        }
+      ]
+    }
+  ]
+}

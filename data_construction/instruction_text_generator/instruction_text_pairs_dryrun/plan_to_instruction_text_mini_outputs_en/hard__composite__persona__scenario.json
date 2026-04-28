@@ -1,0 +1,427 @@
+{
+  "taxonomy_node": "hard/composite/persona/scenario",
+  "language": "en",
+  "source_plan_file": "hard__composite__persona__scenario.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak this as if you are a professional news anchor delivering a segment. Your voice should be formal, clear, and carry a sense of authority.",
+      "text": "Officials have confirmed that the new policy will take effect at the beginning of next month, impacting several key industries across the region.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0001",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "news_broadcast"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this as if you are a professional news anchor delivering a segment. Your voice should be formal, clear, and carry a sense of authority.",
+          "text": "Officials have confirmed that the new policy will take effect at the beginning of next month, impacting several key industries across the region.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a news broadcaster. Deliver the line with a crisp, authoritative, and impartial tone.",
+          "text": "The international summit concluded this afternoon with delegates reaching a preliminary agreement on trade regulations. Further details are expected to be released shortly.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read the text in the style of a television news anchor presenting a story. Keep your delivery clear, professional, and confident.",
+          "text": "A recent study published by the Global Institute for Environmental Research highlights a significant shift in migration patterns for several coastal bird species.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0002",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "poetry_recitation"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Recite this text as though it were a piece of poetry. Pay close attention to the rhythm of the words, use meaningful pauses, and create a reflective, artistic mood.",
+          "text": "The afternoon light slanted through the old window, illuminating the dust motes as they danced in the still air of the forgotten room.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Please read this prose passage with the cadence and gravity of a poem. Your delivery should be measured and thoughtful, emphasizing the imagery in the text.",
+          "text": "Below the cliffs, the sea churned, a constant motion of gray and white against the dark, unyielding rock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this sentence with a poetic quality. Use your voice to shape the phrases, focusing on cadence and flow as if you are performing a spoken-word piece.",
+          "text": "A single path wound its way through the silent forest, covered in a soft blanket of fallen leaves from a hundred autumns.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0003",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "bedtime_story"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in a soft, warm voice, as if you are telling a comforting story to a child just before they go to sleep.",
+          "text": "The little bear found a patch of soft moss under the big oak tree. He curled up in a tiny ball, feeling safe and warm as the wind whispered gently through the leaves above him.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Use a very gentle and soothing tone for this line. Imagine you are reading a favorite story to a young child, making your voice as calm and reassuring as possible.",
+          "text": "The fireflies began to appear one by one, their little lights blinking on and off, creating a magical glow in the garden as evening settled over the world.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your delivery should be quiet and comforting, like you're telling a story at the end of the day. Keep the pace slow and your voice soft.",
+          "text": "Far away, the moon cast a silvery light across the quiet fields, and all the little field mice were tucked away, cozy in their homes beneath the roots of the old willow.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0004",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "documentary_narration"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Narrate this text in the style of a documentary. Your voice should be clear, engaging, and thoughtful, conveying information in a compelling way.",
+          "text": "For centuries, this vast mountain range has shaped the flow of rivers and the lives of the civilizations that arose in its shadow, a silent witness to history.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this line as if you are the narrator of a serious nature or history program. Use a measured, intelligent tone to draw the listener in.",
+          "text": "The intricate process of photosynthesis converts sunlight into energy, forming the fundamental basis for nearly all life on the surface of our planet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a documentary narrator. Your delivery should be informative and authoritative, but also carry a sense of wonder and curiosity about the subject.",
+          "text": "Within this complex ecosystem, every species plays a crucial role, from the smallest insect to the largest predator, each connected in a delicate web of interdependence.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0005",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "public_speech"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this line as if you are giving a powerful and inspiring speech to a large crowd. Your voice should be confident, persuasive, and full of conviction.",
+          "text": "It is in moments of great challenge that we discover our true strength, and together, we have the capacity to build a future brighter than anyone can imagine.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this as though you are at a podium, addressing an important gathering. Project your voice with authority and passion to move your audience.",
+          "text": "Let us not be defined by the obstacles we face, but by the courage with which we overcome them and the unity we forge in the pursuit of a common goal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak these words with the energy and gravitas of a public figure making a keynote address. The tone should be motivational, clear, and resonant.",
+          "text": "The path forward will not be easy, but by working hand in hand, with shared purpose and unwavering resolve, there is nothing we cannot achieve for the generations to come.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0006",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "radio_hosting"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a friendly, engaging tone, like a radio host chatting during a morning show. Keep it light and conversational.",
+          "text": "And just like that, the weekend is right around the corner. I don't know about you, but I am definitely ready for it.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a radio personality. Your delivery should be upbeat, warm, and feel natural, as if you're talking directly to a friend.",
+          "text": "I saw the most interesting thing on my way in this morning, it completely changed how I was thinking about my day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this with the informal, energetic style of a drive-time radio host. Your voice should be cheerful and make the listener feel included.",
+          "text": "Alright, coming up after the break, we've got a great story you won't want to miss, so don't go anywhere.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0007",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "audiobook_narration"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this passage as if you are narrating a work of fiction for an audiobook. Your voice should be clear and expressive, subtly conveying the mood of the scene.",
+          "text": "He walked through the city streets as the rain began to fall, not in a downpour, but as a fine mist that seemed to hang in the air, blurring the edges of the streetlights.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Narrate this sentence in the style of an audiobook reader. Use your pacing and intonation to build the atmosphere and draw the listener into the story.",
+          "text": "From the top of the hill, she could see the entire valley spread out below her, a patchwork of green and gold under the vast, open sky.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Perform this text as a professional audiobook narrator. Your delivery should be engaging and well-paced, bringing the written words to life without being overly dramatic.",
+          "text": "The house had been empty for years, yet an undeniable sense of presence lingered in its silent hallways and dust-covered rooms, a memory of those who had lived there before.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0008",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "weather_forecast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in the style of a friendly TV weather forecaster. Your tone should be upbeat, clear, and informative.",
+          "text": "We're seeing a lot of activity moving in from the west, so folks in the coastal areas can expect some changes throughout the afternoon.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Adopt the persona of a meteorologist presenting the weather segment. Speak clearly and with a positive, helpful demeanor.",
+          "text": "That system over the northern mountains will continue to push southward, bringing much cooler and drier air to the central plains by evening.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line with the cheerful, easy-to-understand manner of a broadcast meteorologist. Keep the pace brisk and the tone friendly.",
+          "text": "For everyone inland, conditions should remain quite calm and stable for the next few days, with plenty of clear skies expected.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__hard_composite_persona_scenario__0009",
+      "meta_path": "hard/composite/persona/scenario",
+      "target_values": {
+        "scenario": "sports_commentary"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this line as if you are a sports commentator calling an exciting, fast-paced event. Your voice should be energetic, with rising excitement.",
+          "text": "He makes his move, dodging to the left, then to the right, he's past one, past another, and he is breaking away from the pack with incredible speed!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this with the high energy and rapid pace of a play-by-play announcer. Build tension and excitement as the action unfolds.",
+          "text": "With only seconds left on the clock, she makes a desperate push forward, weaving through the opposition... this is going to be incredibly close, can she do it?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Adopt the persona of a sports broadcaster covering a critical moment in a competition. Your delivery should be fast, intense, and full of exhilaration.",
+          "text": "Look at him go! He's found an opening where there wasn't one, surging ahead with unbelievable power as the final moments tick away! It all comes down to this!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

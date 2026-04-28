@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/volume",
+  "language": "en",
+  "source_plan_file": "easy__style__direct__atomic__volume.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Say this as if someone is sleeping in the next room.",
+      "text": "I wonder if this is how it was always meant to be.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Standard realization."
+      },
+      "plan_id": "PLAN__en__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_volume__0001",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_quiet"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this as if someone is sleeping in the next room.",
+          "text": "I wonder if this is how it was always meant to be.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this in a whisper, as if you're trying not to be overheard.",
+          "text": "The way the light hits the window is different today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak this very, very softly, as if you're in a library.",
+          "text": "Perhaps there's another way to think about this.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_volume__0002",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "quiet"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Please read this in a low voice.",
+          "text": "The final report indicates that the data was collected over a period of six months from three separate locations.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this softly, with a gentle tone.",
+          "text": "Photosynthesis is a process used by plants and other organisms to convert light energy into chemical energy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Could you say this at a reduced volume?",
+          "text": "The anechoic chamber is designed to completely absorb reflections of either sound or electromagnetic waves.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_volume__0003",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "loud"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this loudly, as if you're making an announcement to a room full of people.",
+          "text": "The next presentation will begin in five minutes in the main conference hall. Please make your way there now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Project your voice so everyone in a small auditorium can hear you.",
+          "text": "Attention all visitors, the museum will be closing in fifteen minutes. Please proceed to the exits.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Please speak up and say the following with a clear, strong voice.",
+          "text": "Would the owner of a silver sedan with license plate number seven eight one please move their vehicle?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_volume__0004",
+      "meta_path": "easy/style/direct/atomic/volume",
+      "target_values": {
+        "volume": "very_loud"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Shout this out like you're trying to get someone's attention from far away.",
+          "text": "Bring the equipment over to this side!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Yell this text as if you're in a very noisy environment.",
+          "text": "Make sure the gate is secured!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line at maximum volume, as if calling across a wide-open field.",
+          "text": "The red flag is the one you need!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Standard realization."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/speed",
+  "language": "en",
+  "source_plan_file": "easy__style__direct__atomic__speed.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Deliver this line at maximum speed.",
+      "text": "For your information, the company-wide meeting has been moved to conference room B on the third floor. The time remains unchanged.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction is a direct command for speed; text is a neutral announcement."
+      },
+      "plan_id": "PLAN__en__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_speed__0001",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_fast"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak this at a very fast pace.",
+          "text": "Attention all personnel, please be advised that the main entrance will be closed for maintenance starting tomorrow morning at eight.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct command for speed; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the following text as fast as you possibly can.",
+          "text": "This is a general reminder for all residents: recycling collection has been rescheduled to Friday this week instead of Thursday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct command for speed; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line at maximum speed.",
+          "text": "For your information, the company-wide meeting has been moved to conference room B on the third floor. The time remains unchanged.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct command for speed; text is a neutral announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_speed__0002",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "fast"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Can you read this out for me, but a bit fast?",
+          "text": "The boiling point of water at sea level is one hundred degrees Celsius.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a simple request for fast reading; text is a factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the following statement at a fast pace.",
+          "text": "The Earth completes one rotation on its axis every twenty-four hours.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a simple request for fast reading; text is a factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "I need this read quickly, please.",
+          "text": "Photosynthesis is the process used by plants to convert light energy into chemical energy.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a simple request for fast reading; text is a factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_speed__0003",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "slow"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this slowly and clearly so that everyone can understand.",
+          "text": "Could you please pass me the document on the table?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction connects slow speed to clarity; text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "I need you to say this at a slow pace, for maximum clarity.",
+          "text": "Would you be able to help me with this project for a moment?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction connects slow speed to clarity; text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this nice and slow, to make sure the point gets across.",
+          "text": "Can you confirm the details of the arrangement one more time?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction connects slow speed to clarity; text is a simple request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_speed__0004",
+      "meta_path": "easy/style/direct/atomic/speed",
+      "target_values": {
+        "speed": "very_slow"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this sentence with a very slow, deliberate pace.",
+          "text": "The primary function of the device is to measure atmospheric pressure changes over time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction frames slow speed as deliberate; text is an explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the following line very slowly, for dramatic emphasis.",
+          "text": "Each component must be assembled in the correct sequence for the system to operate.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction frames slow speed as dramatic; text is an explanatory sentence."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this with a great deal of weight, very slowly, as if choosing each word.",
+          "text": "The outcome of the experiment depends on a precise combination of several factors.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction frames slow speed as deliberate; text is an explanatory sentence."
+          }
+        }
+      ]
+    }
+  ]
+}

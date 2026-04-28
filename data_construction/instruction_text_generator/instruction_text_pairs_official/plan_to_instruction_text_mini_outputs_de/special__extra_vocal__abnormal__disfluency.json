@@ -1,0 +1,385 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/disfluency",
+  "language": "de",
+  "source_plan_file": "special__extra_vocal__abnormal__disfluency.json",
+  "num_input_items": 6,
+  "num_output_items": 6,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Your speech should have a slight stutter, especially when you begin a word with a hard consonant.",
+      "text": "Der Wasserkreislauf beschreibt die ständige Bewegung von Wasser auf, über und unter der Erdoberfläche.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Deliver this notice with some nervous disfluency. You might repeat a key word or the beginning of a phrase here and there.",
+      "text": "Aufgrund von Wartungsarbeiten wird der Aufzug in diesem Gebäude von 10 bis 14 Uhr außer Betrieb sein.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Read this reflection with a speech disfluency known as blocking. The flow of words is interrupted by abrupt, strained pauses as if you are stuck.",
+      "text": "Es ist seltsam, wie sich Prioritäten im Laufe der Zeit ändern können. Was mir vor fünf Jahren noch extrem wichtig war, erscheint mir heute fast bedeutungslos. Ich muss wirklich darüber nachdenken, was ich jetzt vom Leben erwarte.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Your speech initiation is strained. Take a moment and show some effort before you manage to start this polite question.",
+      "text": "Hallo, ich hoffe, ich störe nicht. Könnten Sie mir vielleicht den Weg zum nächsten Supermarkt zeigen?",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Perform this with a heavy stutter. It's not just at the beginning of phrases; you get caught on sounds and syllables throughout the sentence.",
+      "text": "Das kleine Dorf, eingebettet in ein Tal zwischen hoch aufragenden Bergen, schien von der Zeit fast vergessen worden zu sein, ein Relikt aus einer vergangenen Epoche.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Explain this process carefully, as if you're trying very hard to be precise. This causes you to repeat the beginning of your phrases or clauses sometimes.",
+      "text": "Zuerst füllen Sie das Formular aus, dann geben Sie es am Schalter ab und warten, bis Ihre Nummer aufgerufen wird.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": ""
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0001",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this with a mild stutter, where you have some difficulty getting started on words that begin with consonants.",
+          "text": "Photosynthese ist der Prozess, bei dem grüne Pflanzen Lichtenergie in chemische Energie umwandeln.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your speech should have a slight stutter, especially when you begin a word with a hard consonant.",
+          "text": "Der Wasserkreislauf beschreibt die ständige Bewegung von Wasser auf, über und unter der Erdoberfläche.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this with a light stutter. You stumble a little on the first consonant of some words.",
+          "text": "Die drei Hauptzustände der Materie sind fest, flüssig und gasförmig, abhängig von Temperatur und Druck.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0002",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Read this announcement as if you're a bit nervous, causing you to repeat some words or short phrases.",
+          "text": "Bitte beachten Sie, dass unsere Bibliothek am kommenden Freitag aufgrund einer internen Veranstaltung geschlossen bleibt.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this notice with some nervous disfluency. You might repeat a key word or the beginning of a phrase here and there.",
+          "text": "Aufgrund von Wartungsarbeiten wird der Aufzug in diesem Gebäude von 10 bis 14 Uhr außer Betrieb sein.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Say this as if you're making an announcement but are flustered, so you find yourself repeating some of the phrases.",
+          "text": "Zur Information: Das für heute Abend geplante Treffen wurde auf nächste Woche verschoben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0003",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "blocking"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Perform this text as someone thinking aloud, but they experience speech blocks. There are sudden, tense silences where they just can't get the next word out for a moment.",
+          "text": "Manchmal frage ich mich, ob ich damals die richtige Entscheidung getroffen habe. Es schien der logischste Weg zu sein, aber jetzt, mit etwas Abstand, sehe ich all die anderen Möglichkeiten, die ich hätte in Betracht ziehen können.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your delivery should be marked by blocking, where you suddenly halt mid-thought with a tense pause, struggling to continue.",
+          "text": "Ich habe das Jobangebot erhalten, und auf dem Papier ist es perfekt. Trotzdem zögere ich, zuzusagen. Etwas in mir fühlt sich unsicher an, und ich kann nicht genau sagen, was es ist, aber es hält mich zurück.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Read this reflection with a speech disfluency known as blocking. The flow of words is interrupted by abrupt, strained pauses as if you are stuck.",
+          "text": "Es ist seltsam, wie sich Prioritäten im Laufe der Zeit ändern können. Was mir vor fünf Jahren noch extrem wichtig war, erscheint mir heute fast bedeutungslos. Ich muss wirklich darüber nachdenken, was ich jetzt vom Leben erwarte.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0004",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "hesitant_onset"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this as if you have difficulty starting to speak. There's a noticeable pause or a moment of strain right before you begin the sentence.",
+          "text": "Entschuldigen Sie bitte, könnten Sie mir sagen, wie spät es ist?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Deliver this question with a hesitant onset. It takes you a moment to get the words out, with a clear pause before you start speaking.",
+          "text": "Verzeihung, wissen Sie zufällig, ob dieser Bus zum Hauptbahnhof fährt?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Your speech initiation is strained. Take a moment and show some effort before you manage to start this polite question.",
+          "text": "Hallo, ich hoffe, ich störe nicht. Könnten Sie mir vielleicht den Weg zum nächsten Supermarkt zeigen?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0005",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "stutter"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Narrate this sentence with a pronounced stutter. You struggle not just with initial sounds, but also sometimes get stuck on syllables in the middle of a word.",
+          "text": "Der alte Leuchtturm stand trotzig gegen den heulenden Wind und die peitschenden Wellen, ein einsamer Wächter an der felsigen Küste.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your delivery should include a significant stutter. This affects the start of words and can also cause you to repeat syllables within words as you speak.",
+          "text": "Durch die dichten, moosbewachsenen Bäume des Waldes fielen nur vereinzelte Sonnenstrahlen und malten flackernde Muster auf den weichen Boden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Perform this with a heavy stutter. It's not just at the beginning of phrases; you get caught on sounds and syllables throughout the sentence.",
+          "text": "Das kleine Dorf, eingebettet in ein Tal zwischen hoch aufragenden Bergen, schien von der Zeit fast vergessen worden zu sein, ein Relikt aus einer vergangenen Epoche.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_disfluency__0006",
+      "meta_path": "special/extra_vocal/abnormal/disfluency",
+      "target_values": {
+        "disfluency": "repetition"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Explain this process carefully, as if you're trying very hard to be precise. This causes you to repeat the beginning of your phrases or clauses sometimes.",
+          "text": "Zuerst füllen Sie das Formular aus, dann geben Sie es am Schalter ab und warten, bis Ihre Nummer aufgerufen wird.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. As you explain these rules, you show a slight disfluency by repeating the first few words of a clause, as if to double-check that you're saying it correctly.",
+          "text": "Die Regel ist einfach: Man darf die Figuren nur diagonal bewegen und muss am Ende der Reihe eine Dame erreichen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this explanation with a careful, slightly repetitive style. You might restart a clause or a short phrase to ensure you're being perfectly clear.",
+          "text": "Um das Gerät einzuschalten, halten Sie den Knopf drei Sekunden lang gedrückt, bis das Licht grün leuchtet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": ""
+          }
+        }
+      ]
+    }
+  ]
+}

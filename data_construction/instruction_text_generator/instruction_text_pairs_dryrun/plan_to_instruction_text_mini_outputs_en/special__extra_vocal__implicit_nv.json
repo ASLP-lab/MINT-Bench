@@ -1,0 +1,471 @@
+{
+  "taxonomy_node": "special/extra_vocal/implicit_nv",
+  "language": "en",
+  "source_plan_file": "special__extra_vocal__implicit_nv.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c3",
+      "instruction": "Read this observation, but interrupt yourself with a brief chuckle in the middle.",
+      "text": "You know, I completely forgot to buy milk on the way home.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes the chuckle and its placement. Text is a neutral observation."
+      },
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0001",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0001",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "chuckle"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this sentence, and in the middle, let out a small chuckle as if you just remembered something amusing.",
+          "text": "I was just thinking about that conversation we had the other day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the chuckle and its placement. Text is a neutral observation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this line with a light, spontaneous chuckle breaking through partway, as if a private joke just occurred to you.",
+          "text": "He always wears that same hat, every single time I see him.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the chuckle and its placement. Text is a neutral observation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this observation, but interrupt yourself with a brief chuckle in the middle.",
+          "text": "You know, I completely forgot to buy milk on the way home.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the chuckle and its placement. Text is a neutral observation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0002",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sigh"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Let out a sigh of resignation, and then immediately say the following line.",
+          "text": "Alright, I guess I should get started on these dishes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sigh before speaking. Text is a statement of obligation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Before you start speaking, sigh as if you're reluctant but accepting of the task ahead.",
+          "text": "Well, the report won't write itself, so I'd better begin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sigh before speaking. Text is a statement of obligation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Start with a tired, resigned sigh, then deliver the sentence.",
+          "text": "I suppose it's my turn to take out the recycling.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sigh before speaking. Text is a statement of obligation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0003",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "panting"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this line as if you've just run a long distance. Your speech should be broken up by panting and heavy breathing.",
+          "text": "You have to get this package to the main office right away, they're waiting for it and it's the last one they have.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for panting throughout. Text is an urgent message without mentioning exertion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver this whole message while panting, as if you're completely out of breath.",
+          "text": "I finally found the documents you were looking for, but we need to submit them before the deadline in five minutes.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for panting throughout. Text is an urgent message without mentioning exertion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Your voice should be strained and you should be breathing heavily and panting throughout the entire sentence, as if you're exhausted.",
+          "text": "Tell everyone to meet at the designated assembly point immediately, this is not a drill and we don't have much time.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for panting throughout. Text is an urgent message without mentioning exertion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0004",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "sniffle"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this sentence as if you're trying to stay composed but are on the verge of crying. Let an audible sniffle happen towards the end.",
+          "text": "The service is scheduled to begin at ten in the morning.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sniffle near the end due to suppressed sadness. Text is a neutral statement about a somber event."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Your voice should sound strained, like you're holding back tears. Let a sniffle break through as you finish the line.",
+          "text": "They said the search has been officially called off for the night.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sniffle near the end due to suppressed sadness. Text is a neutral statement about a somber event."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this factually, but with a choked-up quality. Include a single, distinct sniffle near the end of the phrase.",
+          "text": "According to the report, all of the personal effects were recovered.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a sniffle near the end due to suppressed sadness. Text is a neutral statement about a somber event."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0005",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "throat_clearing"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Clear your throat to get everyone's attention, and then make this announcement.",
+          "text": "If I could have your attention please, we're ready to begin the presentation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for throat-clearing before speaking. Text is a formal announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Start with a distinct throat-clearing sound, then say the following line in a clear, formal tone.",
+          "text": "We are gathered here today to discuss the quarterly financial results.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for throat-clearing before speaking. Text is a formal announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Before you speak, clear your throat audibly, as if preparing to address a group of people.",
+          "text": "On behalf of the committee, I would like to extend our sincere gratitude.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for throat-clearing before speaking. Text is a formal announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0006",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "yawn"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this line with a very tired, drowsy voice, letting a yawn come out in the middle of it.",
+          "text": "After I get home, I usually just sort through the mail and then check my email.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a mid-sentence yawn. Text is a mundane statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Sound extremely sleepy while saying this. A yawn should interrupt your speech midway through.",
+          "text": "First I have to unload the dishwasher, and then put away all the groceries.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a mid-sentence yawn. Text is a mundane statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this as if you're about to fall asleep. Let a big yawn emerge as you're speaking the words.",
+          "text": "I think the next step is to file all of these papers in alphabetical order.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a mid-sentence yawn. Text is a mundane statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0007",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "gasp"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "As you're saying this, make a sharp intake of breath, a gasp, right after the first few words, as if you've just seen something alarming.",
+          "text": "That picture on the wall... is leaning quite a bit to the left.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a gasp after the first phrase. Text is a neutral description."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin speaking normally, but then gasp suddenly as if you've just noticed something. Finish the sentence after the gasp.",
+          "text": "The window in the back room... it looks like it's been left wide open.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a gasp after the first phrase. Text is a neutral description."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say the first part of the sentence, then interrupt yourself with a sudden gasp of discovery or shock, then continue.",
+          "text": "Wait, the car in the driveway... isn't that the one from down the street?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies a gasp after the first phrase. Text is a neutral description."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0008",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "mumble"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Start this sentence with a clear voice, but lose confidence as you go, so that the last few words trail off into a mumble.",
+          "text": "Maybe we should try the other route, since it might be a little bit faster.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies starting clear and ending with a mumble. Text is a hesitant suggestion."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Begin your suggestion confidently, but then trail off into an indistinct mumble at the end as if you're not sure about it anymore.",
+          "text": "I was thinking we could possibly postpone the meeting, if that's okay with everyone.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies starting clear and ending with a mumble. Text is a hesitant suggestion."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say the first half of the line clearly, but let the second half become quiet and mumbled, as if you're talking more to yourself than anyone else.",
+          "text": "We could just order a pizza or something, I don't know, whatever works.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction specifies starting clear and ending with a mumble. Text is a hesitant suggestion."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0009",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "stifled_laugh"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in a very formal, serious tone, but try (and fail) to suppress a laugh that breaks through your words.",
+          "text": "The committee's primary directive is to ensure the structural integrity and proper maintenance of all rubber-based avian flotation devices.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a stifled laugh during a formal reading. Text is formal and slightly absurd."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "You are giving a serious presentation, but something has struck you as funny. Try to deliver this line with a straight face, but let a stifled laugh escape.",
+          "text": "Furthermore, the revised protocol mandates a complete inventory of all miniature decorative umbrellas for our quarterly reports.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a stifled laugh during a formal reading. Text is formal and slightly absurd."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this sentence with the utmost gravity, but imagine you're trying not to laugh. Let a little bit of laughter choke your words.",
+          "text": "It is therefore resolved that no personnel shall operate the high-speed data centrifuge while wearing novelty oversized footwear.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for a stifled laugh during a formal reading. Text is formal and slightly absurd."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__special_extra_vocal_implicit_nv__0010",
+      "meta_path": "special/extra_vocal/implicit_nv",
+      "target_values": {
+        "implicit_nv": "whisper"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this entire sentence in a low, hushed whisper, as if sharing confidential information.",
+          "text": "The key is located inside the third book from the left on the top shelf.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for the entire line to be whispered. Text is a neutral instruction."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Deliver the line in a conspiratorial whisper, keeping your voice very low and breathy.",
+          "text": "Make sure you place the blue folder on top of the stack, not the red one.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for the entire line to be whispered. Text is a neutral instruction."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Whisper this entire instruction, as if you don't want anyone else to overhear you.",
+          "text": "You need to wait until the clock strikes twelve before you proceed.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction asks for the entire line to be whispered. Text is a neutral instruction."
+          }
+        }
+      ]
+    }
+  ]
+}

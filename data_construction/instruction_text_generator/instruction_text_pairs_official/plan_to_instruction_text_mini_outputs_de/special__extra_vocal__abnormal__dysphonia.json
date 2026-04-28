@@ -1,0 +1,447 @@
+{
+  "taxonomy_node": "special/extra_vocal/abnormal/dysphonia",
+  "language": "de",
+  "source_plan_file": "special__extra_vocal__abnormal__dysphonia.json",
+  "num_input_items": 7,
+  "num_output_items": 7,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. I want the delivery to sound very breathless, with a lot of audible air in the voice.",
+      "text": "Der Bericht analysiert die Markttrends des letzten Quartals und gibt eine Prognose für die Zukunft.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Use a hoarse, raspy voice for this line, like you've been shouting all day.",
+      "text": "Könnten Sie mir bitte sagen, wie spät es ist? Ich glaube, meine Uhr ist stehen geblieben.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in German. Deliver the line with a voice that quivers and shakes, making it sound unstable.",
+      "text": "Manchmal frage ich mich, ob das wirklich der richtige Weg war, den wir eingeschlagen haben.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Speak with a very weak voice that lacks support, letting your words trail off towards the end of each phrase.",
+      "text": "Der Prozess der Photosynthese ist ein komplexer biochemischer Vorgang, bei dem Pflanzen Lichtenergie in chemische Energie umwandeln, um ihr Wachstum zu fördern.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in German. Deliver this with a strained, tight voice, as if it's a real effort to speak.",
+      "text": "Ich glaube, die Unterlagen, die Sie suchen, liegen auf dem Schreibtisch drüben.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Read this as if you've just stopped running and are breathing heavily, causing breaks in your speech.",
+      "text": "Zur Information, die Kantine bietet heute als Tagesgericht ein vegetarisches Curry an und schließt bereits um vierzehn Uhr.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in German. Your voice should sound like you're trying to maintain composure after a good cry. It should be unsteady and thick.",
+      "text": "Der nächste Punkt auf der Tagesordnung ist die Budgetplanung für das kommende Quartal.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0001",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "breathless"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this with a breathless, airy voice, as if you're struggling to get enough air.",
+          "text": "Die Konferenz findet im Hauptgebäude statt, und die erste Sitzung beginnt um neun Uhr morgens.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I want the delivery to sound very breathless, with a lot of audible air in the voice.",
+          "text": "Der Bericht analysiert die Markttrends des letzten Quartals und gibt eine Prognose für die Zukunft.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Please speak as though you are out of breath, making your voice sound weak and full of air.",
+          "text": "Die Bibliothek ist von Montag bis Freitag von acht bis zwanzig Uhr für alle Studierenden geöffnet.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0002",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "hoarse"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Use a hoarse, raspy voice for this line, like you've been shouting all day.",
+          "text": "Könnten Sie mir bitte sagen, wie spät es ist? Ich glaube, meine Uhr ist stehen geblieben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Make your voice sound rough and hoarse, as if you have a very sore throat from overuse.",
+          "text": "Würden Sie mir bitte das Fenster öffnen? Es ist ein wenig stickig hier drin.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this with a scratchy, hoarse vocal quality.",
+          "text": "Kannst du mir helfen, diese Kiste auf das oberste Regal zu stellen?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0003",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "trembling_voice"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Your voice should be trembling and unsteady throughout the sentence, as if you're very cold.",
+          "text": "Ich habe eine Weile darüber nachgedacht, und ich bin mir nicht sicher, was ich davon halten soll.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. I want you to read this with a shaky, trembling voice, like you're trying to hide your nervousness.",
+          "text": "Es ist seltsam, wie sich die Dinge im Laufe der Zeit verändern können, nicht wahr?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver the line with a voice that quivers and shakes, making it sound unstable.",
+          "text": "Manchmal frage ich mich, ob das wirklich der richtige Weg war, den wir eingeschlagen haben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0004",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "weak_support"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Speak with a very weak voice that lacks support, letting your words trail off towards the end of each phrase.",
+          "text": "Der Prozess der Photosynthese ist ein komplexer biochemischer Vorgang, bei dem Pflanzen Lichtenergie in chemische Energie umwandeln, um ihr Wachstum zu fördern.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your voice should sound tired and unsupported, with the volume dropping significantly as you finish speaking your sentences.",
+          "text": "Die jährliche Migration der Vögel ist ein faszinierendes Naturphänomen, das durch jahreszeitliche Veränderungen und die Verfügbarkeit von Nahrungsquellen bestimmt wird.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Use a voice that has very little projection, almost fading into silence at the end of the statement.",
+          "text": "Um die Software korrekt zu installieren, müssen Sie zunächst die Anweisungen im Handbuch sorgfältig lesen und dann die einzelnen Schritte genau befolgen.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0005",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "strained_voice"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Deliver this with a strained, tight voice, as if it's a real effort to speak.",
+          "text": "Ich glaube, die Unterlagen, die Sie suchen, liegen auf dem Schreibtisch drüben.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your voice should sound forced and constricted, like you're speaking through a tight throat.",
+          "text": "Ja, ich habe die E-Mail heute Morgen erhalten und werde bald darauf antworten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. I want the voice to sound tense and strained, as though speaking is physically difficult.",
+          "text": "Die Besprechung wurde auf nächste Woche Dienstag verschoben, falls Sie es noch nicht wussten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0006",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_run_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Your voice should sound like you've just finished a long run and are still trying to catch your breath while you speak.",
+          "text": "Bitte denken Sie daran, Ihre Stundenzettel bis spätestens Freitagmittag einzureichen, damit die Gehaltsabrechnung rechtzeitig bearbeitet werden kann.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Read this as if you've just stopped running and are breathing heavily, causing breaks in your speech.",
+          "text": "Zur Information, die Kantine bietet heute als Tagesgericht ein vegetarisches Curry an und schließt bereits um vierzehn Uhr.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Imagine you are winded from strenuous exercise; your speech should be breathy and broken as you try to recover.",
+          "text": "Die Müllabfuhr kommt diese Woche einen Tag später als gewöhnlich, also stellen Sie die Tonnen bitte erst am Mittwochmorgen raus.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__de__special_extra_vocal_abnormal_dysphonia__0007",
+      "meta_path": "special/extra_vocal/abnormal/dysphonia",
+      "target_values": {
+        "dysphonia": "post_cry_state"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in German. Say this as if you've just been crying heavily. Your voice should sound thick, a bit choked up, and shaky.",
+          "text": "Die Telefonkonferenz wurde auf fünfzehn Uhr verschoben. Bitte aktualisieren Sie Ihre Kalender.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in German. Your voice should sound like you're trying to maintain composure after a good cry. It should be unsteady and thick.",
+          "text": "Der nächste Punkt auf der Tagesordnung ist die Budgetplanung für das kommende Quartal.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in German. Deliver this line with the vocal quality of someone who has just stopped crying—the voice should be thick and slightly trembling.",
+          "text": "Alle Mitarbeiter werden gebeten, den neuen Sicherheitsprotokollen zu folgen, die per E-Mail versandt wurden.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "taxonomy_node": "hard/composite/complex_comp/dynamic",
+  "language": "ja",
+  "generation_summary": {
+    "num_items": 11,
+    "domain": "composite",
+    "difficulty": "hard",
+    "notes": "Generating dynamic progression items. All instructions must be 'direct' and text length 'long' to support the temporal change. Instructions are in English, text is in Japanese."
+  },
+  "items": [
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0001",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "slow -> fast"
+      },
+      "aux_values": {},
+      "text_semantic": "narrative_recounting_event",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "Text semantics must not trivially leak the target speed.",
+        "The text structure should naturally support a gradual increase in speaking speed.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Instruct the speaker to start slowly and gradually speed up throughout the utterance.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0002",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "volume": "quiet -> very_loud"
+      },
+      "aux_values": {},
+      "text_semantic": "persuasive_argument",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "Text semantics must not trivially leak the target volume (e.g., avoid words like 'shout').",
+        "The text should be structured as a point that builds in intensity.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Describe a delivery that begins quietly and builds to a very loud crescendo at the end.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0003",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "neutral -> happy"
+      },
+      "aux_values": {},
+      "text_semantic": "reacting_to_good_news",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "The text should be a continuous monologue, not explicitly stating happiness.",
+        "The semantic content should allow for a gradual realization of something positive.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Instruct the speaker to begin in a neutral, matter-of-fact way, and transition to a happy emotion by the end.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0004",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "tone": "hesitant -> firm"
+      },
+      "aux_values": {},
+      "text_semantic": "making_a_difficult_announcement",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "The text should not contain words that explicitly signal hesitation or firmness.",
+        "The text should represent a statement where one might gather their resolve as they speak.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Ask for a delivery that starts out hesitant but becomes firm and resolute.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0005",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "worried -> fearful",
+        "speed": "normal -> very_fast"
+      },
+      "aux_values": {},
+      "text_semantic": "realizing_a_mistake_with_consequences",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "Avoid words that obviously convey worry or fear.",
+        "The sentence structure should become more frantic or run-on towards the end.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Instruct the speaker to start with a worried tone at a normal pace, then transition to a fearful emotion while speaking very fast.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0006",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "volume",
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "volume": "normal -> loud",
+        "tone": "pleading -> defiant"
+      },
+      "aux_values": {},
+      "text_semantic": "argument_with_authority_figure",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "Text should be a statement that could be interpreted as either pleading or defiant depending on delivery.",
+        "Avoid explicit lexical cues for the tones.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Ask for a delivery that begins with a pleading tone at a normal volume, but shifts to a loud, defiant tone.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0007",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "speed"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "speed": "slow -> very_fast -> normal"
+      },
+      "aux_values": {},
+      "text_semantic": "describing_a_hectic_but_resolved_situation",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "The text should have three distinct parts that align with the speed change, like describing a situation, the climax, and the resolution.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Instruct the voice to start slow, accelerate to a very fast pace in the middle, and then return to a normal pace at the end.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0008",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "thoughtful -> surprised -> happy",
+        "volume": "normal -> loud -> normal"
+      },
+      "aux_values": {},
+      "text_semantic": "solving_a_riddle_out_loud",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "The text should narrate a thought process leading to a sudden realization and then satisfaction.",
+        "Avoid explicit emotion words.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Describe a three-stage delivery: start thoughtfully at a normal volume, then sound surprised and loud at a key moment, and finally settle into a happy, normal-volume delivery.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0009",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "speed",
+        "volume"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "sad -> angry",
+        "speed": "slow -> fast",
+        "volume": "quiet -> loud"
+      },
+      "aux_values": {},
+      "text_semantic": "reflecting_on_a_betrayal",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "The text should begin with a sense of loss and end with a sense of accusation, without using words like 'sad' or 'angry'.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Ask the speaker to begin in a sad, slow, and quiet manner, and then transition into an angry, fast, and loud delivery.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0010",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "pitch"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "pitch": "low -> normal -> high"
+      },
+      "aux_values": {},
+      "text_semantic": "telling_an_unfolding_story",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "The story should have a clear beginning, middle, and a climactic end to support the pitch progression.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Instruct the voice to start with a low pitch, move to a normal pitch, and end with a high pitch as if building excitement.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    },
+    {
+      "plan_id": "PLAN__ja__hard_composite_complex_comp_dynamic__0011",
+      "meta_path": "hard/composite/complex_comp/dynamic",
+      "attribute_set": [
+        "emotion",
+        "tone"
+      ],
+      "instruction_form": "direct",
+      "target_values": {
+        "emotion": "neutral -> worried",
+        "tone": "indifferent -> urging"
+      },
+      "aux_values": {},
+      "text_semantic": "giving_a_warning_that_escalates",
+      "text_length": "long",
+      "text_constraints": [
+        "Must be written in Japanese.",
+        "The text should start as a simple observation but end as a more serious piece of advice.",
+        "Do not use lexical cues for the emotion or tone.",
+        "final text must be written in Japanese",
+        "provide enough content for staged progression"
+      ],
+      "instruction_constraints": [
+        "Must be in English.",
+        "Must start with 'Speak in Japanese.'.",
+        "Ask for a delivery that starts neutral and indifferent, but becomes worried with an urging tone.",
+        "final instruction must be in English and should begin with 'Speak in Japanese.'",
+        "use natural voice-direction phrasing in final realization"
+      ],
+      "flags": {
+        "static_or_dynamic": "dynamic",
+        "requires_roleplay": false,
+        "requires_nonverbal_tag": false,
+        "requires_abnormal_state": false,
+        "contains_conflict": false,
+        "contains_layered_affect": false
+      }
+    }
+  ]
+}

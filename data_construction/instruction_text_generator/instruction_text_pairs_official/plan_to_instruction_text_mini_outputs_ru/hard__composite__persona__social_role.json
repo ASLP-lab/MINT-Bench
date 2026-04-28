@@ -1,0 +1,571 @@
+{
+  "taxonomy_node": "hard/composite/persona/social_role",
+  "language": "ru",
+  "source_plan_file": "hard__composite__persona__social_role.json",
+  "num_input_items": 9,
+  "num_output_items": 9,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Read the text as a patient teacher explaining a concept to someone, using a clear and encouraging tone.",
+      "text": "Фотосинтез — это процесс, при котором зелёные растения используют солнечный свет для преобразования углекислого газа и воды в пищу.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Deliver the text in the formal, clear, and professional style of a public service announcer.",
+      "text": "Внимание. В связи с проведением технических работ возможны временные перебои в движении общественного транспорта.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Use a persuasive and energetic voice, like a market seller passionately describing their product.",
+      "text": "Свежайшая клубника, только что с грядки! Сладкая, ароматная, одна к одной, настоящая летняя ягода!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Adopt a reassuring and helpful tone, as if you are a customer support representative calmly explaining the steps.",
+      "text": "Сначала откройте страницу входа в систему. Под полями для ввода данных вы увидите опцию восстановления пароля. Укажите свой логин или почту, и мы вышлем вам все необходимое для продолжения.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Adopt the lively and descriptive style of a tour guide, as if you're pointing out a landmark.",
+      "text": "Эта башня, прозванная «Шепчущей», имеет уникальную акустическую особенность: слова, произнесенные у одной стены, отчетливо слышны у противоположной. Архитектор спроектировал ее как символ открытого диалога и единства.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Use a calm and authoritative tone, like a medical professional explaining the benefits of a healthy habit.",
+      "text": "Старайтесь спать от семи до восьми часов каждую ночь. Регулярный режим сна помогает стабилизировать настроение и улучшить концентрацию внимания.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c1",
+      "instruction": "Speak in Russian. Read the text in the extremely fast, rhythmic, and clear style of an auctioneer presenting an item.",
+      "text": "Перед нами великолепный образец, работа мастера, красное дерево, инкрустация перламутром, оригинальная фурнитура, прекрасное состояние, без видимых повреждений, настоящая находка для ценителя.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    },
+    {
+      "candidate_id": "c2",
+      "instruction": "Speak in Russian. Adopt a casual and friendly delivery, like a podcast host reflecting on a recent movie.",
+      "text": "Посмотрел тут новый фильм, и знаете, что? Сюжетный поворот в середине был абсолютно неожиданным. Я просто сидел с открытым ртом, потому что совершенно не ожидал такого развития событий.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    },
+    {
+      "candidate_id": "c3",
+      "instruction": "Speak in Russian. Deliver the line with the hyped-up energy and expressive tone of someone live-streaming their reaction.",
+      "text": "Вау, просто вау! Я не ожидал, что он будет таким крутым. Дизайн — космос, а как он лежит в руке, это надо чувствовать!",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction and text match the plan."
+      },
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0001",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "teacher"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read the text as a patient teacher explaining a concept to someone, using a clear and encouraging tone.",
+          "text": "Фотосинтез — это процесс, при котором зелёные растения используют солнечный свет для преобразования углекислого газа и воды в пищу.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use the voice of a calm and clear educator, making sure each part of the explanation is easy to understand.",
+          "text": "Круговорот воды в природе включает испарение с поверхности океанов, конденсацию в облака и выпадение осадков на землю.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Adopt a gentle, instructive tone, as if you are a teacher patiently guiding someone through a new idea.",
+          "text": "Гравитация — это сила, которая притягивает два объекта друг к другу, и именно она удерживает нас на поверхности Земли.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0002",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "announcer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Deliver the text in the formal, clear, and professional style of a public service announcer.",
+          "text": "Внимание. В связи с проведением технических работ возможны временные перебои в движении общественного транспорта.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a standard, neutral broadcast voice, like a radio announcer making a formal announcement.",
+          "text": "Министерство по чрезвычайным ситуациям предупреждает о неблагоприятных погодных условиях в ближайшие сутки. Будьте осторожны.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Read the announcement with the clear and authoritative tone of a professional announcer.",
+          "text": "Уважаемые граждане, просим вас соблюдать чистоту и порядок в общественных местах. Благодарим за понимание.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0003",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "street_vendor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read the text as a lively and enthusiastic street vendor trying to attract customers with a delicious description.",
+          "text": "Только посмотрите на эти пирожки! Горячие, с пылу с жару, с сочной яблочной начинкой, просто тают во рту!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a persuasive and energetic voice, like a market seller passionately describing their product.",
+          "text": "Свежайшая клубника, только что с грядки! Сладкая, ароматная, одна к одной, настоящая летняя ягода!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Adopt the loud, cheerful, and inviting tone of a street vendor describing a tasty snack.",
+          "text": "А вот и они, наши знаменитые блинчики! Тоненькие, кружевные, с ароматным медом и орехами, лучше не найдете!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0004",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "customer_service_agent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read the text with the helpful, calm, and professional tone of a customer service agent.",
+          "text": "Чтобы восстановить доступ, пожалуйста, перейдите на главную страницу входа и найдите ссылку «Забыли пароль». Нажмите на нее и следуйте дальнейшим инструкциям, которые придут на вашу электронную почту.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a patient, clear, and slightly formal voice, like a support agent guiding someone through a process.",
+          "text": "Для сброса пароля вам необходимо будет ввести адрес электронной почты, связанный с вашей учетной записью. После этого система отправит вам специальную ссылку для создания нового пароля. Проверьте папку «Входящие».",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Adopt a reassuring and helpful tone, as if you are a customer support representative calmly explaining the steps.",
+          "text": "Сначала откройте страницу входа в систему. Под полями для ввода данных вы увидите опцию восстановления пароля. Укажите свой логин или почту, и мы вышлем вам все необходимое для продолжения.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0005",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "tour_guide"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read the text in the engaging and enthusiastic voice of a tour guide sharing a fascinating story.",
+          "text": "Этот монумент, известный как Арка Рассвета, был воздвигнут в честь великого астронома, который первым предсказал возвращение кометы. Легенда гласит, что каждый камень для арки был принесен из разных уголков страны.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use the knowledgeable and captivating tone of a tour guide, making history come alive.",
+          "text": "Здание, которое вы видите, — это бывшая Королевская библиотека. Она была построена из редкого белого мрамора и на протяжении трех столетий хранила самые ценные рукописи королевства, пока не была преобразована в музей.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Adopt the lively and descriptive style of a tour guide, as if you're pointing out a landmark.",
+          "text": "Эта башня, прозванная «Шепчущей», имеет уникальную акустическую особенность: слова, произнесенные у одной стены, отчетливо слышны у противоположной. Архитектор спроектировал ее как символ открытого диалога и единства.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0006",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "doctor"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read the text with the calm, reassuring, and professional voice of a doctor giving advice.",
+          "text": "Очень важно понимать, что полноценный сон является ключевым фактором для поддержания иммунной системы и общего состояния здоровья.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a calm and authoritative tone, like a medical professional explaining the benefits of a healthy habit.",
+          "text": "Старайтесь спать от семи до восьми часов каждую ночь. Регулярный режим сна помогает стабилизировать настроение и улучшить концентрацию внимания.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Adopt the gentle and trustworthy voice of a doctor, providing clear and helpful information.",
+          "text": "Недостаток сна может негативно сказаться на когнитивных функциях. Поэтому создание комфортной обстановки для отдыха имеет большое значение.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0007",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "auctioneer"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Read the text in the extremely fast, rhythmic, and clear style of an auctioneer presenting an item.",
+          "text": "Перед нами великолепный образец, работа мастера, красное дерево, инкрустация перламутром, оригинальная фурнитура, прекрасное состояние, без видимых повреждений, настоящая находка для ценителя.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use the rapid-fire, energetic, and articulate delivery of an auctioneer describing a piece.",
+          "text": "Вот он, предмет нашего внимания: изящный комод эпохи барокко, тонкая ручная резьба, изогнутые ножки, мраморная столешница, пара потайных ящиков, подлинный антиквариат.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Adopt the characteristic fast-paced, rhythmic chant of an auctioneer, keeping the words very clear.",
+          "text": "Смотрим на этот прекрасный стул, массив дуба, кожаная обивка, декоративные гвозди, высокая спинка, устойчивая конструкция, классический дизайн, предмет с историей.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0008",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "podcast_host"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Use a relaxed, conversational, and intimate tone, as if you are a podcast host sharing your personal thoughts.",
+          "text": "Недавно дочитал одну книгу и, честно говоря, до сих пор нахожусь под впечатлением. Особенно меня зацепила трансформация главного героя, то, как он изменился к концу истории, это было по-настоящему сильно.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Adopt a casual and friendly delivery, like a podcast host reflecting on a recent movie.",
+          "text": "Посмотрел тут новый фильм, и знаете, что? Сюжетный поворот в середине был абсолютно неожиданным. Я просто сидел с открытым ртом, потому что совершенно не ожидал такого развития событий.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Speak in a warm and engaging way, as if you're talking directly to a friend, in the style of a podcast host.",
+          "text": "Что мне больше всего понравилось в этой картине, так это её атмосфера. Цветовая палитра, музыка, дизайн костюмов — всё вместе создавало такое уникальное и немного меланхоличное настроение.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__ru__hard_composite_persona_social_role__0009",
+      "meta_path": "hard/composite/persona/social_role",
+      "target_values": {
+        "social_role": "live_stream_host"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in Russian. Perform this line with high energy and excitement, like a live streamer unboxing a new gadget.",
+          "text": "Ого, вы только посмотрите на это! Качество экрана просто невероятное, цвета такие сочные, я в полном восторге!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Speak in Russian. Use a very expressive and slightly high-pitched voice, full of enthusiasm, like a popular streamer.",
+          "text": "Это просто пушка, а не устройство! Запускается моментально, всё летает, никакой задержки вообще, это нечто!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Speak in Russian. Deliver the line with the hyped-up energy and expressive tone of someone live-streaming their reaction.",
+          "text": "Вау, просто вау! Я не ожидал, что он будет таким крутым. Дизайн — космос, а как он лежит в руке, это надо чувствовать!",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction and text match the plan."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/emotion",
+  "language": "en",
+  "source_plan_file": "easy__style__direct__atomic__emotion.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c2",
+      "instruction": "Read the following line with a cheerful and pleased voice.",
+      "text": "All systems are operational and the team is ready to begin the launch sequence.",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "Instruction describes target emotion; text is a neutral announcement."
+      },
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0001",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "happy"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say it with a happy tone, sounding cheerful and pleased.",
+          "text": "The project has been fully funded and is now proceeding to the next phase.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes target emotion; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read the following line with a cheerful and pleased voice.",
+          "text": "All systems are operational and the team is ready to begin the launch sequence.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes target emotion; text is a neutral announcement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this announcement in a happy voice, as if you've just received good news.",
+          "text": "We can now confirm that the final report has been submitted ahead of schedule.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes target emotion; text is a neutral announcement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0002",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "angry"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this line with an angry voice.",
+          "text": "The files were not where they were supposed to be.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct; text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this with an irritated and stern tone.",
+          "text": "This is the third time it has happened this week.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses synonyms; text is a neutral factual statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read the sentence in an angry tone.",
+          "text": "He arrived at precisely ten o'clock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct; text is a neutral factual statement."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0003",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "sad"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this as if you are feeling very sad.",
+          "text": "Could you please close the door on your way out?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides emotional context; text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this with a sorrowful, dejected voice.",
+          "text": "I was hoping you could tell me what time the event ends.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses synonyms; text is a simple request."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this request in a very sad tone.",
+          "text": "Would it be possible to get a copy of the minutes from the last meeting?",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is a direct command; text is a simple request."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0004",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "fearful"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Say this with a sense of fear in your voice.",
+          "text": "The only way to proceed is by following the path all the way to the end.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes emotion; text is a neutral explanation."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this with a frightened and anxious tone.",
+          "text": "You have to insert the key and turn it exactly ninety degrees to the left.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses synonyms; text is a neutral explanation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line as if you are very frightened.",
+          "text": "That is the room where they keep all the old records from before the merger.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides emotional context; text is a neutral explanation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0005",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "surprised"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Speak in a surprised tone.",
+          "text": "The building across the street is painted blue now.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Direct instruction; mundane text that doesn't leak surprise."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this with an astonished voice.",
+          "text": "I thought you were going to be out of town today.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction uses a synonym; text is a casual, mundane statement."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Read this sentence as if you were startled.",
+          "text": "That car has been parked there since yesterday.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction gives context; text is a mundane observation."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0006",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "worried"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Deliver this notice in a worried, concerned tone.",
+          "text": "Just a reminder that the quarterly review meeting is scheduled for tomorrow at ten.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes the tone; text is a neutral notice."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Read this as if you are feeling uneasy about something.",
+          "text": "The main power will be shut off for maintenance between noon and one o'clock.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction gives context for the feeling; text is neutral."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Say this with a worried tone in your voice.",
+          "text": "Please make sure all documents are submitted by the end of the day.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction is direct; text is a neutral informational notice."
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__en__easy_style_direct_atomic_emotion__0007",
+      "meta_path": "easy/style/direct/atomic/emotion",
+      "target_values": {
+        "emotion": "thoughtful"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "Read this in a pensive and thoughtful manner, speaking slowly and deliberately.",
+          "text": "I suppose that's one way of looking at the situation.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes tone and pace; text is a neutral reflection."
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "Say this in a contemplative tone, as if you're mulling it over.",
+          "text": "It always seems to be quietest right before the sun comes up.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction provides context for the tone; text is a neutral observation."
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "Deliver this line thoughtfully, with a slow and deliberate pace.",
+          "text": "The pattern on this fabric is more complex than it appears at first.",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "Instruction describes tone and pace; text is a neutral reflection."
+          }
+        }
+      ]
+    }
+  ]
+}

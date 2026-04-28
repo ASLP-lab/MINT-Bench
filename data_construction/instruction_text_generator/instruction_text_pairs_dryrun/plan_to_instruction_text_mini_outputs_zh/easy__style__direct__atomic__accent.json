@@ -1,0 +1,339 @@
+{
+  "taxonomy_node": "easy/style/direct/atomic/accent",
+  "language": "zh",
+  "source_plan_file": "easy__style__direct__atomic__accent.json",
+  "num_input_items": 1,
+  "num_output_items": 1,
+  "num_candidates_per_plan": 3,
+  "selection_seed": null,
+  "results": [
+    {
+      "candidate_id": "c1",
+      "instruction": "用北京口音读下面这句话。",
+      "text": "今天天气不错，咱们出去溜达溜达吧，听说公园里的花都开了。",
+      "quality_checks": {
+        "matches_plan": true,
+        "text_leaks_target": false,
+        "contains_explicit_nonverbal_tag": false,
+        "notes": "OK"
+      },
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0001",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "beijing_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1"
+    }
+  ],
+  "candidate_pools": [
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0001",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "beijing_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用北京口音读下面这句话。",
+          "text": "今天天气不错，咱们出去溜达溜达吧，听说公园里的花都开了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请用京腔来念这段文字。",
+          "text": "这事儿你得听我的，我比你经验多，保证不会出什么岔子。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "朗读的时候带一点北京话的味儿。",
+          "text": "我昨天晚上看了一部电影，特别有意思，回头推荐给你啊。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0002",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "sichuan_accent"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用四川口音说出这句话。",
+          "text": "麻烦你帮我把那个文件拿过来一下，就在桌子最右边那个。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用四川话的腔调来读这段文本。",
+          "text": "你能不能告诉我，去市中心应该坐哪路公交车最方便？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "模仿一下四川人说普通话的感觉。",
+          "text": "我想问一下，这个周末你们有什么安排没有，要不要一起出去玩？",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0003",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "northeastern_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "用东北口音来读这句话。",
+          "text": "这个问题的关键在于，我们必须先理解它的基本原理才行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "请带上东北腔，念一下这段话。",
+          "text": "之所以出现这种情况，主要是因为前期的准备工作没有做到位。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想听听东北味的普通话，请读一下。",
+          "text": "这个项目的流程是这样的，首先需要提交申请，然后等待审核通过。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0004",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "taiwanese_mandarin"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用台湾腔说这段话。",
+          "text": "各位同事请注意，下午三点的会议改到四点钟在二号会议室举行。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用台湾普通话的口音来朗读。",
+          "text": "温馨提示，为了大家的安全，请不要在走廊里追逐打闹，谢谢合作。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想要一种台湾口音的感觉，请念一下。",
+          "text": "明天公司有活动，请大家记得穿上统一发放的文化衫，准时集合。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0005",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "cantonese_accented_mandarin"
+      },
+      "selected_candidate_index": 2,
+      "selected_candidate_id": "c3",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用广东口音说普通话。",
+          "text": "根据最新的统计数据，今年第一季度的经济增长超过了预期。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用粤语地区的口音来念这段普通话。",
+          "text": "地球的百分之七十一被水覆盖，其中大部分是海洋。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "模仿一下香港人讲普通话的感觉。",
+          "text": "这个新发布的手机型号在处理速度和电池续航方面都有了很大提升。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0006",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "shanghai_accented_mandarin"
+      },
+      "selected_candidate_index": 1,
+      "selected_candidate_id": "c2",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用上海口音说普通话。",
+          "text": "好的呀，这个事情我知道了。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用上海腔调念一下这段话。",
+          "text": "你等一下，我马上就过来。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "模仿上海人讲普通话的口音。",
+          "text": "这个东西不是这么做的呀。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "plan_id": "PLAN__zh__easy_style_direct_atomic_accent__0007",
+      "meta_path": "easy/style/direct/atomic/accent",
+      "target_values": {
+        "accent": "tianjin_accent"
+      },
+      "selected_candidate_index": 0,
+      "selected_candidate_id": "c1",
+      "candidates": [
+        {
+          "candidate_id": "c1",
+          "instruction": "请用天津口音读一下。",
+          "text": "仔细想想，这事儿还真挺有意思的。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c2",
+          "instruction": "用天津话的腔调来说这句话。",
+          "text": "嗨，谁说不是呢，可不就这么个理儿嘛。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        },
+        {
+          "candidate_id": "c3",
+          "instruction": "我想听天津味的普通话，请说。",
+          "text": "那天我可算是开眼了，什么新鲜事都有。",
+          "quality_checks": {
+            "matches_plan": true,
+            "text_leaks_target": false,
+            "contains_explicit_nonverbal_tag": false,
+            "notes": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}
