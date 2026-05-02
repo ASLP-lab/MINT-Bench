@@ -1,6 +1,13 @@
-# MINT-Bench
+<div align="center">
+  <img src="assets/logo.png" alt="MINT-Bench cover" width="25%" />
 
-MINT-Bench is a multilingual benchmark for evaluating text-to-speech systems on three complementary axes:
+**MINT-Bench: A Comprehensive Multilingual Benchmark for Instruction-Following Text-to-Speech**
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv%3A2604.17958-b31b1b.svg)](https://arxiv.org/abs/2604.17958v1) [![Demo](https://img.shields.io/badge/Demo-Project%20Page-blue.svg)](https://aslp-lab.github.io/MINT-Bench-Demo/)
+
+</div>
+
+MINT-Bench is a multilingual benchmark for evaluating instruction-following text-to-speech systems on three complementary axes:
 
 - **Intelligibility** via WER
 - **Instruction following** via large audio-language model (LALM) judging
@@ -10,19 +17,24 @@ It provides a complete open pipeline for:
 - constructing benchmark instances,
 - generating audio with reference TTS systems,
 - evaluating model outputs,
-- and visualizing results.
+- visualizing results.
 
 The repository is organized so that users can either:
 - run the **official benchmark** used in the paper, or
 - build a **DIY benchmark** with the same pipeline and evaluate their own test set.
 
-## Highlights
+The leaderboard and detailed evaluation results are available on the [demo page](https://aslp-lab.github.io/MINT-Bench-Demo/).
 
-- Multilingual benchmark construction pipeline
-- Reference generation scripts for Gemini TTS and MiMo Pro
-- WER + instruction-following + advanced timbre-diversity evaluation
-- Interactive Streamlit leaderboard and taxonomy heatmap
-- Official benchmark assets and open extension points for custom datasets
+## Model Architecture
+
+<div align="center">
+  <img src="assets/overview.png" alt="MINT-Bench architecture overview" width="100%" />
+</div>
+
+MINT-Bench consists of three tightly coupled components:
+- a **hierarchical multi-axis taxonomy** for benchmark coverage,
+- a **three-stage data construction pipeline** for scalable instance creation,
+- and a **hierarchical hybrid evaluation protocol** for content consistency, instruction following, and perceptual quality assessment.
 
 ## Repository Structure
 
@@ -36,31 +48,17 @@ mint-bench/
 └── requirements.txt
 ```
 
-## Installation
+## Quick Start
 
-Create a Python environment and install the base dependencies:
+### 1. Environment setup
 
 ```bash
+conda create -n mint-bench python==3.10
+conda activate mint-bench
 pip install -r requirements.txt
 ```
 
-For visualization you also need Streamlit:
-
-```bash
-pip install streamlit pandas
-```
-
-Some evaluation stages also rely on pretrained caches under:
-
-```text
-evaluation/seed-tts-eval/pretrained/
-```
-
-See the stage-specific READMEs for model download details.
-
-## Quick Start
-
-### 1. Generate audio first
+### 2. Generate audio first
 
 Evaluation assumes that you already have synthesized audio.
 
@@ -78,7 +76,7 @@ gen_outputs_timbre/<model>_timbre_candidates_<lang>/
 
 See [generation/README.md](generation/README.md) for the full generation workflow.
 
-### 2. Run the default evaluation flow
+### 3. Run the default evaluation flow
 
 This runs the two default stages:
 - WER
@@ -98,7 +96,7 @@ By default, evaluation uses the **official instruction-text pair set**:
 data_construction/instruction_text_generator/instruction_text_pairs_official/
 ```
 
-### 3. Evaluate a DIY benchmark
+### 4. Evaluate a DIY benchmark
 
 If you built your own pair set with `data_construction/`, pass it explicitly:
 
@@ -111,7 +109,7 @@ bash evaluation/run_evaluation.sh \
   --generation_path gen_outputs/mymodel_mini_outputs_en
 ```
 
-### 4. Inspect results
+### 5. Inspect results
 
 We strongly recommend using the visualization app:
 
@@ -183,8 +181,13 @@ Detailed evaluation stage docs:
 
 ## Citation
 
-The paper PDF is included at:
+If you find our paper and code useful in your research, please consider giving a star ⭐ and citation 📝 :)
 
-- [assets/MINT_Bench.pdf](assets/MINT_Bench.pdf)
-
-If you use MINT-Bench in research, please cite the paper referenced there.
+```
+@article{chen2026mint,
+  title={MINT-Bench: A Comprehensive Multilingual Benchmark for Instruction-Following Text-to-Speech},
+  author={Chen, Huakang and Hu, Jingbin and Xue, Liumeng and Zhan, Qirui and Li, Wenhao and Ma, Guobin and Xie, Hanke and Guo, Dake and Ma, Linhan and Jiang, Yuepeng and others},
+  journal={arXiv preprint arXiv:2604.17958},
+  year={2026}
+}
+```
